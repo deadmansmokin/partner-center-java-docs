@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::products::IProduct</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Product&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.products.CustomerProductOperations</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.ProductOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_1a538ba993538d4d0f06351e1a6095a5a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_collection" kindref="compound">ISkuCollection</ref>
+        </type>
+        <definition>ISkuCollection com.microsoft.store.partnercenter.products.IProduct.getSkus</definition>
+        <argsstring>()</argsstring>
+        <name>getSkus</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_operations_1a2cbee9200c2fde82f46e22107d953742">getSkus</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_operations_1ad15770aeae94b137b4bc9596dc9488f0">getSkus</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the SKUs for the product.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The SKUs for the product. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IProduct.java" line="25" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_1a316b1cd9958a20ce0d5c59bf324b121e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_product" kindref="compound">Product</ref>
+        </type>
+        <definition>Product com.microsoft.store.partnercenter.products.IProduct.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations_1aa2e3cf8b3d1237922579e228472e1b24">get</reimplements>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_operations_1a1aeef67a1019384a0e117e0ee36dc872">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_operations_1a5ede91a11ac4c18dc4ee71ddcc5c759e">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves an entity.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entity. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IProduct.java" line="32" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Holds operations that can be performed on products that apply to a given customer. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2915">
+        <label>com.microsoft.store.partnercenter.products.IProduct</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product" />
+        <childnode refid="2916" relation="public-inheritance"></childnode>
+        <childnode refid="2917" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2916">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2919">
+        <label>com.microsoft.store.partnercenter.products.ProductOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_operations" />
+        <childnode refid="2915" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2918">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerProductOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_operations" />
+        <childnode refid="2915" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2917">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Product&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2920">
+        <label>com.microsoft.store.partnercenter.products.IProduct</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product" />
+        <childnode refid="2921" relation="public-inheritance"></childnode>
+        <childnode refid="2922" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2921">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2922">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Product&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IProduct.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IProduct.java" bodystart="17" bodyend="33" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_1a316b1cd9958a20ce0d5c59bf324b121e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IProduct</scope>
+        <name>get</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IProduct</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IProduct</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_1a538ba993538d4d0f06351e1a6095a5a7" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IProduct</scope>
+        <name>getSkus</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

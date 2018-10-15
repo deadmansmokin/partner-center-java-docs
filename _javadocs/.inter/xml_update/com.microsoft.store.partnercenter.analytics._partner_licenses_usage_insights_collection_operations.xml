@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.analytics._partner_licenses_usage_insights_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::analytics::PartnerLicensesUsageInsightsCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.analytics._i_partner_licenses_usage_insights_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.analytics._partner_licenses_usage_insights_collection_operations.PartnerLicensesUsageInsightsCollectionOperations(IPartner)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations.PartnerLicensesUsageInsightsCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations)</argsstring>
+        <name>PartnerLicensesUsageInsightsCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the PartnerLicensesUsageInsightsCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesUsageInsightsCollectionOperations.java" line="31" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesUsageInsightsCollectionOperations.java" bodystart="31" bodyend="34" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.analytics._partner_licenses_usage_insights_collection_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.analytics._partner_licenses_usage_insights" kindref="compound">PartnerLicensesUsageInsights</ref>&gt;</type>
+        <definition>ResourceCollection&lt;PartnerLicensesUsageInsights&gt; com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the collection of partner's licenses' usage insights.</para>
+          <para>
+            <simplesect kind="return">
+              <para>Collection of the partner's licenses' usage insights.. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesUsageInsightsCollectionOperations.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesUsageInsightsCollectionOperations.java" bodystart="42" bodyend="55" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements the operations on partner licenses usage insights collection. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3611">
+        <label>com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.analytics._i_partner_licenses_usage_insights_collection" />
+        <childnode refid="3612" relation="public-inheritance"></childnode>
+        <childnode refid="3614" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3613">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3610">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="3609">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="3610" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3608">
+        <label>com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.analytics._partner_licenses_usage_insights_collection_operations" />
+        <childnode refid="3609" relation="public-inheritance"></childnode>
+        <childnode refid="3611" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3614">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;PartnerLicensesUsageInsights, ResourceCollection&lt;PartnerLicensesUsageInsights&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="3612">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="3613" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3618">
+        <label>com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.analytics._i_partner_licenses_usage_insights_collection" />
+        <childnode refid="3619" relation="public-inheritance"></childnode>
+        <childnode refid="3621" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3620">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3617">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="3616">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="3617" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3615">
+        <label>com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.analytics._partner_licenses_usage_insights_collection_operations" />
+        <childnode refid="3616" relation="public-inheritance"></childnode>
+        <childnode refid="3618" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3621">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;PartnerLicensesUsageInsights, ResourceCollection&lt;PartnerLicensesUsageInsights&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="3619">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="3620" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesUsageInsightsCollectionOperations.java" line="25" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesUsageInsightsCollectionOperations.java" bodystart="22" bodyend="56" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesUsageInsightsCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesUsageInsightsCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner,String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesUsageInsightsCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.analytics._partner_licenses_usage_insights_collection_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesUsageInsightsCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesUsageInsightsCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::analytics::IPartnerLicensesUsageInsightsCollection.">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesUsageInsightsCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesUsageInsightsCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::analytics::IPartnerLicensesUsageInsightsCollection.">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesUsageInsightsCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.analytics._partner_licenses_usage_insights_collection_operations.PartnerLicensesUsageInsightsCollectionOperations(IPartner)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesUsageInsightsCollectionOperations</scope>
+        <name>PartnerLicensesUsageInsightsCollectionOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

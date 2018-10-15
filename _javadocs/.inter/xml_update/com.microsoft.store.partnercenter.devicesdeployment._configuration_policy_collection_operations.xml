@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.ConfigurationPolicyCollectionOperations(IPartner,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.ConfigurationPolicyCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId)</argsstring>
+        <name>ConfigurationPolicyCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the ConfigurationPolicyCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier for the customer. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyCollectionOperations.java" line="34" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyCollectionOperations.java" bodystart="34" bodyend="42" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.byId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy" kindref="compound">IConfigurationPolicy</ref>
+        </type>
+        <definition>IConfigurationPolicy com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.byId</definition>
+        <argsstring>(String policyId)</argsstring>
+        <name>byId</name>
+        <reimplements refid="com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection.byId(String)">byId</reimplements>
+        <param>
+          <type>String</type>
+          <declname>policyId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyCollectionOperations.java" line="51" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyCollectionOperations.java" bodystart="51" bodyend="54" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.create(ConfigurationPolicy)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.devicesdeployment._configuration_policy" kindref="compound">ConfigurationPolicy</ref>
+        </type>
+        <definition>ConfigurationPolicy com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.create</definition>
+        <argsstring>(ConfigurationPolicy newPolicy)</argsstring>
+        <name>create</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.devicesdeployment._configuration_policy" kindref="compound">ConfigurationPolicy</ref>
+          </type>
+          <declname>newPolicy</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyCollectionOperations.java" line="63" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyCollectionOperations.java" bodystart="63" bodyend="72" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.devicesdeployment._configuration_policy" kindref="compound">ConfigurationPolicy</ref>&gt;</type>
+        <definition>ResourceCollection&lt;ConfigurationPolicy&gt; com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyCollectionOperations.java" line="80" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyCollectionOperations.java" bodystart="80" bodyend="89" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements operations that apply to configuration policy collections. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="496">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection" />
+        <childnode refid="497" relation="public-inheritance"></childnode>
+        <childnode refid="499" relation="public-inheritance"></childnode>
+        <childnode refid="500" relation="public-inheritance"></childnode>
+        <childnode refid="501" relation="public-inheritance"></childnode>
+      </node>
+      <node id="500">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;ConfigurationPolicy, ConfigurationPolicy&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+      <node id="498">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="499">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;ConfigurationPolicy, ResourceCollection&lt;ConfigurationPolicy&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="493">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations" />
+        <childnode refid="494" relation="public-inheritance"></childnode>
+        <childnode refid="496" relation="public-inheritance"></childnode>
+      </node>
+      <node id="495">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="494">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="495" relation="public-inheritance"></childnode>
+      </node>
+      <node id="501">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IConfigurationPolicy&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="497">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="498" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="505">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection" />
+        <childnode refid="506" relation="public-inheritance"></childnode>
+        <childnode refid="508" relation="public-inheritance"></childnode>
+        <childnode refid="509" relation="public-inheritance"></childnode>
+        <childnode refid="510" relation="public-inheritance"></childnode>
+      </node>
+      <node id="509">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;ConfigurationPolicy, ConfigurationPolicy&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+      <node id="507">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="508">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;ConfigurationPolicy, ResourceCollection&lt;ConfigurationPolicy&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="502">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations" />
+        <childnode refid="503" relation="public-inheritance"></childnode>
+        <childnode refid="505" relation="public-inheritance"></childnode>
+      </node>
+      <node id="504">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="503">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="504" relation="public-inheritance"></childnode>
+      </node>
+      <node id="510">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IConfigurationPolicy&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="506">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="507" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyCollectionOperations.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyCollectionOperations.java" bodystart="24" bodyend="90" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner,String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.byId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>byId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.ConfigurationPolicyCollectionOperations(IPartner,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>ConfigurationPolicyCollectionOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.create(ConfigurationPolicy)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations.create(T)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::devicesdeployment::IConfigurationPolicyCollection.">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::devicesdeployment::IConfigurationPolicyCollection.">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::devicesdeployment::IConfigurationPolicyCollection.">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::ConfigurationPolicyCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

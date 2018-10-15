@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_parameter_validator_8java" kind="file" language="Java">
+    <compoundname>ParameterValidator.java</compoundname>
+    <innerclass refid="com.microsoft.store.partnercenter.utils._parameter_validator" prot="public">com::microsoft::store::partnercenter::utils::ParameterValidator</innerclass>
+    <innernamespace refid="com.microsoft.store.partnercenter.utils">com::microsoft::store::partnercenter::utils</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="ParameterValidator.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.utils;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9" refid="com.microsoft.store.partnercenter.utils._parameter_validator" refkind="compound">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">class<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="com.microsoft.store.partnercenter.utils._parameter_validator" kindref="compound">ParameterValidator</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">static</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />isIntInclusive(<sp /></highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />min,<sp /></highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />max,<sp /></highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />parameterValue,<sp />String<sp />errorMessage<sp />)</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />parameterValue<sp />&lt;<sp />min<sp />||<sp />max<sp />&lt;<sp />parameterValue<sp />)</highlight>
+      </codeline>
+      <codeline lineno="14">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="15">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp />errorMessage<sp />);</highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">static</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />isValidUriQueryValue(<sp />String<sp /></highlight>
+        <highlight class="keywordtype">string</highlight>
+        <highlight class="normal">,<sp />String<sp />errorMessage<sp />)</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp /><ref refid="com.microsoft.store.partnercenter.utils._string_helper" kindref="compound">StringHelper</ref>.isEmptyOrContainsWhiteSpace(<sp /></highlight>
+        <highlight class="keywordtype">string</highlight>
+        <highlight class="normal">
+          <sp />)<sp />)</highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp />errorMessage<sp />);</highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="25">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="26">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="27">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Ensures<sp />that<sp />a<sp />given<sp />country<sp />code<sp />is<sp />valid.</highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />countryCode<sp />The<sp />country<sp />code<sp />to<sp />validate.</highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="31">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">static</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />isValidCountryCode(String<sp />countryCode)</highlight>
+      </codeline>
+      <codeline lineno="32">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="33">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp /><ref refid="com.microsoft.store.partnercenter.utils._string_helper" kindref="compound">StringHelper</ref>.isEmptyOrContainsWhiteSpace(<sp />countryCode<sp />)<sp />)</highlight>
+      </codeline>
+      <codeline lineno="34">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="35">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp /></highlight>
+        <highlight class="stringliteral">"Country<sp />can't<sp />be<sp />empty"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="36">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="37">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">else</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />countryCode.length()<sp />!=<sp />2<sp />)</highlight>
+      </codeline>
+      <codeline lineno="38">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="39">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(</highlight>
+        <highlight class="stringliteral">"Country<sp />has<sp />to<sp />be<sp />a<sp />2<sp />letter<sp />string"</highlight>
+        <highlight class="normal">);</highlight>
+      </codeline>
+      <codeline lineno="40">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="41">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="42">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="43">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/ParameterValidator.java" />
+  </compounddef>
+</doxygen>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::utils::InvoiceLineItemDeserializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">com::fasterxml::jackson::databind::deser::std::StdDeserializer&lt;InvoiceLineItem&gt;</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer.serialVersionUID" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 2L</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java" bodystart="29" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer.InvoiceLineItemDeserializer()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer</definition>
+        <argsstring>()</argsstring>
+        <name>InvoiceLineItemDeserializer</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java" line="31" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java" bodystart="31" bodyend="33" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer.InvoiceLineItemDeserializer(Class&lt;?&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer</definition>
+        <argsstring>(Class&lt;?&gt; vc)</argsstring>
+        <name>InvoiceLineItemDeserializer</name>
+        <param>
+          <type>Class&lt;?&gt;</type>
+          <declname>vc</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java" line="35" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java" bodystart="35" bodyend="37" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer.deserialize(JsonParser,DeserializationContext)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" kindref="compound">InvoiceLineItem</ref>
+        </type>
+        <definition>InvoiceLineItem com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize</definition>
+        <argsstring>(JsonParser parser, DeserializationContext ctxt)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>JsonParser</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>DeserializationContext</type>
+          <declname>ctxt</declname>
+        </param>
+        <exceptions> throws IOException, JsonProcessingException      </exceptions>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java" line="40" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java" bodystart="40" bodyend="86" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="2371">
+        <label>com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer</label>
+        <link refid="com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer" />
+        <childnode refid="2372" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2372">
+        <label>com::fasterxml::jackson::databind::deser::std::StdDeserializer&lt;InvoiceLineItem&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2373">
+        <label>com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer</label>
+        <link refid="com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer" />
+        <childnode refid="2374" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2374">
+        <label>com::fasterxml::jackson::databind::deser::std::StdDeserializer&lt;InvoiceLineItem&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java" bodystart="26" bodyend="87" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer.deserialize(JsonParser,DeserializationContext)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::utils::InvoiceLineItemDeserializer</scope>
+        <name>deserialize</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer.InvoiceLineItemDeserializer()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::utils::InvoiceLineItemDeserializer</scope>
+        <name>InvoiceLineItemDeserializer</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer.InvoiceLineItemDeserializer(Class&lt;?&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::utils::InvoiceLineItemDeserializer</scope>
+        <name>InvoiceLineItemDeserializer</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.utils._invoice_line_item_deserializer.serialVersionUID" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::utils::InvoiceLineItemDeserializer</scope>
+        <name>serialVersionUID</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

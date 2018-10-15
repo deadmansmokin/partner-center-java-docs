@@ -1,0 +1,905 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_legal_business_profile_8java" kind="file" language="Java">
+    <compoundname>LegalBusinessProfile.java</compoundname>
+    <innerclass refid="com.microsoft.store.partnercenter.models.partners._legal_business_profile" prot="public">com::microsoft::store::partnercenter::models::partners::LegalBusinessProfile</innerclass>
+    <innernamespace refid="com.microsoft.store.partnercenter.models.partners">com::microsoft::store::partnercenter::models::partners</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="LegalBusinessProfile.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.models.partners;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref>;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models._contact" kindref="compound">Contact</ref>;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models._resource_base_with_links" kindref="compound">ResourceBaseWithLinks</ref>;</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models._standard_resource_links" kindref="compound">StandardResourceLinks</ref>;</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="17" refid="com.microsoft.store.partnercenter.models.partners._legal_business_profile" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">class<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="com.microsoft.store.partnercenter.models.partners._legal_business_profile" kindref="compound">LegalBusinessProfile</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models._resource_base_with_links" kindref="compound">ResourceBaseWithLinks</ref>&lt;StandardResourceLinks&gt;</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.partners._legal_business_profile.LegalBusinessProfile()" kindref="member">LegalBusinessProfile</ref>()</highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="25">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="26">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />String<sp />__CompanyName;</highlight>
+      </codeline>
+      <codeline lineno="31">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="32">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />String<sp />getCompanyName()</highlight>
+      </codeline>
+      <codeline lineno="33">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="34">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />__CompanyName;</highlight>
+      </codeline>
+      <codeline lineno="35">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="36">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="37">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />setCompanyName(<sp />String<sp />value<sp />)</highlight>
+      </codeline>
+      <codeline lineno="38">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="39">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />__CompanyName<sp />=<sp />value;</highlight>
+      </codeline>
+      <codeline lineno="40">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="41">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="45">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref>
+          <sp />__Address;</highlight>
+      </codeline>
+      <codeline lineno="46">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="47">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref>
+          <sp />getAddress()</highlight>
+      </codeline>
+      <codeline lineno="48">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="49">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />__Address;</highlight>
+      </codeline>
+      <codeline lineno="50">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="51">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="52">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />setAddress(<sp /><ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref><sp />value<sp />)</highlight>
+      </codeline>
+      <codeline lineno="53">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="54">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />__Address<sp />=<sp />value;</highlight>
+      </codeline>
+      <codeline lineno="55">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="56">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="60">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models._contact" kindref="compound">Contact</ref>
+          <sp />__PrimaryContact;</highlight>
+      </codeline>
+      <codeline lineno="61">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="62">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models._contact" kindref="compound">Contact</ref>
+          <sp />getPrimaryContact()</highlight>
+      </codeline>
+      <codeline lineno="63">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="64">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />__PrimaryContact;</highlight>
+      </codeline>
+      <codeline lineno="65">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="66">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="67">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />setPrimaryContact(<sp /><ref refid="com.microsoft.store.partnercenter.models._contact" kindref="compound">Contact</ref><sp />value<sp />)</highlight>
+      </codeline>
+      <codeline lineno="68">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="69">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />__PrimaryContact<sp />=<sp />value;</highlight>
+      </codeline>
+      <codeline lineno="70">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="71">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="75">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref>
+          <sp />__CompanyApproverAddress;</highlight>
+      </codeline>
+      <codeline lineno="76">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="77">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref>
+          <sp />getCompanyApproverAddress()</highlight>
+      </codeline>
+      <codeline lineno="78">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="79">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />__CompanyApproverAddress;</highlight>
+      </codeline>
+      <codeline lineno="80">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="81">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="82">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />setCompanyApproverAddress(<sp /><ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref><sp />value<sp />)</highlight>
+      </codeline>
+      <codeline lineno="83">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="84">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />__CompanyApproverAddress<sp />=<sp />value;</highlight>
+      </codeline>
+      <codeline lineno="85">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="86">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="90">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />String<sp />__CompanyApproverEmail;</highlight>
+      </codeline>
+      <codeline lineno="91">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="92">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />String<sp />getCompanyApproverEmail()</highlight>
+      </codeline>
+      <codeline lineno="93">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="94">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />__CompanyApproverEmail;</highlight>
+      </codeline>
+      <codeline lineno="95">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="96">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="97">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />setCompanyApproverEmail(<sp />String<sp />value<sp />)</highlight>
+      </codeline>
+      <codeline lineno="98">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="99">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />__CompanyApproverEmail<sp />=<sp />value;</highlight>
+      </codeline>
+      <codeline lineno="100">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="101">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="102">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="103">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />or<sp />sets<sp />the<sp />vetting<sp />status.</highlight>
+      </codeline>
+      <codeline lineno="104">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="105">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.partners._vetting_status" kindref="compound">VettingStatus</ref>
+          <sp />__VettingStatus;</highlight>
+      </codeline>
+      <codeline lineno="106">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="107">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.partners._vetting_status" kindref="compound">VettingStatus</ref>
+          <sp />getVettingStatus()</highlight>
+      </codeline>
+      <codeline lineno="108">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="109">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />__VettingStatus;</highlight>
+      </codeline>
+      <codeline lineno="110">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="111">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="112">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />setVettingStatus(<sp /><ref refid="com.microsoft.store.partnercenter.models.partners._vetting_status" kindref="compound">VettingStatus</ref><sp />value<sp />)</highlight>
+      </codeline>
+      <codeline lineno="113">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="114">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />__VettingStatus<sp />=<sp />value;</highlight>
+      </codeline>
+      <codeline lineno="115">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="116">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="117">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="118">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /><sp />Gets<sp />or<sp />sets<sp />the<sp />vetting<sp />sub<sp />status.</highlight>
+      </codeline>
+      <codeline lineno="119">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="120">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.partners._vetting_sub_status" kindref="compound">VettingSubStatus</ref>
+          <sp />__VettingSubStatus;</highlight>
+      </codeline>
+      <codeline lineno="121">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="122">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.partners._vetting_sub_status" kindref="compound">VettingSubStatus</ref>
+          <sp />getVettingSubStatus()</highlight>
+      </codeline>
+      <codeline lineno="123">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="124">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />__VettingSubStatus;</highlight>
+      </codeline>
+      <codeline lineno="125">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="126">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="127">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />setVettingSubStatus(<sp /><ref refid="com.microsoft.store.partnercenter.models.partners._vetting_sub_status" kindref="compound">VettingSubStatus</ref><sp />value<sp />)</highlight>
+      </codeline>
+      <codeline lineno="128">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="129">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />__VettingSubStatus<sp />=<sp />value;</highlight>
+      </codeline>
+      <codeline lineno="130">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="131">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/LegalBusinessProfile.java" />
+  </compounddef>
+</doxygen>

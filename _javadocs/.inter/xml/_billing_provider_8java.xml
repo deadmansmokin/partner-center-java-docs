@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_billing_provider_8java" kind="file" language="Java">
+    <compoundname>BillingProvider.java</compoundname>
+    <innerclass refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_billing_provider" prot="public">com::microsoft::store::partnercenter::models::invoices::BillingProvider</innerclass>
+    <innernamespace refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices">com::microsoft::store::partnercenter::models::invoices</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />----------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="BillingProvider.java"<sp />company="Microsoft<sp />Corporation"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />----------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.models.invoices;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.fasterxml.jackson.annotation.JsonProperty;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="11" refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_billing_provider" refkind="compound">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">enum</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_billing_provider" kindref="compound">BillingProvider</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@JsonProperty(<sp /></highlight>
+        <highlight class="stringliteral">"none"</highlight>
+        <highlight class="normal">
+          <sp />)</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />NONE,<sp /></highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@JsonProperty(<sp /></highlight>
+        <highlight class="stringliteral">"office"</highlight>
+        <highlight class="normal">
+          <sp />)</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />OFFICE,<sp /></highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@JsonProperty(<sp /></highlight>
+        <highlight class="stringliteral">"azure"</highlight>
+        <highlight class="normal">
+          <sp />)</highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />AZURE,</highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="34">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@JsonProperty(<sp /></highlight>
+        <highlight class="stringliteral">"azureDataMarket"</highlight>
+        <highlight class="normal">
+          <sp />)</highlight>
+      </codeline>
+      <codeline lineno="35">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />AZURE_DATA_MARKET,</highlight>
+      </codeline>
+      <codeline lineno="36">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="40">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@JsonProperty(<sp /></highlight>
+        <highlight class="stringliteral">"oneTime"</highlight>
+        <highlight class="normal">
+          <sp />)<sp /></highlight>
+      </codeline>
+      <codeline lineno="41">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />ONE_TIME</highlight>
+      </codeline>
+      <codeline lineno="42">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BillingProvider.java" />
+  </compounddef>
+</doxygen>

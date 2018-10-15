@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.orders._order_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::orders::OrderOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.orders._i_order" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.orders.IOrder</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.orders._order_operations.OrderOperations(IPartner,String,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.orders.OrderOperations.OrderOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String orderId)</argsstring>
+        <name>OrderOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the OrderOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>orderId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The order identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java" line="36" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java" bodystart="36" bodyend="49" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.orders._order_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.orders._order" kindref="compound">Order</ref>
+        </type>
+        <definition>Order com.microsoft.store.partnercenter.orders.OrderOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.orders._i_order.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the customer order.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer order. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java" line="57" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java" bodystart="57" bodyend="66" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.orders._order_operations.patch(Order)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.orders._order" kindref="compound">Order</ref>
+        </type>
+        <definition>Order com.microsoft.store.partnercenter.orders.OrderOperations.patch</definition>
+        <argsstring>(Order order)</argsstring>
+        <name>patch</name>
+        <reimplements refid="com.microsoft.store.partnercenter.orders._i_order.patch(Order)">patch</reimplements>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.orders._order" kindref="compound">Order</ref>
+          </type>
+          <declname>order</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Updates a customer order.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>order</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The order to update. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The updated order. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java" line="75" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java" bodystart="75" bodyend="88" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Order operations implementation class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3505">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3506">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Order&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="3504">
+        <label>com.microsoft.store.partnercenter.orders.IOrder</label>
+        <link refid="com.microsoft.store.partnercenter.orders._i_order" />
+        <childnode refid="3505" relation="public-inheritance"></childnode>
+        <childnode refid="3506" relation="public-inheritance"></childnode>
+        <childnode refid="3507" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3503">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3502">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="3503" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3507">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;Order&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_patch_operations" />
+      </node>
+      <node id="3501">
+        <label>com.microsoft.store.partnercenter.orders.OrderOperations</label>
+        <link refid="com.microsoft.store.partnercenter.orders._order_operations" />
+        <childnode refid="3502" relation="public-inheritance"></childnode>
+        <childnode refid="3504" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3512">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3513">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Order&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="3511">
+        <label>com.microsoft.store.partnercenter.orders.IOrder</label>
+        <link refid="com.microsoft.store.partnercenter.orders._i_order" />
+        <childnode refid="3512" relation="public-inheritance"></childnode>
+        <childnode refid="3513" relation="public-inheritance"></childnode>
+        <childnode refid="3514" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3510">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3509">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="3510" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3514">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;Order&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_patch_operations" />
+      </node>
+      <node id="3508">
+        <label>com.microsoft.store.partnercenter.orders.OrderOperations</label>
+        <link refid="com.microsoft.store.partnercenter.orders._order_operations" />
+        <childnode refid="3509" relation="public-inheritance"></childnode>
+        <childnode refid="3511" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java" bodystart="25" bodyend="90" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.orders._order_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.orders._order_operations.OrderOperations(IPartner,String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderOperations</scope>
+        <name>OrderOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.orders._order_operations.patch(Order)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderOperations</scope>
+        <name>patch</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_patch_operations.patch(T)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations.">
+        <scope>com::microsoft::store::partnercenter::orders::OrderOperations</scope>
+        <name>patch</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

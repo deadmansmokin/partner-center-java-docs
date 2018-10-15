@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations</compoundname>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerusers.ICustomerUser</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_configuration_policy" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_device" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.devicesdeployment.IDevice</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.orders.IOrder</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_service_request" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.servicerequests.IServiceRequest</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.ISubscription</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_spending_budget" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+        <typeconstraint>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" kindref="compound">ResourceBase</ref>
+        </typeconstraint>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations_1ac05e2fca307079ba25695f34bbcaa27a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&lt;T extends ResourceBase&gt;.patch</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>patch</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Patches an entity.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>entity</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The entity information. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The updated entity. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntityPatchOperations.java" line="22" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Groups operations for getting a single entity. The entity type. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2090">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_configuration_policy_operations" />
+        <childnode refid="2089" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2089">
+        <label>com::microsoft::store::partnercenter::devicesdeployment::IConfigurationPolicy&lt;ConfigurationPolicy&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_configuration_policy" />
+        <childnode refid="2086" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2101">
+        <label>com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_spending_budget_operations" />
+        <childnode refid="2100" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2097">
+        <label>com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_partner_service_request_operations" />
+        <childnode refid="2095" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2093">
+        <label>com::microsoft::store::partnercenter::orders::IOrder&lt;Order&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order" />
+        <childnode refid="2086" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2096">
+        <label>com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_customer_service_request_operations" />
+        <childnode refid="2095" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2095">
+        <label>com::microsoft::store::partnercenter::servicerequests::IServiceRequest&lt;ServiceRequest&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_service_request" />
+        <childnode refid="2086" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2092">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.DeviceOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_device_operations" />
+        <childnode refid="2091" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2087">
+        <label>com::microsoft::store::partnercenter::customerusers::ICustomerUser&lt;CustomerUser&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user" />
+        <childnode refid="2086" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2098">
+        <label>com::microsoft::store::partnercenter::subscriptions::ISubscription&lt;Subscription&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription" />
+        <childnode refid="2086" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2088">
+        <label>com.microsoft.store.partnercenter.customerusers.CustomerUserOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_operations" />
+        <childnode refid="2087" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2086">
+        <label>com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&lt;T extends ResourceBase&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations" />
+      </node>
+      <node id="2099">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_operations" />
+        <childnode refid="2098" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2091">
+        <label>com::microsoft::store::partnercenter::devicesdeployment::IDevice&lt;Device&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_device" />
+        <childnode refid="2086" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2100">
+        <label>com::microsoft::store::partnercenter::usage::ICustomerUsageSpendingBudget&lt;SpendingBudget&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_spending_budget" />
+        <childnode refid="2086" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2094">
+        <label>com.microsoft.store.partnercenter.orders.OrderOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_order_operations" />
+        <childnode refid="2093" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntityPatchOperations.java" line="15" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntityPatchOperations.java" bodystart="14" bodyend="23" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations_1ac05e2fca307079ba25695f34bbcaa27a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations</scope>
+        <name>patch</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

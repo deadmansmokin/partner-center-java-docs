@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::devicesdeployment::DevicesBatchOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations.devices" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.devicesdeployment._i_device_collection" kindref="compound">IDeviceCollection</ref>
+        </type>
+        <definition>IDeviceCollection com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations.devices</definition>
+        <argsstring></argsstring>
+        <name>devices</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchOperations.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchOperations.java" bodystart="20" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations.DevicesBatchOperations(IPartner,String,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations.DevicesBatchOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String deviceBatchId)</argsstring>
+        <name>DevicesBatchOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>deviceBatchId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the DevicesBatchOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>deviceBatchId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The device batch identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchOperations.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchOperations.java" bodystart="29" bodyend="39" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations.getDevices()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.devicesdeployment._i_device_collection" kindref="compound">IDeviceCollection</ref>
+        </type>
+        <definition>IDeviceCollection com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations.getDevices</definition>
+        <argsstring>()</argsstring>
+        <name>getDevices</name>
+        <reimplements refid="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch.getDevices()">getDevices</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchOperations.java" line="47" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchOperations.java" bodystart="47" bodyend="55" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents the operations that apply to devices batch of the customer. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1245">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations" />
+        <childnode refid="1246" relation="public-inheritance"></childnode>
+        <childnode refid="1248" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1249">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1247">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1248">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch" />
+        <childnode refid="1249" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1246">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="1247" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1250">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations" />
+        <childnode refid="1251" relation="public-inheritance"></childnode>
+        <childnode refid="1253" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1254">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1252">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1253">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch" />
+        <childnode refid="1254" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1251">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="1252" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchOperations.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchOperations.java" bodystart="17" bodyend="56" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DevicesBatchOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations.devices" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DevicesBatchOperations</scope>
+        <name>devices</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations.DevicesBatchOperations(IPartner,String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DevicesBatchOperations</scope>
+        <name>DevicesBatchOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DevicesBatchOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations.getDevices()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DevicesBatchOperations</scope>
+        <name>getDevices</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DevicesBatchOperations</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

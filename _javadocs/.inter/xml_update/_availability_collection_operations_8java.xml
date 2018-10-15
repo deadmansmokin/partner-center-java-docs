@@ -1,0 +1,906 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_availability_collection_operations_8java" kind="file" language="Java">
+    <compoundname>AvailabilityCollectionOperations.java</compoundname>
+    <innerclass refid="com.microsoft.store.partnercenter.products._availability_collection_operations" prot="public">com::microsoft::store::partnercenter::products::AvailabilityCollectionOperations</innerclass>
+    <innernamespace refid="com.microsoft.store.partnercenter.products">com::microsoft::store::partnercenter::products</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="AvailabilityCollectionOperations.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.products;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.text.MessageFormat;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.fasterxml.jackson.core.type.TypeReference;</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._base_partner_component" kindref="compound">BasePartnerComponent</ref>;</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>;</highlight>
+      </codeline>
+      <codeline lineno="14">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._partner_service" kindref="compound">PartnerService</ref>;</highlight>
+      </codeline>
+      <codeline lineno="15">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.products" kindref="compound">products</ref>.<ref refid="com.microsoft.store.partnercenter.models.products._availability" kindref="compound">Availability</ref>;</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils" kindref="compound">utils</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils._key_value_pair" kindref="compound">KeyValuePair</ref>;</highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils" kindref="compound">utils</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils._triplet_tuple" kindref="compound">TripletTuple</ref>;</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.network" kindref="compound">network</ref>.<ref refid="com.microsoft.store.partnercenter.network._i_partner_service_proxy" kindref="compound">IPartnerServiceProxy</ref>;</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.network" kindref="compound">network</ref>.<ref refid="com.microsoft.store.partnercenter.network._partner_service_proxy" kindref="compound">PartnerServiceProxy</ref>;</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.utils" kindref="compound">utils</ref>.<ref refid="com.microsoft.store.partnercenter.utils._parameter_validator" kindref="compound">ParameterValidator</ref>;</highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.utils" kindref="compound">utils</ref>.<ref refid="com.microsoft.store.partnercenter.utils._string_helper" kindref="compound">StringHelper</ref>;</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="27" refid="com.microsoft.store.partnercenter.products._availability_collection_operations" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">class<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="com.microsoft.store.partnercenter.products._availability_collection_operations" kindref="compound">AvailabilityCollectionOperations</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter._base_partner_component" kindref="compound">BasePartnerComponent</ref>&lt;TripletTuple&lt;String,<sp />String,<sp />String&gt;&gt;</highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />implements<sp /><ref refid="com.microsoft.store.partnercenter.products._i_availability_collection" kindref="compound">IAvailabilityCollection</ref></highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="39">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.products._availability_collection_operations.AvailabilityCollectionOperations(IPartner,String,String,String)" kindref="member">AvailabilityCollectionOperations</ref>(<sp /><ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref><sp />rootPartnerOperations,<sp />String<sp />productId,<sp />String<sp />skuId,<sp />String<sp />country<sp />)</highlight>
+      </codeline>
+      <codeline lineno="40">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="41">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />super(<sp />rootPartnerOperations,<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.utils._triplet_tuple" kindref="compound">TripletTuple&lt;String, String, String&gt;</ref>(productId,<sp />skuId,<sp />country)<sp />);</highlight>
+      </codeline>
+      <codeline lineno="42">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="43">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp /><ref refid="com.microsoft.store.partnercenter.utils._string_helper" kindref="compound">StringHelper</ref>.isNullOrWhiteSpace(<sp />productId<sp />)<sp />)</highlight>
+      </codeline>
+      <codeline lineno="44">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="45">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp /></highlight>
+        <highlight class="stringliteral">"productId<sp />must<sp />be<sp />set"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="46">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="47">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="48">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp /><ref refid="com.microsoft.store.partnercenter.utils._string_helper" kindref="compound">StringHelper</ref>.isNullOrWhiteSpace(<sp />skuId<sp />)<sp />)</highlight>
+      </codeline>
+      <codeline lineno="49">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="50">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp /></highlight>
+        <highlight class="stringliteral">"skuId<sp />must<sp />be<sp />set"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="51">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="52">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="53">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.utils._parameter_validator" kindref="compound">ParameterValidator</ref>.isValidCountryCode(country);</highlight>
+      </codeline>
+      <codeline lineno="54">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="55">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="56">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="57">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Retrieves<sp />the<sp />operations<sp />tied<sp />with<sp />a<sp />specific<sp />availability.</highlight>
+      </codeline>
+      <codeline lineno="58">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="59">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />availabilityId<sp />Identifier<sp />for<sp />the<sp />availability.</highlight>
+      </codeline>
+      <codeline lineno="60">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />availability<sp />operations.</highlight>
+      </codeline>
+      <codeline lineno="61">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="62">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.products._i_availability" kindref="compound">IAvailability</ref>
+          <sp />byId(<sp />String<sp />availabilityId<sp />)</highlight>
+      </codeline>
+      <codeline lineno="63">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="64">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.products._availability_operations" kindref="compound">AvailabilityOperations</ref>(this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem1(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem2(),<sp />availabilityId,<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem3());</highlight>
+      </codeline>
+      <codeline lineno="65">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="66">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="67">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="68">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Retrieves<sp />the<sp />operations<sp />that<sp />can<sp />be<sp />applied<sp />on<sp />availabilities<sp />filtered<sp />by<sp />a<sp />specific<sp />target<sp />segment.</highlight>
+      </codeline>
+      <codeline lineno="69">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="70">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />targetSegment<sp />The<sp />availability<sp />segment<sp />filter.</highlight>
+      </codeline>
+      <codeline lineno="71">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />availability<sp />collection<sp />operations<sp />by<sp />target<sp />segment.</highlight>
+      </codeline>
+      <codeline lineno="72">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="73">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.products._i_availability_collection_by_target_segment" kindref="compound">IAvailabilityCollectionByTargetSegment</ref>
+          <sp />byTargetSegment(String<sp />targetSegment)</highlight>
+      </codeline>
+      <codeline lineno="74">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="75">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.products._availability_collection_by_target_segment_operations" kindref="compound">AvailabilityCollectionByTargetSegmentOperations</ref>(this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem1(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem2(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem3(),<sp />targetSegment);</highlight>
+      </codeline>
+      <codeline lineno="76">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="77">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="78">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="79">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Retrieves<sp />all<sp />the<sp />availabilities<sp />for<sp />the<sp />provided<sp />SKU.</highlight>
+      </codeline>
+      <codeline lineno="80">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="81">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />availabilities<sp />for<sp />the<sp />provided<sp />SKU.</highlight>
+      </codeline>
+      <codeline lineno="82">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="83">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection&lt;Availability&gt;</ref>
+          <sp />
+        </highlight>
+        <highlight class="keyword">get</highlight>
+        <highlight class="normal">()</highlight>
+      </codeline>
+      <codeline lineno="84">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="85">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._i_partner_service_proxy" kindref="compound">IPartnerServiceProxy&lt;Availability, ResourceCollection&lt;Availability&gt;</ref>&gt;<sp />partnerServiceProxy<sp />=</highlight>
+      </codeline>
+      <codeline lineno="86">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._partner_service_proxy" kindref="compound">PartnerServiceProxy&lt;Availability, ResourceCollection&lt;Availability&gt;</ref>&gt;(</highlight>
+      </codeline>
+      <codeline lineno="87">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;ResourceCollection&lt;Availability&gt;&gt;()</highlight>
+      </codeline>
+      <codeline lineno="88">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="89">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />},<sp /></highlight>
+      </codeline>
+      <codeline lineno="90">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),<sp /></highlight>
+      </codeline>
+      <codeline lineno="91">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />MessageFormat.format(<sp /><ref refid="com.microsoft.store.partnercenter._partner_service" kindref="compound">PartnerService</ref>.getInstance().<ref refid="com.microsoft.store.partnercenter._partner_service.getConfiguration()" kindref="member">getConfiguration</ref>().<ref refid="com.microsoft.store.partnercenter.configuration._configuration.getApis()" kindref="member">getApis</ref>().get(<sp /></highlight>
+        <highlight class="stringliteral">"GetAvailabilities"</highlight>
+        <highlight class="normal">
+          <sp />).getPath(),</highlight>
+      </codeline>
+      <codeline lineno="92">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem1(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem2()<sp />)<sp />);</highlight>
+      </codeline>
+      <codeline lineno="93">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="94">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />partnerServiceProxy.<ref refid="com.microsoft.store.partnercenter.network._i_partner_service_proxy.getUriParameters()" kindref="member">getUriParameters</ref>().add(</highlight>
+      </codeline>
+      <codeline lineno="95">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.utils._key_value_pair" kindref="compound">KeyValuePair&lt;String, String&gt;</ref>(</highlight>
+      </codeline>
+      <codeline lineno="96">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter._partner_service" kindref="compound">PartnerService</ref>.getInstance().<ref refid="com.microsoft.store.partnercenter._partner_service.getConfiguration()" kindref="member">getConfiguration</ref>().<ref refid="com.microsoft.store.partnercenter.configuration._configuration.getApis()" kindref="member">getApis</ref>().get(<sp /></highlight>
+        <highlight class="stringliteral">"GetAvailabilities"</highlight>
+        <highlight class="normal">
+          <sp />).getParameters().get(<sp /></highlight>
+        <highlight class="stringliteral">"Country"</highlight>
+        <highlight class="normal">
+          <sp />),</highlight>
+      </codeline>
+      <codeline lineno="97">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem3()));<sp /><sp /><sp /></highlight>
+      </codeline>
+      <codeline lineno="98">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="99">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />partnerServiceProxy.<ref refid="com.microsoft.store.partnercenter.network._i_partner_service_proxy.get()" kindref="member">get</ref>();</highlight>
+      </codeline>
+      <codeline lineno="100">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="101">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/AvailabilityCollectionOperations.java" />
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1067 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.invoices._azure_data_market_daily_usage_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.AzureDataMarketDailyUsageLineItem</derivedcompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.invoices._azure_data_market_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.AzureDataMarketLineItem</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__PartnerId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__PartnerId</definition>
+        <argsstring></argsstring>
+        <name>__PartnerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="16" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__PartnerName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__PartnerName</definition>
+        <argsstring></argsstring>
+        <name>__PartnerName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="21" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__CustomerCompanyName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__CustomerCompanyName</definition>
+        <argsstring></argsstring>
+        <name>__CustomerCompanyName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="26" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__PartnerMpnId" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__PartnerMpnId</definition>
+        <argsstring></argsstring>
+        <name>__PartnerMpnId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="32" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="32" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__InvoiceNumber" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__InvoiceNumber</definition>
+        <argsstring></argsstring>
+        <name>__InvoiceNumber</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="37" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__ChargeStartDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__ChargeStartDate</definition>
+        <argsstring></argsstring>
+        <name>__ChargeStartDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="42" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__ChargeEndDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__ChargeEndDate</definition>
+        <argsstring></argsstring>
+        <name>__ChargeEndDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="47" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="47" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__SubscriptionId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__SubscriptionId</definition>
+        <argsstring></argsstring>
+        <name>__SubscriptionId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="52" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="52" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__SubscriptionName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__SubscriptionName</definition>
+        <argsstring></argsstring>
+        <name>__SubscriptionName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="57" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="57" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__SubscriptionDescription" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__SubscriptionDescription</definition>
+        <argsstring></argsstring>
+        <name>__SubscriptionDescription</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="62" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="62" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__OrderId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__OrderId</definition>
+        <argsstring></argsstring>
+        <name>__OrderId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="67" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="67" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__ServiceName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__ServiceName</definition>
+        <argsstring></argsstring>
+        <name>__ServiceName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="72" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="72" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__ResourceName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__ResourceName</definition>
+        <argsstring></argsstring>
+        <name>__ResourceName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="77" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="77" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__Region" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__Region</definition>
+        <argsstring></argsstring>
+        <name>__Region</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="82" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="82" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__ConsumedQuantity" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.__ConsumedQuantity</definition>
+        <argsstring></argsstring>
+        <name>__ConsumedQuantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="87" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="87" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getPartnerId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getPartnerId</definition>
+        <argsstring>()</argsstring>
+        <name>getPartnerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __PartnerId </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="92" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="92" bodyend="94" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setPartnerId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setPartnerId</definition>
+        <argsstring>(String __PartnerId)</argsstring>
+        <name>setPartnerId</name>
+        <param>
+          <type>String</type>
+          <declname>__PartnerId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__PartnerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __PartnerId to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="99" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="99" bodyend="101" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getPartnerName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getPartnerName</definition>
+        <argsstring>()</argsstring>
+        <name>getPartnerName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __PartnerName </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="106" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="106" bodyend="108" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setPartnerName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setPartnerName</definition>
+        <argsstring>(String __PartnerName)</argsstring>
+        <name>setPartnerName</name>
+        <param>
+          <type>String</type>
+          <declname>__PartnerName</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__PartnerName</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __PartnerName to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="113" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="113" bodyend="115" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getCustomerCompanyName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getCustomerCompanyName</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomerCompanyName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __CustomerCompanyName </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="120" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="120" bodyend="122" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setCustomerCompanyName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setCustomerCompanyName</definition>
+        <argsstring>(String __CustomerCompanyName)</argsstring>
+        <name>setCustomerCompanyName</name>
+        <param>
+          <type>String</type>
+          <declname>__CustomerCompanyName</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__CustomerCompanyName</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __CustomerCompanyName to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="127" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="127" bodyend="129" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getPartnerMpnId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getPartnerMpnId</definition>
+        <argsstring>()</argsstring>
+        <name>getPartnerMpnId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __PartnerMpnId </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="134" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="134" bodyend="136" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setPartnerMpnId(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setPartnerMpnId</definition>
+        <argsstring>(int __PartnerMpnId)</argsstring>
+        <name>setPartnerMpnId</name>
+        <param>
+          <type>int</type>
+          <declname>__PartnerMpnId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__PartnerMpnId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __PartnerMpnId to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="141" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="141" bodyend="143" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getInvoiceNumber()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getInvoiceNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getInvoiceNumber</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __InvoiceNumber </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="148" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="148" bodyend="150" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setInvoiceNumber(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setInvoiceNumber</definition>
+        <argsstring>(String __InvoiceNumber)</argsstring>
+        <name>setInvoiceNumber</name>
+        <param>
+          <type>String</type>
+          <declname>__InvoiceNumber</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__InvoiceNumber</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __InvoiceNumber to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="155" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="155" bodyend="157" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getChargeStartDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getChargeStartDate</definition>
+        <argsstring>()</argsstring>
+        <name>getChargeStartDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __ChargeStartDate </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="162" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="162" bodyend="164" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setChargeStartDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setChargeStartDate</definition>
+        <argsstring>(DateTime __ChargeStartDate)</argsstring>
+        <name>setChargeStartDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>__ChargeStartDate</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__ChargeStartDate</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __ChargeStartDate to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="169" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="169" bodyend="171" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getChargeEndDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getChargeEndDate</definition>
+        <argsstring>()</argsstring>
+        <name>getChargeEndDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __ChargeEndDate </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="176" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="176" bodyend="178" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setChargeEndDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setChargeEndDate</definition>
+        <argsstring>(DateTime __ChargeEndDate)</argsstring>
+        <name>setChargeEndDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>__ChargeEndDate</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__ChargeEndDate</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __ChargeEndDate to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="183" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="183" bodyend="185" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getSubscriptionId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getSubscriptionId</definition>
+        <argsstring>()</argsstring>
+        <name>getSubscriptionId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __SubscriptionId </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="190" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="190" bodyend="192" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setSubscriptionId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setSubscriptionId</definition>
+        <argsstring>(String __SubscriptionId)</argsstring>
+        <name>setSubscriptionId</name>
+        <param>
+          <type>String</type>
+          <declname>__SubscriptionId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__SubscriptionId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __SubscriptionId to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="197" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="197" bodyend="199" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getSubscriptionName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getSubscriptionName</definition>
+        <argsstring>()</argsstring>
+        <name>getSubscriptionName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __SubscriptionName </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="204" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="204" bodyend="206" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setSubscriptionName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setSubscriptionName</definition>
+        <argsstring>(String __SubscriptionName)</argsstring>
+        <name>setSubscriptionName</name>
+        <param>
+          <type>String</type>
+          <declname>__SubscriptionName</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__SubscriptionName</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __SubscriptionName to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="211" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="211" bodyend="213" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getSubscriptionDescription()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getSubscriptionDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getSubscriptionDescription</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __SubscriptionDescription </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="218" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="218" bodyend="220" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setSubscriptionDescription(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setSubscriptionDescription</definition>
+        <argsstring>(String __SubscriptionDescription)</argsstring>
+        <name>setSubscriptionDescription</name>
+        <param>
+          <type>String</type>
+          <declname>__SubscriptionDescription</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__SubscriptionDescription</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __SubscriptionDescription to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="225" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="225" bodyend="227" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getOrderId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getOrderId</definition>
+        <argsstring>()</argsstring>
+        <name>getOrderId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __OrderId </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="232" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="232" bodyend="234" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setOrderId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setOrderId</definition>
+        <argsstring>(String __OrderId)</argsstring>
+        <name>setOrderId</name>
+        <param>
+          <type>String</type>
+          <declname>__OrderId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__OrderId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __OrderId to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="239" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="239" bodyend="241" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getServiceName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getServiceName</definition>
+        <argsstring>()</argsstring>
+        <name>getServiceName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __ServiceName </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="246" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="246" bodyend="248" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setServiceName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setServiceName</definition>
+        <argsstring>(String __ServiceName)</argsstring>
+        <name>setServiceName</name>
+        <param>
+          <type>String</type>
+          <declname>__ServiceName</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__ServiceName</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __ServiceName to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="253" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="253" bodyend="255" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getResourceName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getResourceName</definition>
+        <argsstring>()</argsstring>
+        <name>getResourceName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __ResourceName </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="260" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="260" bodyend="262" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setResourceName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setResourceName</definition>
+        <argsstring>(String __ResourceName)</argsstring>
+        <name>setResourceName</name>
+        <param>
+          <type>String</type>
+          <declname>__ResourceName</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__ResourceName</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __ResourceName to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="267" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="267" bodyend="269" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getRegion()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getRegion</definition>
+        <argsstring>()</argsstring>
+        <name>getRegion</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __Region </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="274" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="274" bodyend="276" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setRegion(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setRegion</definition>
+        <argsstring>(String __Region)</argsstring>
+        <name>setRegion</name>
+        <param>
+          <type>String</type>
+          <declname>__Region</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__Region</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __Region to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="281" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="281" bodyend="283" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getConsumedQuantity()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getConsumedQuantity</definition>
+        <argsstring>()</argsstring>
+        <name>getConsumedQuantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <simplesect kind="return">
+              <para>the __ConsumedQuantity </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="288" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="288" bodyend="290" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setConsumedQuantity(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.setConsumedQuantity</definition>
+        <argsstring>(int __ConsumedQuantity)</argsstring>
+        <name>setConsumedQuantity</name>
+        <param>
+          <type>int</type>
+          <declname>__ConsumedQuantity</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>__ConsumedQuantity</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>the __ConsumedQuantity to set </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="295" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="295" bodyend="297" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getBillingProvider()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.invoices._billing_provider" kindref="compound">BillingProvider</ref>
+        </type>
+        <definition>BillingProvider com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem.getBillingProvider</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingProvider</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="305" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="305" bodyend="307" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="178">
+        <label>com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item" />
+        <childnode refid="179" relation="public-inheritance"></childnode>
+      </node>
+      <node id="182">
+        <label>com.microsoft.store.partnercenter.models.invoices.AzureDataMarketLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._azure_data_market_line_item" />
+        <childnode refid="178" relation="public-inheritance"></childnode>
+      </node>
+      <node id="181">
+        <label>com.microsoft.store.partnercenter.models.invoices.AzureDataMarketDailyUsageLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._azure_data_market_daily_usage_line_item" />
+        <childnode refid="178" relation="public-inheritance"></childnode>
+      </node>
+      <node id="179">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" />
+        <childnode refid="180" relation="public-inheritance"></childnode>
+      </node>
+      <node id="180">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="183">
+        <label>com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item" />
+        <childnode refid="184" relation="public-inheritance"></childnode>
+      </node>
+      <node id="184">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" />
+        <childnode refid="185" relation="public-inheritance"></childnode>
+      </node>
+      <node id="185">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" line="12" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseAzureDataMarketLineItem.java" bodystart="11" bodyend="308" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__ChargeEndDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__ChargeEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__ChargeStartDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__ChargeStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__ConsumedQuantity" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__ConsumedQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__CustomerCompanyName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__CustomerCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__InvoiceNumber" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__InvoiceNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__OrderId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__OrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__PartnerId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__PartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__PartnerMpnId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__PartnerMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__PartnerName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__PartnerName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__Region" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__Region</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__ResourceName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__ResourceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__ServiceName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__ServiceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__SubscriptionDescription" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__SubscriptionDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__SubscriptionId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__SubscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.__SubscriptionName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>__SubscriptionName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getBillingProvider()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getBillingProvider</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getChargeEndDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getChargeEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getChargeStartDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getChargeStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getConsumedQuantity()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getConsumedQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getCustomerCompanyName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getCustomerCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item.getInvoiceLineItemType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getInvoiceLineItemType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getInvoiceNumber()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getInvoiceNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getOrderId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getOrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getPartnerId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getPartnerMpnId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getPartnerMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getPartnerName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getPartnerName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getRegion()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getRegion</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getResourceName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getResourceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getServiceName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getServiceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getSubscriptionDescription()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getSubscriptionDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getSubscriptionId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getSubscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.getSubscriptionName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>getSubscriptionName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setChargeEndDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setChargeEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setChargeStartDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setChargeStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setConsumedQuantity(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setConsumedQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setCustomerCompanyName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setCustomerCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setInvoiceNumber(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setInvoiceNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setOrderId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setOrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setPartnerId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setPartnerMpnId(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setPartnerMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setPartnerName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setPartnerName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setRegion(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setRegion</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setResourceName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setResourceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setServiceName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setServiceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setSubscriptionDescription(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setSubscriptionDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setSubscriptionId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setSubscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item.setSubscriptionName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseAzureDataMarketLineItem</scope>
+        <name>setSubscriptionName</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

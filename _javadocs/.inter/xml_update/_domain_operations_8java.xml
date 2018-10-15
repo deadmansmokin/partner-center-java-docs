@@ -1,0 +1,803 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_domain_operations_8java" kind="file" language="Java">
+    <compoundname>DomainOperations.java</compoundname>
+    <innerclass refid="com.microsoft.store.partnercenter.domains._domain_operations" prot="public">com::microsoft::store::partnercenter::domains::DomainOperations</innerclass>
+    <innernamespace refid="com.microsoft.store.partnercenter.domains">com::microsoft::store::partnercenter::domains</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="DomainOperations.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.domains;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.text.MessageFormat;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.util.Locale;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.fasterxml.jackson.core.type.TypeReference;</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._base_partner_component_string" kindref="compound">BasePartnerComponentString</ref>;</highlight>
+      </codeline>
+      <codeline lineno="14">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>;</highlight>
+      </codeline>
+      <codeline lineno="15">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._partner_service" kindref="compound">PartnerService</ref>;</highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.exception" kindref="compound">exception</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>;</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.exception" kindref="compound">exception</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_exception" kindref="compound">PartnerException</ref>;</highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.network" kindref="compound">network</ref>.<ref refid="com.microsoft.store.partnercenter.network._i_partner_service_proxy" kindref="compound">IPartnerServiceProxy</ref>;</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.network" kindref="compound">network</ref>.<ref refid="com.microsoft.store.partnercenter.network._partner_service_proxy" kindref="compound">PartnerServiceProxy</ref>;</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="21" refid="com.microsoft.store.partnercenter.domains._domain_operations" refkind="compound">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">class<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="com.microsoft.store.partnercenter.domains._domain_operations" kindref="compound">DomainOperations</ref>
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter._base_partner_component_string" kindref="compound">BasePartnerComponentString</ref>
+          <sp />implements<sp /><ref refid="com.microsoft.store.partnercenter.domains._i_domain" kindref="compound">IDomain</ref></highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal">
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Initializes<sp />a<sp />new<sp />instance<sp />of<sp />the<sp />DomainOperations<sp />class.</highlight>
+      </codeline>
+      <codeline lineno="25">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="26">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />rootPartnerOperations<sp />The<sp />root<sp />partner<sp />operations<sp />instance</highlight>
+      </codeline>
+      <codeline lineno="27">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />domain<sp />The<sp />domain</highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">protected</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.domains._domain_operations" kindref="compound">DomainOperations</ref>(<sp /><ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref><sp />rootPartnerOperations,<sp />String<sp />domain<sp />)</highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="31">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />super(<sp />rootPartnerOperations,<sp />domain<sp />);</highlight>
+      </codeline>
+      <codeline lineno="32">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">(<sp />domain<sp />==<sp />null<sp />||<sp />domain.trim().isEmpty()<sp />)</highlight>
+      </codeline>
+      <codeline lineno="33">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="34">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp /></highlight>
+        <highlight class="stringliteral">"Domain<sp />string<sp />cannot<sp />be<sp />null<sp />or<sp />empty"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="35">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="36">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="37">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="38">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="39">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Checks<sp />the<sp />availability<sp />of<sp />a<sp />domain.</highlight>
+      </codeline>
+      <codeline lineno="40">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="41">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />A<sp />boolean<sp />value<sp />to<sp />indicate<sp />if<sp />the<sp />domain<sp />is<sp />available.</highlight>
+      </codeline>
+      <codeline lineno="42">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="43">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@Override</highlight>
+      </codeline>
+      <codeline lineno="44">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">boolean</highlight>
+        <highlight class="normal">
+          <sp />exists()</highlight>
+      </codeline>
+      <codeline lineno="45">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="46">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._i_partner_service_proxy" kindref="compound">IPartnerServiceProxy&lt;String, String&gt;</ref>
+          <sp />partnerServiceProxy<sp />=</highlight>
+      </codeline>
+      <codeline lineno="47">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._partner_service_proxy" kindref="compound">PartnerServiceProxy&lt;String, String&gt;</ref>(<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;String&gt;()</highlight>
+      </codeline>
+      <codeline lineno="48">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="49">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />},<sp /></highlight>
+      </codeline>
+      <codeline lineno="50">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),<sp /></highlight>
+      </codeline>
+      <codeline lineno="51">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />MessageFormat.format(<sp /></highlight>
+      </codeline>
+      <codeline lineno="52">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter._partner_service" kindref="compound">PartnerService</ref>.getInstance().<ref refid="com.microsoft.store.partnercenter._partner_service.getConfiguration()" kindref="member">getConfiguration</ref>().<ref refid="com.microsoft.store.partnercenter.configuration._configuration.getApis()" kindref="member">getApis</ref>().get(<sp /></highlight>
+        <highlight class="stringliteral">"CheckDomainAvailability"</highlight>
+        <highlight class="normal">
+          <sp />).getPath(),</highlight>
+      </codeline>
+      <codeline lineno="53">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>(),<sp /></highlight>
+      </codeline>
+      <codeline lineno="54">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />Locale.US<sp />)<sp />);</highlight>
+      </codeline>
+      <codeline lineno="55">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="56">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">try</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="57">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="58">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />partnerServiceProxy.head();</highlight>
+      </codeline>
+      <codeline lineno="59">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="60">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">catch</highlight>
+        <highlight class="normal">(<sp /><ref refid="com.microsoft.store.partnercenter.exception._partner_exception" kindref="compound">PartnerException</ref><sp />ex<sp />)</highlight>
+      </codeline>
+      <codeline lineno="61">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="62">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">(<sp />ex.getErrorCategory().equals(<sp /><ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_error_category.NOT_FOUND" kindref="member">NOT_FOUND</ref><sp />)<sp />)</highlight>
+      </codeline>
+      <codeline lineno="63">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="64">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">false</highlight>
+        <highlight class="normal">;</highlight>
+      </codeline>
+      <codeline lineno="65">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="66">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="67">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />ex;</highlight>
+      </codeline>
+      <codeline lineno="68">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="69">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="70">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">true</highlight>
+        <highlight class="normal">;</highlight>
+      </codeline>
+      <codeline lineno="71">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="72">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/domains/DomainOperations.java" />
+  </compounddef>
+</doxygen>

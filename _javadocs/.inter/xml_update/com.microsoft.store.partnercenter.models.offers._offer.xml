@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.offers._offer" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::offers::Offer</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.ResourceBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Id" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.__Id</definition>
+        <argsstring></argsstring>
+        <name>__Id</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the offer identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="31" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="31" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Name" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.__Name</definition>
+        <argsstring></argsstring>
+        <name>__Name</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the offer name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="46" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="46" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Description" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.__Description</definition>
+        <argsstring></argsstring>
+        <name>__Description</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the description. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="61" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="61" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__MinimumQuantity" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.offers.Offer.__MinimumQuantity</definition>
+        <argsstring></argsstring>
+        <name>__MinimumQuantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the minimum quantity available. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="76" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="76" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__MaximumQuantity" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.offers.Offer.__MaximumQuantity</definition>
+        <argsstring></argsstring>
+        <name>__MaximumQuantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the maximum quantity available. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="91" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="91" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Rank" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.offers.Offer.__Rank</definition>
+        <argsstring></argsstring>
+        <name>__Rank</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the category rank in collection This property should be set only in case of offer category collections </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="107" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="107" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Uri" prot="private" static="no" mutable="no">
+        <type>URI</type>
+        <definition>URI com.microsoft.store.partnercenter.models.offers.Offer.__Uri</definition>
+        <argsstring></argsstring>
+        <name>__Uri</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the offer URI. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="122" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="122" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Locale" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.__Locale</definition>
+        <argsstring></argsstring>
+        <name>__Locale</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the locale to which the offer applies. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="137" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="137" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Country" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.__Country</definition>
+        <argsstring></argsstring>
+        <name>__Country</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the country where the offer applies </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="152" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="152" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Category" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.offers._offer_category" kindref="compound">OfferCategory</ref>
+        </type>
+        <definition>OfferCategory com.microsoft.store.partnercenter.models.offers.Offer.__Category</definition>
+        <argsstring></argsstring>
+        <name>__Category</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the category. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="167" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="167" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__PrerequisiteOffers" prot="private" static="no" mutable="no">
+        <type>List&lt;String&gt;</type>
+        <definition>List&lt;String&gt; com.microsoft.store.partnercenter.models.offers.Offer.__PrerequisiteOffers</definition>
+        <argsstring></argsstring>
+        <name>__PrerequisiteOffers</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the prerequisite offers. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="182" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="182" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__IsAddOn" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.offers.Offer.__IsAddOn</definition>
+        <argsstring></argsstring>
+        <name>__IsAddOn</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets a value indicating whether this instance is add-ons. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="197" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="197" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__IsAvailableForPurchase" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.offers.Offer.__IsAvailableForPurchase</definition>
+        <argsstring></argsstring>
+        <name>__IsAvailableForPurchase</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets a value indicating whether this instance is available for purchase. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="212" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="212" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Billing" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.invoices._billing_type" kindref="compound">BillingType</ref>
+        </type>
+        <definition>BillingType com.microsoft.store.partnercenter.models.offers.Offer.__Billing</definition>
+        <argsstring></argsstring>
+        <name>__Billing</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets how billing is done for the line item purchase. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="227" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="227" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__IsAutoRenewable" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.offers.Offer.__IsAutoRenewable</definition>
+        <argsstring></argsstring>
+        <name>__IsAutoRenewable</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets a value indicating whether [automatic renewable]. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="242" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="242" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__UpgradeTargetOffers" prot="private" static="no" mutable="no">
+        <type>List&lt;String&gt;</type>
+        <definition>List&lt;String&gt; com.microsoft.store.partnercenter.models.offers.Offer.__UpgradeTargetOffers</definition>
+        <argsstring></argsstring>
+        <name>__UpgradeTargetOffers</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the list of offers that this offer can be upgraded to. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="257" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="257" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Product" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.offers._product" kindref="compound">Product</ref>
+        </type>
+        <definition>Product com.microsoft.store.partnercenter.models.offers.Offer.__Product</definition>
+        <argsstring></argsstring>
+        <name>__Product</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the product. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="272" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="272" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__UnitType" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.__UnitType</definition>
+        <argsstring></argsstring>
+        <name>__UnitType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the type of the unit. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="287" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="287" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Links" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.offers._offer_links" kindref="compound">OfferLinks</ref>
+        </type>
+        <definition>OfferLinks com.microsoft.store.partnercenter.models.offers.Offer.__Links</definition>
+        <argsstring></argsstring>
+        <name>__Links</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the learn more link. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="302" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="302" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__SalesGroupId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.__SalesGroupId</definition>
+        <argsstring></argsstring>
+        <name>__SalesGroupId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets a value indicating the Sales Group Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="317" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="317" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__IsTrial" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.offers.Offer.__IsTrial</definition>
+        <argsstring></argsstring>
+        <name>__IsTrial</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets a value indicating whether this is a trial offer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="332" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="332" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__HasAddOns" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.offers.Offer.__HasAddOns</definition>
+        <argsstring></argsstring>
+        <name>__HasAddOns</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets a value indicating whether this offer has any add-ons </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="347" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="347" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__Limit" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.offers.Offer.__Limit</definition>
+        <argsstring></argsstring>
+        <name>__Limit</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the amount of subscriptions that can be purchased of this offer based on the limitUnitOfMeasure </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="363" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="363" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__LimitUnitOfMeasure" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.__LimitUnitOfMeasure</definition>
+        <argsstring></argsstring>
+        <name>__LimitUnitOfMeasure</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the value used to indicate the type of the purchase limitation. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="378" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="378" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__SupportedBillingCycles" prot="private" static="no" mutable="no">
+        <type>List&lt;<ref refid="com.microsoft.store.partnercenter.models.offers._billing_cycle_type" kindref="compound">BillingCycleType</ref>&gt;</type>
+        <definition>List&lt;BillingCycleType&gt; com.microsoft.store.partnercenter.models.offers.Offer.__SupportedBillingCycles</definition>
+        <argsstring></argsstring>
+        <name>__SupportedBillingCycles</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the supported billing cycles for the offer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="393" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="393" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__ResellerQualifications" prot="private" static="no" mutable="no">
+        <type>String []</type>
+        <definition>String [] com.microsoft.store.partnercenter.models.offers.Offer.__ResellerQualifications</definition>
+        <argsstring></argsstring>
+        <name>__ResellerQualifications</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets qualifications required by the Partner in order to purchase the offer for a customer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="408" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="408" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.offers._offer.__ReselleeQualifications" prot="private" static="no" mutable="no">
+        <type>String []</type>
+        <definition>String [] com.microsoft.store.partnercenter.models.offers.Offer.__ReselleeQualifications</definition>
+        <argsstring></argsstring>
+        <name>__ReselleeQualifications</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets qualifications required by the customer for the partner to purchase it for the customer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="423" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="423" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.Offer()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.offers.Offer.Offer</definition>
+        <argsstring>()</argsstring>
+        <name>Offer</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the Offer class. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="24" bodyend="26" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="33" bodyend="36" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="38" bodyend="41" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="48" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="48" bodyend="51" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="53" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="53" bodyend="56" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getDescription()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="63" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="63" bodyend="66" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setDescription(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setDescription</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setDescription</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="68" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="68" bodyend="71" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getMinimumQuantity()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.offers.Offer.getMinimumQuantity</definition>
+        <argsstring>()</argsstring>
+        <name>getMinimumQuantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="78" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="78" bodyend="81" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setMinimumQuantity(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setMinimumQuantity</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setMinimumQuantity</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="83" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="83" bodyend="86" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getMaximumQuantity()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.offers.Offer.getMaximumQuantity</definition>
+        <argsstring>()</argsstring>
+        <name>getMaximumQuantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="93" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="93" bodyend="96" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setMaximumQuantity(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setMaximumQuantity</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setMaximumQuantity</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="98" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="98" bodyend="101" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getRank()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.offers.Offer.getRank</definition>
+        <argsstring>()</argsstring>
+        <name>getRank</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="109" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="109" bodyend="112" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setRank(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setRank</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setRank</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="114" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="114" bodyend="117" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getUri()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>URI</type>
+        <definition>URI com.microsoft.store.partnercenter.models.offers.Offer.getUri</definition>
+        <argsstring>()</argsstring>
+        <name>getUri</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="124" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="124" bodyend="127" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setUri(URI)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setUri</definition>
+        <argsstring>(URI value)</argsstring>
+        <name>setUri</name>
+        <param>
+          <type>URI</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="129" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="129" bodyend="132" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getLocale()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.getLocale</definition>
+        <argsstring>()</argsstring>
+        <name>getLocale</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="139" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="139" bodyend="142" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setLocale(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setLocale</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setLocale</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="144" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="144" bodyend="147" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getCountry()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.getCountry</definition>
+        <argsstring>()</argsstring>
+        <name>getCountry</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="154" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="154" bodyend="157" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setCountry(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setCountry</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCountry</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="159" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="159" bodyend="162" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getCategory()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.offers._offer_category" kindref="compound">OfferCategory</ref>
+        </type>
+        <definition>OfferCategory com.microsoft.store.partnercenter.models.offers.Offer.getCategory</definition>
+        <argsstring>()</argsstring>
+        <name>getCategory</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="169" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="169" bodyend="172" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setCategory(OfferCategory)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setCategory</definition>
+        <argsstring>(OfferCategory value)</argsstring>
+        <name>setCategory</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.offers._offer_category" kindref="compound">OfferCategory</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="174" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="174" bodyend="177" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getPrerequisiteOffers()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt;String&gt;</type>
+        <definition>List&lt;String&gt; com.microsoft.store.partnercenter.models.offers.Offer.getPrerequisiteOffers</definition>
+        <argsstring>()</argsstring>
+        <name>getPrerequisiteOffers</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="184" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="184" bodyend="187" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setPrerequisiteOffers(List&lt;String&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setPrerequisiteOffers</definition>
+        <argsstring>(List&lt;String&gt; value)</argsstring>
+        <name>setPrerequisiteOffers</name>
+        <param>
+          <type>List&lt;String&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="189" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="189" bodyend="192" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getIsAddOn()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.offers.Offer.getIsAddOn</definition>
+        <argsstring>()</argsstring>
+        <name>getIsAddOn</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="199" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="199" bodyend="202" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setIsAddOn(Boolean)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setIsAddOn</definition>
+        <argsstring>(Boolean value)</argsstring>
+        <name>setIsAddOn</name>
+        <param>
+          <type>Boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="204" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="204" bodyend="207" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getIsAvailableForPurchase()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.offers.Offer.getIsAvailableForPurchase</definition>
+        <argsstring>()</argsstring>
+        <name>getIsAvailableForPurchase</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="214" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="214" bodyend="217" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setIsAvailableForPurchase(Boolean)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setIsAvailableForPurchase</definition>
+        <argsstring>(Boolean value)</argsstring>
+        <name>setIsAvailableForPurchase</name>
+        <param>
+          <type>Boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="219" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="219" bodyend="222" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getBilling()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.invoices._billing_type" kindref="compound">BillingType</ref>
+        </type>
+        <definition>BillingType com.microsoft.store.partnercenter.models.offers.Offer.getBilling</definition>
+        <argsstring>()</argsstring>
+        <name>getBilling</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="229" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="229" bodyend="232" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setBilling(BillingType)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setBilling</definition>
+        <argsstring>(BillingType value)</argsstring>
+        <name>setBilling</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.invoices._billing_type" kindref="compound">BillingType</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="234" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="234" bodyend="237" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getIsAutoRenewable()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.offers.Offer.getIsAutoRenewable</definition>
+        <argsstring>()</argsstring>
+        <name>getIsAutoRenewable</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="244" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="244" bodyend="247" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setIsAutoRenewable(Boolean)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setIsAutoRenewable</definition>
+        <argsstring>(Boolean value)</argsstring>
+        <name>setIsAutoRenewable</name>
+        <param>
+          <type>Boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="249" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="249" bodyend="252" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getUpgradeTargetOffers()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt;String&gt;</type>
+        <definition>List&lt;String&gt; com.microsoft.store.partnercenter.models.offers.Offer.getUpgradeTargetOffers</definition>
+        <argsstring>()</argsstring>
+        <name>getUpgradeTargetOffers</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="259" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="259" bodyend="262" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setUpgradeTargetOffers(List&lt;String&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setUpgradeTargetOffers</definition>
+        <argsstring>(List&lt;String&gt; value)</argsstring>
+        <name>setUpgradeTargetOffers</name>
+        <param>
+          <type>List&lt;String&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="264" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="264" bodyend="267" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getProduct()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.offers._product" kindref="compound">Product</ref>
+        </type>
+        <definition>Product com.microsoft.store.partnercenter.models.offers.Offer.getProduct</definition>
+        <argsstring>()</argsstring>
+        <name>getProduct</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="274" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="274" bodyend="277" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setProduct(Product)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setProduct</definition>
+        <argsstring>(Product value)</argsstring>
+        <name>setProduct</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.offers._product" kindref="compound">Product</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="279" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="279" bodyend="282" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getUnitType()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.getUnitType</definition>
+        <argsstring>()</argsstring>
+        <name>getUnitType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="289" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="289" bodyend="292" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setUnitType(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setUnitType</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setUnitType</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="294" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="294" bodyend="297" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getLinks()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.offers._offer_links" kindref="compound">OfferLinks</ref>
+        </type>
+        <definition>OfferLinks com.microsoft.store.partnercenter.models.offers.Offer.getLinks</definition>
+        <argsstring>()</argsstring>
+        <name>getLinks</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="304" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="304" bodyend="307" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setLinks(OfferLinks)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setLinks</definition>
+        <argsstring>(OfferLinks value)</argsstring>
+        <name>setLinks</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.offers._offer_links" kindref="compound">OfferLinks</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="309" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="309" bodyend="312" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getSalesGroupId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.getSalesGroupId</definition>
+        <argsstring>()</argsstring>
+        <name>getSalesGroupId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="319" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="319" bodyend="322" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setSalesGroupId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setSalesGroupId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setSalesGroupId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="324" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="324" bodyend="327" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getIsTrial()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.offers.Offer.getIsTrial</definition>
+        <argsstring>()</argsstring>
+        <name>getIsTrial</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="334" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="334" bodyend="337" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setIsTrial(Boolean)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setIsTrial</definition>
+        <argsstring>(Boolean value)</argsstring>
+        <name>setIsTrial</name>
+        <param>
+          <type>Boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="339" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="339" bodyend="342" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getHasAddOns()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.offers.Offer.getHasAddOns</definition>
+        <argsstring>()</argsstring>
+        <name>getHasAddOns</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="349" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="349" bodyend="352" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setHasAddOns(Boolean)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setHasAddOns</definition>
+        <argsstring>(Boolean value)</argsstring>
+        <name>setHasAddOns</name>
+        <param>
+          <type>Boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="354" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="354" bodyend="357" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getLimit()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.offers.Offer.getLimit</definition>
+        <argsstring>()</argsstring>
+        <name>getLimit</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="365" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="365" bodyend="368" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setLimit(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setLimit</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setLimit</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="370" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="370" bodyend="373" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getLimitUnitOfMeasure()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.offers.Offer.getLimitUnitOfMeasure</definition>
+        <argsstring>()</argsstring>
+        <name>getLimitUnitOfMeasure</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="380" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="380" bodyend="383" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setLimitUnitOfMeasure(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setLimitUnitOfMeasure</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setLimitUnitOfMeasure</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="385" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="385" bodyend="388" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getSupportedBillingCycles()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt;<ref refid="com.microsoft.store.partnercenter.models.offers._billing_cycle_type" kindref="compound">BillingCycleType</ref>&gt;</type>
+        <definition>List&lt;BillingCycleType&gt; com.microsoft.store.partnercenter.models.offers.Offer.getSupportedBillingCycles</definition>
+        <argsstring>()</argsstring>
+        <name>getSupportedBillingCycles</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="395" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="395" bodyend="398" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setSupportedBillingCycles(List&lt;BillingCycleType&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setSupportedBillingCycles</definition>
+        <argsstring>(List&lt;BillingCycleType&gt; value)</argsstring>
+        <name>setSupportedBillingCycles</name>
+        <param>
+          <type>List&lt;<ref refid="com.microsoft.store.partnercenter.models.offers._billing_cycle_type" kindref="compound">BillingCycleType</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="400" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="400" bodyend="403" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getResellerQualifications()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String []</type>
+        <definition>String [] com.microsoft.store.partnercenter.models.offers.Offer.getResellerQualifications</definition>
+        <argsstring>()</argsstring>
+        <name>getResellerQualifications</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="410" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="410" bodyend="413" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setResellerQualifications(String [])" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setResellerQualifications</definition>
+        <argsstring>(String[] value)</argsstring>
+        <name>setResellerQualifications</name>
+        <param>
+          <type>String []</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="415" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="415" bodyend="418" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.getReselleeQualifications()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String []</type>
+        <definition>String [] com.microsoft.store.partnercenter.models.offers.Offer.getReselleeQualifications</definition>
+        <argsstring>()</argsstring>
+        <name>getReselleeQualifications</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="425" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="425" bodyend="428" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.offers._offer.setReselleeQualifications(String [])" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.offers.Offer.setReselleeQualifications</definition>
+        <argsstring>(String[] value)</argsstring>
+        <name>setReselleeQualifications</name>
+        <param>
+          <type>String []</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="430" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="430" bodyend="433" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents a form of product availability to customer </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3359">
+        <label>com.microsoft.store.partnercenter.models.offers.Offer</label>
+        <link refid="com.microsoft.store.partnercenter.models.offers._offer" />
+        <childnode refid="3360" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3360">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3361">
+        <label>com.microsoft.store.partnercenter.models.offers.Offer</label>
+        <link refid="com.microsoft.store.partnercenter.models.offers._offer" />
+        <childnode refid="3362" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3362">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/offers/Offer.java" bodystart="18" bodyend="434" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Billing" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Billing</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Category" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Category</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Country" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Country</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Description" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Description</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__HasAddOns" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__HasAddOns</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Id" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Id</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__IsAddOn" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__IsAddOn</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__IsAutoRenewable" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__IsAutoRenewable</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__IsAvailableForPurchase" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__IsAvailableForPurchase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__IsTrial" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__IsTrial</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Limit" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Limit</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__LimitUnitOfMeasure" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__LimitUnitOfMeasure</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Links" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Links</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Locale" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Locale</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__MaximumQuantity" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__MaximumQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__MinimumQuantity" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__MinimumQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Name" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Name</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__PrerequisiteOffers" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__PrerequisiteOffers</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Product" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Product</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Rank" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Rank</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__ReselleeQualifications" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__ReselleeQualifications</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__ResellerQualifications" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__ResellerQualifications</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__SalesGroupId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__SalesGroupId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__SupportedBillingCycles" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__SupportedBillingCycles</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__UnitType" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__UnitType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__UpgradeTargetOffers" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__UpgradeTargetOffers</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.__Uri" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>__Uri</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getBilling()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getBilling</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getCategory()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getCategory</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getCountry()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getCountry</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getDescription()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getHasAddOns()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getHasAddOns</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getIsAddOn()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getIsAddOn</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getIsAutoRenewable()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getIsAutoRenewable</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getIsAvailableForPurchase()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getIsAvailableForPurchase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getIsTrial()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getIsTrial</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getLimit()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getLimit</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getLimitUnitOfMeasure()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getLimitUnitOfMeasure</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getLinks()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getLocale()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getLocale</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getMaximumQuantity()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getMaximumQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getMinimumQuantity()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getMinimumQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getPrerequisiteOffers()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getPrerequisiteOffers</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getProduct()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getProduct</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getRank()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getRank</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getReselleeQualifications()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getReselleeQualifications</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getResellerQualifications()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getResellerQualifications</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getSalesGroupId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getSalesGroupId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getSupportedBillingCycles()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getSupportedBillingCycles</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getUnitType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getUnitType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getUpgradeTargetOffers()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getUpgradeTargetOffers</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.getUri()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>getUri</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.Offer()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>Offer</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setBilling(BillingType)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setBilling</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setCategory(OfferCategory)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setCategory</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setCountry(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setCountry</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setDescription(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setHasAddOns(Boolean)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setHasAddOns</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setIsAddOn(Boolean)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setIsAddOn</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setIsAutoRenewable(Boolean)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setIsAutoRenewable</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setIsAvailableForPurchase(Boolean)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setIsAvailableForPurchase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setIsTrial(Boolean)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setIsTrial</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setLimit(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setLimit</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setLimitUnitOfMeasure(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setLimitUnitOfMeasure</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setLinks(OfferLinks)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setLocale(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setLocale</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setMaximumQuantity(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setMaximumQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setMinimumQuantity(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setMinimumQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setPrerequisiteOffers(List&lt;String&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setPrerequisiteOffers</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setProduct(Product)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setProduct</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setRank(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setRank</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setReselleeQualifications(String [])" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setReselleeQualifications</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setResellerQualifications(String [])" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setResellerQualifications</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setSalesGroupId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setSalesGroupId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setSupportedBillingCycles(List&lt;BillingCycleType&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setSupportedBillingCycles</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setUnitType(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setUnitType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setUpgradeTargetOffers(List&lt;String&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setUpgradeTargetOffers</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.offers._offer.setUri(URI)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::offers::Offer</scope>
+        <name>setUri</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

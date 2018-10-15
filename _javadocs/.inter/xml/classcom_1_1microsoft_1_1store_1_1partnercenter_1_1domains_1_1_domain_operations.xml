@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_domain_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::domains::DomainOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_i_domain" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.domains.IDomain</basecompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_domain_operations_1aa67b37d672cdf8e36d6f0adbe1bba62d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.domains.DomainOperations.DomainOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String domain)</argsstring>
+        <name>DomainOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>domain</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/domains/DomainOperations.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/domains/DomainOperations.java" bodystart="29" bodyend="36" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_domain_operations_1ae33e22fcdd2f5c4e25ac5cfa942953f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.microsoft.store.partnercenter.domains.DomainOperations.exists</definition>
+        <argsstring>()</argsstring>
+        <name>exists</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_i_domain_1a74db7e413d77f40b4df1b078b1216320">exists</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/domains/DomainOperations.java" line="44" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/domains/DomainOperations.java" bodystart="44" bodyend="71" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="1308">
+        <label>com.microsoft.store.partnercenter.domains.IDomain</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_i_domain" />
+        <childnode refid="1309" relation="public-inheritance"></childnode>
+        <childnode refid="1311" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1305">
+        <label>com.microsoft.store.partnercenter.domains.DomainOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_domain_operations" />
+        <childnode refid="1306" relation="public-inheritance"></childnode>
+        <childnode refid="1308" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1310">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1307">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="1306">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="1307" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1311">
+        <label>com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_exists_operations" />
+      </node>
+      <node id="1309">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="1310" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1315">
+        <label>com.microsoft.store.partnercenter.domains.IDomain</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_i_domain" />
+        <childnode refid="1316" relation="public-inheritance"></childnode>
+        <childnode refid="1318" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1312">
+        <label>com.microsoft.store.partnercenter.domains.DomainOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_domain_operations" />
+        <childnode refid="1313" relation="public-inheritance"></childnode>
+        <childnode refid="1315" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1317">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1314">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="1313">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="1314" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1318">
+        <label>com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_exists_operations" />
+      </node>
+      <node id="1316">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="1317" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/domains/DomainOperations.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/domains/DomainOperations.java" bodystart="21" bodyend="72" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::domains::DomainOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1ae6339c5a921b5c3b6a545e1064951c83" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::domains::DomainOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1a9662304cff58f8d465d2a47e7e8cedf0" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::domains::DomainOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_domain_operations_1aa67b37d672cdf8e36d6f0adbe1bba62d" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::domains::DomainOperations</scope>
+        <name>DomainOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_domain_operations_1ae33e22fcdd2f5c4e25ac5cfa942953f9" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::domains::DomainOperations</scope>
+        <name>exists</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::domains::DomainOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::domains::IDomain.">
+        <scope>com::microsoft::store::partnercenter::domains::DomainOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::domains::DomainOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::domains::IDomain.">
+        <scope>com::microsoft::store::partnercenter::domains::DomainOperations</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

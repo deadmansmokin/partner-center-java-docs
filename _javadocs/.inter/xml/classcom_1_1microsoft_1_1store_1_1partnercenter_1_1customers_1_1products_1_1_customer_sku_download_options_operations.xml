@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_download_options_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customers::products::CustomerSkuDownloadOptionsOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_download_options" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.ISkuDownloadOptions</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_download_options_operations_1a7269960938ba88ed23d3b28db7f40e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.customers.products.CustomerSkuDownloadOptionsOperations.CustomerSkuDownloadOptionsOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String productId, String skuId)</argsstring>
+        <name>CustomerSkuDownloadOptionsOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>productId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>skuId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the CustomerSkuDownloadOptionsOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer id for which to retrieve the download options. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>productId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The product id for which to retrieve the download options. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>skuId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The sku id for which to retrieve its download options. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuDownloadOptionsOperations.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuDownloadOptionsOperations.java" bodystart="38" bodyend="56" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_download_options_operations_1a239e68955c14b756f6118aba505adbf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_sku_download_options" kindref="compound">SkuDownloadOptions</ref>&gt;</type>
+        <definition>ResourceCollection&lt;SkuDownloadOptions&gt; com.microsoft.store.partnercenter.customers.products.CustomerSkuDownloadOptionsOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_download_options_1a59c83951eb16e70d195f9ceb35e89202">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuDownloadOptionsOperations.java" line="64" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuDownloadOptionsOperations.java" bodystart="64" bodyend="75" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implementation of customer SKU download options operations. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1006">
+        <label>com.microsoft.store.partnercenter.products.ISkuDownloadOptions</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_download_options" />
+        <childnode refid="1007" relation="public-inheritance"></childnode>
+        <childnode refid="1008" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1003">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerSkuDownloadOptionsOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_download_options_operations" />
+        <childnode refid="1004" relation="public-inheritance"></childnode>
+        <childnode refid="1006" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1005">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1004">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="1005" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1007">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1008">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;SkuDownloadOptions, ResourceCollection&lt;SkuDownloadOptions&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1012">
+        <label>com.microsoft.store.partnercenter.products.ISkuDownloadOptions</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_download_options" />
+        <childnode refid="1013" relation="public-inheritance"></childnode>
+        <childnode refid="1014" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1009">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerSkuDownloadOptionsOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_download_options_operations" />
+        <childnode refid="1010" relation="public-inheritance"></childnode>
+        <childnode refid="1012" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1011">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1010">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="1011" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1013">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1014">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;SkuDownloadOptions, ResourceCollection&lt;SkuDownloadOptions&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuDownloadOptionsOperations.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuDownloadOptionsOperations.java" bodystart="26" bodyend="76" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuDownloadOptionsOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_download_options_operations_1a7269960938ba88ed23d3b28db7f40e22" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuDownloadOptionsOperations</scope>
+        <name>CustomerSkuDownloadOptionsOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_download_options_operations_1a239e68955c14b756f6118aba505adbf3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuDownloadOptionsOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuDownloadOptionsOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuDownloadOptionsOperations</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base_with_links" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;ServiceCostsSummaryLinks&gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__BillingStartDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.__BillingStartDate</definition>
+        <argsstring></argsstring>
+        <name>__BillingStartDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="24" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__BillingEndDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.__BillingEndDate</definition>
+        <argsstring></argsstring>
+        <name>__BillingEndDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="40" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="40" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__PretaxTotal" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.__PretaxTotal</definition>
+        <argsstring></argsstring>
+        <name>__PretaxTotal</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="56" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="56" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__Tax" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.__Tax</definition>
+        <argsstring></argsstring>
+        <name>__Tax</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="72" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="72" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__AfterTaxTotal" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.__AfterTaxTotal</definition>
+        <argsstring></argsstring>
+        <name>__AfterTaxTotal</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="88" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="88" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__CurrencyCode" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.__CurrencyCode</definition>
+        <argsstring></argsstring>
+        <name>__CurrencyCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="104" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="104" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__CurrencySymbol" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.__CurrencySymbol</definition>
+        <argsstring></argsstring>
+        <name>__CurrencySymbol</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="120" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="120" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__CustomerId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.__CustomerId</definition>
+        <argsstring></argsstring>
+        <name>__CustomerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="136" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="136" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getBillingStartDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getBillingStartDate</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingStartDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="26" bodyend="29" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setBillingStartDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setBillingStartDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setBillingStartDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="31" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="31" bodyend="34" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getBillingEndDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getBillingEndDate</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingEndDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="42" bodyend="45" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setBillingEnd(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setBillingEnd</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setBillingEnd</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="47" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="47" bodyend="50" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getPretaxTotal()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Double</type>
+        <definition>Double com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getPretaxTotal</definition>
+        <argsstring>()</argsstring>
+        <name>getPretaxTotal</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="58" bodyend="61" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setPretaxTotal(Double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setPretaxTotal</definition>
+        <argsstring>(Double value)</argsstring>
+        <name>setPretaxTotal</name>
+        <param>
+          <type>Double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="63" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="63" bodyend="66" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getTax()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Double</type>
+        <definition>Double com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getTax</definition>
+        <argsstring>()</argsstring>
+        <name>getTax</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="74" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="74" bodyend="77" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setTax(Double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setTax</definition>
+        <argsstring>(Double value)</argsstring>
+        <name>setTax</name>
+        <param>
+          <type>Double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="79" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="79" bodyend="82" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getAfterTaxTotal()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Double</type>
+        <definition>Double com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getAfterTaxTotal</definition>
+        <argsstring>()</argsstring>
+        <name>getAfterTaxTotal</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="90" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="90" bodyend="93" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setAfterTaxTotal(Double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setAfterTaxTotal</definition>
+        <argsstring>(Double value)</argsstring>
+        <name>setAfterTaxTotal</name>
+        <param>
+          <type>Double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="95" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="95" bodyend="98" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getCurrencyCode()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getCurrencyCode</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrencyCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="106" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="106" bodyend="109" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setCurrencyCode(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setCurrencyCode</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCurrencyCode</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="111" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="111" bodyend="114" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getCurrencySymbol()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getCurrencySymbol</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrencySymbol</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="122" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="122" bodyend="125" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setCurrencySymbol(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setCurrencySymbol</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCurrencySymbol</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="127" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="127" bodyend="130" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getCustomerId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.getCustomerId</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="138" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="138" bodyend="141" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setCustomerId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setCustomerId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCustomerId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="143" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="143" bodyend="146" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents a service costs summary for a customer. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4138">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;ServiceCostsSummaryLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="4139" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4137">
+        <label>com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary</label>
+        <link refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary" />
+        <childnode refid="4138" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4139">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4141">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;ServiceCostsSummaryLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="4142" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4140">
+        <label>com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary</label>
+        <link refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary" />
+        <childnode refid="4141" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4142">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicecosts/ServiceCostsSummary.java" bodystart="17" bodyend="147" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__AfterTaxTotal" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>__AfterTaxTotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__BillingEndDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>__BillingEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__BillingStartDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>__BillingStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__CurrencyCode" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>__CurrencyCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__CurrencySymbol" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>__CurrencySymbol</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__CustomerId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>__CustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__PretaxTotal" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>__PretaxTotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.__Tax" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>__Tax</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getAfterTaxTotal()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>getAfterTaxTotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getBillingEndDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>getBillingEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getBillingStartDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>getBillingStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getCurrencyCode()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>getCurrencyCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getCurrencySymbol()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>getCurrencySymbol</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getCustomerId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>getCustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.getLinks()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getPretaxTotal()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>getPretaxTotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.getTax()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>getTax</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setAfterTaxTotal(Double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>setAfterTaxTotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setBillingEnd(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>setBillingEnd</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setBillingStartDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>setBillingStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setCurrencyCode(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>setCurrencyCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setCurrencySymbol(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>setCurrencySymbol</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setCustomerId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>setCustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.setLinks(TLinks)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setPretaxTotal(Double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>setPretaxTotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary.setTax(Double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicecosts::ServiceCostsSummary</scope>
+        <name>setTax</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

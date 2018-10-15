@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_i_subscription_usage_summary_8java" kind="file" language="Java">
+    <compoundname>ISubscriptionUsageSummary.java</compoundname>
+    <innerclass refid="com.microsoft.store.partnercenter.usage._i_subscription_usage_summary" prot="public">com::microsoft::store::partnercenter::usage::ISubscriptionUsageSummary</innerclass>
+    <innernamespace refid="com.microsoft.store.partnercenter.usage">com::microsoft::store::partnercenter::usage</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="ISubscriptionUsageSummary.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.usage;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._i_partner_component" kindref="compound">IPartnerComponent</ref>;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.genericoperations" kindref="compound">genericoperations</ref>.<ref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" kindref="compound">IEntityGetOperations</ref>;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.usage" kindref="compound">usage</ref>.<ref refid="com.microsoft.store.partnercenter.models.usage._subscription_usage_summary" kindref="compound">SubscriptionUsageSummary</ref>;</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils" kindref="compound">utils</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils._tuple" kindref="compound">Tuple</ref>;</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="17" refid="com.microsoft.store.partnercenter.usage._i_subscription_usage_summary" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">interface<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="com.microsoft.store.partnercenter.usage._i_subscription_usage_summary" kindref="compound">ISubscriptionUsageSummary</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter._i_partner_component" kindref="compound">IPartnerComponent</ref>&lt;Tuple&lt;String,<sp />String&gt;&gt;,<sp /><ref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" kindref="compound">IEntityGetOperations</ref>&lt;SubscriptionUsageSummary&gt;</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Retrieves<sp />the<sp />customer's<sp />subscription<sp />usage<sp />summary.</highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />customer's<sp />subscription<sp />usage<sp />summary.</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.usage._subscription_usage_summary" kindref="compound">SubscriptionUsageSummary</ref>
+          <sp />
+        </highlight>
+        <highlight class="keyword">get</highlight>
+        <highlight class="normal">();</highlight>
+      </codeline>
+      <codeline lineno="25">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/ISubscriptionUsageSummary.java" />
+  </compounddef>
+</doxygen>

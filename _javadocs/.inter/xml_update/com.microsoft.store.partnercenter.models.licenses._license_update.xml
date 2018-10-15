@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.licenses._license_update" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.ResourceBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.licenses._license_update.__LicensesToAssign" prot="private" static="no" mutable="no">
+        <type>Iterable&lt;<ref refid="com.microsoft.store.partnercenter.models.licenses._license_assignment" kindref="compound">LicenseAssignment</ref>&gt;</type>
+        <definition>Iterable&lt;LicenseAssignment&gt; com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.__LicensesToAssign</definition>
+        <argsstring></argsstring>
+        <name>__LicensesToAssign</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" bodystart="20" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.licenses._license_update.__LicensesToRemove" prot="private" static="no" mutable="no">
+        <type>Iterable&lt;String&gt;</type>
+        <definition>Iterable&lt;String&gt; com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.__LicensesToRemove</definition>
+        <argsstring></argsstring>
+        <name>__LicensesToRemove</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" line="36" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" bodystart="36" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.licenses._license_update.__LicenseWarnings" prot="private" static="no" mutable="no">
+        <type>Iterable&lt;<ref refid="com.microsoft.store.partnercenter.models.licenses._license_warning" kindref="compound">LicenseWarning</ref>&gt;</type>
+        <definition>Iterable&lt;LicenseWarning&gt; com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.__LicenseWarnings</definition>
+        <argsstring></argsstring>
+        <name>__LicenseWarnings</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" line="52" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" bodystart="52" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.licenses._license_update.getLicensesToAssign()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt;<ref refid="com.microsoft.store.partnercenter.models.licenses._license_assignment" kindref="compound">LicenseAssignment</ref>&gt;</type>
+        <definition>Iterable&lt;LicenseAssignment&gt; com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToAssign</definition>
+        <argsstring>()</argsstring>
+        <name>getLicensesToAssign</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" bodystart="22" bodyend="25" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.licenses._license_update.setLicensesToAssign(Iterable&lt;LicenseAssignment&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToAssign</definition>
+        <argsstring>(Iterable&lt;LicenseAssignment&gt; value)</argsstring>
+        <name>setLicensesToAssign</name>
+        <param>
+          <type>Iterable&lt;<ref refid="com.microsoft.store.partnercenter.models.licenses._license_assignment" kindref="compound">LicenseAssignment</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" bodystart="27" bodyend="30" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.licenses._license_update.getLicensesToRemove()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt;String&gt;</type>
+        <definition>Iterable&lt;String&gt; com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToRemove</definition>
+        <argsstring>()</argsstring>
+        <name>getLicensesToRemove</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" bodystart="38" bodyend="41" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.licenses._license_update.setLicensesToRemove(Iterable&lt;String&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToRemove</definition>
+        <argsstring>(Iterable&lt;String&gt; value)</argsstring>
+        <name>setLicensesToRemove</name>
+        <param>
+          <type>Iterable&lt;String&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" line="43" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" bodystart="43" bodyend="46" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.licenses._license_update.getLicenseWarnings()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt;<ref refid="com.microsoft.store.partnercenter.models.licenses._license_warning" kindref="compound">LicenseWarning</ref>&gt;</type>
+        <definition>Iterable&lt;LicenseWarning&gt; com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicenseWarnings</definition>
+        <argsstring>()</argsstring>
+        <name>getLicenseWarnings</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" line="54" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" bodystart="54" bodyend="57" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.licenses._license_update.setLicenseWarnings(Iterable&lt;LicenseWarning&gt;)" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicenseWarnings</definition>
+        <argsstring>(Iterable&lt;LicenseWarning&gt; value)</argsstring>
+        <name>setLicenseWarnings</name>
+        <param>
+          <type>Iterable&lt;<ref refid="com.microsoft.store.partnercenter.models.licenses._license_warning" kindref="compound">LicenseWarning</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" line="60" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" bodystart="60" bodyend="63" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="3303">
+        <label>com.microsoft.store.partnercenter.models.licenses.LicenseUpdate</label>
+        <link refid="com.microsoft.store.partnercenter.models.licenses._license_update" />
+        <childnode refid="3304" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3304">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3305">
+        <label>com.microsoft.store.partnercenter.models.licenses.LicenseUpdate</label>
+        <link refid="com.microsoft.store.partnercenter.models.licenses._license_update" />
+        <childnode refid="3306" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3306">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" line="15" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseUpdate.java" bodystart="15" bodyend="65" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.licenses._license_update.__LicensesToAssign" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>__LicensesToAssign</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.licenses._license_update.__LicensesToRemove" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>__LicensesToRemove</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.licenses._license_update.__LicenseWarnings" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>__LicenseWarnings</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.licenses._license_update.getLicensesToAssign()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>getLicensesToAssign</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.licenses._license_update.getLicensesToRemove()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>getLicensesToRemove</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.licenses._license_update.getLicenseWarnings()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>getLicenseWarnings</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.licenses._license_update.setLicensesToAssign(Iterable&lt;LicenseAssignment&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>setLicensesToAssign</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.licenses._license_update.setLicensesToRemove(Iterable&lt;String&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>setLicensesToRemove</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.licenses._license_update.setLicenseWarnings(Iterable&lt;LicenseWarning&gt;)" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::licenses::LicenseUpdate</scope>
+        <name>setLicenseWarnings</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::query::IQuery</compoundname>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.query.BaseQuery</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a203d42cfee873b91d6fe93af3e91f516" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_query_type" kindref="compound">QueryType</ref>
+        </type>
+        <definition>QueryType com.microsoft.store.partnercenter.models.query.IQuery.getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1a1144dd4e9e746faf23413ef136c1e2d3">getType</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_count_query_1ac4e0aaed1c38367a683fd251d9359146">getType</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1aaade66612c9a2bf4402c14b193101fdf">getType</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a6126849f511b714ba57a4d5103d81e2c">getType</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a148c7ae566ddc87aa6d7e5d6c66b1966">getType</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the query type.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The query type. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="22" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1acd8518f2868c2ec62c7ca3354aebc442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1filters_1_1_field_filter" kindref="compound">FieldFilter</ref>
+        </type>
+        <definition>FieldFilter com.microsoft.store.partnercenter.models.query.IQuery.getFilter</definition>
+        <argsstring>()</argsstring>
+        <name>getFilter</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_count_query_1a370d4f2caf8497ab4edb087c62b3826b">getFilter</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a607797949b225ae4c64b92d3a2ea643d">getFilter</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a9a9ecf9d72392be22cc77c3bc2cb73bf">getFilter</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the query filter.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The query filter. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="29" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1affbaebbc81777b85a6f677b6054dd265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.IQuery.setFilter</definition>
+        <argsstring>(FieldFilter value)</argsstring>
+        <name>setFilter</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_count_query_1ae7af76b840912cb5a7fa2c11993c0ddf">setFilter</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1abfcff35a247777bba668808ccda0ca67">setFilter</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a5e08239cea1db02714033f1732f51b70">setFilter</reimplementedby>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1filters_1_1_field_filter" kindref="compound">FieldFilter</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The query filter.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The query filter. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="36" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a20a991be11a47a9a3d8a5e95eede0268" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort" kindref="compound">Sort</ref>
+        </type>
+        <definition>Sort com.microsoft.store.partnercenter.models.query.IQuery.getSort</definition>
+        <argsstring>()</argsstring>
+        <name>getSort</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a90d8d3b11fda21002f0874e040043db3">getSort</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a6765b0dd537e6e4025d6393a5b5812ec">getSort</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the query sorting options.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The query sorting options. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="43" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ae465eba7fbb38e80e0d07c2494f3e451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.IQuery.setSort</definition>
+        <argsstring>(Sort value)</argsstring>
+        <name>setSort</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a4b507a2365a93c9b82eb6882415562f5">setSort</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1ae0e357847557b69e8cf0ae8ab8ef1865">setSort</reimplementedby>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort" kindref="compound">Sort</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the query sorting options.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The query sorting options. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="50" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ad67d61eec544a4ae65ce5e225d5a9b76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.query.IQuery.getIndex</definition>
+        <argsstring>()</argsstring>
+        <name>getIndex</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a384825ce3df59dfb3a407f73ad0f34de">getIndex</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1ac9a4903fae95674da26d4fd075899cb1">getIndex</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the result starting index.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The result starting index. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="57" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ae6c897107f620f9cabcc4d15e4bd8a49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.IQuery.setIndex</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setIndex</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a7c046a9bb052d1036a3e06a34bc959b6">setIndex</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a0c26197b4db6f95886f84f67be1aff07">setIndex</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the result starting index.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The result starting index. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="64" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a264a8c81120b84fcda2343830182b5c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.query.IQuery.getPageSize</definition>
+        <argsstring>()</argsstring>
+        <name>getPageSize</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a691c9f529f2ccaad9c4aea3323e65d93">getPageSize</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a4d1e6c6c8a1fa03e2717761acf8d8aca">getPageSize</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the results page size.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The result page size. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="71" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ac042fadc84a3251ef601ded85571bfd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.IQuery.setPageSize</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setPageSize</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a3e71fb54733dbc907edb77708aec7c15">setPageSize</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a79d739f3c9bd442fe4b5ed0ae3f8362b">setPageSize</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the results page size.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The results page size. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="78" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ad3b6d540662f01f86e5b0fbbec751963" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object com.microsoft.store.partnercenter.models.query.IQuery.getToken</definition>
+        <argsstring>()</argsstring>
+        <name>getToken</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a5fb980b6013a3106b3dc64e1e49dfb57">getToken</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the query token. The token may hold context used to represent current state with back end services.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The query token. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="85" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1aa67956a3eeb9ad9dcb4576159f16a4c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.IQuery.setToken</definition>
+        <argsstring>(Object value)</argsstring>
+        <name>setToken</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1aaffe23ab34dcdee695c7ece3798e7eaa">setToken</reimplementedby>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the query token.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The query token. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="92" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1aad674c5683c1696e2e6a5fdcf4514cb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_operation" kindref="compound">SeekOperation</ref>
+        </type>
+        <definition>SeekOperation com.microsoft.store.partnercenter.models.query.IQuery.getSeekOperation</definition>
+        <argsstring>()</argsstring>
+        <name>getSeekOperation</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1a5347b5b86ce9dfd530a9dbcda6ad6fe8">getSeekOperation</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a9779641c1ee6f6582a6da972ba884e27">getSeekOperation</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the seek operation that needs to be performed.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The seek operation that needs to be performed. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="99" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a33635e34ffe27cf2aedb7c1ef0358afd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.IQuery.setSeekOperation</definition>
+        <argsstring>(SeekOperation value)</argsstring>
+        <name>setSeekOperation</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1a30b8f188473a839aec62a037dc44edf2">setSeekOperation</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a8aa77ef0d62d12e28897b24e753f0acb">setSeekOperation</reimplementedby>
+        <param>
+          <type>
+            <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_operation" kindref="compound">SeekOperation</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the seek operation that needs to be performed.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The seek operation that needs to be performed. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="106" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents a query on an entity. All different queries should implement this contract. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2972">
+        <label>com.microsoft.store.partnercenter.models.query.SeekQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query" />
+        <childnode refid="2971" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2971">
+        <label>com.microsoft.store.partnercenter.models.query.IndexedQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query" />
+        <childnode refid="2970" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2968">
+        <label>com.microsoft.store.partnercenter.models.query.BaseQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query" />
+        <childnode refid="2967" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2967">
+        <label>com.microsoft.store.partnercenter.models.query.IQuery</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query" />
+      </node>
+      <node id="2970">
+        <label>com.microsoft.store.partnercenter.models.query.SimpleQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query" />
+        <childnode refid="2968" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2969">
+        <label>com.microsoft.store.partnercenter.models.query.CountQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_count_query" />
+        <childnode refid="2968" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" bodystart="15" bodyend="107" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1acd8518f2868c2ec62c7ca3354aebc442" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>getFilter</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ad67d61eec544a4ae65ce5e225d5a9b76" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>getIndex</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a264a8c81120b84fcda2343830182b5c4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>getPageSize</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1aad674c5683c1696e2e6a5fdcf4514cb9" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>getSeekOperation</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a20a991be11a47a9a3d8a5e95eede0268" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>getSort</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ad3b6d540662f01f86e5b0fbbec751963" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>getToken</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a203d42cfee873b91d6fe93af3e91f516" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>getType</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1affbaebbc81777b85a6f677b6054dd265" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>setFilter</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ae6c897107f620f9cabcc4d15e4bd8a49" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>setIndex</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ac042fadc84a3251ef601ded85571bfd4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>setPageSize</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a33635e34ffe27cf2aedb7c1ef0358afd" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>setSeekOperation</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ae465eba7fbb38e80e0d07c2494f3e451" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>setSort</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1aa67956a3eeb9ad9dcb4576159f16a4c4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IQuery</scope>
+        <name>setToken</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

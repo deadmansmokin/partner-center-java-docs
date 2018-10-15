@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.subscriptions._subscription_upgrade_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::subscriptions::SubscriptionUpgradeCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_upgrade_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_upgrade_collection_operations.SubscriptionUpgradeCollectionOperations(IPartner,String,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String subscriptionId)</argsstring>
+        <name>SubscriptionUpgradeCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>subscriptionId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SubscriptionUpgradeCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer Id to whom the subscriptions belong. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>subscriptionId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The subscription Id where the upgrade is occurring. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java" bodystart="37" bodyend="51" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_upgrade_collection_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.subscriptions._upgrade" kindref="compound">Upgrade</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Upgrade&gt; com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_upgrade_collection.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all subscription upgrades.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The subscription upgrades. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java" line="59" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java" bodystart="59" bodyend="68" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_upgrade_collection_operations.create(Upgrade)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.subscriptions._upgrade_result" kindref="compound">UpgradeResult</ref>
+        </type>
+        <definition>UpgradeResult com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create</definition>
+        <argsstring>(Upgrade subscriptionUpgrade)</argsstring>
+        <name>create</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_upgrade_collection.create(Upgrade)">create</reimplements>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.subscriptions._upgrade" kindref="compound">Upgrade</ref>
+          </type>
+          <declname>subscriptionUpgrade</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Performs a subscription upgrade.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>subscriptionUpgrade</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The subscription upgrade to perform. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>A task containing the subscription upgrade result. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java" line="77" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java" bodystart="77" bodyend="86" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>The customer subscription upgrade implementation. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4466">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4462">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._subscription_upgrade_collection_operations" />
+        <childnode refid="4463" relation="public-inheritance"></childnode>
+        <childnode refid="4465" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4464">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4463">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="4464" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4467">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Upgrade, ResourceCollection&lt;Upgrade&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="4465">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_upgrade_collection" />
+        <childnode refid="4466" relation="public-inheritance"></childnode>
+        <childnode refid="4467" relation="public-inheritance"></childnode>
+        <childnode refid="4468" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4468">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;Upgrade, UpgradeResult&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4473">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4469">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._subscription_upgrade_collection_operations" />
+        <childnode refid="4470" relation="public-inheritance"></childnode>
+        <childnode refid="4472" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4471">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4470">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="4471" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4474">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Upgrade, ResourceCollection&lt;Upgrade&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="4472">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_upgrade_collection" />
+        <childnode refid="4473" relation="public-inheritance"></childnode>
+        <childnode refid="4474" relation="public-inheritance"></childnode>
+        <childnode refid="4475" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4475">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;Upgrade, UpgradeResult&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionUpgradeCollectionOperations.java" bodystart="26" bodyend="88" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionUpgradeCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_upgrade_collection_operations.create(Upgrade)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionUpgradeCollectionOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations.create(T)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations.">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionUpgradeCollectionOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_upgrade_collection_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionUpgradeCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionUpgradeCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionUpgradeCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_upgrade_collection_operations.SubscriptionUpgradeCollectionOperations(IPartner,String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionUpgradeCollectionOperations</scope>
+        <name>SubscriptionUpgradeCollectionOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_batch_job_status_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::devicesdeployment::IBatchJobStatusCollection</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_selector" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IBatchJobStatus&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_batch_job_status_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_batch_job_status_collection_1a7658d05b3ad29730a7ccefd86ec0ca90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_batch_job_status" kindref="compound">IBatchJobStatus</ref>
+        </type>
+        <definition>IBatchJobStatus com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId</definition>
+        <argsstring>(String trackingId)</argsstring>
+        <name>byId</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_selector_1a478aa25f0d06a2050dd16b2e687b4272">byId</reimplements>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_batch_job_status_collection_operations_1a3de2603b54084faee56410ebcc27d062">byId</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>trackingId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IBatchJobStatusCollection.java" line="25" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="1441">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IBatchJobStatus&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_selector" />
+      </node>
+      <node id="1440">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1438">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_batch_job_status_collection" />
+        <childnode refid="1439" relation="public-inheritance"></childnode>
+        <childnode refid="1441" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1439">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="1440" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1442">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_batch_job_status_collection_operations" />
+        <childnode refid="1438" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1446">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IBatchJobStatus&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_selector" />
+      </node>
+      <node id="1445">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1443">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_batch_job_status_collection" />
+        <childnode refid="1444" relation="public-inheritance"></childnode>
+        <childnode refid="1446" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1444">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="1445" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IBatchJobStatusCollection.java" line="18" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IBatchJobStatusCollection.java" bodystart="15" bodyend="26" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_batch_job_status_collection_1a7658d05b3ad29730a7ccefd86ec0ca90" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::IBatchJobStatusCollection</scope>
+        <name>byId</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::IBatchJobStatusCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::IBatchJobStatusCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1205 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem</derivedcompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.invoices._usage_based_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__PartnerId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__PartnerId</definition>
+        <argsstring></argsstring>
+        <name>__PartnerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the partner's commerce account Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="24" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__PartnerName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__PartnerName</definition>
+        <argsstring></argsstring>
+        <name>__PartnerName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the partner's Name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="39" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="39" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__PartnerBillableAccountId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__PartnerBillableAccountId</definition>
+        <argsstring></argsstring>
+        <name>__PartnerBillableAccountId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the partner billable account Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="54" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="54" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__CustomerCompanyName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__CustomerCompanyName</definition>
+        <argsstring></argsstring>
+        <name>__CustomerCompanyName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the customer company name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="69" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="69" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__MpnId" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__MpnId</definition>
+        <argsstring></argsstring>
+        <name>__MpnId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the partner's Microsoft Partner Network Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="84" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="84" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__Tier2MpnId" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__Tier2MpnId</definition>
+        <argsstring></argsstring>
+        <name>__Tier2MpnId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Tier 2 Partner's Microsoft Partner Network Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="99" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="99" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__InvoiceNumber" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__InvoiceNumber</definition>
+        <argsstring></argsstring>
+        <name>__InvoiceNumber</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the invoice number. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="114" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="114" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__SubscriptionId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__SubscriptionId</definition>
+        <argsstring></argsstring>
+        <name>__SubscriptionId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the subscription Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="129" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="129" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__SubscriptionName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__SubscriptionName</definition>
+        <argsstring></argsstring>
+        <name>__SubscriptionName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the subscription name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="144" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="144" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__SubscriptionDescription" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__SubscriptionDescription</definition>
+        <argsstring></argsstring>
+        <name>__SubscriptionDescription</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the description of the subscription. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="159" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="159" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__OrderId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__OrderId</definition>
+        <argsstring></argsstring>
+        <name>__OrderId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the order Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="174" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="174" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ServiceName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__ServiceName</definition>
+        <argsstring></argsstring>
+        <name>__ServiceName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the service name. Example: Azure Data Service </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="189" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="189" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ServiceType" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__ServiceType</definition>
+        <argsstring></argsstring>
+        <name>__ServiceType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the service type. Example: Azure SQL Azure DB. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="204" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="204" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ResourceGuid" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__ResourceGuid</definition>
+        <argsstring></argsstring>
+        <name>__ResourceGuid</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the resource identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="219" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="219" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ResourceName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__ResourceName</definition>
+        <argsstring></argsstring>
+        <name>__ResourceName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the resource name. Example: Database (GB/month) </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="234" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="234" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__Region" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__Region</definition>
+        <argsstring></argsstring>
+        <name>__Region</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the region associated with the resource instance. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="249" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="249" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ConsumedQuantity" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__ConsumedQuantity</definition>
+        <argsstring></argsstring>
+        <name>__ConsumedQuantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the total units consumed. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="264" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="264" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ChargeStartDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__ChargeStartDate</definition>
+        <argsstring></argsstring>
+        <name>__ChargeStartDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the date charge begins. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="279" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="279" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ChargeEndDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__ChargeEndDate</definition>
+        <argsstring></argsstring>
+        <name>__ChargeEndDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the date charge ends. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="294" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="294" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__Unit" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__Unit</definition>
+        <argsstring></argsstring>
+        <name>__Unit</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the unit of measure for azure usage. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="309" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="309" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__BillingCycleType" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__BillingCycleType</definition>
+        <argsstring></argsstring>
+        <name>__BillingCycleType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the illing cycle type. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="324" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="324" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__CustomerId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__CustomerId</definition>
+        <argsstring></argsstring>
+        <name>__CustomerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets The customer identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="339" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="339" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__DomainName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.__DomainName</definition>
+        <argsstring></argsstring>
+        <name>__DomainName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the domain name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="354" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="354" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getPartnerId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerId</definition>
+        <argsstring>()</argsstring>
+        <name>getPartnerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="26" bodyend="29" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setPartnerId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setPartnerId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="31" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="31" bodyend="34" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getPartnerName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerName</definition>
+        <argsstring>()</argsstring>
+        <name>getPartnerName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="41" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="41" bodyend="44" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setPartnerName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setPartnerName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="46" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="46" bodyend="49" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getPartnerBillableAccountId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getPartnerBillableAccountId</definition>
+        <argsstring>()</argsstring>
+        <name>getPartnerBillableAccountId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="56" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="56" bodyend="59" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setPartnerBillableAccountId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setPartnerBillableAccountId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setPartnerBillableAccountId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="61" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="61" bodyend="64" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getCustomerCompanyName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getCustomerCompanyName</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomerCompanyName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="71" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="71" bodyend="74" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setCustomerCompanyName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setCustomerCompanyName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCustomerCompanyName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="76" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="76" bodyend="79" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getMpnId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getMpnId</definition>
+        <argsstring>()</argsstring>
+        <name>getMpnId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="86" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="86" bodyend="89" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setMpnId(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setMpnId</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setMpnId</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="91" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="91" bodyend="94" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getTier2MpnId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getTier2MpnId</definition>
+        <argsstring>()</argsstring>
+        <name>getTier2MpnId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="101" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="101" bodyend="104" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setTier2MpnId(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setTier2MpnId</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setTier2MpnId</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="106" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="106" bodyend="109" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getInvoiceNumber()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getInvoiceNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getInvoiceNumber</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="116" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="116" bodyend="119" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setInvoiceNumber(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setInvoiceNumber</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setInvoiceNumber</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="121" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="121" bodyend="124" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getSubscriptionId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionId</definition>
+        <argsstring>()</argsstring>
+        <name>getSubscriptionId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="131" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="131" bodyend="134" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setSubscriptionId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setSubscriptionId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="136" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="136" bodyend="139" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getSubscriptionName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionName</definition>
+        <argsstring>()</argsstring>
+        <name>getSubscriptionName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="146" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="146" bodyend="149" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setSubscriptionName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setSubscriptionName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="151" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="151" bodyend="154" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getSubscriptionDescription()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getSubscriptionDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getSubscriptionDescription</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="161" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="161" bodyend="164" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setSubscriptionDescription(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setSubscriptionDescription</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setSubscriptionDescription</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="166" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="166" bodyend="169" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getOrderId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getOrderId</definition>
+        <argsstring>()</argsstring>
+        <name>getOrderId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="176" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="176" bodyend="179" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setOrderId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setOrderId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setOrderId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="181" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="181" bodyend="184" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getServiceName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getServiceName</definition>
+        <argsstring>()</argsstring>
+        <name>getServiceName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="191" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="191" bodyend="194" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setServiceName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setServiceName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setServiceName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="196" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="196" bodyend="199" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getServiceType()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getServiceType</definition>
+        <argsstring>()</argsstring>
+        <name>getServiceType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="206" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="206" bodyend="209" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setServiceType(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setServiceType</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setServiceType</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="211" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="211" bodyend="214" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getResourceGuid()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getResourceGuid</definition>
+        <argsstring>()</argsstring>
+        <name>getResourceGuid</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="221" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="221" bodyend="224" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setResourceGuid(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setResourceGuid</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setResourceGuid</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="226" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="226" bodyend="229" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getResourceName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getResourceName</definition>
+        <argsstring>()</argsstring>
+        <name>getResourceName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="236" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="236" bodyend="239" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setResourceName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setResourceName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setResourceName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="241" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="241" bodyend="244" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getRegion()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getRegion</definition>
+        <argsstring>()</argsstring>
+        <name>getRegion</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="251" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="251" bodyend="254" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setRegion(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setRegion</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setRegion</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="256" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="256" bodyend="259" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getConsumedQuantity()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getConsumedQuantity</definition>
+        <argsstring>()</argsstring>
+        <name>getConsumedQuantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="266" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="266" bodyend="269" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setConsumedQuantity(double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setConsumedQuantity</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setConsumedQuantity</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="271" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="271" bodyend="274" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getChargeStartDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getChargeStartDate</definition>
+        <argsstring>()</argsstring>
+        <name>getChargeStartDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="281" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="281" bodyend="284" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setChargeStartDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setChargeStartDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setChargeStartDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="286" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="286" bodyend="289" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getChargeEndDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getChargeEndDate</definition>
+        <argsstring>()</argsstring>
+        <name>getChargeEndDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="296" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="296" bodyend="299" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setChargeEndDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setChargeEndDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setChargeEndDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="301" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="301" bodyend="304" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getUnit()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getUnit</definition>
+        <argsstring>()</argsstring>
+        <name>getUnit</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="311" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="311" bodyend="314" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setUnit(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setUnit</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setUnit</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="316" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="316" bodyend="319" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getBillingCycleType()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getBillingCycleType</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingCycleType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="326" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="326" bodyend="329" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setBillingCycleType(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setBillingCycleType</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setBillingCycleType</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="331" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="331" bodyend="334" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.geCustomerId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.geCustomerId</definition>
+        <argsstring>()</argsstring>
+        <name>geCustomerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="341" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="341" bodyend="344" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setCustomerId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setCustomerId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCustomerId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="346" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="346" bodyend="349" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getDomainName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getDomainName</definition>
+        <argsstring>()</argsstring>
+        <name>getDomainName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="356" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="356" bodyend="359" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setDomainName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.setDomainName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setDomainName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="361" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="361" bodyend="364" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getBillingProvider()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.invoices._billing_provider" kindref="compound">BillingProvider</ref>
+        </type>
+        <definition>BillingProvider com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getBillingProvider</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingProvider</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Returns the billing provider</para>
+          <para>
+            <simplesect kind="return">
+              <para>The billing provider. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="371" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="371" bodyend="374" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents common properties for Usage based invoice line items </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="355">
+        <label>com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item" />
+        <childnode refid="356" relation="public-inheritance"></childnode>
+      </node>
+      <node id="359">
+        <label>com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._usage_based_line_item" />
+        <childnode refid="355" relation="public-inheritance"></childnode>
+      </node>
+      <node id="358">
+        <label>com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item" />
+        <childnode refid="355" relation="public-inheritance"></childnode>
+      </node>
+      <node id="356">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" />
+        <childnode refid="357" relation="public-inheritance"></childnode>
+      </node>
+      <node id="357">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="360">
+        <label>com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item" />
+        <childnode refid="361" relation="public-inheritance"></childnode>
+      </node>
+      <node id="361">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" />
+        <childnode refid="362" relation="public-inheritance"></childnode>
+      </node>
+      <node id="362">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java" bodystart="18" bodyend="375" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__BillingCycleType" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__BillingCycleType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ChargeEndDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__ChargeEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ChargeStartDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__ChargeStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ConsumedQuantity" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__ConsumedQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__CustomerCompanyName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__CustomerCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__CustomerId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__CustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__DomainName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__DomainName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__InvoiceNumber" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__InvoiceNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__MpnId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__MpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__OrderId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__OrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__PartnerBillableAccountId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__PartnerBillableAccountId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__PartnerId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__PartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__PartnerName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__PartnerName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__Region" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__Region</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ResourceGuid" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__ResourceGuid</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ResourceName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__ResourceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ServiceName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__ServiceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__ServiceType" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__ServiceType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__SubscriptionDescription" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__SubscriptionDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__SubscriptionId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__SubscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__SubscriptionName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__SubscriptionName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__Tier2MpnId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__Tier2MpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.__Unit" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>__Unit</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.geCustomerId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>geCustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getBillingCycleType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getBillingCycleType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getBillingProvider()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getBillingProvider</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getChargeEndDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getChargeEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getChargeStartDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getChargeStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getConsumedQuantity()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getConsumedQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getCustomerCompanyName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getCustomerCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getDomainName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getDomainName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item.getInvoiceLineItemType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getInvoiceLineItemType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getInvoiceNumber()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getInvoiceNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getMpnId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getOrderId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getOrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getPartnerBillableAccountId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getPartnerBillableAccountId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getPartnerId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getPartnerName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getPartnerName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getRegion()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getRegion</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getResourceGuid()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getResourceGuid</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getResourceName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getResourceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getServiceName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getServiceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getServiceType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getServiceType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getSubscriptionDescription()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getSubscriptionDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getSubscriptionId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getSubscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getSubscriptionName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getSubscriptionName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getTier2MpnId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getTier2MpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getUnit()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>getUnit</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setBillingCycleType(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setBillingCycleType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setChargeEndDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setChargeEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setChargeStartDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setChargeStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setConsumedQuantity(double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setConsumedQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setCustomerCompanyName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setCustomerCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setCustomerId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setCustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setDomainName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setDomainName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setInvoiceNumber(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setInvoiceNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setMpnId(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setOrderId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setOrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setPartnerBillableAccountId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setPartnerBillableAccountId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setPartnerId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setPartnerName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setPartnerName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setRegion(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setRegion</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setResourceGuid(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setResourceGuid</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setResourceName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setResourceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setServiceName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setServiceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setServiceType(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setServiceType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setSubscriptionDescription(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setSubscriptionDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setSubscriptionId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setSubscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setSubscriptionName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setSubscriptionName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setTier2MpnId(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setTier2MpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setUnit(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::BaseUsageBasedLineItem</scope>
+        <name>setUnit</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

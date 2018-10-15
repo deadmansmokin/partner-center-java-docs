@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::network::RetryableHttpCall</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retryable_operation" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::retries::IRetryableOperation&lt;CloseableHttpResponse&gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1a2e0543a07c8b7b256a9b6e1a25812811" prot="private" static="no" mutable="no">
+        <type>final List&lt;Integer&gt;</type>
+        <definition>final List&lt;Integer&gt; com.microsoft.store.partnercenter.network.RetryableHttpCall.nonRetryableHttpCodes</definition>
+        <argsstring></argsstring>
+        <name>nonRetryableHttpCodes</name>
+        <initializer>=
+        Arrays.asList( HttpStatusCode.BadRequest, HttpStatusCode.Unauthorized, HttpStatusCode.Forbidden,
+                       HttpStatusCode.NotFound, HttpStatusCode.Conflict, HttpStatusCode.ExpectationFailed )</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Responses with codes listed here will not be retried. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" line="34" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" bodystart="34" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1a8e58b465f0dc5bdc7464c2aa7fdffd2d" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retry_policy" kindref="compound">IRetryPolicy</ref>
+        </type>
+        <definition>IRetryPolicy com.microsoft.store.partnercenter.network.RetryableHttpCall.__RetryPolicy</definition>
+        <argsstring></argsstring>
+        <name>__RetryPolicy</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" line="57" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" bodystart="57" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1a0718065ec1662a93cf023afe8cb51d53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.network.RetryableHttpCall.RetryableHttpCall</definition>
+        <argsstring>()</argsstring>
+        <name>RetryableHttpCall</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the RetryableHttpCall class. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" line="41" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" bodystart="41" bodyend="44" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1a96b760803c74e223da62f41a58bda922" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.network.RetryableHttpCall.RetryableHttpCall</definition>
+        <argsstring>(IRetryPolicy retryPolicy)</argsstring>
+        <name>RetryableHttpCall</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retry_policy" kindref="compound">IRetryPolicy</ref>
+          </type>
+          <declname>retryPolicy</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the RetryableHttpCall class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>retryPolicy</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>An optional retry policy. The default policy will be used if not provided. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" line="51" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" bodystart="51" bodyend="54" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1acc41d77405d775683783893e2f57a0dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retry_policy" kindref="compound">IRetryPolicy</ref>
+        </type>
+        <definition>IRetryPolicy com.microsoft.store.partnercenter.network.RetryableHttpCall.getRetryPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>getRetryPolicy</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the retry policy.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The retry policy. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" line="64" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" bodystart="64" bodyend="67" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1aadc50192ee34a9545bd956a26d79a4e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.RetryableHttpCall.setRetryPolicy</definition>
+        <argsstring>(IRetryPolicy value)</argsstring>
+        <name>setRetryPolicy</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retry_policy" kindref="compound">IRetryPolicy</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the retry policy.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The retry policy. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" line="74" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" bodystart="74" bodyend="77" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1af3c79188b446253e436a3aab6f40ef2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CloseableHttpResponse</type>
+        <definition>CloseableHttpResponse com.microsoft.store.partnercenter.network.RetryableHttpCall.execute</definition>
+        <argsstring>(CloseableHttpClient httpClient, HttpUriRequest request)</argsstring>
+        <name>execute</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retryable_operation_1aea73a5b8a9e1ca127dbf2829bbf4ca42">execute</reimplements>
+        <param>
+          <type>CloseableHttpClient</type>
+          <declname>httpClient</declname>
+        </param>
+        <param>
+          <type>HttpUriRequest</type>
+          <declname>request</declname>
+        </param>
+        <exceptions> throws IOException     </exceptions>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Executes an HTTP operation with the configured retry policy.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>httpClient</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The client used to perform the HTTP operation. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>request</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The request to be performed.</para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The response from the HTTP operation. </para>
+            </simplesect>
+            <parameterlist kind="exception">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>IOException</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>If a new operation fails. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" line="88" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" bodystart="88" bodyend="166" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements retryable HTTP calls. Use this class with the retry policy you need to implement HTTP call retries. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4088">
+        <label>com::microsoft::store::partnercenter::retries::IRetryableOperation&lt;CloseableHttpResponse&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retryable_operation" />
+      </node>
+      <node id="4087">
+        <label>com.microsoft.store.partnercenter.network.RetryableHttpCall</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call" />
+        <childnode refid="4088" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4090">
+        <label>com::microsoft::store::partnercenter::retries::IRetryableOperation&lt;CloseableHttpResponse&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retryable_operation" />
+      </node>
+      <node id="4089">
+        <label>com.microsoft.store.partnercenter.network.RetryableHttpCall</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call" />
+        <childnode refid="4090" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" line="30" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/RetryableHttpCall.java" bodystart="28" bodyend="167" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1a8e58b465f0dc5bdc7464c2aa7fdffd2d" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::RetryableHttpCall</scope>
+        <name>__RetryPolicy</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1af3c79188b446253e436a3aab6f40ef2e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::RetryableHttpCall</scope>
+        <name>execute</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1acc41d77405d775683783893e2f57a0dd" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::RetryableHttpCall</scope>
+        <name>getRetryPolicy</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1a2e0543a07c8b7b256a9b6e1a25812811" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::RetryableHttpCall</scope>
+        <name>nonRetryableHttpCodes</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1a0718065ec1662a93cf023afe8cb51d53" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::RetryableHttpCall</scope>
+        <name>RetryableHttpCall</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1a96b760803c74e223da62f41a58bda922" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::RetryableHttpCall</scope>
+        <name>RetryableHttpCall</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_retryable_http_call_1aadc50192ee34a9545bd956a26d79a4e0" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::RetryableHttpCall</scope>
+        <name>setRetryPolicy</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

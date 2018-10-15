@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_i_customer_user_license_updates_8java" kind="file" language="Java">
+    <compoundname>ICustomerUserLicenseUpdates.java</compoundname>
+    <innerclass refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates" prot="public">com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseUpdates</innerclass>
+    <innernamespace refid="com.microsoft.store.partnercenter.customerusers">com::microsoft::store::partnercenter::customerusers</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="ICustomerUserLicenseUpdates.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.customerusers;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._i_partner_component" kindref="compound">IPartnerComponent</ref>;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.genericoperations" kindref="compound">genericoperations</ref>.<ref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" kindref="compound">IEntityCreateOperations</ref>;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.licenses" kindref="compound">licenses</ref>.<ref refid="com.microsoft.store.partnercenter.models.licenses._license_update" kindref="compound">LicenseUpdate</ref>;</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils" kindref="compound">utils</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils._tuple" kindref="compound">Tuple</ref>;</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="17" refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">interface<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates" kindref="compound">ICustomerUserLicenseUpdates</ref>
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter._i_partner_component" kindref="compound">IPartnerComponent</ref>&lt;Tuple&lt;String,String&gt;&gt;,</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" kindref="compound">IEntityCreateOperations</ref>&lt;LicenseUpdate,<sp />LicenseUpdate&gt;<sp /><sp /></highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="31">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.licenses._license_update" kindref="compound">LicenseUpdate</ref>
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates.create(LicenseUpdate)" kindref="member">create</ref>(<sp /><ref refid="com.microsoft.store.partnercenter.models.licenses._license_update" kindref="compound">LicenseUpdate</ref><sp />newLicenseUpdate<sp />);</highlight>
+      </codeline>
+      <codeline lineno="32">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUserLicenseUpdates.java" />
+  </compounddef>
+</doxygen>

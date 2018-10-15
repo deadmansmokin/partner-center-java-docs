@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_invoice_line_item_8java" kind="file" language="Java">
+    <compoundname>InvoiceLineItem.java</compoundname>
+    <innerclass refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_line_item" prot="public">com::microsoft::store::partnercenter::models::invoices::InvoiceLineItem</innerclass>
+    <innernamespace refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices">com::microsoft::store::partnercenter::models::invoices</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="InvoiceLineItem.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.models.invoices;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models" kindref="compound">models</ref>.<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" kindref="compound">ResourceBase</ref>;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="14" refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_line_item" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">abstract</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">class<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_line_item" kindref="compound">InvoiceLineItem</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="15">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" kindref="compound">ResourceBase</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">abstract</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_line_item_type" kindref="compound">InvoiceLineItemType</ref>
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_line_item_1ae7c0c5a236422dbc5be0364ac3b4f5de" kindref="member">getInvoiceLineItemType</ref>();</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">abstract</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_billing_provider" kindref="compound">BillingProvider</ref>
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_line_item_1ab34a3bed0cd5283dae1f08478f590bf1" kindref="member">getBillingProvider</ref>();</highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceLineItem.java" />
+  </compounddef>
+</doxygen>

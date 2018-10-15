@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1factory_1_1_i_resource_collection_enumerator_factory" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::factory::IResourceCollectionEnumeratorFactory</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+        <typeconstraint>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links" kindref="compound">ResourceBaseWithLinks</ref>&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_standard_resource_collection_links" kindref="compound">StandardResourceCollectionLinks</ref></typeconstraint>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1factory_1_1_i_resource_collection_enumerator_factory_1aa1125b6bc119ca30a3854a5ce2a572a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_i_resource_collection_enumerator" kindref="compound">IResourceCollectionEnumerator</ref>&lt;T&gt;</type>
+        <definition>IResourceCollectionEnumerator&lt;T&gt; com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory&lt;T extends ResourceBaseWithLinks&lt;StandardResourceCollectionLinks&gt;.create</definition>
+        <argsstring>(T customerResourceCollection)</argsstring>
+        <name>create</name>
+        <param>
+          <type>T</type>
+          <declname>customerResourceCollection</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Creates a customer collection enumerator capable of traversing customers.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerResourceCollection</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The initial customer resource collection to start from. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>A customer collection enumerator capable of traversing customers. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IResourceCollectionEnumeratorFactory.java" line="24" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Creates resource collection enumerators which can enumerate through resource collections. The collection type. </para>
+    </detaileddescription>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IResourceCollectionEnumeratorFactory.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IResourceCollectionEnumeratorFactory.java" bodystart="16" bodyend="25" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1factory_1_1_i_resource_collection_enumerator_factory_1aa1125b6bc119ca30a3854a5ce2a572a2" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::factory::IResourceCollectionEnumeratorFactory</scope>
+        <name>create</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

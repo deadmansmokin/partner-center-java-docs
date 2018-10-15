@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::devicesdeployment::DeviceCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.devicesdeployment._i_device_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.DeviceCollectionOperations(IPartner,String,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.DeviceCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String deviceBatchId)</argsstring>
+        <name>DeviceCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>deviceBatchId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the DeviceCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier for the customer. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>deviceBatchId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier for te device batch. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java" line="40" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java" bodystart="40" bodyend="53" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.byId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.devicesdeployment._i_device" kindref="compound">IDevice</ref>
+        </type>
+        <definition>IDevice com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.byId</definition>
+        <argsstring>(String deviceId)</argsstring>
+        <name>byId</name>
+        <reimplements refid="com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.byId(String)">byId</reimplements>
+        <param>
+          <type>String</type>
+          <declname>deviceId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java" line="62" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java" bodystart="62" bodyend="65" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.create(List&lt;Device&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.create</definition>
+        <argsstring>(List&lt;Device&gt; newDevices)</argsstring>
+        <name>create</name>
+        <reimplements refid="com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.create(List&lt;Device&gt;)">create</reimplements>
+        <param>
+          <type>List&lt;<ref refid="com.microsoft.store.partnercenter.models.devicesdeployment._device" kindref="compound">Device</ref>&gt;</type>
+          <declname>newDevices</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java" line="74" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java" bodystart="74" bodyend="88" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.devicesdeployment._device" kindref="compound">Device</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Device&gt; com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java" line="96" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java" bodystart="96" bodyend="105" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements operations that apply to device collections. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1197">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1198">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Device, ResourceCollection&lt;Device&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="1195">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1199">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;List&lt;Device&gt;, String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+      <node id="1196">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._i_device_collection" />
+        <childnode refid="1197" relation="public-inheritance"></childnode>
+        <childnode refid="1198" relation="public-inheritance"></childnode>
+        <childnode refid="1199" relation="public-inheritance"></childnode>
+        <childnode refid="1200" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1194">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="1195" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1193">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations" />
+        <childnode refid="1194" relation="public-inheritance"></childnode>
+        <childnode refid="1196" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1200">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IDevice&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1205">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1206">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Device, ResourceCollection&lt;Device&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="1203">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1207">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;List&lt;Device&gt;, String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+      <node id="1204">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._i_device_collection" />
+        <childnode refid="1205" relation="public-inheritance"></childnode>
+        <childnode refid="1206" relation="public-inheritance"></childnode>
+        <childnode refid="1207" relation="public-inheritance"></childnode>
+        <childnode refid="1208" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1202">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="1203" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1201">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations" />
+        <childnode refid="1202" relation="public-inheritance"></childnode>
+        <childnode refid="1204" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1208">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IDevice&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java" line="32" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java" bodystart="29" bodyend="106" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DeviceCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.byId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DeviceCollectionOperations</scope>
+        <name>byId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.create(List&lt;Device&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DeviceCollectionOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations.create(T)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations.">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DeviceCollectionOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.DeviceCollectionOperations(IPartner,String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DeviceCollectionOperations</scope>
+        <name>DeviceCollectionOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DeviceCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DeviceCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::DeviceCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.customers.servicecosts._i_customer_service_costs_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customers::servicecosts::ICustomerServiceCostsCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.customers.servicecosts._customer_service_costs_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.servicecosts.CustomerServiceCostsCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers.servicecosts._i_customer_service_costs_collection.byBillingPeriod(ServiceCostsBillingPeriod)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection" kindref="compound">IServiceCostsCollection</ref>
+        </type>
+        <definition>IServiceCostsCollection com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod</definition>
+        <argsstring>(ServiceCostsBillingPeriod billingPeriod)</argsstring>
+        <name>byBillingPeriod</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers.servicecosts._customer_service_costs_collection_operations.byBillingPeriod(ServiceCostsBillingPeriod)">byBillingPeriod</reimplementedby>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period" kindref="compound">ServiceCostsBillingPeriod</ref>
+          </type>
+          <declname>billingPeriod</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/ICustomerServiceCostsCollection.java" line="24" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Holds customer service costs behavior. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1700">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1701">
+        <label>com.microsoft.store.partnercenter.customers.servicecosts.CustomerServiceCostsCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customers.servicecosts._customer_service_costs_collection_operations" />
+        <childnode refid="1698" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1698">
+        <label>com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.customers.servicecosts._i_customer_service_costs_collection" />
+        <childnode refid="1699" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1699">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1700" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1704">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1702">
+        <label>com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.customers.servicecosts._i_customer_service_costs_collection" />
+        <childnode refid="1703" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1703">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1704" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/ICustomerServiceCostsCollection.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/ICustomerServiceCostsCollection.java" bodystart="15" bodyend="25" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.customers.servicecosts._i_customer_service_costs_collection.byBillingPeriod(ServiceCostsBillingPeriod)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::servicecosts::ICustomerServiceCostsCollection</scope>
+        <name>byBillingPeriod</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::servicecosts::ICustomerServiceCostsCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::servicecosts::ICustomerServiceCostsCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

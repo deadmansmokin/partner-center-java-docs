@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.customers._customer" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::customers::Customer</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base_with_links" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.customers._customer.__Id" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.customers.Customer.__Id</definition>
+        <argsstring></argsstring>
+        <name>__Id</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="29" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.customers._customer.__CommerceId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.customers.Customer.__CommerceId</definition>
+        <argsstring></argsstring>
+        <name>__CommerceId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="52" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="52" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.customers._customer.__CompanyProfile" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.customers._customer_company_profile" kindref="compound">CustomerCompanyProfile</ref>
+        </type>
+        <definition>CustomerCompanyProfile com.microsoft.store.partnercenter.models.customers.Customer.__CompanyProfile</definition>
+        <argsstring></argsstring>
+        <name>__CompanyProfile</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="75" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="75" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.customers._customer.__BillingProfile" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.customers._customer_billing_profile" kindref="compound">CustomerBillingProfile</ref>
+        </type>
+        <definition>CustomerBillingProfile com.microsoft.store.partnercenter.models.customers.Customer.__BillingProfile</definition>
+        <argsstring></argsstring>
+        <name>__BillingProfile</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="98" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="98" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.customers._customer.__RelationshipToPartner" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.customers._customer_partner_relationship" kindref="compound">CustomerPartnerRelationship</ref>
+        </type>
+        <definition>CustomerPartnerRelationship com.microsoft.store.partnercenter.models.customers.Customer.__RelationshipToPartner</definition>
+        <argsstring></argsstring>
+        <name>__RelationshipToPartner</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="121" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="121" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.customers._customer.__AllowDelegatedAccess" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.customers.Customer.__AllowDelegatedAccess</definition>
+        <argsstring></argsstring>
+        <name>__AllowDelegatedAccess</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="144" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="144" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.customers._customer.__UserCredentials" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._user_credentials" kindref="compound">UserCredentials</ref>
+        </type>
+        <definition>UserCredentials com.microsoft.store.partnercenter.models.customers.Customer.__UserCredentials</definition>
+        <argsstring></argsstring>
+        <name>__UserCredentials</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="168" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="168" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.customers._customer.__CustomDomains" prot="private" static="no" mutable="no">
+        <type>List&lt;String&gt;</type>
+        <definition>List&lt;String&gt; com.microsoft.store.partnercenter.models.customers.Customer.__CustomDomains</definition>
+        <argsstring></argsstring>
+        <name>__CustomDomains</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="191" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="191" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.customers._customer.__AssociatedPartnerId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.customers.Customer.__AssociatedPartnerId</definition>
+        <argsstring></argsstring>
+        <name>__AssociatedPartnerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="214" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="214" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.Customer()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.customers.Customer.Customer</definition>
+        <argsstring>()</argsstring>
+        <name>Customer</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="24" bodyend="26" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.getId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.customers.Customer.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the identifier.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer identifier. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="36" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="36" bodyend="39" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.setId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.customers.Customer.setId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the identifier.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="46" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="46" bodyend="49" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.getCommerceId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.customers.Customer.getCommerceId</definition>
+        <argsstring>()</argsstring>
+        <name>getCommerceId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the commerce identifier.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The commerce identifier. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="59" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="59" bodyend="62" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.setCommerceId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.customers.Customer.setCommerceId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCommerceId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the commerce identifier</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The commerce identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="69" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="69" bodyend="72" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.getCompanyProfile()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.customers._customer_company_profile" kindref="compound">CustomerCompanyProfile</ref>
+        </type>
+        <definition>CustomerCompanyProfile com.microsoft.store.partnercenter.models.customers.Customer.getCompanyProfile</definition>
+        <argsstring>()</argsstring>
+        <name>getCompanyProfile</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the company profile.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The compnay profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="82" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="82" bodyend="85" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.setCompanyProfile(CustomerCompanyProfile)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.customers.Customer.setCompanyProfile</definition>
+        <argsstring>(CustomerCompanyProfile value)</argsstring>
+        <name>setCompanyProfile</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.customers._customer_company_profile" kindref="compound">CustomerCompanyProfile</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the company profile.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The company profile. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="92" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="92" bodyend="95" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.getBillingProfile()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.customers._customer_billing_profile" kindref="compound">CustomerBillingProfile</ref>
+        </type>
+        <definition>CustomerBillingProfile com.microsoft.store.partnercenter.models.customers.Customer.getBillingProfile</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingProfile</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the billing profile.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The billing profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="105" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="105" bodyend="108" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.setBillingProfile(CustomerBillingProfile)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.customers.Customer.setBillingProfile</definition>
+        <argsstring>(CustomerBillingProfile value)</argsstring>
+        <name>setBillingProfile</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.customers._customer_billing_profile" kindref="compound">CustomerBillingProfile</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the billing profile.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The billing profile. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="115" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="115" bodyend="118" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.getRelationshipToPartner()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.customers._customer_partner_relationship" kindref="compound">CustomerPartnerRelationship</ref>
+        </type>
+        <definition>CustomerPartnerRelationship com.microsoft.store.partnercenter.models.customers.Customer.getRelationshipToPartner</definition>
+        <argsstring>()</argsstring>
+        <name>getRelationshipToPartner</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the relationship to the partner.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The relationship to the partner. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="128" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="128" bodyend="131" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.setRelationshipToPartner(CustomerPartnerRelationship)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.customers.Customer.setRelationshipToPartner</definition>
+        <argsstring>(CustomerPartnerRelationship value)</argsstring>
+        <name>setRelationshipToPartner</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.customers._customer_partner_relationship" kindref="compound">CustomerPartnerRelationship</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the relationship to the partner.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The relationship to the partner. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="138" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="138" bodyend="141" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.getAllowDelegatedAccess()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean com.microsoft.store.partnercenter.models.customers.Customer.getAllowDelegatedAccess</definition>
+        <argsstring>()</argsstring>
+        <name>getAllowDelegatedAccess</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets a flag indicating whether allow delegated access is enabled or not.</para>
+          <para>
+            <simplesect kind="return">
+              <para>A flag indicating whether allow delegated access is enabled or not. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="151" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="151" bodyend="154" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.setAllowDelegatedAccess(Boolean)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.customers.Customer.setAllowDelegatedAccess</definition>
+        <argsstring>(Boolean value)</argsstring>
+        <name>setAllowDelegatedAccess</name>
+        <param>
+          <type>Boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets a flag indicating whether allow delegated access is enabled or not.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>A flag indicating whether allow delegated access is enabled or not. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="161" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="161" bodyend="164" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.getUserCredentials()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._user_credentials" kindref="compound">UserCredentials</ref>
+        </type>
+        <definition>UserCredentials com.microsoft.store.partnercenter.models.customers.Customer.getUserCredentials</definition>
+        <argsstring>()</argsstring>
+        <name>getUserCredentials</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the user credentials.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The user credentials. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="175" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="175" bodyend="178" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.setUserCredentials(UserCredentials)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.customers.Customer.setUserCredentials</definition>
+        <argsstring>(UserCredentials value)</argsstring>
+        <name>setUserCredentials</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models._user_credentials" kindref="compound">UserCredentials</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the user credentials.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The user credentials. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="185" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="185" bodyend="188" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.getCustomDomains()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt;String&gt;</type>
+        <definition>List&lt;String&gt; com.microsoft.store.partnercenter.models.customers.Customer.getCustomDomains</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomDomains</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the custom domains.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The custom domains. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="198" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="198" bodyend="201" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.setCustomDomains(List&lt;String&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.customers.Customer.setCustomDomains</definition>
+        <argsstring>(List&lt;String&gt; value)</argsstring>
+        <name>setCustomDomains</name>
+        <param>
+          <type>List&lt;String&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the custom domains.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The custom domains. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="208" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="208" bodyend="211" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.getAssociatedPartnerId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.customers.Customer.getAssociatedPartnerId</definition>
+        <argsstring>()</argsstring>
+        <name>getAssociatedPartnerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the indirect reseller associated to this customer account.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The indirect reseller associated to this customer account. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="221" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="221" bodyend="224" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.customers._customer.setAssociatedPartnerId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.customers.Customer.setAssociatedPartnerId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setAssociatedPartnerId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the indirect reseller associated to this customer account. This value can be set only by indirect CSP partners.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The indirect reseller associated to this customer account. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="232" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="232" bodyend="235" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Base customer profile for both Company, Billing profiles </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="595">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="596" relation="public-inheritance"></childnode>
+      </node>
+      <node id="594">
+        <label>com.microsoft.store.partnercenter.models.customers.Customer</label>
+        <link refid="com.microsoft.store.partnercenter.models.customers._customer" />
+        <childnode refid="595" relation="public-inheritance"></childnode>
+      </node>
+      <node id="596">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="598">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="599" relation="public-inheritance"></childnode>
+      </node>
+      <node id="597">
+        <label>com.microsoft.store.partnercenter.models.customers.Customer</label>
+        <link refid="com.microsoft.store.partnercenter.models.customers._customer" />
+        <childnode refid="598" relation="public-inheritance"></childnode>
+      </node>
+      <node id="599">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" line="23" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/customers/Customer.java" bodystart="21" bodyend="236" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.__AllowDelegatedAccess" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>__AllowDelegatedAccess</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.__AssociatedPartnerId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>__AssociatedPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.__BillingProfile" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>__BillingProfile</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.__CommerceId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>__CommerceId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.__CompanyProfile" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>__CompanyProfile</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.__CustomDomains" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>__CustomDomains</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.__Id" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>__Id</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.__RelationshipToPartner" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>__RelationshipToPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.__UserCredentials" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>__UserCredentials</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.Customer()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>Customer</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.getAllowDelegatedAccess()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>getAllowDelegatedAccess</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.getAssociatedPartnerId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>getAssociatedPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.getBillingProfile()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>getBillingProfile</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.getCommerceId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>getCommerceId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.getCompanyProfile()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>getCompanyProfile</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.getCustomDomains()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>getCustomDomains</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.getId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>getId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.getLinks()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.getRelationshipToPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>getRelationshipToPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.getUserCredentials()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>getUserCredentials</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.setAllowDelegatedAccess(Boolean)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>setAllowDelegatedAccess</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.setAssociatedPartnerId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>setAssociatedPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.setBillingProfile(CustomerBillingProfile)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>setBillingProfile</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.setCommerceId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>setCommerceId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.setCompanyProfile(CustomerCompanyProfile)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>setCompanyProfile</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.setCustomDomains(List&lt;String&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>setCustomDomains</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.setId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>setId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.setLinks(TLinks)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.setRelationshipToPartner(CustomerPartnerRelationship)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>setRelationshipToPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.customers._customer.setUserCredentials(UserCredentials)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::customers::Customer</scope>
+        <name>setUserCredentials</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

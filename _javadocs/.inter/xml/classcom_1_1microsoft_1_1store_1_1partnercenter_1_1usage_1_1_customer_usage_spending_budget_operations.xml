@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_spending_budget_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_spending_budget" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_spending_budget_operations_1a7dd3fb69a6f6fbfdfb28f5d629b6099d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.CustomerUsageSpendingBudgetOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId)</argsstring>
+        <name>CustomerUsageSpendingBudgetOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the CustomerUsageSpendingBudgetOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageSpendingBudgetOperations.java" line="34" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageSpendingBudgetOperations.java" bodystart="34" bodyend="42" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_spending_budget_operations_1a957e6b25ef041eb5a4093a2812206168" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1usage_1_1_spending_budget" kindref="compound">SpendingBudget</ref>
+        </type>
+        <definition>SpendingBudget com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_spending_budget_1a6f7d73b06feabaa3ea8f0d7deff966c2">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the usage spending budget allocated to a customer by the partner.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer usage spending budget. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageSpendingBudgetOperations.java" line="50" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageSpendingBudgetOperations.java" bodystart="50" bodyend="58" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_spending_budget_operations_1ae3e919e60afd21d08d9730139e2e0bc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1usage_1_1_spending_budget" kindref="compound">SpendingBudget</ref>
+        </type>
+        <definition>SpendingBudget com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.patch</definition>
+        <argsstring>(SpendingBudget usageSpendingBudget)</argsstring>
+        <name>patch</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_spending_budget_1a24907365650751415244acf052707a40">patch</reimplements>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1usage_1_1_spending_budget" kindref="compound">SpendingBudget</ref>
+          </type>
+          <declname>usageSpendingBudget</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Patches the usage spending budget allocated to a customer by the partner.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>usageSpendingBudget</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The new customer usage spending budget. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The updated customer usage spending budget. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageSpendingBudgetOperations.java" line="67" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageSpendingBudgetOperations.java" bodystart="67" bodyend="79" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>This class implements the operations available on a customer's usage spending budget. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1058">
+        <label>com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_spending_budget" />
+        <childnode refid="1059" relation="public-inheritance"></childnode>
+        <childnode refid="1061" relation="public-inheritance"></childnode>
+        <childnode refid="1062" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1055">
+        <label>com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_spending_budget_operations" />
+        <childnode refid="1056" relation="public-inheritance"></childnode>
+        <childnode refid="1058" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1060">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1061">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SpendingBudget&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="1057">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="1056">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="1057" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1059">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="1060" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1062">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;SpendingBudget&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1066">
+        <label>com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_spending_budget" />
+        <childnode refid="1067" relation="public-inheritance"></childnode>
+        <childnode refid="1069" relation="public-inheritance"></childnode>
+        <childnode refid="1070" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1063">
+        <label>com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_spending_budget_operations" />
+        <childnode refid="1064" relation="public-inheritance"></childnode>
+        <childnode refid="1066" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1068">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1069">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SpendingBudget&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="1065">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="1064">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="1065" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1067">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="1068" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1070">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;SpendingBudget&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageSpendingBudgetOperations.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageSpendingBudgetOperations.java" bodystart="24" bodyend="81" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1ae6339c5a921b5c3b6a545e1064951c83" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1a9662304cff58f8d465d2a47e7e8cedf0" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_spending_budget_operations_1a7dd3fb69a6f6fbfdfb28f5d629b6099d" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</scope>
+        <name>CustomerUsageSpendingBudgetOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_spending_budget_operations_1a957e6b25ef041eb5a4093a2812206168" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::usage::ICustomerUsageSpendingBudget.">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::usage::ICustomerUsageSpendingBudget.">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_spending_budget_operations_1ae3e919e60afd21d08d9730139e2e0bc5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</scope>
+        <name>patch</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations_1ac05e2fca307079ba25695f34bbcaa27a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations.">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageSpendingBudgetOperations</scope>
+        <name>patch</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

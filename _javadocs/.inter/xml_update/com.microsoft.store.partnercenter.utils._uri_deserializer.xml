@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.utils._uri_deserializer" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::utils::UriDeserializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">com::fasterxml::jackson::databind::JsonDeserializer&lt;URI&gt;</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.utils._uri_deserializer.deserialize(JsonParser,DeserializationContext)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>URI</type>
+        <definition>URI com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize</definition>
+        <argsstring>(JsonParser parser, DeserializationContext context)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>JsonParser</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>DeserializationContext</type>
+          <declname>context</declname>
+        </param>
+        <exceptions> throws IOException, JsonProcessingException 	</exceptions>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/UriDeserializer.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/UriDeserializer.java" bodystart="24" bodyend="48" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="4577">
+        <label>com::fasterxml::jackson::databind::JsonDeserializer&lt;URI&gt;</label>
+      </node>
+      <node id="4576">
+        <label>com.microsoft.store.partnercenter.utils.UriDeserializer</label>
+        <link refid="com.microsoft.store.partnercenter.utils._uri_deserializer" />
+        <childnode refid="4577" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4579">
+        <label>com::fasterxml::jackson::databind::JsonDeserializer&lt;URI&gt;</label>
+      </node>
+      <node id="4578">
+        <label>com.microsoft.store.partnercenter.utils.UriDeserializer</label>
+        <link refid="com.microsoft.store.partnercenter.utils._uri_deserializer" />
+        <childnode refid="4579" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/UriDeserializer.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utils/UriDeserializer.java" bodystart="20" bodyend="49" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.utils._uri_deserializer.deserialize(JsonParser,DeserializationContext)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::utils::UriDeserializer</scope>
+        <name>deserialize</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by1794bce7cb6b2412914593d5d082321e" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::products::ProductCollectionByCountryByTargetViewByTargetSegmentOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_coun927eaaccc93dc3c4b75af84feb96b957" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by1794bce7cb6b2412914593d5d082321e_1a3164e54b5e78f4c7cf681af92273b6f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewByTargetSegmentOperations.ProductCollectionByCountryByTargetViewByTargetSegmentOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String targetView, String country, String targetSegment)</argsstring>
+        <name>ProductCollectionByCountryByTargetViewByTargetSegmentOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>targetView</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>country</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>targetSegment</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the ProductCollectionByCountryByTargetViewByTargetSegmentOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>targetView</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The target view which contains the products. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>country</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The country on which to base the product. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>targetSegment</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The target segment used for filtering the products. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/ProductCollectionByCountryByTargetViewByTargetSegmentOperations.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/ProductCollectionByCountryByTargetViewByTargetSegmentOperations.java" bodystart="37" bodyend="52" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by1794bce7cb6b2412914593d5d082321e_1aa2103924581d1c8d3dfeaaba14d18eb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_product" kindref="compound">Product</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Product&gt; com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewByTargetSegmentOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_coun927eaaccc93dc3c4b75af84feb96b957_1ae40c3e1bb4901b786dd24e4d20af0c37">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/ProductCollectionByCountryByTargetViewByTargetSegmentOperations.java" line="59" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/ProductCollectionByCountryByTargetViewByTargetSegmentOperations.java" bodystart="59" bodyend="85" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Product operations by country, by target view and by target segment implementation class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3751">
+        <label>com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewByTargetSegmentOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by1794bce7cb6b2412914593d5d082321e" />
+        <childnode refid="3752" relation="public-inheritance"></childnode>
+        <childnode refid="3754" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3753">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3752">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="3753" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3754">
+        <label>com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_coun927eaaccc93dc3c4b75af84feb96b957" />
+        <childnode refid="3755" relation="public-inheritance"></childnode>
+        <childnode refid="3756" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3755">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3756">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Product, ResourceCollection&lt;Product&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3757">
+        <label>com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewByTargetSegmentOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by1794bce7cb6b2412914593d5d082321e" />
+        <childnode refid="3758" relation="public-inheritance"></childnode>
+        <childnode refid="3760" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3759">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3758">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="3759" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3760">
+        <label>com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_coun927eaaccc93dc3c4b75af84feb96b957" />
+        <childnode refid="3761" relation="public-inheritance"></childnode>
+        <childnode refid="3762" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3761">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3762">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Product, ResourceCollection&lt;Product&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/ProductCollectionByCountryByTargetViewByTargetSegmentOperations.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/ProductCollectionByCountryByTargetViewByTargetSegmentOperations.java" bodystart="25" bodyend="86" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::ProductCollectionByCountryByTargetViewByTargetSegmentOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by1794bce7cb6b2412914593d5d082321e_1aa2103924581d1c8d3dfeaaba14d18eb2" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::ProductCollectionByCountryByTargetViewByTargetSegmentOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::ProductCollectionByCountryByTargetViewByTargetSegmentOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::ProductCollectionByCountryByTargetViewByTargetSegmentOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by1794bce7cb6b2412914593d5d082321e_1a3164e54b5e78f4c7cf681af92273b6f3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::ProductCollectionByCountryByTargetViewByTargetSegmentOperations</scope>
+        <name>ProductCollectionByCountryByTargetViewByTargetSegmentOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

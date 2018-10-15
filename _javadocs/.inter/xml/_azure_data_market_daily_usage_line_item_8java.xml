@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_azure_data_market_daily_usage_line_item_8java" kind="file" language="Java">
+    <compoundname>AzureDataMarketDailyUsageLineItem.java</compoundname>
+    <innerclass refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_azure_data_market_daily_usage_line_item" prot="public">com::microsoft::store::partnercenter::models::invoices::AzureDataMarketDailyUsageLineItem</innerclass>
+    <innernamespace refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices">com::microsoft::store::partnercenter::models::invoices</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />----------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="AzureDataMarketDailyUsageLineItem.java"<sp />company="Microsoft<sp />Corporation"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />----------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.models.invoices;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />org.joda.time.DateTime;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="11" refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_azure_data_market_daily_usage_line_item" refkind="compound">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">class<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_azure_data_market_daily_usage_line_item" kindref="compound">AzureDataMarketDailyUsageLineItem</ref>
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_base_azure_data_market_line_item" kindref="compound">BaseAzureDataMarketLineItem</ref>
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="14">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />or<sp />sets<sp />the<sp />usage<sp />date<sp />the<sp />resource.</highlight>
+      </codeline>
+      <codeline lineno="15">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />DateTime<sp />__UsageDate;</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />or<sp />sets<sp />the<sp />metered<sp />service<sp />name.</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Example:<sp />Storage.</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />String<sp />__MeteredServiceName;</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="25">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />or<sp />sets<sp />the<sp />metered<sp />service<sp />type.</highlight>
+      </codeline>
+      <codeline lineno="26">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="27">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />String<sp />__MeteredServiceType;</highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />or<sp />sets<sp />the<sp />customer<sp />assigned<sp />friendly<sp />name<sp />for<sp />the<sp />resource<sp />instance.</highlight>
+      </codeline>
+      <codeline lineno="31">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="32">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />String<sp />__ResourceFriendlyName;</highlight>
+      </codeline>
+      <codeline lineno="33">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="37">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />DateTime<sp /><ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_azure_data_market_daily_usage_line_item_1a461acf0e4f460a3ab30ec72c6791c263" kindref="member">get__UsageDate</ref>()<sp />{</highlight>
+      </codeline>
+      <codeline lineno="38">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />__UsageDate;</highlight>
+      </codeline>
+      <codeline lineno="39">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="40">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="44">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_azure_data_market_daily_usage_line_item_1a6d0f3a8471e96f05687beb86fdca46ce" kindref="member">set__UsageDate</ref>(DateTime<sp />__UsageDate)<sp />{</highlight>
+      </codeline>
+      <codeline lineno="45">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.__UsageDate<sp />=<sp />__UsageDate;</highlight>
+      </codeline>
+      <codeline lineno="46">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="47">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="51">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />String<sp /><ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_azure_data_market_daily_usage_line_item_1aa2a87bf9a5f70b7af4003b2a8a433382" kindref="member">get__MeteredServiceName</ref>()<sp />{</highlight>
+      </codeline>
+      <codeline lineno="52">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />__MeteredServiceName;</highlight>
+      </codeline>
+      <codeline lineno="53">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="54">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="58">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_azure_data_market_daily_usage_line_item_1ac85fec974acea5e26520f892565d0d84" kindref="member">set__MeteredServiceName</ref>(String<sp />__MeteredServiceName)<sp />{</highlight>
+      </codeline>
+      <codeline lineno="59">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.__MeteredServiceName<sp />=<sp />__MeteredServiceName;</highlight>
+      </codeline>
+      <codeline lineno="60">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="61">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="65">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />String<sp /><ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_azure_data_market_daily_usage_line_item_1aadc2663a6b32342566fb6613075465f4" kindref="member">get__MeteredServiceType</ref>()<sp />{</highlight>
+      </codeline>
+      <codeline lineno="66">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />__MeteredServiceType;</highlight>
+      </codeline>
+      <codeline lineno="67">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="68">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="72">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_azure_data_market_daily_usage_line_item_1a020d4fd62251e8cc9e9dbf67d0bd8ac5" kindref="member">set__MeteredServiceType</ref>(String<sp />__MeteredServiceType)<sp />{</highlight>
+      </codeline>
+      <codeline lineno="73">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.__MeteredServiceType<sp />=<sp />__MeteredServiceType;</highlight>
+      </codeline>
+      <codeline lineno="74">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="75">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="79">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />String<sp /><ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_azure_data_market_daily_usage_line_item_1a665ab996a1dac83aa332386c741e464a" kindref="member">get__ResourceFriendlyName</ref>()<sp />{</highlight>
+      </codeline>
+      <codeline lineno="80">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />__ResourceFriendlyName;</highlight>
+      </codeline>
+      <codeline lineno="81">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="82">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="86">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_azure_data_market_daily_usage_line_item_1a7e7a9520e22fcf8397fde6cab5f44349" kindref="member">set__ResourceFriendlyName</ref>(String<sp />__ResourceFriendlyName)<sp />{</highlight>
+      </codeline>
+      <codeline lineno="87">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.__ResourceFriendlyName<sp />=<sp />__ResourceFriendlyName;</highlight>
+      </codeline>
+      <codeline lineno="88">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="89">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="90">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="91">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Returns<sp />the<sp />type<sp />of<sp />invoice<sp />line<sp />item.</highlight>
+      </codeline>
+      <codeline lineno="92">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="93">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />type<sp />of<sp />invoice<sp />line<sp />item.</highlight>
+      </codeline>
+      <codeline lineno="94">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="95">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@Override</highlight>
+      </codeline>
+      <codeline lineno="96">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_line_item_type" kindref="compound">InvoiceLineItemType</ref>
+          <sp />getInvoiceLineItemType()<sp />{</highlight>
+      </codeline>
+      <codeline lineno="97">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_line_item_type" kindref="compound">InvoiceLineItemType</ref>.USAGELINEITEMS;</highlight>
+      </codeline>
+      <codeline lineno="98">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="99">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="100">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/AzureDataMarketDailyUsageLineItem.java" />
+  </compounddef>
+</doxygen>

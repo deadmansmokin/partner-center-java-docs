@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.serviceincidents._i_service_incident_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::serviceincidents::IServiceIncidentCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;ServiceIncidents, ResourceCollection&lt;ServiceIncidents&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.serviceincidents._service_incident_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.serviceincidents._i_service_incident_collection.get(IQuery)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.serviceincidents._service_incidents" kindref="compound">ServiceIncidents</ref>&gt;</type>
+        <definition>ResourceCollection&lt;ServiceIncidents&gt; com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.get</definition>
+        <argsstring>(IQuery serviceIncidentsQuery)</argsstring>
+        <name>get</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.serviceincidents._service_incident_collection_operations.get(IQuery)">get</reimplementedby>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.query._i_query" kindref="compound">IQuery</ref>
+          </type>
+          <declname>serviceIncidentsQuery</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/serviceincidents/IServiceIncidentCollection.java" line="24" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="3035">
+        <label>com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection</label>
+        <link refid="com.microsoft.store.partnercenter.serviceincidents._i_service_incident_collection" />
+        <childnode refid="3036" relation="public-inheritance"></childnode>
+        <childnode refid="3038" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3039">
+        <label>com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.serviceincidents._service_incident_collection_operations" />
+        <childnode refid="3035" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3037">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3038">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;ServiceIncidents, ResourceCollection&lt;ServiceIncidents&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="3036">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="3037" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3040">
+        <label>com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection</label>
+        <link refid="com.microsoft.store.partnercenter.serviceincidents._i_service_incident_collection" />
+        <childnode refid="3041" relation="public-inheritance"></childnode>
+        <childnode refid="3043" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3042">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3043">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;ServiceIncidents, ResourceCollection&lt;ServiceIncidents&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="3041">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="3042" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/serviceincidents/IServiceIncidentCollection.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/serviceincidents/IServiceIncidentCollection.java" bodystart="15" bodyend="25" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.serviceincidents._i_service_incident_collection.get(IQuery)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::serviceincidents::IServiceIncidentCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations.">
+        <scope>com::microsoft::store::partnercenter::serviceincidents::IServiceIncidentCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::serviceincidents::IServiceIncidentCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::serviceincidents::IServiceIncidentCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

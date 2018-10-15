@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.exception.PartnerException</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a2dc59acc1e1eaee31694baf90c01a2d2" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long com.microsoft.store.partnercenter.exception.PartnerResponseParseException.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 2L</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" bodystart="21" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1aafe97b0f4470b7bd3ba4aa5808bb7b25" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.exception.PartnerResponseParseException.__Response</definition>
+        <argsstring></argsstring>
+        <name>__Response</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the HTTP response payload which could not be parsed. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" line="74" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" bodystart="74" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a37a810caebb0afba3e9f1b51791ffeaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException</definition>
+        <argsstring>()</argsstring>
+        <name>PartnerResponseParseException</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the PartnerResponseParseException class. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" bodystart="26" bodyend="29" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a4727e175aaaa32370cf58c9e672489be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException</definition>
+        <argsstring>(String message)</argsstring>
+        <name>PartnerResponseParseException</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the PartnerResponseParseException class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>message</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The exception message. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" line="36" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" bodystart="36" bodyend="39" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a5cfb53c47e61c7c1bdd057e396f061f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException</definition>
+        <argsstring>(String message, Exception innerException)</argsstring>
+        <name>PartnerResponseParseException</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>innerException</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the PartnerResponseParseException class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>message</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The exception message. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>innerException</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The exception that is the cause of the current exception, or a null reference if no inner exception is specified. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" line="48" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" bodystart="48" bodyend="52" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1ae5b338f46641a32050e26a8c2323aba4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException</definition>
+        <argsstring>(String response, IRequestContext context, String message, Exception innerException)</argsstring>
+        <name>PartnerResponseParseException</name>
+        <param>
+          <type>String</type>
+          <declname>response</declname>
+        </param>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context" kindref="compound">IRequestContext</ref>
+          </type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>innerException</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the PartnerResponseParseException class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>response</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The HTTP response payload which could not be parsed. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>context</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The partner context. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>message</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The exception message. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>innerException</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The exception that is the cause of the current exception, or a null reference if no inner exception is specified. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" line="63" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" bodystart="63" bodyend="69" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a756e7c5bc033dc2cf2ff23ae8ebf3cc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.exception.PartnerResponseParseException.getResponse</definition>
+        <argsstring>()</argsstring>
+        <name>getResponse</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" line="76" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" bodystart="76" bodyend="79" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a92eba296fadf1c3ce068b5fd422ad00c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.exception.PartnerResponseParseException.setResponse</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setResponse</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" line="81" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" bodystart="81" bodyend="84" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1ab575989123f71795baa574df5eaddf00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.exception.PartnerResponseParseException.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Displays the partner API network exception details.</para>
+          <para>
+            <simplesect kind="return">
+              <para>A string representing the network exception including the base and extended properties. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" line="92" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" bodystart="92" bodyend="97" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>This exception is thrown by <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy" kindref="compound">com.microsoft.store.partnercenter.network.IPartnerServiceProxy</ref> objects when they fail to parse the response according to the caller's expectations. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3651">
+        <label>com.microsoft.store.partnercenter.exception.PartnerResponseParseException</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception" />
+        <childnode refid="3652" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3652">
+        <label>com.microsoft.store.partnercenter.exception.PartnerException</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception" />
+        <childnode refid="3653" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3653">
+        <label>RuntimeException</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3654">
+        <label>com.microsoft.store.partnercenter.exception.PartnerResponseParseException</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception" />
+        <childnode refid="3655" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3655">
+        <label>com.microsoft.store.partnercenter.exception.PartnerException</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception" />
+        <childnode refid="3656" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3656">
+        <label>RuntimeException</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/exception/PartnerResponseParseException.java" bodystart="18" bodyend="99" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1aafe97b0f4470b7bd3ba4aa5808bb7b25" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>__Response</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1a9c190579b992fd0e03310833ab143cb1" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1ae74737bb40afe2cb5e8c903817f10466" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>getErrorCategory</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a756e7c5bc033dc2cf2ff23ae8ebf3cc9" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>getResponse</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1a12ac466b63502de4ec745504d3fbcb79" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>getServiceErrorPayload</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1a395ef9f478df01e327e3092dd786aec5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1ade413b29ebf66f3f3d33dfabc5b787df" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1a6972d6d482620b1f2f8d942ac30f569d" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1aa7682753af04072f641791d7e1c8fc68" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1a569449b6871cf4227bbb53b96cdea9ea" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1a447744400676bc8480f364983afd6170" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1ae453b6a404f307b53ee510b31b400895" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1a78c4c1db40792a07e55c3018cf069f55" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a37a810caebb0afba3e9f1b51791ffeaa" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerResponseParseException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a4727e175aaaa32370cf58c9e672489be" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerResponseParseException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a5cfb53c47e61c7c1bdd057e396f061f2" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerResponseParseException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1ae5b338f46641a32050e26a8c2323aba4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>PartnerResponseParseException</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a2dc59acc1e1eaee31694baf90c01a2d2" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>serialVersionUID</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1a2ff0c33630e07a4063574b8fbd9c9dbe" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>setContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1a974ce7d1f01adf31604bc49131bc01bb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>setErrorCategory</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1a92eba296fadf1c3ce068b5fd422ad00c" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>setResponse</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_exception_1ad74e9af8b51fbfd35bebb0b455fd84ad" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>setServiceErrorPayload</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1exception_1_1_partner_response_parse_exception_1ab575989123f71795baa574df5eaddf00" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::exception::PartnerResponseParseException</scope>
+        <name>toString</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

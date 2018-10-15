@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::factory::IndexBasedCollectionEnumeratorFactory</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory&lt;TResourceCollection&gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+        <typeconstraint>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_base" kindref="compound">ResourceBase</ref>
+        </typeconstraint>
+      </param>
+      <param>
+        <type>TResourceCollection</type>
+        <typeconstraint>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;T</typeconstraint>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory.responseType" prot="private" static="no" mutable="no">
+        <type>TypeReference&lt;TResourceCollection&gt;</type>
+        <definition>TypeReference&lt;TResourceCollection&gt; com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory&lt;T extends ResourceBase, TResourceCollection extends ResourceCollection&lt;T&gt;.responseType</definition>
+        <argsstring></argsstring>
+        <name>responseType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IndexBasedCollectionEnumeratorFactory.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IndexBasedCollectionEnumeratorFactory.java" bodystart="24" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory.IndexBasedCollectionEnumeratorFactory(IPartner,TypeReference&lt;TResourceCollection&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory&lt;T extends ResourceBase, TResourceCollection extends ResourceCollection&lt;T&gt;.IndexBasedCollectionEnumeratorFactory</definition>
+        <argsstring>(IPartner rootPartnerOperations, TypeReference&lt;TResourceCollection&gt; responseType)</argsstring>
+        <name>IndexBasedCollectionEnumeratorFactory</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>TypeReference&lt;TResourceCollection&gt;</type>
+          <declname>responseType</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the IndexBasedCollectionEnumeratorFactory class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>responseType</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The type of resource. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IndexBasedCollectionEnumeratorFactory.java" line="32" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IndexBasedCollectionEnumeratorFactory.java" bodystart="32" bodyend="36" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory.create(TResourceCollection)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator" kindref="compound">IResourceCollectionEnumerator</ref>&lt;TResourceCollection&gt;</type>
+        <definition>IResourceCollectionEnumerator&lt;TResourceCollection&gt; com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory&lt;T extends ResourceBase, TResourceCollection extends ResourceCollection&lt;T&gt;.create</definition>
+        <argsstring>(TResourceCollection resourceCollection)</argsstring>
+        <name>create</name>
+        <param>
+          <type>TResourceCollection</type>
+          <declname>resourceCollection</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Creates a index based collection enumerator capable of traversing resources that uses offset and page size for pagination.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>resourceCollection</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The initial resource collection to start from. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>A customer collection enumerator capable of traversing customers. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IndexBasedCollectionEnumeratorFactory.java" line="46" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IndexBasedCollectionEnumeratorFactory.java" bodystart="46" bodyend="53" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Factory method for creating a new instance of index based collection enumerator. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2276">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="2275">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="2276" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2277">
+        <label>com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory&lt;TResourceCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" />
+      </node>
+      <node id="2274">
+        <label>com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory&lt;T extends ResourceBase, TResourceCollection extends ResourceCollection&lt;T&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" />
+        <childnode refid="2275" relation="public-inheritance"></childnode>
+        <childnode refid="2277" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2280">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="2279">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="2280" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2281">
+        <label>com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory&lt;TResourceCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" />
+      </node>
+      <node id="2278">
+        <label>com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory&lt;T extends ResourceBase, TResourceCollection extends ResourceCollection&lt;T&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" />
+        <childnode refid="2279" relation="public-inheritance"></childnode>
+        <childnode refid="2281" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IndexBasedCollectionEnumeratorFactory.java" line="23" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IndexBasedCollectionEnumeratorFactory.java" bodystart="20" bodyend="54" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::factory::IndexBasedCollectionEnumeratorFactory</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::factory::IndexBasedCollectionEnumeratorFactory</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner,String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::factory::IndexBasedCollectionEnumeratorFactory</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory.create(TResourceCollection)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::factory::IndexBasedCollectionEnumeratorFactory</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory.create(T)" prot="public" virt="non-virtual" ambiguityscope="IResourceCollectionEnumeratorFactory&lt;TResourceCollection&gt;.">
+        <scope>com::microsoft::store::partnercenter::factory::IndexBasedCollectionEnumeratorFactory</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::factory::IndexBasedCollectionEnumeratorFactory</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::factory::IndexBasedCollectionEnumeratorFactory</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory.IndexBasedCollectionEnumeratorFactory(IPartner,TypeReference&lt;TResourceCollection&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::factory::IndexBasedCollectionEnumeratorFactory</scope>
+        <name>IndexBasedCollectionEnumeratorFactory</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory.responseType" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::factory::IndexBasedCollectionEnumeratorFactory</scope>
+        <name>responseType</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

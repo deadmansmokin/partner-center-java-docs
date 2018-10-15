@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.partners._organization_profile" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base_with_links" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._organization_profile.__Id" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.__Id</definition>
+        <argsstring></argsstring>
+        <name>__Id</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Id </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="30" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="30" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._organization_profile.__CompanyName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.__CompanyName</definition>
+        <argsstring></argsstring>
+        <name>__CompanyName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the name of the company. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="45" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="45" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._organization_profile.__DefaultAddress" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref>
+        </type>
+        <definition>Address com.microsoft.store.partnercenter.models.partners.OrganizationProfile.__DefaultAddress</definition>
+        <argsstring></argsstring>
+        <name>__DefaultAddress</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the default address. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="60" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="60" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._organization_profile.__TenantId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.__TenantId</definition>
+        <argsstring></argsstring>
+        <name>__TenantId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the tenant identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="75" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="75" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._organization_profile.__Domain" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.__Domain</definition>
+        <argsstring></argsstring>
+        <name>__Domain</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the domain. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="90" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="90" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._organization_profile.__Email" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.__Email</definition>
+        <argsstring></argsstring>
+        <name>__Email</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the email </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="105" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="105" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._organization_profile.__Language" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.__Language</definition>
+        <argsstring></argsstring>
+        <name>__Language</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the language </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="120" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="120" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._organization_profile.__Culture" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.__Culture</definition>
+        <argsstring></argsstring>
+        <name>__Culture</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the culture </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="135" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="135" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.OrganizationProfile()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile</definition>
+        <argsstring>()</argsstring>
+        <name>OrganizationProfile</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the OrganizationProfile class. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="22" bodyend="25" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.getId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="32" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="32" bodyend="35" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.setId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="37" bodyend="40" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.getCompanyName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName</definition>
+        <argsstring>()</argsstring>
+        <name>getCompanyName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="47" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="47" bodyend="50" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.setCompanyName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCompanyName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="52" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="52" bodyend="55" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.getDefaultAddress()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref>
+        </type>
+        <definition>Address com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultAddress</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="62" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="62" bodyend="65" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.setDefaultAddress(Address)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress</definition>
+        <argsstring>(Address value)</argsstring>
+        <name>setDefaultAddress</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="67" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="67" bodyend="70" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.getTenantId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId</definition>
+        <argsstring>()</argsstring>
+        <name>getTenantId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="77" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="77" bodyend="80" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.setTenantId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setTenantId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="82" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="82" bodyend="85" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.getDomain()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain</definition>
+        <argsstring>()</argsstring>
+        <name>getDomain</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="92" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="92" bodyend="95" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.setDomain(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setDomain</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="97" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="97" bodyend="100" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.getEmail()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail</definition>
+        <argsstring>()</argsstring>
+        <name>getEmail</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="107" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="107" bodyend="110" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.setEmail(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setEmail</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="112" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="112" bodyend="115" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.getLanguage()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage</definition>
+        <argsstring>()</argsstring>
+        <name>getLanguage</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="122" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="122" bodyend="125" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.setLanguage(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setLanguage</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="127" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="127" bodyend="130" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.getCulture()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture</definition>
+        <argsstring>()</argsstring>
+        <name>getCulture</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="137" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="137" bodyend="140" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._organization_profile.setCulture(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCulture</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="142" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="142" bodyend="145" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Partner's organization profile </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3524">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="3525" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3523">
+        <label>com.microsoft.store.partnercenter.models.partners.OrganizationProfile</label>
+        <link refid="com.microsoft.store.partnercenter.models.partners._organization_profile" />
+        <childnode refid="3524" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3525">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3527">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="3528" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3526">
+        <label>com.microsoft.store.partnercenter.models.partners.OrganizationProfile</label>
+        <link refid="com.microsoft.store.partnercenter.models.partners._organization_profile" />
+        <childnode refid="3527" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3528">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" line="18" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java" bodystart="16" bodyend="146" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.__CompanyName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>__CompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.__Culture" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>__Culture</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.__DefaultAddress" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>__DefaultAddress</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.__Domain" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>__Domain</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.__Email" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>__Email</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.__Id" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>__Id</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.__Language" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>__Language</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.__TenantId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>__TenantId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.getCompanyName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>getCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.getCulture()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>getCulture</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.getDefaultAddress()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>getDefaultAddress</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.getDomain()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>getDomain</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.getEmail()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>getEmail</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.getId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>getId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.getLanguage()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>getLanguage</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.getLinks()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.getTenantId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>getTenantId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.OrganizationProfile()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>OrganizationProfile</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.setCompanyName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>setCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.setCulture(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>setCulture</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.setDefaultAddress(Address)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>setDefaultAddress</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.setDomain(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>setDomain</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.setEmail(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>setEmail</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.setId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>setId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.setLanguage(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>setLanguage</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.setLinks(TLinks)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._organization_profile.setTenantId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::OrganizationProfile</scope>
+        <name>setTenantId</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

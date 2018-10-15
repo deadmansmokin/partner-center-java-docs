@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_registration" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::subscriptions::ISubscriptionRegistration</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_registration_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.SubscriptionRegistrationOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_registration_1ac11e25ea77356ff2613505608fc32a2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration.register</definition>
+        <argsstring>()</argsstring>
+        <name>register</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_registration_operations_1ae52f070c1049198ace217e6b2432ea35">register</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Register a subscription to enable Azure Reserved instance purchase.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The location which indicates the URL of the API to query for status. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionRegistration.java" line="23" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Defines the operations available on a customer's subscription registrations. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3159">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3160">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionRegistrationOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_registration_operations" />
+        <childnode refid="3158" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3158">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_registration" />
+        <childnode refid="3159" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3162">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3161">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_registration" />
+        <childnode refid="3162" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionRegistration.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionRegistration.java" bodystart="15" bodyend="24" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::ISubscriptionRegistration</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::ISubscriptionRegistration</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_registration_1ac11e25ea77356ff2613505608fc32a2b" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::ISubscriptionRegistration</scope>
+        <name>register</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

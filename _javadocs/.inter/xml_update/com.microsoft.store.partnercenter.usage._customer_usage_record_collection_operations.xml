@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.usage._customer_usage_record_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::usage::CustomerUsageRecordCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.usage._i_customer_usage_record_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.usage._customer_usage_record_collection_operations.CustomerUsageRecordCollectionOperations(IPartner)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.CustomerUsageRecordCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations)</argsstring>
+        <name>CustomerUsageRecordCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the CustomerUsageRecordCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageRecordCollectionOperations.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageRecordCollectionOperations.java" bodystart="33" bodyend="36" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.usage._customer_usage_record_collection_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.usage._customer_monthly_usage_record" kindref="compound">CustomerMonthlyUsageRecord</ref>&gt;</type>
+        <definition>ResourceCollection&lt;CustomerMonthlyUsageRecord&gt; com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.usage._i_customer_usage_record_collection.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the collection of customer monthly usage records for a partner.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The collection of customer monthly usage records. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageRecordCollectionOperations.java" line="44" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageRecordCollectionOperations.java" bodystart="44" bodyend="52" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements operations related to a partner's customers usage record. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1044">
+        <label>com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection</label>
+        <link refid="com.microsoft.store.partnercenter.usage._i_customer_usage_record_collection" />
+        <childnode refid="1045" relation="public-inheritance"></childnode>
+        <childnode refid="1047" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1046">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1043">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="1042">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="1043" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1045">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1046" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1041">
+        <label>com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.usage._customer_usage_record_collection_operations" />
+        <childnode refid="1042" relation="public-inheritance"></childnode>
+        <childnode refid="1044" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1047">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;CustomerMonthlyUsageRecord, ResourceCollection&lt;CustomerMonthlyUsageRecord&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1051">
+        <label>com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection</label>
+        <link refid="com.microsoft.store.partnercenter.usage._i_customer_usage_record_collection" />
+        <childnode refid="1052" relation="public-inheritance"></childnode>
+        <childnode refid="1054" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1053">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1050">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="1049">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="1050" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1052">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1053" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1048">
+        <label>com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.usage._customer_usage_record_collection_operations" />
+        <childnode refid="1049" relation="public-inheritance"></childnode>
+        <childnode refid="1051" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1054">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;CustomerMonthlyUsageRecord, ResourceCollection&lt;CustomerMonthlyUsageRecord&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageRecordCollectionOperations.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageRecordCollectionOperations.java" bodystart="24" bodyend="54" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageRecordCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageRecordCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner,String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageRecordCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.usage._customer_usage_record_collection_operations.CustomerUsageRecordCollectionOperations(IPartner)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageRecordCollectionOperations</scope>
+        <name>CustomerUsageRecordCollectionOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.usage._customer_usage_record_collection_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageRecordCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageRecordCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::usage::ICustomerUsageRecordCollection.">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageRecordCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageRecordCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::usage::ICustomerUsageRecordCollection.">
+        <scope>com::microsoft::store::partnercenter::usage::CustomerUsageRecordCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

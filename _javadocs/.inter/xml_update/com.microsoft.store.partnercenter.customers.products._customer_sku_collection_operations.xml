@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customers::products::CustomerSkuCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.products._i_sku_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.ISkuCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations.CustomerSkuCollectionOperations(IPartner,String,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.CustomerSkuCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String productId)</argsstring>
+        <name>CustomerSkuCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>productId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the CustomerSkuCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier for the customer. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>productId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier for the product. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuCollectionOperations.java" line="39" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuCollectionOperations.java" bodystart="39" bodyend="52" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations.byId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.products._i_sku" kindref="compound">ISku</ref>
+        </type>
+        <definition>ISku com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.byId</definition>
+        <argsstring>(String skuId)</argsstring>
+        <name>byId</name>
+        <reimplements refid="com.microsoft.store.partnercenter.products._i_sku_collection.byId(String)">byId</reimplements>
+        <param>
+          <type>String</type>
+          <declname>skuId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuCollectionOperations.java" line="61" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuCollectionOperations.java" bodystart="61" bodyend="64" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations.byTargetSegment(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.products._i_sku_collection_by_target_segment" kindref="compound">ISkuCollectionByTargetSegment</ref>
+        </type>
+        <definition>ISkuCollectionByTargetSegment com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.byTargetSegment</definition>
+        <argsstring>(String targetSegment)</argsstring>
+        <name>byTargetSegment</name>
+        <reimplements refid="com.microsoft.store.partnercenter.products._i_sku_collection.byTargetSegment(String)">byTargetSegment</reimplements>
+        <param>
+          <type>String</type>
+          <declname>targetSegment</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the operations that can be applied on skus that belong to a segment.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>targetSegment</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The SKU segment filter. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The sku collection operations by target segment. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuCollectionOperations.java" line="73" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuCollectionOperations.java" bodystart="73" bodyend="76" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.products._sku" kindref="compound">Sku</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Sku&gt; com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.products._i_sku_collection.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all the SKUs for the provided product.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The SKUs for the provided product. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuCollectionOperations.java" line="84" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuCollectionOperations.java" bodystart="84" bodyend="95" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implementation of customer sku collection operations. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="989">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations" />
+        <childnode refid="990" relation="public-inheritance"></childnode>
+        <childnode refid="992" relation="public-inheritance"></childnode>
+      </node>
+      <node id="993">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="991">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="994">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;ISku&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="992">
+        <label>com.microsoft.store.partnercenter.products.ISkuCollection</label>
+        <link refid="com.microsoft.store.partnercenter.products._i_sku_collection" />
+        <childnode refid="993" relation="public-inheritance"></childnode>
+        <childnode refid="994" relation="public-inheritance"></childnode>
+        <childnode refid="995" relation="public-inheritance"></childnode>
+      </node>
+      <node id="990">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="991" relation="public-inheritance"></childnode>
+      </node>
+      <node id="995">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Sku, ResourceCollection&lt;Sku&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="996">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations" />
+        <childnode refid="997" relation="public-inheritance"></childnode>
+        <childnode refid="999" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1000">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="998">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1001">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;ISku&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="999">
+        <label>com.microsoft.store.partnercenter.products.ISkuCollection</label>
+        <link refid="com.microsoft.store.partnercenter.products._i_sku_collection" />
+        <childnode refid="1000" relation="public-inheritance"></childnode>
+        <childnode refid="1001" relation="public-inheritance"></childnode>
+        <childnode refid="1002" relation="public-inheritance"></childnode>
+      </node>
+      <node id="997">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="998" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1002">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Sku, ResourceCollection&lt;Sku&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuCollectionOperations.java" line="31" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuCollectionOperations.java" bodystart="28" bodyend="96" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations.byId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuCollectionOperations</scope>
+        <name>byId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations.byTargetSegment(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuCollectionOperations</scope>
+        <name>byTargetSegment</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations.CustomerSkuCollectionOperations(IPartner,String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuCollectionOperations</scope>
+        <name>CustomerSkuCollectionOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerSkuCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

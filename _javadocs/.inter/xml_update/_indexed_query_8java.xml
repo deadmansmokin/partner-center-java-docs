@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_indexed_query_8java" kind="file" language="Java">
+    <compoundname>IndexedQuery.java</compoundname>
+    <innerclass refid="com.microsoft.store.partnercenter.models.query._indexed_query" prot="public">com::microsoft::store::partnercenter::models::query::IndexedQuery</innerclass>
+    <innernamespace refid="com.microsoft.store.partnercenter.models.query">com::microsoft::store::partnercenter::models::query</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="IndexedQuery.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.models.query;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.text.MessageFormat;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.util.Locale;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="15" refid="com.microsoft.store.partnercenter.models.query._indexed_query" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">class<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="com.microsoft.store.partnercenter.models.query._indexed_query" kindref="compound">IndexedQuery</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.query._simple_query" kindref="compound">SimpleQuery</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">protected</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.query._indexed_query" kindref="compound">IndexedQuery</ref>(<sp />Object<sp />token<sp />)</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />super(<sp />token<sp />);</highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">protected</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.query._indexed_query" kindref="compound">IndexedQuery</ref>()</highlight>
+      </codeline>
+      <codeline lineno="25">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="26">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="27">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />super();</highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="33">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />index;</highlight>
+      </codeline>
+      <codeline lineno="34">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="38">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />pageSize;</highlight>
+      </codeline>
+      <codeline lineno="39">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="43">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.query._query_type" kindref="compound">QueryType</ref>
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.query._indexed_query.getType()" kindref="member">getType</ref>()</highlight>
+      </codeline>
+      <codeline lineno="44">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="45">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="46">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.query._query_type" kindref="compound">QueryType</ref>.<ref refid="com.microsoft.store.partnercenter.models.query._query_type.INDEXED" kindref="member">INDEXED</ref>;</highlight>
+      </codeline>
+      <codeline lineno="47">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="48">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="52">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.query._indexed_query.getIndex()" kindref="member">getIndex</ref>()</highlight>
+      </codeline>
+      <codeline lineno="53">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="54">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="55">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.index;</highlight>
+      </codeline>
+      <codeline lineno="56">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="57">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="58">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.query._indexed_query.setIndex(int)" kindref="member">setIndex</ref>(<sp /></highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />value<sp />)</highlight>
+      </codeline>
+      <codeline lineno="59">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="60">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="61">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.index<sp />=<sp />Math.max(<sp />value,<sp />0<sp />);</highlight>
+      </codeline>
+      <codeline lineno="62">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="63">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="67">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.query._indexed_query.getPageSize()" kindref="member">getPageSize</ref>()</highlight>
+      </codeline>
+      <codeline lineno="68">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="69">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="70">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.pageSize;</highlight>
+      </codeline>
+      <codeline lineno="71">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="72">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="73">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.query._indexed_query.setPageSize(int)" kindref="member">setPageSize</ref>(<sp /></highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />value<sp />)</highlight>
+      </codeline>
+      <codeline lineno="74">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="75">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="76">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.pageSize<sp />=<sp />Math.max(<sp />value,<sp />0<sp />);</highlight>
+      </codeline>
+      <codeline lineno="77">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="78">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="84">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />String<sp /><ref refid="com.microsoft.store.partnercenter.models.query._indexed_query.toString()" kindref="member">toString</ref>()</highlight>
+      </codeline>
+      <codeline lineno="85">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="86">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />StringBuilder<sp />result<sp />=<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />StringBuilder();</highlight>
+      </codeline>
+      <codeline lineno="87">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">//<sp />result.appendLine(MessageFormat.format(<sp />"Index:<sp />{0},<sp />Page<sp />size:<sp />{1}",</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="88">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">//<sp />this.getIndex(),<sp />this.getPageSize()));</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="89">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />result.append(<sp />MessageFormat.format(<sp /></highlight>
+        <highlight class="stringliteral">"Index:<sp />{0},<sp />Page<sp />size:<sp />{1}"</highlight>
+        <highlight class="normal">,<sp /></highlight>
+        <highlight class="keyword">this</highlight>
+        <highlight class="normal">.getIndex(),<sp />this.<ref refid="com.microsoft.store.partnercenter.models.query._indexed_query.getPageSize()" kindref="member">getPageSize</ref>(),</highlight>
+      </codeline>
+      <codeline lineno="90">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />Locale.US<sp />)</highlight>
+      </codeline>
+      <codeline lineno="91">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />+<sp /></highlight>
+        <highlight class="stringliteral">"\n"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="92">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />result.append(<sp />super.toString()<sp />+<sp /></highlight>
+        <highlight class="stringliteral">"\n"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="93">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />result.toString();</highlight>
+      </codeline>
+      <codeline lineno="94">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="95">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="96">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="97">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" />
+  </compounddef>
+</doxygen>

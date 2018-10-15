@@ -1,0 +1,2184 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_resource_collection_enumerator_container_8java" kind="file" language="Java">
+    <compoundname>ResourceCollectionEnumeratorContainer.java</compoundname>
+    <innerclass refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container" prot="public">com::microsoft::store::partnercenter::enumerators::ResourceCollectionEnumeratorContainer</innerclass>
+    <innernamespace refid="com.microsoft.store.partnercenter.enumerators">com::microsoft::store::partnercenter::enumerators</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="ResourceCollectionEnumeratorContainer.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.enumerators;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.fasterxml.jackson.core.type.TypeReference;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._base_partner_component_string" kindref="compound">BasePartnerComponentString</ref>;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>;</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.factory" kindref="compound">factory</ref>.<ref refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" kindref="compound">IResourceCollectionEnumeratorFactory</ref>;</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.factory" kindref="compound">factory</ref>.<ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory</ref>;</highlight>
+      </codeline>
+      <codeline lineno="14">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="15">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection" kindref="compound">SeekBasedResourceCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.auditing" kindref="compound">auditing</ref>.<ref refid="com.microsoft.store.partnercenter.models.auditing._audit_record" kindref="compound">AuditRecord</ref>;</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.customers" kindref="compound">customers</ref>.<ref refid="com.microsoft.store.partnercenter.models.customers._customer" kindref="compound">Customer</ref>;</highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.invoices" kindref="compound">invoices</ref>.<ref refid="com.microsoft.store.partnercenter.models.invoices._invoice" kindref="compound">Invoice</ref>;</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.invoices" kindref="compound">invoices</ref>.<ref refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" kindref="compound">InvoiceLineItem</ref>;</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.offers" kindref="compound">offers</ref>.<ref refid="com.microsoft.store.partnercenter.models.offers._offer" kindref="compound">Offer</ref>;</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.products" kindref="compound">products</ref>.<ref refid="com.microsoft.store.partnercenter.models.products._product" kindref="compound">Product</ref>;</highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.servicerequests" kindref="compound">servicerequests</ref>.<ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request" kindref="compound">ServiceRequest</ref>;</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.users" kindref="compound">users</ref>.<ref refid="com.microsoft.store.partnercenter.models.users._customer_user" kindref="compound">CustomerUser</ref>;</highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="28" refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">class<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container" kindref="compound">ResourceCollectionEnumeratorContainer</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter._base_partner_component_string" kindref="compound">BasePartnerComponentString</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />implements<sp /><ref refid="com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator_container" kindref="compound">IResourceCollectionEnumeratorContainer</ref></highlight>
+      </codeline>
+      <codeline lineno="31">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="35">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;Offer, ResourceCollection&lt;Offer&gt;</ref>&gt;<sp />offerEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="36">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="40">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;Customer, SeekBasedResourceCollection&lt;Customer&gt;</ref>&gt;<sp />customerEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="41">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="45">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;CustomerUser, SeekBasedResourceCollection&lt;CustomerUser&gt;</ref>&gt;<sp />customerUserEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="46">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="50">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;Invoice, ResourceCollection&lt;Invoice&gt;</ref>&gt;<sp />invoiceEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="51">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="55">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;ServiceRequest, ResourceCollection&lt;ServiceRequest&gt;</ref>&gt;<sp />serviceRequestEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="56">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="60">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;InvoiceLineItem, ResourceCollection&lt;InvoiceLineItem&gt;</ref>&gt;<sp />invoiceLineItemEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="61">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="65">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;AuditRecord, SeekBasedResourceCollection&lt;AuditRecord&gt;</ref>&gt;<sp />auditRecordEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="66">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="70">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container" kindref="compound">IUtilizationCollectionEnumeratorContainer</ref>
+          <sp />utilizationRecordEnumeratorContainer;</highlight>
+      </codeline>
+      <codeline lineno="71">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="75">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;Product, ResourceCollection&lt;Product&gt;</ref>&gt;<sp />productEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="76">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="82">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container.ResourceCollectionEnumeratorContainer(IPartner)" kindref="member">ResourceCollectionEnumeratorContainer</ref>(<sp /><ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref><sp />rootPartnerOperations<sp />)</highlight>
+      </codeline>
+      <codeline lineno="83">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="84">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />super(<sp />rootPartnerOperations<sp />);</highlight>
+      </codeline>
+      <codeline lineno="85">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="86">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="92">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" kindref="compound">IResourceCollectionEnumeratorFactory&lt;ResourceCollection&lt;Offer&gt;</ref>&gt;<sp /><ref refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container.getOffers()" kindref="member">getOffers</ref>()</highlight>
+      </codeline>
+      <codeline lineno="93">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="94">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />this.offerEnumeratorFactory<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="95">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="96">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.offerEnumeratorFactory<sp />=</highlight>
+      </codeline>
+      <codeline lineno="97">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;Offer, ResourceCollection&lt;Offer&gt;</ref>&gt;(<sp /></highlight>
+      </codeline>
+      <codeline lineno="98">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),</highlight>
+      </codeline>
+      <codeline lineno="99">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;ResourceCollection&lt;Offer&gt;&gt;()</highlight>
+      </codeline>
+      <codeline lineno="100">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="101">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}<sp />);</highlight>
+      </codeline>
+      <codeline lineno="102">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="103">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.offerEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="104">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="105">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="111">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" kindref="compound">IResourceCollectionEnumeratorFactory&lt;SeekBasedResourceCollection&lt;Customer&gt;</ref>&gt;<sp /><ref refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container.getCustomers()" kindref="member">getCustomers</ref>()</highlight>
+      </codeline>
+      <codeline lineno="112">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="113">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />this.customerEnumeratorFactory<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="114">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="115">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.customerEnumeratorFactory<sp />=</highlight>
+      </codeline>
+      <codeline lineno="116">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;Customer, SeekBasedResourceCollection&lt;Customer&gt;</ref>&gt;(<sp /></highlight>
+      </codeline>
+      <codeline lineno="117">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),</highlight>
+      </codeline>
+      <codeline lineno="118">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;SeekBasedResourceCollection&lt;Customer&gt;&gt;()</highlight>
+      </codeline>
+      <codeline lineno="119">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="120">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}<sp />);</highlight>
+      </codeline>
+      <codeline lineno="121">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="122">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.customerEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="123">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="124">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="130">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" kindref="compound">IResourceCollectionEnumeratorFactory&lt;SeekBasedResourceCollection&lt;CustomerUser&gt;</ref>&gt;<sp /><ref refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container.getCustomerUsers()" kindref="member">getCustomerUsers</ref>()</highlight>
+      </codeline>
+      <codeline lineno="131">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="132">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />this.customerUserEnumeratorFactory<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="133">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="134">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.customerUserEnumeratorFactory<sp />=</highlight>
+      </codeline>
+      <codeline lineno="135">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;CustomerUser, SeekBasedResourceCollection&lt;CustomerUser&gt;</ref>&gt;(<sp /></highlight>
+      </codeline>
+      <codeline lineno="136">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),</highlight>
+      </codeline>
+      <codeline lineno="137">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;SeekBasedResourceCollection&lt;CustomerUser&gt;&gt;()</highlight>
+      </codeline>
+      <codeline lineno="138">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="139">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}<sp />);</highlight>
+      </codeline>
+      <codeline lineno="140">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="141">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.customerUserEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="142">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="143">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="149">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" kindref="compound">IResourceCollectionEnumeratorFactory&lt;ResourceCollection&lt;Invoice&gt;</ref>&gt;<sp /><ref refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container.getInvoices()" kindref="member">getInvoices</ref>()</highlight>
+      </codeline>
+      <codeline lineno="150">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="151">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />this.invoiceEnumeratorFactory<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="152">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="153">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.invoiceEnumeratorFactory<sp />=</highlight>
+      </codeline>
+      <codeline lineno="154">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;Invoice, ResourceCollection&lt;Invoice&gt;</ref>&gt;(<sp /></highlight>
+      </codeline>
+      <codeline lineno="155">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),</highlight>
+      </codeline>
+      <codeline lineno="156">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;ResourceCollection&lt;Invoice&gt;&gt;()</highlight>
+      </codeline>
+      <codeline lineno="157">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="158">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}<sp />);</highlight>
+      </codeline>
+      <codeline lineno="159">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="160">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="161">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.invoiceEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="162">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="163">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="169">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" kindref="compound">IResourceCollectionEnumeratorFactory&lt;ResourceCollection&lt;ServiceRequest&gt;</ref>&gt;<sp /><ref refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container.getServiceRequests()" kindref="member">getServiceRequests</ref>()</highlight>
+      </codeline>
+      <codeline lineno="170">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="171">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />this.serviceRequestEnumeratorFactory<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="172">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="173">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.serviceRequestEnumeratorFactory<sp />=</highlight>
+      </codeline>
+      <codeline lineno="174">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;ServiceRequest, ResourceCollection&lt;ServiceRequest&gt;</ref>&gt;(<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),</highlight>
+      </codeline>
+      <codeline lineno="175">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;ResourceCollection&lt;ServiceRequest&gt;&gt;()</highlight>
+      </codeline>
+      <codeline lineno="176">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="177">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}<sp />);</highlight>
+      </codeline>
+      <codeline lineno="178">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="179">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="180">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.serviceRequestEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="181">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="182">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="188">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" kindref="compound">IResourceCollectionEnumeratorFactory&lt;ResourceCollection&lt;InvoiceLineItem&gt;</ref>&gt;<sp /><ref refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container.getInvoiceLineItems()" kindref="member">getInvoiceLineItems</ref>()</highlight>
+      </codeline>
+      <codeline lineno="189">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="190">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />this.invoiceLineItemEnumeratorFactory<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="191">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="192">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.invoiceLineItemEnumeratorFactory<sp />=</highlight>
+      </codeline>
+      <codeline lineno="193">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;InvoiceLineItem, ResourceCollection&lt;InvoiceLineItem&gt;</ref>&gt;(<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),</highlight>
+      </codeline>
+      <codeline lineno="194">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;ResourceCollection&lt;InvoiceLineItem&gt;&gt;()</highlight>
+      </codeline>
+      <codeline lineno="195">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="196">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}<sp />);</highlight>
+      </codeline>
+      <codeline lineno="197">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="198">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="199">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.invoiceLineItemEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="200">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="201">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="207">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" kindref="compound">IResourceCollectionEnumeratorFactory&lt;SeekBasedResourceCollection&lt;AuditRecord&gt;</ref>&gt;<sp /><ref refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container.getAuditRecords()" kindref="member">getAuditRecords</ref>()</highlight>
+      </codeline>
+      <codeline lineno="208">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="209">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />this.auditRecordEnumeratorFactory<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="210">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="211">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.auditRecordEnumeratorFactory<sp />=</highlight>
+      </codeline>
+      <codeline lineno="212">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;AuditRecord, SeekBasedResourceCollection&lt;AuditRecord&gt;</ref>&gt;</highlight>
+      </codeline>
+      <codeline lineno="213">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />(<sp /></highlight>
+      </codeline>
+      <codeline lineno="214">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),</highlight>
+      </codeline>
+      <codeline lineno="215">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;SeekBasedResourceCollection&lt;AuditRecord&gt;&gt;(){}<sp /></highlight>
+      </codeline>
+      <codeline lineno="216">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="217">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="218">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="219">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.auditRecordEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="220">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="221">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="227">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container" kindref="compound">IUtilizationCollectionEnumeratorContainer</ref>
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container.getUtilization()" kindref="member">getUtilization</ref>()</highlight>
+      </codeline>
+      <codeline lineno="228">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="229">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />this.utilizationRecordEnumeratorContainer<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="230">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="231">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.utilizationRecordEnumeratorContainer<sp />=</highlight>
+      </codeline>
+      <codeline lineno="232">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.enumerators._utilization_collection_enumerator_container" kindref="compound">UtilizationCollectionEnumeratorContainer</ref>(<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>()<sp />);</highlight>
+      </codeline>
+      <codeline lineno="233">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="234">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="235">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.utilizationRecordEnumeratorContainer;</highlight>
+      </codeline>
+      <codeline lineno="236">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="237">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="243">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" kindref="compound">IResourceCollectionEnumeratorFactory&lt;ResourceCollection&lt;Product&gt;</ref>&gt;<sp /><ref refid="com.microsoft.store.partnercenter.enumerators._resource_collection_enumerator_container.getProducts()" kindref="member">getProducts</ref>()</highlight>
+      </codeline>
+      <codeline lineno="244">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="245">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />this.productEnumeratorFactory<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="246">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="247">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.productEnumeratorFactory<sp />=</highlight>
+      </codeline>
+      <codeline lineno="248">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.factory._index_based_collection_enumerator_factory" kindref="compound">IndexBasedCollectionEnumeratorFactory&lt;Product, ResourceCollection&lt;Product&gt;</ref>&gt;(</highlight>
+      </codeline>
+      <codeline lineno="249">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),</highlight>
+      </codeline>
+      <codeline lineno="250">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;ResourceCollection&lt;Product&gt;&gt;()</highlight>
+      </codeline>
+      <codeline lineno="251">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="252">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}<sp />);</highlight>
+      </codeline>
+      <codeline lineno="253">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="254">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="255">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.productEnumeratorFactory;</highlight>
+      </codeline>
+      <codeline lineno="256">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="257">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/enumerators/ResourceCollectionEnumeratorContainer.java" />
+  </compounddef>
+</doxygen>

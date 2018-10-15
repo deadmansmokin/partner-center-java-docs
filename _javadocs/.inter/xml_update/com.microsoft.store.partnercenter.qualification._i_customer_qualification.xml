@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.qualification._i_customer_qualification" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::qualification::ICustomerQualification</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;CustomerQualification&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;CustomerQualification&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.qualification._customer_qualification_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.qualification._i_customer_qualification.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.customers._customer_qualification" kindref="compound">CustomerQualification</ref>
+        </type>
+        <definition>CustomerQualification com.microsoft.store.partnercenter.qualification.ICustomerQualification.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.qualification._customer_qualification_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves an entity.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entity. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/qualification/ICustomerQualification.java" line="22" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.qualification._i_customer_qualification.update(CustomerQualification)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.customers._customer_qualification" kindref="compound">CustomerQualification</ref>
+        </type>
+        <definition>CustomerQualification com.microsoft.store.partnercenter.qualification.ICustomerQualification.update</definition>
+        <argsstring>(CustomerQualification customerQualification)</argsstring>
+        <name>update</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.qualification._customer_qualification_operations.update(CustomerQualification)">update</reimplementedby>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.customers._customer_qualification" kindref="compound">CustomerQualification</ref>
+          </type>
+          <declname>customerQualification</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/qualification/ICustomerQualification.java" line="30" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="1663">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1665">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;CustomerQualification&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations" />
+      </node>
+      <node id="1661">
+        <label>com.microsoft.store.partnercenter.qualification.ICustomerQualification</label>
+        <link refid="com.microsoft.store.partnercenter.qualification._i_customer_qualification" />
+        <childnode refid="1662" relation="public-inheritance"></childnode>
+        <childnode refid="1664" relation="public-inheritance"></childnode>
+        <childnode refid="1665" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1662">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1663" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1666">
+        <label>com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations</label>
+        <link refid="com.microsoft.store.partnercenter.qualification._customer_qualification_operations" />
+        <childnode refid="1661" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1664">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;CustomerQualification&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1669">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1671">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;CustomerQualification&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations" />
+      </node>
+      <node id="1667">
+        <label>com.microsoft.store.partnercenter.qualification.ICustomerQualification</label>
+        <link refid="com.microsoft.store.partnercenter.qualification._i_customer_qualification" />
+        <childnode refid="1668" relation="public-inheritance"></childnode>
+        <childnode refid="1670" relation="public-inheritance"></childnode>
+        <childnode refid="1671" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1668">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1669" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1670">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;CustomerQualification&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/qualification/ICustomerQualification.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/qualification/ICustomerQualification.java" bodystart="14" bodyend="32" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.qualification._i_customer_qualification.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::qualification::ICustomerQualification</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::qualification::ICustomerQualification</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::qualification::ICustomerQualification</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.qualification._i_customer_qualification.update(CustomerQualification)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::qualification::ICustomerQualification</scope>
+        <name>update</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations.update(T)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations.">
+        <scope>com::microsoft::store::partnercenter::qualification::ICustomerQualification</scope>
+        <name>update</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

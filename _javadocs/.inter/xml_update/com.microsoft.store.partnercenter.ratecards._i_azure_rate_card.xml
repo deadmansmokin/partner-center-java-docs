@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.ratecards._i_azure_rate_card" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::ratecards::IAzureRateCard</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.ratecards._azure_rate_card_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.ratecards._i_azure_rate_card.get(String,String)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.ratecards._azure_rate_card" kindref="compound">AzureRateCard</ref>
+        </type>
+        <definition>AzureRateCard com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get</definition>
+        <argsstring>(String currency, String region)</argsstring>
+        <name>get</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.ratecards._azure_rate_card_operations.get(String,String)">get</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>currency</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the Azure rate card which provides real-time prices for Azure offers. <parameterlist kind="param"><parameteritem><parameternamelist><parametername>currency</parametername></parameternamelist><parameterdescription><para>An optional three letter ISO code for the currency in which the resource rates will be provided. The default is the currency associated with the market in the partner's profile. </para></parameterdescription></parameteritem><parameteritem><parameternamelist><parametername>region</parametername></parameternamelist><parameterdescription><para>An optional two-letter ISO country/region code that indicates the market where the offer is purchased. The default is the country/region code set in the partner profile. </para></parameterdescription></parameteritem></parameterlist><simplesect kind="return"><para>The Azure rate card for the partner. </para></simplesect></para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/IAzureRateCard.java" line="26" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.ratecards._i_azure_rate_card.getShared(String,String)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.ratecards._azure_rate_card" kindref="compound">AzureRateCard</ref>
+        </type>
+        <definition>AzureRateCard com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared</definition>
+        <argsstring>(String currency, String region)</argsstring>
+        <name>getShared</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.ratecards._azure_rate_card_operations.getShared(String,String)">getShared</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>currency</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the Azure CSL rate card which provides real-time prices for Azure offers. <parameterlist kind="param"><parameteritem><parameternamelist><parametername>currency</parametername></parameternamelist><parameterdescription><para>An optional three letter ISO code for the currency in which the resource rates will be provided. The default is the currency associated with the market in the partner's profile. </para></parameterdescription></parameteritem><parameteritem><parameternamelist><parametername>region</parametername></parameternamelist><parameterdescription><para>An optional two-letter ISO country/region code that indicates the market where the offer is purchased. The default is the country/region code set in the partner profile. </para></parameterdescription></parameteritem></parameterlist><simplesect kind="return"><para>The Azure rate card for the partner. </para></simplesect></para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/IAzureRateCard.java" line="36" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Holds operations that apply to Azure rate card. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1421">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1422">
+        <label>com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations</label>
+        <link refid="com.microsoft.store.partnercenter.ratecards._azure_rate_card_operations" />
+        <childnode refid="1419" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1419">
+        <label>com.microsoft.store.partnercenter.ratecards.IAzureRateCard</label>
+        <link refid="com.microsoft.store.partnercenter.ratecards._i_azure_rate_card" />
+        <childnode refid="1420" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1420">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1421" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1425">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1423">
+        <label>com.microsoft.store.partnercenter.ratecards.IAzureRateCard</label>
+        <link refid="com.microsoft.store.partnercenter.ratecards._i_azure_rate_card" />
+        <childnode refid="1424" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1424">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1425" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/IAzureRateCard.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/IAzureRateCard.java" bodystart="15" bodyend="37" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.ratecards._i_azure_rate_card.get(String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::ratecards::IAzureRateCard</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::ratecards::IAzureRateCard</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::ratecards::IAzureRateCard</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.ratecards._i_azure_rate_card.getShared(String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::ratecards::IAzureRateCard</scope>
+        <name>getShared</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

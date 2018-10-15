@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_country_by_target_view" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::products::IProductCollectionByCountryByTargetView</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Product, ResourceCollection&lt;Product&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by_target_view_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_country_by_target_view_1ae2eb67847a0c77feae2fc16f24afac5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_coun927eaaccc93dc3c4b75af84feb96b957" kindref="compound">IProductCollectionByCountryByTargetViewByTargetSegment</ref>
+        </type>
+        <definition>IProductCollectionByCountryByTargetViewByTargetSegment com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment</definition>
+        <argsstring>(String targetSegment)</argsstring>
+        <name>byTargetSegment</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by_target_view_operations_1afdcefd90b1f709f736a1bd3e0cf32a5d">byTargetSegment</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>targetSegment</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IProductCollectionByCountryByTargetView.java" line="28" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_country_by_target_view_1aa4c92e249604d4a5860d0ba89d3a234e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_product" kindref="compound">Product</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Product&gt; com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations_1a2550ba7980c285cdff14a8d50666d617">get</reimplements>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by_target_view_operations_1a32c36944faff6d2f1fa249a82ebc6ce9">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IProductCollectionByCountryByTargetView.java" line="35" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Holds operations that can be performed on products that belong to a given country and a catalog view. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2942">
+        <label>com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by_target_view_operations" />
+        <childnode refid="2939" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2940">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2939">
+        <label>com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_country_by_target_view" />
+        <childnode refid="2940" relation="public-inheritance"></childnode>
+        <childnode refid="2941" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2941">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Product, ResourceCollection&lt;Product&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2944">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2943">
+        <label>com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_country_by_target_view" />
+        <childnode refid="2944" relation="public-inheritance"></childnode>
+        <childnode refid="2945" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2945">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Product, ResourceCollection&lt;Product&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IProductCollectionByCountryByTargetView.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IProductCollectionByCountryByTargetView.java" bodystart="18" bodyend="36" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_country_by_target_view_1ae2eb67847a0c77feae2fc16f24afac5e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IProductCollectionByCountryByTargetView</scope>
+        <name>byTargetSegment</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_country_by_target_view_1aa4c92e249604d4a5860d0ba89d3a234e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IProductCollectionByCountryByTargetView</scope>
+        <name>get</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IProductCollectionByCountryByTargetView</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IProductCollectionByCountryByTargetView</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

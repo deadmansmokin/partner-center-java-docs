@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations</compoundname>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements_1_1_i_customer_agreement_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_customer_licenses_deployment_insights_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_customer_licenses_usage_insights_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_licenses_deployment_insights_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_licenses_usage_insights_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_i_directory_role_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_i_user_member_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.ICustomerCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection_by_target_view" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_prod9e9d6ccb22ece65d5ca1d1111e1592b9" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1servicecosts_1_1_i_service_cost_line_items_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_license_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_role_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_configuration_policy_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_device_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_devices_batch_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements_1_1_entitlement_collection_by_entitlement_type_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements_1_1_i_entitlement_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.entitlements.IEntitlementCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1managedservices_1_1_i_managed_service_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_category_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.offers.ICustomerOfferCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer_category_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.offers.IOfferCategoryCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.orders.IOrderCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_collection_by_billing_cycle_type" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_availability_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.IAvailabilityCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_availability_collection_by_target_segment" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_country_by_target_view" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_coun927eaaccc93dc3c4b75af84feb96b957" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.ISkuCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_collection_by_target_segment" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_download_options" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.ISkuDownloadOptions</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships_1_1_i_customer_relationship_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1serviceincidents_1_1_i_service_incident_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_service_request_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_support_topics_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscribedskus_1_1_i_customer_subscribed_sku_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_add_on_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_conversion_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_upgrade_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_order_subscription_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_record_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_resource_usage_record_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_subscription_daily_usage_record_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection</derivedcompoundref>
+    <derivedcompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_subscription_monthly_usage_record_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+      <param>
+        <type>TResourceCollection</type>
+        <typeconstraint>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kindref="compound">ResourceCollection</ref>&lt;T</typeconstraint>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations_1a2550ba7980c285cdff14a8d50666d617" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TResourceCollection</type>
+        <definition>TResourceCollection com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&lt;T, TResourceCollection extends ResourceCollection&lt;T&gt;.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_collection_1af929ec3048bdadd14ed362deb239fca0">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_category_collection_1a23ad86dad1384ee0f68f257b5c1ecb21">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_subscription_monthly_usage_record_collection_1aee962e8675fddf5d3d6281d7ce4e868d">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_record_collection_1a7fefe8a11b47a049f2bd6c94b968540e">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_support_topics_collection_1a4f2ea7dd5d61843c81e66dc1da7f1cf6">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer_category_collection_1a2dca3f99ac0a2ac0916b9f1046174947">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_subscription_daily_usage_record_collection_1ae07caf7c416fb9496c87e0c4b38a1cb8">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_resource_usage_record_collection_1a9d36ed013d69ac9ee6da2620e7336721">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_add_on_collection_1a0d3bf92a0f810bff948fb5cd4ea0a402">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships_1_1_i_customer_relationship_collection_1a4883569f29c51d54ff0099218e7f685c">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_collection_by_billing_cycle_type_1a94fc444b48bbc82ecddf51f44125ee47">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1managedservices_1_1_i_managed_service_collection_1a082e24f36a127977adda276723a2933e">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1servicecosts_1_1_i_service_cost_line_items_collection_1af3d721d8d440b85590dd92cb2c965765">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_download_options_1a59c83951eb16e70d195f9ceb35e89202">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_collection_by_target_segment_1acedf5cf1157c2e46841c0ef483c37de7">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_coun927eaaccc93dc3c4b75af84feb96b957_1ae40c3e1bb4901b786dd24e4d20af0c37">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_availability_collection_by_target_segment_1a33943870ade44a7cb1bf171d9f7e2d14">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_role_collection_1a2b09345b3cf3b96e1e31c22bf0ecca97">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_prod9e9d6ccb22ece65d5ca1d1111e1592b9_1ada01f35c3e5a41ff34df637cd1fba26f">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection_by_target_view_1a750bcdf97ded50c338e29b21f7e17e36">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscribedskus_1_1_i_customer_subscribed_sku_collection_1a21ab30b9fd8cd49acaa18aaf74248261">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_license_collection_1afed27f384471401b7b817d069c38bf72">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_country_by_target_view_1aa4c92e249604d4a5860d0ba89d3a234e">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_i_directory_role_collection_1a45272d962daeb97ca2ad27ba589b325d">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements_1_1_i_customer_agreement_collection_1a7b40aebe8f8350af20533ee5cacbd5c0">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_conversion_collection_1af3d9be85638436456281b13cd06847aa">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_service_request_collection_1a717c02623315e4631654397906156e72">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_configuration_policy_collection_1a96143cd443fb5c8d4fbb82117caaeeb6">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_upgrade_collection_1aa23d3a8fb5b1d6a38bd15596e07edc48">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_devices_batch_collection_1a4aec308dc14d66ab070256abf6645b01">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_collection_1ac34d1e3cde4025cdc8d5e2434948af25">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_collection_1aa349325cad7a391de7f66c70c5090410">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_licenses_usage_insights_collection_operations_1afcbd49886ec0db274f0665e67f6b1d54">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_licenses_deployment_insights_collection_operations_1a3f85f67f8d0a86a148f4d2aabd08c02b">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_record_collection_operations_1a0de50d612185956d5532954666d16dc3">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_support_topics_collection_operations_1a873e9cc3b4791616504ad8365353eb18">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_collection_1a296408fcfee8a9aad9c250a45243ebe3">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_availability_collection_1a7bab5cc8ae5b82aff79498d5f98df5e5">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_customer_offer_category_collection_operations_1a902f7a96e16d9b8020786b0f0eecc3ea">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_customer_offer_collection_operations_1ab2ea1c55740e1125005ec5d89f4a4466">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_device_collection_1a0589b497d3ced7233dcd0035b210dcf3">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscribedskus_1_1_customer_subscribed_sku_collection_operations_1afc9cce7b99a69c5226bb9f8a6d35a491">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships_1_1_customer_relationship_collection_operations_1a57b683e6ebf565428222e755a8875990">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_offer_category_collection_operations_1a0d760d3d50542eb1b5ba10400a19f5df">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_role_collection_operations_1aeec15830cd1f252f2b7d21a72d463930">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_customer_licenses_usage_insights_collection_operations_1a01cd09b82caceef16cd0eba12a9f958b">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_customer_licenses_deployment_insights_collection_operations_1ab3aa422a3213500ec9fb09d6a8cd50cd">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_subscription_monthly_usage_record_collection_operations_1aaa369d658b92a778ab019cd1c543d7dd">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1servicecosts_1_1_service_cost_line_items_operations_1ab984c0e4a9886b304417898b5173c642">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1serviceincidents_1_1_service_incident_collection_operations_1a8da2861901c5f85cb4d2d1f4c1d1f37d">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1managedservices_1_1_managed_service_collection_operations_1a0a9017be782e4b1e99e9a2bd8dc4b075">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_collection_1a0ef010545f857a1b1967a6626e51d718">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_i_user_member_collection_1a7fd4354af098e8508b5ea84f87467b09">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_order_collection_by_billing_cycle_type_operations_1ac089c46ee2944b27b6acb17d7a66eba1">get</reimplementedby>
+        <reimplementedby refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_collection_1a6d31522617ceef1eb94f57f090d74b9c">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_license_collection_operations_1ae5a8a01fd32df507e28083407efd34ca">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_subscription_daily_usage_record_collection_operations_1a7ea4da976db9f2e479dc459a392fc6fb">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_add_on_collection_operations_1ac952b8ba3e4a36a832b0d914312a9f49">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_coc097e12f9730ff4482c8ead4f99b8414_1a7fe6965afca673d4de0ecc7135fbfc7a">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_resource_usage_record_collection_operations_1a04e455d5947726269d9d736938b2b70e">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_upgrade_collection_operations_1a6ca2538ffa6da2273e809af2db4d6e1d">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_sku_download_options_operations_1a1b56499bf02ed3af627e7b597a4e1f1c">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by1794bce7cb6b2412914593d5d082321e_1aa2103924581d1c8d3dfeaaba14d18eb2">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements_1_1_entitlement_collection_by_entitlement_type_operations_1a07131b10319760a25e5dce3be6923b75">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_order_subscription_collection_operations_1a4036b7a42266a1b016524abf1af715a2">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_sku_collection_by_target_segment_operations_1a43a9fa98d968940c50de6b2c0946b7ca">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements_1_1_entitlement_collection_operations_1a12768baf90ea64fd27a0f6c7b4164d8d">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by_target_view_operations_1a32c36944faff6d2f1fa249a82ebc6ce9">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_download_options_operations_1a239e68955c14b756f6118aba505adbf3">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_co0450890ecbca5085c8ca8d7a7c2fbdbd_1ac845e76cbcd48e153292b60881a8f836">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_directory_role_collection_operations_1a240b5cf0429d083efbf581ae4d03f12c">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_collec870c01975f99eb32c71fbc8f9ce12b78_1afc7c0850339e32869bba3826693eff9e">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_availability_collection_by_target_segment_operations_1a3796189514f54ff4f162dd61c633fae2">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements_1_1_customer_agreement_collection_operations_1a6c05e4a56642db828136a8dab13d4a0f">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_availabili0052e2bb5846798bebc2f866eb997cbd_1a54b960d75bb1dce6845e6f3a07a5af22">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_conversion_collection_operations_1a63b86c79bcfcc58f4a59ddef41ff7672">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_sku_collection_operations_1aeb45b762355fe352d0b1ab8130f50044">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_availability_collection_operations_1a7fb1ffe35c44d48ee48c0b44ec52fcfb">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_configuration_policy_collection_operations_1af24f75079bfa9229d82d24baecf5d513">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_devices_batch_collection_operations_1a1848bcb0528f8d54215fa0a67b90cc57">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_availability_collection_operations_1a3c25fc7de0c27324775a2d02d6c0bda0">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_order_collection_operations_1a4fdaa4189178be5a7d66335df870a4ee">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_collection_operations_1aad6aee7d562b527294af03047bc10331">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_users_collection_operations_1accf8d69903cf59fdb05ca7fd2537bc63">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_device_collection_operations_1a158ad4d8595cc4c5606005200d9a18f3">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_user_member_collection_operations_1aa577ed7cf0f02648ff8cb08f2454e00b">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_collection_operations_1a10bef5e0b7d55be959a77d0eabca9869">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_collection_operations_1a201bf6c87a84fe6434ed16ad1fc667e1">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_customer_service_request_collection_operations_1a8990c6642e3f4da26424f1876bcf2a49">get</reimplementedby>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_partner_service_request_collection_operations_1a01fde089bd5be529d2efabe9354df73d">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntireEntityCollectionRetrievalOperations.java" line="22" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>A generic interface which represents operations for getting an entire collection of entities. The entity type.The entity collection type. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1952">
+        <label>com::microsoft::store::partnercenter::usage::ISubscriptionMonthlyUsageRecordCollection&lt;SubscriptionMonthlyUsageRecord, ResourceCollection&lt;SubscriptionMonthlyUsageRecord&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_subscription_monthly_usage_record_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1875">
+        <label>com::microsoft::store::partnercenter::customers::products::ICustomerProductCollectionByTargetViewByTargetSegment&lt;Product, ResourceCollection&lt;Product&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_prod9e9d6ccb22ece65d5ca1d1111e1592b9" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1856">
+        <label>com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&lt;T, TResourceCollection extends ResourceCollection&lt;T&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="1919">
+        <label>com::microsoft::store::partnercenter::products::ISkuCollectionByTargetSegment&lt;Sku, ResourceCollection&lt;Sku&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_collection_by_target_segment" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1941">
+        <label>com::microsoft::store::partnercenter::subscriptions::ISubscriptionConversionCollection&lt;Conversion, ResourceCollection&lt;Conversion&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_conversion_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1921">
+        <label>com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_sku_collection_by_target_segment_operations" />
+        <childnode refid="1919" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1933">
+        <label>com::microsoft::store::partnercenter::servicerequests::ISupportTopicsCollection&lt;SupportTopic, ResourceCollection&lt;SupportTopic&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_support_topics_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1916">
+        <label>com::microsoft::store::partnercenter::products::ISkuCollection&lt;Sku, ResourceCollection&lt;Sku&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1864">
+        <label>com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_licenses_deployment_insights_collection_operations" />
+        <childnode refid="1863" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1950">
+        <label>com::microsoft::store::partnercenter::usage::ISubscriptionDailyUsageRecordCollection&lt;SubscriptionDailyUsageRecord, ResourceCollection&lt;SubscriptionDailyUsageRecord&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_subscription_daily_usage_record_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1917">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_collection_operations" />
+        <childnode refid="1916" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1914">
+        <label>com::microsoft::store::partnercenter::products::IProductCollectionByCountryByTargetViewByTargetSegment&lt;Product, ResourceCollection&lt;Product&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_coun927eaaccc93dc3c4b75af84feb96b957" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1867">
+        <label>com::microsoft::store::partnercenter::customerdirectoryroles::IDirectoryRoleCollection&lt;DirectoryRole, ResourceCollection&lt;DirectoryRole&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_i_directory_role_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1925">
+        <label>com::microsoft::store::partnercenter::relationships::ICustomerRelationshipCollection&lt;PartnerRelationship, ResourceCollection&lt;PartnerRelationship&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships_1_1_i_customer_relationship_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1861">
+        <label>com::microsoft::store::partnercenter::analytics::ICustomerLicensesUsageInsightsCollection&lt;CustomerLicensesUsageInsights, ResourceCollection&lt;CustomerLicensesUsageInsights&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_customer_licenses_usage_insights_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1887">
+        <label>com::microsoft::store::partnercenter::devicesdeployment::IDeviceCollection&lt;Device, ResourceCollection&lt;Device&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_device_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1871">
+        <label>com::microsoft::store::partnercenter::customers::ICustomerCollection&lt;Customer, SeekBasedResourceCollection&lt;Customer&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1913">
+        <label>com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by_target_view_operations" />
+        <childnode refid="1912" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1945">
+        <label>com::microsoft::store::partnercenter::subscriptions::OrderSubscriptionCollectionOperations&lt;Subscription, ResourceCollection&lt;Subscription&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_order_subscription_collection_operations" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1872">
+        <label>com.microsoft.store.partnercenter.customers.CustomerCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_collection_operations" />
+        <childnode refid="1871" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1930">
+        <label>com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_customer_service_request_collection_operations" />
+        <childnode refid="1929" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1892">
+        <label>com::microsoft::store::partnercenter::entitlements::IEntitlementCollection&lt;Entitlement, ResourceCollection&lt;Entitlement&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements_1_1_i_entitlement_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1862">
+        <label>com.microsoft.store.partnercenter.analytics.CustomerLicensesUsageInsightsCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_customer_licenses_usage_insights_collection_operations" />
+        <childnode refid="1861" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1937">
+        <label>com::microsoft::store::partnercenter::subscriptions::ISubscriptionAddOnCollection&lt;Subscription, ResourceCollection&lt;Subscription&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_add_on_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1883">
+        <label>com::microsoft::store::partnercenter::customerusers::ICustomerUserRoleCollection&lt;DirectoryRole, ResourceCollection&lt;DirectoryRole&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_role_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1918">
+        <label>com.microsoft.store.partnercenter.products.SkuCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_sku_collection_operations" />
+        <childnode refid="1916" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1889">
+        <label>com::microsoft::store::partnercenter::devicesdeployment::IDevicesBatchCollection&lt;DeviceBatch, ResourceCollection&lt;DeviceBatch&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_devices_batch_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1934">
+        <label>com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_support_topics_collection_operations" />
+        <childnode refid="1933" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1870">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_user_member_collection_operations" />
+        <childnode refid="1869" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1878">
+        <label>com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1servicecosts_1_1_service_cost_line_items_operations" />
+        <childnode refid="1877" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1928">
+        <label>com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1serviceincidents_1_1_service_incident_collection_operations" />
+        <childnode refid="1927" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1915">
+        <label>com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewByTargetSegmentOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_product_collection_by_country_by1794bce7cb6b2412914593d5d082321e" />
+        <childnode refid="1914" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1881">
+        <label>com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseCollection&lt;License, ResourceCollection&lt;License&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_license_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1868">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_directory_role_collection_operations" />
+        <childnode refid="1867" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1907">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_availability_collection_operations" />
+        <childnode refid="1906" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1859">
+        <label>com::microsoft::store::partnercenter::analytics::ICustomerLicensesDeploymentInsightsCollection&lt;CustomerLicensesDeploymentInsights, ResourceCollection&lt;CustomerLicensesDeploymentInsights&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_customer_licenses_deployment_insights_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1938">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_add_on_collection_operations" />
+        <childnode refid="1937" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1904">
+        <label>com::microsoft::store::partnercenter::orders::IOrderCollectionByBillingCycleType&lt;Order, ResourceCollection&lt;Order&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_collection_by_billing_cycle_type" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1944">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_upgrade_collection_operations" />
+        <childnode refid="1943" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1911">
+        <label>com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_availability_collection_by_target_segment_operations" />
+        <childnode refid="1909" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1876">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByTargetSegmentOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_co0450890ecbca5085c8ca8d7a7c2fbdbd" />
+        <childnode refid="1875" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1896">
+        <label>com::microsoft::store::partnercenter::offers::ICustomerOfferCategoryCollection&lt;OfferCategory, ResourceCollection&lt;OfferCategory&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_category_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1877">
+        <label>com::microsoft::store::partnercenter::customers::servicecosts::IServiceCostLineItemsCollection&lt;ServiceCostLineItem, ResourceCollection&lt;ServiceCostLineItem&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1servicecosts_1_1_i_service_cost_line_items_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1860">
+        <label>com.microsoft.store.partnercenter.analytics.CustomerLicensesDeploymentInsightsCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_customer_licenses_deployment_insights_collection_operations" />
+        <childnode refid="1859" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1923">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerSkuDownloadOptionsOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_download_options_operations" />
+        <childnode refid="1922" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1935">
+        <label>com::microsoft::store::partnercenter::subscribedskus::ICustomerSubscribedSkuCollection&lt;SubscribedSku, ResourceCollection&lt;SubscribedSku&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscribedskus_1_1_i_customer_subscribed_sku_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1909">
+        <label>com::microsoft::store::partnercenter::products::IAvailabilityCollectionByTargetSegment&lt;Availability, ResourceCollection&lt;Availability&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_availability_collection_by_target_segment" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1886">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_configuration_policy_collection_operations" />
+        <childnode refid="1885" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1936">
+        <label>com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscribedskus_1_1_customer_subscribed_sku_collection_operations" />
+        <childnode refid="1935" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1932">
+        <label>com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_partner_service_request_collection_operations" />
+        <childnode refid="1931" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1898">
+        <label>com::microsoft::store::partnercenter::offers::ICustomerOfferCollection&lt;Offer, ResourceCollection&lt;Offer&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1948">
+        <label>com::microsoft::store::partnercenter::usage::IResourceUsageRecordCollection&lt;AzureResourceMonthlyUsageRecord, ResourceCollection&lt;AzureResourceMonthlyUsageRecord&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_resource_usage_record_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1880">
+        <label>com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_users_collection_operations" />
+        <childnode refid="1879" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1929">
+        <label>com::microsoft::store::partnercenter::servicerequests::IServiceRequestCollection&lt;ServiceRequest, ResourceCollection&lt;ServiceRequest&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_service_request_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1879">
+        <label>com::microsoft::store::partnercenter::customerusers::ICustomerUserCollection&lt;CustomerUser, SeekBasedResourceCollection&lt;CustomerUser&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1884">
+        <label>com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_role_collection_operations" />
+        <childnode refid="1883" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1895">
+        <label>com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1managedservices_1_1_managed_service_collection_operations" />
+        <childnode refid="1894" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1899">
+        <label>com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_customer_offer_collection_operations" />
+        <childnode refid="1898" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1946">
+        <label>com::microsoft::store::partnercenter::usage::ICustomerUsageRecordCollection&lt;CustomerMonthlyUsageRecord, ResourceCollection&lt;CustomerMonthlyUsageRecord&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_record_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1951">
+        <label>com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_subscription_daily_usage_record_collection_operations" />
+        <childnode refid="1950" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1866">
+        <label>com.microsoft.store.partnercenter.analytics.PartnerLicensesUsageInsightsCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_licenses_usage_insights_collection_operations" />
+        <childnode refid="1865" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1891">
+        <label>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionByEntitlementTypeOperations&lt;Entitlement, ResourceCollection&lt;Entitlement&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements_1_1_entitlement_collection_by_entitlement_type_operations" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1939">
+        <label>com::microsoft::store::partnercenter::subscriptions::ISubscriptionCollection&lt;Subscription, ResourceCollection&lt;Subscription&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1893">
+        <label>com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements_1_1_entitlement_collection_operations" />
+        <childnode refid="1892" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1882">
+        <label>com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_license_collection_operations" />
+        <childnode refid="1881" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1873">
+        <label>com::microsoft::store::partnercenter::customers::products::ICustomerProductCollectionByTargetView&lt;Product, ResourceCollection&lt;Product&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection_by_target_view" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1865">
+        <label>com::microsoft::store::partnercenter::analytics::IPartnerLicensesUsageInsightsCollection&lt;PartnerLicensesUsageInsights, ResourceCollection&lt;PartnerLicensesUsageInsights&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_licenses_usage_insights_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1902">
+        <label>com::microsoft::store::partnercenter::orders::IOrderCollection&lt;Order, ResourceCollection&lt;Order&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1953">
+        <label>com.microsoft.store.partnercenter.usage.SubscriptionMonthlyUsageRecordCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_subscription_monthly_usage_record_collection_operations" />
+        <childnode refid="1952" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1903">
+        <label>com.microsoft.store.partnercenter.orders.OrderCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_order_collection_operations" />
+        <childnode refid="1902" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1900">
+        <label>com::microsoft::store::partnercenter::offers::IOfferCategoryCollection&lt;OfferCategory, ResourceCollection&lt;OfferCategory&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer_category_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1920">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_sku_collec870c01975f99eb32c71fbc8f9ce12b78" />
+        <childnode refid="1919" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1863">
+        <label>com::microsoft::store::partnercenter::analytics::IPartnerLicensesDeploymentInsightsCollection&lt;PartnerLicensesDeploymentInsights, ResourceCollection&lt;PartnerLicensesDeploymentInsights&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_licenses_deployment_insights_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1874">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_coc097e12f9730ff4482c8ead4f99b8414" />
+        <childnode refid="1873" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1857">
+        <label>com::microsoft::store::partnercenter::agreements::ICustomerAgreementCollection&lt;Agreement, ResourceCollection&lt;Agreement&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements_1_1_i_customer_agreement_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1890">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_devices_batch_collection_operations" />
+        <childnode refid="1889" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1926">
+        <label>com.microsoft.store.partnercenter.relationships.CustomerRelationshipCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships_1_1_customer_relationship_collection_operations" />
+        <childnode refid="1925" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1901">
+        <label>com.microsoft.store.partnercenter.offers.OfferCategoryCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_offer_category_collection_operations" />
+        <childnode refid="1900" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1858">
+        <label>com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements_1_1_customer_agreement_collection_operations" />
+        <childnode refid="1857" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1927">
+        <label>com::microsoft::store::partnercenter::serviceincidents::IServiceIncidentCollection&lt;ServiceIncidents, ResourceCollection&lt;ServiceIncidents&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1serviceincidents_1_1_i_service_incident_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1888">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_device_collection_operations" />
+        <childnode refid="1887" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1940">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_collection_operations" />
+        <childnode refid="1939" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1908">
+        <label>com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_availability_collection_operations" />
+        <childnode refid="1906" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1949">
+        <label>com.microsoft.store.partnercenter.usage.ResourceUsageRecordCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_resource_usage_record_collection_operations" />
+        <childnode refid="1948" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1943">
+        <label>com::microsoft::store::partnercenter::subscriptions::ISubscriptionUpgradeCollection&lt;Upgrade, ResourceCollection&lt;Upgrade&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_upgrade_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1947">
+        <label>com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_customer_usage_record_collection_operations" />
+        <childnode refid="1946" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1910">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionByTargetSegmentOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_availabili0052e2bb5846798bebc2f866eb997cbd" />
+        <childnode refid="1909" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1905">
+        <label>com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_order_collection_by_billing_cycle_type_operations" />
+        <childnode refid="1904" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1912">
+        <label>com::microsoft::store::partnercenter::products::IProductCollectionByCountryByTargetView&lt;Product, ResourceCollection&lt;Product&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection_by_country_by_target_view" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1885">
+        <label>com::microsoft::store::partnercenter::devicesdeployment::IConfigurationPolicyCollection&lt;ConfigurationPolicy, ResourceCollection&lt;ConfigurationPolicy&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_configuration_policy_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1924">
+        <label>com.microsoft.store.partnercenter.products.SkuDownloadOptionsOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_sku_download_options_operations" />
+        <childnode refid="1922" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1922">
+        <label>com::microsoft::store::partnercenter::products::ISkuDownloadOptions&lt;SkuDownloadOptions, ResourceCollection&lt;SkuDownloadOptions&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_sku_download_options" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1931">
+        <label>com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_partner_service_request_collection" />
+        <childnode refid="1929" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1906">
+        <label>com::microsoft::store::partnercenter::products::IAvailabilityCollection&lt;Availability, ResourceCollection&lt;Availability&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_availability_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1894">
+        <label>com::microsoft::store::partnercenter::managedservices::IManagedServiceCollection&lt;ManagedService, ResourceCollection&lt;ManagedService&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1managedservices_1_1_i_managed_service_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1869">
+        <label>com::microsoft::store::partnercenter::customerdirectoryroles::IUserMemberCollection&lt;UserMember, SeekBasedResourceCollection&lt;UserMember&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_i_user_member_collection" />
+        <childnode refid="1856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1897">
+        <label>com.microsoft.store.partnercenter.offers.CustomerOfferCategoryCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_customer_offer_category_collection_operations" />
+        <childnode refid="1896" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1942">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_conversion_collection_operations" />
+        <childnode refid="1941" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntireEntityCollectionRetrievalOperations.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntireEntityCollectionRetrievalOperations.java" bodystart="15" bodyend="24" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations_1a2550ba7980c285cdff14a8d50666d617" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations</scope>
+        <name>get</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

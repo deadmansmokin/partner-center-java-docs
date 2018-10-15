@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.offers._offer_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.offers._i_offer_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.offers.IOfferCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.offers._offer_collection_operations.OfferCollectionOperations(IPartner,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.offers.OfferCollectionOperations.OfferCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String country)</argsstring>
+        <name>OfferCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>country</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the OfferCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>country</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The country on which to base the offers </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" line="36" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" bodystart="36" bodyend="41" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.offers._offer_collection_operations.byId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.offers._i_offer" kindref="compound">IOffer</ref>
+        </type>
+        <definition>IOffer com.microsoft.store.partnercenter.offers.OfferCollectionOperations.byId</definition>
+        <argsstring>(String offerId)</argsstring>
+        <name>byId</name>
+        <reimplements refid="com.microsoft.store.partnercenter.offers._i_offer_collection.byId(String)">byId</reimplements>
+        <param>
+          <type>String</type>
+          <declname>offerId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the operations tied with a specific offer.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>offerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The offer id. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The offer operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" line="50" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" bodystart="50" bodyend="53" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.offers._offer_collection_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.offers._offer" kindref="compound">Offer</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Offer&gt; com.microsoft.store.partnercenter.offers.OfferCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.offers._i_offer_collection.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all the offers for the provided country.</para>
+          <para>
+            <simplesect kind="return">
+              <para>All offers for the provided country. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" line="61" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" bodystart="61" bodyend="73" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.offers._offer_collection_operations.get(int,int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.offers._offer" kindref="compound">Offer</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Offer&gt; com.microsoft.store.partnercenter.offers.OfferCollectionOperations.get</definition>
+        <argsstring>(int offset, int size)</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.offers._i_offer_collection.get(int,int)">get</reimplements>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all the offers for the provided country.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>offset</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The starting index. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>size</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The maximum number of offers to return. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>All offers for the provided country. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" line="83" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" bodystart="83" bodyend="99" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.offers._offer_collection_operations.byCategory(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.offers._i_category_offers_collection" kindref="compound">ICategoryOffersCollection</ref>
+        </type>
+        <definition>ICategoryOffersCollection com.microsoft.store.partnercenter.offers.OfferCollectionOperations.byCategory</definition>
+        <argsstring>(String categoryId)</argsstring>
+        <name>byCategory</name>
+        <reimplements refid="com.microsoft.store.partnercenter.offers._i_offer_collection.byCategory(String)">byCategory</reimplements>
+        <param>
+          <type>String</type>
+          <declname>categoryId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" line="106" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" bodystart="106" bodyend="109" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Offer Collection operations implementation. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3405">
+        <label>com.microsoft.store.partnercenter.offers.OfferCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.offers._offer_collection_operations" />
+        <childnode refid="3406" relation="public-inheritance"></childnode>
+        <childnode refid="3408" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3410">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3407">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="3406">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="3407" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3408">
+        <label>com.microsoft.store.partnercenter.offers.IOfferCollection</label>
+        <link refid="com.microsoft.store.partnercenter.offers._i_offer_collection" />
+        <childnode refid="3409" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3409">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="3410" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3411">
+        <label>com.microsoft.store.partnercenter.offers.OfferCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.offers._offer_collection_operations" />
+        <childnode refid="3412" relation="public-inheritance"></childnode>
+        <childnode refid="3414" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3416">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3413">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="3412">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="3413" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3414">
+        <label>com.microsoft.store.partnercenter.offers.IOfferCollection</label>
+        <link refid="com.microsoft.store.partnercenter.offers._i_offer_collection" />
+        <childnode refid="3415" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3415">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="3416" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java" bodystart="26" bodyend="111" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner,String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.offers._offer_collection_operations.byCategory(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>byCategory</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.offers._offer_collection_operations.byId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>byId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.offers._offer_collection_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.offers._offer_collection_operations.get(int,int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::offers::IOfferCollection.">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::offers::IOfferCollection.">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.offers._offer_collection_operations.OfferCollectionOperations(IPartner,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCollectionOperations</scope>
+        <name>OfferCollectionOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

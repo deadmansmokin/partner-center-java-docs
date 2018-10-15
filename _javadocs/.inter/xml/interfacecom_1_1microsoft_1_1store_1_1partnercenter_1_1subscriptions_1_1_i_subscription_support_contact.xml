@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_support_contact" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::subscriptions::ISubscriptionSupportContact</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SupportContact&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;SupportContact&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_support_contact_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_support_contact_1ab358b878dbbcbaed94cbeb33ebf17a4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1subscriptions_1_1_support_contact" kindref="compound">SupportContact</ref>
+        </type>
+        <definition>SupportContact com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations_1aa2e3cf8b3d1237922579e228472e1b24">get</reimplements>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_support_contact_operations_1afa09c31a4076b6afa6806c5e0b207e27">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the support contact of the customer's subscription.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The subscription's support contact. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionSupportContact.java" line="26" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_support_contact_1a149d63328a7ee9edb79fe35d164b7c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1subscriptions_1_1_support_contact" kindref="compound">SupportContact</ref>
+        </type>
+        <definition>SupportContact com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update</definition>
+        <argsstring>(SupportContact supportContact)</argsstring>
+        <name>update</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_support_contact_operations_1acfddc2eebe5ab5a3cc79987073529fdb">update</reimplementedby>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1subscriptions_1_1_support_contact" kindref="compound">SupportContact</ref>
+          </type>
+          <declname>supportContact</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Updates the support contact of the customer's subscription.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>supportContact</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The support contact </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The updated support contact. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionSupportContact.java" line="34" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Defines the operations available on a customer's subscription support contact. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3174">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_support_contact_operations" />
+        <childnode refid="3170" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3172">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SupportContact&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="3171">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3170">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_support_contact" />
+        <childnode refid="3171" relation="public-inheritance"></childnode>
+        <childnode refid="3172" relation="public-inheritance"></childnode>
+        <childnode refid="3173" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3173">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;SupportContact&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3177">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SupportContact&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="3176">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3175">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_support_contact" />
+        <childnode refid="3176" relation="public-inheritance"></childnode>
+        <childnode refid="3177" relation="public-inheritance"></childnode>
+        <childnode refid="3178" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3178">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;SupportContact&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionSupportContact.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionSupportContact.java" bodystart="18" bodyend="35" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_support_contact_1ab358b878dbbcbaed94cbeb33ebf17a4a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::ISubscriptionSupportContact</scope>
+        <name>get</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::ISubscriptionSupportContact</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::ISubscriptionSupportContact</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_support_contact_1a149d63328a7ee9edb79fe35d164b7c58" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::ISubscriptionSupportContact</scope>
+        <name>update</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations_1ab61bb59b988db7b4cc1deb39a1084489" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations.">
+        <scope>com::microsoft::store::partnercenter::subscriptions::ISubscriptionSupportContact</scope>
+        <name>update</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

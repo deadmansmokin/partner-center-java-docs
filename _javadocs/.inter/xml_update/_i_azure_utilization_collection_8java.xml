@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_i_azure_utilization_collection_8java" kind="file" language="Java">
+    <compoundname>IAzureUtilizationCollection.java</compoundname>
+    <innerclass refid="com.microsoft.store.partnercenter.utilization._i_azure_utilization_collection" prot="public">com::microsoft::store::partnercenter::utilization::IAzureUtilizationCollection</innerclass>
+    <innernamespace refid="com.microsoft.store.partnercenter.utilization">com::microsoft::store::partnercenter::utilization</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="IAzureUtilizationCollection.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.utilization;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />org.joda.time.DateTime;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._i_partner_component" kindref="compound">IPartnerComponent</ref>;</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.query" kindref="compound">query</ref>.<ref refid="com.microsoft.store.partnercenter.models.query._seek_operation" kindref="compound">SeekOperation</ref>;</highlight>
+      </codeline>
+      <codeline lineno="14">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.utilizations" kindref="compound">utilizations</ref>.<ref refid="com.microsoft.store.partnercenter.models.utilizations._azure_utilization_granularity" kindref="compound">AzureUtilizationGranularity</ref>;</highlight>
+      </codeline>
+      <codeline lineno="15">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.utilizations" kindref="compound">utilizations</ref>.<ref refid="com.microsoft.store.partnercenter.models.utilizations._azure_utilization_record" kindref="compound">AzureUtilizationRecord</ref>;</highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils" kindref="compound">utils</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils._tuple" kindref="compound">Tuple</ref>;</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="comment">
+          <sp />*<sp />Groups<sp />behavior<sp />related<sp />to<sp />Azure<sp />subscription<sp />utilization<sp />records.</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="comment">
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="21" refid="com.microsoft.store.partnercenter.utilization._i_azure_utilization_collection" refkind="compound">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">interface<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="com.microsoft.store.partnercenter.utilization._i_azure_utilization_collection" kindref="compound">IAzureUtilizationCollection</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter._i_partner_component" kindref="compound">IPartnerComponent</ref>&lt;Tuple&lt;String,<sp />String&gt;&gt;</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="25">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Retrieves<sp />utilization<sp />records<sp />for<sp />the<sp />Azure<sp />subscription.</highlight>
+      </codeline>
+      <codeline lineno="26">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />startTime<sp />The<sp />starting<sp />time<sp />of<sp />when<sp />the<sp />utilization<sp />was<sp />metered<sp />in<sp />the<sp />billing<sp />system.</highlight>
+      </codeline>
+      <codeline lineno="27">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />endTime<sp />The<sp />ending<sp />time<sp />of<sp />when<sp />the<sp />utilization<sp />was<sp />metered<sp />in<sp />the<sp />billing<sp />system.</highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />granularity<sp />The<sp />resource<sp />usage<sp />time<sp />granularity.<sp />Can<sp />either<sp />be<sp />daily<sp />or<sp />hourly.<sp />Default<sp />is<sp />daily.</highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />showDetails<sp />If<sp />set<sp />to<sp />true,<sp />the<sp />utilization<sp />records<sp />will<sp />be<sp />split<sp />by<sp />the<sp />resource<sp />instance<sp />levels.<sp />If<sp />set<sp />to<sp />false,<sp />the<sp />utilization<sp />records</highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />will<sp />be<sp />aggregated<sp />on<sp />the<sp />resource<sp />level.<sp />Default<sp />is<sp />true.</highlight>
+      </codeline>
+      <codeline lineno="31">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />size<sp />Maximum<sp />number<sp />of<sp />records<sp />to<sp />return.<sp />The<sp />returned<sp />resource<sp />collection<sp />will<sp />specify<sp />a<sp />next<sp />link<sp />in<sp />case<sp />there</highlight>
+      </codeline>
+      <codeline lineno="32">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />were<sp />more<sp />utilization<sp />records<sp />available.</highlight>
+      </codeline>
+      <codeline lineno="33">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />Azure<sp />resource<sp />utilization<sp />for<sp />the<sp />subscription.</highlight>
+      </codeline>
+      <codeline lineno="34">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="35">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection&lt;AzureUtilizationRecord&gt;</ref>
+          <sp />query(</highlight>
+      </codeline>
+      <codeline lineno="36">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />DateTime<sp />startTime,</highlight>
+      </codeline>
+      <codeline lineno="37">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />DateTime<sp />endTime,</highlight>
+      </codeline>
+      <codeline lineno="38">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.utilizations._azure_utilization_granularity" kindref="compound">AzureUtilizationGranularity</ref>
+          <sp />granularity,</highlight>
+      </codeline>
+      <codeline lineno="39">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">boolean</highlight>
+        <highlight class="normal">
+          <sp />showDetails,</highlight>
+      </codeline>
+      <codeline lineno="40">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />size);</highlight>
+      </codeline>
+      <codeline lineno="41">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="42">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="43">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Seeks<sp />pages<sp />of<sp />of<sp />utilization<sp />for<sp />resources<sp />that<sp />belong<sp />to<sp />an<sp />Azure<sp />subscription<sp />owned<sp />by<sp />a<sp />customer<sp />of<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="44">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />continuationToken<sp />The<sp />continuation<sp />token<sp />from<sp />the<sp />previous<sp />results.</highlight>
+      </codeline>
+      <codeline lineno="45">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />seekOperation<sp />The<sp />seek<sp />operation<sp />to<sp />perform.<sp />Next<sp />is<sp />only<sp />supported.</highlight>
+      </codeline>
+      <codeline lineno="46">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />next<sp />page<sp />of<sp />utilization<sp />records.</highlight>
+      </codeline>
+      <codeline lineno="47">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="48">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection&lt;AzureUtilizationRecord&gt;</ref>
+          <sp />seek(<sp />String<sp />continuationToken,<sp /><ref refid="com.microsoft.store.partnercenter.models.query._seek_operation" kindref="compound">SeekOperation</ref><sp />seekOperation<sp />);</highlight>
+      </codeline>
+      <codeline lineno="49">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utilization/IAzureUtilizationCollection.java" />
+  </compounddef>
+</doxygen>

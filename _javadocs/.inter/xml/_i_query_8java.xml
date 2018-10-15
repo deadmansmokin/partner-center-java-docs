@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_i_query_8java" kind="file" language="Java">
+    <compoundname>IQuery.java</compoundname>
+    <innerclass refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query" prot="public">com::microsoft::store::partnercenter::models::query::IQuery</innerclass>
+    <innernamespace refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query">com::microsoft::store::partnercenter::models::query</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="IQuery.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.models.query;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models" kindref="compound">models</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query" kindref="compound">query</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1filters" kindref="compound">filters</ref>.<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1filters_1_1_field_filter" kindref="compound">FieldFilter</ref>;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models" kindref="compound">models</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query" kindref="compound">query</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort" kindref="compound">sort</ref>.<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort" kindref="compound">Sort</ref>;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="15" refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">interface<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query" kindref="compound">IQuery</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_query_type" kindref="compound">QueryType</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a203d42cfee873b91d6fe93af3e91f516" kindref="member">getType</ref>();</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1filters_1_1_field_filter" kindref="compound">FieldFilter</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1acd8518f2868c2ec62c7ca3354aebc442" kindref="member">getFilter</ref>();</highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="36">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1affbaebbc81777b85a6f677b6054dd265" kindref="member">setFilter</ref>(<sp /><ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1filters_1_1_field_filter" kindref="compound">FieldFilter</ref><sp />value<sp />);</highlight>
+      </codeline>
+      <codeline lineno="37">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="43">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort" kindref="compound">Sort</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a20a991be11a47a9a3d8a5e95eede0268" kindref="member">getSort</ref>();</highlight>
+      </codeline>
+      <codeline lineno="44">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="50">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ae465eba7fbb38e80e0d07c2494f3e451" kindref="member">setSort</ref>(<sp /><ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort" kindref="compound">Sort</ref><sp />value<sp />);</highlight>
+      </codeline>
+      <codeline lineno="51">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="57">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ad67d61eec544a4ae65ce5e225d5a9b76" kindref="member">getIndex</ref>();</highlight>
+      </codeline>
+      <codeline lineno="58">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="64">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ae6c897107f620f9cabcc4d15e4bd8a49" kindref="member">setIndex</ref>(<sp /></highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />value<sp />);</highlight>
+      </codeline>
+      <codeline lineno="65">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="71">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a264a8c81120b84fcda2343830182b5c4" kindref="member">getPageSize</ref>();</highlight>
+      </codeline>
+      <codeline lineno="72">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="78">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ac042fadc84a3251ef601ded85571bfd4" kindref="member">setPageSize</ref>(<sp /></highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />value<sp />);</highlight>
+      </codeline>
+      <codeline lineno="79">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="85">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />Object<sp /><ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ad3b6d540662f01f86e5b0fbbec751963" kindref="member">getToken</ref>();</highlight>
+      </codeline>
+      <codeline lineno="86">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="92">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1aa67956a3eeb9ad9dcb4576159f16a4c4" kindref="member">setToken</ref>(<sp />Object<sp />value<sp />);</highlight>
+      </codeline>
+      <codeline lineno="93">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="99">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_operation" kindref="compound">SeekOperation</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1aad674c5683c1696e2e6a5fdcf4514cb9" kindref="member">getSeekOperation</ref>();</highlight>
+      </codeline>
+      <codeline lineno="100">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="106">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a33635e34ffe27cf2aedb7c1ef0358afd" kindref="member">setSeekOperation</ref>(<sp /><ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_operation" kindref="compound">SeekOperation</ref><sp />value<sp />);</highlight>
+      </codeline>
+      <codeline lineno="107">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IQuery.java" />
+  </compounddef>
+</doxygen>

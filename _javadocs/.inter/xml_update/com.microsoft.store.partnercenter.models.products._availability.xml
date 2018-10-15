@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.products._availability" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::products::Availability</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base_with_links" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.products._availability.__Id" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.__Id</definition>
+        <argsstring></argsstring>
+        <name>__Id</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the unique availability id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="21" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.products._availability.__ProductId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.__ProductId</definition>
+        <argsstring></argsstring>
+        <name>__ProductId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the product id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="36" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="36" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.products._availability.__SkuId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.__SkuId</definition>
+        <argsstring></argsstring>
+        <name>__SkuId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the sku id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="51" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="51" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.products._availability.__CatalogItemId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.__CatalogItemId</definition>
+        <argsstring></argsstring>
+        <name>__CatalogItemId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the id that uniquely identifies this item in the catalog. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="66" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="66" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.products._availability.__DefaultCurrency" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.products._currency_info" kindref="compound">CurrencyInfo</ref>
+        </type>
+        <definition>CurrencyInfo com.microsoft.store.partnercenter.models.products.Availability.__DefaultCurrency</definition>
+        <argsstring></argsstring>
+        <name>__DefaultCurrency</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the default currency. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="81" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="81" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.products._availability.__Segment" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.__Segment</definition>
+        <argsstring></argsstring>
+        <name>__Segment</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the segment. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="96" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="96" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.products._availability.__Country" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.__Country</definition>
+        <argsstring></argsstring>
+        <name>__Country</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the country. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="111" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="111" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.getId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="23" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="23" bodyend="26" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.setId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.products.Availability.setId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="28" bodyend="31" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.getProductId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.getProductId</definition>
+        <argsstring>()</argsstring>
+        <name>getProductId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="38" bodyend="41" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.setProductId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.products.Availability.setProductId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setProductId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="43" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="43" bodyend="46" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.getSkuId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.getSkuId</definition>
+        <argsstring>()</argsstring>
+        <name>getSkuId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="53" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="53" bodyend="56" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.setSkuId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.products.Availability.setSkuId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setSkuId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="58" bodyend="61" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.getCatalogItemId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.getCatalogItemId</definition>
+        <argsstring>()</argsstring>
+        <name>getCatalogItemId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="68" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="68" bodyend="71" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.setCatalogItemId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.products.Availability.setCatalogItemId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCatalogItemId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="73" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="73" bodyend="76" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.getDefaultCurrency()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.products._currency_info" kindref="compound">CurrencyInfo</ref>
+        </type>
+        <definition>CurrencyInfo com.microsoft.store.partnercenter.models.products.Availability.getDefaultCurrency</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultCurrency</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="83" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="83" bodyend="86" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.setDefaultCurrency(CurrencyInfo)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.products.Availability.setDefaultCurrency</definition>
+        <argsstring>(CurrencyInfo value)</argsstring>
+        <name>setDefaultCurrency</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.products._currency_info" kindref="compound">CurrencyInfo</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="88" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="88" bodyend="91" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.getSegment()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.getSegment</definition>
+        <argsstring>()</argsstring>
+        <name>getSegment</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="98" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="98" bodyend="101" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.setSegment(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.products.Availability.setSegment</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setSegment</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="103" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="103" bodyend="106" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.getCountry()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.products.Availability.getCountry</definition>
+        <argsstring>()</argsstring>
+        <name>getCountry</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="113" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="113" bodyend="116" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.products._availability.setCountry(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.products.Availability.setCountry</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCountry</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="118" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="118" bodyend="121" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents a partner's billing profile. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="68">
+        <label>com.microsoft.store.partnercenter.models.products.Availability</label>
+        <link refid="com.microsoft.store.partnercenter.models.products._availability" />
+        <childnode refid="69" relation="public-inheritance"></childnode>
+      </node>
+      <node id="69">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="70" relation="public-inheritance"></childnode>
+      </node>
+      <node id="70">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="71">
+        <label>com.microsoft.store.partnercenter.models.products.Availability</label>
+        <link refid="com.microsoft.store.partnercenter.models.products._availability" />
+        <childnode refid="72" relation="public-inheritance"></childnode>
+      </node>
+      <node id="72">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="73" relation="public-inheritance"></childnode>
+      </node>
+      <node id="73">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/Availability.java" bodystart="15" bodyend="122" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.__CatalogItemId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>__CatalogItemId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.__Country" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>__Country</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.__DefaultCurrency" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>__DefaultCurrency</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.__Id" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>__Id</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.__ProductId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>__ProductId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.__Segment" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>__Segment</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.__SkuId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>__SkuId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.getCatalogItemId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>getCatalogItemId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.getCountry()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>getCountry</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.getDefaultCurrency()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>getDefaultCurrency</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.getId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>getId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.getLinks()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.getProductId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>getProductId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.getSegment()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>getSegment</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.getSkuId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>getSkuId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.setCatalogItemId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>setCatalogItemId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.setCountry(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>setCountry</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.setDefaultCurrency(CurrencyInfo)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>setDefaultCurrency</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.setId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>setId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.setLinks(TLinks)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.setProductId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>setProductId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.setSegment(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>setSegment</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.products._availability.setSkuId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::Availability</scope>
+        <name>setSkuId</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

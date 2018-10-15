@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_invoice_summary_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::invoices::InvoiceSummaryCollectionOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_summary_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_invoice_summary_collection_operations_1a2a7c3966888c778aad5940676e72ae0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations)</argsstring>
+        <name>InvoiceSummaryCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceSummaryCollectionOperations.java" line="30" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceSummaryCollectionOperations.java" bodystart="30" bodyend="33" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_invoice_summary_collection_operations_1af2cf293a01e3190a08d39ae89c6a5290" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_summary" kindref="compound">InvoiceSummary</ref>&gt;</type>
+        <definition>ResourceCollection&lt;InvoiceSummary&gt; com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_summary_collection_1a67062869d2c69a3ea2b2a87915a50871">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves an entity.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entity. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceSummaryCollectionOperations.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceSummaryCollectionOperations.java" bodystart="38" bodyend="49" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="2411">
+        <label>com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_invoice_summary_collection_operations" />
+        <childnode refid="2412" relation="public-inheritance"></childnode>
+        <childnode refid="2414" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2416">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2413">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="2412">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="2413" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2414">
+        <label>com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_summary_collection" />
+        <childnode refid="2415" relation="public-inheritance"></childnode>
+        <childnode refid="2417" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2417">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;ResourceCollection&lt;InvoiceSummary&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="2415">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2416" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2418">
+        <label>com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_invoice_summary_collection_operations" />
+        <childnode refid="2419" relation="public-inheritance"></childnode>
+        <childnode refid="2421" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2423">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2420">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="2419">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="2420" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2421">
+        <label>com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_summary_collection" />
+        <childnode refid="2422" relation="public-inheritance"></childnode>
+        <childnode refid="2424" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2424">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;ResourceCollection&lt;InvoiceSummary&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="2422">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2423" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceSummaryCollectionOperations.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceSummaryCollectionOperations.java" bodystart="21" bodyend="50" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::invoices::InvoiceSummaryCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1ae6339c5a921b5c3b6a545e1064951c83" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::invoices::InvoiceSummaryCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1a9662304cff58f8d465d2a47e7e8cedf0" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::invoices::InvoiceSummaryCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_invoice_summary_collection_operations_1af2cf293a01e3190a08d39ae89c6a5290" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::invoices::InvoiceSummaryCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::invoices::InvoiceSummaryCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::invoices::IInvoiceSummaryCollection.">
+        <scope>com::microsoft::store::partnercenter::invoices::InvoiceSummaryCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::invoices::InvoiceSummaryCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::invoices::IInvoiceSummaryCollection.">
+        <scope>com::microsoft::store::partnercenter::invoices::InvoiceSummaryCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_invoice_summary_collection_operations_1a2a7c3966888c778aad5940676e72ae0c" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::invoices::InvoiceSummaryCollectionOperations</scope>
+        <name>InvoiceSummaryCollectionOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

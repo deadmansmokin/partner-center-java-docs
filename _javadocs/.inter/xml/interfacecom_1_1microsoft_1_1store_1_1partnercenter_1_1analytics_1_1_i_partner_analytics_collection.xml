@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_analytics_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::analytics::IPartnerAnalyticsCollection</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_analytics_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_analytics_collection_1afefce6c61c2cc2ef3444e0c6198f9c02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_licenses_analytics_collection" kindref="compound">IPartnerLicensesAnalyticsCollection</ref>
+        </type>
+        <definition>IPartnerLicensesAnalyticsCollection com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection.getLicenses</definition>
+        <argsstring>()</argsstring>
+        <name>getLicenses</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_analytics_collection_operations_1a8eb5d66725349a29c2f2b53da49feadc">getLicenses</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the partner's licenses analytics collection.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The partner's licenses analytics collection. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/IPartnerAnalyticsCollection.java" line="22" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="2523">
+        <label>com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_analytics_collection_operations" />
+        <childnode refid="2520" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2522">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2520">
+        <label>com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_analytics_collection" />
+        <childnode refid="2521" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2521">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2522" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2526">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2524">
+        <label>com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_analytics_collection" />
+        <childnode refid="2525" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2525">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2526" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/IPartnerAnalyticsCollection.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/IPartnerAnalyticsCollection.java" bodystart="14" bodyend="23" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::IPartnerAnalyticsCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_analytics_collection_1afefce6c61c2cc2ef3444e0c6198f9c02" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::IPartnerAnalyticsCollection</scope>
+        <name>getLicenses</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::IPartnerAnalyticsCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

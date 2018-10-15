@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.products._availability_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::products::AvailabilityOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;QuadrupleTuple&lt;String, String, String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.products._i_availability" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.IAvailability</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.products._availability_operations.AvailabilityOperations(IPartner,String,String,String,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.products.AvailabilityOperations.AvailabilityOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String productId, String skuId, String availabilityId, String country)</argsstring>
+        <name>AvailabilityOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>productId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>skuId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>availabilityId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>country</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the AvailabilityOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>productId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier of the product.. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>skuId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier of the SKU. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>availabilityId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier of the availability. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>country</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The country on which to base the availability. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/AvailabilityOperations.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/AvailabilityOperations.java" bodystart="38" bodyend="55" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.products._availability_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.products._availability" kindref="compound">Availability</ref>
+        </type>
+        <definition>Availability com.microsoft.store.partnercenter.products.AvailabilityOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.products._i_availability.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves an entity.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entity. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/AvailabilityOperations.java" line="62" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/AvailabilityOperations.java" bodystart="62" bodyend="76" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Single availability operations implementation. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="103">
+        <label>com.microsoft.store.partnercenter.products.IAvailability</label>
+        <link refid="com.microsoft.store.partnercenter.products._i_availability" />
+        <childnode refid="104" relation="public-inheritance"></childnode>
+        <childnode refid="105" relation="public-inheritance"></childnode>
+      </node>
+      <node id="101">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;QuadrupleTuple&lt;String, String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="102" relation="public-inheritance"></childnode>
+      </node>
+      <node id="102">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="104">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;QuadrupleTuple&lt;String, String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="100">
+        <label>com.microsoft.store.partnercenter.products.AvailabilityOperations</label>
+        <link refid="com.microsoft.store.partnercenter.products._availability_operations" />
+        <childnode refid="101" relation="public-inheritance"></childnode>
+        <childnode refid="103" relation="public-inheritance"></childnode>
+      </node>
+      <node id="105">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Availability&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="109">
+        <label>com.microsoft.store.partnercenter.products.IAvailability</label>
+        <link refid="com.microsoft.store.partnercenter.products._i_availability" />
+        <childnode refid="110" relation="public-inheritance"></childnode>
+        <childnode refid="111" relation="public-inheritance"></childnode>
+      </node>
+      <node id="107">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;QuadrupleTuple&lt;String, String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="108" relation="public-inheritance"></childnode>
+      </node>
+      <node id="108">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="110">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;QuadrupleTuple&lt;String, String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="106">
+        <label>com.microsoft.store.partnercenter.products.AvailabilityOperations</label>
+        <link refid="com.microsoft.store.partnercenter.products._availability_operations" />
+        <childnode refid="107" relation="public-inheritance"></childnode>
+        <childnode refid="109" relation="public-inheritance"></childnode>
+      </node>
+      <node id="111">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Availability&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/AvailabilityOperations.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/AvailabilityOperations.java" bodystart="26" bodyend="77" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.products._availability_operations.AvailabilityOperations(IPartner,String,String,String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::AvailabilityOperations</scope>
+        <name>AvailabilityOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::AvailabilityOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.products._availability_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::AvailabilityOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::AvailabilityOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::AvailabilityOperations</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

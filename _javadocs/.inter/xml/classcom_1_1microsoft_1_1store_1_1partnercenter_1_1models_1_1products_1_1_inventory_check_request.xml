@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::products::InventoryCheckRequest</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1a01eaa3132d407207aaa3ada2dc26876e" prot="private" static="no" mutable="no">
+        <type>List&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_item" kindref="compound">InventoryItem</ref>&gt;</type>
+        <definition>List&lt;InventoryItem&gt; com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.__TargetItems</definition>
+        <argsstring></argsstring>
+        <name>__TargetItems</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the target items for the inventory check. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" bodystart="20" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1af981084daf6dd001609035ccb2710407" prot="private" static="no" mutable="no">
+        <type>Map&lt;String, String&gt;</type>
+        <definition>Map&lt;String, String&gt; com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.__InventoryContext</definition>
+        <argsstring></argsstring>
+        <name>__InventoryContext</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets any context values that apply towards inventory check of the provided items. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" line="35" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" bodystart="35" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1aa7065c6e27a10c55a95daa8ed407baf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_item" kindref="compound">InventoryItem</ref>&gt;</type>
+        <definition>List&lt;InventoryItem&gt; com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.getTargetItems</definition>
+        <argsstring>()</argsstring>
+        <name>getTargetItems</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" bodystart="22" bodyend="25" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1a965260ea8b886dde58c7554f2f887ca1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.setTargetItems</definition>
+        <argsstring>(List&lt;InventoryItem&gt; value)</argsstring>
+        <name>setTargetItems</name>
+        <param>
+          <type>List&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_item" kindref="compound">InventoryItem</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" bodystart="27" bodyend="30" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1aba14d9555ccbf5746e90a318321f01ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Map&lt;String, String&gt;</type>
+        <definition>Map&lt;String, String&gt; com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.getInventoryContext</definition>
+        <argsstring>()</argsstring>
+        <name>getInventoryContext</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" bodystart="37" bodyend="40" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1a294b92488d110a36f92b772394c5f924" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.setInventoryContext</definition>
+        <argsstring>(Map&lt;String, String&gt; value)</argsstring>
+        <name>setInventoryContext</name>
+        <param>
+          <type>Map&lt;String, String&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" bodystart="42" bodyend="45" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Class that represents an inventory check request. </para>
+    </detaileddescription>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/products/InventoryCheckRequest.java" bodystart="15" bodyend="46" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1af981084daf6dd001609035ccb2710407" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::InventoryCheckRequest</scope>
+        <name>__InventoryContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1a01eaa3132d407207aaa3ada2dc26876e" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::InventoryCheckRequest</scope>
+        <name>__TargetItems</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1aba14d9555ccbf5746e90a318321f01ec" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::InventoryCheckRequest</scope>
+        <name>getInventoryContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1aa7065c6e27a10c55a95daa8ed407baf7" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::InventoryCheckRequest</scope>
+        <name>getTargetItems</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1a294b92488d110a36f92b772394c5f924" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::InventoryCheckRequest</scope>
+        <name>setInventoryContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request_1a965260ea8b886dde58c7554f2f887ca1" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::products::InventoryCheckRequest</scope>
+        <name>setTargetItems</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

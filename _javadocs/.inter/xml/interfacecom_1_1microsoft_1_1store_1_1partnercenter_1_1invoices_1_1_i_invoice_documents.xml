@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_documents" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::invoices::IInvoiceDocuments</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_invoice_documents_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_documents_1a1b5a3616a95a65b084c2f92d875d5dec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_statement" kindref="compound">IInvoiceStatement</ref>
+        </type>
+        <definition>IInvoiceStatement com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement</definition>
+        <argsstring>()</argsstring>
+        <name>getStatement</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_invoice_documents_operations_1a98667cabbe00d45175f78344c28a22ed">getStatement</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceDocuments.java" line="18" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="2194">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2195">
+        <label>com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_invoice_documents_operations" />
+        <childnode refid="2192" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2193">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2194" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2192">
+        <label>com.microsoft.store.partnercenter.invoices.IInvoiceDocuments</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_documents" />
+        <childnode refid="2193" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2198">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2197">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2198" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2196">
+        <label>com.microsoft.store.partnercenter.invoices.IInvoiceDocuments</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_documents" />
+        <childnode refid="2197" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceDocuments.java" line="12" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceDocuments.java" bodystart="11" bodyend="19" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::invoices::IInvoiceDocuments</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::invoices::IInvoiceDocuments</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_documents_1a1b5a3616a95a65b084c2f92d875d5dec" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::invoices::IInvoiceDocuments</scope>
+        <name>getStatement</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

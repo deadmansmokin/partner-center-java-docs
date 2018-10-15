@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_legal_business_profile" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::profiles::ILegalBusinessProfile</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;LegalBusinessProfile&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;LegalBusinessProfile&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_legal_business_profile_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_legal_business_profile_1a78060a16004461270c82d2e87fedc5a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1partners_1_1_legal_business_profile" kindref="compound">LegalBusinessProfile</ref>
+        </type>
+        <definition>LegalBusinessProfile com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations_1aa2e3cf8b3d1237922579e228472e1b24">get</reimplements>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_legal_business_profile_operations_1a4415e34a440984eba7cde1a3df16309b">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves an entity.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entity. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/ILegalBusinessProfile.java" line="25" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_legal_business_profile_1a99902ed34e768541e4721c67a6d245d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1partners_1_1_legal_business_profile" kindref="compound">LegalBusinessProfile</ref>
+        </type>
+        <definition>LegalBusinessProfile com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update</definition>
+        <argsstring>(LegalBusinessProfile legalBusinessProfile)</argsstring>
+        <name>update</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_legal_business_profile_operations_1a181212cd0d63bd6e44983fd3c1f9643b">update</reimplementedby>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1partners_1_1_legal_business_profile" kindref="compound">LegalBusinessProfile</ref>
+          </type>
+          <declname>legalBusinessProfile</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/ILegalBusinessProfile.java" line="32" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Encapsulates behavior of a legal business profile. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2241">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;LegalBusinessProfile&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations" />
+      </node>
+      <node id="2242">
+        <label>com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_legal_business_profile_operations" />
+        <childnode refid="2237" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2239">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2237">
+        <label>com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_legal_business_profile" />
+        <childnode refid="2238" relation="public-inheritance"></childnode>
+        <childnode refid="2240" relation="public-inheritance"></childnode>
+        <childnode refid="2241" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2238">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2239" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2240">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;LegalBusinessProfile&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2247">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;LegalBusinessProfile&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations" />
+      </node>
+      <node id="2245">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2243">
+        <label>com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_legal_business_profile" />
+        <childnode refid="2244" relation="public-inheritance"></childnode>
+        <childnode refid="2246" relation="public-inheritance"></childnode>
+        <childnode refid="2247" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2244">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2245" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2246">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;LegalBusinessProfile&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/ILegalBusinessProfile.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/ILegalBusinessProfile.java" bodystart="17" bodyend="33" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_legal_business_profile_1a78060a16004461270c82d2e87fedc5a0" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::ILegalBusinessProfile</scope>
+        <name>get</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::ILegalBusinessProfile</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::ILegalBusinessProfile</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_legal_business_profile_1a99902ed34e768541e4721c67a6d245d8" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::ILegalBusinessProfile</scope>
+        <name>update</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations_1ab61bb59b988db7b4cc1deb39a1084489" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations.">
+        <scope>com::microsoft::store::partnercenter::profiles::ILegalBusinessProfile</scope>
+        <name>update</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

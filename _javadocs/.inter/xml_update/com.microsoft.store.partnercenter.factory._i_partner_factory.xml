@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.factory._i_partner_factory" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::factory::IPartnerFactory</compoundname>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.factory._standard_partner_factory" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.factory.StandardPartnerFactory</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.factory._i_partner_factory.build(IPartnerCredentials)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter._i_aggregate_partner" kindref="compound">IAggregatePartner</ref>
+        </type>
+        <definition>IAggregatePartner com.microsoft.store.partnercenter.factory.IPartnerFactory.build</definition>
+        <argsstring>(IPartnerCredentials credentials)</argsstring>
+        <name>build</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.factory._standard_partner_factory.build(IPartnerCredentials)">build</reimplementedby>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner_credentials" kindref="compound">IPartnerCredentials</ref>
+          </type>
+          <declname>credentials</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Builds a <ref refid="com.microsoft.store.partnercenter._i_aggregate_partner" kindref="compound">IAggregatePartner</ref> instance and configures it using the provided partner credentials.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>credentials</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The partner credentials. Use the extensions to obtain these. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>A configured partner object. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IPartnerFactory.java" line="23" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Creates instances of <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">com.microsoft.store.partnercenter.IPartner</ref>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2852">
+        <label>com.microsoft.store.partnercenter.factory.StandardPartnerFactory</label>
+        <link refid="com.microsoft.store.partnercenter.factory._standard_partner_factory" />
+        <childnode refid="2851" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2851">
+        <label>com.microsoft.store.partnercenter.factory.IPartnerFactory</label>
+        <link refid="com.microsoft.store.partnercenter.factory._i_partner_factory" />
+      </node>
+    </inheritancegraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IPartnerFactory.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/factory/IPartnerFactory.java" bodystart="15" bodyend="24" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.factory._i_partner_factory.build(IPartnerCredentials)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::factory::IPartnerFactory</scope>
+        <name>build</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

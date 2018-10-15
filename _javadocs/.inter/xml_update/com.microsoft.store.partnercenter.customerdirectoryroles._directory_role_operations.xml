@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customerdirectoryroles::DirectoryRoleOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations.directoryRoleUserMemberOperations" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection" kindref="compound">IUserMemberCollection</ref>
+        </type>
+        <definition>IUserMemberCollection com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleOperations.directoryRoleUserMemberOperations</definition>
+        <argsstring></argsstring>
+        <name>directoryRoleUserMemberOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleOperations.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleOperations.java" bodystart="21" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations.DirectoryRoleOperations(IPartner,String,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleOperations.DirectoryRoleOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String roleId)</argsstring>
+        <name>DirectoryRoleOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>roleId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleOperations.java" line="30" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleOperations.java" bodystart="30" bodyend="45" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations.getUserMembers()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection" kindref="compound">IUserMemberCollection</ref>
+        </type>
+        <definition>IUserMemberCollection com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleOperations.getUserMembers</definition>
+        <argsstring>()</argsstring>
+        <name>getUserMembers</name>
+        <reimplements refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role.getUserMembers()">getUserMembers</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleOperations.java" line="53" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleOperations.java" bodystart="53" bodyend="56" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>DirectoryRoleOperations </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1284">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole</label>
+        <link refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role" />
+        <childnode refid="1285" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1285">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1283">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1281">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations" />
+        <childnode refid="1282" relation="public-inheritance"></childnode>
+        <childnode refid="1284" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1282">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="1283" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1289">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole</label>
+        <link refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role" />
+        <childnode refid="1290" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1290">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1288">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1286">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations" />
+        <childnode refid="1287" relation="public-inheritance"></childnode>
+        <childnode refid="1289" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1287">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="1288" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleOperations.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleOperations.java" bodystart="18" bodyend="58" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::DirectoryRoleOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations.DirectoryRoleOperations(IPartner,String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::DirectoryRoleOperations</scope>
+        <name>DirectoryRoleOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations.directoryRoleUserMemberOperations" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::DirectoryRoleOperations</scope>
+        <name>directoryRoleUserMemberOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::DirectoryRoleOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::DirectoryRoleOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations.getUserMembers()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::DirectoryRoleOperations</scope>
+        <name>getUserMembers</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

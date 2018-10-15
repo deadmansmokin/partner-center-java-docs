@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.relationshiprequests._i_customer_relationship_request" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::relationshiprequests::ICustomerRelationshipRequest</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;CustomerRelationshipRequest&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.relationshiprequests._customer_relationship_request_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.relationshiprequests.CustomerRelationshipRequestOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.relationshiprequests._i_customer_relationship_request.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.relationshiprequests._customer_relationship_request" kindref="compound">CustomerRelationshipRequest</ref>
+        </type>
+        <definition>CustomerRelationshipRequest com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.relationshiprequests._customer_relationship_request_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the customer relationship request which can be used by a customer to establish a relationship with the current partner.</para>
+          <para>
+            <simplesect kind="return">
+              <para>A customer relationship request. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/relationshiprequests/ICustomerRelationshipRequest.java" line="25" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Holds operations that apply to customer relationship requests. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1693">
+        <label>com.microsoft.store.partnercenter.relationshiprequests.CustomerRelationshipRequestOperations</label>
+        <link refid="com.microsoft.store.partnercenter.relationshiprequests._customer_relationship_request_operations" />
+        <childnode refid="1689" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1689">
+        <label>com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest</label>
+        <link refid="com.microsoft.store.partnercenter.relationshiprequests._i_customer_relationship_request" />
+        <childnode refid="1690" relation="public-inheritance"></childnode>
+        <childnode refid="1692" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1691">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1690">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1691" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1692">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;CustomerRelationshipRequest&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1694">
+        <label>com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest</label>
+        <link refid="com.microsoft.store.partnercenter.relationshiprequests._i_customer_relationship_request" />
+        <childnode refid="1695" relation="public-inheritance"></childnode>
+        <childnode refid="1697" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1696">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1695">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1696" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1697">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;CustomerRelationshipRequest&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/relationshiprequests/ICustomerRelationshipRequest.java" line="18" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/relationshiprequests/ICustomerRelationshipRequest.java" bodystart="16" bodyend="26" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.relationshiprequests._i_customer_relationship_request.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::relationshiprequests::ICustomerRelationshipRequest</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::relationshiprequests::ICustomerRelationshipRequest</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::relationshiprequests::ICustomerRelationshipRequest</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

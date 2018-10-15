@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_rate_card_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::ratecards::RateCardCollectionOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_i_rate_card_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.ratecards.IRateCardCollection</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_rate_card_collection_operations_1a2944293c16ab90dd61fa1620b697cf75" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_i_azure_rate_card" kindref="compound">IAzureRateCard</ref>
+        </type>
+        <definition>IAzureRateCard com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.__azureRateCardOperations</definition>
+        <argsstring></argsstring>
+        <name>__azureRateCardOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/RateCardCollectionOperations.java" line="14" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/RateCardCollectionOperations.java" bodystart="14" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_rate_card_collection_operations_1a59a47de9d30a957fc01ff615cdca0f54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.RateCardCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations)</argsstring>
+        <name>RateCardCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the RateCardCollectionOperationsclass. <parameterlist kind="param"><parameteritem><parameternamelist><parametername>rootPartnerOperations</parametername></parameternamelist><parameterdescription><para>The root partner operations instance. </para></parameterdescription></parameteritem></parameterlist></para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/RateCardCollectionOperations.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/RateCardCollectionOperations.java" bodystart="20" bodyend="25" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_rate_card_collection_operations_1aeb08df0a698bc1e78762ecb696796117" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_i_azure_rate_card" kindref="compound">IAzureRateCard</ref>
+        </type>
+        <definition>IAzureRateCard com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.getAzure</definition>
+        <argsstring>()</argsstring>
+        <name>getAzure</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_i_rate_card_collection_1ad3598ad3b0aba829359a9671ab21e53b">getAzure</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the Azure rate card operations.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The Azure rate card operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/RateCardCollectionOperations.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/RateCardCollectionOperations.java" bodystart="33" bodyend="36" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="3880">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3877">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="3876">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="3877" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3879">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3880" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3878">
+        <label>com.microsoft.store.partnercenter.ratecards.IRateCardCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_i_rate_card_collection" />
+        <childnode refid="3879" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3875">
+        <label>com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_rate_card_collection_operations" />
+        <childnode refid="3876" relation="public-inheritance"></childnode>
+        <childnode refid="3878" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3886">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3883">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="3882">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="3883" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3885">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3886" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3884">
+        <label>com.microsoft.store.partnercenter.ratecards.IRateCardCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_i_rate_card_collection" />
+        <childnode refid="3885" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3881">
+        <label>com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_rate_card_collection_operations" />
+        <childnode refid="3882" relation="public-inheritance"></childnode>
+        <childnode refid="3884" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/RateCardCollectionOperations.java" line="12" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/ratecards/RateCardCollectionOperations.java" bodystart="12" bodyend="37" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_rate_card_collection_operations_1a2944293c16ab90dd61fa1620b697cf75" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::ratecards::RateCardCollectionOperations</scope>
+        <name>__azureRateCardOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::ratecards::RateCardCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1ae6339c5a921b5c3b6a545e1064951c83" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::ratecards::RateCardCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1a9662304cff58f8d465d2a47e7e8cedf0" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::ratecards::RateCardCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_rate_card_collection_operations_1aeb08df0a698bc1e78762ecb696796117" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::ratecards::RateCardCollectionOperations</scope>
+        <name>getAzure</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::ratecards::RateCardCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::ratecards::IRateCardCollection.">
+        <scope>com::microsoft::store::partnercenter::ratecards::RateCardCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::ratecards::RateCardCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::ratecards::IRateCardCollection.">
+        <scope>com::microsoft::store::partnercenter::ratecards::RateCardCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_rate_card_collection_operations_1a59a47de9d30a957fc01ff615cdca0f54" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::ratecards::RateCardCollectionOperations</scope>
+        <name>RateCardCollectionOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

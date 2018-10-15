@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.logging._partner_log" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::logging::PartnerLog</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.logging._i_logger" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.logging.ILogger</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.logging._partner_log.LogManagerSingleton" prot="private" static="yes" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.logging._partner_log" kindref="compound">PartnerLog</ref>
+        </type>
+        <definition>PartnerLog com.microsoft.store.partnercenter.logging.PartnerLog.LogManagerSingleton</definition>
+        <argsstring></argsstring>
+        <name>LogManagerSingleton</name>
+        <initializer>= null</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The singleton log manager instance. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" line="23" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" bodystart="23" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.logging._partner_log.registeredLoggers" prot="private" static="no" mutable="no">
+        <type>final List&lt;<ref refid="com.microsoft.store.partnercenter.logging._i_logger" kindref="compound">ILogger</ref>&gt;</type>
+        <definition>final List&lt;ILogger&gt; com.microsoft.store.partnercenter.logging.PartnerLog.registeredLoggers</definition>
+        <argsstring></argsstring>
+        <name>registeredLoggers</name>
+        <initializer>= new ArrayList&lt;<ref refid="com.microsoft.store.partnercenter.logging._i_logger" kindref="compound">ILogger</ref>&gt;()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The registered loggers collection. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" bodystart="28" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.logging._partner_log.PartnerLog()" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.logging.PartnerLog.PartnerLog</definition>
+        <argsstring>()</argsstring>
+        <name>PartnerLog</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Prevents a default instance of the LogManager class from being created. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" bodystart="33" bodyend="35" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.logging._partner_log.getInstance()" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.logging._partner_log" kindref="compound">PartnerLog</ref>
+        </type>
+        <definition>static PartnerLog com.microsoft.store.partnercenter.logging.PartnerLog.getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the singleton log manager instance.</para>
+          <para>
+            <simplesect kind="return">
+              <para>An instance of the log manager. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" bodystart="42" bodyend="49" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.logging._partner_log.getLoggers()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt;<ref refid="com.microsoft.store.partnercenter.logging._i_logger" kindref="compound">ILogger</ref>&gt;</type>
+        <definition>List&lt;ILogger&gt; com.microsoft.store.partnercenter.logging.PartnerLog.getLoggers</definition>
+        <argsstring>()</argsstring>
+        <name>getLoggers</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the registered loggers collection. You can add your custom loggers here.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The registered loggers collection. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" line="56" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" bodystart="56" bodyend="59" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.logging._partner_log.logInformation(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.logging.PartnerLog.logInformation</definition>
+        <argsstring>(String message)</argsstring>
+        <name>logInformation</name>
+        <reimplements refid="com.microsoft.store.partnercenter.logging._i_logger.logInformation(String)">logInformation</reimplements>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Logs a piece of information.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>message</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The informational message. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" line="66" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" bodystart="66" bodyend="76" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.logging._partner_log.logWarning(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.logging.PartnerLog.logWarning</definition>
+        <argsstring>(String message)</argsstring>
+        <name>logWarning</name>
+        <reimplements refid="com.microsoft.store.partnercenter.logging._i_logger.logWarning(String)">logWarning</reimplements>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Logs a warning.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>message</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The warning message. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" line="83" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" bodystart="83" bodyend="93" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.logging._partner_log.logError(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.logging.PartnerLog.logError</definition>
+        <argsstring>(String message)</argsstring>
+        <name>logError</name>
+        <reimplements refid="com.microsoft.store.partnercenter.logging._i_logger.logError(String)">logError</reimplements>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Logs an error.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>message</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The error message. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" line="100" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" bodystart="100" bodyend="110" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Use this class for logging messages. This class supports pluggable loggers. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3623">
+        <label>com.microsoft.store.partnercenter.logging.ILogger</label>
+        <link refid="com.microsoft.store.partnercenter.logging._i_logger" />
+      </node>
+      <node id="3622">
+        <label>com.microsoft.store.partnercenter.logging.PartnerLog</label>
+        <link refid="com.microsoft.store.partnercenter.logging._partner_log" />
+        <childnode refid="3623" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3625">
+        <label>com.microsoft.store.partnercenter.logging.ILogger</label>
+        <link refid="com.microsoft.store.partnercenter.logging._i_logger" />
+      </node>
+      <node id="3624">
+        <label>com.microsoft.store.partnercenter.logging.PartnerLog</label>
+        <link refid="com.microsoft.store.partnercenter.logging._partner_log" />
+        <childnode refid="3625" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/PartnerLog.java" bodystart="17" bodyend="112" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.logging._partner_log.getInstance()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::logging::PartnerLog</scope>
+        <name>getInstance</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.logging._partner_log.getLoggers()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::logging::PartnerLog</scope>
+        <name>getLoggers</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.logging._partner_log.logError(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::logging::PartnerLog</scope>
+        <name>logError</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.logging._partner_log.logInformation(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::logging::PartnerLog</scope>
+        <name>logInformation</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.logging._partner_log.LogManagerSingleton" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::logging::PartnerLog</scope>
+        <name>LogManagerSingleton</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.logging._partner_log.logWarning(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::logging::PartnerLog</scope>
+        <name>logWarning</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.logging._partner_log.PartnerLog()" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::logging::PartnerLog</scope>
+        <name>PartnerLog</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.logging._partner_log.registeredLoggers" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::logging::PartnerLog</scope>
+        <name>registeredLoggers</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

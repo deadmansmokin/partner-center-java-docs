@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.subscriptions._i_subscription_registration_status" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::subscriptions::ISubscriptionRegistrationStatus</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SubscriptionRegistrationStatus&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.subscriptions._subscription_registration_status_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.SubscriptionRegistrationStatusOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._i_subscription_registration_status.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription_registration_status" kindref="compound">SubscriptionRegistrationStatus</ref>
+        </type>
+        <definition>SubscriptionRegistrationStatus com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.subscriptions._subscription_registration_status_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves a subscription registration status.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The subscription registration status details. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionRegistrationStatus.java" line="25" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Defines the operations available on a customer's subscription registration status. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3165">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SubscriptionRegistrationStatus&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="3164">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3163">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_registration_status" />
+        <childnode refid="3164" relation="public-inheritance"></childnode>
+        <childnode refid="3165" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3166">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionRegistrationStatusOperations</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._subscription_registration_status_operations" />
+        <childnode refid="3163" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3169">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SubscriptionRegistrationStatus&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="3168">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3167">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_registration_status" />
+        <childnode refid="3168" relation="public-inheritance"></childnode>
+        <childnode refid="3169" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionRegistrationStatus.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/ISubscriptionRegistrationStatus.java" bodystart="17" bodyend="26" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_registration_status.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::ISubscriptionRegistrationStatus</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::ISubscriptionRegistrationStatus</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::ISubscriptionRegistrationStatus</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

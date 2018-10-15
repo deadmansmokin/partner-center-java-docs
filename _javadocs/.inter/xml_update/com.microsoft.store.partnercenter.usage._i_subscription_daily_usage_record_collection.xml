@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.usage._i_subscription_daily_usage_record_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::usage::ISubscriptionDailyUsageRecordCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;SubscriptionDailyUsageRecord, ResourceCollection&lt;SubscriptionDailyUsageRecord&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.usage._subscription_daily_usage_record_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.usage._i_subscription_daily_usage_record_collection.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.usage._subscription_daily_usage_record" kindref="compound">SubscriptionDailyUsageRecord</ref>&gt;</type>
+        <definition>ResourceCollection&lt;SubscriptionDailyUsageRecord&gt; com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.usage._subscription_daily_usage_record_collection_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/ISubscriptionDailyUsageRecordCollection.java" line="26" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Defines the behavior for a subscription's daily usage records. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3136">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3138">
+        <label>com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.usage._subscription_daily_usage_record_collection_operations" />
+        <childnode refid="3135" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3135">
+        <label>com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection</label>
+        <link refid="com.microsoft.store.partnercenter.usage._i_subscription_daily_usage_record_collection" />
+        <childnode refid="3136" relation="public-inheritance"></childnode>
+        <childnode refid="3137" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3137">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;SubscriptionDailyUsageRecord, ResourceCollection&lt;SubscriptionDailyUsageRecord&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3140">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3139">
+        <label>com.microsoft.store.partnercenter.usage.ISubscriptionDailyUsageRecordCollection</label>
+        <link refid="com.microsoft.store.partnercenter.usage._i_subscription_daily_usage_record_collection" />
+        <childnode refid="3140" relation="public-inheritance"></childnode>
+        <childnode refid="3141" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3141">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;SubscriptionDailyUsageRecord, ResourceCollection&lt;SubscriptionDailyUsageRecord&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/ISubscriptionDailyUsageRecordCollection.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/ISubscriptionDailyUsageRecordCollection.java" bodystart="18" bodyend="27" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.usage._i_subscription_daily_usage_record_collection.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::ISubscriptionDailyUsageRecordCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::ISubscriptionDailyUsageRecordCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::ISubscriptionDailyUsageRecordCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

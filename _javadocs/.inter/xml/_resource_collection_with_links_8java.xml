@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_resource_collection_with_links_8java" kind="file" language="Java">
+    <compoundname>ResourceCollectionWithLinks.java</compoundname>
+    <innerclass refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links" prot="public">com::microsoft::store::partnercenter::models::ResourceCollectionWithLinks</innerclass>
+    <innernamespace refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models">com::microsoft::store::partnercenter::models</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="ResourceCollection.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.models;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.util.ArrayList;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.util.List;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="15" refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">class<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links" kindref="compound">ResourceCollectionWithLinks</ref>&lt;TResource,<sp />TLinks&gt;</highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links" kindref="compound">ResourceBaseWithLinks</ref>&lt;TLinks&gt;</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links" kindref="compound">ResourceCollectionWithLinks</ref>()</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />super(<sp /></highlight>
+        <highlight class="stringliteral">"Collection"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.items<sp />=<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />ArrayList&lt;TResource&gt;();</highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="27">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />List&lt;TResource&gt;<sp />items;</highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="34">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links" kindref="compound">ResourceCollectionWithLinks</ref>(<sp />List&lt;TResource&gt;<sp />items<sp />)</highlight>
+      </codeline>
+      <codeline lineno="35">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="36">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />super(<sp /></highlight>
+        <highlight class="stringliteral">"Collection"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="37">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.items<sp />=<sp />items;</highlight>
+      </codeline>
+      <codeline lineno="38">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="39">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="45">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">protected</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links" kindref="compound">ResourceCollectionWithLinks</ref>(<sp /><ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links" kindref="compound">ResourceCollectionWithLinks&lt;TResource, TLinks&gt;</ref><sp />resourceCollection<sp />)</highlight>
+      </codeline>
+      <codeline lineno="46">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="47">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />super(<sp /></highlight>
+        <highlight class="stringliteral">"Collection"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="48">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />resourceCollection<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="49">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="50">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp /></highlight>
+        <highlight class="stringliteral">"resourceCollection"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="51">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="52">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="53">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.items<sp />=<sp />resourceCollection.items;</highlight>
+      </codeline>
+      <codeline lineno="54">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="55">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="56">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />totalCount;</highlight>
+      </codeline>
+      <codeline lineno="57">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="63">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1a362c16d7a5900dc0985ffd320a4e9595" kindref="member">getTotalCount</ref>()</highlight>
+      </codeline>
+      <codeline lineno="64">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="65">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.totalCount;</highlight>
+      </codeline>
+      <codeline lineno="66">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="67">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="68">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />setTotalCount(<sp /></highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />value<sp />)</highlight>
+      </codeline>
+      <codeline lineno="69">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="70">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.totalCount<sp />=<sp />value;</highlight>
+      </codeline>
+      <codeline lineno="71">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="72">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="78">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />Iterable&lt;TResource&gt;<sp /><ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1a5e3bf54b5e528d212c5433f278ff7ac7" kindref="member">getItems</ref>()</highlight>
+      </codeline>
+      <codeline lineno="79">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="80">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />this.items;</highlight>
+      </codeline>
+      <codeline lineno="81">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="82">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="88">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1abc3bbb9d48ca67c7cdf717d0a38debeb" kindref="member">setItems</ref>(<sp />List&lt;TResource&gt;<sp />value<sp />)</highlight>
+      </codeline>
+      <codeline lineno="89">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="90">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.items<sp />=<sp />value;</highlight>
+      </codeline>
+      <codeline lineno="91">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="92">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="98">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@Override</highlight>
+      </codeline>
+      <codeline lineno="99">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />String<sp /><ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1a67bcdc3fb75bc44fcb77e5609e6f3f7a" kindref="member">toString</ref>()</highlight>
+      </codeline>
+      <codeline lineno="100">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="101">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />StringBuilder<sp />collectionDescription<sp />=<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />StringBuilder();</highlight>
+      </codeline>
+      <codeline lineno="102">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />collectionDescription.append(<sp /></highlight>
+        <highlight class="stringliteral">"Count:<sp />"</highlight>
+        <highlight class="normal">
+          <sp />+<sp />this.<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1a362c16d7a5900dc0985ffd320a4e9595" kindref="member">getTotalCount</ref>()<sp />+<sp /></highlight>
+        <highlight class="stringliteral">"\n"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="103">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />this.<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1a5e3bf54b5e528d212c5433f278ff7ac7" kindref="member">getItems</ref>()<sp />!=<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="104">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="105">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />collectionDescription.append(<sp /></highlight>
+        <highlight class="stringliteral">"Items:\n"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="106">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">for</highlight>
+        <highlight class="normal">
+          <sp />(<sp />TResource<sp />item<sp />:<sp />this.<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1a5e3bf54b5e528d212c5433f278ff7ac7" kindref="member">getItems</ref>()<sp />)</highlight>
+      </codeline>
+      <codeline lineno="107">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="108">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />collectionDescription.append(<sp />item.toString()<sp />+<sp /></highlight>
+        <highlight class="stringliteral">"\n"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="109">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="110">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="111">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="112">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />collectionDescription.toString();</highlight>
+      </codeline>
+      <codeline lineno="113">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="114">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/ResourceCollectionWithLinks.java" />
+  </compounddef>
+</doxygen>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_licenses_deployment_insights_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::analytics::PartnerLicensesDeploymentInsightsCollectionOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_licenses_deployment_insights_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_licenses_deployment_insights_collection_operations_1a7855c6c338ca369b831b921afd5e8313" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.PartnerLicensesDeploymentInsightsCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations)</argsstring>
+        <name>PartnerLicensesDeploymentInsightsCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the PartnerLicensesDeploymentInsightsCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesDeploymentInsightsCollectionOperations.java" line="31" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesDeploymentInsightsCollectionOperations.java" bodystart="31" bodyend="34" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_licenses_deployment_insights_collection_operations_1a3f85f67f8d0a86a148f4d2aabd08c02b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1analytics_1_1_partner_licenses_deployment_insights" kindref="compound">PartnerLicensesDeploymentInsights</ref>&gt;</type>
+        <definition>ResourceCollection&lt;PartnerLicensesDeploymentInsights&gt; com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations_1a2550ba7980c285cdff14a8d50666d617">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the collection of partner's licenses' deployment insights.</para>
+          <para>
+            <simplesect kind="return">
+              <para>Collection of partner's licenses' deployment insights. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesDeploymentInsightsCollectionOperations.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesDeploymentInsightsCollectionOperations.java" bodystart="42" bodyend="55" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements the operations on partner licenses deployment insights collection. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3588">
+        <label>com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_licenses_deployment_insights_collection_operations" />
+        <childnode refid="3589" relation="public-inheritance"></childnode>
+        <childnode refid="3591" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3591">
+        <label>com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_licenses_deployment_insights_collection" />
+        <childnode refid="3592" relation="public-inheritance"></childnode>
+        <childnode refid="3594" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3593">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3590">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="3589">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="3590" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3592">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3593" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3594">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;PartnerLicensesDeploymentInsights, ResourceCollection&lt;PartnerLicensesDeploymentInsights&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3595">
+        <label>com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_licenses_deployment_insights_collection_operations" />
+        <childnode refid="3596" relation="public-inheritance"></childnode>
+        <childnode refid="3598" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3598">
+        <label>com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_licenses_deployment_insights_collection" />
+        <childnode refid="3599" relation="public-inheritance"></childnode>
+        <childnode refid="3601" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3600">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3597">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="3596">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="3597" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3599">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3600" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3601">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;PartnerLicensesDeploymentInsights, ResourceCollection&lt;PartnerLicensesDeploymentInsights&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesDeploymentInsightsCollectionOperations.java" line="25" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/PartnerLicensesDeploymentInsightsCollectionOperations.java" bodystart="22" bodyend="56" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesDeploymentInsightsCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1ae6339c5a921b5c3b6a545e1064951c83" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesDeploymentInsightsCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1a9662304cff58f8d465d2a47e7e8cedf0" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesDeploymentInsightsCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_licenses_deployment_insights_collection_operations_1a3f85f67f8d0a86a148f4d2aabd08c02b" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesDeploymentInsightsCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesDeploymentInsightsCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::analytics::IPartnerLicensesDeploymentInsightsCollection.">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesDeploymentInsightsCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesDeploymentInsightsCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::analytics::IPartnerLicensesDeploymentInsightsCollection.">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesDeploymentInsightsCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_partner_licenses_deployment_insights_collection_operations_1a7855c6c338ca369b831b921afd5e8313" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::PartnerLicensesDeploymentInsightsCollectionOperations</scope>
+        <name>PartnerLicensesDeploymentInsightsCollectionOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.usage._usage_record_base" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.ResourceBase</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.usage._azure_resource_monthly_usage_record" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord</derivedcompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.usage._customer_monthly_usage_record" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord</derivedcompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.usage._subscription_daily_usage_record" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord</derivedcompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.usage._subscription_monthly_usage_record" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.__Id" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.usage.UsageRecordBase.__Id</definition>
+        <argsstring></argsstring>
+        <name>__Id</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the resource unique identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="24" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.__Name" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.usage.UsageRecordBase.__Name</definition>
+        <argsstring></argsstring>
+        <name>__Name</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the name of the resource. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="39" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="39" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.__TotalCost" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.usage.UsageRecordBase.__TotalCost</definition>
+        <argsstring></argsstring>
+        <name>__TotalCost</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the estimated total cost of usage for the resources in the subscription. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="54" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="54" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.__CurrencyLocale" prot="private" static="no" mutable="no">
+        <type>Locale</type>
+        <definition>Locale com.microsoft.store.partnercenter.models.usage.UsageRecordBase.__CurrencyLocale</definition>
+        <argsstring></argsstring>
+        <name>__CurrencyLocale</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the currency locale. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="69" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="69" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.__LastModifiedDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.usage.UsageRecordBase.__LastModifiedDate</definition>
+        <argsstring></argsstring>
+        <name>__LastModifiedDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Last Modified date. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="84" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="84" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.getId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="26" bodyend="29" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.setId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="31" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="31" bodyend="34" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.getName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="41" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="41" bodyend="44" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.setName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="46" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="46" bodyend="49" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.getTotalCost()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost</definition>
+        <argsstring>()</argsstring>
+        <name>getTotalCost</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="56" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="56" bodyend="59" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.setTotalCost(double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setTotalCost</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="61" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="61" bodyend="64" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.getCurrencyLocale()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Locale</type>
+        <definition>Locale com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrencyLocale</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="71" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="71" bodyend="74" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.setCurrencyLocale(Locale)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale</definition>
+        <argsstring>(Locale value)</argsstring>
+        <name>setCurrencyLocale</name>
+        <param>
+          <type>Locale</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="76" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="76" bodyend="79" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.getLastModifiedDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate</definition>
+        <argsstring>()</argsstring>
+        <name>getLastModifiedDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="86" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="86" bodyend="89" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._usage_record_base.setLastModifiedDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setLastModifiedDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="91" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="91" bodyend="94" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>This class defines the common properties for all usage records. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4590">
+        <label>com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._azure_resource_monthly_usage_record" />
+        <childnode refid="4588" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4593">
+        <label>com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._subscription_monthly_usage_record" />
+        <childnode refid="4588" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4588">
+        <label>com.microsoft.store.partnercenter.models.usage.UsageRecordBase</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._usage_record_base" />
+        <childnode refid="4589" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4592">
+        <label>com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._subscription_daily_usage_record" />
+        <childnode refid="4588" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4591">
+        <label>com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._customer_monthly_usage_record" />
+        <childnode refid="4588" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4589">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4594">
+        <label>com.microsoft.store.partnercenter.models.usage.UsageRecordBase</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._usage_record_base" />
+        <childnode refid="4595" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4595">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/UsageRecordBase.java" bodystart="18" bodyend="96" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.__CurrencyLocale" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>__CurrencyLocale</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.__Id" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>__Id</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.__LastModifiedDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>__LastModifiedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.__Name" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>__Name</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.__TotalCost" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>__TotalCost</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.getCurrencyLocale()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>getCurrencyLocale</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.getId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>getId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.getLastModifiedDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>getLastModifiedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.getName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>getName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.getTotalCost()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>getTotalCost</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.setCurrencyLocale(Locale)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>setCurrencyLocale</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.setId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>setId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.setLastModifiedDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>setLastModifiedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.setName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>setName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_record_base.setTotalCost(double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::UsageRecordBase</scope>
+        <name>setTotalCost</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

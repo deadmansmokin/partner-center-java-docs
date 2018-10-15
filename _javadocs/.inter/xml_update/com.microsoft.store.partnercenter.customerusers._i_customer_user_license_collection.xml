@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;License, ResourceCollection&lt;License&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.customerusers._customer_user_license_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.licenses._license" kindref="compound">License</ref>&gt;</type>
+        <definition>ResourceCollection&lt;License&gt; com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customerusers._customer_user_license_collection_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUserLicenseCollection.java" line="30" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection.get(List&lt;LicenseGroupId&gt;)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.licenses._license" kindref="compound">License</ref>&gt;</type>
+        <definition>ResourceCollection&lt;License&gt; com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get</definition>
+        <argsstring>(List&lt;LicenseGroupId&gt; licenseGroupIds)</argsstring>
+        <name>get</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customerusers._customer_user_license_collection_operations.get(List&lt;LicenseGroupId&gt;)">get</reimplementedby>
+        <param>
+          <type>List&lt;<ref refid="com.microsoft.store.partnercenter.models.licenses._license_group_id" kindref="compound">LicenseGroupId</ref>&gt;</type>
+          <declname>licenseGroupIds</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUserLicenseCollection.java" line="38" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="1766">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1765">
+        <label>com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection</label>
+        <link refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection" />
+        <childnode refid="1766" relation="public-inheritance"></childnode>
+        <childnode refid="1767" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1768">
+        <label>com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customerusers._customer_user_license_collection_operations" />
+        <childnode refid="1765" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1767">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;License, ResourceCollection&lt;License&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1770">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1769">
+        <label>com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection</label>
+        <link refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection" />
+        <childnode refid="1770" relation="public-inheritance"></childnode>
+        <childnode refid="1771" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1771">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;License, ResourceCollection&lt;License&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUserLicenseCollection.java" line="23" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUserLicenseCollection.java" bodystart="21" bodyend="39" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection.get(List&lt;LicenseGroupId&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

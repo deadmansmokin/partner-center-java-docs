@@ -1,0 +1,1515 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_default_partner_service_error_handler_8java" kind="file" language="Java">
+    <compoundname>DefaultPartnerServiceErrorHandler.java</compoundname>
+    <innerclass refid="com.microsoft.store.partnercenter.errorhandling._default_partner_service_error_handler" prot="public">com::microsoft::store::partnercenter::errorhandling::DefaultPartnerServiceErrorHandler</innerclass>
+    <innernamespace refid="com.microsoft.store.partnercenter.errorhandling">com::microsoft::store::partnercenter::errorhandling</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="DefaultPartnerServiceErrorHandler.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.errorhandling;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.io.IOException;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.text.MessageFormat;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.util.Locale;</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.fasterxml.jackson.databind.ObjectMapper;</highlight>
+      </codeline>
+      <codeline lineno="14">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.exception" kindref="compound">exception</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>;</highlight>
+      </codeline>
+      <codeline lineno="15">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.exception" kindref="compound">exception</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_exception" kindref="compound">PartnerException</ref>;</highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.logging" kindref="compound">logging</ref>.<ref refid="com.microsoft.store.partnercenter.logging._partner_log" kindref="compound">PartnerLog</ref>;</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models._api_fault" kindref="compound">ApiFault</ref>;</highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.network" kindref="compound">network</ref>.<ref refid="com.microsoft.store.partnercenter.network._http_status_code" kindref="compound">HttpStatusCode</ref>;</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.requestcontext" kindref="compound">requestcontext</ref>.<ref refid="com.microsoft.store.partnercenter.requestcontext._i_request_context" kindref="compound">IRequestContext</ref>;</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.utils" kindref="compound">utils</ref>.<ref refid="com.microsoft.store.partnercenter.utils._string_helper" kindref="compound">StringHelper</ref>;</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />org.apache.http.HttpResponse;</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="27" refid="com.microsoft.store.partnercenter.errorhandling._default_partner_service_error_handler" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">class<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="com.microsoft.store.partnercenter.errorhandling._default_partner_service_error_handler" kindref="compound">DefaultPartnerServiceErrorHandler</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">implements</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.errorhandling._i_failed_partner_service_response_handler" kindref="compound">IFailedPartnerServiceResponseHandler</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="36">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@Override</highlight>
+      </codeline>
+      <codeline lineno="37">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.exception._partner_exception" kindref="compound">PartnerException</ref>
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.errorhandling._default_partner_service_error_handler.handleFailedResponse(HttpResponse)" kindref="member">handleFailedResponse</ref>(<sp />HttpResponse<sp />response<sp />)</highlight>
+      </codeline>
+      <codeline lineno="38">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="39">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.errorhandling._default_partner_service_error_handler.handleFailedResponse(HttpResponse)" kindref="member">handleFailedResponse</ref>(<sp />response,<sp />null<sp />);</highlight>
+      </codeline>
+      <codeline lineno="40">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="41">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="49">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@Override</highlight>
+      </codeline>
+      <codeline lineno="50">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.exception._partner_exception" kindref="compound">PartnerException</ref>
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.errorhandling._default_partner_service_error_handler.handleFailedResponse(HttpResponse)" kindref="member">handleFailedResponse</ref>(<sp />HttpResponse<sp />response,<sp /><ref refid="com.microsoft.store.partnercenter.requestcontext._i_request_context" kindref="compound">IRequestContext</ref><sp />context<sp />)</highlight>
+      </codeline>
+      <codeline lineno="51">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="52">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />response<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="53">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="54">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp /></highlight>
+        <highlight class="stringliteral">"Response<sp />is<sp />null"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="55">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="56">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="57">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />response.getStatusLine().getStatusCode()<sp />&lt;<sp />400<sp />)</highlight>
+      </codeline>
+      <codeline lineno="58">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="59">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp /></highlight>
+        <highlight class="stringliteral">"DefaultPartnerServiceErrorHandler:<sp />response<sp />is<sp />successful."</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="60">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="61">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="62">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />String<sp />responsePayload;</highlight>
+      </codeline>
+      <codeline lineno="63">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">try</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="64">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="65">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />response.getEntity()<sp />==<sp />null<sp />||<sp />response.getEntity().getContent()<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="66">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="67">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp /></highlight>
+        <highlight class="stringliteral">"Response<sp />entity<sp />is<sp />null"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="68">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="69">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />responsePayload<sp />=<sp /><ref refid="com.microsoft.store.partnercenter.utils._string_helper" kindref="compound">StringHelper</ref>.fromInputStream(<sp />response.getEntity().getContent(),<sp /></highlight>
+        <highlight class="stringliteral">"UTF-8"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="70">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="71">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">catch</highlight>
+        <highlight class="normal">
+          <sp />(<sp />Exception<sp />e<sp />)</highlight>
+      </codeline>
+      <codeline lineno="72">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="73">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />responsePayload<sp />=<sp /></highlight>
+        <highlight class="stringliteral">""</highlight>
+        <highlight class="normal">;</highlight>
+      </codeline>
+      <codeline lineno="74">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="75">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models._api_fault" kindref="compound">ApiFault</ref>
+          <sp />apiFault<sp />=<sp />null;</highlight>
+      </codeline>
+      <codeline lineno="76">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.exception._partner_exception" kindref="compound">PartnerException</ref>
+          <sp />partnerException<sp />=<sp />null;</highlight>
+      </codeline>
+      <codeline lineno="77">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="78">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">//<sp />log<sp />the<sp />failed<sp />response</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="79">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />String<sp />errorMessage<sp />=<sp />MessageFormat.format(<sp /></highlight>
+        <highlight class="stringliteral">"Partner<sp />service<sp />failed<sp />response:{0}"</highlight>
+        <highlight class="normal">,<sp />responsePayload,<sp />Locale.US<sp />);</highlight>
+      </codeline>
+      <codeline lineno="80">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.logging._partner_log" kindref="compound">PartnerLog</ref>.<ref refid="com.microsoft.store.partnercenter.logging._partner_log.getInstance()" kindref="member">getInstance</ref>().<ref refid="com.microsoft.store.partnercenter.logging._partner_log.logError(String)" kindref="member">logError</ref>(<sp />errorMessage<sp />);</highlight>
+      </codeline>
+      <codeline lineno="81">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="82">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">//<sp />attempt<sp />to<sp />deserialize<sp />the<sp />response<sp />into<sp />an<sp />ApiFault<sp />object<sp />as<sp />this<sp />is<sp />what<sp />the<sp />partner<sp />service<sp />is</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="83">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">//<sp />expected<sp />to<sp />do<sp />when<sp />it<sp />errors<sp />out</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="84">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />ObjectMapper<sp />mapper<sp />=<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />ObjectMapper();</highlight>
+      </codeline>
+      <codeline lineno="85">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">try</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="86">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="87">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />apiFault<sp />=<sp />mapper.readValue(<sp />responsePayload,<sp /><ref refid="com.microsoft.store.partnercenter.models._api_fault" kindref="compound">ApiFault</ref>.class<sp />);</highlight>
+      </codeline>
+      <codeline lineno="88">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="89">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">catch</highlight>
+        <highlight class="normal">
+          <sp />(<sp />IOException<sp />e<sp />)</highlight>
+      </codeline>
+      <codeline lineno="90">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="91">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">//<sp />LogManager.Instance.Error(<sp />"Could<sp />not<sp />parse<sp />error<sp />response:<sp />"<sp />+<sp />deserializationProblem.toString()<sp />);</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="92">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="93">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="94">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>
+          <sp />errorCategory;</highlight>
+      </codeline>
+      <codeline lineno="95">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />errorCategory<sp />=<sp />toPartnerErrorCategory(<sp />response.getStatusLine().getStatusCode()<sp />);</highlight>
+      </codeline>
+      <codeline lineno="96">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />partnerException<sp />=<sp />apiFault<sp />!=<sp />null<sp />?<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.exception._partner_exception" kindref="compound">PartnerException</ref>(<sp />apiFault,<sp />context,<sp />errorCategory<sp />)</highlight>
+      </codeline>
+      <codeline lineno="97">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />:<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />PartnerException(<sp /><ref refid="com.microsoft.store.partnercenter.utils._string_helper" kindref="compound">StringHelper</ref>.isNullOrWhiteSpace(<sp />responsePayload<sp />)</highlight>
+      </codeline>
+      <codeline lineno="98">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />?<sp />response.getStatusLine().getReasonPhrase()<sp />:<sp />responsePayload,<sp />context,</highlight>
+      </codeline>
+      <codeline lineno="99">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />errorCategory<sp />);</highlight>
+      </codeline>
+      <codeline lineno="100">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="101">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />partnerException;</highlight>
+      </codeline>
+      <codeline lineno="102">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="103">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="110">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">static</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>
+          <sp />toPartnerErrorCategory(<sp /></highlight>
+        <highlight class="keywordtype">int</highlight>
+        <highlight class="normal">
+          <sp />statusCode<sp />)</highlight>
+      </codeline>
+      <codeline lineno="111">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="112">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>
+          <sp />errorCategory<sp />=<sp /><ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_error_category.NOT_SPECIFIED" kindref="member">NOT_SPECIFIED</ref>;</highlight>
+      </codeline>
+      <codeline lineno="113">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">switch</highlight>
+        <highlight class="normal">
+          <sp />(<sp />statusCode<sp />)</highlight>
+      </codeline>
+      <codeline lineno="114">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="115">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">case</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._http_status_code" kindref="compound">HttpStatusCode</ref>.BadRequest:</highlight>
+      </codeline>
+      <codeline lineno="116">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />errorCategory<sp />=<sp /><ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_error_category.BAD_INPUT" kindref="member">BAD_INPUT</ref>;</highlight>
+      </codeline>
+      <codeline lineno="117">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">break</highlight>
+        <highlight class="normal">;</highlight>
+      </codeline>
+      <codeline lineno="118">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">case</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._http_status_code" kindref="compound">HttpStatusCode</ref>.Unauthorized:</highlight>
+      </codeline>
+      <codeline lineno="119">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />errorCategory<sp />=<sp /><ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_error_category.UNAUTHORIZED" kindref="member">UNAUTHORIZED</ref>;</highlight>
+      </codeline>
+      <codeline lineno="120">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">break</highlight>
+        <highlight class="normal">;</highlight>
+      </codeline>
+      <codeline lineno="121">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">case</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._http_status_code" kindref="compound">HttpStatusCode</ref>.Forbidden:</highlight>
+      </codeline>
+      <codeline lineno="122">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />errorCategory<sp />=<sp /><ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_error_category.FORBIDDEN" kindref="member">FORBIDDEN</ref>;</highlight>
+      </codeline>
+      <codeline lineno="123">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">break</highlight>
+        <highlight class="normal">;</highlight>
+      </codeline>
+      <codeline lineno="124">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">case</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._http_status_code" kindref="compound">HttpStatusCode</ref>.NotFound:</highlight>
+      </codeline>
+      <codeline lineno="125">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />errorCategory<sp />=<sp /><ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_error_category.NOT_FOUND" kindref="member">NOT_FOUND</ref>;</highlight>
+      </codeline>
+      <codeline lineno="126">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">break</highlight>
+        <highlight class="normal">;</highlight>
+      </codeline>
+      <codeline lineno="127">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">case</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._http_status_code" kindref="compound">HttpStatusCode</ref>.Conflict:</highlight>
+      </codeline>
+      <codeline lineno="128">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />errorCategory<sp />=<sp /><ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_error_category.ALREADY_EXISTS" kindref="member">ALREADY_EXISTS</ref>;</highlight>
+      </codeline>
+      <codeline lineno="129">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">break</highlight>
+        <highlight class="normal">;</highlight>
+      </codeline>
+      <codeline lineno="130">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">case</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._http_status_code" kindref="compound">HttpStatusCode</ref>.ServiceUnavailable:</highlight>
+      </codeline>
+      <codeline lineno="131">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />errorCategory<sp />=<sp /><ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_error_category.SERVER_BUSY" kindref="member">SERVER_BUSY</ref>;</highlight>
+      </codeline>
+      <codeline lineno="132">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">break</highlight>
+        <highlight class="normal">;</highlight>
+      </codeline>
+      <codeline lineno="133">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">default</highlight>
+        <highlight class="normal">:</highlight>
+      </codeline>
+      <codeline lineno="134">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />errorCategory<sp />=<sp /><ref refid="com.microsoft.store.partnercenter.exception._partner_error_category" kindref="compound">PartnerErrorCategory</ref>.<ref refid="com.microsoft.store.partnercenter.exception._partner_error_category.SERVER_ERROR" kindref="member">SERVER_ERROR</ref>;</highlight>
+      </codeline>
+      <codeline lineno="135">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">break</highlight>
+        <highlight class="normal">;</highlight>
+      </codeline>
+      <codeline lineno="136">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="137">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />errorCategory;</highlight>
+      </codeline>
+      <codeline lineno="138">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="139">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/errorhandling/DefaultPartnerServiceErrorHandler.java" />
+  </compounddef>
+</doxygen>

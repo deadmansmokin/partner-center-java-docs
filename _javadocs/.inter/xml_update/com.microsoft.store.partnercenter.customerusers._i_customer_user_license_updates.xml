@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseUpdates</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;LicenseUpdate, LicenseUpdate&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.customerusers._customer_user_license_update_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseUpdateOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates.create(LicenseUpdate)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.licenses._license_update" kindref="compound">LicenseUpdate</ref>
+        </type>
+        <definition>LicenseUpdate com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create</definition>
+        <argsstring>(LicenseUpdate newLicenseUpdate)</argsstring>
+        <name>create</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customerusers._customer_user_license_update_operations.create(LicenseUpdate)">create</reimplementedby>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.licenses._license_update" kindref="compound">LicenseUpdate</ref>
+          </type>
+          <declname>newLicenseUpdate</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Assign licenses to a user. This method serves three scenarios: 1. Add license to a customer user. 2. Remove license from a customer user. 3. Update existing license for a customer user.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>newLicenseUpdate</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>License update object. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The customer user's directory roles. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUserLicenseUpdates.java" line="31" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents the behavior of the customers user's directory roles. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1773">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1772">
+        <label>com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates</label>
+        <link refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates" />
+        <childnode refid="1773" relation="public-inheritance"></childnode>
+        <childnode refid="1774" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1775">
+        <label>com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseUpdateOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customerusers._customer_user_license_update_operations" />
+        <childnode refid="1772" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1774">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;LicenseUpdate, LicenseUpdate&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1777">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1776">
+        <label>com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates</label>
+        <link refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates" />
+        <childnode refid="1777" relation="public-inheritance"></childnode>
+        <childnode refid="1778" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1778">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;LicenseUpdate, LicenseUpdate&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUserLicenseUpdates.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUserLicenseUpdates.java" bodystart="17" bodyend="32" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates.create(LicenseUpdate)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseUpdates</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations.create(T)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations.">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseUpdates</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseUpdates</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUserLicenseUpdates</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customers::servicecosts::IServiceCostsCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.customers.servicecosts._service_costs_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection.getLineItems()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_line_items_collection" kindref="compound">IServiceCostLineItemsCollection</ref>
+        </type>
+        <definition>IServiceCostLineItemsCollection com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection.getLineItems</definition>
+        <argsstring>()</argsstring>
+        <name>getLineItems</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers.servicecosts._service_costs_collection_operations.getLineItems()">getLineItems</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/IServiceCostsCollection.java" line="23" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection.getSummary()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary" kindref="compound">IServiceCostSummary</ref>
+        </type>
+        <definition>IServiceCostSummary com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection.getSummary</definition>
+        <argsstring>()</argsstring>
+        <name>getSummary</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers.servicecosts._service_costs_collection_operations.getSummary()">getSummary</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/IServiceCostsCollection.java" line="30" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Holds the operations related to a customer's service costs. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3024">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3023">
+        <label>com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection" />
+        <childnode refid="3024" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3025">
+        <label>com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customers.servicecosts._service_costs_collection_operations" />
+        <childnode refid="3023" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3027">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3026">
+        <label>com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection" />
+        <childnode refid="3027" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/IServiceCostsCollection.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/IServiceCostsCollection.java" bodystart="15" bodyend="31" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::servicecosts::IServiceCostsCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection.getLineItems()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::servicecosts::IServiceCostsCollection</scope>
+        <name>getLineItems</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::servicecosts::IServiceCostsCollection</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection.getSummary()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::servicecosts::IServiceCostsCollection</scope>
+        <name>getSummary</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

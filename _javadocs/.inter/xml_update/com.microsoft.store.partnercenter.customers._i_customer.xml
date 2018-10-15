@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.customers._i_customer" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customers::ICustomer</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Customer&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_delete_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityDeleteOperations&lt;Customer&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.customers._customer_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.CustomerOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getAgreements()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.agreements._i_customer_agreement_collection" kindref="compound">ICustomerAgreementCollection</ref>
+        </type>
+        <definition>ICustomerAgreementCollection com.microsoft.store.partnercenter.customers.ICustomer.getAgreements</definition>
+        <argsstring>()</argsstring>
+        <name>getAgreements</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getAgreements()">getAgreements</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the agreements behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer agreements. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="49" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getOrders()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.orders._i_order_collection" kindref="compound">IOrderCollection</ref>
+        </type>
+        <definition>IOrderCollection com.microsoft.store.partnercenter.customers.ICustomer.getOrders</definition>
+        <argsstring>()</argsstring>
+        <name>getOrders</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getOrders()">getOrders</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the orders behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The order behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="56" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getProfiles()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customers.profiles._i_customer_profile_collection" kindref="compound">ICustomerProfileCollection</ref>
+        </type>
+        <definition>ICustomerProfileCollection com.microsoft.store.partnercenter.customers.ICustomer.getProfiles</definition>
+        <argsstring>()</argsstring>
+        <name>getProfiles</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getProfiles()">getProfiles</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the profiles behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The profiles behavior for the customer </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="63" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getSubscriptions()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_collection" kindref="compound">ISubscriptionCollection</ref>
+        </type>
+        <definition>ISubscriptionCollection com.microsoft.store.partnercenter.customers.ICustomer.getSubscriptions</definition>
+        <argsstring>()</argsstring>
+        <name>getSubscriptions</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getSubscriptions()">getSubscriptions</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the subscriptions behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The subscriptions behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="70" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getServiceRequests()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.servicerequests._i_service_request_collection" kindref="compound">IServiceRequestCollection</ref>
+        </type>
+        <definition>IServiceRequestCollection com.microsoft.store.partnercenter.customers.ICustomer.getServiceRequests</definition>
+        <argsstring>()</argsstring>
+        <name>getServiceRequests</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getServiceRequests()">getServiceRequests</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the service requests behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The service requests behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="77" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getManagedServices()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.managedservices._i_managed_service_collection" kindref="compound">IManagedServiceCollection</ref>
+        </type>
+        <definition>IManagedServiceCollection com.microsoft.store.partnercenter.customers.ICustomer.getManagedServices</definition>
+        <argsstring>()</argsstring>
+        <name>getManagedServices</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getManagedServices()">getManagedServices</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the managed services behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The managed services behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="84" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getOfferCategories()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.offers._i_customer_offer_category_collection" kindref="compound">ICustomerOfferCategoryCollection</ref>
+        </type>
+        <definition>ICustomerOfferCategoryCollection com.microsoft.store.partnercenter.customers.ICustomer.getOfferCategories</definition>
+        <argsstring>()</argsstring>
+        <name>getOfferCategories</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getOfferCategories()">getOfferCategories</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the offer categories behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The offer categories behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="91" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getOffers()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.offers._i_customer_offer_collection" kindref="compound">ICustomerOfferCollection</ref>
+        </type>
+        <definition>ICustomerOfferCollection com.microsoft.store.partnercenter.customers.ICustomer.getOffers</definition>
+        <argsstring>()</argsstring>
+        <name>getOffers</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getOffers()">getOffers</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the offers behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The offers behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="98" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getUsageSummary()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.usage._i_customer_usage_summary" kindref="compound">ICustomerUsageSummary</ref>
+        </type>
+        <definition>ICustomerUsageSummary com.microsoft.store.partnercenter.customers.ICustomer.getUsageSummary</definition>
+        <argsstring>()</argsstring>
+        <name>getUsageSummary</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getUsageSummary()">getUsageSummary</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the customer usage summary behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer usage summary behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="105" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getUsageBudget()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.usage._i_customer_usage_spending_budget" kindref="compound">ICustomerUsageSpendingBudget</ref>
+        </type>
+        <definition>ICustomerUsageSpendingBudget com.microsoft.store.partnercenter.customers.ICustomer.getUsageBudget</definition>
+        <argsstring>()</argsstring>
+        <name>getUsageBudget</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getUsageBudget()">getUsageBudget</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the usage spending budget behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The usage spending budget behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="112" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getQualification()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.qualification._i_customer_qualification" kindref="compound">ICustomerQualification</ref>
+        </type>
+        <definition>ICustomerQualification com.microsoft.store.partnercenter.customers.ICustomer.getQualification</definition>
+        <argsstring>()</argsstring>
+        <name>getQualification</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getQualification()">getQualification</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the qualification behavior of the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The qualification behavior of the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="119" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getUsers()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_collection" kindref="compound">ICustomerUserCollection</ref>
+        </type>
+        <definition>ICustomerUserCollection com.microsoft.store.partnercenter.customers.ICustomer.getUsers</definition>
+        <argsstring>()</argsstring>
+        <name>getUsers</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getUsers()">getUsers</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the users behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The users behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="126" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getDirectoryRoles()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection" kindref="compound">IDirectoryRoleCollection</ref>
+        </type>
+        <definition>IDirectoryRoleCollection com.microsoft.store.partnercenter.customers.ICustomer.getDirectoryRoles</definition>
+        <argsstring>()</argsstring>
+        <name>getDirectoryRoles</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getDirectoryRoles()">getDirectoryRoles</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the directory role behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The directory role behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="133" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getSubscribedSkus()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscribedskus._i_customer_subscribed_sku_collection" kindref="compound">ICustomerSubscribedSkuCollection</ref>
+        </type>
+        <definition>ICustomerSubscribedSkuCollection com.microsoft.store.partnercenter.customers.ICustomer.getSubscribedSkus</definition>
+        <argsstring>()</argsstring>
+        <name>getSubscribedSkus</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getSubscribedSkus()">getSubscribedSkus</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the directory role behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The directory role behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="140" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getCarts()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.carts._i_cart_collection" kindref="compound">ICartCollection</ref>
+        </type>
+        <definition>ICartCollection com.microsoft.store.partnercenter.customers.ICustomer.getCarts</definition>
+        <argsstring>()</argsstring>
+        <name>getCarts</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getCarts()">getCarts</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the Cart collection behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The Cart collection behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="147" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getProducts()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customers.products._i_customer_product_collection" kindref="compound">ICustomerProductCollection</ref>
+        </type>
+        <definition>ICustomerProductCollection com.microsoft.store.partnercenter.customers.ICustomer.getProducts</definition>
+        <argsstring>()</argsstring>
+        <name>getProducts</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getProducts()">getProducts</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the products behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The products behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="154" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getServiceCosts()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customers.servicecosts._i_customer_service_costs_collection" kindref="compound">ICustomerServiceCostsCollection</ref>
+        </type>
+        <definition>ICustomerServiceCostsCollection com.microsoft.store.partnercenter.customers.ICustomer.getServiceCosts</definition>
+        <argsstring>()</argsstring>
+        <name>getServiceCosts</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getServiceCosts()">getServiceCosts</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the service costs behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The service costs behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="161" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getDeviceBatches()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection" kindref="compound">IDevicesBatchCollection</ref>
+        </type>
+        <definition>IDevicesBatchCollection com.microsoft.store.partnercenter.customers.ICustomer.getDeviceBatches</definition>
+        <argsstring>()</argsstring>
+        <name>getDeviceBatches</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getDeviceBatches()">getDeviceBatches</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the devices batch behavior of the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The devices batch behavior of the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="168" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getDevicePolicy()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.devicesdeployment._i_customer_device_collection" kindref="compound">ICustomerDeviceCollection</ref>
+        </type>
+        <definition>ICustomerDeviceCollection com.microsoft.store.partnercenter.customers.ICustomer.getDevicePolicy</definition>
+        <argsstring>()</argsstring>
+        <name>getDevicePolicy</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getDevicePolicy()">getDevicePolicy</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the device policy behavior of the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The device policy behavior of the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="175" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getBatchUploadStatus()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status_collection" kindref="compound">IBatchJobStatusCollection</ref>
+        </type>
+        <definition>IBatchJobStatusCollection com.microsoft.store.partnercenter.customers.ICustomer.getBatchUploadStatus</definition>
+        <argsstring>()</argsstring>
+        <name>getBatchUploadStatus</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getBatchUploadStatus()">getBatchUploadStatus</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the devices batch upload status behavior of the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The devices batch upload status behavior of the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="182" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getRelationships()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.relationships._i_customer_relationship_collection" kindref="compound">ICustomerRelationshipCollection</ref>
+        </type>
+        <definition>ICustomerRelationshipCollection com.microsoft.store.partnercenter.customers.ICustomer.getRelationships</definition>
+        <argsstring>()</argsstring>
+        <name>getRelationships</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getRelationships()">getRelationships</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the relationship collection behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The relationship collection behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="189" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getAnalytics()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.analytics._i_customer_analytics_collection" kindref="compound">ICustomerAnalyticsCollection</ref>
+        </type>
+        <definition>ICustomerAnalyticsCollection com.microsoft.store.partnercenter.customers.ICustomer.getAnalytics</definition>
+        <argsstring>()</argsstring>
+        <name>getAnalytics</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getAnalytics()">getAnalytics</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the analytics collection behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The analytics collection behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="196" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getEntitlements()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.entitlements._i_entitlement_collection" kindref="compound">IEntitlementCollection</ref>
+        </type>
+        <definition>IEntitlementCollection com.microsoft.store.partnercenter.customers.ICustomer.getEntitlements</definition>
+        <argsstring>()</argsstring>
+        <name>getEntitlements</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getEntitlements()">getEntitlements</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the entitlement collection behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entitlement collection behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="203" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.getConfigurationPolicies()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection" kindref="compound">IConfigurationPolicyCollection</ref>
+        </type>
+        <definition>IConfigurationPolicyCollection com.microsoft.store.partnercenter.customers.ICustomer.getConfigurationPolicies</definition>
+        <argsstring>()</argsstring>
+        <name>getConfigurationPolicies</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.getConfigurationPolicies()">getConfigurationPolicies</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the configuration policies behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The configuration policies behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="210" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.customers._customer" kindref="compound">Customer</ref>
+        </type>
+        <definition>Customer com.microsoft.store.partnercenter.customers.ICustomer.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the customer information.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer information. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="217" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer.delete()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.customers.ICustomer.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entity_delete_operations.delete()">delete</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_operations.delete()">delete</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Deletes the customer from a testing in production account. This won't work for real accounts. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="222" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Groups operations that can be performed on a single partner customer. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1539">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1541">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityDeleteOperations&lt;Customer&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_delete_operations" />
+      </node>
+      <node id="1538">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1539" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1542">
+        <label>com.microsoft.store.partnercenter.customers.CustomerOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customers._customer_operations" />
+        <childnode refid="1537" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1540">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Customer&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="1537">
+        <label>com.microsoft.store.partnercenter.customers.ICustomer</label>
+        <link refid="com.microsoft.store.partnercenter.customers._i_customer" />
+        <childnode refid="1538" relation="public-inheritance"></childnode>
+        <childnode refid="1540" relation="public-inheritance"></childnode>
+        <childnode refid="1541" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1545">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1547">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityDeleteOperations&lt;Customer&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_delete_operations" />
+      </node>
+      <node id="1544">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1545" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1546">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Customer&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="1543">
+        <label>com.microsoft.store.partnercenter.customers.ICustomer</label>
+        <link refid="com.microsoft.store.partnercenter.customers._i_customer" />
+        <childnode refid="1544" relation="public-inheritance"></childnode>
+        <childnode refid="1546" relation="public-inheritance"></childnode>
+        <childnode refid="1547" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" line="43" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" bodystart="41" bodyend="223" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.delete()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>delete</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getAgreements()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getAgreements</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getAnalytics()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getAnalytics</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getBatchUploadStatus()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getBatchUploadStatus</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getCarts()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getCarts</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getConfigurationPolicies()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getConfigurationPolicies</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getDeviceBatches()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getDeviceBatches</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getDevicePolicy()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getDevicePolicy</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getDirectoryRoles()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getDirectoryRoles</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getEntitlements()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getEntitlements</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getManagedServices()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getManagedServices</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getOfferCategories()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getOfferCategories</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getOffers()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getOffers</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getOrders()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getOrders</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getProducts()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getProducts</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getProfiles()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getProfiles</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getQualification()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getQualification</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getRelationships()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getRelationships</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getServiceCosts()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getServiceCosts</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getServiceRequests()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getServiceRequests</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getSubscribedSkus()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getSubscribedSkus</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getSubscriptions()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getSubscriptions</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getUsageBudget()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getUsageBudget</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getUsageSummary()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getUsageSummary</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer.getUsers()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomer</scope>
+        <name>getUsers</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

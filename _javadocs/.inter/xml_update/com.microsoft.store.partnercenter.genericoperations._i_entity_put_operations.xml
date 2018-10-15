@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.genericoperations._i_entity_put_operations" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::genericoperations::IEntityPutOperations</compoundname>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.carts._i_cart" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.carts.ICart</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.genericoperations._i_entity_put_operations.put(T)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations&lt;T&gt;.put</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>put</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Updates an entity.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>entity</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The modified entity object. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The updated entity. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntityPutOperations.java" line="20" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Groups operations for updating a single entity. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2105">
+        <label>com.microsoft.store.partnercenter.carts.CartOperations</label>
+        <link refid="com.microsoft.store.partnercenter.carts._cart_operations" />
+        <childnode refid="2104" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2103">
+        <label>com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations&lt;T&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_put_operations" />
+      </node>
+      <node id="2104">
+        <label>com::microsoft::store::partnercenter::carts::ICart&lt;Cart&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.carts._i_cart" />
+        <childnode refid="2103" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntityPutOperations.java" line="13" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntityPutOperations.java" bodystart="12" bodyend="21" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_put_operations.put(T)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::genericoperations::IEntityPutOperations</scope>
+        <name>put</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

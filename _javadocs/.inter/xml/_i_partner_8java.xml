@@ -1,0 +1,914 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_i_partner_8java" kind="file" language="Java">
+    <compoundname>IPartner.java</compoundname>
+    <innerclass refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" prot="public">com::microsoft::store::partnercenter::IPartner</innerclass>
+    <innernamespace refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter">com::microsoft::store::partnercenter</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="IPartner.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements" kindref="compound">agreements</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements_1_1_i_agreement_details_collection" kindref="compound">IAgreementDetailsCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics" kindref="compound">analytics</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_analytics_collection" kindref="compound">IPartnerAnalyticsCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1auditrecords" kindref="compound">auditrecords</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1auditrecords_1_1_i_audit_records_collection" kindref="compound">IAuditRecordsCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules" kindref="compound">countryvalidationrules</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules_1_1_i_country_validation_rules_collection" kindref="compound">ICountryValidationRulesCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers" kindref="compound">customers</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_collection" kindref="compound">ICustomerCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="14">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1domains" kindref="compound">domains</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_i_domain_collection" kindref="compound">IDomainCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="15">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators" kindref="compound">enumerators</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_i_resource_collection_enumerator_container" kindref="compound">IResourceCollectionEnumeratorContainer</ref>;</highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions" kindref="compound">extensions</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1_i_extensions" kindref="compound">IExtensions</ref>;</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations" kindref="compound">genericoperations</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_country_selector" kindref="compound">ICountrySelector</ref>;</highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices" kindref="compound">invoices</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_collection" kindref="compound">IInvoiceCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers" kindref="compound">offers</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer_category_collection" kindref="compound">IOfferCategoryCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers" kindref="compound">offers</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer_collection" kindref="compound">IOfferCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products" kindref="compound">products</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection" kindref="compound">IProductCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles" kindref="compound">profiles</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection" kindref="compound">IPartnerProfileCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards" kindref="compound">ratecards</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_i_rate_card_collection" kindref="compound">IRateCardCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships" kindref="compound">relationships</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships_1_1_i_relationship_collection" kindref="compound">IRelationshipCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="25">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext" kindref="compound">requestcontext</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context" kindref="compound">IRequestContext</ref>;</highlight>
+      </codeline>
+      <codeline lineno="26">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1serviceincidents" kindref="compound">serviceincidents</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1serviceincidents_1_1_i_service_incident_collection" kindref="compound">IServiceIncidentCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="27">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests" kindref="compound">servicerequests</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_partner_service_request_collection" kindref="compound">IPartnerServiceRequestCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage" kindref="compound">usage</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_partner_usage_summary" kindref="compound">IPartnerUsageSummary</ref>;</highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1validations" kindref="compound">validations</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1validations_1_1_i_validation_operations" kindref="compound">IValidationOperations</ref>;</highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="36" refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">interface<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="37">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="43">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_credentials" kindref="compound">IPartnerCredentials</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_1ab5e9d0fb8c3991f94138979a89a0ea65" kindref="member">getCredentials</ref>();</highlight>
+      </codeline>
+      <codeline lineno="44">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="50">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context" kindref="compound">IRequestContext</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_1a0652a1981b267c2b93e2aeb7ff626790" kindref="member">getRequestContext</ref>();</highlight>
+      </codeline>
+      <codeline lineno="51">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="57">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_i_resource_collection_enumerator_container" kindref="compound">IResourceCollectionEnumeratorContainer</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_1a2d9281ab4ae9b3c75ef3bade442b0748" kindref="member">getEnumerators</ref>();</highlight>
+      </codeline>
+      <codeline lineno="58">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="64">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_country_selector" kindref="compound">ICountrySelector&lt;IOfferCategoryCollection&gt;</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_1a0d9fd6312a7a7c1ebfdd6b2ad4beb7ff" kindref="member">getOfferCategories</ref>();</highlight>
+      </codeline>
+      <codeline lineno="65">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="71">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_country_selector" kindref="compound">ICountrySelector&lt;IOfferCollection&gt;</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_1ace21f58b03e791af9fa7e3f77f2716d2" kindref="member">getOffers</ref>();</highlight>
+      </codeline>
+      <codeline lineno="72">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="78">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection" kindref="compound">IPartnerProfileCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_1a1ddfea2791c2081a49535d7f56397d65" kindref="member">getProfiles</ref>();</highlight>
+      </codeline>
+      <codeline lineno="79">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="85">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_collection" kindref="compound">ICustomerCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_1abe0f7475ce985fd43dd8fbc8c251fbaa" kindref="member">getCustomers</ref>();</highlight>
+      </codeline>
+      <codeline lineno="86">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="92">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_collection" kindref="compound">IInvoiceCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_1a1cf0fdf16a409551664c3b4cf1709537" kindref="member">getInvoices</ref>();</highlight>
+      </codeline>
+      <codeline lineno="93">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="99">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_partner_service_request_collection" kindref="compound">IPartnerServiceRequestCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_1a61af504194126d549c03c30b0f3564fd" kindref="member">getServiceRequests</ref>();</highlight>
+      </codeline>
+      <codeline lineno="100">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="101">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="102">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />the<sp />service<sp />health<sp />operations<sp />that<sp />can<sp />be<sp />performed<sp />on<sp />a<sp />partner's<sp />subscribed<sp />services.</highlight>
+      </codeline>
+      <codeline lineno="103">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="104">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />service<sp />health<sp />operations<sp />that<sp />can<sp />be<sp />performed<sp />on<sp />a<sp />partner's<sp />subscribed<sp />services.</highlight>
+      </codeline>
+      <codeline lineno="105">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="106">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1serviceincidents_1_1_i_service_incident_collection" kindref="compound">IServiceIncidentCollection</ref>
+          <sp />getServiceIncidents();</highlight>
+      </codeline>
+      <codeline lineno="107">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="108">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="109">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /><sp />Gets<sp />the<sp />country<sp />validation<sp />rules<sp />collection<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="110">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="111">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />country<sp />validation<sp />rules<sp />collection<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="112">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="113">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules_1_1_i_country_validation_rules_collection" kindref="compound">ICountryValidationRulesCollection</ref>
+          <sp />getCountryValidationRules();</highlight>
+      </codeline>
+      <codeline lineno="114">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="120">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_partner_usage_summary" kindref="compound">IPartnerUsageSummary</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_1ad108ba34af4da22fd5728d85f5f12700" kindref="member">getUsageSummary</ref>();</highlight>
+      </codeline>
+      <codeline lineno="121">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="122">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="123">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />the<sp />domains<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="124">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="125">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />domains<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="126">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="127">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1domains_1_1_i_domain_collection" kindref="compound">IDomainCollection</ref>
+          <sp />getDomains();</highlight>
+      </codeline>
+      <codeline lineno="128">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="134">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1auditrecords_1_1_i_audit_records_collection" kindref="compound">IAuditRecordsCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_1a59e9f2c4361cac4e581b54a96e334325" kindref="member">getAuditRecords</ref>();</highlight>
+      </codeline>
+      <codeline lineno="135">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="136">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="137">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />the<sp />rate<sp />card<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="138">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="139">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />rate<sp />card<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="140">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="141">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1ratecards_1_1_i_rate_card_collection" kindref="compound">IRateCardCollection</ref>
+          <sp />getRateCards();</highlight>
+      </codeline>
+      <codeline lineno="142">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="143">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="144">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />the<sp />analytics<sp />collection<sp />operations.</highlight>
+      </codeline>
+      <codeline lineno="145">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="146">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />analytics<sp />collection<sp />operations.</highlight>
+      </codeline>
+      <codeline lineno="147">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="148">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_partner_analytics_collection" kindref="compound">IPartnerAnalyticsCollection</ref>
+          <sp />getAnalytics();</highlight>
+      </codeline>
+      <codeline lineno="149">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="150">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="151">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />the<sp />extensions<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="152">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="153">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />extensions<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="154">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="155">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1_i_extensions" kindref="compound">IExtensions</ref>
+          <sp />getExtensions();</highlight>
+      </codeline>
+      <codeline lineno="156">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="157">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="158">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />the<sp />product<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="159">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="160">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />product<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="161">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="162">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1products_1_1_i_product_collection" kindref="compound">IProductCollection</ref>
+          <sp />getProducts();</highlight>
+      </codeline>
+      <codeline lineno="163">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="164">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="165">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />the<sp />relationship<sp />collection<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="166">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="167">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />relationship<sp />collection<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="168">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="169">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships_1_1_i_relationship_collection" kindref="compound">IRelationshipCollection</ref>
+          <sp />getRelationships();</highlight>
+      </codeline>
+      <codeline lineno="170">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="171">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="172">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />the<sp />validation<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="173">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="174">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />validation<sp />operations<sp />available<sp />to<sp />the<sp />partner.</highlight>
+      </codeline>
+      <codeline lineno="175">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="176">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1validations_1_1_i_validation_operations" kindref="compound">IValidationOperations</ref>
+          <sp />getValidations();</highlight>
+      </codeline>
+      <codeline lineno="177">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="178">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="179">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />the<sp />agreement<sp />metadata<sp />operations.</highlight>
+      </codeline>
+      <codeline lineno="180">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="181">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />agreement<sp />metadata<sp />operations.</highlight>
+      </codeline>
+      <codeline lineno="182">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="183">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements_1_1_i_agreement_details_collection" kindref="compound">IAgreementDetailsCollection</ref>
+          <sp />getAgreementDetails();</highlight>
+      </codeline>
+      <codeline lineno="184">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/IPartner.java" />
+  </compounddef>
+</doxygen>

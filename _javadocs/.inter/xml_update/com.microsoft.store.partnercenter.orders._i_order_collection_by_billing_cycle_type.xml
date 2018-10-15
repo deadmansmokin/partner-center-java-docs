@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.orders._i_order_collection_by_billing_cycle_type" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::orders::IOrderCollectionByBillingCycleType</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, BillingCycleType&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Order, ResourceCollection&lt;Order&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.orders._order_collection_by_billing_cycle_type_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.orders._i_order_collection_by_billing_cycle_type.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.orders._order" kindref="compound">Order</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Order&gt; com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.orders._order_collection_by_billing_cycle_type_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/IOrderCollectionByBillingCycleType.java" line="26" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Holds operations that can be performed on orders given a billing cycle type. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2497">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Order, ResourceCollection&lt;Order&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="2495">
+        <label>com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType</label>
+        <link refid="com.microsoft.store.partnercenter.orders._i_order_collection_by_billing_cycle_type" />
+        <childnode refid="2496" relation="public-inheritance"></childnode>
+        <childnode refid="2497" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2498">
+        <label>com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations</label>
+        <link refid="com.microsoft.store.partnercenter.orders._order_collection_by_billing_cycle_type_operations" />
+        <childnode refid="2495" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2496">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, BillingCycleType&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2501">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Order, ResourceCollection&lt;Order&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="2499">
+        <label>com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType</label>
+        <link refid="com.microsoft.store.partnercenter.orders._i_order_collection_by_billing_cycle_type" />
+        <childnode refid="2500" relation="public-inheritance"></childnode>
+        <childnode refid="2501" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2500">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, BillingCycleType&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/IOrderCollectionByBillingCycleType.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/IOrderCollectionByBillingCycleType.java" bodystart="19" bodyend="27" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.orders._i_order_collection_by_billing_cycle_type.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::IOrderCollectionByBillingCycleType</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::IOrderCollectionByBillingCycleType</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::IOrderCollectionByBillingCycleType</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

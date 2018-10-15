@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::query::SeekQuery</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.query.IndexedQuery</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1a8d2aacc69b490cd9d160c1cf4b551903" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_operation" kindref="compound">SeekOperation</ref>
+        </type>
+        <definition>SeekOperation com.microsoft.store.partnercenter.models.query.SeekQuery.__SeekOperation</definition>
+        <argsstring></argsstring>
+        <name>__SeekOperation</name>
+        <initializer>= SeekOperation.NEXT</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the seek operation. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" line="39" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" bodystart="39" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1aa6e09eb804e9ea51606de57d2aa91e00" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.query.SeekQuery.SeekQuery</definition>
+        <argsstring>(Object token)</argsstring>
+        <name>SeekQuery</name>
+        <param>
+          <type>Object</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" line="15" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" bodystart="15" bodyend="19" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1aaca79176047953d9f87abe4b6b7f70c9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.query.SeekQuery.SeekQuery</definition>
+        <argsstring>()</argsstring>
+        <name>SeekQuery</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" bodystart="21" bodyend="25" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1a1144dd4e9e746faf23413ef136c1e2d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_query_type" kindref="compound">QueryType</ref>
+        </type>
+        <definition>QueryType com.microsoft.store.partnercenter.models.query.SeekQuery.getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a203d42cfee873b91d6fe93af3e91f516">getType</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the query type. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" line="30" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" bodystart="30" bodyend="34" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1a5347b5b86ce9dfd530a9dbcda6ad6fe8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_operation" kindref="compound">SeekOperation</ref>
+        </type>
+        <definition>SeekOperation com.microsoft.store.partnercenter.models.query.SeekQuery.getSeekOperation</definition>
+        <argsstring>()</argsstring>
+        <name>getSeekOperation</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1aad674c5683c1696e2e6a5fdcf4514cb9">getSeekOperation</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the seek operation that needs to be performed.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The seek operation that needs to be performed. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" line="41" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" bodystart="41" bodyend="44" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1a30b8f188473a839aec62a037dc44edf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.SeekQuery.setSeekOperation</definition>
+        <argsstring>(SeekOperation value)</argsstring>
+        <name>setSeekOperation</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a33635e34ffe27cf2aedb7c1ef0358afd">setSeekOperation</reimplements>
+        <param>
+          <type>
+            <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_operation" kindref="compound">SeekOperation</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the seek operation that needs to be performed.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The seek operation that needs to be performed. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" line="46" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" bodystart="46" bodyend="49" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents a seek query. The seek query can be used to seek through sets of results using the given seek operation. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4099">
+        <label>com.microsoft.store.partnercenter.models.query.SeekQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query" />
+        <childnode refid="4100" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4100">
+        <label>com.microsoft.store.partnercenter.models.query.IndexedQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query" />
+        <childnode refid="4101" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4102">
+        <label>com.microsoft.store.partnercenter.models.query.BaseQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query" />
+        <childnode refid="4103" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4103">
+        <label>com.microsoft.store.partnercenter.models.query.IQuery</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query" />
+      </node>
+      <node id="4101">
+        <label>com.microsoft.store.partnercenter.models.query.SimpleQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query" />
+        <childnode refid="4102" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4104">
+        <label>com.microsoft.store.partnercenter.models.query.SeekQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query" />
+        <childnode refid="4105" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4105">
+        <label>com.microsoft.store.partnercenter.models.query.IndexedQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query" />
+        <childnode refid="4106" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4107">
+        <label>com.microsoft.store.partnercenter.models.query.BaseQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query" />
+        <childnode refid="4108" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4108">
+        <label>com.microsoft.store.partnercenter.models.query.IQuery</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query" />
+      </node>
+      <node id="4106">
+        <label>com.microsoft.store.partnercenter.models.query.SimpleQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query" />
+        <childnode refid="4107" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" line="14" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SeekQuery.java" bodystart="12" bodyend="51" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1a8d2aacc69b490cd9d160c1cf4b551903" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>__SeekOperation</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a0ce97bb56c8e7d77bc6202bcf765653e" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>BaseQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a3698ffc86bd4631cae90a5126f4226b6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>BaseQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a607797949b225ae4c64b92d3a2ea643d" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>getFilter</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a384825ce3df59dfb3a407f73ad0f34de" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>getIndex</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a691c9f529f2ccaad9c4aea3323e65d93" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>getPageSize</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1a5347b5b86ce9dfd530a9dbcda6ad6fe8" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>getSeekOperation</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a90d8d3b11fda21002f0874e040043db3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>getSort</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a5fb980b6013a3106b3dc64e1e49dfb57" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>getToken</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1a1144dd4e9e746faf23413ef136c1e2d3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>getType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a71ae0e16688b0f7ef656989b19451164" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>IndexedQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a898940966e2e07a8be49a51e97ea4e34" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>IndexedQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1aa6e09eb804e9ea51606de57d2aa91e00" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>SeekQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1aaca79176047953d9f87abe4b6b7f70c9" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>SeekQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1abfcff35a247777bba668808ccda0ca67" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>setFilter</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a7c046a9bb052d1036a3e06a34bc959b6" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>setIndex</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a3e71fb54733dbc907edb77708aec7c15" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>setPageSize</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query_1a30b8f188473a839aec62a037dc44edf2" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>setSeekOperation</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a4b507a2365a93c9b82eb6882415562f5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>setSort</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1aaffe23ab34dcdee695c7ece3798e7eaa" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>setToken</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a9c1024fe079c3e8cc541d1e9eabaf9b1" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>SimpleQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a1fc377b6b2b883fa2132b921b6792d57" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>SimpleQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1aade8add2fa8b9743d6135b12e9c2812b" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SeekQuery</scope>
+        <name>toString</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

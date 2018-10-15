@@ -1,0 +1,1320 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_customer_user_operations_8java" kind="file" language="Java">
+    <compoundname>CustomerUserOperations.java</compoundname>
+    <innerclass refid="com.microsoft.store.partnercenter.customerusers._customer_user_operations" prot="public">com::microsoft::store::partnercenter::customerusers::CustomerUserOperations</innerclass>
+    <innernamespace refid="com.microsoft.store.partnercenter.customerusers">com::microsoft::store::partnercenter::customerusers</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="CustomerUserOperations.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.customerusers;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.text.MessageFormat;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />java.util.Locale;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.fasterxml.jackson.core.type.TypeReference;</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._base_partner_component" kindref="compound">BasePartnerComponent</ref>;</highlight>
+      </codeline>
+      <codeline lineno="14">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>;</highlight>
+      </codeline>
+      <codeline lineno="15">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter._partner_service" kindref="compound">PartnerService</ref>;</highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.users" kindref="compound">users</ref>.<ref refid="com.microsoft.store.partnercenter.models.users._customer_user" kindref="compound">CustomerUser</ref>;</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.models" kindref="compound">models</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils" kindref="compound">utils</ref>.<ref refid="com.microsoft.store.partnercenter.models.utils._tuple" kindref="compound">Tuple</ref>;</highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.network" kindref="compound">network</ref>.<ref refid="com.microsoft.store.partnercenter.network._i_partner_service_proxy" kindref="compound">IPartnerServiceProxy</ref>;</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.network" kindref="compound">network</ref>.<ref refid="com.microsoft.store.partnercenter.network._partner_service_proxy" kindref="compound">PartnerServiceProxy</ref>;</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com" kindref="compound">com</ref>.<ref refid="com.microsoft" kindref="compound">microsoft</ref>.<ref refid="com.microsoft.store" kindref="compound">store</ref>.<ref refid="com.microsoft.store.partnercenter" kindref="compound">partnercenter</ref>.<ref refid="com.microsoft.store.partnercenter.utils" kindref="compound">utils</ref>.<ref refid="com.microsoft.store.partnercenter.utils._string_helper" kindref="compound">StringHelper</ref>;</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="22" refid="com.microsoft.store.partnercenter.customerusers._customer_user_operations" refkind="compound">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">class<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="com.microsoft.store.partnercenter.customerusers._customer_user_operations" kindref="compound">CustomerUserOperations</ref>
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter._base_partner_component" kindref="compound">BasePartnerComponent</ref>&lt;Tuple&lt;String,String&gt;&gt;<sp /></highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />implements<sp /><ref refid="com.microsoft.store.partnercenter.customerusers._i_customer_user" kindref="compound">ICustomerUser</ref><sp />{</highlight>
+      </codeline>
+      <codeline lineno="25">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_role_collection" kindref="compound">ICustomerUserRoleCollection</ref>
+          <sp />customerUserDirectoryRoleCollectionOperations;</highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="34">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection" kindref="compound">ICustomerUserLicenseCollection</ref>
+          <sp />customerUserLicenseCollectionOperations;</highlight>
+      </codeline>
+      <codeline lineno="35">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="39">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">private</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates" kindref="compound">ICustomerUserLicenseUpdates</ref>
+          <sp />customerUserLicenseUpdateOperations;</highlight>
+      </codeline>
+      <codeline lineno="40">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="48">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._customer_user_operations.CustomerUserOperations(IPartner,String,String)" kindref="member">CustomerUserOperations</ref>(<sp /><ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref><sp />rootPartnerOperations,<sp />String<sp />customerId,<sp />String<sp />userId<sp />)</highlight>
+      </codeline>
+      <codeline lineno="49">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="50">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />super(<sp />rootPartnerOperations,<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.utils._tuple" kindref="compound">Tuple&lt;String,String&gt;</ref>(customerId,<sp />userId)<sp />);</highlight>
+      </codeline>
+      <codeline lineno="51">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp /><ref refid="com.microsoft.store.partnercenter.utils._string_helper" kindref="compound">StringHelper</ref>.isNullOrWhiteSpace(<sp />customerId<sp />)<sp />)</highlight>
+      </codeline>
+      <codeline lineno="52">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="53">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp /></highlight>
+        <highlight class="stringliteral">"customerId<sp />must<sp />be<sp />set"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="54">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="55">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp /><ref refid="com.microsoft.store.partnercenter.utils._string_helper" kindref="compound">StringHelper</ref>.isNullOrWhiteSpace(<sp />userId<sp />)<sp />)</highlight>
+      </codeline>
+      <codeline lineno="56">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="57">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp /></highlight>
+        <highlight class="stringliteral">"userId<sp />must<sp />be<sp />set"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="58">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="59">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="60">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="66">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@Override</highlight>
+      </codeline>
+      <codeline lineno="67">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.users._customer_user" kindref="compound">CustomerUser</ref>
+          <sp />
+        </highlight>
+        <highlight class="keyword">get</highlight>
+        <highlight class="normal">()<sp />{</highlight>
+      </codeline>
+      <codeline lineno="68">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._i_partner_service_proxy" kindref="compound">IPartnerServiceProxy&lt;CustomerUser, CustomerUser&gt;</ref>
+          <sp />partnerServiceProxy<sp />=</highlight>
+      </codeline>
+      <codeline lineno="69">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._partner_service_proxy" kindref="compound">PartnerServiceProxy&lt;CustomerUser, CustomerUser&gt;</ref>(<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;CustomerUser&gt;()</highlight>
+      </codeline>
+      <codeline lineno="70">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="71">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />},<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),<sp />MessageFormat.format(<sp /><ref refid="com.microsoft.store.partnercenter._partner_service" kindref="compound">PartnerService</ref>.getInstance().<ref refid="com.microsoft.store.partnercenter._partner_service.getConfiguration()" kindref="member">getConfiguration</ref>().<ref refid="com.microsoft.store.partnercenter.configuration._configuration.getApis()" kindref="member">getApis</ref>().get(<sp /></highlight>
+        <highlight class="stringliteral">"GetCustomerUserDetails"</highlight>
+        <highlight class="normal">
+          <sp />).getPath(),</highlight>
+      </codeline>
+      <codeline lineno="72">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem1(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem2(),<sp />Locale.US<sp />)<sp />);</highlight>
+      </codeline>
+      <codeline lineno="73">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />partnerServiceProxy.<ref refid="com.microsoft.store.partnercenter.network._i_partner_service_proxy.get()" kindref="member">get</ref>();</highlight>
+      </codeline>
+      <codeline lineno="74">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="75">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="79">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@Override</highlight>
+      </codeline>
+      <codeline lineno="80">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">delete</highlight>
+        <highlight class="normal">()<sp />{</highlight>
+      </codeline>
+      <codeline lineno="81">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._i_partner_service_proxy" kindref="compound">IPartnerServiceProxy&lt;CustomerUser, CustomerUser&gt;</ref>
+          <sp />partnerServiceProxy<sp />=</highlight>
+      </codeline>
+      <codeline lineno="82">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._partner_service_proxy" kindref="compound">PartnerServiceProxy&lt;CustomerUser, CustomerUser&gt;</ref>(<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;CustomerUser&gt;()</highlight>
+      </codeline>
+      <codeline lineno="83">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="84">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />},<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),<sp />MessageFormat.format(<sp /><ref refid="com.microsoft.store.partnercenter._partner_service" kindref="compound">PartnerService</ref>.getInstance().<ref refid="com.microsoft.store.partnercenter._partner_service.getConfiguration()" kindref="member">getConfiguration</ref>().<ref refid="com.microsoft.store.partnercenter.configuration._configuration.getApis()" kindref="member">getApis</ref>().get(<sp /></highlight>
+        <highlight class="stringliteral">"DeleteCustomerUser"</highlight>
+        <highlight class="normal">
+          <sp />).getPath(),</highlight>
+      </codeline>
+      <codeline lineno="85">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem1(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem2(),<sp />Locale.US<sp />)<sp />);</highlight>
+      </codeline>
+      <codeline lineno="86">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />partnerServiceProxy.<ref refid="com.microsoft.store.partnercenter.network._i_partner_service_proxy.delete()" kindref="member">delete</ref>();</highlight>
+      </codeline>
+      <codeline lineno="87">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="88">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="95">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@Override</highlight>
+      </codeline>
+      <codeline lineno="96">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.models.users._customer_user" kindref="compound">CustomerUser</ref>
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._customer_user_operations.patch(CustomerUser)" kindref="member">patch</ref>(<sp /><ref refid="com.microsoft.store.partnercenter.models.users._customer_user" kindref="compound">CustomerUser</ref><sp />customerUser<sp />)<sp />{<sp /><sp /><sp /><sp /><sp /><sp /><sp /><sp /></highlight>
+      </codeline>
+      <codeline lineno="97">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />customerUser<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="98">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="99">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">throw</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />IllegalArgumentException(<sp /></highlight>
+        <highlight class="stringliteral">"customerUser<sp />null"</highlight>
+        <highlight class="normal">
+          <sp />);</highlight>
+      </codeline>
+      <codeline lineno="100">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="101">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._partner_service_proxy" kindref="compound">PartnerServiceProxy&lt;CustomerUser, CustomerUser&gt;</ref>
+          <sp />partnerServiceProxy<sp />=</highlight>
+      </codeline>
+      <codeline lineno="102">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.network._partner_service_proxy" kindref="compound">PartnerServiceProxy&lt;CustomerUser, CustomerUser&gt;</ref>(<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />TypeReference&lt;CustomerUser&gt;()</highlight>
+      </codeline>
+      <codeline lineno="103">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="104">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />},<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),<sp />MessageFormat.format(<sp /><ref refid="com.microsoft.store.partnercenter._partner_service" kindref="compound">PartnerService</ref>.getInstance().<ref refid="com.microsoft.store.partnercenter._partner_service.getConfiguration()" kindref="member">getConfiguration</ref>().<ref refid="com.microsoft.store.partnercenter.configuration._configuration.getApis()" kindref="member">getApis</ref>().get(<sp /></highlight>
+        <highlight class="stringliteral">"UpdateCustomerUser"</highlight>
+        <highlight class="normal">
+          <sp />).getPath(),</highlight>
+      </codeline>
+      <codeline lineno="105">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem1(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem2(),<sp />Locale.US<sp />)<sp />);</highlight>
+      </codeline>
+      <codeline lineno="106">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />partnerServiceProxy.<ref refid="com.microsoft.store.partnercenter.network._partner_service_proxy.patch(TRequest)" kindref="member">patch</ref>(<sp />customerUser<sp />);</highlight>
+      </codeline>
+      <codeline lineno="107">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="108">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="114">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@Override</highlight>
+      </codeline>
+      <codeline lineno="115">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_role_collection" kindref="compound">ICustomerUserRoleCollection</ref>
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._customer_user_operations.getDirectoryRoles()" kindref="member">getDirectoryRoles</ref>()<sp />{</highlight>
+      </codeline>
+      <codeline lineno="116">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />customerUserDirectoryRoleCollectionOperations<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="117">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="118">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />customerUserDirectoryRoleCollectionOperations<sp />=<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._customer_user_role_collection_operations" kindref="compound">CustomerUserRoleCollectionOperations</ref>(<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem1(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem2()<sp />);</highlight>
+      </codeline>
+      <codeline lineno="119">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="120">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />customerUserDirectoryRoleCollectionOperations;</highlight>
+      </codeline>
+      <codeline lineno="121">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="122">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="128">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@Override</highlight>
+      </codeline>
+      <codeline lineno="129">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection" kindref="compound">ICustomerUserLicenseCollection</ref>
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._customer_user_operations.getLicenses()" kindref="member">getLicenses</ref>()<sp />{</highlight>
+      </codeline>
+      <codeline lineno="130">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />customerUserLicenseCollectionOperations<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="131">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="132">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />customerUserLicenseCollectionOperations<sp />=<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._customer_user_license_collection_operations" kindref="compound">CustomerUserLicenseCollectionOperations</ref>(<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem1(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem2()<sp />);</highlight>
+      </codeline>
+      <codeline lineno="133">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="134">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />customerUserLicenseCollectionOperations;</highlight>
+      </codeline>
+      <codeline lineno="135">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="136">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="142">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />@Override</highlight>
+      </codeline>
+      <codeline lineno="143">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates" kindref="compound">ICustomerUserLicenseUpdates</ref>
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._customer_user_operations.getLicenseUpdates()" kindref="member">getLicenseUpdates</ref>()<sp />{</highlight>
+      </codeline>
+      <codeline lineno="144">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">if</highlight>
+        <highlight class="normal">
+          <sp />(<sp />customerUserLicenseUpdateOperations<sp />==<sp />null<sp />)</highlight>
+      </codeline>
+      <codeline lineno="145">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />{</highlight>
+      </codeline>
+      <codeline lineno="146">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />customerUserLicenseUpdateOperations<sp />=<sp /></highlight>
+        <highlight class="keyword">new</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="com.microsoft.store.partnercenter.customerusers._customer_user_license_update_operations" kindref="compound">CustomerUserLicenseUpdateOperations</ref>(<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" kindref="member">getPartner</ref>(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem1(),<sp />this.<ref refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" kindref="member">getContext</ref>().getItem2()<sp />);</highlight>
+      </codeline>
+      <codeline lineno="147">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="148">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordflow">return</highlight>
+        <highlight class="normal">
+          <sp />customerUserLicenseUpdateOperations;</highlight>
+      </codeline>
+      <codeline lineno="149">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />}</highlight>
+      </codeline>
+      <codeline lineno="150">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUserOperations.java" />
+  </compounddef>
+</doxygen>

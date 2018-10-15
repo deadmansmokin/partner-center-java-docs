@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::carts::Cart</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a9d2dfded3c322002ce7f1b3bc6c14bf9" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.carts.Cart.__Id</definition>
+        <argsstring></argsstring>
+        <name>__Id</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="26" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a44b1ec6b786c13ce6f917430cbb1f817" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.carts.Cart.__CreationTimestamp</definition>
+        <argsstring></argsstring>
+        <name>__CreationTimestamp</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="42" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a1357c89d083bc85ba2d0fb914d6f4d5a" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.carts.Cart.__LastModifiedTimestamp</definition>
+        <argsstring></argsstring>
+        <name>__LastModifiedTimestamp</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="58" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a1dc3e782be6eddfc34d7c0dbcae7648a" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.carts.Cart.__ExpirationTimestamp</definition>
+        <argsstring></argsstring>
+        <name>__ExpirationTimestamp</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="74" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="74" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1ab94a0522d0c9f50025292d064f914b2c" prot="private" static="no" mutable="no">
+        <type>List&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_line_item" kindref="compound">CartLineItem</ref>&gt;</type>
+        <definition>List&lt;CartLineItem&gt; com.microsoft.store.partnercenter.models.carts.Cart.__LineItems</definition>
+        <argsstring></argsstring>
+        <name>__LineItems</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="90" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="90" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a85921af0b77b670883a829f36b94c5f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.carts.Cart.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="28" bodyend="31" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1abbc874fd3103c062951fc11ffb88ba04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.carts.Cart.setId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="33" bodyend="36" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a3b9ea591eb7be23927d9923138f1799b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.carts.Cart.getCreationTimestamp</definition>
+        <argsstring>()</argsstring>
+        <name>getCreationTimestamp</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="44" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="44" bodyend="47" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1ab5e0d332d48a6502aba03f4567ab07ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.carts.Cart.setCreationTimestamp</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setCreationTimestamp</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="49" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="49" bodyend="52" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a8b3c7023e005801613d582df553453b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.carts.Cart.getLastModifiedTimestamp</definition>
+        <argsstring>()</argsstring>
+        <name>getLastModifiedTimestamp</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="60" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="60" bodyend="63" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a6f92f96c55709c11703a202760b76fcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.carts.Cart.setLastModifiedTimestamp</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setLastModifiedTimestamp</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="65" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="65" bodyend="68" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a82ab7f38c9e94eacf3d8624eaad45b86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.carts.Cart.getExpirationTimestamp</definition>
+        <argsstring>()</argsstring>
+        <name>getExpirationTimestamp</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="76" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="76" bodyend="79" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a5a45ccc1ab254c1092890b663d91a6f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.carts.Cart.setExpirationTimestamp</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setExpirationTimestamp</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="81" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="81" bodyend="84" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a5fdff7ebee93188ac71423126db441c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_line_item" kindref="compound">CartLineItem</ref>&gt;</type>
+        <definition>List&lt;CartLineItem&gt; com.microsoft.store.partnercenter.models.carts.Cart.getLineItems</definition>
+        <argsstring>()</argsstring>
+        <name>getLineItems</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="92" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="92" bodyend="95" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a595e153cb5285511f5da9560bb791fa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.carts.Cart.setLineItems</definition>
+        <argsstring>(List&lt;CartLineItem&gt; value)</argsstring>
+        <name>setLineItems</name>
+        <param>
+          <type>List&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_line_item" kindref="compound">CartLineItem</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="97" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="97" bodyend="100" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="424">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links" />
+        <childnode refid="425" relation="public-inheritance"></childnode>
+      </node>
+      <node id="423">
+        <label>com.microsoft.store.partnercenter.models.carts.Cart</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart" />
+        <childnode refid="424" relation="public-inheritance"></childnode>
+      </node>
+      <node id="425">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="427">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links" />
+        <childnode refid="428" relation="public-inheritance"></childnode>
+      </node>
+      <node id="426">
+        <label>com.microsoft.store.partnercenter.models.carts.Cart</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart" />
+        <childnode refid="427" relation="public-inheritance"></childnode>
+      </node>
+      <node id="428">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java" bodystart="20" bodyend="101" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a44b1ec6b786c13ce6f917430cbb1f817" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>__CreationTimestamp</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a1dc3e782be6eddfc34d7c0dbcae7648a" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>__ExpirationTimestamp</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a9d2dfded3c322002ce7f1b3bc6c14bf9" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>__Id</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a1357c89d083bc85ba2d0fb914d6f4d5a" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>__LastModifiedTimestamp</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1ab94a0522d0c9f50025292d064f914b2c" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>__LineItems</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ac2e2226cca816bd63cd179b0eae6a163" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a3b9ea591eb7be23927d9923138f1799b" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>getCreationTimestamp</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a82ab7f38c9e94eacf3d8624eaad45b86" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>getExpirationTimestamp</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a85921af0b77b670883a829f36b94c5f3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>getId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a8b3c7023e005801613d582df553453b6" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>getLastModifiedTimestamp</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a5fdff7ebee93188ac71423126db441c3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>getLineItems</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links_1ae4aa0a8e311d65d310b399a0e75c6960" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ad9225d84f0a18fc31d4f24e0f9010824" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ab891cf19d9cca1f6918b43c9680ec5e5" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links_1a602763450c6d4681b14dcdc5ab1dc2bd" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links_1a8586fe642f1ec57174ffa89c0882c7af" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1ab5e0d332d48a6502aba03f4567ab07ba" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>setCreationTimestamp</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a5a45ccc1ab254c1092890b663d91a6f5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>setExpirationTimestamp</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1abbc874fd3103c062951fc11ffb88ba04" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>setId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a6f92f96c55709c11703a202760b76fcc" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>setLastModifiedTimestamp</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1carts_1_1_cart_1a595e153cb5285511f5da9560bb791fa3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>setLineItems</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links_1af17bfb6bc7a97f5716f39daae46d6123" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::Cart</scope>
+        <name>setLinks</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

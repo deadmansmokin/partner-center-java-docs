@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_i_product_extensions_by_country" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::extensions::products::IProductExtensionsByCountry</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_product_extensions_by_country_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_i_product_extensions_by_country_1a035cca1a6ea1cda0090f714c432f771a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_item" kindref="compound">InventoryItem</ref>&gt;</type>
+        <definition>List&lt;InventoryItem&gt; com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory</definition>
+        <argsstring>(InventoryCheckRequest checkRequest)</argsstring>
+        <name>checkInventory</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_product_extensions_by_country_operations_1af8741645dd163bc42c0438640c047d74">checkInventory</reimplementedby>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_inventory_check_request" kindref="compound">InventoryCheckRequest</ref>
+          </type>
+          <declname>checkRequest</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/extensions/products/IProductExtensionsByCountry.java" line="27" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="2962">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2963">
+        <label>com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_product_extensions_by_country_operations" />
+        <childnode refid="2960" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2960">
+        <label>com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_i_product_extensions_by_country" />
+        <childnode refid="2961" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2961">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2962" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2966">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2964">
+        <label>com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_i_product_extensions_by_country" />
+        <childnode refid="2965" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2965">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2966" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/extensions/products/IProductExtensionsByCountry.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/extensions/products/IProductExtensionsByCountry.java" bodystart="18" bodyend="28" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_i_product_extensions_by_country_1a035cca1a6ea1cda0090f714c432f771a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::extensions::products::IProductExtensionsByCountry</scope>
+        <name>checkInventory</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::extensions::products::IProductExtensionsByCountry</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::extensions::products::IProductExtensionsByCountry</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

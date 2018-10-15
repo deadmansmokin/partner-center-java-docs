@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.servicerequests._i_service_request_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.MIN_PAGE_SIZE" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.MIN_PAGE_SIZE</definition>
+        <argsstring></argsstring>
+        <name>MIN_PAGE_SIZE</name>
+        <initializer>= 1</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The minimum allowed page size for the collection. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" line="43" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" bodystart="43" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.MAX_PAGE_SIZE" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.MAX_PAGE_SIZE</definition>
+        <argsstring></argsstring>
+        <name>MAX_PAGE_SIZE</name>
+        <initializer>= 1000</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The maximum allowed page size for the collection. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" line="48" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" bodystart="48" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.CustomerServiceRequestCollectionOperations(IPartner,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.CustomerServiceRequestCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId)</argsstring>
+        <name>CustomerServiceRequestCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the CustomerServiceRequestCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" line="56" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" bodystart="56" bodyend="64" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.byId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.servicerequests._i_service_request" kindref="compound">IServiceRequest</ref>
+        </type>
+        <definition>IServiceRequest com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.byId</definition>
+        <argsstring>(String serviceRequestId)</argsstring>
+        <name>byId</name>
+        <reimplements refid="com.microsoft.store.partnercenter.servicerequests._i_service_request_collection.byId(String)">byId</reimplements>
+        <param>
+          <type>String</type>
+          <declname>serviceRequestId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves a Service Request specified by Id</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>serviceRequestId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Service Request Id </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>Service Request Operations </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" line="73" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" bodystart="73" bodyend="76" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.query(IQuery)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection" kindref="compound">SeekBasedResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request" kindref="compound">ServiceRequest</ref>&gt;</type>
+        <definition>SeekBasedResourceCollection&lt;ServiceRequest&gt; com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.query</definition>
+        <argsstring>(IQuery serviceRequestsQuery)</argsstring>
+        <name>query</name>
+        <reimplements refid="com.microsoft.store.partnercenter.servicerequests._i_service_request_collection.query(IQuery)">query</reimplements>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.query._i_query" kindref="compound">IQuery</ref>
+          </type>
+          <declname>serviceRequestsQuery</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Queries for service requests associated with a customer</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>serviceRequestsQuery</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The query with search parameters </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>A collection of service requests matching the criteria </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" line="85" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" bodystart="85" bodyend="135" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request" kindref="compound">ServiceRequest</ref>&gt;</type>
+        <definition>ResourceCollection&lt;ServiceRequest&gt; com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.servicerequests._i_service_request_collection.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves Service Requests associated to the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>A collection of service requests </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" line="143" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" bodystart="143" bodyend="152" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>The customer's service requests operations implementation. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="953">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;ServiceRequest, ResourceCollection&lt;ServiceRequest&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="947">
+        <label>com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations" />
+        <childnode refid="948" relation="public-inheritance"></childnode>
+        <childnode refid="950" relation="public-inheritance"></childnode>
+      </node>
+      <node id="952">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="954">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IServiceRequest&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="949">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="948">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="949" relation="public-inheritance"></childnode>
+      </node>
+      <node id="950">
+        <label>com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection</label>
+        <link refid="com.microsoft.store.partnercenter.servicerequests._i_service_request_collection" />
+        <childnode refid="951" relation="public-inheritance"></childnode>
+        <childnode refid="953" relation="public-inheritance"></childnode>
+        <childnode refid="954" relation="public-inheritance"></childnode>
+      </node>
+      <node id="951">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="952" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="961">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;ServiceRequest, ResourceCollection&lt;ServiceRequest&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="955">
+        <label>com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations" />
+        <childnode refid="956" relation="public-inheritance"></childnode>
+        <childnode refid="958" relation="public-inheritance"></childnode>
+      </node>
+      <node id="960">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="962">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IServiceRequest&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="957">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="956">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="957" relation="public-inheritance"></childnode>
+      </node>
+      <node id="958">
+        <label>com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection</label>
+        <link refid="com.microsoft.store.partnercenter.servicerequests._i_service_request_collection" />
+        <childnode refid="959" relation="public-inheritance"></childnode>
+        <childnode refid="961" relation="public-inheritance"></childnode>
+        <childnode refid="962" relation="public-inheritance"></childnode>
+      </node>
+      <node id="959">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="960" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" line="39" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java" bodystart="36" bodyend="154" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner,String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.byId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>byId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.CustomerServiceRequestCollectionOperations(IPartner,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>CustomerServiceRequestCollectionOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::servicerequests::IServiceRequestCollection.">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::servicerequests::IServiceRequestCollection.">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.MAX_PAGE_SIZE" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>MAX_PAGE_SIZE</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.MIN_PAGE_SIZE" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>MIN_PAGE_SIZE</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.query(IQuery)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::CustomerServiceRequestCollectionOperations</scope>
+        <name>query</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

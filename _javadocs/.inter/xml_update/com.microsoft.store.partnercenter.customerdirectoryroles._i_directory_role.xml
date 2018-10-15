@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customerdirectoryroles::IDirectoryRole</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role.getUserMembers()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection" kindref="compound">IUserMemberCollection</ref>
+        </type>
+        <definition>IUserMemberCollection com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers</definition>
+        <argsstring>()</argsstring>
+        <name>getUserMembers</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations.getUserMembers()">getUserMembers</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/IDirectoryRole.java" line="23" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents a Directory Role </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1824">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole</label>
+        <link refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role" />
+        <childnode refid="1825" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1825">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1826">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations" />
+        <childnode refid="1824" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1827">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole</label>
+        <link refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role" />
+        <childnode refid="1828" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1828">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/IDirectoryRole.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/IDirectoryRole.java" bodystart="16" bodyend="24" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::IDirectoryRole</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::IDirectoryRole</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role.getUserMembers()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::IDirectoryRole</scope>
+        <name>getUserMembers</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

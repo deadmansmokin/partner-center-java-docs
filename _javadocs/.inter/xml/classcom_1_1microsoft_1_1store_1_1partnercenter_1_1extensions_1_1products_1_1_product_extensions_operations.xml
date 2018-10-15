@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_product_extensions_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::extensions::products::ProductExtensionsOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_i_product_extensions" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.extensions.products.IProductExtensions</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_product_extensions_operations_1af7de9fb1049d5e68b3d3645e2c331828" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.ProductExtensionsOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations)</argsstring>
+        <name>ProductExtensionsOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the ProductExtensionsOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/extensions/products/ProductExtensionsOperations.java" line="23" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/extensions/products/ProductExtensionsOperations.java" bodystart="23" bodyend="25" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_product_extensions_operations_1a078013a595b9e2d109bd0ac4f455414f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_i_product_extensions_by_country" kindref="compound">IProductExtensionsByCountry</ref>
+        </type>
+        <definition>IProductExtensionsByCountry com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.byCountry</definition>
+        <argsstring>(String country)</argsstring>
+        <name>byCountry</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_i_product_extensions_1ac5b3fe5d02eecc5f33e631202169b456">byCountry</reimplements>
+        <param>
+          <type>String</type>
+          <declname>country</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/extensions/products/ProductExtensionsOperations.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/extensions/products/ProductExtensionsOperations.java" bodystart="33" bodyend="36" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Extensions operations implementation. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3813">
+        <label>com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_product_extensions_operations" />
+        <childnode refid="3814" relation="public-inheritance"></childnode>
+        <childnode refid="3816" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3818">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3816">
+        <label>com.microsoft.store.partnercenter.extensions.products.IProductExtensions</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_i_product_extensions" />
+        <childnode refid="3817" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3815">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="3814">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="3815" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3817">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3818" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3819">
+        <label>com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_product_extensions_operations" />
+        <childnode refid="3820" relation="public-inheritance"></childnode>
+        <childnode refid="3822" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3824">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3822">
+        <label>com.microsoft.store.partnercenter.extensions.products.IProductExtensions</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_i_product_extensions" />
+        <childnode refid="3823" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3821">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="3820">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="3821" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3823">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3824" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/extensions/products/ProductExtensionsOperations.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/extensions/products/ProductExtensionsOperations.java" bodystart="15" bodyend="37" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::extensions::products::ProductExtensionsOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1ae6339c5a921b5c3b6a545e1064951c83" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::extensions::products::ProductExtensionsOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1a9662304cff58f8d465d2a47e7e8cedf0" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::extensions::products::ProductExtensionsOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_product_extensions_operations_1a078013a595b9e2d109bd0ac4f455414f" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::extensions::products::ProductExtensionsOperations</scope>
+        <name>byCountry</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::extensions::products::ProductExtensionsOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::extensions::products::IProductExtensions.">
+        <scope>com::microsoft::store::partnercenter::extensions::products::ProductExtensionsOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::extensions::products::ProductExtensionsOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::extensions::products::IProductExtensions.">
+        <scope>com::microsoft::store::partnercenter::extensions::products::ProductExtensionsOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1extensions_1_1products_1_1_product_extensions_operations_1af7de9fb1049d5e68b3d3645e2c331828" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::extensions::products::ProductExtensionsOperations</scope>
+        <name>ProductExtensionsOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

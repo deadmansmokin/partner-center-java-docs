@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_utilization_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::utilization::UtilizationCollectionOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_i_utilization_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.utilization.IUtilizationCollection</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_utilization_collection_operations_1af68b49bea1e9b30eb34ac09bca8140be" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_i_azure_utilization_collection" kindref="compound">IAzureUtilizationCollection</ref>
+        </type>
+        <definition>IAzureUtilizationCollection com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations.azureUtilizationOperations</definition>
+        <argsstring></argsstring>
+        <name>azureUtilizationOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>A reference to Azure utilization collection object. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utilization/UtilizationCollectionOperations.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utilization/UtilizationCollectionOperations.java" bodystart="22" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_utilization_collection_operations_1aaea0ae8d7ce77c5e86aa0c884fc6f1b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations.UtilizationCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String subscriptionId)</argsstring>
+        <name>UtilizationCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>subscriptionId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the UtilizationCollectionOperations class. <parameterlist kind="param"><parameteritem><parameternamelist><parametername>rootPartnerOperations</parametername></parameternamelist><parameterdescription><para>The root partner operations. </para></parameterdescription></parameteritem><parameteritem><parameternamelist><parametername>customerId</parametername></parameternamelist><parameterdescription><para>The customer identifier. </para></parameterdescription></parameteritem><parameteritem><parameternamelist><parametername>subscriptionId</parametername></parameternamelist><parameterdescription><para>The subscription identifer. </para></parameterdescription></parameteritem></parameterlist></para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utilization/UtilizationCollectionOperations.java" line="30" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utilization/UtilizationCollectionOperations.java" bodystart="30" bodyend="51" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_utilization_collection_operations_1aceb4ea7e7d022805f9ffa70197131d93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_i_azure_utilization_collection" kindref="compound">IAzureUtilizationCollection</ref>
+        </type>
+        <definition>IAzureUtilizationCollection com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations.getAzure</definition>
+        <argsstring>()</argsstring>
+        <name>getAzure</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_i_utilization_collection_1a9cf0729e3684ef6f884f7e3cea988792">getAzure</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the Azure subscription utilization behavior.</para>
+          <para>
+            <simplesect kind="return">
+              <para>the Azure subscription utilization behavior. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utilization/UtilizationCollectionOperations.java" line="59" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utilization/UtilizationCollectionOperations.java" bodystart="59" bodyend="62" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="4676">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4672">
+        <label>com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_utilization_collection_operations" />
+        <childnode refid="4673" relation="public-inheritance"></childnode>
+        <childnode refid="4675" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4674">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4673">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="4674" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4675">
+        <label>com.microsoft.store.partnercenter.utilization.IUtilizationCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_i_utilization_collection" />
+        <childnode refid="4676" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4681">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4677">
+        <label>com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_utilization_collection_operations" />
+        <childnode refid="4678" relation="public-inheritance"></childnode>
+        <childnode refid="4680" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4679">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4678">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="4679" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4680">
+        <label>com.microsoft.store.partnercenter.utilization.IUtilizationCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_i_utilization_collection" />
+        <childnode refid="4681" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utilization/UtilizationCollectionOperations.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/utilization/UtilizationCollectionOperations.java" bodystart="14" bodyend="63" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_utilization_collection_operations_1af68b49bea1e9b30eb34ac09bca8140be" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::utilization::UtilizationCollectionOperations</scope>
+        <name>azureUtilizationOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::utilization::UtilizationCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_utilization_collection_operations_1aceb4ea7e7d022805f9ffa70197131d93" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::utilization::UtilizationCollectionOperations</scope>
+        <name>getAzure</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::utilization::UtilizationCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::utilization::UtilizationCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1utilization_1_1_utilization_collection_operations_1aaea0ae8d7ce77c5e86aa0c884fc6f1b6" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::utilization::UtilizationCollectionOperations</scope>
+        <name>UtilizationCollectionOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

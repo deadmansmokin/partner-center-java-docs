@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.customerdirectoryroles._user_member_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customerdirectoryroles::UserMemberOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customerdirectoryroles._user_member_operations.UserMemberOperations(IPartner,String,String,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String roleId, String userId)</argsstring>
+        <name>UserMemberOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>roleId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>userId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/UserMemberOperations.java" line="40" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/UserMemberOperations.java" bodystart="40" bodyend="57" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customerdirectoryroles._user_member_operations.delete()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <reimplements refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member.delete()">delete</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Deletes an entity. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/UserMemberOperations.java" line="63" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/UserMemberOperations.java" bodystart="63" bodyend="73" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implementation of Member Operations</para>
+      <para>Use for management of directory roles and memberships </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4645">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityDeleteOperations&lt;UserMember&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_delete_operations" />
+      </node>
+      <node id="4642">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4641">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="4642" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4644">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4640">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customerdirectoryroles._user_member_operations" />
+        <childnode refid="4641" relation="public-inheritance"></childnode>
+        <childnode refid="4643" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4643">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember</label>
+        <link refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member" />
+        <childnode refid="4644" relation="public-inheritance"></childnode>
+        <childnode refid="4645" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4651">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityDeleteOperations&lt;UserMember&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_delete_operations" />
+      </node>
+      <node id="4648">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4647">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="4648" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4650">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4646">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customerdirectoryroles._user_member_operations" />
+        <childnode refid="4647" relation="public-inheritance"></childnode>
+        <childnode refid="4649" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4649">
+        <label>com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember</label>
+        <link refid="com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member" />
+        <childnode refid="4650" relation="public-inheritance"></childnode>
+        <childnode refid="4651" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/UserMemberOperations.java" line="30" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/UserMemberOperations.java" bodystart="27" bodyend="75" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::UserMemberOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customerdirectoryroles._user_member_operations.delete()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::UserMemberOperations</scope>
+        <name>delete</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::UserMemberOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::UserMemberOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customerdirectoryroles._user_member_operations.UserMemberOperations(IPartner,String,String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerdirectoryroles::UserMemberOperations</scope>
+        <name>UserMemberOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

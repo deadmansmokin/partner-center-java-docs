@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::requestcontext::IRequestContext</compoundname>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_request_context" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.requestcontext.RequestContext</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context_1a46957a2fb6d052d16251edb44a9cc07f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UUID</type>
+        <definition>UUID com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId</definition>
+        <argsstring>()</argsstring>
+        <name>getRequestId</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_request_context_1aecb50630f202dd72926418acf785bf41">getRequestId</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the request identifier. Uniquely identifies the partner service operation.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The request identifier. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/IRequestContext.java" line="21" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context_1a17af48b6305c9d45e2c1ce1541c88ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UUID</type>
+        <definition>UUID com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId</definition>
+        <argsstring>()</argsstring>
+        <name>getCorrelationId</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_request_context_1af170ba63a484bc0f6242b770b619da9a">getCorrelationId</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the correlation identifier. This identifier is used to group logical operations together.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The correlation identifier. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/IRequestContext.java" line="28" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context_1a4691582b1e1e8ac264310de7d2e0cce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale</definition>
+        <argsstring>()</argsstring>
+        <name>getLocale</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_request_context_1acf69e009e8ce86159e3a4a5707c0c860">getLocale</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the locale.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The locale. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/IRequestContext.java" line="35" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Bundles context information which is amended to the partner SDK operations. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2988">
+        <label>com.microsoft.store.partnercenter.requestcontext.IRequestContext</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context" />
+      </node>
+      <node id="2989">
+        <label>com.microsoft.store.partnercenter.requestcontext.RequestContext</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_request_context" />
+        <childnode refid="2988" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/IRequestContext.java" line="15" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/IRequestContext.java" bodystart="14" bodyend="37" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context_1a17af48b6305c9d45e2c1ce1541c88ead" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::IRequestContext</scope>
+        <name>getCorrelationId</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context_1a4691582b1e1e8ac264310de7d2e0cce5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::IRequestContext</scope>
+        <name>getLocale</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context_1a46957a2fb6d052d16251edb44a9cc07f" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::IRequestContext</scope>
+        <name>getRequestId</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

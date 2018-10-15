@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_i_invoice_8java" kind="file" language="Java">
+    <compoundname>IInvoice.java</compoundname>
+    <innerclass refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice" prot="public">com::microsoft::store::partnercenter::invoices::IInvoice</innerclass>
+    <innernamespace refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices">com::microsoft::store::partnercenter::invoices</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="IInvoice.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.invoices;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" kindref="compound">IPartnerComponentString</ref>;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations" kindref="compound">genericoperations</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" kindref="compound">IEntityGetOperations</ref>;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models" kindref="compound">models</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices" kindref="compound">invoices</ref>.<ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_billing_provider" kindref="compound">BillingProvider</ref>;</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models" kindref="compound">models</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices" kindref="compound">invoices</ref>.<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice" kindref="compound">Invoice</ref>;</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models" kindref="compound">models</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices" kindref="compound">invoices</ref>.<ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_line_item_type" kindref="compound">InvoiceLineItemType</ref>;</highlight>
+      </codeline>
+      <codeline lineno="14">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="18" refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">interface<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice" kindref="compound">IInvoice</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" kindref="compound">IPartnerComponentString</ref>,<sp /><ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" kindref="compound">IEntityGetOperations</ref>&lt;Invoice&gt;</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Gets<sp />an<sp />invoice<sp />document<sp />operations.</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />An<sp />invoice<sp />document<sp />operations.</highlight>
+      </codeline>
+      <codeline lineno="25">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="26">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_documents" kindref="compound">IInvoiceDocuments</ref>
+          <sp />getDocuments();</highlight>
+      </codeline>
+      <codeline lineno="27">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="comment">/***</highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />Creates<sp />an<sp />invoice<sp />line<sp />item<sp />collection<sp />operations<sp />given<sp />a<sp />billing<sp />provider<sp />and<sp />invoice<sp />line<sp />item<sp />type.</highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp /></highlight>
+      </codeline>
+      <codeline lineno="31">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />billingProvider<sp />The<sp />billing<sp />provider.</highlight>
+      </codeline>
+      <codeline lineno="32">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@param<sp />invoiceLineItemType<sp />The<sp />invoice<sp />line<sp />item<sp />type.</highlight>
+      </codeline>
+      <codeline lineno="33">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*<sp />@return<sp />The<sp />invoice<sp />line<sp />item<sp />collection<sp />operations.</highlight>
+      </codeline>
+      <codeline lineno="34">
+        <highlight class="comment">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <sp />*/</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="35">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1invoices_1_1_i_invoice_line_item_collection" kindref="compound">IInvoiceLineItemCollection</ref>
+          <sp />by(<ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_billing_provider" kindref="compound">BillingProvider</ref><sp />billingProvider,<sp /><ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_line_item_type" kindref="compound">InvoiceLineItemType</ref><sp />invoiceLineItemType);</highlight>
+      </codeline>
+      <codeline lineno="36">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="42">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice" kindref="compound">Invoice</ref>
+          <sp />
+        </highlight>
+        <highlight class="keyword">get</highlight>
+        <highlight class="normal">();</highlight>
+      </codeline>
+      <codeline lineno="43">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/IInvoice.java" />
+  </compounddef>
+</doxygen>

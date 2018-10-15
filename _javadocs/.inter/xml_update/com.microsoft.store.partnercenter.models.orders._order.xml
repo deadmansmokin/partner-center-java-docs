@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.orders._order" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::orders::Order</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base_with_links" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.orders._order.__Id" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.__Id</definition>
+        <argsstring></argsstring>
+        <name>__Id</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the order identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="26" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.orders._order.__ReferenceCustomerId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.__ReferenceCustomerId</definition>
+        <argsstring></argsstring>
+        <name>__ReferenceCustomerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the reference customer identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="42" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.orders._order.__LineItems" prot="private" static="no" mutable="no">
+        <type>Iterable&lt;<ref refid="com.microsoft.store.partnercenter.models.orders._order_line_item" kindref="compound">OrderLineItem</ref>&gt;</type>
+        <definition>Iterable&lt;OrderLineItem&gt; com.microsoft.store.partnercenter.models.orders.Order.__LineItems</definition>
+        <argsstring></argsstring>
+        <name>__LineItems</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Order line items. Each order line item refers to one offer purchase data. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="58" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.orders._order.__CreationDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.orders.Order.__CreationDate</definition>
+        <argsstring></argsstring>
+        <name>__CreationDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the creation date of the order </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="74" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="74" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.orders._order.__CurrencyCode" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.__CurrencyCode</definition>
+        <argsstring></argsstring>
+        <name>__CurrencyCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the currency code. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="90" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="90" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.orders._order.__Status" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.__Status</definition>
+        <argsstring></argsstring>
+        <name>__Status</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the order status. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="106" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="106" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.orders._order.__Links" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.orders._order_links" kindref="compound">OrderLinks</ref>
+        </type>
+        <definition>OrderLinks com.microsoft.store.partnercenter.models.orders.Order.__Links</definition>
+        <argsstring></argsstring>
+        <name>__Links</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the links corresponding to the order. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="122" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="122" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.orders._order.__BillingCycle" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.offers._billing_cycle_type" kindref="compound">BillingCycleType</ref>
+        </type>
+        <definition>BillingCycleType com.microsoft.store.partnercenter.models.orders.Order.__BillingCycle</definition>
+        <argsstring></argsstring>
+        <name>__BillingCycle</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the type of billing cycle for the selected offers. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="138" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="138" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.getId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="28" bodyend="31" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.setId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="33" bodyend="36" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.getReferenceCustomerId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId</definition>
+        <argsstring>()</argsstring>
+        <name>getReferenceCustomerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="44" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="44" bodyend="47" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.setReferenceCustomerId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setReferenceCustomerId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="49" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="49" bodyend="52" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.getLineItems()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt;<ref refid="com.microsoft.store.partnercenter.models.orders._order_line_item" kindref="compound">OrderLineItem</ref>&gt;</type>
+        <definition>Iterable&lt;OrderLineItem&gt; com.microsoft.store.partnercenter.models.orders.Order.getLineItems</definition>
+        <argsstring>()</argsstring>
+        <name>getLineItems</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="60" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="60" bodyend="63" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.setLineItems(Iterable&lt;OrderLineItem&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setLineItems</definition>
+        <argsstring>(Iterable&lt;OrderLineItem&gt; value)</argsstring>
+        <name>setLineItems</name>
+        <param>
+          <type>Iterable&lt;<ref refid="com.microsoft.store.partnercenter.models.orders._order_line_item" kindref="compound">OrderLineItem</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="65" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="65" bodyend="68" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.getCreationDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.orders.Order.getCreationDate</definition>
+        <argsstring>()</argsstring>
+        <name>getCreationDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="76" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="76" bodyend="79" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.setCreationDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setCreationDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setCreationDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="81" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="81" bodyend="84" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.getCurrencyCode()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrencyCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="92" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="92" bodyend="95" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.setCurrencyCode(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCurrencyCode</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="97" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="97" bodyend="100" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.getStatus()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.getStatus</definition>
+        <argsstring>()</argsstring>
+        <name>getStatus</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="108" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="108" bodyend="111" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.setStatus(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setStatus</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="113" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="113" bodyend="116" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.getLinks()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.orders._order_links" kindref="compound">OrderLinks</ref>
+        </type>
+        <definition>OrderLinks com.microsoft.store.partnercenter.models.orders.Order.getLinks</definition>
+        <argsstring>()</argsstring>
+        <name>getLinks</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="124" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="124" bodyend="127" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.setLinks(OrderLinks)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setLinks</definition>
+        <argsstring>(OrderLinks value)</argsstring>
+        <name>setLinks</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.orders._order_links" kindref="compound">OrderLinks</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="129" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="129" bodyend="132" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.getBillingCycle()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.offers._billing_cycle_type" kindref="compound">BillingCycleType</ref>
+        </type>
+        <definition>BillingCycleType com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingCycle</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="140" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="140" bodyend="143" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.orders._order.setBillingCycle(BillingCycleType)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle</definition>
+        <argsstring>(BillingCycleType value)</argsstring>
+        <name>setBillingCycle</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.offers._billing_cycle_type" kindref="compound">BillingCycleType</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="145" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="145" bodyend="148" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Order represents collection of information needed to purchase offers represented by each order line items. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3450">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="3451" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3449">
+        <label>com.microsoft.store.partnercenter.models.orders.Order</label>
+        <link refid="com.microsoft.store.partnercenter.models.orders._order" />
+        <childnode refid="3450" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3451">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3453">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="3454" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3452">
+        <label>com.microsoft.store.partnercenter.models.orders.Order</label>
+        <link refid="com.microsoft.store.partnercenter.models.orders._order" />
+        <childnode refid="3453" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3454">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="19" bodyend="149" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.__BillingCycle" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__BillingCycle</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.__CreationDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__CreationDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.__CurrencyCode" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__CurrencyCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.__Id" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__Id</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.__LineItems" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__LineItems</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.__Links" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__Links</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.__ReferenceCustomerId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__ReferenceCustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.__Status" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__Status</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.getBillingCycle()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getBillingCycle</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.getCreationDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getCreationDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.getCurrencyCode()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getCurrencyCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.getId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.getLineItems()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getLineItems</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.getLinks()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.getReferenceCustomerId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getReferenceCustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.getStatus()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getStatus</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.setBillingCycle(BillingCycleType)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setBillingCycle</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.setCreationDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setCreationDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.setCurrencyCode(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setCurrencyCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.setId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.setLineItems(Iterable&lt;OrderLineItem&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setLineItems</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.setLinks(OrderLinks)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.setLinks(TLinks)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::models::ResourceBaseWithLinks.">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.setReferenceCustomerId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setReferenceCustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.orders._order.setStatus(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setStatus</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

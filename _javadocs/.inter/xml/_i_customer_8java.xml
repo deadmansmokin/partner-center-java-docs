@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_i_customer_8java" kind="file" language="Java">
+    <compoundname>ICustomer.java</compoundname>
+    <innerclass refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer" prot="public">com::microsoft::store::partnercenter::customers::ICustomer</innerclass>
+    <innernamespace refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers">com::microsoft::store::partnercenter::customers</innernamespace>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <programlisting>
+      <codeline lineno="1">
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="2">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;copyright<sp />file="ICustomer.java"<sp />company="Microsoft"&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="3">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp /><sp /><sp /><sp /><sp /><sp />Copyright<sp />(c)<sp />Microsoft<sp />Corporation.<sp /><sp />All<sp />rights<sp />reserved.</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="4">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />&lt;/copyright&gt;</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="5">
+        <highlight class="normal"></highlight>
+        <highlight class="comment">//<sp />-----------------------------------------------------------------------</highlight>
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="6">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="7">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">package<sp /></highlight>
+        <highlight class="normal">com.microsoft.store.partnercenter.customers;</highlight>
+      </codeline>
+      <codeline lineno="8">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="9">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" kindref="compound">IPartnerComponentString</ref>;</highlight>
+      </codeline>
+      <codeline lineno="10">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements" kindref="compound">agreements</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements_1_1_i_customer_agreement_collection" kindref="compound">ICustomerAgreementCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="11">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics" kindref="compound">analytics</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_customer_analytics_collection" kindref="compound">ICustomerAnalyticsCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="12">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1carts" kindref="compound">carts</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1carts_1_1_i_cart_collection" kindref="compound">ICartCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="13">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles" kindref="compound">customerdirectoryroles</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_i_directory_role_collection" kindref="compound">IDirectoryRoleCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="14">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers" kindref="compound">customers</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products" kindref="compound">products</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection" kindref="compound">ICustomerProductCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="15">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers" kindref="compound">customers</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1profiles" kindref="compound">profiles</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1profiles_1_1_i_customer_profile_collection" kindref="compound">ICustomerProfileCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="16">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers" kindref="compound">customers</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1servicecosts" kindref="compound">servicecosts</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1servicecosts_1_1_i_customer_service_costs_collection" kindref="compound">ICustomerServiceCostsCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="17">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers" kindref="compound">customerusers</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_collection" kindref="compound">ICustomerUserCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="18">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment" kindref="compound">devicesdeployment</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_batch_job_status_collection" kindref="compound">IBatchJobStatusCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="19">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment" kindref="compound">devicesdeployment</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_configuration_policy_collection" kindref="compound">IConfigurationPolicyCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="20">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment" kindref="compound">devicesdeployment</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_customer_device_collection" kindref="compound">ICustomerDeviceCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="21">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment" kindref="compound">devicesdeployment</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_devices_batch_collection" kindref="compound">IDevicesBatchCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="22">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements" kindref="compound">entitlements</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements_1_1_i_entitlement_collection" kindref="compound">IEntitlementCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="23">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations" kindref="compound">genericoperations</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_delete_operations" kindref="compound">IEntityDeleteOperations</ref>;</highlight>
+      </codeline>
+      <codeline lineno="24">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations" kindref="compound">genericoperations</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" kindref="compound">IEntityGetOperations</ref>;</highlight>
+      </codeline>
+      <codeline lineno="25">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1managedservices" kindref="compound">managedservices</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1managedservices_1_1_i_managed_service_collection" kindref="compound">IManagedServiceCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="26">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models" kindref="compound">models</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1customers" kindref="compound">customers</ref>.<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1customers_1_1_customer" kindref="compound">Customer</ref>;</highlight>
+      </codeline>
+      <codeline lineno="27">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers" kindref="compound">offers</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_category_collection" kindref="compound">ICustomerOfferCategoryCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="28">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers" kindref="compound">offers</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_collection" kindref="compound">ICustomerOfferCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="29">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders" kindref="compound">orders</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_collection" kindref="compound">IOrderCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="30">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1qualification" kindref="compound">qualification</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1qualification_1_1_i_customer_qualification" kindref="compound">ICustomerQualification</ref>;</highlight>
+      </codeline>
+      <codeline lineno="31">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships" kindref="compound">relationships</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships_1_1_i_customer_relationship_collection" kindref="compound">ICustomerRelationshipCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="32">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests" kindref="compound">servicerequests</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_service_request_collection" kindref="compound">IServiceRequestCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="33">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscribedskus" kindref="compound">subscribedskus</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscribedskus_1_1_i_customer_subscribed_sku_collection" kindref="compound">ICustomerSubscribedSkuCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="34">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions" kindref="compound">subscriptions</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_collection" kindref="compound">ISubscriptionCollection</ref>;</highlight>
+      </codeline>
+      <codeline lineno="35">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage" kindref="compound">usage</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_spending_budget" kindref="compound">ICustomerUsageSpendingBudget</ref>;</highlight>
+      </codeline>
+      <codeline lineno="36">
+        <highlight class="normal"></highlight>
+        <highlight class="keyword">import</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1microsoft" kindref="compound">microsoft</ref>.<ref refid="namespacecom_1_1microsoft_1_1store" kindref="compound">store</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter" kindref="compound">partnercenter</ref>.<ref refid="namespacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage" kindref="compound">usage</ref>.<ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_summary" kindref="compound">ICustomerUsageSummary</ref>;</highlight>
+      </codeline>
+      <codeline lineno="37">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="41" refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer" refkind="compound">
+        <highlight class="keyword">public</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">interface<sp /></highlight>
+        <highlight class="normal">
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer" kindref="compound">ICustomer</ref>
+        </highlight>
+      </codeline>
+      <codeline lineno="42">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keyword">extends</highlight>
+        <highlight class="normal">
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" kindref="compound">IPartnerComponentString</ref>,<sp /><ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" kindref="compound">IEntityGetOperations</ref>&lt;Customer&gt;,<sp /><ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_delete_operations" kindref="compound">IEntityDeleteOperations</ref>&lt;Customer&gt;</highlight>
+      </codeline>
+      <codeline lineno="43">
+        <highlight class="normal">{</highlight>
+      </codeline>
+      <codeline lineno="49">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements_1_1_i_customer_agreement_collection" kindref="compound">ICustomerAgreementCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a3691f071952cefe1d082ddf10ed39de3" kindref="member">getAgreements</ref>();</highlight>
+      </codeline>
+      <codeline lineno="50">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="56">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_collection" kindref="compound">IOrderCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1ac6e345de6e8a0fb417600a905b711345" kindref="member">getOrders</ref>();</highlight>
+      </codeline>
+      <codeline lineno="57">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="63">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1profiles_1_1_i_customer_profile_collection" kindref="compound">ICustomerProfileCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a534692d1cb6e0d7cff942d3cdf8a7076" kindref="member">getProfiles</ref>();</highlight>
+      </codeline>
+      <codeline lineno="64">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="70">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_collection" kindref="compound">ISubscriptionCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a856c387a4fecff94adf43395dc702196" kindref="member">getSubscriptions</ref>();</highlight>
+      </codeline>
+      <codeline lineno="71">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="77">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_service_request_collection" kindref="compound">IServiceRequestCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1aae7d3b099fc277be30fe53775fc7dc89" kindref="member">getServiceRequests</ref>();</highlight>
+      </codeline>
+      <codeline lineno="78">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="84">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1managedservices_1_1_i_managed_service_collection" kindref="compound">IManagedServiceCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a879d9aae378164fb9c418bf66a584e97" kindref="member">getManagedServices</ref>();</highlight>
+      </codeline>
+      <codeline lineno="85">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="91">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_category_collection" kindref="compound">ICustomerOfferCategoryCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a452003763ddaa60368bc63cf83b06bf7" kindref="member">getOfferCategories</ref>();</highlight>
+      </codeline>
+      <codeline lineno="92">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="98">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_collection" kindref="compound">ICustomerOfferCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a80bf7e689ff4300a186c73a487c21120" kindref="member">getOffers</ref>();</highlight>
+      </codeline>
+      <codeline lineno="99">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="105">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_summary" kindref="compound">ICustomerUsageSummary</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1afe8c8f7f6637cd1158a03eec5ecc637e" kindref="member">getUsageSummary</ref>();</highlight>
+      </codeline>
+      <codeline lineno="106">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="112">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_spending_budget" kindref="compound">ICustomerUsageSpendingBudget</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a67e2d1f03dd112ec1a93664392b31a57" kindref="member">getUsageBudget</ref>();</highlight>
+      </codeline>
+      <codeline lineno="113">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="119">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1qualification_1_1_i_customer_qualification" kindref="compound">ICustomerQualification</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a8c510b69300bf5d899538947bdae527a" kindref="member">getQualification</ref>();</highlight>
+      </codeline>
+      <codeline lineno="120">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="126">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_collection" kindref="compound">ICustomerUserCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a89e336cebd12b59519b1190185389d3a" kindref="member">getUsers</ref>();</highlight>
+      </codeline>
+      <codeline lineno="127">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="133">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_i_directory_role_collection" kindref="compound">IDirectoryRoleCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1ae3e1dfce76410339d386a33e830a44c4" kindref="member">getDirectoryRoles</ref>();</highlight>
+      </codeline>
+      <codeline lineno="134">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="140">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscribedskus_1_1_i_customer_subscribed_sku_collection" kindref="compound">ICustomerSubscribedSkuCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a8f0ff4e53cac6a18f6327b4057f9add7" kindref="member">getSubscribedSkus</ref>();</highlight>
+      </codeline>
+      <codeline lineno="141">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="147">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1carts_1_1_i_cart_collection" kindref="compound">ICartCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a8642261641cb660cca68ff0e1170a37e" kindref="member">getCarts</ref>();</highlight>
+      </codeline>
+      <codeline lineno="148">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="154">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection" kindref="compound">ICustomerProductCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1aa343bfbc0e1cf86f0c3517a2053cfddf" kindref="member">getProducts</ref>();</highlight>
+      </codeline>
+      <codeline lineno="155">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="161">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1servicecosts_1_1_i_customer_service_costs_collection" kindref="compound">ICustomerServiceCostsCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a21d162be2418e00a83dd86cea685bdea" kindref="member">getServiceCosts</ref>();</highlight>
+      </codeline>
+      <codeline lineno="162">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="168">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_devices_batch_collection" kindref="compound">IDevicesBatchCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a62fa487be097c322a4ecd0c93364c332" kindref="member">getDeviceBatches</ref>();</highlight>
+      </codeline>
+      <codeline lineno="169">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="175">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_customer_device_collection" kindref="compound">ICustomerDeviceCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1ae1bd2f8e9b3296466ea5125018ce73e8" kindref="member">getDevicePolicy</ref>();</highlight>
+      </codeline>
+      <codeline lineno="176">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="182">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_batch_job_status_collection" kindref="compound">IBatchJobStatusCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a8672d64cb350f9b779e25c7aa4eb0277" kindref="member">getBatchUploadStatus</ref>();</highlight>
+      </codeline>
+      <codeline lineno="183">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="189">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships_1_1_i_customer_relationship_collection" kindref="compound">ICustomerRelationshipCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a347aa473057e2716dd6a84d53d810ac6" kindref="member">getRelationships</ref>();</highlight>
+      </codeline>
+      <codeline lineno="190">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="196">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_customer_analytics_collection" kindref="compound">ICustomerAnalyticsCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a0032d3666d3151839e35b086c041d440" kindref="member">getAnalytics</ref>();</highlight>
+      </codeline>
+      <codeline lineno="197">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="203">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements_1_1_i_entitlement_collection" kindref="compound">IEntitlementCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a37d9aaf29d7d9f303486a225c9e26f8f" kindref="member">getEntitlements</ref>();</highlight>
+      </codeline>
+      <codeline lineno="204">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="210">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_configuration_policy_collection" kindref="compound">IConfigurationPolicyCollection</ref>
+          <sp />
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a022e653f9697209c9995c5920c7dd5dd" kindref="member">getConfigurationPolicies</ref>();</highlight>
+      </codeline>
+      <codeline lineno="211">
+        <highlight class="normal"></highlight>
+      </codeline>
+      <codeline lineno="217">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1customers_1_1_customer" kindref="compound">Customer</ref>
+          <sp />
+        </highlight>
+        <highlight class="keyword">get</highlight>
+        <highlight class="normal">();</highlight>
+      </codeline>
+      <codeline lineno="218">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+      </codeline>
+      <codeline lineno="222">
+        <highlight class="normal">
+          <sp />
+          <sp />
+          <sp />
+          <sp />
+        </highlight>
+        <highlight class="keywordtype">void</highlight>
+        <highlight class="normal">
+          <sp />
+        </highlight>
+        <highlight class="keyword">delete</highlight>
+        <highlight class="normal">();</highlight>
+      </codeline>
+      <codeline lineno="223">
+        <highlight class="normal">}</highlight>
+      </codeline>
+    </programlisting>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomer.java" />
+  </compounddef>
+</doxygen>

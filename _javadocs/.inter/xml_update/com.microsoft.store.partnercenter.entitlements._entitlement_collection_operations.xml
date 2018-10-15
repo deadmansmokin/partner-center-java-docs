@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.entitlements._i_entitlement_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.entitlements.IEntitlementCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations.EntitlementCollectionOperations(IPartner,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations.EntitlementCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId)</argsstring>
+        <name>EntitlementCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the EntitlementCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier for the customer. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/entitlements/EntitlementCollectionOperations.java" line="35" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/entitlements/EntitlementCollectionOperations.java" bodystart="35" bodyend="43" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations.byEntitlementType(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" kindref="compound">IEntireEntityCollectionRetrievalOperations</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.entitlements._entitlement" kindref="compound">Entitlement</ref>, <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.entitlements._entitlement" kindref="compound">Entitlement</ref>&gt;&gt;</type>
+        <definition>IEntireEntityCollectionRetrievalOperations&lt;Entitlement, ResourceCollection&lt;Entitlement&gt;&gt; com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations.byEntitlementType</definition>
+        <argsstring>(String entitlementType)</argsstring>
+        <name>byEntitlementType</name>
+        <reimplements refid="com.microsoft.store.partnercenter.entitlements._i_entitlement_collection.byEntitlementType(String)">byEntitlementType</reimplements>
+        <param>
+          <type>String</type>
+          <declname>entitlementType</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/entitlements/EntitlementCollectionOperations.java" line="52" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/entitlements/EntitlementCollectionOperations.java" bodystart="52" bodyend="55" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.entitlements._entitlement" kindref="compound">Entitlement</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Entitlement&gt; com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/entitlements/EntitlementCollectionOperations.java" line="63" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/entitlements/EntitlementCollectionOperations.java" bodystart="63" bodyend="72" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Entitlement collection operations implementation class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1338">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1335">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="1334">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="1335" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1333">
+        <label>com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations" />
+        <childnode refid="1334" relation="public-inheritance"></childnode>
+        <childnode refid="1336" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1337">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1338" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1336">
+        <label>com.microsoft.store.partnercenter.entitlements.IEntitlementCollection</label>
+        <link refid="com.microsoft.store.partnercenter.entitlements._i_entitlement_collection" />
+        <childnode refid="1337" relation="public-inheritance"></childnode>
+        <childnode refid="1339" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1339">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Entitlement, ResourceCollection&lt;Entitlement&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1345">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1342">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="1341">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="1342" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1340">
+        <label>com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations" />
+        <childnode refid="1341" relation="public-inheritance"></childnode>
+        <childnode refid="1343" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1344">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1345" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1343">
+        <label>com.microsoft.store.partnercenter.entitlements.IEntitlementCollection</label>
+        <link refid="com.microsoft.store.partnercenter.entitlements._i_entitlement_collection" />
+        <childnode refid="1344" relation="public-inheritance"></childnode>
+        <childnode refid="1346" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1346">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Entitlement, ResourceCollection&lt;Entitlement&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/entitlements/EntitlementCollectionOperations.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/entitlements/EntitlementCollectionOperations.java" bodystart="25" bodyend="73" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner,String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations.byEntitlementType(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionOperations</scope>
+        <name>byEntitlementType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations.EntitlementCollectionOperations(IPartner,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionOperations</scope>
+        <name>EntitlementCollectionOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::entitlements::IEntitlementCollection.">
+        <scope>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::entitlements::IEntitlementCollection.">
+        <scope>com::microsoft::store::partnercenter::entitlements::EntitlementCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

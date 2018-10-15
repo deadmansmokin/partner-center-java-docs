@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.customers._i_customer_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customers::ICustomerCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;Customer, Customer&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Customer, SeekBasedResourceCollection&lt;Customer&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.customers._customer_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.CustomerCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer_collection.getUsageRecords()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.usage._i_customer_usage_record_collection" kindref="compound">ICustomerUsageRecordCollection</ref>
+        </type>
+        <definition>ICustomerUsageRecordCollection com.microsoft.store.partnercenter.customers.ICustomerCollection.getUsageRecords</definition>
+        <argsstring>()</argsstring>
+        <name>getUsageRecords</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_collection_operations.getUsageRecords()">getUsageRecords</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the customer usage record operations.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer usage record operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java" line="30" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer_collection.getRelationshipRequests()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.relationshiprequests._i_customer_relationship_request" kindref="compound">ICustomerRelationshipRequest</ref>
+        </type>
+        <definition>ICustomerRelationshipRequest com.microsoft.store.partnercenter.customers.ICustomerCollection.getRelationshipRequests</definition>
+        <argsstring>()</argsstring>
+        <name>getRelationshipRequests</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_collection_operations.getRelationshipRequests()">getRelationshipRequests</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the customer relationship request operations.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer replationship request operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java" line="37" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer_collection.byId(String)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.customers._i_customer" kindref="compound">ICustomer</ref>
+        </type>
+        <definition>ICustomer com.microsoft.store.partnercenter.customers.ICustomerCollection.byId</definition>
+        <argsstring>(String customerId)</argsstring>
+        <name>byId</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_collection_operations.byId(String)">byId</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets a single customer operations.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The customer operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java" line="45" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer_collection.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection" kindref="compound">SeekBasedResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.customers._customer" kindref="compound">Customer</ref>&gt;</type>
+        <definition>SeekBasedResourceCollection&lt;Customer&gt; com.microsoft.store.partnercenter.customers.ICustomerCollection.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_collection_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java" line="52" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.customers._i_customer_collection.query(IQuery)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection" kindref="compound">SeekBasedResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.customers._customer" kindref="compound">Customer</ref>&gt;</type>
+        <definition>SeekBasedResourceCollection&lt;Customer&gt; com.microsoft.store.partnercenter.customers.ICustomerCollection.query</definition>
+        <argsstring>(IQuery customersQuery)</argsstring>
+        <name>query</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers._customer_collection_operations.query(IQuery)">query</reimplementedby>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.query._i_query" kindref="compound">IQuery</ref>
+          </type>
+          <declname>customersQuery</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Queries customers associated to the partner. - Count queries are not supported by this operation. - You can set the page size or filter or do both at the same time. - Sort is not supported. - You can navigate to other pages by specifying a seek query with the seek operation and the continuation token sent by the previous operation.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customersQuery</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>A query to apply onto customers. Check <ref refid="com.microsoft.store.partnercenter.models.query._query_factory" kindref="compound">com.microsoft.store.partnercenter.models.query.QueryFactory</ref> to see how to build queries. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The requested customers. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java" line="62" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents the behavior of the partner customers. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1569">
+        <label>com.microsoft.store.partnercenter.customers.CustomerCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customers._customer_collection_operations" />
+        <childnode refid="1564" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1567">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;Customer, Customer&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+      <node id="1566">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1564">
+        <label>com.microsoft.store.partnercenter.customers.ICustomerCollection</label>
+        <link refid="com.microsoft.store.partnercenter.customers._i_customer_collection" />
+        <childnode refid="1565" relation="public-inheritance"></childnode>
+        <childnode refid="1567" relation="public-inheritance"></childnode>
+        <childnode refid="1568" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1565">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1566" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1568">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Customer, SeekBasedResourceCollection&lt;Customer&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1573">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;Customer, Customer&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+      <node id="1572">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1570">
+        <label>com.microsoft.store.partnercenter.customers.ICustomerCollection</label>
+        <link refid="com.microsoft.store.partnercenter.customers._i_customer_collection" />
+        <childnode refid="1571" relation="public-inheritance"></childnode>
+        <childnode refid="1573" relation="public-inheritance"></childnode>
+        <childnode refid="1574" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1571">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1572" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1574">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Customer, SeekBasedResourceCollection&lt;Customer&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/ICustomerCollection.java" bodystart="21" bodyend="63" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer_collection.byId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomerCollection</scope>
+        <name>byId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations.create(T)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomerCollection</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer_collection.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomerCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomerCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomerCollection</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer_collection.getRelationshipRequests()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomerCollection</scope>
+        <name>getRelationshipRequests</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer_collection.getUsageRecords()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomerCollection</scope>
+        <name>getUsageRecords</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.customers._i_customer_collection.query(IQuery)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::ICustomerCollection</scope>
+        <name>query</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

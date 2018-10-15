@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_subscription_usage_summary_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::usage::SubscriptionUsageSummaryOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_subscription_usage_summary" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_subscription_usage_summary_operations_1a4507f4241e96c233bc8ba33dfaed5318" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String subscriptionId)</argsstring>
+        <name>SubscriptionUsageSummaryOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>subscriptionId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SubscriptionUsageSummaryOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>subscriptionId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The subscription id. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/SubscriptionUsageSummaryOperations.java" line="35" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/SubscriptionUsageSummaryOperations.java" bodystart="35" bodyend="49" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_subscription_usage_summary_operations_1a84f286f44b489276b424803b2a9e1027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1usage_1_1_subscription_usage_summary" kindref="compound">SubscriptionUsageSummary</ref>
+        </type>
+        <definition>SubscriptionUsageSummary com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_subscription_usage_summary_1a6ba749ccab34fbb7ffa6cfd5690d9fa1">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the subscription usage summary.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The subscription usage summary. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/SubscriptionUsageSummaryOperations.java" line="57" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/SubscriptionUsageSummaryOperations.java" bodystart="57" bodyend="67" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>This class implements the operations for a customer's subscription. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4497">
+        <label>com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_subscription_usage_summary" />
+        <childnode refid="4498" relation="public-inheritance"></childnode>
+        <childnode refid="4499" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4498">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4494">
+        <label>com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_subscription_usage_summary_operations" />
+        <childnode refid="4495" relation="public-inheritance"></childnode>
+        <childnode refid="4497" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4496">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4495">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="4496" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4499">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SubscriptionUsageSummary&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4503">
+        <label>com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_subscription_usage_summary" />
+        <childnode refid="4504" relation="public-inheritance"></childnode>
+        <childnode refid="4505" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4504">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4500">
+        <label>com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_subscription_usage_summary_operations" />
+        <childnode refid="4501" relation="public-inheritance"></childnode>
+        <childnode refid="4503" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4502">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4501">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="4502" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4505">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SubscriptionUsageSummary&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/SubscriptionUsageSummaryOperations.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/usage/SubscriptionUsageSummaryOperations.java" bodystart="24" bodyend="69" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::SubscriptionUsageSummaryOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_subscription_usage_summary_operations_1a84f286f44b489276b424803b2a9e1027" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::SubscriptionUsageSummaryOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::SubscriptionUsageSummaryOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::SubscriptionUsageSummaryOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_subscription_usage_summary_operations_1a4507f4241e96c233bc8ba33dfaed5318" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::usage::SubscriptionUsageSummaryOperations</scope>
+        <name>SubscriptionUsageSummaryOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

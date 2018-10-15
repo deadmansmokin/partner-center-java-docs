@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__CustomerBillableAccount" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.__CustomerBillableAccount</definition>
+        <argsstring></argsstring>
+        <name>__CustomerBillableAccount</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the customer billable account. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="20" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__UsageDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.__UsageDate</definition>
+        <argsstring></argsstring>
+        <name>__UsageDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the usage date the resource. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="35" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="35" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__MeteredService" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.__MeteredService</definition>
+        <argsstring></argsstring>
+        <name>__MeteredService</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the metered service name. Example: Storage </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="50" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="50" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__MeteredServiceType" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.__MeteredServiceType</definition>
+        <argsstring></argsstring>
+        <name>__MeteredServiceType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the metered service type. Example: External </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="65" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="65" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__MeteredRegion" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.__MeteredRegion</definition>
+        <argsstring></argsstring>
+        <name>__MeteredRegion</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the metered region. Example: West US </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="80" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="80" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__Project" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.__Project</definition>
+        <argsstring></argsstring>
+        <name>__Project</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the project or instance name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="95" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="95" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__ServiceInfo" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.__ServiceInfo</definition>
+        <argsstring></argsstring>
+        <name>__ServiceInfo</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the additional service information. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="110" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="110" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getCustomerBillableAccount()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getCustomerBillableAccount</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomerBillableAccount</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="22" bodyend="25" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setCustomerBillableAccount(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setCustomerBillableAccount</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCustomerBillableAccount</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="27" bodyend="30" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getUsageDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getUsageDate</definition>
+        <argsstring>()</argsstring>
+        <name>getUsageDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="37" bodyend="40" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setUsageDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setUsageDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setUsageDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="42" bodyend="45" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getMeteredService()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredService</definition>
+        <argsstring>()</argsstring>
+        <name>getMeteredService</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="52" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="52" bodyend="55" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setMeteredService(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredService</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setMeteredService</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="57" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="57" bodyend="60" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getMeteredServiceType()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredServiceType</definition>
+        <argsstring>()</argsstring>
+        <name>getMeteredServiceType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="67" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="67" bodyend="70" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setMeteredServiceType(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredServiceType</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setMeteredServiceType</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="72" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="72" bodyend="75" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getMeteredRegion()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getMeteredRegion</definition>
+        <argsstring>()</argsstring>
+        <name>getMeteredRegion</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="82" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="82" bodyend="85" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setMeteredRegion(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setMeteredRegion</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setMeteredRegion</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="87" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="87" bodyend="90" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getProject()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getProject</definition>
+        <argsstring>()</argsstring>
+        <name>getProject</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="97" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="97" bodyend="100" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setProject(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setProject</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setProject</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="102" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="102" bodyend="105" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getServiceInfo()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getServiceInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getServiceInfo</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="112" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="112" bodyend="115" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setServiceInfo(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setServiceInfo</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setServiceInfo</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="117" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="117" bodyend="120" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getInvoiceLineItemType()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item_type" kindref="compound">InvoiceLineItemType</ref>
+        </type>
+        <definition>InvoiceLineItemType com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getInvoiceLineItemType</definition>
+        <argsstring>()</argsstring>
+        <name>getInvoiceLineItemType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Returns the type of invoice line item</para>
+          <para>
+            <simplesect kind="return">
+              <para>The type of invoice line item. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="127" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="127" bodyend="130" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Invoice Usage Line item for usage based subscriptions </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1170">
+        <label>com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item" />
+        <childnode refid="1171" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1169">
+        <label>com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item" />
+        <childnode refid="1170" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1171">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" />
+        <childnode refid="1172" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1172">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1174">
+        <label>com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item" />
+        <childnode refid="1175" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1173">
+        <label>com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item" />
+        <childnode refid="1174" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1175">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" />
+        <childnode refid="1176" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1176">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/DailyUsageLineItem.java" bodystart="14" bodyend="131" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__CustomerBillableAccount" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>__CustomerBillableAccount</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__MeteredRegion" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>__MeteredRegion</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__MeteredService" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>__MeteredService</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__MeteredServiceType" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>__MeteredServiceType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__Project" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>__Project</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__ServiceInfo" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>__ServiceInfo</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.__UsageDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>__UsageDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.geCustomerId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>geCustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getBillingCycleType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getBillingCycleType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getBillingProvider()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getBillingProvider</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getChargeEndDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getChargeEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getChargeStartDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getChargeStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getConsumedQuantity()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getConsumedQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getCustomerBillableAccount()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getCustomerBillableAccount</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getCustomerCompanyName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getCustomerCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getDomainName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getDomainName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getInvoiceLineItemType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getInvoiceLineItemType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getInvoiceNumber()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getInvoiceNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getMeteredRegion()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getMeteredRegion</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getMeteredService()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getMeteredService</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getMeteredServiceType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getMeteredServiceType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getMpnId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getOrderId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getOrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getPartnerBillableAccountId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getPartnerBillableAccountId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getPartnerId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getPartnerName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getPartnerName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getProject()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getProject</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getRegion()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getRegion</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getResourceGuid()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getResourceGuid</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getResourceName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getResourceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getServiceInfo()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getServiceInfo</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getServiceName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getServiceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getServiceType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getServiceType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getSubscriptionDescription()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getSubscriptionDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getSubscriptionId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getSubscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getSubscriptionName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getSubscriptionName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getTier2MpnId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getTier2MpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.getUnit()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getUnit</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.getUsageDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>getUsageDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setBillingCycleType(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setBillingCycleType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setChargeEndDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setChargeEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setChargeStartDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setChargeStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setConsumedQuantity(double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setConsumedQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setCustomerBillableAccount(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setCustomerBillableAccount</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setCustomerCompanyName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setCustomerCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setCustomerId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setCustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setDomainName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setDomainName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setInvoiceNumber(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setInvoiceNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setMeteredRegion(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setMeteredRegion</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setMeteredService(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setMeteredService</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setMeteredServiceType(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setMeteredServiceType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setMpnId(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setOrderId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setOrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setPartnerBillableAccountId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setPartnerBillableAccountId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setPartnerId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setPartnerName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setPartnerName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setProject(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setProject</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setRegion(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setRegion</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setResourceGuid(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setResourceGuid</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setResourceName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setResourceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setServiceInfo(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setServiceInfo</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setServiceName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setServiceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setServiceType(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setServiceType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setSubscriptionDescription(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setSubscriptionDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setSubscriptionId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setSubscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setSubscriptionName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setSubscriptionName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setTier2MpnId(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setTier2MpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item.setUnit(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setUnit</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item.setUsageDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::DailyUsageLineItem</scope>
+        <name>setUsageDate</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

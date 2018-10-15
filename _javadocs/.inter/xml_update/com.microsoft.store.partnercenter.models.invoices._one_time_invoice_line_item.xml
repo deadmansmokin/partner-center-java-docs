@@ -1,0 +1,1212 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__PartnerId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__PartnerId</definition>
+        <argsstring></argsstring>
+        <name>__PartnerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the partner commerce account Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="20" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__CustomerId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__CustomerId</definition>
+        <argsstring></argsstring>
+        <name>__CustomerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the customer commerce account Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="35" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="35" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__CustomerName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__CustomerName</definition>
+        <argsstring></argsstring>
+        <name>__CustomerName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the customer name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="50" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="50" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__MpnId" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__MpnId</definition>
+        <argsstring></argsstring>
+        <name>__MpnId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the MPN Id associated to this line item. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="65" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="65" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__OrderId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__OrderId</definition>
+        <argsstring></argsstring>
+        <name>__OrderId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the order unique identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="80" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="80" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__ChargeType" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__ChargeType</definition>
+        <argsstring></argsstring>
+        <name>__ChargeType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the type of charge </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="95" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="95" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__UnitPrice" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__UnitPrice</definition>
+        <argsstring></argsstring>
+        <name>__UnitPrice</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the unit price </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="110" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="110" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__Quantity" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__Quantity</definition>
+        <argsstring></argsstring>
+        <name>__Quantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the number of units associated with this line item </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="125" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="125" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__Subtotal" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__Subtotal</definition>
+        <argsstring></argsstring>
+        <name>__Subtotal</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the amount after discount </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="140" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="140" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__TotalForCustomer" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__TotalForCustomer</definition>
+        <argsstring></argsstring>
+        <name>__TotalForCustomer</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the total amount after discount and tax </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="155" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="155" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__Currency" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__Currency</definition>
+        <argsstring></argsstring>
+        <name>__Currency</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the currency used for this line item. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="170" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="170" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__DiscountDetails" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__DiscountDetails</definition>
+        <argsstring></argsstring>
+        <name>__DiscountDetails</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the discount details associated with this purchase. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="205" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="205" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__TaxTotal" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__TaxTotal</definition>
+        <argsstring></argsstring>
+        <name>__TaxTotal</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the taxes charged. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="220" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="220" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__SkuName" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__SkuName</definition>
+        <argsstring></argsstring>
+        <name>__SkuName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the SKU name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="235" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="235" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__ProductName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__ProductName</definition>
+        <argsstring></argsstring>
+        <name>__ProductName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the product name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="250" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="250" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__AvailabilityId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__AvailabilityId</definition>
+        <argsstring></argsstring>
+        <name>__AvailabilityId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the availability unique identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="265" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="265" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__SkuId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__SkuId</definition>
+        <argsstring></argsstring>
+        <name>__SkuId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the sku unique identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="280" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="280" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__ProductId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__ProductId</definition>
+        <argsstring></argsstring>
+        <name>__ProductId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the product unique identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="295" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="295" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__OrderDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__OrderDate</definition>
+        <argsstring></argsstring>
+        <name>__OrderDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the date when order created. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="310" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="310" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__ResellerMpnId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__ResellerMpnId</definition>
+        <argsstring></argsstring>
+        <name>__ResellerMpnId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Reseller MPN Id of the Tier 2 partner associated to this line item. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="325" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="325" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__InvoiceNumber" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__InvoiceNumber</definition>
+        <argsstring></argsstring>
+        <name>__InvoiceNumber</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the invoice number. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="340" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="340" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__CustomerCountry" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__CustomerCountry</definition>
+        <argsstring></argsstring>
+        <name>__CustomerCountry</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the customer country. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="355" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="355" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__CustomerDomainName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.__CustomerDomainName</definition>
+        <argsstring></argsstring>
+        <name>__CustomerDomainName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the customer domain name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="370" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="370" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getPartnerId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getPartnerId</definition>
+        <argsstring>()</argsstring>
+        <name>getPartnerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="22" bodyend="25" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setPartnerId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setPartnerId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setPartnerId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="27" bodyend="30" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getCustomerId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getCustomerId</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="37" bodyend="40" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setCustomerId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setCustomerId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCustomerId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="42" bodyend="45" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getCustomerName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getCustomerName</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomerName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="52" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="52" bodyend="55" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setCustomerName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setCustomerName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCustomerName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="57" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="57" bodyend="60" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getMpnId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getMpnId</definition>
+        <argsstring>()</argsstring>
+        <name>getMpnId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="67" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="67" bodyend="70" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setMpnId(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setMpnId</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setMpnId</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="72" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="72" bodyend="75" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getOrderId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getOrderId</definition>
+        <argsstring>()</argsstring>
+        <name>getOrderId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="82" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="82" bodyend="85" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setOrderId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setOrderId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setOrderId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="87" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="87" bodyend="90" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getChargeType()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getChargeType</definition>
+        <argsstring>()</argsstring>
+        <name>getChargeType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="97" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="97" bodyend="100" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setChargeType(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setChargeType</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setChargeType</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="102" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="102" bodyend="105" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getUnitPrice()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getUnitPrice</definition>
+        <argsstring>()</argsstring>
+        <name>getUnitPrice</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="112" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="112" bodyend="115" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setUnitPrice(double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setUnitPrice</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setUnitPrice</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="117" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="117" bodyend="120" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getQuantity()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getQuantity</definition>
+        <argsstring>()</argsstring>
+        <name>getQuantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="127" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="127" bodyend="130" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setQuantity(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setQuantity</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setQuantity</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="132" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="132" bodyend="135" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getSubtotal()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getSubtotal</definition>
+        <argsstring>()</argsstring>
+        <name>getSubtotal</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="142" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="142" bodyend="145" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setSubtotal(double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSubtotal</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setSubtotal</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="147" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="147" bodyend="150" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getTotalForCustomer()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getTotalForCustomer</definition>
+        <argsstring>()</argsstring>
+        <name>getTotalForCustomer</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="157" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="157" bodyend="160" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setTotalForCustomer(double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setTotalForCustomer</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setTotalForCustomer</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="162" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="162" bodyend="165" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getCurrency()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getCurrency</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrency</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="172" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="172" bodyend="175" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setCurrency(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setCurrency</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCurrency</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="177" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="177" bodyend="180" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getInvoiceLineItemType()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item_type" kindref="compound">InvoiceLineItemType</ref>
+        </type>
+        <definition>InvoiceLineItemType com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getInvoiceLineItemType</definition>
+        <argsstring>()</argsstring>
+        <name>getInvoiceLineItemType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Returns the type of invoice line item</para>
+          <para>
+            <simplesect kind="return">
+              <para>The type of invoice line item. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="187" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="187" bodyend="190" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getBillingProvider()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.invoices._billing_provider" kindref="compound">BillingProvider</ref>
+        </type>
+        <definition>BillingProvider com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getBillingProvider</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingProvider</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Returns the billing provider</para>
+          <para>
+            <simplesect kind="return">
+              <para>The billing provider. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="197" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="197" bodyend="200" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getDiscountDetails()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getDiscountDetails</definition>
+        <argsstring>()</argsstring>
+        <name>getDiscountDetails</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="207" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="207" bodyend="210" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setDiscountDetails(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setDiscountDetails</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setDiscountDetails</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="212" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="212" bodyend="215" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getTaxTotal()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getTaxTotal</definition>
+        <argsstring>()</argsstring>
+        <name>getTaxTotal</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="222" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="222" bodyend="225" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setTaxTotal(double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setTaxTotal</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setTaxTotal</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="227" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="227" bodyend="230" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getSkuName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getSkuName</definition>
+        <argsstring>()</argsstring>
+        <name>getSkuName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="237" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="237" bodyend="240" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setSkuName(double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSkuName</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setSkuName</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="242" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="242" bodyend="245" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getProductName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getProductName</definition>
+        <argsstring>()</argsstring>
+        <name>getProductName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="252" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="252" bodyend="255" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setProductName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setProductName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setProductName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="257" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="257" bodyend="260" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getAvailabilityId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getAvailabilityId</definition>
+        <argsstring>()</argsstring>
+        <name>getAvailabilityId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="267" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="267" bodyend="270" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setAvailabilityId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setAvailabilityId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setAvailabilityId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="272" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="272" bodyend="275" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getSkuId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getSkuId</definition>
+        <argsstring>()</argsstring>
+        <name>getSkuId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="282" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="282" bodyend="285" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setSkuId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setSkuId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setSkuId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="287" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="287" bodyend="290" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getProductId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getProductId</definition>
+        <argsstring>()</argsstring>
+        <name>getProductId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="297" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="297" bodyend="300" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setProductId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setProductId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setProductId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="302" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="302" bodyend="305" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getOrderDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getOrderDate</definition>
+        <argsstring>()</argsstring>
+        <name>getOrderDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="312" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="312" bodyend="315" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setOrderDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setOrderDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setOrderDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="317" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="317" bodyend="320" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getResellerMpnId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getResellerMpnId</definition>
+        <argsstring>()</argsstring>
+        <name>getResellerMpnId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="327" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="327" bodyend="330" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setResellerMpnId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setResellerMpnId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setResellerMpnId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="332" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="332" bodyend="335" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getInvoiceNumber()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getInvoiceNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getInvoiceNumber</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="342" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="342" bodyend="345" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setInvoiceNumber(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setInvoiceNumber</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setInvoiceNumber</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="347" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="347" bodyend="350" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getCustomerCountry()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getCustomerCountry</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomerCountry</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="357" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="357" bodyend="360" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setCustomerCountry(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setCustomerCountry</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCustomerCountry</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="362" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="362" bodyend="365" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getCustomerDomainName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.getCustomerDomainName</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomerDomainName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="372" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="372" bodyend="375" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setCustomerDomainName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.setCustomerDomainName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCustomerDomainName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="377" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="377" bodyend="380" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents an invoice billing line item for OneTime purchases. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3439">
+        <label>com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item" />
+        <childnode refid="3440" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3440">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" />
+        <childnode refid="3441" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3441">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3442">
+        <label>com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item" />
+        <childnode refid="3443" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3443">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" />
+        <childnode refid="3444" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3444">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/OneTimeInvoiceLineItem.java" bodystart="14" bodyend="381" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__AvailabilityId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__AvailabilityId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__ChargeType" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__ChargeType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__Currency" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__Currency</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__CustomerCountry" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__CustomerCountry</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__CustomerDomainName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__CustomerDomainName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__CustomerId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__CustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__CustomerName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__CustomerName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__DiscountDetails" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__DiscountDetails</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__InvoiceNumber" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__InvoiceNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__MpnId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__MpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__OrderDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__OrderDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__OrderId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__OrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__PartnerId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__PartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__ProductId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__ProductId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__ProductName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__ProductName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__Quantity" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__Quantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__ResellerMpnId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__ResellerMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__SkuId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__SkuId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__SkuName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__SkuName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__Subtotal" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__Subtotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__TaxTotal" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__TaxTotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__TotalForCustomer" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__TotalForCustomer</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.__UnitPrice" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>__UnitPrice</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getAvailabilityId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getAvailabilityId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getBillingProvider()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getBillingProvider</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getChargeType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getChargeType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getCurrency()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getCurrency</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getCustomerCountry()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getCustomerCountry</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getCustomerDomainName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getCustomerDomainName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getCustomerId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getCustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getCustomerName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getCustomerName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getDiscountDetails()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getDiscountDetails</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getInvoiceLineItemType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getInvoiceLineItemType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getInvoiceNumber()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getInvoiceNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getMpnId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getOrderDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getOrderDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getOrderId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getOrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getPartnerId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getProductId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getProductId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getProductName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getProductName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getQuantity()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getResellerMpnId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getResellerMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getSkuId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getSkuId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getSkuName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getSkuName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getSubtotal()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getSubtotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getTaxTotal()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getTaxTotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getTotalForCustomer()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getTotalForCustomer</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.getUnitPrice()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>getUnitPrice</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setAvailabilityId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setAvailabilityId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setChargeType(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setChargeType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setCurrency(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setCurrency</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setCustomerCountry(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setCustomerCountry</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setCustomerDomainName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setCustomerDomainName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setCustomerId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setCustomerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setCustomerName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setCustomerName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setDiscountDetails(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setDiscountDetails</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setInvoiceNumber(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setInvoiceNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setMpnId(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setOrderDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setOrderDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setOrderId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setOrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setPartnerId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setProductId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setProductId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setProductName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setProductName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setQuantity(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setResellerMpnId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setResellerMpnId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setSkuId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setSkuId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setSkuName(double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setSkuName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setSubtotal(double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setSubtotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setTaxTotal(double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setTaxTotal</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setTotalForCustomer(double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setTotalForCustomer</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item.setUnitPrice(double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::OneTimeInvoiceLineItem</scope>
+        <name>setUnitPrice</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

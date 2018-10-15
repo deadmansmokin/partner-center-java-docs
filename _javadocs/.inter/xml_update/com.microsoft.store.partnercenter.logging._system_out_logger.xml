@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.logging._system_out_logger" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::logging::SystemOutLogger</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.logging._i_logger" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.logging.ILogger</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.logging._system_out_logger.logInformation(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.logging.SystemOutLogger.logInformation</definition>
+        <argsstring>(String message)</argsstring>
+        <name>logInformation</name>
+        <reimplements refid="com.microsoft.store.partnercenter.logging._i_logger.logInformation(String)">logInformation</reimplements>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Logs a piece of information.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>message</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The informational message. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/SystemOutLogger.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/SystemOutLogger.java" bodystart="21" bodyend="24" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.logging._system_out_logger.logWarning(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.logging.SystemOutLogger.logWarning</definition>
+        <argsstring>(String message)</argsstring>
+        <name>logWarning</name>
+        <reimplements refid="com.microsoft.store.partnercenter.logging._i_logger.logWarning(String)">logWarning</reimplements>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Logs a warning.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>message</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The warning message. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/SystemOutLogger.java" line="32" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/SystemOutLogger.java" bodystart="32" bodyend="35" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.logging._system_out_logger.logError(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.logging.SystemOutLogger.logError</definition>
+        <argsstring>(String message)</argsstring>
+        <name>logError</name>
+        <reimplements refid="com.microsoft.store.partnercenter.logging._i_logger.logError(String)">logError</reimplements>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Logs an error.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>message</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The error message. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/SystemOutLogger.java" line="43" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/SystemOutLogger.java" bodystart="43" bodyend="46" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>A logger that writes to the debug window to aid in debugging. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4552">
+        <label>com.microsoft.store.partnercenter.logging.SystemOutLogger</label>
+        <link refid="com.microsoft.store.partnercenter.logging._system_out_logger" />
+        <childnode refid="4553" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4553">
+        <label>com.microsoft.store.partnercenter.logging.ILogger</label>
+        <link refid="com.microsoft.store.partnercenter.logging._i_logger" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4554">
+        <label>com.microsoft.store.partnercenter.logging.SystemOutLogger</label>
+        <link refid="com.microsoft.store.partnercenter.logging._system_out_logger" />
+        <childnode refid="4555" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4555">
+        <label>com.microsoft.store.partnercenter.logging.ILogger</label>
+        <link refid="com.microsoft.store.partnercenter.logging._i_logger" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/SystemOutLogger.java" line="14" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/logging/SystemOutLogger.java" bodystart="12" bodyend="48" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.logging._system_out_logger.logError(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::logging::SystemOutLogger</scope>
+        <name>logError</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.logging._system_out_logger.logInformation(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::logging::SystemOutLogger</scope>
+        <name>logInformation</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.logging._system_out_logger.logWarning(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::logging::SystemOutLogger</scope>
+        <name>logWarning</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

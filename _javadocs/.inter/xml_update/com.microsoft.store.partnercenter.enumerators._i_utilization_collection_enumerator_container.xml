@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::enumerators::IUtilizationCollectionEnumeratorContainer</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.enumerators._utilization_collection_enumerator_container" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.enumerators.UtilizationCollectionEnumeratorContainer</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container.getAzure()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory" kindref="compound">IResourceCollectionEnumeratorFactory</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.utilizations._azure_utilization_record" kindref="compound">AzureUtilizationRecord</ref>&gt;&gt;</type>
+        <definition>IResourceCollectionEnumeratorFactory&lt;ResourceCollection&lt;AzureUtilizationRecord&gt;&gt; com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer.getAzure</definition>
+        <argsstring>()</argsstring>
+        <name>getAzure</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.enumerators._utilization_collection_enumerator_container.getAzure()">getAzure</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/enumerators/IUtilizationCollectionEnumeratorContainer.java" line="25" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="3248">
+        <label>com.microsoft.store.partnercenter.enumerators.UtilizationCollectionEnumeratorContainer</label>
+        <link refid="com.microsoft.store.partnercenter.enumerators._utilization_collection_enumerator_container" />
+        <childnode refid="3245" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3247">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3246">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="3247" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3245">
+        <label>com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer</label>
+        <link refid="com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container" />
+        <childnode refid="3246" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3251">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3250">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="3251" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3249">
+        <label>com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer</label>
+        <link refid="com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container" />
+        <childnode refid="3250" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/enumerators/IUtilizationCollectionEnumeratorContainer.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/enumerators/IUtilizationCollectionEnumeratorContainer.java" bodystart="17" bodyend="26" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container.getAzure()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IUtilizationCollectionEnumeratorContainer</scope>
+        <name>getAzure</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IUtilizationCollectionEnumeratorContainer</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IUtilizationCollectionEnumeratorContainer</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

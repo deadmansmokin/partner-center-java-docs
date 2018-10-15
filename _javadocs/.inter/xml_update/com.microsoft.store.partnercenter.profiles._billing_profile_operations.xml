@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.profiles._billing_profile_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.profiles._i_billing_profile" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.profiles.IBillingProfile</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.profiles._billing_profile_operations.BillingProfileOperations(IPartner)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.profiles.BillingProfileOperations.BillingProfileOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations)</argsstring>
+        <name>BillingProfileOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the BillingProfileOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java" line="32" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java" bodystart="32" bodyend="35" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.profiles._billing_profile_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.partners._billing_profile" kindref="compound">BillingProfile</ref>
+        </type>
+        <definition>BillingProfile com.microsoft.store.partnercenter.profiles.BillingProfileOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.profiles._i_billing_profile.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the partner billing profile.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The partner billing profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java" line="43" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java" bodystart="43" bodyend="52" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.profiles._billing_profile_operations.update(BillingProfile)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.partners._billing_profile" kindref="compound">BillingProfile</ref>
+        </type>
+        <definition>BillingProfile com.microsoft.store.partnercenter.profiles.BillingProfileOperations.update</definition>
+        <argsstring>(BillingProfile updatePayload)</argsstring>
+        <name>update</name>
+        <reimplements refid="com.microsoft.store.partnercenter.profiles._i_billing_profile.update(BillingProfile)">update</reimplements>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.partners._billing_profile" kindref="compound">BillingProfile</ref>
+          </type>
+          <declname>updatePayload</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Updates the partner billing profile.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>updatePayload</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Payload of the update request. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>Updated partner billing profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java" line="61" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java" bodystart="61" bodyend="70" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>The partner billing profile operations implementation. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="403">
+        <label>com.microsoft.store.partnercenter.profiles.BillingProfileOperations</label>
+        <link refid="com.microsoft.store.partnercenter.profiles._billing_profile_operations" />
+        <childnode refid="404" relation="public-inheritance"></childnode>
+        <childnode refid="406" relation="public-inheritance"></childnode>
+      </node>
+      <node id="406">
+        <label>com.microsoft.store.partnercenter.profiles.IBillingProfile</label>
+        <link refid="com.microsoft.store.partnercenter.profiles._i_billing_profile" />
+        <childnode refid="407" relation="public-inheritance"></childnode>
+        <childnode refid="409" relation="public-inheritance"></childnode>
+        <childnode refid="410" relation="public-inheritance"></childnode>
+      </node>
+      <node id="408">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="405">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="404">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="405" relation="public-inheritance"></childnode>
+      </node>
+      <node id="407">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="408" relation="public-inheritance"></childnode>
+      </node>
+      <node id="409">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;BillingProfile&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="410">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;BillingProfile&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="411">
+        <label>com.microsoft.store.partnercenter.profiles.BillingProfileOperations</label>
+        <link refid="com.microsoft.store.partnercenter.profiles._billing_profile_operations" />
+        <childnode refid="412" relation="public-inheritance"></childnode>
+        <childnode refid="414" relation="public-inheritance"></childnode>
+      </node>
+      <node id="414">
+        <label>com.microsoft.store.partnercenter.profiles.IBillingProfile</label>
+        <link refid="com.microsoft.store.partnercenter.profiles._i_billing_profile" />
+        <childnode refid="415" relation="public-inheritance"></childnode>
+        <childnode refid="417" relation="public-inheritance"></childnode>
+        <childnode refid="418" relation="public-inheritance"></childnode>
+      </node>
+      <node id="416">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="413">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="412">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="413" relation="public-inheritance"></childnode>
+      </node>
+      <node id="415">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="416" relation="public-inheritance"></childnode>
+      </node>
+      <node id="417">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;BillingProfile&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="418">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;BillingProfile&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java" bodystart="23" bodyend="72" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner,String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.profiles._billing_profile_operations.BillingProfileOperations(IPartner)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</scope>
+        <name>BillingProfileOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.profiles._billing_profile_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::profiles::IBillingProfile.">
+        <scope>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::profiles::IBillingProfile.">
+        <scope>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.profiles._billing_profile_operations.update(BillingProfile)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</scope>
+        <name>update</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations.update(T)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations.">
+        <scope>com::microsoft::store::partnercenter::profiles::BillingProfileOperations</scope>
+        <name>update</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

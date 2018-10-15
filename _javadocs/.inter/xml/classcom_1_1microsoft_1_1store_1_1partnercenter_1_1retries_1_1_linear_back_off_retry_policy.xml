@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::retries::LinearBackOffRetryPolicy</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retry_policy" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.retries.IRetryPolicy</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1a77f4aad56b01fd447f1b79a4674d29df" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.retries.LinearBackOffRetryPolicy.maxRetries</definition>
+        <argsstring></argsstring>
+        <name>maxRetries</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The maximum number of retry attempts. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" bodystart="20" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1adaae2cd8f680924df4227354ece03206" prot="private" static="no" mutable="no">
+        <type>Duration</type>
+        <definition>Duration com.microsoft.store.partnercenter.retries.LinearBackOffRetryPolicy.__BackOff</definition>
+        <argsstring></argsstring>
+        <name>__BackOff</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" line="34" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" bodystart="34" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1a42e8320ffe779b58a49bf8d3c62b602e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.retries.LinearBackOffRetryPolicy.LinearBackOffRetryPolicy</definition>
+        <argsstring>(Duration backOff, int maxRetries)</argsstring>
+        <name>LinearBackOffRetryPolicy</name>
+        <param>
+          <type>Duration</type>
+          <declname>backOff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxRetries</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the LinearBackOffRetryPolicy class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>backOff</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The back off time between retries. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>maxRetries</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The maximum number of retries. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" bodystart="28" bodyend="32" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1af6c7a4f216edcf3c00b7231cb42e7383" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Duration</type>
+        <definition>Duration com.microsoft.store.partnercenter.retries.LinearBackOffRetryPolicy.getBackOff</definition>
+        <argsstring>()</argsstring>
+        <name>getBackOff</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the back off time between retries.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The back off time between retries. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" line="41" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" bodystart="41" bodyend="44" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1ab63add897b6950fe998842dbde13c040" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.retries.LinearBackOffRetryPolicy.setBackOff</definition>
+        <argsstring>(Duration value)</argsstring>
+        <name>setBackOff</name>
+        <param>
+          <type>Duration</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the back off time between retries.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The back off time between retries. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" line="51" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" bodystart="51" bodyend="54" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1afa77dc902869935f481c06cbb54685d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.retries.LinearBackOffRetryPolicy.getMaxRetries</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxRetries</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the maximum number of retries to perform.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The maximum number of retries to perform. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" line="61" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" bodystart="61" bodyend="64" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1af41c6647ca1f80d5e5724a9e842de1e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.retries.LinearBackOffRetryPolicy.setMaxRetries</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setMaxRetries</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the maximum number of retries to perform.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The maximum number of retires to perform. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" line="71" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" bodystart="71" bodyend="79" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1a322bdac337909d9b7a5801ff8ba27a94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.microsoft.store.partnercenter.retries.LinearBackOffRetryPolicy.shouldRetry</definition>
+        <argsstring>(int attempt)</argsstring>
+        <name>shouldRetry</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retry_policy_1a206168f297bcd07e8f12ed4b3571b4f2">shouldRetry</reimplements>
+        <param>
+          <type>int</type>
+          <declname>attempt</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Indicates whether a retry should be performed or not.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>attempt</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The attempt number. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>True to retry, false to not. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" line="87" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" bodystart="87" bodyend="90" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1aeb7ae1ec8ff09078829e0bb3e19a31e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Duration</type>
+        <definition>Duration com.microsoft.store.partnercenter.retries.LinearBackOffRetryPolicy.getBackOffTime</definition>
+        <argsstring>(int attempt)</argsstring>
+        <name>getBackOffTime</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retry_policy_1a326f06f1c49fe7efe765448e26c35cdf">getBackOffTime</reimplements>
+        <param>
+          <type>int</type>
+          <declname>attempt</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Indicates the time to hold off before executing the next retry.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>attempt</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The attempt number. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The back off time. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" line="98" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" bodystart="98" bodyend="101" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>A linear back off policy waits for a constant amount of time between retries. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3310">
+        <label>com.microsoft.store.partnercenter.retries.IRetryPolicy</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retry_policy" />
+      </node>
+      <node id="3309">
+        <label>com.microsoft.store.partnercenter.retries.LinearBackOffRetryPolicy</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy" />
+        <childnode refid="3310" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3312">
+        <label>com.microsoft.store.partnercenter.retries.IRetryPolicy</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_i_retry_policy" />
+      </node>
+      <node id="3311">
+        <label>com.microsoft.store.partnercenter.retries.LinearBackOffRetryPolicy</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy" />
+        <childnode refid="3312" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/retries/LinearBackOffRetryPolicy.java" bodystart="14" bodyend="102" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1adaae2cd8f680924df4227354ece03206" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::retries::LinearBackOffRetryPolicy</scope>
+        <name>__BackOff</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1af6c7a4f216edcf3c00b7231cb42e7383" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::retries::LinearBackOffRetryPolicy</scope>
+        <name>getBackOff</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1aeb7ae1ec8ff09078829e0bb3e19a31e4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::retries::LinearBackOffRetryPolicy</scope>
+        <name>getBackOffTime</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1afa77dc902869935f481c06cbb54685d8" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::retries::LinearBackOffRetryPolicy</scope>
+        <name>getMaxRetries</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1a42e8320ffe779b58a49bf8d3c62b602e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::retries::LinearBackOffRetryPolicy</scope>
+        <name>LinearBackOffRetryPolicy</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1a77f4aad56b01fd447f1b79a4674d29df" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::retries::LinearBackOffRetryPolicy</scope>
+        <name>maxRetries</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1ab63add897b6950fe998842dbde13c040" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::retries::LinearBackOffRetryPolicy</scope>
+        <name>setBackOff</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1af41c6647ca1f80d5e5724a9e842de1e5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::retries::LinearBackOffRetryPolicy</scope>
+        <name>setMaxRetries</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1retries_1_1_linear_back_off_retry_policy_1a322bdac337909d9b7a5801ff8ba27a94" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::retries::LinearBackOffRetryPolicy</scope>
+        <name>shouldRetry</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

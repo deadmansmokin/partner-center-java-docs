@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::invoices::Invoice</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a86d9ce9872b07604c90b327548bbffa4" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.Invoice.__Id</definition>
+        <argsstring></argsstring>
+        <name>__Id</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the invoice unique identifier </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="25" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="25" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a331728c476f6de8636659863bcbbce17" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.Invoice.__InvoiceDate</definition>
+        <argsstring></argsstring>
+        <name>__InvoiceDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the date the invoice was generated. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="40" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="40" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a04117733875642b223406f8ea2a0b9f1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.Invoice.__TotalCharges</definition>
+        <argsstring></argsstring>
+        <name>__TotalCharges</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the total charges in this invoice. Total charges includes the transactions charges and any adjustments </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="56" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="56" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a68b7d9cb2a66b9e8003e601a4d3dc82f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.Invoice.__PaidAmount</definition>
+        <argsstring></argsstring>
+        <name>__PaidAmount</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the amount paid by the partner. Paid amount is negative if a payment is received. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="71" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="71" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1aa3afa340149d0d7758fa028197baeb2d" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.Invoice.__CurrencyCode</definition>
+        <argsstring></argsstring>
+        <name>__CurrencyCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the currency used for all invoice item amounts and totals. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="86" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="86" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a2ac68d6b683381a68278fb4c98278de1" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.Invoice.__CurrencySymbol</definition>
+        <argsstring></argsstring>
+        <name>__CurrencySymbol</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the currency symbol used for all invoice item amounts and totals. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="101" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="101" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a9df2f2c4fe672a56ff7ed094c2dabe54" prot="private" static="no" mutable="no">
+        <type>URI</type>
+        <definition>URI com.microsoft.store.partnercenter.models.invoices.Invoice.__PdfDownloadLink</definition>
+        <argsstring></argsstring>
+        <name>__PdfDownloadLink</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the link to download the invoice PDF document This value is not returned as part of the search results. It will only get populated if invoice is accessed by Id. This link auto expires in 30 minutes </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="117" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="117" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1af0888563d5a274c1fb0450b4f072ad26" prot="private" static="no" mutable="no">
+        <type>Iterable&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_detail" kindref="compound">InvoiceDetail</ref>&gt;</type>
+        <definition>Iterable&lt;InvoiceDetail&gt; com.microsoft.store.partnercenter.models.invoices.Invoice.__InvoiceDetails</definition>
+        <argsstring></argsstring>
+        <name>__InvoiceDetails</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the invoice details </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="132" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="132" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a77285e888c0fb325f23dc4c714eef656" prot="private" static="no" mutable="no">
+        <type>Iterable&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice" kindref="compound">Invoice</ref>&gt;</type>
+        <definition>Iterable&lt;Invoice&gt; com.microsoft.store.partnercenter.models.invoices.Invoice.__Amendments</definition>
+        <argsstring></argsstring>
+        <name>__Amendments</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the amendments. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="147" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="147" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a81ee111e5c07700c81a29ce2331a10e2" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_document_type" kindref="compound">DocumentType</ref>
+        </type>
+        <definition>DocumentType com.microsoft.store.partnercenter.models.invoices.Invoice.__DocumentType</definition>
+        <argsstring></argsstring>
+        <name>__DocumentType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Document type of the invoice (CreditNote, Invoice). </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="162" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="162" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ae6f8400e0340c586297d0b2fe2aecb24" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.Invoice.__AmendsOf</definition>
+        <argsstring></argsstring>
+        <name>__AmendsOf</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets The ref number of the document which this doc amends of. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="177" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="177" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a052c7325ee45ac1fa8862b33cf4d55d0" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.Invoice.__InvoiceType</definition>
+        <argsstring></argsstring>
+        <name>__InvoiceType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets Invoice Type. This will be used to set invoice type to Recurring, OneTime for UI to differentiate the types of invoices. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="193" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="193" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a14ff5f2739b0fee790f372299c6b1ef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.Invoice.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="27" bodyend="30" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ac0d5b0c83a3d8fbde43e87a3aee3810e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="32" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="32" bodyend="35" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ad3f354962432427939187cd78af08f9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.Invoice.getInvoiceDate</definition>
+        <argsstring>()</argsstring>
+        <name>getInvoiceDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="42" bodyend="45" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a4a5ebd81149b6052981bdd2446aa9009" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setInvoiceDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setInvoiceDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="47" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="47" bodyend="50" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ae2b79cf2dc44874fcec05e7e40acb0bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.Invoice.getTotalCharges</definition>
+        <argsstring>()</argsstring>
+        <name>getTotalCharges</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="58" bodyend="61" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a00b5f5588be097836e6017322df74c10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setTotalCharges</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setTotalCharges</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="63" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="63" bodyend="66" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1aea726f511a5e1920600587b10794e669" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.Invoice.getPaidAmount</definition>
+        <argsstring>()</argsstring>
+        <name>getPaidAmount</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="73" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="73" bodyend="76" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a48f59cf776ad753c286268c3497de8e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setPaidAmount</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setPaidAmount</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="78" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="78" bodyend="81" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a9a868d8b713970fd81618b89d9b555f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.Invoice.getCurrencyCode</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrencyCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="88" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="88" bodyend="91" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a8128524ae01a00d8478ed6be49fece10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setCurrencyCode</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCurrencyCode</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="93" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="93" bodyend="96" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a2e108b94e3a34f51944cfb4af4e25eeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.Invoice.getCurrencySymbol</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrencySymbol</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="103" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="103" bodyend="106" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a89c901d60a416997e7e9eb47dff9286c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setCurrencySymbol</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCurrencySymbol</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="108" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="108" bodyend="111" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a17755664cd1ddfef87d451c7cf5b7d00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>URI</type>
+        <definition>URI com.microsoft.store.partnercenter.models.invoices.Invoice.getPdfDownloadLink</definition>
+        <argsstring>()</argsstring>
+        <name>getPdfDownloadLink</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="119" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="119" bodyend="122" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a3b1894e602f5c9e4ee1daa45fe09884e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setPdfDownloadLink</definition>
+        <argsstring>(URI value)</argsstring>
+        <name>setPdfDownloadLink</name>
+        <param>
+          <type>URI</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="124" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="124" bodyend="127" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a0b3d79c90c6f0013a2249063c595c0c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_detail" kindref="compound">InvoiceDetail</ref>&gt;</type>
+        <definition>Iterable&lt;InvoiceDetail&gt; com.microsoft.store.partnercenter.models.invoices.Invoice.getInvoiceDetails</definition>
+        <argsstring>()</argsstring>
+        <name>getInvoiceDetails</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="134" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="134" bodyend="137" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a9923bdc82ee540b16b6f0b270489ec2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setInvoiceDetails</definition>
+        <argsstring>(Iterable&lt;InvoiceDetail&gt; value)</argsstring>
+        <name>setInvoiceDetails</name>
+        <param>
+          <type>Iterable&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_detail" kindref="compound">InvoiceDetail</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="139" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="139" bodyend="142" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a1fce06f95e5350f379cf594acc3e8ee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice" kindref="compound">Invoice</ref>&gt;</type>
+        <definition>Iterable&lt;Invoice&gt; com.microsoft.store.partnercenter.models.invoices.Invoice.getAmendments</definition>
+        <argsstring>()</argsstring>
+        <name>getAmendments</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="149" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="149" bodyend="152" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ada70b064faab67d10483d2645045bdc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setAmendments</definition>
+        <argsstring>(Iterable&lt;Invoice&gt; value)</argsstring>
+        <name>setAmendments</name>
+        <param>
+          <type>Iterable&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice" kindref="compound">Invoice</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="154" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="154" bodyend="157" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a6a6f0f2a6a35bce66622fd75c419c591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_document_type" kindref="compound">DocumentType</ref>
+        </type>
+        <definition>DocumentType com.microsoft.store.partnercenter.models.invoices.Invoice.getDocumentType</definition>
+        <argsstring>()</argsstring>
+        <name>getDocumentType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="164" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="164" bodyend="167" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1af6d5aba9efa7ddcae4612fe4417d0f5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setDocumentType</definition>
+        <argsstring>(DocumentType value)</argsstring>
+        <name>setDocumentType</name>
+        <param>
+          <type>
+            <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_document_type" kindref="compound">DocumentType</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="169" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="169" bodyend="172" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a1494c3b9c88e133f9e5370de019690c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.Invoice.getAmendsOf</definition>
+        <argsstring>()</argsstring>
+        <name>getAmendsOf</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="179" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="179" bodyend="182" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a6f68289ae67e49c2b980446a55445a23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setAmendsOf</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setAmendsOf</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="184" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="184" bodyend="187" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ae305240368bab3bdc7f1c638f2813c27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.Invoice.getInvoiceType</definition>
+        <argsstring>()</argsstring>
+        <name>getInvoiceType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="195" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="195" bodyend="198" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a37724822031a42a8374b83246e4cc084" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.Invoice.setInvoiceType</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setInvoiceType</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="200" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="200" bodyend="203" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents a monthly billing statement issued to a partner </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2298">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links" />
+        <childnode refid="2299" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2297">
+        <label>com.microsoft.store.partnercenter.models.invoices.Invoice</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice" />
+        <childnode refid="2298" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2299">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2301">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links" />
+        <childnode refid="2302" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2300">
+        <label>com.microsoft.store.partnercenter.models.invoices.Invoice</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice" />
+        <childnode refid="2301" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2302">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/Invoice.java" bodystart="19" bodyend="204" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a77285e888c0fb325f23dc4c714eef656" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__Amendments</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ae6f8400e0340c586297d0b2fe2aecb24" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__AmendsOf</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1aa3afa340149d0d7758fa028197baeb2d" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__CurrencyCode</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a2ac68d6b683381a68278fb4c98278de1" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__CurrencySymbol</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a81ee111e5c07700c81a29ce2331a10e2" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__DocumentType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a86d9ce9872b07604c90b327548bbffa4" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__Id</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a331728c476f6de8636659863bcbbce17" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__InvoiceDate</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1af0888563d5a274c1fb0450b4f072ad26" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__InvoiceDetails</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a052c7325ee45ac1fa8862b33cf4d55d0" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__InvoiceType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a68b7d9cb2a66b9e8003e601a4d3dc82f" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__PaidAmount</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a9df2f2c4fe672a56ff7ed094c2dabe54" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__PdfDownloadLink</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a04117733875642b223406f8ea2a0b9f1" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>__TotalCharges</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a1fce06f95e5350f379cf594acc3e8ee9" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getAmendments</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a1494c3b9c88e133f9e5370de019690c4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getAmendsOf</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ac2e2226cca816bd63cd179b0eae6a163" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a9a868d8b713970fd81618b89d9b555f9" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getCurrencyCode</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a2e108b94e3a34f51944cfb4af4e25eeb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getCurrencySymbol</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a6a6f0f2a6a35bce66622fd75c419c591" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getDocumentType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a14ff5f2739b0fee790f372299c6b1ef9" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ad3f354962432427939187cd78af08f9d" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getInvoiceDate</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a0b3d79c90c6f0013a2249063c595c0c2" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getInvoiceDetails</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ae305240368bab3bdc7f1c638f2813c27" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getInvoiceType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links_1ae4aa0a8e311d65d310b399a0e75c6960" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1aea726f511a5e1920600587b10794e669" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getPaidAmount</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a17755664cd1ddfef87d451c7cf5b7d00" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getPdfDownloadLink</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ae2b79cf2dc44874fcec05e7e40acb0bb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>getTotalCharges</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ad9225d84f0a18fc31d4f24e0f9010824" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ab891cf19d9cca1f6918b43c9680ec5e5" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links_1a602763450c6d4681b14dcdc5ab1dc2bd" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links_1a8586fe642f1ec57174ffa89c0882c7af" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ada70b064faab67d10483d2645045bdc7" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setAmendments</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a6f68289ae67e49c2b980446a55445a23" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setAmendsOf</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a8128524ae01a00d8478ed6be49fece10" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setCurrencyCode</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a89c901d60a416997e7e9eb47dff9286c" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setCurrencySymbol</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1af6d5aba9efa7ddcae4612fe4417d0f5e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setDocumentType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1ac0d5b0c83a3d8fbde43e87a3aee3810e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a4a5ebd81149b6052981bdd2446aa9009" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setInvoiceDate</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a9923bdc82ee540b16b6f0b270489ec2e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setInvoiceDetails</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a37724822031a42a8374b83246e4cc084" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setInvoiceType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links_1af17bfb6bc7a97f5716f39daae46d6123" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a48f59cf776ad753c286268c3497de8e7" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setPaidAmount</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a3b1894e602f5c9e4ee1daa45fe09884e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setPdfDownloadLink</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1invoices_1_1_invoice_1a00b5f5588be097836e6017322df74c10" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::Invoice</scope>
+        <name>setTotalCharges</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

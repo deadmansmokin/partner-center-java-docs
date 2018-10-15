@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::query::sort::Sort</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1a22f1125512f335f61960e3d0f17a2a57" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.query.sort.Sort.__SortField</definition>
+        <argsstring></argsstring>
+        <name>__SortField</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the sort field. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" bodystart="33" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1abe80720041eb5d21f3ede296d4e68299" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_direction" kindref="compound">SortDirection</ref>
+        </type>
+        <definition>SortDirection com.microsoft.store.partnercenter.models.query.sort.Sort.__SortDirection</definition>
+        <argsstring></argsstring>
+        <name>__SortDirection</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the sort direction. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" line="48" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" bodystart="48" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1aa5bc7a6b2776b0575c33dbc49e3a547c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.query.sort.Sort.Sort</definition>
+        <argsstring>(String sortField, SortDirection sortDirection)</argsstring>
+        <name>Sort</name>
+        <param>
+          <type>String</type>
+          <declname>sortField</declname>
+        </param>
+        <param>
+          <type>
+            <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_direction" kindref="compound">SortDirection</ref>
+          </type>
+          <declname>sortDirection</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the Sort class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>sortField</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The sort field. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>sortDirection</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The sort direction. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" line="23" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" bodystart="23" bodyend="28" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1aa9203e80058cb8a34b0e199bb5eadf02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField</definition>
+        <argsstring>()</argsstring>
+        <name>getSortField</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" line="35" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" bodystart="35" bodyend="38" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1aa8448384d6c20f927fac86fbb8e2207d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setSortField</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" line="40" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" bodystart="40" bodyend="43" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1a0835d6f39dfbf4a2c3e14d5c886076af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_direction" kindref="compound">SortDirection</ref>
+        </type>
+        <definition>SortDirection com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection</definition>
+        <argsstring>()</argsstring>
+        <name>getSortDirection</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" line="50" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" bodystart="50" bodyend="53" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1a9e3bd6ed6ae2e916455d931037e3cfce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection</definition>
+        <argsstring>(SortDirection value)</argsstring>
+        <name>setSortDirection</name>
+        <param>
+          <type>
+            <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_direction" kindref="compound">SortDirection</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" line="55" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" bodystart="55" bodyend="58" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1acba0981aaca1ae681ac51310e614858e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.query.sort.Sort.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Prints the sort details.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The sort details. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" line="65" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" bodystart="65" bodyend="69" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Specifies sort field and direction. </para>
+    </detaileddescription>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java" bodystart="15" bodyend="71" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1abe80720041eb5d21f3ede296d4e68299" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::sort::Sort</scope>
+        <name>__SortDirection</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1a22f1125512f335f61960e3d0f17a2a57" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::sort::Sort</scope>
+        <name>__SortField</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1a0835d6f39dfbf4a2c3e14d5c886076af" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::sort::Sort</scope>
+        <name>getSortDirection</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1aa9203e80058cb8a34b0e199bb5eadf02" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::sort::Sort</scope>
+        <name>getSortField</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1a9e3bd6ed6ae2e916455d931037e3cfce" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::sort::Sort</scope>
+        <name>setSortDirection</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1aa8448384d6c20f927fac86fbb8e2207d" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::sort::Sort</scope>
+        <name>setSortField</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1aa5bc7a6b2776b0575c33dbc49e3a547c" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::sort::Sort</scope>
+        <name>Sort</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort_1acba0981aaca1ae681ac51310e614858e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::sort::Sort</scope>
+        <name>toString</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

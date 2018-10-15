@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_mpn_profile_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::profiles::MpnProfileOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_mpn_profile" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.profiles.IMpnProfile</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_mpn_profile_operations_1abdf679d5e15ba631841386258128d91f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.profiles.MpnProfileOperations.MpnProfileOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations)</argsstring>
+        <name>MpnProfileOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the MpnProfileOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/MpnProfileOperations.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/MpnProfileOperations.java" bodystart="33" bodyend="36" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_mpn_profile_operations_1a80277c3650f79077c014b9a423af195a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1partners_1_1_mpn_profile" kindref="compound">MpnProfile</ref>
+        </type>
+        <definition>MpnProfile com.microsoft.store.partnercenter.profiles.MpnProfileOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_mpn_profile_1a743a72317ce54eab32867a6677165e5d">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the logged in reseller's MpnProfile.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The partner network profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/MpnProfileOperations.java" line="44" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/MpnProfileOperations.java" bodystart="44" bodyend="53" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_mpn_profile_operations_1a73c626c39356fe1155f1589a6353f259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1partners_1_1_mpn_profile" kindref="compound">MpnProfile</ref>
+        </type>
+        <definition>MpnProfile com.microsoft.store.partnercenter.profiles.MpnProfileOperations.get</definition>
+        <argsstring>(String mpnId)</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_mpn_profile_1a01cc576600beff7cdd9c2d65ec1693b9">get</reimplements>
+        <param>
+          <type>String</type>
+          <declname>mpnId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves a MpnProfile by MPN Id.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>mpnId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The MPN Id. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The partner network profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/MpnProfileOperations.java" line="62" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/MpnProfileOperations.java" bodystart="62" bodyend="74" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Class which contains operations for Partner Network Profile </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3348">
+        <label>com.microsoft.store.partnercenter.profiles.IMpnProfile</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_mpn_profile" />
+        <childnode refid="3349" relation="public-inheritance"></childnode>
+        <childnode refid="3351" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3350">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3351">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;MpnProfile&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="3347">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="3346">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="3347" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3349">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3350" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3345">
+        <label>com.microsoft.store.partnercenter.profiles.MpnProfileOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_mpn_profile_operations" />
+        <childnode refid="3346" relation="public-inheritance"></childnode>
+        <childnode refid="3348" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3355">
+        <label>com.microsoft.store.partnercenter.profiles.IMpnProfile</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_mpn_profile" />
+        <childnode refid="3356" relation="public-inheritance"></childnode>
+        <childnode refid="3358" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3357">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3358">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;MpnProfile&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="3354">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="3353">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="3354" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3356">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3357" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3352">
+        <label>com.microsoft.store.partnercenter.profiles.MpnProfileOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_mpn_profile_operations" />
+        <childnode refid="3353" relation="public-inheritance"></childnode>
+        <childnode refid="3355" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/MpnProfileOperations.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/MpnProfileOperations.java" bodystart="24" bodyend="76" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::MpnProfileOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1ae6339c5a921b5c3b6a545e1064951c83" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::MpnProfileOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1a9662304cff58f8d465d2a47e7e8cedf0" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::MpnProfileOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_mpn_profile_operations_1a80277c3650f79077c014b9a423af195a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::MpnProfileOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_mpn_profile_operations_1a73c626c39356fe1155f1589a6353f259" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::MpnProfileOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::profiles::MpnProfileOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::profiles::IMpnProfile.">
+        <scope>com::microsoft::store::partnercenter::profiles::MpnProfileOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::profiles::MpnProfileOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::profiles::IMpnProfile.">
+        <scope>com::microsoft::store::partnercenter::profiles::MpnProfileOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_mpn_profile_operations_1abdf679d5e15ba631841386258128d91f" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::MpnProfileOperations</scope>
+        <name>MpnProfileOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

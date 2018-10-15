@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.requestcontext._request_context" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::requestcontext::RequestContext</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.requestcontext._i_request_context" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.requestcontext.IRequestContext</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.requestcontext._request_context.__RequestId" prot="private" static="no" mutable="no">
+        <type>UUID</type>
+        <definition>UUID com.microsoft.store.partnercenter.requestcontext.RequestContext.__RequestId</definition>
+        <argsstring></argsstring>
+        <name>__RequestId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="85" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="85" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.requestcontext._request_context.__CorrelationId" prot="private" static="no" mutable="no">
+        <type>UUID</type>
+        <definition>UUID com.microsoft.store.partnercenter.requestcontext.RequestContext.__CorrelationId</definition>
+        <argsstring></argsstring>
+        <name>__CorrelationId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="108" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="108" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.requestcontext._request_context.__Locale" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.requestcontext.RequestContext.__Locale</definition>
+        <argsstring></argsstring>
+        <name>__Locale</name>
+        <initializer>= new String()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="129" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="129" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.RequestContext()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext</definition>
+        <argsstring>()</argsstring>
+        <name>RequestContext</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the RequestContext class. Correlation Id will be generated. The request Id will be automatically generated for each service API call. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="26" bodyend="29" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.RequestContext(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext</definition>
+        <argsstring>(String locale)</argsstring>
+        <name>RequestContext</name>
+        <param>
+          <type>String</type>
+          <declname>locale</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the RequestContext class with provided locale. Correlation Id will be generated. The request Id will be automatically generated for each service API call.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>locale</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The locale. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="37" bodyend="40" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.RequestContext(UUID)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext</definition>
+        <argsstring>(UUID correlationId)</argsstring>
+        <name>RequestContext</name>
+        <param>
+          <type>UUID</type>
+          <declname>correlationId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the RequestContext class with a correlation Id. The request Id will be automatically generated and a default Locale is set for each service API call.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>correlationId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The correlation Id. This Id is used to group logical operations together. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="48" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="48" bodyend="51" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.RequestContext(UUID,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext</definition>
+        <argsstring>(UUID correlationId, String locale)</argsstring>
+        <name>RequestContext</name>
+        <param>
+          <type>UUID</type>
+          <declname>correlationId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>locale</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the RequestContext class with a correlation Id and the provided locale. The request Id will be automatically generated for each service API call.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>correlationId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The correlation Id. This Id is used to group logical operations together. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>locale</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The locale. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="60" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="60" bodyend="63" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.RequestContext(UUID,UUID,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.requestcontext.RequestContext.RequestContext</definition>
+        <argsstring>(UUID correlationId, UUID requestId, String locale)</argsstring>
+        <name>RequestContext</name>
+        <param>
+          <type>UUID</type>
+          <declname>correlationId</declname>
+        </param>
+        <param>
+          <type>UUID</type>
+          <declname>requestId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>locale</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the RequestContext class with the given correlation, request identifier and locale.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>correlationId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The correlation Id. This Id is used to group logical operations together. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>requestId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The request Id. Uniquely identifies the operation. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>locale</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The locale. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="73" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="73" bodyend="83" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.getRequestId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UUID</type>
+        <definition>UUID com.microsoft.store.partnercenter.requestcontext.RequestContext.getRequestId</definition>
+        <argsstring>()</argsstring>
+        <name>getRequestId</name>
+        <reimplements refid="com.microsoft.store.partnercenter.requestcontext._i_request_context.getRequestId()">getRequestId</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the request identifier. Uniquely identifies the operation.</para>
+          <para>
+            <simplesect kind="return">
+              <para>the request identifier. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="93" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="93" bodyend="96" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.setRequestId(UUID)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.requestcontext.RequestContext.setRequestId</definition>
+        <argsstring>(UUID value)</argsstring>
+        <name>setRequestId</name>
+        <param>
+          <type>UUID</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the request identifier.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The request identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="103" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="103" bodyend="106" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.getCorrelationId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UUID</type>
+        <definition>UUID com.microsoft.store.partnercenter.requestcontext.RequestContext.getCorrelationId</definition>
+        <argsstring>()</argsstring>
+        <name>getCorrelationId</name>
+        <reimplements refid="com.microsoft.store.partnercenter.requestcontext._i_request_context.getCorrelationId()">getCorrelationId</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the correlation identifier. This identifier is used to group logical operations together. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="114" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="114" bodyend="117" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.setCorrelationId(UUID)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.requestcontext.RequestContext.setCorrelationId</definition>
+        <argsstring>(UUID value)</argsstring>
+        <name>setCorrelationId</name>
+        <param>
+          <type>UUID</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the correlation identifier.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The correlation identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="124" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="124" bodyend="127" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.getLocale()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.requestcontext.RequestContext.getLocale</definition>
+        <argsstring>()</argsstring>
+        <name>getLocale</name>
+        <reimplements refid="com.microsoft.store.partnercenter.requestcontext._i_request_context.getLocale()">getLocale</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the locale.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The locale. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="137" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="137" bodyend="140" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.setLocale(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.requestcontext.RequestContext.setLocale</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setLocale</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the locale.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The locale. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="147" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="147" bodyend="150" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.requestcontext._request_context.toString()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.requestcontext.RequestContext.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Returns a string representation of the request context.</para>
+          <para>
+            <simplesect kind="return">
+              <para>A string representation of the request context. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="158" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="158" bodyend="162" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Request context implementation. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3906">
+        <label>com.microsoft.store.partnercenter.requestcontext.IRequestContext</label>
+        <link refid="com.microsoft.store.partnercenter.requestcontext._i_request_context" />
+      </node>
+      <node id="3905">
+        <label>com.microsoft.store.partnercenter.requestcontext.RequestContext</label>
+        <link refid="com.microsoft.store.partnercenter.requestcontext._request_context" />
+        <childnode refid="3906" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3908">
+        <label>com.microsoft.store.partnercenter.requestcontext.IRequestContext</label>
+        <link refid="com.microsoft.store.partnercenter.requestcontext._i_request_context" />
+      </node>
+      <node id="3907">
+        <label>com.microsoft.store.partnercenter.requestcontext.RequestContext</label>
+        <link refid="com.microsoft.store.partnercenter.requestcontext._request_context" />
+        <childnode refid="3908" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/requestcontext/RequestContext.java" bodystart="19" bodyend="163" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.__CorrelationId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>__CorrelationId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.__Locale" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>__Locale</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.__RequestId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>__RequestId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.getCorrelationId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>getCorrelationId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.getLocale()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>getLocale</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.getRequestId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>getRequestId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.RequestContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>RequestContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.RequestContext(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>RequestContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.RequestContext(UUID)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>RequestContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.RequestContext(UUID,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>RequestContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.RequestContext(UUID,UUID,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>RequestContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.setCorrelationId(UUID)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>setCorrelationId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.setLocale(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>setLocale</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.setRequestId(UUID)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>setRequestId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.requestcontext._request_context.toString()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::requestcontext::RequestContext</scope>
+        <name>toString</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

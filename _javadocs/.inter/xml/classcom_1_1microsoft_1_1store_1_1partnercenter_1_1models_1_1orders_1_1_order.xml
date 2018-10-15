@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::orders::Order</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a85b243a11cd8f7a4f3ee69e4b0db7af7" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.__Id</definition>
+        <argsstring></argsstring>
+        <name>__Id</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the order identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="26" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a6eb517b5078619c9e570f9277f4fa19b" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.__ReferenceCustomerId</definition>
+        <argsstring></argsstring>
+        <name>__ReferenceCustomerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the reference customer identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="42" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1af235ef051ee32f84e5c447ef1f52c7ad" prot="private" static="no" mutable="no">
+        <type>Iterable&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_line_item" kindref="compound">OrderLineItem</ref>&gt;</type>
+        <definition>Iterable&lt;OrderLineItem&gt; com.microsoft.store.partnercenter.models.orders.Order.__LineItems</definition>
+        <argsstring></argsstring>
+        <name>__LineItems</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Order line items. Each order line item refers to one offer purchase data. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="58" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a57fa8bdeee9b3b8780353a29634e1f6d" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.orders.Order.__CreationDate</definition>
+        <argsstring></argsstring>
+        <name>__CreationDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the creation date of the order </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="74" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="74" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1af7e9ece89a872ad0ec16751882910c98" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.__CurrencyCode</definition>
+        <argsstring></argsstring>
+        <name>__CurrencyCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the currency code. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="90" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="90" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a151730cede7f7a033bf21e9867b49d96" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.__Status</definition>
+        <argsstring></argsstring>
+        <name>__Status</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the order status. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="106" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="106" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a5451939fbfd4aa61346fcfa408097508" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_links" kindref="compound">OrderLinks</ref>
+        </type>
+        <definition>OrderLinks com.microsoft.store.partnercenter.models.orders.Order.__Links</definition>
+        <argsstring></argsstring>
+        <name>__Links</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the links corresponding to the order. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="122" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="122" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a2388e5a40fe18d3c22e6abf075da2d43" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1offers_1_1_billing_cycle_type" kindref="compound">BillingCycleType</ref>
+        </type>
+        <definition>BillingCycleType com.microsoft.store.partnercenter.models.orders.Order.__BillingCycle</definition>
+        <argsstring></argsstring>
+        <name>__BillingCycle</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the type of billing cycle for the selected offers. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="138" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="138" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a1685cf6643a9c99cb38af8eacf8527fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="28" bodyend="31" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1afc6914737905497f0c830d28568485d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="33" bodyend="36" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1ad9da5c52c0aafecf9d264773f9adad7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId</definition>
+        <argsstring>()</argsstring>
+        <name>getReferenceCustomerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="44" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="44" bodyend="47" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1ac6c63bdb0f6fdd86d598c0c318a89e6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setReferenceCustomerId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="49" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="49" bodyend="52" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1af53a45dfe10710d20a7a39350dd4d864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_line_item" kindref="compound">OrderLineItem</ref>&gt;</type>
+        <definition>Iterable&lt;OrderLineItem&gt; com.microsoft.store.partnercenter.models.orders.Order.getLineItems</definition>
+        <argsstring>()</argsstring>
+        <name>getLineItems</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="60" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="60" bodyend="63" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a3d9872b9b7d88736258e05064b893b61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setLineItems</definition>
+        <argsstring>(Iterable&lt;OrderLineItem&gt; value)</argsstring>
+        <name>setLineItems</name>
+        <param>
+          <type>Iterable&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_line_item" kindref="compound">OrderLineItem</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="65" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="65" bodyend="68" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a796d8acc1aa81796b07897016a343bcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.orders.Order.getCreationDate</definition>
+        <argsstring>()</argsstring>
+        <name>getCreationDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="76" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="76" bodyend="79" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1ac5b671be4b38750f40d248eeccf9f67e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setCreationDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setCreationDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="81" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="81" bodyend="84" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a35107374c7554007e5eb96cdc04ddc40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrencyCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="92" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="92" bodyend="95" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a4f1bb33b8293b7319588f94d1166eddf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCurrencyCode</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="97" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="97" bodyend="100" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1afe9f0b432abab0c020a679b4d86e2b63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.orders.Order.getStatus</definition>
+        <argsstring>()</argsstring>
+        <name>getStatus</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="108" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="108" bodyend="111" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a4daf7afa6219e844bb0116c16acb9e65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setStatus</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="113" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="113" bodyend="116" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1ab8ea3c2f7ff729181961a569d2d13513" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_links" kindref="compound">OrderLinks</ref>
+        </type>
+        <definition>OrderLinks com.microsoft.store.partnercenter.models.orders.Order.getLinks</definition>
+        <argsstring>()</argsstring>
+        <name>getLinks</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="124" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="124" bodyend="127" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a3cec3aaf4b96863c13561ae2971a1916" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setLinks</definition>
+        <argsstring>(OrderLinks value)</argsstring>
+        <name>setLinks</name>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_links" kindref="compound">OrderLinks</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="129" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="129" bodyend="132" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1af46c69405daadeac7b773f579bfe1d3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1offers_1_1_billing_cycle_type" kindref="compound">BillingCycleType</ref>
+        </type>
+        <definition>BillingCycleType com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingCycle</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="140" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="140" bodyend="143" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a9f45ed4ee5632096f23eaf833aae7600" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle</definition>
+        <argsstring>(BillingCycleType value)</argsstring>
+        <name>setBillingCycle</name>
+        <param>
+          <type>
+            <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1offers_1_1_billing_cycle_type" kindref="compound">BillingCycleType</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="145" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="145" bodyend="148" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Order represents collection of information needed to purchase offers represented by each order line items. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3450">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links" />
+        <childnode refid="3451" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3449">
+        <label>com.microsoft.store.partnercenter.models.orders.Order</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order" />
+        <childnode refid="3450" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3451">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3453">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links" />
+        <childnode refid="3454" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3452">
+        <label>com.microsoft.store.partnercenter.models.orders.Order</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order" />
+        <childnode refid="3453" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3454">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java" bodystart="19" bodyend="149" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a2388e5a40fe18d3c22e6abf075da2d43" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__BillingCycle</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a57fa8bdeee9b3b8780353a29634e1f6d" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__CreationDate</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1af7e9ece89a872ad0ec16751882910c98" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__CurrencyCode</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a85b243a11cd8f7a4f3ee69e4b0db7af7" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__Id</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1af235ef051ee32f84e5c447ef1f52c7ad" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__LineItems</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a5451939fbfd4aa61346fcfa408097508" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__Links</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a6eb517b5078619c9e570f9277f4fa19b" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__ReferenceCustomerId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a151730cede7f7a033bf21e9867b49d96" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>__Status</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ac2e2226cca816bd63cd179b0eae6a163" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1af46c69405daadeac7b773f579bfe1d3c" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getBillingCycle</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a796d8acc1aa81796b07897016a343bcc" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getCreationDate</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a35107374c7554007e5eb96cdc04ddc40" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getCurrencyCode</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a1685cf6643a9c99cb38af8eacf8527fb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1af53a45dfe10710d20a7a39350dd4d864" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getLineItems</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1ab8ea3c2f7ff729181961a569d2d13513" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1ad9da5c52c0aafecf9d264773f9adad7b" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getReferenceCustomerId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1afe9f0b432abab0c020a679b4d86e2b63" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>getStatus</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ad9225d84f0a18fc31d4f24e0f9010824" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ab891cf19d9cca1f6918b43c9680ec5e5" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links_1a602763450c6d4681b14dcdc5ab1dc2bd" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links_1a8586fe642f1ec57174ffa89c0882c7af" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a9f45ed4ee5632096f23eaf833aae7600" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setBillingCycle</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1ac5b671be4b38750f40d248eeccf9f67e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setCreationDate</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a4f1bb33b8293b7319588f94d1166eddf" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setCurrencyCode</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1afc6914737905497f0c830d28568485d5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a3d9872b9b7d88736258e05064b893b61" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setLineItems</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a3cec3aaf4b96863c13561ae2971a1916" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_with_links_1af17bfb6bc7a97f5716f39daae46d6123" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::models::ResourceBaseWithLinks.">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1ac6c63bdb0f6fdd86d598c0c318a89e6a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setReferenceCustomerId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order_1a4daf7afa6219e844bb0116c16acb9e65" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::orders::Order</scope>
+        <name>setStatus</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

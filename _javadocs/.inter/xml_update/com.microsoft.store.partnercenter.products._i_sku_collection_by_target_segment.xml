@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.products._i_sku_collection_by_target_segment" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::products::ISkuCollectionByTargetSegment</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Sku, ResourceCollection&lt;Sku&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.customers.products._customer_sku_collec870c01975f99eb32c71fbc8f9ce12b78" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations</derivedcompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.products._sku_collection_by_target_segment_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.products._i_sku_collection_by_target_segment.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.products._sku" kindref="compound">Sku</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Sku&gt; com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.products._sku_collection_by_target_segment_operations.get()">get</reimplementedby>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers.products._customer_sku_collec870c01975f99eb32c71fbc8f9ce12b78.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/ISkuCollectionByTargetSegment.java" line="27" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Holds operations that can be performed on skus from a specific target segment. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3089">
+        <label>com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations</label>
+        <link refid="com.microsoft.store.partnercenter.products._sku_collection_by_target_segment_operations" />
+        <childnode refid="3085" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3088">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customers.products._customer_sku_collec870c01975f99eb32c71fbc8f9ce12b78" />
+        <childnode refid="3085" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3086">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3085">
+        <label>com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment</label>
+        <link refid="com.microsoft.store.partnercenter.products._i_sku_collection_by_target_segment" />
+        <childnode refid="3086" relation="public-inheritance"></childnode>
+        <childnode refid="3087" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3087">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Sku, ResourceCollection&lt;Sku&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3091">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3090">
+        <label>com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment</label>
+        <link refid="com.microsoft.store.partnercenter.products._i_sku_collection_by_target_segment" />
+        <childnode refid="3091" relation="public-inheritance"></childnode>
+        <childnode refid="3092" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3092">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Sku, ResourceCollection&lt;Sku&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/ISkuCollectionByTargetSegment.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/ISkuCollectionByTargetSegment.java" bodystart="18" bodyend="28" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.products._i_sku_collection_by_target_segment.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::ISkuCollectionByTargetSegment</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::ISkuCollectionByTargetSegment</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::ISkuCollectionByTargetSegment</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

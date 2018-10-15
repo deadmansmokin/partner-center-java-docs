@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::agreements::Agreement</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.ResourceBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1ae37de6dda98884ea814073dc193f0f97" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.agreements.Agreement.__UserId</definition>
+        <argsstring></argsstring>
+        <name>__UserId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Object identifier of the logged in user in the partner tenant who is providing confirmation on behalf of the partner organization. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="25" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="25" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a02d414a592489c0856d7a597bc20eed0" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_contact" kindref="compound">Contact</ref>
+        </type>
+        <definition>Contact com.microsoft.store.partnercenter.models.agreements.Agreement.__PrimaryContact</definition>
+        <argsstring></argsstring>
+        <name>__PrimaryContact</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the information about the user from the customer organization who accepted the Microsoft Cloud Agreement. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="42" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a5cf4c7529c7543940a913042b5ecf0e8" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.agreements.Agreement.__TemplateId</definition>
+        <argsstring></argsstring>
+        <name>__TemplateId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the unique identifier of the agreement that the customer accepted. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="58" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1ad1b502ef67f2e523fc5f64462be3d999" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.agreements.Agreement.__DateAgreed</definition>
+        <argsstring></argsstring>
+        <name>__DateAgreed</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the date when the customer accepted the agreement. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="74" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="74" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a993c977f6f7155603c68d7da509a3d8a" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_type" kindref="compound">AgreementType</ref>
+        </type>
+        <definition>AgreementType com.microsoft.store.partnercenter.models.agreements.Agreement.__Type</definition>
+        <argsstring></argsstring>
+        <name>__Type</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets agreement type. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="90" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="90" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a86a8528c169a1bd8fe9dc4a115756eaa" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.agreements.Agreement.__AgreementLink</definition>
+        <argsstring></argsstring>
+        <name>__AgreementLink</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets URL to the agreement template. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="106" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="106" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1ae6f8b3cde2db7a7bdd9ab8f17fdd11e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.agreements.Agreement.getUserId</definition>
+        <argsstring>()</argsstring>
+        <name>getUserId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="27" bodyend="30" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1ab2cb53c7b876496187796a2b7a1d4c6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.agreements.Agreement.setUserId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setUserId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="32" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="32" bodyend="35" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a1727324d53297d34ad7801f5b771fd7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_contact" kindref="compound">Contact</ref>
+        </type>
+        <definition>Contact com.microsoft.store.partnercenter.models.agreements.Agreement.getPrimaryContact</definition>
+        <argsstring>()</argsstring>
+        <name>getPrimaryContact</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="44" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="44" bodyend="47" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1ac648a858e44a396a3ab810fc942aa78e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.agreements.Agreement.setPrimaryContact</definition>
+        <argsstring>(Contact value)</argsstring>
+        <name>setPrimaryContact</name>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_contact" kindref="compound">Contact</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="49" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="49" bodyend="52" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a44861feaa3de01b1cba1612fd67d2e79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.agreements.Agreement.getTemplateId</definition>
+        <argsstring>()</argsstring>
+        <name>getTemplateId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="60" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="60" bodyend="63" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a0cc6f51ab7f063c6abfa596c6ad9d5a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.agreements.Agreement.setTemplateId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setTemplateId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="65" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="65" bodyend="68" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a357426e0cf2aaca39eea2cdc4522110e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.agreements.Agreement.getDateAgreed</definition>
+        <argsstring>()</argsstring>
+        <name>getDateAgreed</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="76" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="76" bodyend="79" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a647fa03b48218e29e405009ca2942bc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.agreements.Agreement.setDateAgreed</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setDateAgreed</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="81" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="81" bodyend="84" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1aadb13ee45d8732c4644d4759b31d1ac1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_type" kindref="compound">AgreementType</ref>
+        </type>
+        <definition>AgreementType com.microsoft.store.partnercenter.models.agreements.Agreement.getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="92" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="92" bodyend="95" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a37de399899acd78eee7c7591303e4fd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.agreements.Agreement.setType</definition>
+        <argsstring>(AgreementType value)</argsstring>
+        <name>setType</name>
+        <param>
+          <type>
+            <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_type" kindref="compound">AgreementType</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="97" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="97" bodyend="100" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a98a68f223bb0eb6274e9a4d9697d79f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.agreements.Agreement.getAgreementLink</definition>
+        <argsstring>()</argsstring>
+        <name>getAgreementLink</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="108" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="108" bodyend="111" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a575527d4771ee81c6b48027341d66147" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.agreements.Agreement.setAgreementLink</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setAgreementLink</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="113" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="113" bodyend="116" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>The Agreement resource. Represents the details of certification provided by the partner. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>com.microsoft.store.partnercenter.models.agreements.Agreement</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement" />
+        <childnode refid="11" relation="public-inheritance"></childnode>
+      </node>
+      <node id="11">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>com.microsoft.store.partnercenter.models.agreements.Agreement</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement" />
+        <childnode refid="13" relation="public-inheritance"></childnode>
+      </node>
+      <node id="13">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java" bodystart="17" bodyend="117" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a86a8528c169a1bd8fe9dc4a115756eaa" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>__AgreementLink</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1ad1b502ef67f2e523fc5f64462be3d999" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>__DateAgreed</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a02d414a592489c0856d7a597bc20eed0" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>__PrimaryContact</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a5cf4c7529c7543940a913042b5ecf0e8" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>__TemplateId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a993c977f6f7155603c68d7da509a3d8a" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>__Type</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1ae37de6dda98884ea814073dc193f0f97" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>__UserId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a98a68f223bb0eb6274e9a4d9697d79f2" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>getAgreementLink</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ac2e2226cca816bd63cd179b0eae6a163" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a357426e0cf2aaca39eea2cdc4522110e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>getDateAgreed</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a1727324d53297d34ad7801f5b771fd7f" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>getPrimaryContact</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a44861feaa3de01b1cba1612fd67d2e79" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>getTemplateId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1aadb13ee45d8732c4644d4759b31d1ac1" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>getType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1ae6f8b3cde2db7a7bdd9ab8f17fdd11e5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>getUserId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ad9225d84f0a18fc31d4f24e0f9010824" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ab891cf19d9cca1f6918b43c9680ec5e5" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a575527d4771ee81c6b48027341d66147" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>setAgreementLink</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a647fa03b48218e29e405009ca2942bc9" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>setDateAgreed</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1ac648a858e44a396a3ab810fc942aa78e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>setPrimaryContact</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a0cc6f51ab7f063c6abfa596c6ad9d5a4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>setTemplateId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1a37de399899acd78eee7c7591303e4fd2" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>setType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1agreements_1_1_agreement_1ab2cb53c7b876496187796a2b7a1d4c6a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::agreements::Agreement</scope>
+        <name>setUserId</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

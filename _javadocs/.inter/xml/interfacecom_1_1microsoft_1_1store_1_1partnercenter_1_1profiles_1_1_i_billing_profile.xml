@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_billing_profile" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::profiles::IBillingProfile</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;BillingProfile&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;BillingProfile&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_billing_profile_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.profiles.BillingProfileOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_billing_profile_1ae7a8b5ae6358a8f44d33b35b83e8946c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1partners_1_1_billing_profile" kindref="compound">BillingProfile</ref>
+        </type>
+        <definition>BillingProfile com.microsoft.store.partnercenter.profiles.IBillingProfile.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations_1aa2e3cf8b3d1237922579e228472e1b24">get</reimplements>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_billing_profile_operations_1a18e66aedfe4b88eb14c843e17c5bab3d">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves an entity.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entity. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IBillingProfile.java" line="25" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_billing_profile_1a0b581aca8c8a4eabcfef847448a7ecfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1partners_1_1_billing_profile" kindref="compound">BillingProfile</ref>
+        </type>
+        <definition>BillingProfile com.microsoft.store.partnercenter.profiles.IBillingProfile.update</definition>
+        <argsstring>(BillingProfile billingProfile)</argsstring>
+        <name>update</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_billing_profile_operations_1a8c96edf405cc92491a895eb687bbe4dc">update</reimplementedby>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1partners_1_1_billing_profile" kindref="compound">BillingProfile</ref>
+          </type>
+          <declname>billingProfile</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IBillingProfile.java" line="32" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Encapsulates behavior of a partner billing profile. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1452">
+        <label>com.microsoft.store.partnercenter.profiles.BillingProfileOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_billing_profile_operations" />
+        <childnode refid="1447" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1447">
+        <label>com.microsoft.store.partnercenter.profiles.IBillingProfile</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_billing_profile" />
+        <childnode refid="1448" relation="public-inheritance"></childnode>
+        <childnode refid="1450" relation="public-inheritance"></childnode>
+        <childnode refid="1451" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1449">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1448">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="1449" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1450">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;BillingProfile&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="1451">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;BillingProfile&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1453">
+        <label>com.microsoft.store.partnercenter.profiles.IBillingProfile</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_billing_profile" />
+        <childnode refid="1454" relation="public-inheritance"></childnode>
+        <childnode refid="1456" relation="public-inheritance"></childnode>
+        <childnode refid="1457" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1455">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1454">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="1455" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1456">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;BillingProfile&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="1457">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;BillingProfile&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IBillingProfile.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IBillingProfile.java" bodystart="17" bodyend="33" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_billing_profile_1ae7a8b5ae6358a8f44d33b35b83e8946c" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IBillingProfile</scope>
+        <name>get</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IBillingProfile</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IBillingProfile</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_billing_profile_1a0b581aca8c8a4eabcfef847448a7ecfb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IBillingProfile</scope>
+        <name>update</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_update_operations_1ab61bb59b988db7b4cc1deb39a1084489" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations.">
+        <scope>com::microsoft::store::partnercenter::profiles::IBillingProfile</scope>
+        <name>update</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

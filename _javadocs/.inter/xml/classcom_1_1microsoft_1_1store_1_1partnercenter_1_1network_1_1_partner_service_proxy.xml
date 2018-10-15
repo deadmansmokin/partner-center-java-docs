@@ -1,0 +1,1416 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::network::PartnerServiceProxy</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::network::IPartnerServiceProxy&lt;TRequest, TResponse&gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>TRequest</type>
+      </param>
+      <param>
+        <type>TResponse</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a283224446d1a4309a1bafcb95ef7453e" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_i_request_context" kindref="compound">IRequestContext</ref>
+        </type>
+        <definition>IRequestContext com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.requestContext</definition>
+        <argsstring></argsstring>
+        <name>requestContext</name>
+        <initializer>= new <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1requestcontext_1_1_request_context" kindref="compound">RequestContext</ref>()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The request context the proxy will use in executing the network calls. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="68" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="68" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a21325719b30877f82246526f54f6b174" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.__IfMatch</definition>
+        <argsstring></argsstring>
+        <name>__IfMatch</name>
+        <initializer>= new String()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the e-tag used for concurrency control. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="184" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="184" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a232226edf4eaadeff2a62a40a38dfbb2" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.__ContentType</definition>
+        <argsstring></argsstring>
+        <name>__ContentType</name>
+        <initializer>= new String()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the request content type. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="201" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="201" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a4bfce6da6b3b39030aaf60addb1ccc10" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.__Accept</definition>
+        <argsstring></argsstring>
+        <name>__Accept</name>
+        <initializer>= new String()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the accepted response type. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="218" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="218" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ae0b2d371257dace73ef8d08d4d3d48ee" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.__IsUrlPathAlreadyBuilt</definition>
+        <argsstring></argsstring>
+        <name>__IsUrlPathAlreadyBuilt</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets whether the proxy should build the URL or the URL has already been built. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="236" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="236" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1aa6d235e1e5c656a61955451722c7b0cc" prot="private" static="no" mutable="no">
+        <type>Collection&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utils_1_1_key_value_pair" kindref="compound">KeyValuePair</ref>&lt;String, String&gt;&gt;</type>
+        <definition>Collection&lt;KeyValuePair&lt;String, String&gt;&gt; com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.__AdditionalRequestHeaders</definition>
+        <argsstring></argsstring>
+        <name>__AdditionalRequestHeaders</name>
+        <initializer>= new ArrayList&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utils_1_1_key_value_pair" kindref="compound">KeyValuePair</ref>&lt;String, String&gt;&gt;()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the additional request headers. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="250" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="250" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ab9345dc5f476f771775d525d85946754" prot="private" static="no" mutable="no">
+        <type>Collection&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utils_1_1_key_value_pair" kindref="compound">KeyValuePair</ref>&lt;String, String&gt;&gt;</type>
+        <definition>Collection&lt;KeyValuePair&lt;String, String&gt;&gt; com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.__UriParameters</definition>
+        <argsstring></argsstring>
+        <name>__UriParameters</name>
+        <initializer>= new ArrayList&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utils_1_1_key_value_pair" kindref="compound">KeyValuePair</ref>&lt;String, String&gt;&gt;()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets a collection of Uri parameters which will be added to the request query string. You can add your own uri parameters to this collection. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="267" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="267" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a09d44b89735602c3b43abb862da5fc0e" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.__ResourcePath</definition>
+        <argsstring></argsstring>
+        <name>__ResourcePath</name>
+        <initializer>= new String()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the resource path which will be appended to the root URL. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="283" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="283" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a31b6c13309a15e2dce15b137a8c0a711" prot="private" static="no" mutable="no">
+        <type>ObjectMapper</type>
+        <definition>ObjectMapper com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.__JsonConverter</definition>
+        <argsstring></argsstring>
+        <name>__JsonConverter</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets an optional JSON converter to use. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="306" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="306" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a600835155fd8eb99390ff7f823632a33" prot="private" static="no" mutable="no">
+        <type>TypeReference&lt;TResponse&gt;</type>
+        <definition>TypeReference&lt;TResponse&gt; com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.responseClass</definition>
+        <argsstring></argsstring>
+        <name>responseClass</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="330" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="330" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a7af18d8442f034ff6943fea772f60f22" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1errorhandling_1_1_i_failed_partner_service_response_handler" kindref="compound">IFailedPartnerServiceResponseHandler</ref>
+        </type>
+        <definition>IFailedPartnerServiceResponseHandler com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.__ErrorHandler</definition>
+        <argsstring></argsstring>
+        <name>__ErrorHandler</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the error handler for non successful responses. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="335" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="335" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a70546c907dd9cac32b0e898e3ef56b0a" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.UTF8_BOM</definition>
+        <argsstring></argsstring>
+        <name>UTF8_BOM</name>
+        <initializer>= "\uFEFF"</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The character which acts as the byte order mark for UTF-8. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="73" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="73" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a06844a5fae58666942546bcf6272e052" prot="private" static="yes" mutable="no">
+        <type>CloseableHttpClient</type>
+        <definition>CloseableHttpClient com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.httpClient</definition>
+        <argsstring></argsstring>
+        <name>httpClient</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Singleton instance of the Http client. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="78" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="78" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ab327a2959f0582ebe110b779635912da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.PartnerServiceProxy</definition>
+        <argsstring>(TypeReference&lt;TResponse&gt; responseClass, IPartner rootPartnerOperations, String resourcePath)</argsstring>
+        <name>PartnerServiceProxy</name>
+        <param>
+          <type>TypeReference&lt;TResponse&gt;</type>
+          <declname>responseClass</declname>
+        </param>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>resourcePath</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the PartnerServiceProxy class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>responseClass</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Type of the response. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>resourcePath</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The resource path which will be appended to the root URL. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="87" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="87" bodyend="92" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ae987484e8d5190df6dcca8116b507a5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.PartnerServiceProxy</definition>
+        <argsstring>(IPartner rootPartnerOperations, String resourcePath, IFailedPartnerServiceResponseHandler errorHandler, ObjectMapper jsonConverter)</argsstring>
+        <name>PartnerServiceProxy</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>resourcePath</declname>
+        </param>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1errorhandling_1_1_i_failed_partner_service_response_handler" kindref="compound">IFailedPartnerServiceResponseHandler</ref>
+          </type>
+          <declname>errorHandler</declname>
+        </param>
+        <param>
+          <type>ObjectMapper</type>
+          <declname>jsonConverter</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the PartnerServiceProxy class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>resourcePath</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The resource path which will be appended to the root URL. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>errorHandler</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>An optional handler for failed responses. The default will be used if not provided. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>jsonConverter</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>An optional JSON response converter. The default will be used if not provided. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="108" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="108" bodyend="131" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a3061930a6cf3d0a848ac7f3df359e5ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UUID</type>
+        <definition>UUID com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getRequestId</definition>
+        <argsstring>()</argsstring>
+        <name>getRequestId</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a0322489eae3b876be885cc7cd879d1ef">getRequestId</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the assigned Microsoft Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="137" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="137" bodyend="139" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a64bd87339cf53990f43bb2dd6bb8c973" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setRequestId</definition>
+        <argsstring>(UUID value)</argsstring>
+        <name>setRequestId</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a648bf10e210f7351f1b9511e6c194840">setRequestId</reimplements>
+        <param>
+          <type>UUID</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the request identifier.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The reqeust identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="142" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="142" bodyend="147" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a76177d5fb5487d93f568f3197cb27191" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UUID</type>
+        <definition>UUID com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getCorrelationId</definition>
+        <argsstring>()</argsstring>
+        <name>getCorrelationId</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a5933551d80d649ad626de151c908d5a8">getCorrelationId</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the assigned Microsoft correlation Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="153" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="153" bodyend="156" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a35c511c75d597390d70e0c3d224f8f5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setCorrelationId</definition>
+        <argsstring>(UUID value)</argsstring>
+        <name>setCorrelationId</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1aa69bfdd86d8ff682cd9a0e90b1ddf401">setCorrelationId</reimplements>
+        <param>
+          <type>UUID</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the correlation identifier.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The correlation identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="159" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="159" bodyend="162" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ad8bc7209fb68139e94874a97adf4b0d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getLocale</definition>
+        <argsstring>()</argsstring>
+        <name>getLocale</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a055fe70af0c1a1b3d1da2fae8949f98a">getLocale</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the locale. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="168" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="168" bodyend="171" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a50b00feda6fd8cb8f2ec5be78a8fe40b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setLocale</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setLocale</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a40b342df29e3b248507ba71bdb4135bb">setLocale</reimplements>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the locale.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The locale. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="174" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="174" bodyend="179" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a02fe71d57157aea87a373be6b7f1aab4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getIfMatch</definition>
+        <argsstring>()</argsstring>
+        <name>getIfMatch</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1aa4edad29894edccea6a80a382e300db5">getIfMatch</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the e-tag used for concurrency control.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The e-tag used for concurrency control. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="187" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="187" bodyend="190" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a288e16c380a62ceea5f3d5c92efa213f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setIfMatch</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setIfMatch</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a79905985b1d1dde33e2a1bc85e6e0cd6">setIfMatch</reimplements>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the e-tag used for concurrency control.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The e-tag used for concurrency control. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="193" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="193" bodyend="196" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a217d6e08572a2f292e827574c2550eb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getContentType</definition>
+        <argsstring>()</argsstring>
+        <name>getContentType</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a8f6a7d1003263f39b3b8d8ce4d697dcb">getContentType</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the request content type.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The request content type. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="204" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="204" bodyend="207" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a175c67f5a19cd230a29daffb58cd7666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setContentType</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setContentType</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1adc9e57115c67a7e4a6e6cc2e7c3203db">setContentType</reimplements>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the request content type.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The request content type. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="210" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="210" bodyend="213" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a3c211aed5e92dd7c1ac391295c6d9a10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getAccept</definition>
+        <argsstring>()</argsstring>
+        <name>getAccept</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a0ba777658ccbfdd0700344d02689cea3">getAccept</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the accepted response type.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The accepted response type. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="221" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="221" bodyend="224" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a12c287a86c768a9cfc7950940777df31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setAccept</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setAccept</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a4aeadfa9ccab748475b0bd74822425d9">setAccept</reimplements>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the accepted response type.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The accepted response type. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="227" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="227" bodyend="230" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1aae0b643b668f0f864e6c0434c0e7b67b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getIsUrlPathAlreadyBuilt</definition>
+        <argsstring>()</argsstring>
+        <name>getIsUrlPathAlreadyBuilt</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="238" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="238" bodyend="241" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1aa54f8feac912167000bcebe1b12bcd0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setIsUrlPathAlreadyBuilt</definition>
+        <argsstring>(boolean value)</argsstring>
+        <name>setIsUrlPathAlreadyBuilt</name>
+        <param>
+          <type>boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="243" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="243" bodyend="245" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a89fa3ca38c99e8297b39fe3221d092f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Collection&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utils_1_1_key_value_pair" kindref="compound">KeyValuePair</ref>&lt;String, String&gt;&gt;</type>
+        <definition>Collection&lt;KeyValuePair&lt;String, String&gt;&gt; com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getAdditionalRequestHeaders</definition>
+        <argsstring>()</argsstring>
+        <name>getAdditionalRequestHeaders</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1ae6db4702efa2ac8ce04d3d524cff15eb">getAdditionalRequestHeaders</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the additional request headers.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The additional request headers. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="253" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="253" bodyend="256" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ac799a5111948c00d9bedc2be2d2e2c0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setAdditionalRequestHeaders</definition>
+        <argsstring>(Collection&lt;KeyValuePair&lt;String, String&gt;&gt; value)</argsstring>
+        <name>setAdditionalRequestHeaders</name>
+        <param>
+          <type>Collection&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utils_1_1_key_value_pair" kindref="compound">KeyValuePair</ref>&lt;String, String&gt;&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="258" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="258" bodyend="261" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a418abf6e8aa6631a79977f88c8310025" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Collection&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utils_1_1_key_value_pair" kindref="compound">KeyValuePair</ref>&lt;String, String&gt;&gt;</type>
+        <definition>Collection&lt;KeyValuePair&lt;String, String&gt;&gt; com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getUriParameters</definition>
+        <argsstring>()</argsstring>
+        <name>getUriParameters</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1ac1ded2fd3060280daf546ff86ffc9818">getUriParameters</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets a collection of Uri parameters which will be added to the request query string. You can add your own uri parameters to this collection.</para>
+          <para>
+            <simplesect kind="return">
+              <para>A collection of URI parameters. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="270" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="270" bodyend="273" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ac9ee46cd909dfbc915aad510ee9abe88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setUriParameters</definition>
+        <argsstring>(Collection&lt;KeyValuePair&lt;String, String&gt;&gt; value)</argsstring>
+        <name>setUriParameters</name>
+        <param>
+          <type>Collection&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utils_1_1_key_value_pair" kindref="compound">KeyValuePair</ref>&lt;String, String&gt;&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="275" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="275" bodyend="278" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ac6f310ae0f085702e479423ac3083675" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getResourcePath</definition>
+        <argsstring>()</argsstring>
+        <name>getResourcePath</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a5e021793fd3064634784a8493044e51a">getResourcePath</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the resource path which will be appended to the root URL.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The resource path which will be appended to the root URL. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="286" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="286" bodyend="295" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a843f451e696392ebde9b15926ec01400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setResourcePath</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setResourcePath</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a0170e10a7292a9e23329c45fd515e0b9">setResourcePath</reimplements>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the resource path which will be appended to the root URL.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The resource path which will be appended to the root URL. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="298" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="298" bodyend="301" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a7d4183360c433b05d3d31cbd3b314121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ObjectMapper</type>
+        <definition>ObjectMapper com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getJsonConverter</definition>
+        <argsstring>()</argsstring>
+        <name>getJsonConverter</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="308" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="308" bodyend="323" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ad50de57d9fa97ba2c0cdacc391c4c4d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setJsonConverter</definition>
+        <argsstring>(ObjectMapper value)</argsstring>
+        <name>setJsonConverter</name>
+        <param>
+          <type>ObjectMapper</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="325" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="325" bodyend="328" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1af7990331cfeb2cd87b892e0d1e197fc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResponse</type>
+        <definition>TResponse com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1abe4956da0fe1ce8f43c752f2b40fecb6">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Executes a GET request against the partner service.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The GET response. </para>
+            </simplesect>
+            <parameterlist kind="exception">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>PartnerException</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>If a network operation fails. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="354" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="354" bodyend="358" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a09fb052e0178d075c05ca9fd712cbe77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>InputStream</type>
+        <definition>InputStream com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getFileContent</definition>
+        <argsstring>()</argsstring>
+        <name>getFileContent</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a558234cb46e90103d82126b6a4ef6f78">getFileContent</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="365" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="365" bodyend="404" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a0ce631d03d9504401a4f80ac53abed70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResponse</type>
+        <definition>TResponse com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.post</definition>
+        <argsstring>(TRequest content)</argsstring>
+        <name>post</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a38e54c25e3af219f23b899415ad2fbf6">post</reimplements>
+        <param>
+          <type>TRequest</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Executes a POST request against the partner service.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>content</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The request body content. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The POST response. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="413" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="413" bodyend="431" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ac345e9a93f9f6882ca65f2a02775bb8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResponse</type>
+        <definition>TResponse com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.patch</definition>
+        <argsstring>(TRequest content)</argsstring>
+        <name>patch</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a980c453c5728b6a23d7597c8f7a1affe">patch</reimplements>
+        <param>
+          <type>TRequest</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Executes a PATCH request against the partner service.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>content</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The request body content. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The PATCH response. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="440" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="440" bodyend="459" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a33c216f471d099db3353b935e753c354" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResponse</type>
+        <definition>TResponse com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.put</definition>
+        <argsstring>(TRequest content)</argsstring>
+        <name>put</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a241f0e00e65677d5c37c63ba5f9b7ea3">put</reimplements>
+        <param>
+          <type>TRequest</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Executes a PUT request against the partner service.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>content</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The request body content. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The PUT response. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="468" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="468" bodyend="486" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ae568e25ace35da1c031be6b5ef328a2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1af1c7dffc959884c0ba8238cdfb968be0">delete</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Executes a DELETE request against the partner service.</para>
+          <para>
+            <parameterlist kind="exception">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>PartnerException</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>If a network operation fails. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="494" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="494" bodyend="498" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a9ec78c816060c1daa168699bf00ec4c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.head</definition>
+        <argsstring>()</argsstring>
+        <name>head</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy_1a3db1d7515f1124a0ab95f90086a7ea4b">head</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Executes a HEAD request against the partner service.</para>
+          <para>
+            <parameterlist kind="exception">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>PartnerException</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>If a network operation fails. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="506" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="506" bodyend="510" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a80a61f5c456504ad70f51e731544a80d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1errorhandling_1_1_i_failed_partner_service_response_handler" kindref="compound">IFailedPartnerServiceResponseHandler</ref>
+        </type>
+        <definition>IFailedPartnerServiceResponseHandler com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.getErrorHandler</definition>
+        <argsstring>()</argsstring>
+        <name>getErrorHandler</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="337" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="337" bodyend="340" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a589b596d8b2d0835963f922f78d1b7d5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.setErrorHandler</definition>
+        <argsstring>(IFailedPartnerServiceResponseHandler value)</argsstring>
+        <name>setErrorHandler</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1errorhandling_1_1_i_failed_partner_service_response_handler" kindref="compound">IFailedPartnerServiceResponseHandler</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="342" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="342" bodyend="345" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a071cb2052efba2848b99d442b38beb5e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CloseableHttpClient</type>
+        <definition>CloseableHttpClient com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.buildHttpClient</definition>
+        <argsstring>()</argsstring>
+        <name>buildHttpClient</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Builds the HTTP client needed to perform network calls. This method aids in mocking the HttpClient in unit tests and hence was implemented as protected in order not to expose it to other SDK classes.</para>
+          <para>
+            <simplesect kind="return">
+              <para>A configured HTTP client. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="519" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="519" bodyend="536" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a6159b59a2095afb0dedaf9c3c7e6fcdb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResponse</type>
+        <definition>TResponse com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.send</definition>
+        <argsstring>(RequestBuilder request)</argsstring>
+        <name>send</name>
+        <param>
+          <type>RequestBuilder</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sends an HTTP request to the partner service after checking that the credentials are not expired. It will also handle the response.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>httpOperation</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The HTTP operation to execute. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>A deserialized HTTP response. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="545" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="545" bodyend="565" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a9c8ed858ffe436c39474b7727214cc4f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.addHttpHeaders</definition>
+        <argsstring>(RequestBuilder request)</argsstring>
+        <name>addHttpHeaders</name>
+        <param>
+          <type>RequestBuilder</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="567" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="567" bodyend="597" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1add98d7bc8f54ad186a39d3a90faeeabe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.validateCredentials</definition>
+        <argsstring>()</argsstring>
+        <name>validateCredentials</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Ensures that the partner credentials are up to date.</para>
+          <para>
+            <simplesect kind="return">
+              <para>A task that is complete when the verification is done. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="604" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="604" bodyend="643" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1aa679233273bb13cf0607f37ffbb22adb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TResponse</type>
+        <definition>TResponse com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.handleResponse</definition>
+        <argsstring>(CloseableHttpResponse response)</argsstring>
+        <name>handleResponse</name>
+        <param>
+          <type>CloseableHttpResponse</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Handles partner service responses.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>response</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The partner service response. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The configured response result. </para>
+            </simplesect>
+            <parameterlist kind="exception">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>PartnerException</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para></para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="654" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="654" bodyend="700" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1afe4d4eed65c9d7f1b1c6f09bc57a4664" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>URI</type>
+        <definition>URI com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.buildPartnerServiceApiUri</definition>
+        <argsstring>()</argsstring>
+        <name>buildPartnerServiceApiUri</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Builds the partner service API Uri based on the configured properties.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The complete partner service API Uri needed to invoke the current operation. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="708" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="708" bodyend="727" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ae059ed5f0c64f921495b373ca817aaf1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;.buildQueryString</definition>
+        <argsstring>()</argsstring>
+        <name>buildQueryString</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Builds the query string part of the REST API URL.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The query string. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="734" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="734" bodyend="759" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>An implementation of the partner service proxy which automatically serializes request content into JSON payload and deserializes the response from JSON into the given response type. The type of content that will be passed to the partner service API.The type of response produced from the partner service API. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3662">
+        <label>com::microsoft::store::partnercenter::network::IPartnerServiceProxy&lt;TRequest, TResponse&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy" />
+        <childnode refid="3663" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3659">
+        <label>com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy" />
+        <childnode refid="3660" relation="public-inheritance"></childnode>
+        <childnode refid="3662" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3664">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3661">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="3660">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="3661" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3663">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3664" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3668">
+        <label>com::microsoft::store::partnercenter::network::IPartnerServiceProxy&lt;TRequest, TResponse&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_i_partner_service_proxy" />
+        <childnode refid="3669" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3665">
+        <label>com.microsoft.store.partnercenter.network.PartnerServiceProxy&lt;TRequest, TResponse&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy" />
+        <childnode refid="3666" relation="public-inheritance"></childnode>
+        <childnode refid="3668" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3670">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3667">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="3666">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="3667" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3669">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3670" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" line="64" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/network/PartnerServiceProxy.java" bodystart="62" bodyend="760" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a4bfce6da6b3b39030aaf60addb1ccc10" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>__Accept</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1aa6d235e1e5c656a61955451722c7b0cc" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>__AdditionalRequestHeaders</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a232226edf4eaadeff2a62a40a38dfbb2" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>__ContentType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a7af18d8442f034ff6943fea772f60f22" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>__ErrorHandler</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a21325719b30877f82246526f54f6b174" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>__IfMatch</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ae0b2d371257dace73ef8d08d4d3d48ee" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>__IsUrlPathAlreadyBuilt</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a31b6c13309a15e2dce15b137a8c0a711" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>__JsonConverter</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a09d44b89735602c3b43abb862da5fc0e" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>__ResourcePath</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ab9345dc5f476f771775d525d85946754" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>__UriParameters</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a9c8ed858ffe436c39474b7727214cc4f" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>addHttpHeaders</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1ae6339c5a921b5c3b6a545e1064951c83" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1a9662304cff58f8d465d2a47e7e8cedf0" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a071cb2052efba2848b99d442b38beb5e" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>buildHttpClient</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1afe4d4eed65c9d7f1b1c6f09bc57a4664" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>buildPartnerServiceApiUri</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ae059ed5f0c64f921495b373ca817aaf1" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>buildQueryString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ae568e25ace35da1c031be6b5ef328a2d" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>delete</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1af7990331cfeb2cd87b892e0d1e197fc4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a3c211aed5e92dd7c1ac391295c6d9a10" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getAccept</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a89fa3ca38c99e8297b39fe3221d092f7" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getAdditionalRequestHeaders</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a217d6e08572a2f292e827574c2550eb7" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getContentType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::network::IPartnerServiceProxy.">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a76177d5fb5487d93f568f3197cb27191" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getCorrelationId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a80a61f5c456504ad70f51e731544a80d" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getErrorHandler</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a09fb052e0178d075c05ca9fd712cbe77" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getFileContent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a02fe71d57157aea87a373be6b7f1aab4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getIfMatch</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1aae0b643b668f0f864e6c0434c0e7b67b" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getIsUrlPathAlreadyBuilt</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a7d4183360c433b05d3d31cbd3b314121" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getJsonConverter</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ad8bc7209fb68139e94874a97adf4b0d7" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getLocale</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::network::IPartnerServiceProxy.">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a3061930a6cf3d0a848ac7f3df359e5ca" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getRequestId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ac6f310ae0f085702e479423ac3083675" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getResourcePath</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a418abf6e8aa6631a79977f88c8310025" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>getUriParameters</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1aa679233273bb13cf0607f37ffbb22adb" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>handleResponse</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a9ec78c816060c1daa168699bf00ec4c1" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>head</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a06844a5fae58666942546bcf6272e052" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>httpClient</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ab327a2959f0582ebe110b779635912da" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>PartnerServiceProxy</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ae987484e8d5190df6dcca8116b507a5d" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>PartnerServiceProxy</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ac345e9a93f9f6882ca65f2a02775bb8e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>patch</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a0ce631d03d9504401a4f80ac53abed70" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>post</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a33c216f471d099db3353b935e753c354" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>put</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a283224446d1a4309a1bafcb95ef7453e" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>requestContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a600835155fd8eb99390ff7f823632a33" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>responseClass</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a6159b59a2095afb0dedaf9c3c7e6fcdb" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>send</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a12c287a86c768a9cfc7950940777df31" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setAccept</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ac799a5111948c00d9bedc2be2d2e2c0a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setAdditionalRequestHeaders</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a175c67f5a19cd230a29daffb58cd7666" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setContentType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a35c511c75d597390d70e0c3d224f8f5c" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setCorrelationId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a589b596d8b2d0835963f922f78d1b7d5" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setErrorHandler</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a288e16c380a62ceea5f3d5c92efa213f" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setIfMatch</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1aa54f8feac912167000bcebe1b12bcd0e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setIsUrlPathAlreadyBuilt</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ad50de57d9fa97ba2c0cdacc391c4c4d4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setJsonConverter</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a50b00feda6fd8cb8f2ec5be78a8fe40b" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setLocale</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a64bd87339cf53990f43bb2dd6bb8c973" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setRequestId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a843f451e696392ebde9b15926ec01400" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setResourcePath</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1ac9ee46cd909dfbc915aad510ee9abe88" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>setUriParameters</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1a70546c907dd9cac32b0e898e3ef56b0a" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>UTF8_BOM</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1network_1_1_partner_service_proxy_1add98d7bc8f54ad186a39d3a90faeeabe" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::network::PartnerServiceProxy</scope>
+        <name>validateCredentials</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

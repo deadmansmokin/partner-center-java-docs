@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.analytics._i_customer_licenses_analytics_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations.deployments" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.analytics._i_customer_licenses_deployment_insights_collection" kindref="compound">ICustomerLicensesDeploymentInsightsCollection</ref>
+        </type>
+        <definition>ICustomerLicensesDeploymentInsightsCollection com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.deployments</definition>
+        <argsstring></argsstring>
+        <name>deployments</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>A lazy reference to the current customer's licenses deployment analytics. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" line="23" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" bodystart="23" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations.usage" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.analytics._i_customer_licenses_usage_insights_collection" kindref="compound">ICustomerLicensesUsageInsightsCollection</ref>
+        </type>
+        <definition>ICustomerLicensesUsageInsightsCollection com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.usage</definition>
+        <argsstring></argsstring>
+        <name>usage</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>A lazy reference to the current customer's licenses usage analytics. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" bodystart="28" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations.CustomerLicensesAnalyticsCollectionOperations(IPartner,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId)</argsstring>
+        <name>CustomerLicensesAnalyticsCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the CustomerLicensesAnalyticsCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The identifier of the customer. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" line="36" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" bodystart="36" bodyend="47" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations.getDeployment()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.analytics._i_customer_licenses_deployment_insights_collection" kindref="compound">ICustomerLicensesDeploymentInsightsCollection</ref>
+        </type>
+        <definition>ICustomerLicensesDeploymentInsightsCollection com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getDeployment</definition>
+        <argsstring>()</argsstring>
+        <name>getDeployment</name>
+        <reimplements refid="com.microsoft.store.partnercenter.analytics._i_customer_licenses_analytics_collection.getDeployment()">getDeployment</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the customer level licenses deployment analytics.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer level licenses deployment analytics </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" line="55" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" bodystart="55" bodyend="58" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations.getUsage()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.analytics._i_customer_licenses_usage_insights_collection" kindref="compound">ICustomerLicensesUsageInsightsCollection</ref>
+        </type>
+        <definition>ICustomerLicensesUsageInsightsCollection com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getUsage</definition>
+        <argsstring>()</argsstring>
+        <name>getUsage</name>
+        <reimplements refid="com.microsoft.store.partnercenter.analytics._i_customer_licenses_analytics_collection.getUsage()">getUsage</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the customer level licenses usage analytics.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer level licenses usage analytics. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" line="66" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" bodystart="66" bodyend="69" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements the operations on a customer licenses analytics collection. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="725">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="720">
+        <label>com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations" />
+        <childnode refid="721" relation="public-inheritance"></childnode>
+        <childnode refid="723" relation="public-inheritance"></childnode>
+      </node>
+      <node id="722">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="721">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="722" relation="public-inheritance"></childnode>
+      </node>
+      <node id="723">
+        <label>com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.analytics._i_customer_licenses_analytics_collection" />
+        <childnode refid="724" relation="public-inheritance"></childnode>
+      </node>
+      <node id="724">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="725" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="731">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="726">
+        <label>com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations" />
+        <childnode refid="727" relation="public-inheritance"></childnode>
+        <childnode refid="729" relation="public-inheritance"></childnode>
+      </node>
+      <node id="728">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="727">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="728" relation="public-inheritance"></childnode>
+      </node>
+      <node id="729">
+        <label>com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.analytics._i_customer_licenses_analytics_collection" />
+        <childnode refid="730" relation="public-inheritance"></childnode>
+      </node>
+      <node id="730">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="731" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/CustomerLicensesAnalyticsCollectionOperations.java" bodystart="16" bodyend="70" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner,String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations.CustomerLicensesAnalyticsCollectionOperations(IPartner,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>CustomerLicensesAnalyticsCollectionOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations.deployments" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>deployments</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::analytics::ICustomerLicensesAnalyticsCollection.">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations.getDeployment()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>getDeployment</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::analytics::ICustomerLicensesAnalyticsCollection.">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations.getUsage()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>getUsage</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.analytics._customer_licenses_analytics_collection_operations.usage" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::CustomerLicensesAnalyticsCollectionOperations</scope>
+        <name>usage</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

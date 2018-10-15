@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.invoices._i_invoice_summary_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::invoices::IInvoiceSummaryCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;ResourceCollection&lt;InvoiceSummary&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.invoices._i_invoice_summary_collection.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary" kindref="compound">InvoiceSummary</ref>&gt;</type>
+        <definition>ResourceCollection&lt;InvoiceSummary&gt; com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves an entity.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entity. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceSummaryCollection.java" line="23" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="2232">
+        <label>com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations" />
+        <childnode refid="2228" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2230">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="2228">
+        <label>com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection</label>
+        <link refid="com.microsoft.store.partnercenter.invoices._i_invoice_summary_collection" />
+        <childnode refid="2229" relation="public-inheritance"></childnode>
+        <childnode refid="2231" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2231">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;ResourceCollection&lt;InvoiceSummary&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="2229">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="2230" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2235">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="2233">
+        <label>com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection</label>
+        <link refid="com.microsoft.store.partnercenter.invoices._i_invoice_summary_collection" />
+        <childnode refid="2234" relation="public-inheritance"></childnode>
+        <childnode refid="2236" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2236">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;ResourceCollection&lt;InvoiceSummary&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="2234">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="2235" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceSummaryCollection.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceSummaryCollection.java" bodystart="17" bodyend="24" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.invoices._i_invoice_summary_collection.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::invoices::IInvoiceSummaryCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::invoices::IInvoiceSummaryCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::invoices::IInvoiceSummaryCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

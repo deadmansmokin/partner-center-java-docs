@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.products._sku_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::products::SkuOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.products._i_sku" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.ISku</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.products._sku_operations.availabilities" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.products._i_availability_collection" kindref="compound">IAvailabilityCollection</ref>
+        </type>
+        <definition>IAvailabilityCollection com.microsoft.store.partnercenter.products.SkuOperations.availabilities</definition>
+        <argsstring></argsstring>
+        <name>availabilities</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" bodystart="33" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.products._sku_operations.downloadOptions" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.products._i_sku_download_options" kindref="compound">ISkuDownloadOptions</ref>
+        </type>
+        <definition>ISkuDownloadOptions com.microsoft.store.partnercenter.products.SkuOperations.downloadOptions</definition>
+        <argsstring></argsstring>
+        <name>downloadOptions</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" bodystart="38" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.products._sku_operations.SkuOperations(IPartner,String,String,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.products.SkuOperations.SkuOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String productId, String skuId, String country)</argsstring>
+        <name>SkuOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>productId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>skuId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>country</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SkuOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>productId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier of the product. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>skuId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier of the SKU. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>country</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The country on which to base the availability. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" line="48" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" bodystart="48" bodyend="61" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.products._sku_operations.getAvailabilities()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.products._i_availability_collection" kindref="compound">IAvailabilityCollection</ref>
+        </type>
+        <definition>IAvailabilityCollection com.microsoft.store.partnercenter.products.SkuOperations.getAvailabilities</definition>
+        <argsstring>()</argsstring>
+        <name>getAvailabilities</name>
+        <reimplements refid="com.microsoft.store.partnercenter.products._i_sku.getAvailabilities()">getAvailabilities</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" line="68" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" bodystart="68" bodyend="76" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.products._sku_operations.getDownloadOptions()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.products._i_sku_download_options" kindref="compound">ISkuDownloadOptions</ref>
+        </type>
+        <definition>ISkuDownloadOptions com.microsoft.store.partnercenter.products.SkuOperations.getDownloadOptions</definition>
+        <argsstring>()</argsstring>
+        <name>getDownloadOptions</name>
+        <reimplements refid="com.microsoft.store.partnercenter.products._i_sku.getDownloadOptions()">getDownloadOptions</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" line="83" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" bodystart="83" bodyend="91" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.products._sku_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.products._sku" kindref="compound">Sku</ref>
+        </type>
+        <definition>Sku com.microsoft.store.partnercenter.products.SkuOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.products._i_sku.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves an entity.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entity. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" line="98" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" bodystart="98" bodyend="112" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements a single sku operations. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4259">
+        <label>com.microsoft.store.partnercenter.products.SkuOperations</label>
+        <link refid="com.microsoft.store.partnercenter.products._sku_operations" />
+        <childnode refid="4260" relation="public-inheritance"></childnode>
+        <childnode refid="4262" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4264">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Sku&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="4261">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4260">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="4261" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4262">
+        <label>com.microsoft.store.partnercenter.products.ISku</label>
+        <link refid="com.microsoft.store.partnercenter.products._i_sku" />
+        <childnode refid="4263" relation="public-inheritance"></childnode>
+        <childnode refid="4264" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4263">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4265">
+        <label>com.microsoft.store.partnercenter.products.SkuOperations</label>
+        <link refid="com.microsoft.store.partnercenter.products._sku_operations" />
+        <childnode refid="4266" relation="public-inheritance"></childnode>
+        <childnode refid="4268" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4270">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Sku&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="4267">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4266">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="4267" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4268">
+        <label>com.microsoft.store.partnercenter.products.ISku</label>
+        <link refid="com.microsoft.store.partnercenter.products._i_sku" />
+        <childnode refid="4269" relation="public-inheritance"></childnode>
+        <childnode refid="4270" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4269">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/SkuOperations.java" bodystart="26" bodyend="113" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.products._sku_operations.availabilities" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::SkuOperations</scope>
+        <name>availabilities</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::SkuOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.products._sku_operations.downloadOptions" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::SkuOperations</scope>
+        <name>downloadOptions</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.products._sku_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::SkuOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.products._sku_operations.getAvailabilities()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::SkuOperations</scope>
+        <name>getAvailabilities</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::SkuOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.products._sku_operations.getDownloadOptions()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::SkuOperations</scope>
+        <name>getDownloadOptions</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::SkuOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.products._sku_operations.SkuOperations(IPartner,String,String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::SkuOperations</scope>
+        <name>SkuOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

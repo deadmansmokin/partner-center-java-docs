@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_support_topics_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::servicerequests::ISupportTopicsCollection</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;SupportTopic, ResourceCollection&lt;SupportTopic&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_support_topics_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_support_topics_collection_1a4f2ea7dd5d61843c81e66dc1da7f1cf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1servicerequests_1_1_support_topic" kindref="compound">SupportTopic</ref>&gt;</type>
+        <definition>ResourceCollection&lt;SupportTopic&gt; com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations_1a2550ba7980c285cdff14a8d50666d617">get</reimplements>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_support_topics_collection_operations_1a873e9cc3b4791616504ad8365353eb18">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/ISupportTopicsCollection.java" line="25" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents the behavior of support topics. Support Topics operations are localizable. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3215">
+        <label>com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_support_topics_collection_operations" />
+        <childnode refid="3211" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3213">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3212">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3213" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3211">
+        <label>com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_support_topics_collection" />
+        <childnode refid="3212" relation="public-inheritance"></childnode>
+        <childnode refid="3214" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3214">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;SupportTopic, ResourceCollection&lt;SupportTopic&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3218">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="3217">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="3218" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3216">
+        <label>com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_support_topics_collection" />
+        <childnode refid="3217" relation="public-inheritance"></childnode>
+        <childnode refid="3219" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3219">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;SupportTopic, ResourceCollection&lt;SupportTopic&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/ISupportTopicsCollection.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/ISupportTopicsCollection.java" bodystart="17" bodyend="26" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_support_topics_collection_1a4f2ea7dd5d61843c81e66dc1da7f1cf6" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::ISupportTopicsCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::ISupportTopicsCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::ISupportTopicsCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

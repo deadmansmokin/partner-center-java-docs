@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::query::IndexedQuery</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.query.SimpleQuery</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.query.SeekQuery</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a1786e5d2108ff93511f2ec0eb1dc0839" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.query.IndexedQuery.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The starting index of the results to return. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" bodystart="33" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1ab3e515905fc00437c4cce0e6dddafc60" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.query.IndexedQuery.pageSize</definition>
+        <argsstring></argsstring>
+        <name>pageSize</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The number of results to return. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" bodystart="38" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a71ae0e16688b0f7ef656989b19451164" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery</definition>
+        <argsstring>(Object token)</argsstring>
+        <name>IndexedQuery</name>
+        <param>
+          <type>Object</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" line="18" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" bodystart="18" bodyend="22" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a898940966e2e07a8be49a51e97ea4e34" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery</definition>
+        <argsstring>()</argsstring>
+        <name>IndexedQuery</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" bodystart="24" bodyend="28" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a148c7ae566ddc87aa6d7e5d6c66b1966" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_query_type" kindref="compound">QueryType</ref>
+        </type>
+        <definition>QueryType com.microsoft.store.partnercenter.models.query.IndexedQuery.getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a203d42cfee873b91d6fe93af3e91f516">getType</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the query type. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" line="43" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" bodystart="43" bodyend="47" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a384825ce3df59dfb3a407f73ad0f34de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.query.IndexedQuery.getIndex</definition>
+        <argsstring>()</argsstring>
+        <name>getIndex</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ad67d61eec544a4ae65ce5e225d5a9b76">getIndex</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the starting index of the results to return. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" line="52" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" bodystart="52" bodyend="56" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a7c046a9bb052d1036a3e06a34bc959b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setIndex</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ae6c897107f620f9cabcc4d15e4bd8a49">setIndex</reimplements>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the result starting index.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The result starting index. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" bodystart="58" bodyend="62" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a691c9f529f2ccaad9c4aea3323e65d93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.query.IndexedQuery.getPageSize</definition>
+        <argsstring>()</argsstring>
+        <name>getPageSize</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a264a8c81120b84fcda2343830182b5c4">getPageSize</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the number of results to return. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" line="67" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" bodystart="67" bodyend="71" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a3e71fb54733dbc907edb77708aec7c15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.IndexedQuery.setPageSize</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setPageSize</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ac042fadc84a3251ef601ded85571bfd4">setPageSize</reimplements>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the results page size.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The results page size. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" line="73" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" bodystart="73" bodyend="77" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1aade8add2fa8b9743d6135b12e9c2812b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.query.IndexedQuery.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Returns a string representation of the query.</para>
+          <para>
+            <simplesect kind="return">
+              <para>A string representation of the query. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" line="84" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" bodystart="84" bodyend="95" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>A query that supports pagination. Use this for huge datasets. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2286">
+        <label>com.microsoft.store.partnercenter.models.query.SeekQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query" />
+        <childnode refid="2282" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2282">
+        <label>com.microsoft.store.partnercenter.models.query.IndexedQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query" />
+        <childnode refid="2283" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2284">
+        <label>com.microsoft.store.partnercenter.models.query.BaseQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query" />
+        <childnode refid="2285" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2285">
+        <label>com.microsoft.store.partnercenter.models.query.IQuery</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query" />
+      </node>
+      <node id="2283">
+        <label>com.microsoft.store.partnercenter.models.query.SimpleQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query" />
+        <childnode refid="2284" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2287">
+        <label>com.microsoft.store.partnercenter.models.query.IndexedQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query" />
+        <childnode refid="2288" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2289">
+        <label>com.microsoft.store.partnercenter.models.query.BaseQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query" />
+        <childnode refid="2290" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2290">
+        <label>com.microsoft.store.partnercenter.models.query.IQuery</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query" />
+      </node>
+      <node id="2288">
+        <label>com.microsoft.store.partnercenter.models.query.SimpleQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query" />
+        <childnode refid="2289" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/IndexedQuery.java" bodystart="15" bodyend="97" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a0ce97bb56c8e7d77bc6202bcf765653e" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>BaseQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a3698ffc86bd4631cae90a5126f4226b6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>BaseQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a607797949b225ae4c64b92d3a2ea643d" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>getFilter</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a384825ce3df59dfb3a407f73ad0f34de" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>getIndex</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a691c9f529f2ccaad9c4aea3323e65d93" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>getPageSize</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a9779641c1ee6f6582a6da972ba884e27" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>getSeekOperation</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a90d8d3b11fda21002f0874e040043db3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>getSort</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a5fb980b6013a3106b3dc64e1e49dfb57" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>getToken</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a148c7ae566ddc87aa6d7e5d6c66b1966" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>getType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a1786e5d2108ff93511f2ec0eb1dc0839" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>index</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a71ae0e16688b0f7ef656989b19451164" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>IndexedQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a898940966e2e07a8be49a51e97ea4e34" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>IndexedQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1ab3e515905fc00437c4cce0e6dddafc60" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>pageSize</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1abfcff35a247777bba668808ccda0ca67" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>setFilter</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a7c046a9bb052d1036a3e06a34bc959b6" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>setIndex</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1a3e71fb54733dbc907edb77708aec7c15" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>setPageSize</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a8aa77ef0d62d12e28897b24e753f0acb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>setSeekOperation</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a4b507a2365a93c9b82eb6882415562f5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>setSort</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1aaffe23ab34dcdee695c7ece3798e7eaa" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>setToken</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a9c1024fe079c3e8cc541d1e9eabaf9b1" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>SimpleQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a1fc377b6b2b883fa2132b921b6792d57" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>SimpleQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query_1aade8add2fa8b9743d6135b12e9c2812b" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::IndexedQuery</scope>
+        <name>toString</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

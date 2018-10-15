@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::orders::IOrder</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Order&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;Order&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_order_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.orders.OrderOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_1ab22bbf49fa7120b5cc7a691504ddd13e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order" kindref="compound">Order</ref>
+        </type>
+        <definition>Order com.microsoft.store.partnercenter.orders.IOrder.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations_1aa2e3cf8b3d1237922579e228472e1b24">get</reimplements>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_order_operations_1af72067c935e6d2149133acd176c72562">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves an entity.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entity. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/IOrder.java" line="25" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_1af1de435c6491ac1462d9c0cf1c2b16e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order" kindref="compound">Order</ref>
+        </type>
+        <definition>Order com.microsoft.store.partnercenter.orders.IOrder.patch</definition>
+        <argsstring>(Order partialOrder)</argsstring>
+        <name>patch</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_order_operations_1ae5d0e5de3ea15877bb8fa0d23b759d14">patch</reimplementedby>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1orders_1_1_order" kindref="compound">Order</ref>
+          </type>
+          <declname>partialOrder</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/IOrder.java" line="32" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Encapsulates a customer order behavior. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2474">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2475">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Order&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="2473">
+        <label>com.microsoft.store.partnercenter.orders.IOrder</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order" />
+        <childnode refid="2474" relation="public-inheritance"></childnode>
+        <childnode refid="2475" relation="public-inheritance"></childnode>
+        <childnode refid="2476" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2476">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;Order&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations" />
+      </node>
+      <node id="2477">
+        <label>com.microsoft.store.partnercenter.orders.OrderOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_order_operations" />
+        <childnode refid="2473" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2479">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2480">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Order&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="2478">
+        <label>com.microsoft.store.partnercenter.orders.IOrder</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order" />
+        <childnode refid="2479" relation="public-inheritance"></childnode>
+        <childnode refid="2480" relation="public-inheritance"></childnode>
+        <childnode refid="2481" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2481">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;Order&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/IOrder.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/IOrder.java" bodystart="18" bodyend="33" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_1ab22bbf49fa7120b5cc7a691504ddd13e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::IOrder</scope>
+        <name>get</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::IOrder</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::IOrder</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_1af1de435c6491ac1462d9c0cf1c2b16e7" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::IOrder</scope>
+        <name>patch</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations_1ac05e2fca307079ba25695f34bbcaa27a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations.">
+        <scope>com::microsoft::store::partnercenter::orders::IOrder</scope>
+        <name>patch</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

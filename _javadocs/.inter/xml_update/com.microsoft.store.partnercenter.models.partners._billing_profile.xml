@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.partners._billing_profile" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::partners::BillingProfile</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base_with_links" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._billing_profile.__CompanyName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.BillingProfile.__CompanyName</definition>
+        <argsstring></argsstring>
+        <name>__CompanyName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the billing company name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="35" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="35" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._billing_profile.__Address" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref>
+        </type>
+        <definition>Address com.microsoft.store.partnercenter.models.partners.BillingProfile.__Address</definition>
+        <argsstring></argsstring>
+        <name>__Address</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the billing address. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="50" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="50" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._billing_profile.__PrimaryContact" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._contact" kindref="compound">Contact</ref>
+        </type>
+        <definition>Contact com.microsoft.store.partnercenter.models.partners.BillingProfile.__PrimaryContact</definition>
+        <argsstring></argsstring>
+        <name>__PrimaryContact</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the billing primary contact. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="65" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="65" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._billing_profile.__PurchaseOrderNumber" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.BillingProfile.__PurchaseOrderNumber</definition>
+        <argsstring></argsstring>
+        <name>__PurchaseOrderNumber</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the purchase order number. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="80" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="80" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._billing_profile.__TaxId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.BillingProfile.__TaxId</definition>
+        <argsstring></argsstring>
+        <name>__TaxId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the tax Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="95" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="95" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._billing_profile.__BillingDay" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.partners.BillingProfile.__BillingDay</definition>
+        <argsstring></argsstring>
+        <name>__BillingDay</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the billing day. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="110" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="110" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.partners._billing_profile.__BillingCurrency" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.BillingProfile.__BillingCurrency</definition>
+        <argsstring></argsstring>
+        <name>__BillingCurrency</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the billing currency. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="125" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="125" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.BillingProfile()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.partners.BillingProfile.BillingProfile</definition>
+        <argsstring>()</argsstring>
+        <name>BillingProfile</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the BillingProfile class. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="26" bodyend="30" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.getCompanyName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.BillingProfile.getCompanyName</definition>
+        <argsstring>()</argsstring>
+        <name>getCompanyName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="37" bodyend="40" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.setCompanyName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.BillingProfile.setCompanyName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCompanyName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="42" bodyend="45" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.getAddress()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref>
+        </type>
+        <definition>Address com.microsoft.store.partnercenter.models.partners.BillingProfile.getAddress</definition>
+        <argsstring>()</argsstring>
+        <name>getAddress</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="52" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="52" bodyend="55" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.setAddress(Address)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.BillingProfile.setAddress</definition>
+        <argsstring>(Address value)</argsstring>
+        <name>setAddress</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models._address" kindref="compound">Address</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="57" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="57" bodyend="60" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.getPrimaryContact()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._contact" kindref="compound">Contact</ref>
+        </type>
+        <definition>Contact com.microsoft.store.partnercenter.models.partners.BillingProfile.getPrimaryContact</definition>
+        <argsstring>()</argsstring>
+        <name>getPrimaryContact</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="67" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="67" bodyend="70" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.setPrimaryContact(Contact)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.BillingProfile.setPrimaryContact</definition>
+        <argsstring>(Contact value)</argsstring>
+        <name>setPrimaryContact</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models._contact" kindref="compound">Contact</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="72" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="72" bodyend="75" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.getPurchaseOrderNumber()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.BillingProfile.getPurchaseOrderNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getPurchaseOrderNumber</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="82" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="82" bodyend="85" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.setPurchaseOrderNumber(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.BillingProfile.setPurchaseOrderNumber</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setPurchaseOrderNumber</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="87" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="87" bodyend="90" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.getTaxId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.BillingProfile.getTaxId</definition>
+        <argsstring>()</argsstring>
+        <name>getTaxId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="97" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="97" bodyend="100" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.setTaxId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.BillingProfile.setTaxId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setTaxId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="102" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="102" bodyend="105" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.getBillingDay()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.partners.BillingProfile.getBillingDay</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingDay</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="112" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="112" bodyend="115" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.setBillingDay(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.BillingProfile.setBillingDay</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setBillingDay</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="117" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="117" bodyend="120" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.getBillingCurrency()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.partners.BillingProfile.getBillingCurrency</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingCurrency</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="127" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="127" bodyend="130" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.partners._billing_profile.setBillingCurrency(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.partners.BillingProfile.setBillingCurrency</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setBillingCurrency</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="132" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="132" bodyend="135" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents a partner's billing profile. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="397">
+        <label>com.microsoft.store.partnercenter.models.partners.BillingProfile</label>
+        <link refid="com.microsoft.store.partnercenter.models.partners._billing_profile" />
+        <childnode refid="398" relation="public-inheritance"></childnode>
+      </node>
+      <node id="398">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="399" relation="public-inheritance"></childnode>
+      </node>
+      <node id="399">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="400">
+        <label>com.microsoft.store.partnercenter.models.partners.BillingProfile</label>
+        <link refid="com.microsoft.store.partnercenter.models.partners._billing_profile" />
+        <childnode refid="401" relation="public-inheritance"></childnode>
+      </node>
+      <node id="401">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="402" relation="public-inheritance"></childnode>
+      </node>
+      <node id="402">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java" bodystart="20" bodyend="136" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.__Address" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>__Address</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.__BillingCurrency" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>__BillingCurrency</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.__BillingDay" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>__BillingDay</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.__CompanyName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>__CompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.__PrimaryContact" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>__PrimaryContact</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.__PurchaseOrderNumber" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>__PurchaseOrderNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.__TaxId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>__TaxId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.BillingProfile()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>BillingProfile</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.getAddress()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>getAddress</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.getBillingCurrency()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>getBillingCurrency</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.getBillingDay()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>getBillingDay</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.getCompanyName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>getCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.getLinks()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.getPrimaryContact()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>getPrimaryContact</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.getPurchaseOrderNumber()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>getPurchaseOrderNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.getTaxId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>getTaxId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.setAddress(Address)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>setAddress</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.setBillingCurrency(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>setBillingCurrency</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.setBillingDay(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>setBillingDay</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.setCompanyName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>setCompanyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.setLinks(TLinks)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.setPrimaryContact(Contact)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>setPrimaryContact</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.setPurchaseOrderNumber(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>setPurchaseOrderNumber</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.partners._billing_profile.setTaxId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::partners::BillingProfile</scope>
+        <name>setTaxId</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

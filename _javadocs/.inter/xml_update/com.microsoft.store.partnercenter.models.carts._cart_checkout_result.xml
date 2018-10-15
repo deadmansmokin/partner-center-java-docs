@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.carts._cart_checkout_result" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::carts::CartCheckoutResult</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.ResourceBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.__Orders" prot="private" static="no" mutable="no">
+        <type>List&lt;<ref refid="com.microsoft.store.partnercenter.models.orders._order" kindref="compound">Order</ref>&gt;</type>
+        <definition>List&lt;Order&gt; com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.__Orders</definition>
+        <argsstring></argsstring>
+        <name>__Orders</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" line="25" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" bodystart="25" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.__OrderErrors" prot="private" static="no" mutable="no">
+        <type>List&lt;<ref refid="com.microsoft.store.partnercenter.models.carts._order_error" kindref="compound">OrderError</ref>&gt;</type>
+        <definition>List&lt;OrderError&gt; com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.__OrderErrors</definition>
+        <argsstring></argsstring>
+        <name>__OrderErrors</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" line="41" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" bodystart="41" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.getOrders()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt;<ref refid="com.microsoft.store.partnercenter.models.orders._order" kindref="compound">Order</ref>&gt;</type>
+        <definition>List&lt;Order&gt; com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.getOrders</definition>
+        <argsstring>()</argsstring>
+        <name>getOrders</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" bodystart="27" bodyend="30" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.setOrders(List&lt;Order&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrders</definition>
+        <argsstring>(List&lt;Order&gt; value)</argsstring>
+        <name>setOrders</name>
+        <param>
+          <type>List&lt;<ref refid="com.microsoft.store.partnercenter.models.orders._order" kindref="compound">Order</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" line="32" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" bodystart="32" bodyend="35" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.getOrderErrors()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt;<ref refid="com.microsoft.store.partnercenter.models.carts._order_error" kindref="compound">OrderError</ref>&gt;</type>
+        <definition>List&lt;OrderError&gt; com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.getOrderErrors</definition>
+        <argsstring>()</argsstring>
+        <name>getOrderErrors</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" line="43" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" bodystart="43" bodyend="46" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.setOrderErrors(List&lt;OrderError&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrderErrors</definition>
+        <argsstring>(List&lt;OrderError&gt; value)</argsstring>
+        <name>setOrderErrors</name>
+        <param>
+          <type>List&lt;<ref refid="com.microsoft.store.partnercenter.models.carts._order_error" kindref="compound">OrderError</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" line="48" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" bodystart="48" bodyend="51" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="429">
+        <label>com.microsoft.store.partnercenter.models.carts.CartCheckoutResult</label>
+        <link refid="com.microsoft.store.partnercenter.models.carts._cart_checkout_result" />
+        <childnode refid="430" relation="public-inheritance"></childnode>
+      </node>
+      <node id="430">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="431">
+        <label>com.microsoft.store.partnercenter.models.carts.CartCheckoutResult</label>
+        <link refid="com.microsoft.store.partnercenter.models.carts._cart_checkout_result" />
+        <childnode refid="432" relation="public-inheritance"></childnode>
+      </node>
+      <node id="432">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/carts/CartCheckoutResult.java" bodystart="18" bodyend="52" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.__OrderErrors" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::CartCheckoutResult</scope>
+        <name>__OrderErrors</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.__Orders" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::CartCheckoutResult</scope>
+        <name>__Orders</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::CartCheckoutResult</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.getOrderErrors()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::CartCheckoutResult</scope>
+        <name>getOrderErrors</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.getOrders()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::CartCheckoutResult</scope>
+        <name>getOrders</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::CartCheckoutResult</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::CartCheckoutResult</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.setOrderErrors(List&lt;OrderError&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::CartCheckoutResult</scope>
+        <name>setOrderErrors</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.carts._cart_checkout_result.setOrders(List&lt;Order&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::carts::CartCheckoutResult</scope>
+        <name>setOrders</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_index_based_collection_enumerator" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::enumerators::IndexBasedCollectionEnumerator</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator&lt;TResourceCollection&gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+        <typeconstraint>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" kindref="compound">ResourceBase</ref>
+        </typeconstraint>
+      </param>
+      <param>
+        <type>TResourceCollection</type>
+        <typeconstraint>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kindref="compound">ResourceCollection</ref>&lt;T</typeconstraint>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_index_based_collection_enumerator_1a0a4dec6da050b47a4a6a7e15bd2b1c68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator&lt;T extends ResourceBase, TResourceCollection extends ResourceCollection&lt;T&gt;.IndexBasedCollectionEnumerator</definition>
+        <argsstring>(IPartner partnerOperations, TResourceCollection pagedResourceCollection, ObjectMapper resourceCollectionConverter, TypeReference&lt;TResourceCollection&gt; responseType)</argsstring>
+        <name>IndexBasedCollectionEnumerator</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>partnerOperations</declname>
+        </param>
+        <param>
+          <type>TResourceCollection</type>
+          <declname>pagedResourceCollection</declname>
+        </param>
+        <param>
+          <type>ObjectMapper</type>
+          <declname>resourceCollectionConverter</declname>
+        </param>
+        <param>
+          <type>TypeReference&lt;TResourceCollection&gt;</type>
+          <declname>responseType</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the IndexBasedCollectionEnumerator class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>partnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>A partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>pagedResourceCollection</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The paged resource collection to enumerate from. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>resourceCollectionConverter</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The resource collection converter. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>responseType</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The type of resource collection. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/enumerators/IndexBasedCollectionEnumerator.java" line="30" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/enumerators/IndexBasedCollectionEnumerator.java" bodystart="30" bodyend="36" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Enumerator for index based pagination Index based - Paged query where index and page size is used. The type of resource /// The type of resource collection. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2271">
+        <label>com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator&lt;TResourceCollection&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator" />
+      </node>
+      <node id="2270">
+        <label>com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator&lt;T extends ResourceBase, TResourceCollection extends ResourceCollection&lt;T&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_index_based_collection_enumerator" />
+        <childnode refid="2271" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2273">
+        <label>com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator&lt;TResourceCollection&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator" />
+      </node>
+      <node id="2272">
+        <label>com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator&lt;T extends ResourceBase, TResourceCollection extends ResourceCollection&lt;T&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_index_based_collection_enumerator" />
+        <childnode refid="2273" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/enumerators/IndexBasedCollectionEnumerator.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/enumerators/IndexBasedCollectionEnumerator.java" bodystart="19" bodyend="37" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator_1a732d9b457518c5795abf09eddec9d02d" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IndexBasedCollectionEnumerator</scope>
+        <name>BaseResourceCollectionEnumerator</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator_1a57c4f74d099dcec9e8b26c67a69a6dd3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IndexBasedCollectionEnumerator</scope>
+        <name>getCurrent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator_1a64dcf5836ed1f692ab562f4dba0e39c3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IndexBasedCollectionEnumerator</scope>
+        <name>hasValue</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_index_based_collection_enumerator_1a0a4dec6da050b47a4a6a7e15bd2b1c68" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IndexBasedCollectionEnumerator</scope>
+        <name>IndexBasedCollectionEnumerator</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator_1a2ffd1810ea2cef24b6fcf5920e496381" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IndexBasedCollectionEnumerator</scope>
+        <name>isFirstPage</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator_1a40fe43df11a2f9c2c4dfba2569045269" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IndexBasedCollectionEnumerator</scope>
+        <name>isLastPage</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator_1aca698bd3b179975cfefccac848f876f7" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IndexBasedCollectionEnumerator</scope>
+        <name>next</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator_1a0d1ae8a7720e4e8428e8814da3d9fec8" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IndexBasedCollectionEnumerator</scope>
+        <name>next</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator_1a57024600ddcb798f4569f0817c324bb3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IndexBasedCollectionEnumerator</scope>
+        <name>previous</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1enumerators_1_1_base_resource_collection_enumerator_1a3371ba48fc4194629171ab84ef53fc4c" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::enumerators::IndexBasedCollectionEnumerator</scope>
+        <name>previous</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

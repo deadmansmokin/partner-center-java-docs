@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::profiles::IPartnerProfileCollection</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_partner_profile_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection_1aaf29b19f173843d51fa2353e4a09dfe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_legal_business_profile" kindref="compound">ILegalBusinessProfile</ref>
+        </type>
+        <definition>ILegalBusinessProfile com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getLegalBusinessProfile</definition>
+        <argsstring>()</argsstring>
+        <name>getLegalBusinessProfile</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_partner_profile_collection_operations_1a68ce238c7057f4bdbdb9d954e41d02f5">getLegalBusinessProfile</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the operations available for the legal business profile.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The operations available for the legal business profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IPartnerProfileCollection.java" line="22" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection_1a324e71e5cc20d723e1dc9478d889d1c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_mpn_profile" kindref="compound">IMpnProfile</ref>
+        </type>
+        <definition>IMpnProfile com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getMpnProfile</definition>
+        <argsstring>()</argsstring>
+        <name>getMpnProfile</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_partner_profile_collection_operations_1a564bf66eb7541e13e0220fb39b98f13d">getMpnProfile</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the operations available for the partner network profile.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The operations available for the partner network profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IPartnerProfileCollection.java" line="29" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection_1a5bc8c572e2d5a749ef2ab02b3fac1284" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_support_profile" kindref="compound">ISupportProfile</ref>
+        </type>
+        <definition>ISupportProfile com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile</definition>
+        <argsstring>()</argsstring>
+        <name>getSupportProfile</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_partner_profile_collection_operations_1abcbec881d7d45c38b146ea50cdb3da55">getSupportProfile</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the operations available for the partner support profile.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The operations available for the partner support profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IPartnerProfileCollection.java" line="36" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection_1a4df71d0c35baa461f96106abdedfbed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_organization_profile" kindref="compound">IOrganizationProfile</ref>
+        </type>
+        <definition>IOrganizationProfile com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getOrganizationProfile</definition>
+        <argsstring>()</argsstring>
+        <name>getOrganizationProfile</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_partner_profile_collection_operations_1a67a211d7aac4021a0f41888a83721b52">getOrganizationProfile</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the operations available for the organization profile.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The operations available for the organization profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IPartnerProfileCollection.java" line="43" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection_1ade2ce48962e2f5d7d11b10ac73553485" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_billing_profile" kindref="compound">IBillingProfile</ref>
+        </type>
+        <definition>IBillingProfile com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingProfile</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_partner_profile_collection_operations_1aa58198f9e29f97267a7e0fdd662216ba">getBillingProfile</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the operations available for the partner billing profile.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The operations available for the partner billing profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IPartnerProfileCollection.java" line="50" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents the behavior of a partner's profiles. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2882">
+        <label>com.microsoft.store.partnercenter.profiles.PartnerProfileCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_partner_profile_collection_operations" />
+        <childnode refid="2879" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2881">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2880">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2881" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2879">
+        <label>com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection" />
+        <childnode refid="2880" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2885">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2884">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="2885" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2883">
+        <label>com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection" />
+        <childnode refid="2884" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IPartnerProfileCollection.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IPartnerProfileCollection.java" bodystart="14" bodyend="51" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection_1ade2ce48962e2f5d7d11b10ac73553485" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IPartnerProfileCollection</scope>
+        <name>getBillingProfile</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IPartnerProfileCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection_1aaf29b19f173843d51fa2353e4a09dfe9" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IPartnerProfileCollection</scope>
+        <name>getLegalBusinessProfile</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection_1a324e71e5cc20d723e1dc9478d889d1c4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IPartnerProfileCollection</scope>
+        <name>getMpnProfile</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection_1a4df71d0c35baa461f96106abdedfbed1" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IPartnerProfileCollection</scope>
+        <name>getOrganizationProfile</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IPartnerProfileCollection</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1profiles_1_1_i_partner_profile_collection_1a5bc8c572e2d5a749ef2ab02b3fac1284" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IPartnerProfileCollection</scope>
+        <name>getSupportProfile</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

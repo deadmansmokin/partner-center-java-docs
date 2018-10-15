@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>com::microsoft::store::partnercenter::models::invoices::InvoiceLineItem</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.ResourceBase</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem</derivedcompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem</derivedcompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.invoices._license_based_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem</derivedcompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_line_item.getInvoiceLineItemType()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract <ref refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item_type" kindref="compound">InvoiceLineItemType</ref></type>
+        <definition>abstract InvoiceLineItemType com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType</definition>
+        <argsstring>()</argsstring>
+        <name>getInvoiceLineItemType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the type of invoice line item.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The type of invoice line item. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceLineItem.java" line="22" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_line_item.getBillingProvider()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract <ref refid="com.microsoft.store.partnercenter.models.invoices._billing_provider" kindref="compound">BillingProvider</ref></type>
+        <definition>abstract BillingProvider com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingProvider</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the billing provider.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The billing provider. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceLineItem.java" line="29" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents a line item on an invoice. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2346">
+        <label>com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._base_usage_based_line_item" />
+        <childnode refid="2341" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2348">
+        <label>com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._usage_based_line_item" />
+        <childnode refid="2346" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2349">
+        <label>com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._license_based_line_item" />
+        <childnode refid="2341" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2343">
+        <label>com.microsoft.store.partnercenter.models.invoices.BaseAzureDataMarketLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._base_azure_data_market_line_item" />
+        <childnode refid="2341" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2345">
+        <label>com.microsoft.store.partnercenter.models.invoices.AzureDataMarketLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._azure_data_market_line_item" />
+        <childnode refid="2343" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2344">
+        <label>com.microsoft.store.partnercenter.models.invoices.AzureDataMarketDailyUsageLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._azure_data_market_daily_usage_line_item" />
+        <childnode refid="2343" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2347">
+        <label>com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._daily_usage_line_item" />
+        <childnode refid="2346" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2350">
+        <label>com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._one_time_invoice_line_item" />
+        <childnode refid="2341" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2341">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" />
+        <childnode refid="2342" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2342">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2351">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item" />
+        <childnode refid="2352" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2352">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceLineItem.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceLineItem.java" bodystart="14" bodyend="30" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceLineItem</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item.getBillingProvider()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceLineItem</scope>
+        <name>getBillingProvider</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_line_item.getInvoiceLineItemType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceLineItem</scope>
+        <name>getInvoiceLineItemType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceLineItem</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceLineItem</scope>
+        <name>ResourceBase</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

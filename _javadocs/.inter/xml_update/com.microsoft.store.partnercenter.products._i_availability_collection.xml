@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.products._i_availability_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::products::IAvailabilityCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Availability, ResourceCollection&lt;Availability&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IAvailability&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.customers.products._customer_availability_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations</derivedcompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.products._availability_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.products._i_availability_collection.byId(String)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.products._i_availability" kindref="compound">IAvailability</ref>
+        </type>
+        <definition>IAvailability com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId</definition>
+        <argsstring>(String availabilityId)</argsstring>
+        <name>byId</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector.byId(String)">byId</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.products._availability_collection_operations.byId(String)">byId</reimplementedby>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers.products._customer_availability_collection_operations.byId(String)">byId</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>availabilityId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IAvailabilityCollection.java" line="29" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.products._i_availability_collection.byTargetSegment(String)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.products._i_availability_collection_by_target_segment" kindref="compound">IAvailabilityCollectionByTargetSegment</ref>
+        </type>
+        <definition>IAvailabilityCollectionByTargetSegment com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment</definition>
+        <argsstring>(String targetSegment)</argsstring>
+        <name>byTargetSegment</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.products._availability_collection_operations.byTargetSegment(String)">byTargetSegment</reimplementedby>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers.products._customer_availability_collection_operations.byTargetSegment(String)">byTargetSegment</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>targetSegment</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IAvailabilityCollection.java" line="37" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.products._i_availability_collection.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.products._availability" kindref="compound">Availability</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Availability&gt; com.microsoft.store.partnercenter.products.IAvailabilityCollection.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.customers.products._customer_availability_collection_operations.get()">get</reimplementedby>
+        <reimplementedby refid="com.microsoft.store.partnercenter.products._availability_collection_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IAvailabilityCollection.java" line="44" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Holds operations that can be performed on availabilities. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1403">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Availability, ResourceCollection&lt;Availability&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="1405">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.customers.products._customer_availability_collection_operations" />
+        <childnode refid="1401" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1401">
+        <label>com.microsoft.store.partnercenter.products.IAvailabilityCollection</label>
+        <link refid="com.microsoft.store.partnercenter.products._i_availability_collection" />
+        <childnode refid="1402" relation="public-inheritance"></childnode>
+        <childnode refid="1403" relation="public-inheritance"></childnode>
+        <childnode refid="1404" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1404">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IAvailability&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="1406">
+        <label>com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.products._availability_collection_operations" />
+        <childnode refid="1401" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1402">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1409">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Availability, ResourceCollection&lt;Availability&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="1407">
+        <label>com.microsoft.store.partnercenter.products.IAvailabilityCollection</label>
+        <link refid="com.microsoft.store.partnercenter.products._i_availability_collection" />
+        <childnode refid="1408" relation="public-inheritance"></childnode>
+        <childnode refid="1409" relation="public-inheritance"></childnode>
+        <childnode refid="1410" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1410">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IAvailability&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="1408">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TripletTuple&lt;String, String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IAvailabilityCollection.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/products/IAvailabilityCollection.java" bodystart="19" bodyend="45" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.products._i_availability_collection.byId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IAvailabilityCollection</scope>
+        <name>byId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.products._i_availability_collection.byTargetSegment(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IAvailabilityCollection</scope>
+        <name>byTargetSegment</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.products._i_availability_collection.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IAvailabilityCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IAvailabilityCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::products::IAvailabilityCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.auditrecords._i_audit_records_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::auditrecords::IAuditRecordsCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.auditrecords._audit_records_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.auditrecords._i_audit_records_collection.query(DateTime,DateTime,IQuery)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection" kindref="compound">SeekBasedResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.auditing._audit_record" kindref="compound">AuditRecord</ref>&gt;</type>
+        <definition>SeekBasedResourceCollection&lt;AuditRecord&gt; com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection.query</definition>
+        <argsstring>(DateTime startDate, DateTime endDate, IQuery query)</argsstring>
+        <name>query</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.auditrecords._audit_records_collection.query(DateTime,DateTime,IQuery)">query</reimplementedby>
+        <param>
+          <type>DateTime</type>
+          <declname>startDate</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>endDate</declname>
+        </param>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.query._i_query" kindref="compound">IQuery</ref>
+          </type>
+          <declname>query</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/auditrecords/IAuditRecordsCollection.java" line="33" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="1388">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1386">
+        <label>com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.auditrecords._i_audit_records_collection" />
+        <childnode refid="1387" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1389">
+        <label>com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.auditrecords._audit_records_collection" />
+        <childnode refid="1386" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1387">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1388" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1392">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1390">
+        <label>com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.auditrecords._i_audit_records_collection" />
+        <childnode refid="1391" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1391">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1392" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/auditrecords/IAuditRecordsCollection.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/auditrecords/IAuditRecordsCollection.java" bodystart="19" bodyend="34" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::auditrecords::IAuditRecordsCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::auditrecords::IAuditRecordsCollection</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.auditrecords._i_audit_records_collection.query(DateTime,DateTime,IQuery)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::auditrecords::IAuditRecordsCollection</scope>
+        <name>query</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

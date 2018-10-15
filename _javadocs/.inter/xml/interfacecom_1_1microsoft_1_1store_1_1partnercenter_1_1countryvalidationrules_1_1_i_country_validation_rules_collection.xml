@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules_1_1_i_country_validation_rules_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::countryvalidationrules::ICountryValidationRulesCollection</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_country_selector" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::ICountrySelector&lt;ICountryValidationRules&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules_1_1_country_validation_rules_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules_1_1_i_country_validation_rules_collection_1a8846fe9d6609d0a0f29a4e1bd4ea244a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules_1_1_i_country_validation_rules" kindref="compound">ICountryValidationRules</ref>
+        </type>
+        <definition>ICountryValidationRules com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry</definition>
+        <argsstring>(String country)</argsstring>
+        <name>byCountry</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_country_selector_1adfa843cc201956953dc1187c05131996">byCountry</reimplements>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules_1_1_country_validation_rules_collection_operations_1a9d4e759afeef10512127aaddd446f957">byCountry</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>country</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/countryvalidationrules/ICountryValidationRulesCollection.java" line="25" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Interface and Template for Country-Specific Rules for Validation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1531">
+        <label>com::microsoft::store::partnercenter::genericoperations::ICountrySelector&lt;ICountryValidationRules&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_country_selector" />
+      </node>
+      <node id="1530">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1528">
+        <label>com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules_1_1_i_country_validation_rules_collection" />
+        <childnode refid="1529" relation="public-inheritance"></childnode>
+        <childnode refid="1531" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1529">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="1530" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1532">
+        <label>com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules_1_1_country_validation_rules_collection_operations" />
+        <childnode refid="1528" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1536">
+        <label>com::microsoft::store::partnercenter::genericoperations::ICountrySelector&lt;ICountryValidationRules&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_country_selector" />
+      </node>
+      <node id="1535">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1533">
+        <label>com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules_1_1_i_country_validation_rules_collection" />
+        <childnode refid="1534" relation="public-inheritance"></childnode>
+        <childnode refid="1536" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1534">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="1535" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/countryvalidationrules/ICountryValidationRulesCollection.java" line="18" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/countryvalidationrules/ICountryValidationRulesCollection.java" bodystart="16" bodyend="26" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1countryvalidationrules_1_1_i_country_validation_rules_collection_1a8846fe9d6609d0a0f29a4e1bd4ea244a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::countryvalidationrules::ICountryValidationRulesCollection</scope>
+        <name>byCountry</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::countryvalidationrules::ICountryValidationRulesCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::countryvalidationrules::ICountryValidationRulesCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

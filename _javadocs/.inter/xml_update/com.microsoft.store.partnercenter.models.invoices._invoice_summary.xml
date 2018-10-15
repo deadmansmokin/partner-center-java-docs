@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.invoices._invoice_summary" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base_with_links" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__BalanceAmount" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.__BalanceAmount</definition>
+        <argsstring></argsstring>
+        <name>__BalanceAmount</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the balance amount. This is the total amount of unpaid bills. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="23" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="23" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__CurrencyCode" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.__CurrencyCode</definition>
+        <argsstring></argsstring>
+        <name>__CurrencyCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the currency code for the balance amount. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="38" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__CurrencySymbol" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.__CurrencySymbol</definition>
+        <argsstring></argsstring>
+        <name>__CurrencySymbol</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the currency symbol used for all invoice item amounts and totals. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="53" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="53" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__AccountingDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.__AccountingDate</definition>
+        <argsstring></argsstring>
+        <name>__AccountingDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the date the balance amount was last updated. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="68" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="68" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__FirstInvoiceCreationDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.__FirstInvoiceCreationDate</definition>
+        <argsstring></argsstring>
+        <name>__FirstInvoiceCreationDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the date the balance amount was last updated. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="83" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="83" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__LastPaymentDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.__LastPaymentDate</definition>
+        <argsstring></argsstring>
+        <name>__LastPaymentDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the last payment date. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="98" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="98" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__LastPaymentAmount" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.__LastPaymentAmount</definition>
+        <argsstring></argsstring>
+        <name>__LastPaymentAmount</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the last payment amount. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="113" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="113" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__LatestInvoiceDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.__LatestInvoiceDate</definition>
+        <argsstring></argsstring>
+        <name>__LatestInvoiceDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the date of latest invoice. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="128" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="128" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getBalanceAmount()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount</definition>
+        <argsstring>()</argsstring>
+        <name>getBalanceAmount</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="25" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="25" bodyend="28" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setBalanceAmount(double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setBalanceAmount</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="30" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="30" bodyend="33" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getCurrencyCode()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrencyCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="40" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="40" bodyend="43" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setCurrencyCode(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCurrencyCode</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="45" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="45" bodyend="48" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getCurrencySymbol()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrencySymbol</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="55" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="55" bodyend="58" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setCurrencySymbol(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCurrencySymbol</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="60" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="60" bodyend="63" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getAccountingDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate</definition>
+        <argsstring>()</argsstring>
+        <name>getAccountingDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="70" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="70" bodyend="73" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setAccountingDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setAccountingDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="75" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="75" bodyend="78" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getFirstInvoiceCreationDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate</definition>
+        <argsstring>()</argsstring>
+        <name>getFirstInvoiceCreationDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="85" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="85" bodyend="88" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setFirstInvoiceCreationDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setFirstInvoiceCreationDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="90" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="90" bodyend="93" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getLastPaymentDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate</definition>
+        <argsstring>()</argsstring>
+        <name>getLastPaymentDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="100" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="100" bodyend="103" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setLastPaymentDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setLastPaymentDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="105" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="105" bodyend="108" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getLastPaymentAmount()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount</definition>
+        <argsstring>()</argsstring>
+        <name>getLastPaymentAmount</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="115" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="115" bodyend="118" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setLastPaymentAmount(double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setLastPaymentAmount</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="120" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="120" bodyend="123" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getLatestInvoiceDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate</definition>
+        <argsstring>()</argsstring>
+        <name>getLatestInvoiceDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="130" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="130" bodyend="133" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setLatestInvoiceDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setLatestInvoiceDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="135" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="135" bodyend="138" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represent the current balance based on Partner's monthly bills. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2406">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="2407" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2405">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceSummary</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary" />
+        <childnode refid="2406" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2407">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2409">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="2410" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2408">
+        <label>com.microsoft.store.partnercenter.models.invoices.InvoiceSummary</label>
+        <link refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary" />
+        <childnode refid="2409" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2410">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/invoices/InvoiceSummary.java" bodystart="17" bodyend="139" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__AccountingDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>__AccountingDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__BalanceAmount" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>__BalanceAmount</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__CurrencyCode" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>__CurrencyCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__CurrencySymbol" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>__CurrencySymbol</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__FirstInvoiceCreationDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>__FirstInvoiceCreationDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__LastPaymentAmount" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>__LastPaymentAmount</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__LastPaymentDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>__LastPaymentDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.__LatestInvoiceDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>__LatestInvoiceDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getAccountingDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>getAccountingDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getBalanceAmount()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>getBalanceAmount</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getCurrencyCode()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>getCurrencyCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getCurrencySymbol()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>getCurrencySymbol</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getFirstInvoiceCreationDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>getFirstInvoiceCreationDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getLastPaymentAmount()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>getLastPaymentAmount</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getLastPaymentDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>getLastPaymentDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.getLatestInvoiceDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>getLatestInvoiceDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.getLinks()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setAccountingDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>setAccountingDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setBalanceAmount(double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>setBalanceAmount</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setCurrencyCode(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>setCurrencyCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setCurrencySymbol(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>setCurrencySymbol</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setFirstInvoiceCreationDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>setFirstInvoiceCreationDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setLastPaymentAmount(double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>setLastPaymentAmount</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setLastPaymentDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>setLastPaymentDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.invoices._invoice_summary.setLatestInvoiceDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>setLatestInvoiceDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.setLinks(TLinks)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::invoices::InvoiceSummary</scope>
+        <name>setLinks</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

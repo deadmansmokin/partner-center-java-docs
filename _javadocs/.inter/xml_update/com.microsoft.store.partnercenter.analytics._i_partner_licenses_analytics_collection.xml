@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.analytics._i_partner_licenses_analytics_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::analytics::IPartnerLicensesAnalyticsCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.analytics._partner_licenses_analytics_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.analytics.PartnerLicensesAnalyticsCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.analytics._i_partner_licenses_analytics_collection.getDeployment()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.analytics._i_partner_licenses_deployment_insights_collection" kindref="compound">IPartnerLicensesDeploymentInsightsCollection</ref>
+        </type>
+        <definition>IPartnerLicensesDeploymentInsightsCollection com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getDeployment</definition>
+        <argsstring>()</argsstring>
+        <name>getDeployment</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.analytics._partner_licenses_analytics_collection_operations.getDeployment()">getDeployment</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the partner's licenses' deployment analytics.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The partner's licenses' deployment analytics. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/IPartnerLicensesAnalyticsCollection.java" line="22" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.analytics._i_partner_licenses_analytics_collection.getUsage()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.analytics._i_partner_licenses_usage_insights_collection" kindref="compound">IPartnerLicensesUsageInsightsCollection</ref>
+        </type>
+        <definition>IPartnerLicensesUsageInsightsCollection com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getUsage</definition>
+        <argsstring>()</argsstring>
+        <name>getUsage</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.analytics._partner_licenses_analytics_collection_operations.getUsage()">getUsage</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the partner's licenses' usage analytics.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The partner's licenses' usage analytics. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/IPartnerLicensesAnalyticsCollection.java" line="29" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="2856">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="2857">
+        <label>com.microsoft.store.partnercenter.analytics.PartnerLicensesAnalyticsCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.analytics._partner_licenses_analytics_collection_operations" />
+        <childnode refid="2854" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2855">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="2856" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2854">
+        <label>com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.analytics._i_partner_licenses_analytics_collection" />
+        <childnode refid="2855" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2860">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="2859">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="2860" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2858">
+        <label>com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.analytics._i_partner_licenses_analytics_collection" />
+        <childnode refid="2859" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/IPartnerLicensesAnalyticsCollection.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/analytics/IPartnerLicensesAnalyticsCollection.java" bodystart="14" bodyend="30" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::IPartnerLicensesAnalyticsCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.analytics._i_partner_licenses_analytics_collection.getDeployment()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::IPartnerLicensesAnalyticsCollection</scope>
+        <name>getDeployment</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::IPartnerLicensesAnalyticsCollection</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.analytics._i_partner_licenses_analytics_collection.getUsage()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::analytics::IPartnerLicensesAnalyticsCollection</scope>
+        <name>getUsage</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

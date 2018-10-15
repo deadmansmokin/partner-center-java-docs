@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.offers._i_category_offers_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::offers::ICategoryOffersCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityCollectionRetrievalOperations&lt;Offer, ResourceCollection&lt;Offer&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.offers._category_offers_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.offers.CategoryOffersCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.offers._i_category_offers_collection.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.offers._offer" kindref="compound">Offer</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Offer&gt; com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.offers._category_offers_collection_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all the offers in the given offer category.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The offers in the given offer category. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/ICategoryOffersCollection.java" line="23" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.offers._i_category_offers_collection.get(int,int)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.offers._offer" kindref="compound">Offer</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Offer&gt; com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get</definition>
+        <argsstring>(int offset, int size)</argsstring>
+        <name>get</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.offers._category_offers_collection_operations.get(int,int)">get</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves a subset of offers in the given offer category.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>offset</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The starting index. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>size</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The maximum number of offers to return. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The requested segment of the offers in the given offer category. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/ICategoryOffersCollection.java" line="32" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="1480">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCollectionRetrievalOperations&lt;Offer, ResourceCollection&lt;Offer&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_collection_retrieval_operations" />
+        <childnode refid="1481" relation="public-inheritance"></childnode>
+        <childnode refid="1482" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1481">
+        <label>com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&lt;T, TResourceCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="1479">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1483">
+        <label>com.microsoft.store.partnercenter.offers.CategoryOffersCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.offers._category_offers_collection_operations" />
+        <childnode refid="1478" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1478">
+        <label>com.microsoft.store.partnercenter.offers.ICategoryOffersCollection</label>
+        <link refid="com.microsoft.store.partnercenter.offers._i_category_offers_collection" />
+        <childnode refid="1479" relation="public-inheritance"></childnode>
+        <childnode refid="1480" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1482">
+        <label>com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations&lt;T, TResourceCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_paged_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1486">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCollectionRetrievalOperations&lt;Offer, ResourceCollection&lt;Offer&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_collection_retrieval_operations" />
+        <childnode refid="1487" relation="public-inheritance"></childnode>
+        <childnode refid="1488" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1487">
+        <label>com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&lt;T, TResourceCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="1485">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1484">
+        <label>com.microsoft.store.partnercenter.offers.ICategoryOffersCollection</label>
+        <link refid="com.microsoft.store.partnercenter.offers._i_category_offers_collection" />
+        <childnode refid="1485" relation="public-inheritance"></childnode>
+        <childnode refid="1486" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1488">
+        <label>com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations&lt;T, TResourceCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_paged_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/ICategoryOffersCollection.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/ICategoryOffersCollection.java" bodystart="15" bodyend="34" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.offers._i_category_offers_collection.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::ICategoryOffersCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.offers._i_category_offers_collection.get(int,int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::ICategoryOffersCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::ICategoryOffersCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::ICategoryOffersCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

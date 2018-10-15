@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.offers._offer_country_selector" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::offers::OfferCountrySelector</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_country_selector" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::ICountrySelector&lt;IOfferCollection&gt;</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.offers._offer_country_selector.OfferCountrySelector(IPartner)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.offers.OfferCountrySelector.OfferCountrySelector</definition>
+        <argsstring>(IPartner rootPartnerOperations)</argsstring>
+        <name>OfferCountrySelector</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCountrySelector.java" line="23" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCountrySelector.java" bodystart="23" bodyend="26" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.offers._offer_country_selector.byCountry(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.offers._i_offer_collection" kindref="compound">IOfferCollection</ref>
+        </type>
+        <definition>IOfferCollection com.microsoft.store.partnercenter.offers.OfferCountrySelector.byCountry</definition>
+        <argsstring>(String country)</argsstring>
+        <name>byCountry</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_country_selector.byCountry(String)">byCountry</reimplements>
+        <param>
+          <type>String</type>
+          <declname>country</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCountrySelector.java" line="32" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCountrySelector.java" bodystart="32" bodyend="37" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="3417">
+        <label>com.microsoft.store.partnercenter.offers.OfferCountrySelector</label>
+        <link refid="com.microsoft.store.partnercenter.offers._offer_country_selector" />
+        <childnode refid="3418" relation="public-inheritance"></childnode>
+        <childnode refid="3420" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3419">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="3418">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="3419" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3420">
+        <label>com::microsoft::store::partnercenter::genericoperations::ICountrySelector&lt;IOfferCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_country_selector" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3421">
+        <label>com.microsoft.store.partnercenter.offers.OfferCountrySelector</label>
+        <link refid="com.microsoft.store.partnercenter.offers._offer_country_selector" />
+        <childnode refid="3422" relation="public-inheritance"></childnode>
+        <childnode refid="3424" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3423">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="3422">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="3423" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3424">
+        <label>com::microsoft::store::partnercenter::genericoperations::ICountrySelector&lt;IOfferCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_country_selector" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCountrySelector.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/OfferCountrySelector.java" bodystart="14" bodyend="39" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCountrySelector</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCountrySelector</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner,String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCountrySelector</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.offers._offer_country_selector.byCountry(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCountrySelector</scope>
+        <name>byCountry</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCountrySelector</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCountrySelector</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.offers._offer_country_selector.OfferCountrySelector(IPartner)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::OfferCountrySelector</scope>
+        <name>OfferCountrySelector</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

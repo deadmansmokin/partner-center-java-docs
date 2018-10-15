@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models._seek_based_resource_collection" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::SeekBasedResourceCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.ResourceCollection&lt;T&gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models._seek_based_resource_collection.__ContinuationToken" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&lt;T&gt;.__ContinuationToken</definition>
+        <argsstring></argsstring>
+        <name>__ContinuationToken</name>
+        <initializer>= new String()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the continuation token. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" line="59" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" bodystart="59" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models._seek_based_resource_collection.SeekBasedResourceCollection(@JsonProperty(&quot;items&quot;) List&lt;T&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&lt;T&gt;.SeekBasedResourceCollection</definition>
+        <argsstring>(@JsonProperty("items") List&lt;T&gt; items)</argsstring>
+        <name>SeekBasedResourceCollection</name>
+        <param>
+          <type>@JsonProperty("items") List&lt;T&gt;</type>
+          <declname>items</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SeekBasedResourceCollection class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>items</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The items collection. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" bodystart="26" bodyend="30" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models._seek_based_resource_collection.SeekBasedResourceCollection(ResourceCollection&lt;T&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&lt;T&gt;.SeekBasedResourceCollection</definition>
+        <argsstring>(ResourceCollection&lt;T&gt; resourceCollection)</argsstring>
+        <name>SeekBasedResourceCollection</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;T&gt;</type>
+          <declname>resourceCollection</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SeekBasedResourceCollection class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>resourceCollection</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The resource collection. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" bodystart="37" bodyend="41" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models._seek_based_resource_collection.SeekBasedResourceCollection(List&lt;T&gt;,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&lt;T&gt;.SeekBasedResourceCollection</definition>
+        <argsstring>(List&lt;T&gt; items, String continuationToken)</argsstring>
+        <name>SeekBasedResourceCollection</name>
+        <param>
+          <type>List&lt;T&gt;</type>
+          <declname>items</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>continuationToken</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SeekBasedResourceCollection class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>items</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The items. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>continuationToken</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The continuation token. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" line="49" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" bodystart="49" bodyend="54" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models._seek_based_resource_collection.getContinuationToken()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&lt;T&gt;.getContinuationToken</definition>
+        <argsstring>()</argsstring>
+        <name>getContinuationToken</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" line="61" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" bodystart="61" bodyend="64" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models._seek_based_resource_collection.setContinuationToken(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&lt;T&gt;.setContinuationToken</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setContinuationToken</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" line="66" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" bodystart="66" bodyend="69" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Paged Resource Collection Type of objects in collection </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4093">
+        <label>com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&lt;T&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection" />
+        <childnode refid="4094" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4094">
+        <label>com.microsoft.store.partnercenter.models.ResourceCollection&lt;T&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_collection" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4095">
+        <label>com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&lt;T&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection" />
+        <childnode refid="4096" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4096">
+        <label>com.microsoft.store.partnercenter.models.ResourceCollection&lt;T&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_collection" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/SeekBasedResourceCollection.java" bodystart="17" bodyend="71" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection.__ContinuationToken" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::SeekBasedResourceCollection</scope>
+        <name>__ContinuationToken</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection.getContinuationToken()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::SeekBasedResourceCollection</scope>
+        <name>getContinuationToken</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_collection.ResourceCollection(@JsonProperty(&quot;items&quot;) List&lt;TResource&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::SeekBasedResourceCollection</scope>
+        <name>ResourceCollection</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_collection.ResourceCollection(ResourceCollection&lt;TResource&gt;)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::SeekBasedResourceCollection</scope>
+        <name>ResourceCollection</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection.SeekBasedResourceCollection(@JsonProperty(&quot;items&quot;) List&lt;T&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::SeekBasedResourceCollection</scope>
+        <name>SeekBasedResourceCollection</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection.SeekBasedResourceCollection(ResourceCollection&lt;T&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::SeekBasedResourceCollection</scope>
+        <name>SeekBasedResourceCollection</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection.SeekBasedResourceCollection(List&lt;T&gt;,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::SeekBasedResourceCollection</scope>
+        <name>SeekBasedResourceCollection</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._seek_based_resource_collection.setContinuationToken(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::SeekBasedResourceCollection</scope>
+        <name>setContinuationToken</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

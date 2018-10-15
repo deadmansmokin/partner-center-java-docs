@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_conversion_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::subscriptions::SubscriptionConversionCollectionOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_conversion_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_conversion_collection_operations_1a615d8dd88312eaff37bbe38c2b1f4a5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String subscriptionId)</argsstring>
+        <name>SubscriptionConversionCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>subscriptionId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SubscriptionConversionCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer Id to whom the subscriptions belong. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>subscriptionId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The subscription Id where the upgrade is occurring. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionConversionCollectionOperations.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionConversionCollectionOperations.java" bodystart="37" bodyend="50" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_conversion_collection_operations_1ad103184caf5dbf074da1dcbbeb680572" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1subscriptions_1_1_conversion_result" kindref="compound">ConversionResult</ref>
+        </type>
+        <definition>ConversionResult com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.create</definition>
+        <argsstring>(Conversion conversion)</argsstring>
+        <name>create</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_conversion_collection_1af44326d0c55cd4de77b1e6558c19477e">create</reimplements>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1subscriptions_1_1_conversion" kindref="compound">Conversion</ref>
+          </type>
+          <declname>conversion</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Submits a trial subscription conversion.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>conversion</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The new subscription conversion information </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The customer subscription usage record. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionConversionCollectionOperations.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionConversionCollectionOperations.java" bodystart="58" bodyend="69" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_conversion_collection_operations_1a63b86c79bcfcc58f4a59ddef41ff7672" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1subscriptions_1_1_conversion" kindref="compound">Conversion</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Conversion&gt; com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_conversion_collection_1af3d9be85638436456281b13cd06847aa">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionConversionCollectionOperations.java" line="75" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionConversionCollectionOperations.java" bodystart="75" bodyend="86" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>The customer subscription conversion implementation. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4338">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4339">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Conversion, ResourceCollection&lt;Conversion&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="4336">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4337">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_conversion_collection" />
+        <childnode refid="4338" relation="public-inheritance"></childnode>
+        <childnode refid="4339" relation="public-inheritance"></childnode>
+        <childnode refid="4340" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4340">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;Conversion, ConversionResult&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_create_operations" />
+      </node>
+      <node id="4335">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="4336" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4334">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_conversion_collection_operations" />
+        <childnode refid="4335" relation="public-inheritance"></childnode>
+        <childnode refid="4337" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4345">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4346">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Conversion, ResourceCollection&lt;Conversion&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="4343">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4344">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_conversion_collection" />
+        <childnode refid="4345" relation="public-inheritance"></childnode>
+        <childnode refid="4346" relation="public-inheritance"></childnode>
+        <childnode refid="4347" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4347">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;Conversion, ConversionResult&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_create_operations" />
+      </node>
+      <node id="4342">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="4343" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4341">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_conversion_collection_operations" />
+        <childnode refid="4342" relation="public-inheritance"></childnode>
+        <childnode refid="4344" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionConversionCollectionOperations.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionConversionCollectionOperations.java" bodystart="26" bodyend="87" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionConversionCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_conversion_collection_operations_1ad103184caf5dbf074da1dcbbeb680572" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionConversionCollectionOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_create_operations_1ab90df03a2ab66e2ef60f0bd1bd006e2a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations.">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionConversionCollectionOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_conversion_collection_operations_1a63b86c79bcfcc58f4a59ddef41ff7672" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionConversionCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionConversionCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionConversionCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_conversion_collection_operations_1a615d8dd88312eaff37bbe38c2b1f4a5e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionConversionCollectionOperations</scope>
+        <name>SubscriptionConversionCollectionOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

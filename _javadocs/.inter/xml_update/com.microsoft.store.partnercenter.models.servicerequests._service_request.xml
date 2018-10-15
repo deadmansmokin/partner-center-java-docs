@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.servicerequests._service_request" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.ResourceBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Id" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__Id</definition>
+        <argsstring></argsstring>
+        <name>__Id</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the service request Id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="24" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Title" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__Title</definition>
+        <argsstring></argsstring>
+        <name>__Title</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Title. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="39" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="39" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Description" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__Description</definition>
+        <argsstring></argsstring>
+        <name>__Description</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Description. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="54" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="54" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Severity" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_severity" kindref="compound">ServiceRequestSeverity</ref>
+        </type>
+        <definition>ServiceRequestSeverity com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__Severity</definition>
+        <argsstring></argsstring>
+        <name>__Severity</name>
+        <initializer>= ServiceRequestSeverity.UNKNOWN</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Severity. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="69" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="69" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__SupportTopicId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__SupportTopicId</definition>
+        <argsstring></argsstring>
+        <name>__SupportTopicId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the SupportTopicId. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="84" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="84" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__SupportTopicName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__SupportTopicName</definition>
+        <argsstring></argsstring>
+        <name>__SupportTopicName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the SupportTopicName. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="99" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="99" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Status" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_status" kindref="compound">ServiceRequestStatus</ref>
+        </type>
+        <definition>ServiceRequestStatus com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__Status</definition>
+        <argsstring></argsstring>
+        <name>__Status</name>
+        <initializer>= ServiceRequestStatus.NONE</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the service request status. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="114" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="114" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Organization" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_organization" kindref="compound">ServiceRequestOrganization</ref>
+        </type>
+        <definition>ServiceRequestOrganization com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__Organization</definition>
+        <argsstring></argsstring>
+        <name>__Organization</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the organization for whom the service request is being created. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="129" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="129" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__PrimaryContact" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_contact" kindref="compound">ServiceRequestContact</ref>
+        </type>
+        <definition>ServiceRequestContact com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__PrimaryContact</definition>
+        <argsstring></argsstring>
+        <name>__PrimaryContact</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the primary contact on the service request. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="144" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="144" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__LastUpdatedBy" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_contact" kindref="compound">ServiceRequestContact</ref>
+        </type>
+        <definition>ServiceRequestContact com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__LastUpdatedBy</definition>
+        <argsstring></argsstring>
+        <name>__LastUpdatedBy</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the last updated By contact for changes to the service request. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="159" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="159" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__ProductName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__ProductName</definition>
+        <argsstring></argsstring>
+        <name>__ProductName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the product name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="174" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="174" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__ProductId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__ProductId</definition>
+        <argsstring></argsstring>
+        <name>__ProductId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the product id. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="189" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="189" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__CreatedDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__CreatedDate</definition>
+        <argsstring></argsstring>
+        <name>__CreatedDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the created date. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="204" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="204" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__LastModifiedDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__LastModifiedDate</definition>
+        <argsstring></argsstring>
+        <name>__LastModifiedDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the ticket last modified date. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="219" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="219" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__LastClosedDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__LastClosedDate</definition>
+        <argsstring></argsstring>
+        <name>__LastClosedDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the ticket last closed date. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="234" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="234" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__NewNote" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_note" kindref="compound">ServiceRequestNote</ref>
+        </type>
+        <definition>ServiceRequestNote com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__NewNote</definition>
+        <argsstring></argsstring>
+        <name>__NewNote</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets a new Note that can be added to an existing service Request. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="249" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="249" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Notes" prot="private" static="no" mutable="no">
+        <type>Collection&lt;<ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_note" kindref="compound">ServiceRequestNote</ref>&gt;</type>
+        <definition>Collection&lt;ServiceRequestNote&gt; com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__Notes</definition>
+        <argsstring></argsstring>
+        <name>__Notes</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets a collection of notes associated with the service request. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="264" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="264" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.__CountryCode" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.__CountryCode</definition>
+        <argsstring></argsstring>
+        <name>__CountryCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the country code. The CountryCode in ISO 2 Alpha Format. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="279" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="279" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="26" bodyend="29" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="31" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="31" bodyend="34" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getTitle()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="41" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="41" bodyend="44" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setTitle(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setTitle</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="46" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="46" bodyend="49" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getDescription()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="56" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="56" bodyend="59" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setDescription(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setDescription</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setDescription</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="61" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="61" bodyend="64" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getSeverity()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_severity" kindref="compound">ServiceRequestSeverity</ref>
+        </type>
+        <definition>ServiceRequestSeverity com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getSeverity</definition>
+        <argsstring>()</argsstring>
+        <name>getSeverity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="71" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="71" bodyend="74" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setSeverity(ServiceRequestSeverity)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setSeverity</definition>
+        <argsstring>(ServiceRequestSeverity value)</argsstring>
+        <name>setSeverity</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_severity" kindref="compound">ServiceRequestSeverity</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="76" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="76" bodyend="79" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getSupportTopicId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getSupportTopicId</definition>
+        <argsstring>()</argsstring>
+        <name>getSupportTopicId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="86" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="86" bodyend="89" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setSupportTopicId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setSupportTopicId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setSupportTopicId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="91" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="91" bodyend="94" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getSupportTopicName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getSupportTopicName</definition>
+        <argsstring>()</argsstring>
+        <name>getSupportTopicName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="101" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="101" bodyend="104" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setSupportTopicName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setSupportTopicName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setSupportTopicName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="106" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="106" bodyend="109" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getStatus()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_status" kindref="compound">ServiceRequestStatus</ref>
+        </type>
+        <definition>ServiceRequestStatus com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getStatus</definition>
+        <argsstring>()</argsstring>
+        <name>getStatus</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="116" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="116" bodyend="119" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setStatus(ServiceRequestStatus)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setStatus</definition>
+        <argsstring>(ServiceRequestStatus value)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_status" kindref="compound">ServiceRequestStatus</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="121" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="121" bodyend="124" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getOrganization()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_organization" kindref="compound">ServiceRequestOrganization</ref>
+        </type>
+        <definition>ServiceRequestOrganization com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getOrganization</definition>
+        <argsstring>()</argsstring>
+        <name>getOrganization</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="131" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="131" bodyend="134" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setOrganization(ServiceRequestOrganization)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setOrganization</definition>
+        <argsstring>(ServiceRequestOrganization value)</argsstring>
+        <name>setOrganization</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_organization" kindref="compound">ServiceRequestOrganization</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="136" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="136" bodyend="139" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getPrimaryContact()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_contact" kindref="compound">ServiceRequestContact</ref>
+        </type>
+        <definition>ServiceRequestContact com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getPrimaryContact</definition>
+        <argsstring>()</argsstring>
+        <name>getPrimaryContact</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="146" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="146" bodyend="149" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setPrimaryContact(ServiceRequestContact)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setPrimaryContact</definition>
+        <argsstring>(ServiceRequestContact value)</argsstring>
+        <name>setPrimaryContact</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_contact" kindref="compound">ServiceRequestContact</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="151" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="151" bodyend="154" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getLastUpdatedBy()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_contact" kindref="compound">ServiceRequestContact</ref>
+        </type>
+        <definition>ServiceRequestContact com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getLastUpdatedBy</definition>
+        <argsstring>()</argsstring>
+        <name>getLastUpdatedBy</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="161" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="161" bodyend="164" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setLastUpdatedBy(ServiceRequestContact)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setLastUpdatedBy</definition>
+        <argsstring>(ServiceRequestContact value)</argsstring>
+        <name>setLastUpdatedBy</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_contact" kindref="compound">ServiceRequestContact</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="166" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="166" bodyend="169" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getProductName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getProductName</definition>
+        <argsstring>()</argsstring>
+        <name>getProductName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="176" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="176" bodyend="179" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setProductName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setProductName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setProductName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="181" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="181" bodyend="184" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getProductId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getProductId</definition>
+        <argsstring>()</argsstring>
+        <name>getProductId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="191" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="191" bodyend="194" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setProductId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setProductId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setProductId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="196" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="196" bodyend="199" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getCreatedDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getCreatedDate</definition>
+        <argsstring>()</argsstring>
+        <name>getCreatedDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="206" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="206" bodyend="209" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setCreatedDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setCreatedDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setCreatedDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="211" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="211" bodyend="214" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getLastModifiedDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getLastModifiedDate</definition>
+        <argsstring>()</argsstring>
+        <name>getLastModifiedDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="221" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="221" bodyend="224" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setLastModifiedDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setLastModifiedDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setLastModifiedDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="226" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="226" bodyend="229" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getLastClosedDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getLastClosedDate</definition>
+        <argsstring>()</argsstring>
+        <name>getLastClosedDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="236" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="236" bodyend="239" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setLastClosedDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setLastClosedDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setLastClosedDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="241" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="241" bodyend="244" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getNewNote()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_note" kindref="compound">ServiceRequestNote</ref>
+        </type>
+        <definition>ServiceRequestNote com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getNewNote</definition>
+        <argsstring>()</argsstring>
+        <name>getNewNote</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="251" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="251" bodyend="254" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setNewNote(ServiceRequestNote)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setNewNote</definition>
+        <argsstring>(ServiceRequestNote value)</argsstring>
+        <name>setNewNote</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_note" kindref="compound">ServiceRequestNote</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="256" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="256" bodyend="259" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getNotes()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Collection&lt;<ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_note" kindref="compound">ServiceRequestNote</ref>&gt;</type>
+        <definition>Collection&lt;ServiceRequestNote&gt; com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getNotes</definition>
+        <argsstring>()</argsstring>
+        <name>getNotes</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="266" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="266" bodyend="269" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setNotes(Collection&lt;ServiceRequestNote&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setNotes</definition>
+        <argsstring>(Collection&lt;ServiceRequestNote&gt; value)</argsstring>
+        <name>setNotes</name>
+        <param>
+          <type>Collection&lt;<ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request_note" kindref="compound">ServiceRequestNote</ref>&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="271" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="271" bodyend="274" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.getCountryCode()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.getCountryCode</definition>
+        <argsstring>()</argsstring>
+        <name>getCountryCode</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="281" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="281" bodyend="284" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.servicerequests._service_request.setCountryCode(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setCountryCode</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCountryCode</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="286" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="286" bodyend="289" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents a Service Request </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4185">
+        <label>com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest</label>
+        <link refid="com.microsoft.store.partnercenter.models.servicerequests._service_request" />
+        <childnode refid="4186" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4186">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4187">
+        <label>com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest</label>
+        <link refid="com.microsoft.store.partnercenter.models.servicerequests._service_request" />
+        <childnode refid="4188" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4188">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequest.java" bodystart="18" bodyend="291" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__CountryCode" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__CountryCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__CreatedDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__CreatedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Description" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__Description</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Id" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__Id</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__LastClosedDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__LastClosedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__LastModifiedDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__LastModifiedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__LastUpdatedBy" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__LastUpdatedBy</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__NewNote" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__NewNote</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Notes" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__Notes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Organization" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__Organization</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__PrimaryContact" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__PrimaryContact</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__ProductId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__ProductId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__ProductName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__ProductName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Severity" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__Severity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Status" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__Status</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__SupportTopicId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__SupportTopicId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__SupportTopicName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__SupportTopicName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.__Title" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>__Title</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getCountryCode()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getCountryCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getCreatedDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getCreatedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getDescription()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getLastClosedDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getLastClosedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getLastModifiedDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getLastModifiedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getLastUpdatedBy()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getLastUpdatedBy</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getNewNote()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getNewNote</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getNotes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getNotes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getOrganization()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getOrganization</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getPrimaryContact()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getPrimaryContact</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getProductId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getProductId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getProductName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getProductName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getSeverity()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getSeverity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getStatus()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getStatus</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getSupportTopicId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getSupportTopicId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getSupportTopicName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getSupportTopicName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.getTitle()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>getTitle</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setCountryCode(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setCountryCode</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setCreatedDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setCreatedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setDescription(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setDescription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setLastClosedDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setLastClosedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setLastModifiedDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setLastModifiedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setLastUpdatedBy(ServiceRequestContact)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setLastUpdatedBy</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setNewNote(ServiceRequestNote)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setNewNote</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setNotes(Collection&lt;ServiceRequestNote&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setNotes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setOrganization(ServiceRequestOrganization)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setOrganization</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setPrimaryContact(ServiceRequestContact)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setPrimaryContact</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setProductId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setProductId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setProductName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setProductName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setSeverity(ServiceRequestSeverity)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setSeverity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setStatus(ServiceRequestStatus)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setStatus</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setSupportTopicId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setSupportTopicId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setSupportTopicName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setSupportTopicName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.servicerequests._service_request.setTitle(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::servicerequests::ServiceRequest</scope>
+        <name>setTitle</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::servicerequests::PartnerServiceRequestOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.servicerequests._i_service_request" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.servicerequests.IServiceRequest</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations.PartnerServiceRequestOperations(IPartner,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations.PartnerServiceRequestOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String serviceRequestId)</argsstring>
+        <name>PartnerServiceRequestOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>serviceRequestId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the PartnerServiceRequestOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>serviceRequestId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The service request Id. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/PartnerServiceRequestOperations.java" line="35" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/PartnerServiceRequestOperations.java" bodystart="35" bodyend="43" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request" kindref="compound">ServiceRequest</ref>
+        </type>
+        <definition>ServiceRequest com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.servicerequests._i_service_request.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Get Service Request By ID</para>
+          <para>
+            <simplesect kind="return">
+              <para>Service Request </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/PartnerServiceRequestOperations.java" line="51" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/PartnerServiceRequestOperations.java" bodystart="51" bodyend="60" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations.patch(ServiceRequest)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request" kindref="compound">ServiceRequest</ref>
+        </type>
+        <definition>ServiceRequest com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations.patch</definition>
+        <argsstring>(ServiceRequest updatePayload)</argsstring>
+        <name>patch</name>
+        <reimplements refid="com.microsoft.store.partnercenter.servicerequests._i_service_request.patch(ServiceRequest)">patch</reimplements>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.servicerequests._service_request" kindref="compound">ServiceRequest</ref>
+          </type>
+          <declname>updatePayload</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Patches a Service Request</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>updatePayload</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Payload of the update request </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>Updated Service Request </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/PartnerServiceRequestOperations.java" line="69" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/PartnerServiceRequestOperations.java" bodystart="69" bodyend="78" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements operations that can be performed on a single partner's service requests. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3695">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;ServiceRequest&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_patch_operations" />
+      </node>
+      <node id="3693">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3689">
+        <label>com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations</label>
+        <link refid="com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations" />
+        <childnode refid="3690" relation="public-inheritance"></childnode>
+        <childnode refid="3692" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3694">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;ServiceRequest&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="3691">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3690">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="3691" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3692">
+        <label>com.microsoft.store.partnercenter.servicerequests.IServiceRequest</label>
+        <link refid="com.microsoft.store.partnercenter.servicerequests._i_service_request" />
+        <childnode refid="3693" relation="public-inheritance"></childnode>
+        <childnode refid="3694" relation="public-inheritance"></childnode>
+        <childnode refid="3695" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3702">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;ServiceRequest&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_patch_operations" />
+      </node>
+      <node id="3700">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3696">
+        <label>com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations</label>
+        <link refid="com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations" />
+        <childnode refid="3697" relation="public-inheritance"></childnode>
+        <childnode refid="3699" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3701">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;ServiceRequest&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="3698">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3697">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="3698" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3699">
+        <label>com.microsoft.store.partnercenter.servicerequests.IServiceRequest</label>
+        <link refid="com.microsoft.store.partnercenter.servicerequests._i_service_request" />
+        <childnode refid="3700" relation="public-inheritance"></childnode>
+        <childnode refid="3701" relation="public-inheritance"></childnode>
+        <childnode refid="3702" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/PartnerServiceRequestOperations.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/servicerequests/PartnerServiceRequestOperations.java" bodystart="25" bodyend="79" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::PartnerServiceRequestOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::PartnerServiceRequestOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::PartnerServiceRequestOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::PartnerServiceRequestOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations.PartnerServiceRequestOperations(IPartner,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::PartnerServiceRequestOperations</scope>
+        <name>PartnerServiceRequestOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations.patch(ServiceRequest)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::servicerequests::PartnerServiceRequestOperations</scope>
+        <name>patch</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_patch_operations.patch(T)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations.">
+        <scope>com::microsoft::store::partnercenter::servicerequests::PartnerServiceRequestOperations</scope>
+        <name>patch</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.orders._order_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.orders._i_order_collection" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.orders.IOrderCollection</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.orders._order_collection_operations.OrderCollectionOperations(IPartner,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.orders.OrderCollectionOperations.OrderCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId)</argsstring>
+        <name>OrderCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the OrderCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer tenant identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java" line="35" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java" bodystart="35" bodyend="42" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.orders._order_collection_operations.create(Order)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.orders._order" kindref="compound">Order</ref>
+        </type>
+        <definition>Order com.microsoft.store.partnercenter.orders.OrderCollectionOperations.create</definition>
+        <argsstring>(Order newOrder)</argsstring>
+        <name>create</name>
+        <reimplements refid="com.microsoft.store.partnercenter.orders._i_order_collection.create(Order)">create</reimplements>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.orders._order" kindref="compound">Order</ref>
+          </type>
+          <declname>newOrder</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Places a new order for the customer.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>newOrder</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The new order. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The newly created order. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java" line="51" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java" bodystart="51" bodyend="63" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.orders._order_collection_operations.byId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.orders._i_order" kindref="compound">IOrder</ref>
+        </type>
+        <definition>IOrder com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byId</definition>
+        <argsstring>(String orderId)</argsstring>
+        <name>byId</name>
+        <reimplements refid="com.microsoft.store.partnercenter.orders._i_order_collection.byId(String)">byId</reimplements>
+        <param>
+          <type>String</type>
+          <declname>orderId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains a specific order behavior.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>orderId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The order id. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The order operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java" line="72" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java" bodystart="72" bodyend="75" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.orders._order_collection_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.orders._order" kindref="compound">Order</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Order&gt; com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.orders._i_order_collection.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all the orders the customer made.</para>
+          <para>
+            <simplesect kind="return">
+              <para>All the customer orders. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java" line="83" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java" bodystart="83" bodyend="96" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Order collection operations implementation class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3470">
+        <label>com.microsoft.store.partnercenter.orders.IOrderCollection</label>
+        <link refid="com.microsoft.store.partnercenter.orders._i_order_collection" />
+        <childnode refid="3471" relation="public-inheritance"></childnode>
+        <childnode refid="3473" relation="public-inheritance"></childnode>
+        <childnode refid="3474" relation="public-inheritance"></childnode>
+        <childnode refid="3475" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3474">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;Order, Order&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+      <node id="3472">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3469">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="3468">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="3469" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3473">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Order, ResourceCollection&lt;Order&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="3475">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IOrder&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="3467">
+        <label>com.microsoft.store.partnercenter.orders.OrderCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.orders._order_collection_operations" />
+        <childnode refid="3468" relation="public-inheritance"></childnode>
+        <childnode refid="3470" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3471">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="3472" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3479">
+        <label>com.microsoft.store.partnercenter.orders.IOrderCollection</label>
+        <link refid="com.microsoft.store.partnercenter.orders._i_order_collection" />
+        <childnode refid="3480" relation="public-inheritance"></childnode>
+        <childnode refid="3482" relation="public-inheritance"></childnode>
+        <childnode refid="3483" relation="public-inheritance"></childnode>
+        <childnode refid="3484" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3483">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;Order, Order&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+      <node id="3481">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3478">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+      </node>
+      <node id="3477">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component_string" />
+        <childnode refid="3478" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3482">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Order, ResourceCollection&lt;Order&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="3484">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IOrder&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="3476">
+        <label>com.microsoft.store.partnercenter.orders.OrderCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.orders._order_collection_operations" />
+        <childnode refid="3477" relation="public-inheritance"></childnode>
+        <childnode refid="3479" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3480">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="3481" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java" bodystart="25" bodyend="97" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component_string.BasePartnerComponentString(IPartner,String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.orders._order_collection_operations.byId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>byId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.orders._order_collection_operations.create(Order)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations.create(T)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations.">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.orders._order_collection_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::orders::IOrderCollection.">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::orders::IOrderCollection.">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.orders._order_collection_operations.OrderCollectionOperations(IPartner,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::orders::OrderCollectionOperations</scope>
+        <name>OrderCollectionOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customerusers::ICustomerUser</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;CustomerUser&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_delete_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityDeleteOperations&lt;CustomerUser&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;CustomerUser&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerusers.CustomerUserOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1a26740aadb0cd284ce8cabca85d5f31d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_role_collection" kindref="compound">ICustomerUserRoleCollection</ref>
+        </type>
+        <definition>ICustomerUserRoleCollection com.microsoft.store.partnercenter.customerusers.ICustomerUser.getDirectoryRoles</definition>
+        <argsstring>()</argsstring>
+        <name>getDirectoryRoles</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_operations_1ab4df4fa4695905015ee53bc016649112">getDirectoryRoles</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current user's directory role collection operations.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The current user's directory role collection operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUser.java" line="28" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1ae96718984e55a79567a47e1b39b6aacc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_license_collection" kindref="compound">ICustomerUserLicenseCollection</ref>
+        </type>
+        <definition>ICustomerUserLicenseCollection com.microsoft.store.partnercenter.customerusers.ICustomerUser.getLicenses</definition>
+        <argsstring>()</argsstring>
+        <name>getLicenses</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_operations_1a23552c9d1647440ff7df374179f9be4e">getLicenses</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current user's licenses collection operations.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The current user's licenses collection operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUser.java" line="35" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1a592d3cfbec2d8d6123d6b5f7ef26fbe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_license_updates" kindref="compound">ICustomerUserLicenseUpdates</ref>
+        </type>
+        <definition>ICustomerUserLicenseUpdates com.microsoft.store.partnercenter.customerusers.ICustomerUser.getLicenseUpdates</definition>
+        <argsstring>()</argsstring>
+        <name>getLicenseUpdates</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_operations_1aeb6dffb390f15a95c22c845912543723">getLicenseUpdates</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current user's license updates operations.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The current user's license updates operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUser.java" line="42" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1a75d213b014a944b71763c6bf149e6d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1users_1_1_customer_user" kindref="compound">CustomerUser</ref>
+        </type>
+        <definition>CustomerUser com.microsoft.store.partnercenter.customerusers.ICustomerUser.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations_1aa2e3cf8b3d1237922579e228472e1b24">get</reimplements>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_operations_1a7f67d950198b80eb1f9d62fbdc0bc9b4">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the customer user.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer user. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUser.java" line="49" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1a9c43e2dfd515998cdfaf948f33c6f395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.customerusers.ICustomerUser.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_delete_operations_1af3a3e20c2b843071fc66af30e71ac9c7">delete</reimplements>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_operations_1a312cae764db48cb0c055e01236e5973e">delete</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Deletes a user. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUser.java" line="54" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1ab7423354f712c2b0b81c0e3e462cdc15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1users_1_1_customer_user" kindref="compound">CustomerUser</ref>
+        </type>
+        <definition>CustomerUser com.microsoft.store.partnercenter.customerusers.ICustomerUser.patch</definition>
+        <argsstring>(CustomerUser entity)</argsstring>
+        <name>patch</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_operations_1a4713f07d27b492f06bddbaeb23d51043">patch</reimplementedby>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1users_1_1_customer_user" kindref="compound">CustomerUser</ref>
+          </type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Updates the customer user.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>entity</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Customer user entity. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The updated user. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUser.java" line="62" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Encapsulates a customer user behavior. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1744">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1743">
+        <label>com.microsoft.store.partnercenter.customerusers.ICustomerUser</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user" />
+        <childnode refid="1744" relation="public-inheritance"></childnode>
+        <childnode refid="1745" relation="public-inheritance"></childnode>
+        <childnode refid="1746" relation="public-inheritance"></childnode>
+        <childnode refid="1747" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1745">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;CustomerUser&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="1748">
+        <label>com.microsoft.store.partnercenter.customerusers.CustomerUserOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_operations" />
+        <childnode refid="1743" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1747">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;CustomerUser&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations" />
+      </node>
+      <node id="1746">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityDeleteOperations&lt;CustomerUser&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_delete_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1750">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1749">
+        <label>com.microsoft.store.partnercenter.customerusers.ICustomerUser</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user" />
+        <childnode refid="1750" relation="public-inheritance"></childnode>
+        <childnode refid="1751" relation="public-inheritance"></childnode>
+        <childnode refid="1752" relation="public-inheritance"></childnode>
+        <childnode refid="1753" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1751">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;CustomerUser&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="1753">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;CustomerUser&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations" />
+      </node>
+      <node id="1752">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityDeleteOperations&lt;CustomerUser&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_delete_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUser.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/ICustomerUser.java" bodystart="19" bodyend="63" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1a9c43e2dfd515998cdfaf948f33c6f395" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUser</scope>
+        <name>delete</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1a75d213b014a944b71763c6bf149e6d8e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUser</scope>
+        <name>get</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUser</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1a26740aadb0cd284ce8cabca85d5f31d3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUser</scope>
+        <name>getDirectoryRoles</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1ae96718984e55a79567a47e1b39b6aacc" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUser</scope>
+        <name>getLicenses</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1a592d3cfbec2d8d6123d6b5f7ef26fbe4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUser</scope>
+        <name>getLicenseUpdates</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUser</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_1ab7423354f712c2b0b81c0e3e462cdc15" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUser</scope>
+        <name>patch</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_patch_operations_1ac05e2fca307079ba25695f34bbcaa27a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations.">
+        <scope>com::microsoft::store::partnercenter::customerusers::ICustomerUser</scope>
+        <name>patch</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

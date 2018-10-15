@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::query::SimpleQuery</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.query.BaseQuery</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.query.IndexedQuery</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a56e7c44de5983c9049b22a1ae40c17a7" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1filters_1_1_field_filter" kindref="compound">FieldFilter</ref>
+        </type>
+        <definition>FieldFilter com.microsoft.store.partnercenter.models.query.SimpleQuery.__Filter</definition>
+        <argsstring></argsstring>
+        <name>__Filter</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the query filter. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" bodystart="42" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a7e1f2f99d852d59e9d43eb9b490f6e43" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort" kindref="compound">Sort</ref>
+        </type>
+        <definition>Sort com.microsoft.store.partnercenter.models.query.SimpleQuery.__Sort</definition>
+        <argsstring></argsstring>
+        <name>__Sort</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the query sorting options. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" line="57" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" bodystart="57" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a9c1024fe079c3e8cc541d1e9eabaf9b1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery</definition>
+        <argsstring>()</argsstring>
+        <name>SimpleQuery</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" line="18" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" bodystart="18" bodyend="22" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a1fc377b6b2b883fa2132b921b6792d57" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery</definition>
+        <argsstring>(Object token)</argsstring>
+        <name>SimpleQuery</name>
+        <param>
+          <type>Object</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" bodystart="24" bodyend="28" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1aaade66612c9a2bf4402c14b193101fdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="enumcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_query_type" kindref="compound">QueryType</ref>
+        </type>
+        <definition>QueryType com.microsoft.store.partnercenter.models.query.SimpleQuery.getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a203d42cfee873b91d6fe93af3e91f516">getType</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the query type. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" bodystart="33" bodyend="37" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a607797949b225ae4c64b92d3a2ea643d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1filters_1_1_field_filter" kindref="compound">FieldFilter</ref>
+        </type>
+        <definition>FieldFilter com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter</definition>
+        <argsstring>()</argsstring>
+        <name>getFilter</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1acd8518f2868c2ec62c7ca3354aebc442">getFilter</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the query filter.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The query filter. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" line="44" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" bodystart="44" bodyend="47" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1abfcff35a247777bba668808ccda0ca67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter</definition>
+        <argsstring>(FieldFilter value)</argsstring>
+        <name>setFilter</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1affbaebbc81777b85a6f677b6054dd265">setFilter</reimplements>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1filters_1_1_field_filter" kindref="compound">FieldFilter</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The query filter.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The query filter. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" line="49" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" bodystart="49" bodyend="52" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a90d8d3b11fda21002f0874e040043db3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort" kindref="compound">Sort</ref>
+        </type>
+        <definition>Sort com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort</definition>
+        <argsstring>()</argsstring>
+        <name>getSort</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1a20a991be11a47a9a3d8a5e95eede0268">getSort</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the query sorting options.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The query sorting options. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" line="59" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" bodystart="59" bodyend="62" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a4b507a2365a93c9b82eb6882415562f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort</definition>
+        <argsstring>(Sort value)</argsstring>
+        <name>setSort</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query_1ae465eba7fbb38e80e0d07c2494f3e451">setSort</reimplements>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1sort_1_1_sort" kindref="compound">Sort</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Sets the query sorting options.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The query sorting options. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" line="64" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" bodystart="64" bodyend="67" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1aca1e97625124b3ec39de60d10de4e47d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.query.SimpleQuery.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Returns a string representation of the query.</para>
+          <para>
+            <simplesect kind="return">
+              <para>A string representation of the query. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" line="74" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" bodystart="74" bodyend="91" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>A standard query that returns entities according to sort and filter options (Does not do paging). </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4209">
+        <label>com.microsoft.store.partnercenter.models.query.SeekQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_seek_query" />
+        <childnode refid="4208" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4208">
+        <label>com.microsoft.store.partnercenter.models.query.IndexedQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_indexed_query" />
+        <childnode refid="4205" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4206">
+        <label>com.microsoft.store.partnercenter.models.query.BaseQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query" />
+        <childnode refid="4207" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4207">
+        <label>com.microsoft.store.partnercenter.models.query.IQuery</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query" />
+      </node>
+      <node id="4205">
+        <label>com.microsoft.store.partnercenter.models.query.SimpleQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query" />
+        <childnode refid="4206" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4211">
+        <label>com.microsoft.store.partnercenter.models.query.BaseQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query" />
+        <childnode refid="4212" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4212">
+        <label>com.microsoft.store.partnercenter.models.query.IQuery</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_i_query" />
+      </node>
+      <node id="4210">
+        <label>com.microsoft.store.partnercenter.models.query.SimpleQuery</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query" />
+        <childnode refid="4211" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/SimpleQuery.java" bodystart="15" bodyend="93" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a56e7c44de5983c9049b22a1ae40c17a7" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>__Filter</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a7e1f2f99d852d59e9d43eb9b490f6e43" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>__Sort</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a0ce97bb56c8e7d77bc6202bcf765653e" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>BaseQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a3698ffc86bd4631cae90a5126f4226b6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>BaseQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a607797949b225ae4c64b92d3a2ea643d" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>getFilter</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1ac9a4903fae95674da26d4fd075899cb1" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>getIndex</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a4d1e6c6c8a1fa03e2717761acf8d8aca" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>getPageSize</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a9779641c1ee6f6582a6da972ba884e27" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>getSeekOperation</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a90d8d3b11fda21002f0874e040043db3" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>getSort</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a5fb980b6013a3106b3dc64e1e49dfb57" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>getToken</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1aaade66612c9a2bf4402c14b193101fdf" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>getType</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1abfcff35a247777bba668808ccda0ca67" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>setFilter</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a0c26197b4db6f95886f84f67be1aff07" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>setIndex</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a79d739f3c9bd442fe4b5ed0ae3f8362b" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>setPageSize</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1a8aa77ef0d62d12e28897b24e753f0acb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>setSeekOperation</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a4b507a2365a93c9b82eb6882415562f5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>setSort</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_base_query_1aaffe23ab34dcdee695c7ece3798e7eaa" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>setToken</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a9c1024fe079c3e8cc541d1e9eabaf9b1" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>SimpleQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1a1fc377b6b2b883fa2132b921b6792d57" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>SimpleQuery</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1query_1_1_simple_query_1aca1e97625124b3ec39de60d10de4e47d" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::SimpleQuery</scope>
+        <name>toString</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

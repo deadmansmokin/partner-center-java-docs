@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::AuthenticationToken</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a3b895e3ca03d5f255ace8fa303add93d" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.AuthenticationToken.__Token</definition>
+        <argsstring></argsstring>
+        <name>__Token</name>
+        <initializer>= new String()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the token. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="41" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="41" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a69b948f43bceab37c5d60d21ec7e7aa7" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.AuthenticationToken.__ExpiryTime</definition>
+        <argsstring></argsstring>
+        <name>__ExpiryTime</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the token expiry time. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="56" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="56" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a436dc2e8ebb164ced31026c99a58d25c" prot="private" static="no" mutable="no">
+        <type>Duration</type>
+        <definition>Duration com.microsoft.store.partnercenter.AuthenticationToken.__ExpiryBuffer</definition>
+        <argsstring></argsstring>
+        <name>__ExpiryBuffer</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the amount of time to deduct from the actual expiry time in order to give time for processing without letting the token expire while processing is still in progress. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="72" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="72" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1ad190313fcca3f63c4fe7d5cce315b093" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.AuthenticationToken.AuthenticationToken</definition>
+        <argsstring>(String token, DateTime expiryTime)</argsstring>
+        <name>AuthenticationToken</name>
+        <param>
+          <type>String</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>expiryTime</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the AuthenticationToken class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>token</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The authentication token. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>expiryTime</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The token expiry time. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="26" bodyend="36" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a03bd15923327a469215d32baa629cfd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.AuthenticationToken.getToken</definition>
+        <argsstring>()</argsstring>
+        <name>getToken</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="43" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="43" bodyend="46" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a5cd55c779b1b736c2d1e3104a8dda365" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime</definition>
+        <argsstring>()</argsstring>
+        <name>getExpiryTime</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="58" bodyend="61" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a7df604ce8c2ab45be162c44e8023f1cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Duration</type>
+        <definition>Duration com.microsoft.store.partnercenter.AuthenticationToken.getExpiryBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>getExpiryBuffer</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="74" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="74" bodyend="77" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a3d45551a6d733afb73f9cbdc9ca9012a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer</definition>
+        <argsstring>(Duration value)</argsstring>
+        <name>setExpiryBuffer</name>
+        <param>
+          <type>Duration</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="79" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="79" bodyend="82" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1ad4e6a344575c4f1eaaec98930ffb6b55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.microsoft.store.partnercenter.AuthenticationToken.isExpired</definition>
+        <argsstring>()</argsstring>
+        <name>isExpired</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Indicates whether the token has expired or not.</para>
+          <para>
+            <simplesect kind="return">
+              <para>True if token has expired. False if not. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="89" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="89" bodyend="92" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1ac7219ffe2f614cf9a1b77b787e629e31" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.AuthenticationToken.setToken</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setToken</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="48" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="48" bodyend="51" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1aea6fc0b2e12cb94aee96471799efe64b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.AuthenticationToken.setExpiryTime</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setExpiryTime</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="63" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="63" bodyend="66" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Represents an authentication token for a resource. </para>
+    </detaileddescription>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/AuthenticationToken.java" bodystart="18" bodyend="93" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a436dc2e8ebb164ced31026c99a58d25c" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::AuthenticationToken</scope>
+        <name>__ExpiryBuffer</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a69b948f43bceab37c5d60d21ec7e7aa7" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::AuthenticationToken</scope>
+        <name>__ExpiryTime</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a3b895e3ca03d5f255ace8fa303add93d" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::AuthenticationToken</scope>
+        <name>__Token</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1ad190313fcca3f63c4fe7d5cce315b093" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::AuthenticationToken</scope>
+        <name>AuthenticationToken</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a7df604ce8c2ab45be162c44e8023f1cf" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::AuthenticationToken</scope>
+        <name>getExpiryBuffer</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a5cd55c779b1b736c2d1e3104a8dda365" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::AuthenticationToken</scope>
+        <name>getExpiryTime</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a03bd15923327a469215d32baa629cfd2" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::AuthenticationToken</scope>
+        <name>getToken</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1ad4e6a344575c4f1eaaec98930ffb6b55" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::AuthenticationToken</scope>
+        <name>isExpired</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1a3d45551a6d733afb73f9cbdc9ca9012a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::AuthenticationToken</scope>
+        <name>setExpiryBuffer</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1aea6fc0b2e12cb94aee96471799efe64b" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::AuthenticationToken</scope>
+        <name>setExpiryTime</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_authentication_token_1ac7219ffe2f614cf9a1b77b787e629e31" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::AuthenticationToken</scope>
+        <name>setToken</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

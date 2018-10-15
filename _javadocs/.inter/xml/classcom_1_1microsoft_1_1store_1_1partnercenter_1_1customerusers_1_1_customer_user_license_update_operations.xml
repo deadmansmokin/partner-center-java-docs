@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_license_update_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customerusers::CustomerUserLicenseUpdateOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_license_updates" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_license_update_operations_1ac975f5df5768b587bcdc5f43cf4d65cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseUpdateOperations.CustomerUserLicenseUpdateOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String userId)</argsstring>
+        <name>CustomerUserLicenseUpdateOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>userId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the CustomerUserLicenseUpdateOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>userId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The user identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUserLicenseUpdateOperations.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUserLicenseUpdateOperations.java" bodystart="33" bodyend="44" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_license_update_operations_1ac8782d89003659e505e2260665580fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1licenses_1_1_license_update" kindref="compound">LicenseUpdate</ref>
+        </type>
+        <definition>LicenseUpdate com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseUpdateOperations.create</definition>
+        <argsstring>(LicenseUpdate entity)</argsstring>
+        <name>create</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_license_updates_1ac7f4101d60641379b9cc9cd15b982014">create</reimplements>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1licenses_1_1_license_update" kindref="compound">LicenseUpdate</ref>
+          </type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Assign licenses to a user. This method serves three scenarios: 1. Add license to a customer user. 2. Remove license from a customer user. 3. Update existing license for a customer user.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>entity</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>License update object. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>Returned license update object </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUserLicenseUpdateOperations.java" line="57" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUserLicenseUpdateOperations.java" bodystart="57" bodyend="69" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="1117">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1116">
+        <label>com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_license_updates" />
+        <childnode refid="1117" relation="public-inheritance"></childnode>
+        <childnode refid="1118" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1115">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1113">
+        <label>com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseUpdateOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_license_update_operations" />
+        <childnode refid="1114" relation="public-inheritance"></childnode>
+        <childnode refid="1116" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1114">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="1115" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1118">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;LicenseUpdate, LicenseUpdate&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_create_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1123">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1122">
+        <label>com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_license_updates" />
+        <childnode refid="1123" relation="public-inheritance"></childnode>
+        <childnode refid="1124" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1121">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="1119">
+        <label>com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseUpdateOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_license_update_operations" />
+        <childnode refid="1120" relation="public-inheritance"></childnode>
+        <childnode refid="1122" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1120">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="1121" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1124">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;LicenseUpdate, LicenseUpdate&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_create_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUserLicenseUpdateOperations.java" line="25" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUserLicenseUpdateOperations.java" bodystart="22" bodyend="72" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::CustomerUserLicenseUpdateOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_license_update_operations_1ac8782d89003659e505e2260665580fd5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::CustomerUserLicenseUpdateOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_create_operations_1ab90df03a2ab66e2ef60f0bd1bd006e2a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations.">
+        <scope>com::microsoft::store::partnercenter::customerusers::CustomerUserLicenseUpdateOperations</scope>
+        <name>create</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_customer_user_license_update_operations_1ac975f5df5768b587bcdc5f43cf4d65cb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::CustomerUserLicenseUpdateOperations</scope>
+        <name>CustomerUserLicenseUpdateOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::CustomerUserLicenseUpdateOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customerusers::CustomerUserLicenseUpdateOperations</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

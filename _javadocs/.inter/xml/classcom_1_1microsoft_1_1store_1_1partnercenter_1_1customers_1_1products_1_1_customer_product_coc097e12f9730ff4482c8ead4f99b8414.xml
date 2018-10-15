@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_coc097e12f9730ff4482c8ead4f99b8414" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customers::products::CustomerProductCollectionByTargetViewOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection_by_target_view" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_coc097e12f9730ff4482c8ead4f99b8414_1a1185c33016022e18db284b5ee794e831" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.CustomerProductCollectionByTargetViewOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String targetView)</argsstring>
+        <name>CustomerProductCollectionByTargetViewOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>targetView</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the CustomerProductCollectionByTargetViewOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>Identifier for the customer. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>targetView</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The target view which contains the products. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerProductCollectionByTargetViewOperations.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerProductCollectionByTargetViewOperations.java" bodystart="37" bodyend="50" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_coc097e12f9730ff4482c8ead4f99b8414_1a7fe6965afca673d4de0ecc7135fbfc7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1products_1_1_product" kindref="compound">Product</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Product&gt; com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection_by_target_view_1a750bcdf97ded50c338e29b21f7e17e36">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerProductCollectionByTargetViewOperations.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerProductCollectionByTargetViewOperations.java" bodystart="58" bodyend="72" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_coc097e12f9730ff4482c8ead4f99b8414_1a94c492157735d6011cdf4f291781b19a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_prod9e9d6ccb22ece65d5ca1d1111e1592b9" kindref="compound">ICustomerProductCollectionByTargetViewByTargetSegment</ref>
+        </type>
+        <definition>ICustomerProductCollectionByTargetViewByTargetSegment com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations.byTargetSegment</definition>
+        <argsstring>(String targetSegment)</argsstring>
+        <name>byTargetSegment</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection_by_target_view_1a77318990595801ceb9cdebef22d8547b">byTargetSegment</reimplements>
+        <param>
+          <type>String</type>
+          <declname>targetSegment</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the operations that can be applied on products in a given catalog view and that apply to a given customer, filtered by target segment.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>targetSegment</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The product segment filter. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The product collection operations by customer, by target view and by target segment. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerProductCollectionByTargetViewOperations.java" line="81" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerProductCollectionByTargetViewOperations.java" bodystart="81" bodyend="84" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Product operations by customer id and by target view implementation class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="837">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="836">
+        <label>com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection_by_target_view" />
+        <childnode refid="837" relation="public-inheritance"></childnode>
+        <childnode refid="838" relation="public-inheritance"></childnode>
+      </node>
+      <node id="835">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="834">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="835" relation="public-inheritance"></childnode>
+      </node>
+      <node id="833">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_coc097e12f9730ff4482c8ead4f99b8414" />
+        <childnode refid="834" relation="public-inheritance"></childnode>
+        <childnode refid="836" relation="public-inheritance"></childnode>
+      </node>
+      <node id="838">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Product, ResourceCollection&lt;Product&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="843">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="842">
+        <label>com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection_by_target_view" />
+        <childnode refid="843" relation="public-inheritance"></childnode>
+        <childnode refid="844" relation="public-inheritance"></childnode>
+      </node>
+      <node id="841">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="840">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="841" relation="public-inheritance"></childnode>
+      </node>
+      <node id="839">
+        <label>com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_coc097e12f9730ff4482c8ead4f99b8414" />
+        <childnode refid="840" relation="public-inheritance"></childnode>
+        <childnode refid="842" relation="public-inheritance"></childnode>
+      </node>
+      <node id="844">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;Product, ResourceCollection&lt;Product&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entire_entity_collection_retrieval_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerProductCollectionByTargetViewOperations.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerProductCollectionByTargetViewOperations.java" bodystart="26" bodyend="85" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerProductCollectionByTargetViewOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_coc097e12f9730ff4482c8ead4f99b8414_1a94c492157735d6011cdf4f291781b19a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerProductCollectionByTargetViewOperations</scope>
+        <name>byTargetSegment</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_coc097e12f9730ff4482c8ead4f99b8414_1a1185c33016022e18db284b5ee794e831" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerProductCollectionByTargetViewOperations</scope>
+        <name>CustomerProductCollectionByTargetViewOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_customer_product_coc097e12f9730ff4482c8ead4f99b8414_1a7fe6965afca673d4de0ecc7135fbfc7a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerProductCollectionByTargetViewOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerProductCollectionByTargetViewOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::products::CustomerProductCollectionByTargetViewOperations</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

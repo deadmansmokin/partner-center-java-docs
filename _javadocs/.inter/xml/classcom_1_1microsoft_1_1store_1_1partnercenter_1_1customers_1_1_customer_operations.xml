@@ -1,0 +1,1224 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::customers::CustomerOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.BasePartnerComponentString</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.customers.ICustomer</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a3b47420ccfad91abd452295c3b125b5a" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_collection" kindref="compound">ISubscriptionCollection</ref>
+        </type>
+        <definition>ISubscriptionCollection com.microsoft.store.partnercenter.customers.CustomerOperations.subscriptions</definition>
+        <argsstring></argsstring>
+        <name>subscriptions</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The customer subscriptions operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="79" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="79" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ab5984aeffe91013a87bbf37069b1c7a6" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements_1_1_i_customer_agreement_collection" kindref="compound">ICustomerAgreementCollection</ref>
+        </type>
+        <definition>ICustomerAgreementCollection com.microsoft.store.partnercenter.customers.CustomerOperations.agreements</definition>
+        <argsstring></argsstring>
+        <name>agreements</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The customer agreements operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="84" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="84" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a53aede5c0e63a80e7d08b951ac61473c" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_collection" kindref="compound">IOrderCollection</ref>
+        </type>
+        <definition>IOrderCollection com.microsoft.store.partnercenter.customers.CustomerOperations.orders</definition>
+        <argsstring></argsstring>
+        <name>orders</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The customer orders operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="89" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="89" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aa4f6073ea5b55be20891351a76a63af1" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1profiles_1_1_i_customer_profile_collection" kindref="compound">ICustomerProfileCollection</ref>
+        </type>
+        <definition>ICustomerProfileCollection com.microsoft.store.partnercenter.customers.CustomerOperations.profiles</definition>
+        <argsstring></argsstring>
+        <name>profiles</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The customer profiles operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="94" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="94" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a4fe0d33bf840449657078cdf141381be" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_service_request_collection" kindref="compound">IServiceRequestCollection</ref>
+        </type>
+        <definition>IServiceRequestCollection com.microsoft.store.partnercenter.customers.CustomerOperations.serviceRequests</definition>
+        <argsstring></argsstring>
+        <name>serviceRequests</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The customer service requests operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="99" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="99" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a766f97e9e942589ed209cdf612ea604f" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1managedservices_1_1_i_managed_service_collection" kindref="compound">IManagedServiceCollection</ref>
+        </type>
+        <definition>IManagedServiceCollection com.microsoft.store.partnercenter.customers.CustomerOperations.managedServices</definition>
+        <argsstring></argsstring>
+        <name>managedServices</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The customer managed services. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="104" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="104" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1af6e6cd3872ff7c9a0d26eb908e0103e5" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_collection" kindref="compound">ICustomerOfferCollection</ref>
+        </type>
+        <definition>ICustomerOfferCollection com.microsoft.store.partnercenter.customers.CustomerOperations.offers</definition>
+        <argsstring></argsstring>
+        <name>offers</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="109" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="109" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1af80af67cb2e8932447b18222e6b355cf" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_category_collection" kindref="compound">ICustomerOfferCategoryCollection</ref>
+        </type>
+        <definition>ICustomerOfferCategoryCollection com.microsoft.store.partnercenter.customers.CustomerOperations.offerCategories</definition>
+        <argsstring></argsstring>
+        <name>offerCategories</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="114" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="114" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a1caba9e5ad1669f2c3bf3ccb5b6604af" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_summary" kindref="compound">ICustomerUsageSummary</ref>
+        </type>
+        <definition>ICustomerUsageSummary com.microsoft.store.partnercenter.customers.CustomerOperations.usageSummary</definition>
+        <argsstring></argsstring>
+        <name>usageSummary</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The customer summary for usage-based subscriptions operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="119" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="119" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a993f0fd7a95e031dc37e692647733f91" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_spending_budget" kindref="compound">ICustomerUsageSpendingBudget</ref>
+        </type>
+        <definition>ICustomerUsageSpendingBudget com.microsoft.store.partnercenter.customers.CustomerOperations.usageBudget</definition>
+        <argsstring></argsstring>
+        <name>usageBudget</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The operations for the spending budget allocated to the customer by the partner. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="124" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="124" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aaebc8425214726806fe2531502d10f43" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1qualification_1_1_i_customer_qualification" kindref="compound">ICustomerQualification</ref>
+        </type>
+        <definition>ICustomerQualification com.microsoft.store.partnercenter.customers.CustomerOperations.customerQualification</definition>
+        <argsstring></argsstring>
+        <name>customerQualification</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="129" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="129" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a2d64e7e38b4b114359750eb0e3bfa3d2" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_collection" kindref="compound">ICustomerUserCollection</ref>
+        </type>
+        <definition>ICustomerUserCollection com.microsoft.store.partnercenter.customers.CustomerOperations.customerUserCollectionOperations</definition>
+        <argsstring></argsstring>
+        <name>customerUserCollectionOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The operations for the customer users associated with the customer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="134" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="134" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aaa13be72f6c5df48cd93d6a213bb84d8" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_i_directory_role_collection" kindref="compound">IDirectoryRoleCollection</ref>
+        </type>
+        <definition>IDirectoryRoleCollection com.microsoft.store.partnercenter.customers.CustomerOperations.directoryRoleCollectionOperations</definition>
+        <argsstring></argsstring>
+        <name>directoryRoleCollectionOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="139" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="139" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1abc13d900d8f6841f7fc881252d30c69f" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscribedskus_1_1_i_customer_subscribed_sku_collection" kindref="compound">ICustomerSubscribedSkuCollection</ref>
+        </type>
+        <definition>ICustomerSubscribedSkuCollection com.microsoft.store.partnercenter.customers.CustomerOperations.customerSubscribedSkuCollectionOperations</definition>
+        <argsstring></argsstring>
+        <name>customerSubscribedSkuCollectionOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The operations for the subscribed skus associated with the customer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="144" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="144" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1af1ac268aab1dc5f98e95e4bf562f8f44" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1carts_1_1_i_cart_collection" kindref="compound">ICartCollection</ref>
+        </type>
+        <definition>ICartCollection com.microsoft.store.partnercenter.customers.CustomerOperations.cartOperations</definition>
+        <argsstring></argsstring>
+        <name>cartOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The operations for the carts associated with the customer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="149" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="149" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1af1d5e674aaea781977b91fe1e11d8b82" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection" kindref="compound">ICustomerProductCollection</ref>
+        </type>
+        <definition>ICustomerProductCollection com.microsoft.store.partnercenter.customers.CustomerOperations.productOperations</definition>
+        <argsstring></argsstring>
+        <name>productOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The operations for the products associated with the customer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="154" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="154" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aa0ba619ecea6046abc2e16b60bcc16cd" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1servicecosts_1_1_i_customer_service_costs_collection" kindref="compound">ICustomerServiceCostsCollection</ref>
+        </type>
+        <definition>ICustomerServiceCostsCollection com.microsoft.store.partnercenter.customers.CustomerOperations.serviceCostsOperations</definition>
+        <argsstring></argsstring>
+        <name>serviceCostsOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The operations for the products associated with the customer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="159" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="159" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ada3c040edff4c07817836fc585bd4b16" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_devices_batch_collection" kindref="compound">IDevicesBatchCollection</ref>
+        </type>
+        <definition>IDevicesBatchCollection com.microsoft.store.partnercenter.customers.CustomerOperations.deviceBatches</definition>
+        <argsstring></argsstring>
+        <name>deviceBatches</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The operations for the device batches associated with the customer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="164" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="164" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a4c9107b9c6800edf2d0a49b7cb0bccb6" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_customer_device_collection" kindref="compound">ICustomerDeviceCollection</ref>
+        </type>
+        <definition>ICustomerDeviceCollection com.microsoft.store.partnercenter.customers.CustomerOperations.devices</definition>
+        <argsstring></argsstring>
+        <name>devices</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The operations for the device associated with the customer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="169" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="169" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ab38e52d627e365aa8f22eab3dbc091f3" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_batch_job_status_collection" kindref="compound">IBatchJobStatusCollection</ref>
+        </type>
+        <definition>IBatchJobStatusCollection com.microsoft.store.partnercenter.customers.CustomerOperations.batchUploadStatusCollection</definition>
+        <argsstring></argsstring>
+        <name>batchUploadStatusCollection</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The operations for the batch upload status associated with the customer. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="174" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="174" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aae28485563eb28b1eafc4528ab70b175" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships_1_1_i_customer_relationship_collection" kindref="compound">ICustomerRelationshipCollection</ref>
+        </type>
+        <definition>ICustomerRelationshipCollection com.microsoft.store.partnercenter.customers.CustomerOperations.customerRelationshipCollectionOperations</definition>
+        <argsstring></argsstring>
+        <name>customerRelationshipCollectionOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>The customer relationship collection operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="179" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="179" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a5394bb55d2fc365414f29812d7600354" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_customer_analytics_collection" kindref="compound">ICustomerAnalyticsCollection</ref>
+        </type>
+        <definition>ICustomerAnalyticsCollection com.microsoft.store.partnercenter.customers.CustomerOperations.analytics</definition>
+        <argsstring></argsstring>
+        <name>analytics</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="184" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="184" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ae03042283dbd449a0404544e91507866" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements_1_1_i_entitlement_collection" kindref="compound">IEntitlementCollection</ref>
+        </type>
+        <definition>IEntitlementCollection com.microsoft.store.partnercenter.customers.CustomerOperations.entitlements</definition>
+        <argsstring></argsstring>
+        <name>entitlements</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="189" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="189" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aa402a0789d3f3000c96f3eb2e5ec4a27" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_configuration_policy_collection" kindref="compound">IConfigurationPolicyCollection</ref>
+        </type>
+        <definition>IConfigurationPolicyCollection com.microsoft.store.partnercenter.customers.CustomerOperations.configurationPolicies</definition>
+        <argsstring></argsstring>
+        <name>configurationPolicies</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="194" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="194" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a8411282ea4fa44281755c59ad092b04b" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.customers.CustomerOperations.customerId</definition>
+        <argsstring></argsstring>
+        <name>customerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="196" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="196" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a3d3ebf1285432f9e4f34c101c05851cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId)</argsstring>
+        <name>CustomerOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the CustomerOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="204" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="204" bodyend="212" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1afaa82ea11fa64748b5ffe42d669df329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1agreements_1_1_i_customer_agreement_collection" kindref="compound">ICustomerAgreementCollection</ref>
+        </type>
+        <definition>ICustomerAgreementCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements</definition>
+        <argsstring>()</argsstring>
+        <name>getAgreements</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a3691f071952cefe1d082ddf10ed39de3">getAgreements</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains the accepted agreements for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer accepted agreements. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="220" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="220" bodyend="227" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a347c5d98110cf26f4cd6b3e1a1f16567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1orders_1_1_i_order_collection" kindref="compound">IOrderCollection</ref>
+        </type>
+        <definition>IOrderCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders</definition>
+        <argsstring>()</argsstring>
+        <name>getOrders</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1ac6e345de6e8a0fb417600a905b711345">getOrders</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the orders behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer orders. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="235" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="235" bodyend="242" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a4d1de4198490b7669fb374124b009eef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1profiles_1_1_i_customer_profile_collection" kindref="compound">ICustomerProfileCollection</ref>
+        </type>
+        <definition>ICustomerProfileCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles</definition>
+        <argsstring>()</argsstring>
+        <name>getProfiles</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a534692d1cb6e0d7cff942d3cdf8a7076">getProfiles</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains the profiles behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer profiles. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="250" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="250" bodyend="257" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a47f9f059ce26e02e82f820f274286acb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_collection" kindref="compound">ISubscriptionCollection</ref>
+        </type>
+        <definition>ISubscriptionCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions</definition>
+        <argsstring>()</argsstring>
+        <name>getSubscriptions</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a856c387a4fecff94adf43395dc702196">getSubscriptions</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the subscriptions behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The subscriptions behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="260" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="260" bodyend="267" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a11091d0d877eb3f7b02b759b25205923" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1servicerequests_1_1_i_service_request_collection" kindref="compound">IServiceRequestCollection</ref>
+        </type>
+        <definition>IServiceRequestCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests</definition>
+        <argsstring>()</argsstring>
+        <name>getServiceRequests</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1aae7d3b099fc277be30fe53775fc7dc89">getServiceRequests</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains the service requests behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer service request operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="275" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="275" bodyend="282" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a030e4eb7c2adaa4f48fded0fefbe42ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1managedservices_1_1_i_managed_service_collection" kindref="compound">IManagedServiceCollection</ref>
+        </type>
+        <definition>IManagedServiceCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices</definition>
+        <argsstring>()</argsstring>
+        <name>getManagedServices</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a879d9aae378164fb9c418bf66a584e97">getManagedServices</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains the managed services behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer managed services operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="290" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="290" bodyend="297" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a37b71547b3cfb5a6c7723676143a2876" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_category_collection" kindref="compound">ICustomerOfferCategoryCollection</ref>
+        </type>
+        <definition>ICustomerOfferCategoryCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories</definition>
+        <argsstring>()</argsstring>
+        <name>getOfferCategories</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a452003763ddaa60368bc63cf83b06bf7">getOfferCategories</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the offer categories behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The offer categories behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="303" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="303" bodyend="309" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ab7565df960eaa847a3f20f7a6c1f8615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_customer_offer_collection" kindref="compound">ICustomerOfferCollection</ref>
+        </type>
+        <definition>ICustomerOfferCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers</definition>
+        <argsstring>()</argsstring>
+        <name>getOffers</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a80bf7e689ff4300a186c73a487c21120">getOffers</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the offers behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The offers behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="315" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="315" bodyend="321" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a22baf93c53e8a2f34bf57bdd51d1bf98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_summary" kindref="compound">ICustomerUsageSummary</ref>
+        </type>
+        <definition>ICustomerUsageSummary com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary</definition>
+        <argsstring>()</argsstring>
+        <name>getUsageSummary</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1afe8c8f7f6637cd1158a03eec5ecc637e">getUsageSummary</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains the customer usage summary behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer usage summary operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="329" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="329" bodyend="336" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a035ce02c55fb75d857edb7f05a6762dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1usage_1_1_i_customer_usage_spending_budget" kindref="compound">ICustomerUsageSpendingBudget</ref>
+        </type>
+        <definition>ICustomerUsageSpendingBudget com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget</definition>
+        <argsstring>()</argsstring>
+        <name>getUsageBudget</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a67e2d1f03dd112ec1a93664392b31a57">getUsageBudget</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains the usage spending budget behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer usage spending budget operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="344" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="344" bodyend="351" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ade710c765281e27f4241a25f10ce0ccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1qualification_1_1_i_customer_qualification" kindref="compound">ICustomerQualification</ref>
+        </type>
+        <definition>ICustomerQualification com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification</definition>
+        <argsstring>()</argsstring>
+        <name>getQualification</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a8c510b69300bf5d899538947bdae527a">getQualification</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the qualification behavior of the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The qualification behavior of the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="357" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="357" bodyend="364" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1acf1f9f17ace14cf06d94f293516136ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerusers_1_1_i_customer_user_collection" kindref="compound">ICustomerUserCollection</ref>
+        </type>
+        <definition>ICustomerUserCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers</definition>
+        <argsstring>()</argsstring>
+        <name>getUsers</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a89e336cebd12b59519b1190185389d3a">getUsers</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains the users for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer usage spending budget operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="372" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="372" bodyend="379" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a876ea31c43403600dafac2697fa2adae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customerdirectoryroles_1_1_i_directory_role_collection" kindref="compound">IDirectoryRoleCollection</ref>
+        </type>
+        <definition>IDirectoryRoleCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles</definition>
+        <argsstring>()</argsstring>
+        <name>getDirectoryRoles</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1ae3e1dfce76410339d386a33e830a44c4">getDirectoryRoles</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the directory role behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The directory role behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="385" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="385" bodyend="392" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a5db435d84f76f39a58a16ac38c51f1e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscribedskus_1_1_i_customer_subscribed_sku_collection" kindref="compound">ICustomerSubscribedSkuCollection</ref>
+        </type>
+        <definition>ICustomerSubscribedSkuCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus</definition>
+        <argsstring>()</argsstring>
+        <name>getSubscribedSkus</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a8f0ff4e53cac6a18f6327b4057f9add7">getSubscribedSkus</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains the subscribed skus for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer usage spending budget operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="400" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="400" bodyend="407" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ae885a3120c0f4846b8437caac302d5aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1carts_1_1_i_cart_collection" kindref="compound">ICartCollection</ref>
+        </type>
+        <definition>ICartCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts</definition>
+        <argsstring>()</argsstring>
+        <name>getCarts</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a8642261641cb660cca68ff0e1170a37e">getCarts</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the cart behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer carts. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="415" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="415" bodyend="423" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a6703fcf91640d3a627bc30de47220512" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1products_1_1_i_customer_product_collection" kindref="compound">ICustomerProductCollection</ref>
+        </type>
+        <definition>ICustomerProductCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts</definition>
+        <argsstring>()</argsstring>
+        <name>getProducts</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1aa343bfbc0e1cf86f0c3517a2053cfddf">getProducts</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the cart behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer carts. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="431" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="431" bodyend="439" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aac422970db7a7313dafacaa6322487bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1servicecosts_1_1_i_customer_service_costs_collection" kindref="compound">ICustomerServiceCostsCollection</ref>
+        </type>
+        <definition>ICustomerServiceCostsCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts</definition>
+        <argsstring>()</argsstring>
+        <name>getServiceCosts</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a21d162be2418e00a83dd86cea685bdea">getServiceCosts</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the cart behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer carts. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="447" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="447" bodyend="455" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a584c95995ba92bbd81791c2787272082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_devices_batch_collection" kindref="compound">IDevicesBatchCollection</ref>
+        </type>
+        <definition>IDevicesBatchCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches</definition>
+        <argsstring>()</argsstring>
+        <name>getDeviceBatches</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a62fa487be097c322a4ecd0c93364c332">getDeviceBatches</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains the devices batches behavior of the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The devices batches behavior of the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="463" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="463" bodyend="471" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aca1d7767d9346a253f95e7137a419279" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_customer_device_collection" kindref="compound">ICustomerDeviceCollection</ref>
+        </type>
+        <definition>ICustomerDeviceCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy</definition>
+        <argsstring>()</argsstring>
+        <name>getDevicePolicy</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1ae1bd2f8e9b3296466ea5125018ce73e8">getDevicePolicy</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains the device policy behavior of the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The device policy behavior of the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="479" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="479" bodyend="487" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ad8ad8f5a7db475c5f0a53f92bb10d409" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_batch_job_status_collection" kindref="compound">IBatchJobStatusCollection</ref>
+        </type>
+        <definition>IBatchJobStatusCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus</definition>
+        <argsstring>()</argsstring>
+        <name>getBatchUploadStatus</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a8672d64cb350f9b779e25c7aa4eb0277">getBatchUploadStatus</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Obtains the devices batch upload job status behavior of the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The device batch upload job status beavior of the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="495" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="495" bodyend="503" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a94cb5088b36060c574529969cba3d34b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1relationships_1_1_i_customer_relationship_collection" kindref="compound">ICustomerRelationshipCollection</ref>
+        </type>
+        <definition>ICustomerRelationshipCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships</definition>
+        <argsstring>()</argsstring>
+        <name>getRelationships</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a347aa473057e2716dd6a84d53d810ac6">getRelationships</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the relationship collection behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The relationship collection behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="508" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="508" bodyend="516" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a143eb7b72c1becada89b26816dabf09c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1analytics_1_1_i_customer_analytics_collection" kindref="compound">ICustomerAnalyticsCollection</ref>
+        </type>
+        <definition>ICustomerAnalyticsCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics</definition>
+        <argsstring>()</argsstring>
+        <name>getAnalytics</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a0032d3666d3151839e35b086c041d440">getAnalytics</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the analytics collection behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The analytics collection behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="521" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="521" bodyend="529" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ad571ed8cf0e1860b4fdd051e599dea31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1entitlements_1_1_i_entitlement_collection" kindref="compound">IEntitlementCollection</ref>
+        </type>
+        <definition>IEntitlementCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements</definition>
+        <argsstring>()</argsstring>
+        <name>getEntitlements</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a37d9aaf29d7d9f303486a225c9e26f8f">getEntitlements</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the entitlement collection behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entitlement collection behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="534" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="534" bodyend="542" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a87e61437abf7e90e2d3ab660228b7715" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1devicesdeployment_1_1_i_configuration_policy_collection" kindref="compound">IConfigurationPolicyCollection</ref>
+        </type>
+        <definition>IConfigurationPolicyCollection com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies</definition>
+        <argsstring>()</argsstring>
+        <name>getConfigurationPolicies</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a022e653f9697209c9995c5920c7dd5dd">getConfigurationPolicies</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the configuration policies behavior for the customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The configuration policies behavior for the customer. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="547" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="547" bodyend="555" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a0842ee6de8c8977c8c84a268c4a6d7af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1customers_1_1_customer" kindref="compound">Customer</ref>
+        </type>
+        <definition>Customer com.microsoft.store.partnercenter.customers.CustomerOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a9472face2fecd3689d2c95f0cdff937c">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves information of a specific customer.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The customer object. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="563" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="563" bodyend="571" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a626d75c2007b15c59bc2fffe1ecbc613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.customers.CustomerOperations.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer_1a3b14ddf20d9f716ed1fc4f556c9949db">delete</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Deletes the customer from a testing in production account. This won't work for real accounts. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="577" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="577" bodyend="585" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements a single customer operations. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="808">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="805">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="804">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="805" relation="public-inheritance"></childnode>
+      </node>
+      <node id="810">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityDeleteOperations&lt;Customer&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_delete_operations" />
+      </node>
+      <node id="807">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="808" relation="public-inheritance"></childnode>
+      </node>
+      <node id="803">
+        <label>com.microsoft.store.partnercenter.customers.CustomerOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations" />
+        <childnode refid="804" relation="public-inheritance"></childnode>
+        <childnode refid="806" relation="public-inheritance"></childnode>
+      </node>
+      <node id="809">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Customer&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="806">
+        <label>com.microsoft.store.partnercenter.customers.ICustomer</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer" />
+        <childnode refid="807" relation="public-inheritance"></childnode>
+        <childnode refid="809" relation="public-inheritance"></childnode>
+        <childnode refid="810" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="816">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="813">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponent&lt;String&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+      </node>
+      <node id="812">
+        <label>com.microsoft.store.partnercenter.BasePartnerComponentString</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string" />
+        <childnode refid="813" relation="public-inheritance"></childnode>
+      </node>
+      <node id="818">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityDeleteOperations&lt;Customer&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_delete_operations" />
+      </node>
+      <node id="815">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_string" />
+        <childnode refid="816" relation="public-inheritance"></childnode>
+      </node>
+      <node id="811">
+        <label>com.microsoft.store.partnercenter.customers.CustomerOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations" />
+        <childnode refid="812" relation="public-inheritance"></childnode>
+        <childnode refid="814" relation="public-inheritance"></childnode>
+      </node>
+      <node id="817">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Customer&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="814">
+        <label>com.microsoft.store.partnercenter.customers.ICustomer</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_i_customer" />
+        <childnode refid="815" relation="public-inheritance"></childnode>
+        <childnode refid="817" relation="public-inheritance"></childnode>
+        <childnode refid="818" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" line="75" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java" bodystart="72" bodyend="586" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ab5984aeffe91013a87bbf37069b1c7a6" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>agreements</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a5394bb55d2fc365414f29812d7600354" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>analytics</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1ae6339c5a921b5c3b6a545e1064951c83" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_string_1a9662304cff58f8d465d2a47e7e8cedf0" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>BasePartnerComponentString</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ab38e52d627e365aa8f22eab3dbc091f3" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>batchUploadStatusCollection</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1af1ac268aab1dc5f98e95e4bf562f8f44" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>cartOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aa402a0789d3f3000c96f3eb2e5ec4a27" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>configurationPolicies</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a8411282ea4fa44281755c59ad092b04b" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>customerId</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a3d3ebf1285432f9e4f34c101c05851cd" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>CustomerOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aaebc8425214726806fe2531502d10f43" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>customerQualification</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aae28485563eb28b1eafc4528ab70b175" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>customerRelationshipCollectionOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1abc13d900d8f6841f7fc881252d30c69f" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>customerSubscribedSkuCollectionOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a2d64e7e38b4b114359750eb0e3bfa3d2" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>customerUserCollectionOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a626d75c2007b15c59bc2fffe1ecbc613" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>delete</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ada3c040edff4c07817836fc585bd4b16" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>deviceBatches</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a4c9107b9c6800edf2d0a49b7cb0bccb6" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>devices</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aaa13be72f6c5df48cd93d6a213bb84d8" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>directoryRoleCollectionOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ae03042283dbd449a0404544e91507866" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>entitlements</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a0842ee6de8c8977c8c84a268c4a6d7af" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1afaa82ea11fa64748b5ffe42d669df329" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getAgreements</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a143eb7b72c1becada89b26816dabf09c" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getAnalytics</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ad8ad8f5a7db475c5f0a53f92bb10d409" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getBatchUploadStatus</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ae885a3120c0f4846b8437caac302d5aa" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getCarts</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a87e61437abf7e90e2d3ab660228b7715" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getConfigurationPolicies</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::customers::ICustomer.">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a584c95995ba92bbd81791c2787272082" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getDeviceBatches</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aca1d7767d9346a253f95e7137a419279" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getDevicePolicy</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a876ea31c43403600dafac2697fa2adae" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getDirectoryRoles</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ad571ed8cf0e1860b4fdd051e599dea31" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getEntitlements</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a030e4eb7c2adaa4f48fded0fefbe42ca" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getManagedServices</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a37b71547b3cfb5a6c7723676143a2876" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getOfferCategories</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ab7565df960eaa847a3f20f7a6c1f8615" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getOffers</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a347c5d98110cf26f4cd6b3e1a1f16567" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getOrders</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::BasePartnerComponentString.">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::customers::ICustomer.">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a6703fcf91640d3a627bc30de47220512" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getProducts</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a4d1de4198490b7669fb374124b009eef" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getProfiles</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1ade710c765281e27f4241a25f10ce0ccb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getQualification</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a94cb5088b36060c574529969cba3d34b" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getRelationships</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aac422970db7a7313dafacaa6322487bb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getServiceCosts</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a11091d0d877eb3f7b02b759b25205923" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getServiceRequests</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a5db435d84f76f39a58a16ac38c51f1e4" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getSubscribedSkus</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a47f9f059ce26e02e82f820f274286acb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getSubscriptions</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a035ce02c55fb75d857edb7f05a6762dd" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getUsageBudget</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a22baf93c53e8a2f34bf57bdd51d1bf98" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getUsageSummary</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1acf1f9f17ace14cf06d94f293516136ae" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>getUsers</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a766f97e9e942589ed209cdf612ea604f" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>managedServices</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1af80af67cb2e8932447b18222e6b355cf" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>offerCategories</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1af6e6cd3872ff7c9a0d26eb908e0103e5" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>offers</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a53aede5c0e63a80e7d08b951ac61473c" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>orders</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1af1d5e674aaea781977b91fe1e11d8b82" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>productOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aa4f6073ea5b55be20891351a76a63af1" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>profiles</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1aa0ba619ecea6046abc2e16b60bcc16cd" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>serviceCostsOperations</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a4fe0d33bf840449657078cdf141381be" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>serviceRequests</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a3b47420ccfad91abd452295c3b125b5a" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>subscriptions</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a993f0fd7a95e031dc37e692647733f91" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>usageBudget</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1customers_1_1_customer_operations_1a1caba9e5ad1669f2c3bf3ccb5b6604af" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::customers::CustomerOperations</scope>
+        <name>usageSummary</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

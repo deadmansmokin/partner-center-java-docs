@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.ResourceBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a53c853fa081699bcfddb5edded2e1102" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.__UsageStartTime</definition>
+        <argsstring></argsstring>
+        <name>__UsageStartTime</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="24" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a525f2d5f42cf11de39763c1911a9197f" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.__UsageEndTime</definition>
+        <argsstring></argsstring>
+        <name>__UsageEndTime</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="38" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a6bdbe15053b9d0630aac7ea6d6470c5d" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_resource" kindref="compound">AzureResource</ref>
+        </type>
+        <definition>AzureResource com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.__Resource</definition>
+        <argsstring></argsstring>
+        <name>__Resource</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="51" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="51" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1ae6e2a887eabca54c2bb3a003907534b5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.__Quantity</definition>
+        <argsstring></argsstring>
+        <name>__Quantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="64" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="64" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1ac62ca2ba3684fe65669710d39732e62d" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.__Unit</definition>
+        <argsstring></argsstring>
+        <name>__Unit</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="77" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="77" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a83891aa39adddb24118dd071df397231" prot="private" static="no" mutable="no">
+        <type>Map&lt;String, String&gt;</type>
+        <definition>Map&lt;String, String&gt; com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.__InfoFields</definition>
+        <argsstring></argsstring>
+        <name>__InfoFields</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="90" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="90" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1acbc8cb9cbf567bef8d16125bc5fdf872" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_instance_data" kindref="compound">AzureInstanceData</ref>
+        </type>
+        <definition>AzureInstanceData com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.__InstanceData</definition>
+        <argsstring></argsstring>
+        <name>__InstanceData</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="103" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="103" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a4e7712559e07804a3f8c4d1247689e20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.getUsageStartTime</definition>
+        <argsstring>()</argsstring>
+        <name>getUsageStartTime</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="26" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="26" bodyend="28" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a5c0236b286d864dbd6fee2921bccbf2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setUsageStartTime</definition>
+        <argsstring>(DateTime usageStartTime)</argsstring>
+        <name>setUsageStartTime</name>
+        <param>
+          <type>DateTime</type>
+          <declname>usageStartTime</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="30" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="30" bodyend="32" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1ac6a913e840d4060dba619bb00760eb7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.getUsageEndTime</definition>
+        <argsstring>()</argsstring>
+        <name>getUsageEndTime</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="40" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="40" bodyend="42" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a93c0f16b6a8e5c1a6274846cd8e32439" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setUsageEndTime</definition>
+        <argsstring>(DateTime usageEndTime)</argsstring>
+        <name>setUsageEndTime</name>
+        <param>
+          <type>DateTime</type>
+          <declname>usageEndTime</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="44" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="44" bodyend="46" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a39dd528d302252b9ded23a42e6f4edf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_resource" kindref="compound">AzureResource</ref>
+        </type>
+        <definition>AzureResource com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.getResource</definition>
+        <argsstring>()</argsstring>
+        <name>getResource</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="53" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="53" bodyend="55" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1af77902bc5c7b97f1939761ea0f7184e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setResource</definition>
+        <argsstring>(AzureResource resource)</argsstring>
+        <name>setResource</name>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_resource" kindref="compound">AzureResource</ref>
+          </type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="57" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="57" bodyend="59" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a5275785b3b8742d94948e28ef1f49834" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.getQuantity</definition>
+        <argsstring>()</argsstring>
+        <name>getQuantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="66" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="66" bodyend="68" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a97cff656eb1d90ce741ba4cb6b92bcc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setQuantity</definition>
+        <argsstring>(double quantity)</argsstring>
+        <name>setQuantity</name>
+        <param>
+          <type>double</type>
+          <declname>quantity</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="70" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="70" bodyend="72" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a77517c18c8917ee192df1fe2b24726b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.getUnit</definition>
+        <argsstring>()</argsstring>
+        <name>getUnit</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="79" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="79" bodyend="81" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1aaec2dbed76441d645dd5f449f9efd5f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setUnit</definition>
+        <argsstring>(String unit)</argsstring>
+        <name>setUnit</name>
+        <param>
+          <type>String</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="83" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="83" bodyend="85" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a41ad6474f4fee7f04666c0f502ab451b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Map&lt;String, String&gt;</type>
+        <definition>Map&lt;String, String&gt; com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.getInfoFields</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoFields</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="92" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="92" bodyend="94" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1afb37d431856a1eafa704988fa5d66f28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setInfoFields</definition>
+        <argsstring>(Map&lt;String, String&gt; infoFields)</argsstring>
+        <name>setInfoFields</name>
+        <param>
+          <type>Map&lt;String, String&gt;</type>
+          <declname>infoFields</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="96" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="96" bodyend="98" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a083eacd0d2dc6e5cee1f2773919aacc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_instance_data" kindref="compound">AzureInstanceData</ref>
+        </type>
+        <definition>AzureInstanceData com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.getInstanceData</definition>
+        <argsstring>()</argsstring>
+        <name>getInstanceData</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="105" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="105" bodyend="107" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a3f2cbdc540914e12054b572e3e23fe20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setInstanceData</definition>
+        <argsstring>(AzureInstanceData __InstanceData)</argsstring>
+        <name>setInstanceData</name>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_instance_data" kindref="compound">AzureInstanceData</ref>
+          </type>
+          <declname>__InstanceData</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="109" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="109" bodyend="111" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="174">
+        <label>com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record" />
+        <childnode refid="175" relation="public-inheritance"></childnode>
+      </node>
+      <node id="175">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="176">
+        <label>com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record" />
+        <childnode refid="177" relation="public-inheritance"></childnode>
+      </node>
+      <node id="177">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationRecord.java" bodystart="18" bodyend="112" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a83891aa39adddb24118dd071df397231" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>__InfoFields</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1acbc8cb9cbf567bef8d16125bc5fdf872" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>__InstanceData</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1ae6e2a887eabca54c2bb3a003907534b5" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>__Quantity</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a6bdbe15053b9d0630aac7ea6d6470c5d" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>__Resource</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1ac62ca2ba3684fe65669710d39732e62d" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>__Unit</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a525f2d5f42cf11de39763c1911a9197f" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>__UsageEndTime</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a53c853fa081699bcfddb5edded2e1102" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>__UsageStartTime</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ac2e2226cca816bd63cd179b0eae6a163" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a41ad6474f4fee7f04666c0f502ab451b" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>getInfoFields</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a083eacd0d2dc6e5cee1f2773919aacc2" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>getInstanceData</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a5275785b3b8742d94948e28ef1f49834" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>getQuantity</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a39dd528d302252b9ded23a42e6f4edf5" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>getResource</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a77517c18c8917ee192df1fe2b24726b2" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>getUnit</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1ac6a913e840d4060dba619bb00760eb7a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>getUsageEndTime</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a4e7712559e07804a3f8c4d1247689e20" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>getUsageStartTime</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ad9225d84f0a18fc31d4f24e0f9010824" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_base_1ab891cf19d9cca1f6918b43c9680ec5e5" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1afb37d431856a1eafa704988fa5d66f28" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>setInfoFields</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a3f2cbdc540914e12054b572e3e23fe20" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>setInstanceData</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a97cff656eb1d90ce741ba4cb6b92bcc9" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>setQuantity</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1af77902bc5c7b97f1939761ea0f7184e2" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>setResource</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1aaec2dbed76441d645dd5f449f9efd5f1" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>setUnit</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a93c0f16b6a8e5c1a6274846cd8e32439" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>setUsageEndTime</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1utilizations_1_1_azure_utilization_record_1a5c0236b286d864dbd6fee2921bccbf2a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::utilizations::AzureUtilizationRecord</scope>
+        <name>setUsageStartTime</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

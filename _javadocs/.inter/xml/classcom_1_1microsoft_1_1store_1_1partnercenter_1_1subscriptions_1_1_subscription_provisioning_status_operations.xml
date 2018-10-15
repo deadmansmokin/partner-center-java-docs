@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_provisioning_status_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::subscriptions::SubscriptionProvisioningStatusOperations</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_provisioning_status" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_provisioning_status_operations_1a33a14079f44a4350541ecaf9eb8ccbfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations.SubscriptionProvisioningStatusOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String subscriptionId)</argsstring>
+        <name>SubscriptionProvisioningStatusOperations</name>
+        <param>
+          <type>
+            <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>subscriptionId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SubscriptionProvisioningStatusOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>subscriptionId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The subscription id. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionProvisioningStatusOperations.java" line="36" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionProvisioningStatusOperations.java" bodystart="36" bodyend="49" />
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_provisioning_status_operations_1a80aa003edf798b744972a4eb40028e9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1subscriptions_1_1_subscription_provisioning_status" kindref="compound">SubscriptionProvisioningStatus</ref>
+        </type>
+        <definition>SubscriptionProvisioningStatus com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_provisioning_status_1a46a69e968c0dd3ffda0fadbe4cf0aee8">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all subscription provisioning status details.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The subscription provisioning status details. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionProvisioningStatusOperations.java" line="56" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionProvisioningStatusOperations.java" bodystart="56" bodyend="70" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements getting customer subscription provisioning status details for a given subscription. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4412">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4408">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_provisioning_status_operations" />
+        <childnode refid="4409" relation="public-inheritance"></childnode>
+        <childnode refid="4411" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4413">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SubscriptionProvisioningStatus&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="4410">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4411">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_provisioning_status" />
+        <childnode refid="4412" relation="public-inheritance"></childnode>
+        <childnode refid="4413" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4409">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="4410" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4418">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4414">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_provisioning_status_operations" />
+        <childnode refid="4415" relation="public-inheritance"></childnode>
+        <childnode refid="4417" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4419">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;SubscriptionProvisioningStatus&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1genericoperations_1_1_i_entity_get_operations" />
+      </node>
+      <node id="4416">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="4417">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_i_subscription_provisioning_status" />
+        <childnode refid="4418" relation="public-inheritance"></childnode>
+        <childnode refid="4419" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4415">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component" />
+        <childnode refid="4416" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionProvisioningStatusOperations.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionProvisioningStatusOperations.java" bodystart="25" bodyend="71" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1ab2b6448fc493e9cb6cebebe965b5bfd6" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionProvisioningStatusOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_provisioning_status_operations_1a80aa003edf798b744972a4eb40028e9f" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionProvisioningStatusOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1aadcc230f137b95884743438261ee1e12" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionProvisioningStatusOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1_base_partner_component_1a93cbdc431ec5eb34e87b84f986256127" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionProvisioningStatusOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1subscriptions_1_1_subscription_provisioning_status_operations_1a33a14079f44a4350541ecaf9eb8ccbfb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionProvisioningStatusOperations</scope>
+        <name>SubscriptionProvisioningStatusOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

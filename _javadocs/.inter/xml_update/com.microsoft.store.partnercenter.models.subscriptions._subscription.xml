@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.subscriptions._subscription" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::subscriptions::Subscription</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._contract" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.Contract</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__Id" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.__Id</definition>
+        <argsstring></argsstring>
+        <name>__Id</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the subscription identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="38" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__OfferId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.__OfferId</definition>
+        <argsstring></argsstring>
+        <name>__OfferId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the offer identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="53" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="53" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__OfferName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.__OfferName</definition>
+        <argsstring></argsstring>
+        <name>__OfferName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the offer identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="68" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="68" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__FriendlyName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.__FriendlyName</definition>
+        <argsstring></argsstring>
+        <name>__FriendlyName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the friendly name for the subscription. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="83" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="83" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__Quantity" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.subscriptions.Subscription.__Quantity</definition>
+        <argsstring></argsstring>
+        <name>__Quantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the quantity. For example, in case of seat based billing, this property is set to seat count </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="98" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="98" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__UnitType" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.__UnitType</definition>
+        <argsstring></argsstring>
+        <name>__UnitType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the units defining Quantity for the subscription. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="113" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="113" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__ParentSubscriptionId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.__ParentSubscriptionId</definition>
+        <argsstring></argsstring>
+        <name>__ParentSubscriptionId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the parent subscription identifier. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="128" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="128" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__CreationDate" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.subscriptions.Subscription.__CreationDate</definition>
+        <argsstring></argsstring>
+        <name>__CreationDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the creation date. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="143" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="143" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__EffectiveStartDate" prot="private" static="no" mutable="no">
+        <type>LocalDateTime</type>
+        <definition>LocalDateTime com.microsoft.store.partnercenter.models.subscriptions.Subscription.__EffectiveStartDate</definition>
+        <argsstring></argsstring>
+        <name>__EffectiveStartDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the effective start date for this subscription. It is used to back date a migrated subscription or to align it with another. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="165" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="165" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__CommitmentEndDate" prot="private" static="no" mutable="no">
+        <type>LocalDateTime</type>
+        <definition>LocalDateTime com.microsoft.store.partnercenter.models.subscriptions.Subscription.__CommitmentEndDate</definition>
+        <argsstring></argsstring>
+        <name>__CommitmentEndDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the commitment end date for this subscription. For the subscription which are not auto renewable this represents a date far away in the future. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="187" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="187" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__Status" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription_status" kindref="compound">SubscriptionStatus</ref>
+        </type>
+        <definition>SubscriptionStatus com.microsoft.store.partnercenter.models.subscriptions.Subscription.__Status</definition>
+        <argsstring></argsstring>
+        <name>__Status</name>
+        <initializer>= SubscriptionStatus.NONE</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the subscription status. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="209" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="209" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__AutoRenewEnabled" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean com.microsoft.store.partnercenter.models.subscriptions.Subscription.__AutoRenewEnabled</definition>
+        <argsstring></argsstring>
+        <name>__AutoRenewEnabled</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets a value indicating whether [automatic renew enabled]. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="224" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="224" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__BillingType" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.invoices._billing_type" kindref="compound">BillingType</ref>
+        </type>
+        <definition>BillingType com.microsoft.store.partnercenter.models.subscriptions.Subscription.__BillingType</definition>
+        <argsstring></argsstring>
+        <name>__BillingType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the billing type Revisit this property - do we need this having UnitType. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="239" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="239" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__PartnerId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.__PartnerId</definition>
+        <argsstring></argsstring>
+        <name>__PartnerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the MPN identifier. This only applies to 2-tier partner scenarios. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="254" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="254" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__Links" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription_links" kindref="compound">SubscriptionLinks</ref>
+        </type>
+        <definition>SubscriptionLinks com.microsoft.store.partnercenter.models.subscriptions.Subscription.__Links</definition>
+        <argsstring></argsstring>
+        <name>__Links</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the links. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="286" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="286" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.__SuspensionReasons" prot="private" static="no" mutable="no">
+        <type>Iterable&lt;String&gt;</type>
+        <definition>Iterable&lt;String&gt; com.microsoft.store.partnercenter.models.subscriptions.Subscription.__SuspensionReasons</definition>
+        <argsstring></argsstring>
+        <name>__SuspensionReasons</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the links. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="301" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="301" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.Subscription()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.subscriptions.Subscription.Subscription</definition>
+        <argsstring>()</argsstring>
+        <name>Subscription</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the subscription class. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="29" bodyend="33" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="40" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="40" bodyend="43" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="45" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="45" bodyend="48" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getOfferId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferId</definition>
+        <argsstring>()</argsstring>
+        <name>getOfferId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="55" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="55" bodyend="58" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setOfferId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setOfferId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="60" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="60" bodyend="63" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getOfferName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.getOfferName</definition>
+        <argsstring>()</argsstring>
+        <name>getOfferName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="70" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="70" bodyend="73" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setOfferName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setOfferName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setOfferName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="75" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="75" bodyend="78" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getFriendlyName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.getFriendlyName</definition>
+        <argsstring>()</argsstring>
+        <name>getFriendlyName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="85" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="85" bodyend="88" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setFriendlyName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setFriendlyName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setFriendlyName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="90" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="90" bodyend="93" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getQuantity()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.microsoft.store.partnercenter.models.subscriptions.Subscription.getQuantity</definition>
+        <argsstring>()</argsstring>
+        <name>getQuantity</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="100" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="100" bodyend="103" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setQuantity(int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setQuantity</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setQuantity</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="105" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="105" bodyend="108" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getUnitType()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.getUnitType</definition>
+        <argsstring>()</argsstring>
+        <name>getUnitType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="115" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="115" bodyend="118" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setUnitType(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setUnitType</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setUnitType</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="120" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="120" bodyend="123" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getParentSubscriptionId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.getParentSubscriptionId</definition>
+        <argsstring>()</argsstring>
+        <name>getParentSubscriptionId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="130" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="130" bodyend="133" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setParentSubscriptionId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setParentSubscriptionId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setParentSubscriptionId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="135" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="135" bodyend="138" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getCreationDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCreationDate</definition>
+        <argsstring>()</argsstring>
+        <name>getCreationDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="145" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="145" bodyend="148" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setCreationDate(DateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCreationDate</definition>
+        <argsstring>(DateTime value)</argsstring>
+        <name>setCreationDate</name>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="156" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="156" bodyend="159" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getEffectiveStartDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LocalDateTime</type>
+        <definition>LocalDateTime com.microsoft.store.partnercenter.models.subscriptions.Subscription.getEffectiveStartDate</definition>
+        <argsstring>()</argsstring>
+        <name>getEffectiveStartDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="167" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="167" bodyend="170" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setEffectiveStartDate(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEffectiveStartDate</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setEffectiveStartDate</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="173" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="173" bodyend="176" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setEffectiveStartDate(LocalDateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEffectiveStartDate</definition>
+        <argsstring>(LocalDateTime value)</argsstring>
+        <name>setEffectiveStartDate</name>
+        <param>
+          <type>LocalDateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="178" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="178" bodyend="181" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getCommitmentEndDate()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LocalDateTime</type>
+        <definition>LocalDateTime com.microsoft.store.partnercenter.models.subscriptions.Subscription.getCommitmentEndDate</definition>
+        <argsstring>()</argsstring>
+        <name>getCommitmentEndDate</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="189" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="189" bodyend="192" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setCommitmentEndDate(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCommitmentEndDate</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setCommitmentEndDate</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="195" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="195" bodyend="199" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setCommitmentEndDate(LocalDateTime)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCommitmentEndDate</definition>
+        <argsstring>(LocalDateTime value)</argsstring>
+        <name>setCommitmentEndDate</name>
+        <param>
+          <type>LocalDateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="201" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="201" bodyend="204" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getStatus()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription_status" kindref="compound">SubscriptionStatus</ref>
+        </type>
+        <definition>SubscriptionStatus com.microsoft.store.partnercenter.models.subscriptions.Subscription.getStatus</definition>
+        <argsstring>()</argsstring>
+        <name>getStatus</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="211" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="211" bodyend="214" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setStatus(SubscriptionStatus)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setStatus</definition>
+        <argsstring>(SubscriptionStatus value)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription_status" kindref="compound">SubscriptionStatus</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="216" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="216" bodyend="219" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getAutoRenewEnabled()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.microsoft.store.partnercenter.models.subscriptions.Subscription.getAutoRenewEnabled</definition>
+        <argsstring>()</argsstring>
+        <name>getAutoRenewEnabled</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="226" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="226" bodyend="229" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setAutoRenewEnabled(boolean)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setAutoRenewEnabled</definition>
+        <argsstring>(boolean value)</argsstring>
+        <name>setAutoRenewEnabled</name>
+        <param>
+          <type>boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="231" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="231" bodyend="234" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getBillingType()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.invoices._billing_type" kindref="compound">BillingType</ref>
+        </type>
+        <definition>BillingType com.microsoft.store.partnercenter.models.subscriptions.Subscription.getBillingType</definition>
+        <argsstring>()</argsstring>
+        <name>getBillingType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="241" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="241" bodyend="244" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setBillingType(BillingType)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingType</definition>
+        <argsstring>(BillingType value)</argsstring>
+        <name>setBillingType</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.invoices._billing_type" kindref="compound">BillingType</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="246" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="246" bodyend="249" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getPartnerId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.subscriptions.Subscription.getPartnerId</definition>
+        <argsstring>()</argsstring>
+        <name>getPartnerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="256" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="256" bodyend="259" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setPartnerId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPartnerId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setPartnerId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="261" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="261" bodyend="264" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getContractType()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._contract_type" kindref="compound">ContractType</ref>
+        </type>
+        <definition>ContractType com.microsoft.store.partnercenter.models.subscriptions.Subscription.getContractType</definition>
+        <argsstring>()</argsstring>
+        <name>getContractType</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the type of contract </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="270" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="270" bodyend="273" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setContractType(ContractType)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setContractType</definition>
+        <argsstring>(ContractType type)</argsstring>
+        <name>setContractType</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models._contract_type" kindref="compound">ContractType</ref>
+          </type>
+          <declname>type</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="275" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="275" bodyend="281" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getLinks()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription_links" kindref="compound">SubscriptionLinks</ref>
+        </type>
+        <definition>SubscriptionLinks com.microsoft.store.partnercenter.models.subscriptions.Subscription.getLinks</definition>
+        <argsstring>()</argsstring>
+        <name>getLinks</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="288" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="288" bodyend="291" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setLinks(SubscriptionLinks)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setLinks</definition>
+        <argsstring>(SubscriptionLinks value)</argsstring>
+        <name>setLinks</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription_links" kindref="compound">SubscriptionLinks</ref>
+          </type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="293" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="293" bodyend="296" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.getSuspensionReasons()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt;String&gt;</type>
+        <definition>Iterable&lt;String&gt; com.microsoft.store.partnercenter.models.subscriptions.Subscription.getSuspensionReasons</definition>
+        <argsstring>()</argsstring>
+        <name>getSuspensionReasons</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="303" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="303" bodyend="306" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.subscriptions._subscription.setSuspensionReasons(Iterable&lt;String&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.subscriptions.Subscription.setSuspensionReasons</definition>
+        <argsstring>(Iterable&lt;String&gt; value)</argsstring>
+        <name>setSuspensionReasons</name>
+        <param>
+          <type>Iterable&lt;String&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="308" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="308" bodyend="311" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>The subscription resource represents the life cycle of a subscription and includes properties that define the states throughout the subscription life cycle </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4303">
+        <label>com.microsoft.store.partnercenter.models.Contract</label>
+        <link refid="com.microsoft.store.partnercenter.models._contract" />
+        <childnode refid="4304" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4302">
+        <label>com.microsoft.store.partnercenter.models.subscriptions.Subscription</label>
+        <link refid="com.microsoft.store.partnercenter.models.subscriptions._subscription" />
+        <childnode refid="4303" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4304">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4306">
+        <label>com.microsoft.store.partnercenter.models.Contract</label>
+        <link refid="com.microsoft.store.partnercenter.models._contract" />
+        <childnode refid="4307" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4305">
+        <label>com.microsoft.store.partnercenter.models.subscriptions.Subscription</label>
+        <link refid="com.microsoft.store.partnercenter.models.subscriptions._subscription" />
+        <childnode refid="4306" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4307">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" line="25" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/subscriptions/Subscription.java" bodystart="23" bodyend="312" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__AutoRenewEnabled" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__AutoRenewEnabled</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__BillingType" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__BillingType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__CommitmentEndDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__CommitmentEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__CreationDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__CreationDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__EffectiveStartDate" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__EffectiveStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__FriendlyName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__FriendlyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__Id" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__Id</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__Links" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__Links</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__OfferId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__OfferId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__OfferName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__OfferName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__ParentSubscriptionId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__ParentSubscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__PartnerId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__PartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__Quantity" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__Quantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__Status" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__Status</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__SuspensionReasons" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__SuspensionReasons</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.__UnitType" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>__UnitType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._contract.Contract()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>Contract</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getAutoRenewEnabled()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getAutoRenewEnabled</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getBillingType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getBillingType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getCommitmentEndDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getCommitmentEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getContractType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getContractType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getCreationDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getCreationDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getEffectiveStartDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getEffectiveStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getFriendlyName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getFriendlyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getLinks()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getOfferId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getOfferId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getOfferName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getOfferName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._contract.getOrderId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getOrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getParentSubscriptionId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getParentSubscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getPartnerId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getQuantity()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getStatus()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getStatus</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getSuspensionReasons()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getSuspensionReasons</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.getUnitType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>getUnitType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setAutoRenewEnabled(boolean)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setAutoRenewEnabled</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setBillingType(BillingType)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setBillingType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setCommitmentEndDate(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setCommitmentEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setCommitmentEndDate(LocalDateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setCommitmentEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setContractType(ContractType)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setContractType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setCreationDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setCreationDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setEffectiveStartDate(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setEffectiveStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setEffectiveStartDate(LocalDateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setEffectiveStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setFriendlyName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setFriendlyName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setLinks(SubscriptionLinks)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setOfferId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setOfferId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setOfferName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setOfferName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._contract.setOrderId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setOrderId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setParentSubscriptionId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setParentSubscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setPartnerId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setPartnerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setQuantity(int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setQuantity</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setStatus(SubscriptionStatus)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setStatus</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setSuspensionReasons(Iterable&lt;String&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setSuspensionReasons</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.setUnitType(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>setUnitType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.subscriptions._subscription.Subscription()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::subscriptions::Subscription</scope>
+        <name>Subscription</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.usage.UsageSummaryBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__ResourceId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.__ResourceId</definition>
+        <argsstring></argsstring>
+        <name>__ResourceId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the Azure Active Directory tenant Id of the partner this usage summary applies to. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="21" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__ResourceName" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.__ResourceName</definition>
+        <argsstring></argsstring>
+        <name>__ResourceName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the name of the partner this usage summary applies to. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="36" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="36" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__EmailsToNotify" prot="private" static="no" mutable="no">
+        <type>Iterable&lt;String&gt;</type>
+        <definition>Iterable&lt;String&gt; com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.__EmailsToNotify</definition>
+        <argsstring></argsstring>
+        <name>__EmailsToNotify</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the list of email addresses for notifications. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="51" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="51" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__CustomersOverBudget" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.__CustomersOverBudget</definition>
+        <argsstring></argsstring>
+        <name>__CustomersOverBudget</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the number of customers that are over budget. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="66" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="66" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__CustomersTrendingOver" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.__CustomersTrendingOver</definition>
+        <argsstring></argsstring>
+        <name>__CustomersTrendingOver</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the number of customers that are close to going over budget. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="81" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="81" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__CustomersWithUsageBasedSubscription" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.__CustomersWithUsageBasedSubscription</definition>
+        <argsstring></argsstring>
+        <name>__CustomersWithUsageBasedSubscription</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="96" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="96" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getResourceId()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getResourceId</definition>
+        <argsstring>()</argsstring>
+        <name>getResourceId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="23" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="23" bodyend="26" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setResourceId(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceId</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setResourceId</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="28" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="28" bodyend="31" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getResourceName()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getResourceName</definition>
+        <argsstring>()</argsstring>
+        <name>getResourceName</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="38" bodyend="41" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setResourceName(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceName</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setResourceName</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="43" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="43" bodyend="46" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getEmailsToNotify()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt;String&gt;</type>
+        <definition>Iterable&lt;String&gt; com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getEmailsToNotify</definition>
+        <argsstring>()</argsstring>
+        <name>getEmailsToNotify</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="53" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="53" bodyend="56" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setEmailsToNotify(Iterable&lt;String&gt;)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setEmailsToNotify</definition>
+        <argsstring>(Iterable&lt;String&gt; value)</argsstring>
+        <name>setEmailsToNotify</name>
+        <param>
+          <type>Iterable&lt;String&gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="58" bodyend="61" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getCustomersOverBudget()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersOverBudget</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomersOverBudget</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="68" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="68" bodyend="71" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setCustomersOverBudget(long)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setCustomersOverBudget</definition>
+        <argsstring>(long value)</argsstring>
+        <name>setCustomersOverBudget</name>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="73" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="73" bodyend="76" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getCustomersTrendingOver()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersTrendingOver</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomersTrendingOver</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="83" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="83" bodyend="86" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setCustomersTrendingOver(long)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setCustomersTrendingOver</definition>
+        <argsstring>(long value)</argsstring>
+        <name>setCustomersTrendingOver</name>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="88" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="88" bodyend="91" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getCustomersWithUsageBasedSubscription()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersWithUsageBasedSubscription</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomersWithUsageBasedSubscription</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="98" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="98" bodyend="101" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setCustomersWithUsageBasedSubscription(long)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setCustomersWithUsageBasedSubscription</definition>
+        <argsstring>(long value)</argsstring>
+        <name>setCustomersWithUsageBasedSubscription</name>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="103" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="103" bodyend="106" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>This class defines the usage summary of a partner for all its customers with an Azure subscription </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3717">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="3718" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3715">
+        <label>com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary" />
+        <childnode refid="3716" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3716">
+        <label>com.microsoft.store.partnercenter.models.usage.UsageSummaryBase</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base" />
+        <childnode refid="3717" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3718">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3721">
+        <label>com::microsoft::store::partnercenter::models::ResourceBaseWithLinks&lt;StandardResourceLinks&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base_with_links" />
+        <childnode refid="3722" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3719">
+        <label>com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary" />
+        <childnode refid="3720" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3720">
+        <label>com.microsoft.store.partnercenter.models.usage.UsageSummaryBase</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base" />
+        <childnode refid="3721" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3722">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/PartnerUsageSummary.java" bodystart="15" bodyend="108" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__CustomersOverBudget" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>__CustomersOverBudget</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__CustomersTrendingOver" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>__CustomersTrendingOver</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__CustomersWithUsageBasedSubscription" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>__CustomersWithUsageBasedSubscription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__EmailsToNotify" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>__EmailsToNotify</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__ResourceId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>__ResourceId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.__ResourceName" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>__ResourceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base.getBillingEndDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getBillingEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base.getBillingStartDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getBillingStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base.getCurrencyLocale()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getCurrencyLocale</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getCustomersOverBudget()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getCustomersOverBudget</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getCustomersTrendingOver()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getCustomersTrendingOver</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getCustomersWithUsageBasedSubscription()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getCustomersWithUsageBasedSubscription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getEmailsToNotify()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getEmailsToNotify</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base.getLastModifiedDate()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getLastModifiedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.getLinks()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getResourceId()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getResourceId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.getResourceName()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getResourceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base.getTotalCost()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>getTotalCost</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.ResourceBaseWithLinks()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>ResourceBaseWithLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base.setBillingEndDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setBillingEndDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base.setBillingStartDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setBillingStartDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base.setCurrencyLocale(Locale)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setCurrencyLocale</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setCustomersOverBudget(long)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setCustomersOverBudget</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setCustomersTrendingOver(long)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setCustomersTrendingOver</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setCustomersWithUsageBasedSubscription(long)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setCustomersWithUsageBasedSubscription</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setEmailsToNotify(Iterable&lt;String&gt;)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setEmailsToNotify</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base.setLastModifiedDate(DateTime)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setLastModifiedDate</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base_with_links.setLinks(TLinks)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setLinks</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setResourceId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setResourceId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._partner_usage_summary.setResourceName(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setResourceName</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._usage_summary_base.setTotalCost(double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::PartnerUsageSummary</scope>
+        <name>setTotalCost</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

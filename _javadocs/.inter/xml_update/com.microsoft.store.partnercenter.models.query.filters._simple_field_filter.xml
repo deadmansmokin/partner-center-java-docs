@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models.query.filters._field_filter" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.query.filters.FieldFilter</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.__Field" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.__Field</definition>
+        <argsstring></argsstring>
+        <name>__Field</name>
+        <initializer>= new String()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the filtered field name. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="69" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="69" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.__Value" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.__Value</definition>
+        <argsstring></argsstring>
+        <name>__Value</name>
+        <initializer>= new String()</initializer>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the filter value. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="84" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="84" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.SimpleFieldFilter()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter</definition>
+        <argsstring>()</argsstring>
+        <name>SimpleFieldFilter</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SimpleFieldFilter class. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="21" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="21" bodyend="24" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.SimpleFieldFilter(String,FieldFilterOperation,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter</definition>
+        <argsstring>(String field, FieldFilterOperation operation, String value)</argsstring>
+        <name>SimpleFieldFilter</name>
+        <param>
+          <type>String</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.query.filters._field_filter_operation" kindref="compound">FieldFilterOperation</ref>
+          </type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SimpleFieldFilter class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>field</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The filter field name </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The value to execute the operator on. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>operation</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The operator value. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="33" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="33" bodyend="36" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.SimpleFieldFilter(String,String,FieldFilterOperation)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter</definition>
+        <argsstring>(String field, String value, FieldFilterOperation operation)</argsstring>
+        <name>SimpleFieldFilter</name>
+        <param>
+          <type>String</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.query.filters._field_filter_operation" kindref="compound">FieldFilterOperation</ref>
+          </type>
+          <declname>operation</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SimpleFieldFilter class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>field</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The filter field name </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The value to execute the operator on. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>operation</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The operator value. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="45" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="45" bodyend="48" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.SimpleFieldFilter(String,String,FieldFilterOperation,FieldType)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter</definition>
+        <argsstring>(String field, String value, FieldFilterOperation operation, FieldType fieldType)</argsstring>
+        <name>SimpleFieldFilter</name>
+        <param>
+          <type>String</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.query.filters._field_filter_operation" kindref="compound">FieldFilterOperation</ref>
+          </type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.query.filters._field_type" kindref="compound">FieldType</ref>
+          </type>
+          <declname>fieldType</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SimpleFieldFilter class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>field</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The filter field name </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>value</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The value to execute the operator on. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>operation</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The operator value. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>fieldType</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The field type.x </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="58" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="58" bodyend="64" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.getField()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.getField</definition>
+        <argsstring>()</argsstring>
+        <name>getField</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="71" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="71" bodyend="74" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.setField(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.setField</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setField</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="76" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="76" bodyend="79" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.getValue()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="86" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="86" bodyend="89" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.setValue(String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.setValue</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="91" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="91" bodyend="94" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.generateExpression(IFilterExpressionGenerator)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.generateExpression</definition>
+        <argsstring>(IFilterExpressionGenerator filterExpressionGenerator)</argsstring>
+        <name>generateExpression</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.query.filters._i_filter_expression_generator" kindref="compound">IFilterExpressionGenerator</ref>
+          </type>
+          <declname>filterExpressionGenerator</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Generates a filter expression string.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>filterExpressionGenerator</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The filter expression generator to use. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The filter expression according to the provided generator language. </para>
+            </simplesect>
+            <parameterlist kind="exception">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>IllegalArgumentException</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>if the passed filter expression generator is null. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="103" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="103" bodyend="115" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.toString()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Prints the simple filter details.</para>
+          <para>
+            <simplesect kind="return">
+              <para>Simple filter details </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="122" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="122" bodyend="126" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>A simple filter applied to a field. An example is (Year lessThan 1999). </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4201">
+        <label>com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter</label>
+        <link refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter" />
+        <childnode refid="4202" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4202">
+        <label>com.microsoft.store.partnercenter.models.query.filters.FieldFilter</label>
+        <link refid="com.microsoft.store.partnercenter.models.query.filters._field_filter" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4203">
+        <label>com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter</label>
+        <link refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter" />
+        <childnode refid="4204" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4204">
+        <label>com.microsoft.store.partnercenter.models.query.filters.FieldFilter</label>
+        <link refid="com.microsoft.store.partnercenter.models.query.filters._field_filter" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" line="17" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/query/filters/SimpleFieldFilter.java" bodystart="15" bodyend="128" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.__Field" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>__Field</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.__Value" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>__Value</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.generateExpression(IFilterExpressionGenerator)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>generateExpression</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.getField()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>getField</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._field_filter.getFieldType()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>getFieldType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._field_filter.getOperator()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>getOperator</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.getValue()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>getValue</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.setField(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>setField</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._field_filter.setFieldType(FieldType)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>setFieldType</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._field_filter.setOperator(FieldFilterOperation)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>setOperator</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.setValue(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>setValue</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.SimpleFieldFilter()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>SimpleFieldFilter</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.SimpleFieldFilter(String,FieldFilterOperation,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>SimpleFieldFilter</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.SimpleFieldFilter(String,String,FieldFilterOperation)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>SimpleFieldFilter</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.SimpleFieldFilter(String,String,FieldFilterOperation,FieldType)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>SimpleFieldFilter</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.query.filters._simple_field_filter.toString()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::query::filters::SimpleFieldFilter</scope>
+        <name>toString</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

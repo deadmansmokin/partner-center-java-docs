@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::offers::IOffer</compoundname>
+    <basecompoundref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_offer_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.offers.OfferOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer_1a3c69c854b417cba0cfce058d8ee85721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer_add_ons" kindref="compound">IOfferAddOns</ref>
+        </type>
+        <definition>IOfferAddOns com.microsoft.store.partnercenter.offers.IOffer.getAddOns</definition>
+        <argsstring>()</argsstring>
+        <name>getAddOns</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_offer_operations_1a4c8e9b32dafb64b7a946ea9965d85a36">getAddOns</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the operations for the current offer's add-ons.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The operations for the current offer's add-ons </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/IOffer.java" line="24" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer_1ab52bb9713eedcae1c498055d340f717a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1offers_1_1_offer" kindref="compound">Offer</ref>
+        </type>
+        <definition>Offer com.microsoft.store.partnercenter.offers.IOffer.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplementedby refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_offer_operations_1a755edfcd5f6a910593d5eddf9d976beb">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves an offer for the provided offer identifer, country.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The requested offer for the given country and identifier. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/IOffer.java" line="31" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Holds operations that can be performed on a single offer. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2442">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2441">
+        <label>com.microsoft.store.partnercenter.offers.IOffer</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer" />
+        <childnode refid="2442" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2443">
+        <label>com.microsoft.store.partnercenter.offers.OfferOperations</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_offer_operations" />
+        <childnode refid="2441" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2445">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component" />
+      </node>
+      <node id="2444">
+        <label>com.microsoft.store.partnercenter.offers.IOffer</label>
+        <link refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer" />
+        <childnode refid="2445" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/IOffer.java" line="18" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/offers/IOffer.java" bodystart="16" bodyend="32" />
+    <listofallmembers>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer_1ab52bb9713eedcae1c498055d340f717a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::IOffer</scope>
+        <name>get</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1offers_1_1_i_offer_1a3c69c854b417cba0cfce058d8ee85721" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::IOffer</scope>
+        <name>getAddOns</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1ab539852a08dc8dd2a7fbfcaa842c1d84" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::IOffer</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="interfacecom_1_1microsoft_1_1store_1_1partnercenter_1_1_i_partner_component_1a9502f454ac7d10261f3e27567a41228a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::offers::IOffer</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

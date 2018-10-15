@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::devicesdeployment::IDevicesBatchCollection</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;DeviceBatch, ResourceCollection&lt;DeviceBatch&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IDevicesBatch&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;DeviceBatchCreationRequest, String&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection.byId(String)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch" kindref="compound">IDevicesBatch</ref>
+        </type>
+        <definition>IDevicesBatch com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId</definition>
+        <argsstring>(String deviceBatchId)</argsstring>
+        <name>byId</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector.byId(String)">byId</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_collection_operations.byId(String)">byId</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>deviceBatchId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IDevicesBatchCollection.java" line="31" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.devicesdeployment._device_batch" kindref="compound">DeviceBatch</ref>&gt;</type>
+        <definition>ResourceCollection&lt;DeviceBatch&gt; com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_collection_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves all entities.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The entities. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IDevicesBatchCollection.java" line="38" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription></detaileddescription>
+    <inheritancegraph>
+      <node id="1814">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;DeviceBatch, ResourceCollection&lt;DeviceBatch&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="1815">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IDevicesBatch&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="1813">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1816">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;DeviceBatchCreationRequest, String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+      <node id="1817">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._devices_batch_collection_operations" />
+        <childnode refid="1811" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1812">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1813" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1811">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection" />
+        <childnode refid="1812" relation="public-inheritance"></childnode>
+        <childnode refid="1814" relation="public-inheritance"></childnode>
+        <childnode refid="1815" relation="public-inheritance"></childnode>
+        <childnode refid="1816" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1821">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntireEntityCollectionRetrievalOperations&lt;DeviceBatch, ResourceCollection&lt;DeviceBatch&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="1822">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntitySelector&lt;IDevicesBatch&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_selector" />
+      </node>
+      <node id="1820">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="1823">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCreateOperations&lt;DeviceBatchCreationRequest, String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations" />
+      </node>
+      <node id="1819">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="1820" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1818">
+        <label>com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection</label>
+        <link refid="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection" />
+        <childnode refid="1819" relation="public-inheritance"></childnode>
+        <childnode refid="1821" relation="public-inheritance"></childnode>
+        <childnode refid="1822" relation="public-inheritance"></childnode>
+        <childnode refid="1823" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IDevicesBatchCollection.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IDevicesBatchCollection.java" bodystart="21" bodyend="39" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection.byId(String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::IDevicesBatchCollection</scope>
+        <name>byId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_create_operations.create(T)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::IDevicesBatchCollection</scope>
+        <name>create</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::IDevicesBatchCollection</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::IDevicesBatchCollection</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::devicesdeployment::IDevicesBatchCollection</scope>
+        <name>getPartner</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

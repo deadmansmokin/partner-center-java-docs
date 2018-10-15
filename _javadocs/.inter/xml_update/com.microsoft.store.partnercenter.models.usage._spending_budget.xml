@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.models.usage._spending_budget" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::usage::SpendingBudget</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter.models._resource_base" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.ResourceBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.models.usage._spending_budget.__Amount" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double com.microsoft.store.partnercenter.models.usage.SpendingBudget.__Amount</definition>
+        <argsstring></argsstring>
+        <name>__Amount</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets or sets the usage spending budget. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/SpendingBudget.java" line="22" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/SpendingBudget.java" bodystart="22" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._spending_budget.getAmount()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Double</type>
+        <definition>Double com.microsoft.store.partnercenter.models.usage.SpendingBudget.getAmount</definition>
+        <argsstring>()</argsstring>
+        <name>getAmount</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/SpendingBudget.java" line="24" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/SpendingBudget.java" bodystart="24" bodyend="27" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.models.usage._spending_budget.setAmount(Double)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.microsoft.store.partnercenter.models.usage.SpendingBudget.setAmount</definition>
+        <argsstring>(Double value)</argsstring>
+        <name>setAmount</name>
+        <param>
+          <type>Double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/SpendingBudget.java" line="29" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/SpendingBudget.java" bodystart="29" bodyend="32" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>The spending budget allocated to the customer by the partner. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4275">
+        <label>com.microsoft.store.partnercenter.models.usage.SpendingBudget</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._spending_budget" />
+        <childnode refid="4276" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4276">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4277">
+        <label>com.microsoft.store.partnercenter.models.usage.SpendingBudget</label>
+        <link refid="com.microsoft.store.partnercenter.models.usage._spending_budget" />
+        <childnode refid="4278" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4278">
+        <label>com.microsoft.store.partnercenter.models.ResourceBase</label>
+        <link refid="com.microsoft.store.partnercenter.models._resource_base" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/SpendingBudget.java" line="18" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/usage/SpendingBudget.java" bodystart="16" bodyend="34" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.models.usage._spending_budget.__Amount" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::SpendingBudget</scope>
+        <name>__Amount</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._spending_budget.getAmount()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::SpendingBudget</scope>
+        <name>getAmount</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.getAttributes()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::SpendingBudget</scope>
+        <name>getAttributes</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase()" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::SpendingBudget</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::SpendingBudget</scope>
+        <name>ResourceBase</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.models.usage._spending_budget.setAmount(Double)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::usage::SpendingBudget</scope>
+        <name>setAmount</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

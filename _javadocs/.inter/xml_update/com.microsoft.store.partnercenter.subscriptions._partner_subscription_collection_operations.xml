@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.subscriptions._partner_subscription_collection_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::subscriptions::PartnerSubscriptionCollectionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_collection_retrieval_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityCollectionRetrievalOperations&lt;Subscription, ResourceCollection&lt;Subscription&gt;&gt;</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._partner_subscription_collection_operations.PartnerSubscriptionCollectionOperations(IPartner,String,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations.PartnerSubscriptionCollectionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String partnerId)</argsstring>
+        <name>PartnerSubscriptionCollectionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>partnerId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the PartnerSubscriptionCollectionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>partnerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The partner Id. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/PartnerSubscriptionCollectionOperations.java" line="38" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/PartnerSubscriptionCollectionOperations.java" bodystart="38" bodyend="52" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._partner_subscription_collection_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription" kindref="compound">Subscription</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Subscription&gt; com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the subscriptions for the given partner.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The partner subscriptions. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/PartnerSubscriptionCollectionOperations.java" line="60" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/PartnerSubscriptionCollectionOperations.java" bodystart="60" bodyend="63" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._partner_subscription_collection_operations.get(int,int)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription" kindref="compound">Subscription</ref>&gt;</type>
+        <definition>ResourceCollection&lt;Subscription&gt; com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations.get</definition>
+        <argsstring>(int offset, int size)</argsstring>
+        <name>get</name>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets a segment of the subscriptions for the given partner.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>offset</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The starting index. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>size</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The desired segment size. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The required subscriptions segment. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/PartnerSubscriptionCollectionOperations.java" line="73" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/PartnerSubscriptionCollectionOperations.java" bodystart="73" bodyend="88" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Implements customer subscription operations grouped by a Microsoft partner. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3706">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCollectionRetrievalOperations&lt;Subscription, ResourceCollection&lt;Subscription&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_collection_retrieval_operations" />
+        <childnode refid="3707" relation="public-inheritance"></childnode>
+        <childnode refid="3708" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3707">
+        <label>com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&lt;T, TResourceCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="3703">
+        <label>com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._partner_subscription_collection_operations" />
+        <childnode refid="3704" relation="public-inheritance"></childnode>
+        <childnode refid="3706" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3705">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3708">
+        <label>com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations&lt;T, TResourceCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_paged_entity_collection_retrieval_operations" />
+      </node>
+      <node id="3704">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="3705" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3712">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityCollectionRetrievalOperations&lt;Subscription, ResourceCollection&lt;Subscription&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_collection_retrieval_operations" />
+        <childnode refid="3713" relation="public-inheritance"></childnode>
+        <childnode refid="3714" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3713">
+        <label>com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&lt;T, TResourceCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations" />
+      </node>
+      <node id="3709">
+        <label>com.microsoft.store.partnercenter.subscriptions.PartnerSubscriptionCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._partner_subscription_collection_operations" />
+        <childnode refid="3710" relation="public-inheritance"></childnode>
+        <childnode refid="3712" relation="public-inheritance"></childnode>
+      </node>
+      <node id="3711">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="3714">
+        <label>com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations&lt;T, TResourceCollection&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_paged_entity_collection_retrieval_operations" />
+      </node>
+      <node id="3710">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="3711" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/PartnerSubscriptionCollectionOperations.java" line="30" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/PartnerSubscriptionCollectionOperations.java" bodystart="27" bodyend="90" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::PartnerSubscriptionCollectionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._partner_subscription_collection_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::PartnerSubscriptionCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._partner_subscription_collection_operations.get(int,int)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::PartnerSubscriptionCollectionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::PartnerSubscriptionCollectionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::PartnerSubscriptionCollectionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._partner_subscription_collection_operations.PartnerSubscriptionCollectionOperations(IPartner,String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::PartnerSubscriptionCollectionOperations</scope>
+        <name>PartnerSubscriptionCollectionOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

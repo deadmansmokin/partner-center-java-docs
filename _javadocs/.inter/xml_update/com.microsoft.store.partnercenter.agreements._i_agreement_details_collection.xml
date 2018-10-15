@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.agreements._i_agreement_details_collection" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::agreements::IAgreementDetailsCollection</compoundname>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.agreements._agreement_details_collection_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.agreements._i_agreement_details_collection.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models._resource_collection" kindref="compound">ResourceCollection</ref>&lt;<ref refid="com.microsoft.store.partnercenter.models.agreements._agreement_meta_data" kindref="compound">AgreementMetaData</ref>&gt;</type>
+        <definition>ResourceCollection&lt;AgreementMetaData&gt; com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.agreements._agreement_details_collection_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/agreements/IAgreementDetailsCollection.java" line="22" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Encapsulates the operations on the agreement metadata collection. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1384">
+        <label>com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.agreements._agreement_details_collection_operations" />
+        <childnode refid="1383" relation="public-inheritance"></childnode>
+      </node>
+      <node id="1383">
+        <label>com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection</label>
+        <link refid="com.microsoft.store.partnercenter.agreements._i_agreement_details_collection" />
+      </node>
+    </inheritancegraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/agreements/IAgreementDetailsCollection.java" line="16" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/agreements/IAgreementDetailsCollection.java" bodystart="15" bodyend="23" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.agreements._i_agreement_details_collection.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::agreements::IAgreementDetailsCollection</scope>
+        <name>get</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

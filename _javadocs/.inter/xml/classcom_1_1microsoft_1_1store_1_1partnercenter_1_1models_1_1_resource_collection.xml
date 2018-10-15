@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::models::ResourceCollection</compoundname>
+    <basecompoundref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks&lt;TResource, StandardResourceCollectionLinks&gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>TResource</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_1ad78b3aba769d7ff8835cc8df68e9e90e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.ResourceCollection&lt;TResource&gt;.ResourceCollection</definition>
+        <argsstring>(@JsonProperty("items") List&lt;TResource&gt; items)</argsstring>
+        <name>ResourceCollection</name>
+        <param>
+          <type>@JsonProperty("items") List&lt;TResource&gt;</type>
+          <declname>items</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the ResourceCollection class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>items</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The items. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/ResourceCollection.java" line="27" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/ResourceCollection.java" bodystart="27" bodyend="30" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_1a1be3bcbd01307189523894d5b0508747" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.models.ResourceCollection&lt;TResource&gt;.ResourceCollection</definition>
+        <argsstring>(ResourceCollection&lt;TResource&gt; resourceCollection)</argsstring>
+        <name>ResourceCollection</name>
+        <param>
+          <type>
+            <ref refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" kindref="compound">ResourceCollection</ref>&lt;TResource&gt;</type>
+          <declname>resourceCollection</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the ResourceCollection class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>resourceCollection</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The resource collection. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/ResourceCollection.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/ResourceCollection.java" bodystart="37" bodyend="40" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Contains a collection of resources with JSON properties to represent the output Type of objects in collection </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4052">
+        <label>com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks&lt;TResource, StandardResourceCollectionLinks&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links" />
+      </node>
+      <node id="4051">
+        <label>com.microsoft.store.partnercenter.models.ResourceCollection&lt;TResource&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" />
+        <childnode refid="4052" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4054">
+        <label>com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks&lt;TResource, StandardResourceCollectionLinks&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links" />
+      </node>
+      <node id="4053">
+        <label>com.microsoft.store.partnercenter.models.ResourceCollection&lt;TResource&gt;</label>
+        <link refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection" />
+        <childnode refid="4054" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/ResourceCollection.java" line="19" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/models/ResourceCollection.java" bodystart="17" bodyend="41" />
+    <listofallmembers>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1a5e3bf54b5e528d212c5433f278ff7ac7" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::ResourceCollection</scope>
+        <name>getItems</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1a362c16d7a5900dc0985ffd320a4e9595" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::ResourceCollection</scope>
+        <name>getTotalCount</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_1ad78b3aba769d7ff8835cc8df68e9e90e" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::ResourceCollection</scope>
+        <name>ResourceCollection</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_1a1be3bcbd01307189523894d5b0508747" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::ResourceCollection</scope>
+        <name>ResourceCollection</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1a16b190180a7ea95af6321a61bf7faf54" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::ResourceCollection</scope>
+        <name>ResourceCollectionWithLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1ad165efc7eea0f59a47b4aa89ffe39f68" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::ResourceCollection</scope>
+        <name>ResourceCollectionWithLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1a285224d39c4b00e2a92e0a18e41236ea" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::ResourceCollection</scope>
+        <name>ResourceCollectionWithLinks</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1abc3bbb9d48ca67c7cdf717d0a38debeb" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::ResourceCollection</scope>
+        <name>setItems</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1aa11eb4ffef0aff15e5972fa3af64d70f" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::ResourceCollection</scope>
+        <name>setTotalCount</name>
+      </member>
+      <member refid="classcom_1_1microsoft_1_1store_1_1partnercenter_1_1models_1_1_resource_collection_with_links_1a67bcdc3fb75bc44fcb77e5609e6f3f7a" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::models::ResourceCollection</scope>
+        <name>toString</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

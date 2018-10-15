@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.profiles._i_organization_profile" kind="interface" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::profiles::IOrganizationProfile</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._i_partner_component_string" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.IPartnerComponentString</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;OrganizationProfile&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;OrganizationProfile&gt;</basecompoundref>
+    <derivedcompoundref refid="com.microsoft.store.partnercenter.profiles._organization_profile_operations" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.profiles._i_organization_profile.get()" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.partners._organization_profile" kindref="compound">OrganizationProfile</ref>
+        </type>
+        <definition>OrganizationProfile com.microsoft.store.partnercenter.profiles.IOrganizationProfile.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()">get</reimplements>
+        <reimplementedby refid="com.microsoft.store.partnercenter.profiles._organization_profile_operations.get()">get</reimplementedby>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Retrieves the partner's organization profile.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The organization profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IOrganizationProfile.java" line="26" column="1" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.profiles._i_organization_profile.update(OrganizationProfile)" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.partners._organization_profile" kindref="compound">OrganizationProfile</ref>
+        </type>
+        <definition>OrganizationProfile com.microsoft.store.partnercenter.profiles.IOrganizationProfile.update</definition>
+        <argsstring>(OrganizationProfile entity)</argsstring>
+        <name>update</name>
+        <reimplementedby refid="com.microsoft.store.partnercenter.profiles._organization_profile_operations.update(OrganizationProfile)">update</reimplementedby>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.partners._organization_profile" kindref="compound">OrganizationProfile</ref>
+          </type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Updates the partner's organization profile.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>entity</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The organization profile. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The updated organization profile. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IOrganizationProfile.java" line="34" column="1" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>Encapsulates behavior of a organization profile. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2506">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;OrganizationProfile&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations" />
+      </node>
+      <node id="2502">
+        <label>com.microsoft.store.partnercenter.profiles.IOrganizationProfile</label>
+        <link refid="com.microsoft.store.partnercenter.profiles._i_organization_profile" />
+        <childnode refid="2503" relation="public-inheritance"></childnode>
+        <childnode refid="2505" relation="public-inheritance"></childnode>
+        <childnode refid="2506" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2504">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="2507">
+        <label>com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations</label>
+        <link refid="com.microsoft.store.partnercenter.profiles._organization_profile_operations" />
+        <childnode refid="2502" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2505">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;OrganizationProfile&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="2503">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="2504" relation="public-inheritance"></childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2512">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations&lt;OrganizationProfile&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations" />
+      </node>
+      <node id="2508">
+        <label>com.microsoft.store.partnercenter.profiles.IOrganizationProfile</label>
+        <link refid="com.microsoft.store.partnercenter.profiles._i_organization_profile" />
+        <childnode refid="2509" relation="public-inheritance"></childnode>
+        <childnode refid="2511" relation="public-inheritance"></childnode>
+        <childnode refid="2512" relation="public-inheritance"></childnode>
+      </node>
+      <node id="2510">
+        <label>com.microsoft.store.partnercenter.IPartnerComponent&lt;String&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="2511">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;OrganizationProfile&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="2509">
+        <label>com.microsoft.store.partnercenter.IPartnerComponentString</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component_string" />
+        <childnode refid="2510" relation="public-inheritance"></childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IOrganizationProfile.java" line="20" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/profiles/IOrganizationProfile.java" bodystart="17" bodyend="36" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter.profiles._i_organization_profile.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IOrganizationProfile</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IOrganizationProfile</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._i_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IOrganizationProfile</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.profiles._i_organization_profile.update(OrganizationProfile)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::profiles::IOrganizationProfile</scope>
+        <name>update</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations.update(T)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityUpdateOperations.">
+        <scope>com::microsoft::store::partnercenter::profiles::IOrganizationProfile</scope>
+        <name>update</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

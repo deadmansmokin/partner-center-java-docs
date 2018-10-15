@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="com.microsoft.store.partnercenter.subscriptions._subscription_operations" kind="class" language="Java" prot="public">
+    <compoundname>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</compoundname>
+    <basecompoundref refid="com.microsoft.store.partnercenter._base_partner_component" prot="public" virt="non-virtual">com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</basecompoundref>
+    <basecompoundref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription" prot="public" virt="non-virtual">com.microsoft.store.partnercenter.subscriptions.ISubscription</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.customerId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.customerId</definition>
+        <argsstring></argsstring>
+        <name>customerId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="35" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="35" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionId" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.subscriptionId</definition>
+        <argsstring></argsstring>
+        <name>subscriptionId</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="37" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="37" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionAddOnsOperations" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_add_on_collection" kindref="compound">ISubscriptionAddOnCollection</ref>
+        </type>
+        <definition>ISubscriptionAddOnCollection com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.subscriptionAddOnsOperations</definition>
+        <argsstring></argsstring>
+        <name>subscriptionAddOnsOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>A reference to the current subscription's add-ons operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="42" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="42" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionUpgradeOperations" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_upgrade_collection" kindref="compound">ISubscriptionUpgradeCollection</ref>
+        </type>
+        <definition>ISubscriptionUpgradeCollection com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.subscriptionUpgradeOperations</definition>
+        <argsstring></argsstring>
+        <name>subscriptionUpgradeOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>A reference to the current subscription's upgrade operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="47" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="47" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.usageRecordsOperations" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.usage._i_subscription_usage_record_collection" kindref="compound">ISubscriptionUsageRecordCollection</ref>
+        </type>
+        <definition>ISubscriptionUsageRecordCollection com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.usageRecordsOperations</definition>
+        <argsstring></argsstring>
+        <name>usageRecordsOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="52" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="52" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionUsageSummaryOperations" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.usage._i_subscription_usage_summary" kindref="compound">ISubscriptionUsageSummary</ref>
+        </type>
+        <definition>ISubscriptionUsageSummary com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.subscriptionUsageSummaryOperations</definition>
+        <argsstring></argsstring>
+        <name>subscriptionUsageSummaryOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>A reference to the current subscription's usage summary operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="57" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="57" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionUtilizationOperations" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.utilization._i_utilization_collection" kindref="compound">IUtilizationCollection</ref>
+        </type>
+        <definition>IUtilizationCollection com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.subscriptionUtilizationOperations</definition>
+        <argsstring></argsstring>
+        <name>subscriptionUtilizationOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="62" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="62" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionProvisioningStatusOperations" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_provisioning_status" kindref="compound">ISubscriptionProvisioningStatus</ref>
+        </type>
+        <definition>ISubscriptionProvisioningStatus com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.subscriptionProvisioningStatusOperations</definition>
+        <argsstring></argsstring>
+        <name>subscriptionProvisioningStatusOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="67" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="67" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionSupportContactOperations" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_support_contact" kindref="compound">ISubscriptionSupportContact</ref>
+        </type>
+        <definition>ISubscriptionSupportContact com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.subscriptionSupportContactOperations</definition>
+        <argsstring></argsstring>
+        <name>subscriptionSupportContactOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="72" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="72" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionRegistrationOperations" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_registration" kindref="compound">ISubscriptionRegistration</ref>
+        </type>
+        <definition>ISubscriptionRegistration com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.subscriptionRegistrationOperations</definition>
+        <argsstring></argsstring>
+        <name>subscriptionRegistrationOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="77" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="77" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionRegistrationStatusOperations" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_registration_status" kindref="compound">ISubscriptionRegistrationStatus</ref>
+        </type>
+        <definition>ISubscriptionRegistrationStatus com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.subscriptionRegistrationStatusOperations</definition>
+        <argsstring></argsstring>
+        <name>subscriptionRegistrationStatusOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="82" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="82" bodyend="-1" />
+      </memberdef>
+      <memberdef kind="variable" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionConversionOperations" prot="private" static="no" mutable="no">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_conversion_collection" kindref="compound">ISubscriptionConversionCollection</ref>
+        </type>
+        <definition>ISubscriptionConversionCollection com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.subscriptionConversionOperations</definition>
+        <argsstring></argsstring>
+        <name>subscriptionConversionOperations</name>
+        <briefdescription></briefdescription>
+        <detaileddescription></detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="87" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="87" bodyend="-1" />
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.SubscriptionOperations(IPartner,String,String)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.SubscriptionOperations</definition>
+        <argsstring>(IPartner rootPartnerOperations, String customerId, String subscriptionId)</argsstring>
+        <name>SubscriptionOperations</name>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter._i_partner" kindref="compound">IPartner</ref>
+          </type>
+          <declname>rootPartnerOperations</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>customerId</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>subscriptionId</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Initializes a new instance of the SubscriptionOperations class.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>rootPartnerOperations</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The root partner operations instance. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>customerId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The customer identifier. </para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>subscriptionId</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The subscription id. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="96" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="96" bodyend="110" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getAddOns()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_add_on_collection" kindref="compound">ISubscriptionAddOnCollection</ref>
+        </type>
+        <definition>ISubscriptionAddOnCollection com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getAddOns</definition>
+        <argsstring>()</argsstring>
+        <name>getAddOns</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.getAddOns()">getAddOns</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current subscription's add-ons operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="116" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="116" bodyend="124" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getUpgrades()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_upgrade_collection" kindref="compound">ISubscriptionUpgradeCollection</ref>
+        </type>
+        <definition>ISubscriptionUpgradeCollection com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUpgrades</definition>
+        <argsstring>()</argsstring>
+        <name>getUpgrades</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.getUpgrades()">getUpgrades</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current subscription's upgrade operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="130" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="130" bodyend="138" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getUsageRecords()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.usage._i_subscription_usage_record_collection" kindref="compound">ISubscriptionUsageRecordCollection</ref>
+        </type>
+        <definition>ISubscriptionUsageRecordCollection com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageRecords</definition>
+        <argsstring>()</argsstring>
+        <name>getUsageRecords</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.getUsageRecords()">getUsageRecords</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current subscription's resource usage records operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="144" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="144" bodyend="152" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getUsageSummary()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.usage._i_subscription_usage_summary" kindref="compound">ISubscriptionUsageSummary</ref>
+        </type>
+        <definition>ISubscriptionUsageSummary com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUsageSummary</definition>
+        <argsstring>()</argsstring>
+        <name>getUsageSummary</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.getUsageSummary()">getUsageSummary</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current subscription's usage summary operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="158" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="158" bodyend="166" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getUtilization()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.utilization._i_utilization_collection" kindref="compound">IUtilizationCollection</ref>
+        </type>
+        <definition>IUtilizationCollection com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getUtilization</definition>
+        <argsstring>()</argsstring>
+        <name>getUtilization</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.getUtilization()">getUtilization</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current subscription's utilization operations. </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="172" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="172" bodyend="180" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getProvisioningStatus()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_provisioning_status" kindref="compound">ISubscriptionProvisioningStatus</ref>
+        </type>
+        <definition>ISubscriptionProvisioningStatus com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getProvisioningStatus</definition>
+        <argsstring>()</argsstring>
+        <name>getProvisioningStatus</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.getProvisioningStatus()">getProvisioningStatus</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current subscription's provisioning status operations.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The current subscription's provisioning status operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="185" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="185" bodyend="193" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getSupportContact()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_support_contact" kindref="compound">ISubscriptionSupportContact</ref>
+        </type>
+        <definition>ISubscriptionSupportContact com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getSupportContact</definition>
+        <argsstring>()</argsstring>
+        <name>getSupportContact</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.getSupportContact()">getSupportContact</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current subscription's support contact operations.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The current subscription's support contact operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="198" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="198" bodyend="206" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getRegistration()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_registration" kindref="compound">ISubscriptionRegistration</ref>
+        </type>
+        <definition>ISubscriptionRegistration com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistration</definition>
+        <argsstring>()</argsstring>
+        <name>getRegistration</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.getRegistration()">getRegistration</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current subscription's registration operations.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The current subscription's registration operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="211" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="211" bodyend="219" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getRegistrationStatus()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_registration_status" kindref="compound">ISubscriptionRegistrationStatus</ref>
+        </type>
+        <definition>ISubscriptionRegistrationStatus com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getRegistrationStatus</definition>
+        <argsstring>()</argsstring>
+        <name>getRegistrationStatus</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.getRegistrationStatus()">getRegistrationStatus</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current subscription's registration status operations.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The current subscription's registration status operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="224" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="224" bodyend="232" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getConversions()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.subscriptions._i_subscription_conversion_collection" kindref="compound">ISubscriptionConversionCollection</ref>
+        </type>
+        <definition>ISubscriptionConversionCollection com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions</definition>
+        <argsstring>()</argsstring>
+        <name>getConversions</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.getConversions()">getConversions</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the current subscription's conversion operations. These operations will only apply to trial subscriptions.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The current subscription's conversion operations. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="234" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="234" bodyend="242" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.get()" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription" kindref="compound">Subscription</ref>
+        </type>
+        <definition>Subscription com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.get()">get</reimplements>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Gets the subscription.</para>
+          <para>
+            <simplesect kind="return">
+              <para>The subscription. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="250" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="250" bodyend="259" />
+      </memberdef>
+      <memberdef kind="function" id="com.microsoft.store.partnercenter.subscriptions._subscription_operations.patch(Subscription)" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>
+          <ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription" kindref="compound">Subscription</ref>
+        </type>
+        <definition>Subscription com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.patch</definition>
+        <argsstring>(Subscription subscription)</argsstring>
+        <name>patch</name>
+        <reimplements refid="com.microsoft.store.partnercenter.subscriptions._i_subscription.patch(Subscription)">patch</reimplements>
+        <param>
+          <type>
+            <ref refid="com.microsoft.store.partnercenter.models.subscriptions._subscription" kindref="compound">Subscription</ref>
+          </type>
+          <declname>subscription</declname>
+        </param>
+        <briefdescription></briefdescription>
+        <detaileddescription>
+          <para>Patches a subscription.</para>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>subscription</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>The subscription information. </para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+            <simplesect kind="return">
+              <para>The updated subscription information. </para>
+            </simplesect>
+          </para>
+        </detaileddescription>
+        <inbodydescription></inbodydescription>
+        <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="268" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="268" bodyend="281" />
+      </memberdef>
+    </sectiondef>
+    <briefdescription></briefdescription>
+    <detaileddescription>
+      <para>This class implements the operations for a customer's subscription. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4394">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4393">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscription</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._i_subscription" />
+        <childnode refid="4394" relation="public-inheritance"></childnode>
+        <childnode refid="4395" relation="public-inheritance"></childnode>
+        <childnode refid="4396" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4392">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4391">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="4392" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4395">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Subscription&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="4390">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations" />
+        <childnode refid="4391" relation="public-inheritance"></childnode>
+        <childnode refid="4393" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4396">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;Subscription&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_patch_operations" />
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4401">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4400">
+        <label>com.microsoft.store.partnercenter.subscriptions.ISubscription</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._i_subscription" />
+        <childnode refid="4401" relation="public-inheritance"></childnode>
+        <childnode refid="4402" relation="public-inheritance"></childnode>
+        <childnode refid="4403" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4399">
+        <label>com::microsoft::store::partnercenter::IPartnerComponent&lt;TContext&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._i_partner_component" />
+      </node>
+      <node id="4398">
+        <label>com::microsoft::store::partnercenter::BasePartnerComponent&lt;Tuple&lt;String, String&gt;&gt;</label>
+        <link refid="com.microsoft.store.partnercenter._base_partner_component" />
+        <childnode refid="4399" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4402">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityGetOperations&lt;Subscription&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations" />
+      </node>
+      <node id="4397">
+        <label>com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations</label>
+        <link refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations" />
+        <childnode refid="4398" relation="public-inheritance"></childnode>
+        <childnode refid="4400" relation="public-inheritance"></childnode>
+      </node>
+      <node id="4403">
+        <label>com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations&lt;Subscription&gt;</label>
+        <link refid="com.microsoft.store.partnercenter.genericoperations._i_entity_patch_operations" />
+      </node>
+    </collaborationgraph>
+    <location file="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" line="34" column="1" bodyfile="src/partner-center/src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java" bodystart="31" bodyend="283" />
+    <listofallmembers>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)" prot="protected" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>BasePartnerComponent</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.customerId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>customerId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.get()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>get</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getAddOns()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getAddOns</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getContext()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getContext</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getConversions()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getConversions</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter._base_partner_component.getPartner()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getPartner</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getProvisioningStatus()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getProvisioningStatus</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getRegistration()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getRegistration</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getRegistrationStatus()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getRegistrationStatus</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getSupportContact()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getSupportContact</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getUpgrades()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getUpgrades</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getUsageRecords()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getUsageRecords</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getUsageSummary()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getUsageSummary</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.getUtilization()" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>getUtilization</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.patch(Subscription)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>patch</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.genericoperations._i_entity_patch_operations.patch(T)" prot="public" virt="non-virtual" ambiguityscope="com::microsoft::store::partnercenter::genericoperations::IEntityPatchOperations.">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>patch</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionAddOnsOperations" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>subscriptionAddOnsOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionConversionOperations" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>subscriptionConversionOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionId" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>subscriptionId</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.SubscriptionOperations(IPartner,String,String)" prot="public" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>SubscriptionOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionProvisioningStatusOperations" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>subscriptionProvisioningStatusOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionRegistrationOperations" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>subscriptionRegistrationOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionRegistrationStatusOperations" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>subscriptionRegistrationStatusOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionSupportContactOperations" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>subscriptionSupportContactOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionUpgradeOperations" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>subscriptionUpgradeOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionUsageSummaryOperations" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>subscriptionUsageSummaryOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.subscriptionUtilizationOperations" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>subscriptionUtilizationOperations</name>
+      </member>
+      <member refid="com.microsoft.store.partnercenter.subscriptions._subscription_operations.usageRecordsOperations" prot="private" virt="non-virtual">
+        <scope>com::microsoft::store::partnercenter::subscriptions::SubscriptionOperations</scope>
+        <name>usageRecordsOperations</name>
+      </member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
