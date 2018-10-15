@@ -11,18 +11,22 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**"
-        ]
+        ],
+        "group": "partnercenter-1.8.0",
+        "version":"partnercenter-1.8.0"
       },
       {
         "files": [
           "**/*.yml"
         ],
-        "src": "breadcrumb",
-        "dest": "breadcrumb",
+        "src": "partner-center-breadcrumb",
+        "dest": "partner-center-breadcrumb",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
-        ]
+        ],
+        "group":"partnercenter-1.8.0",
+        "version":"partnercenter-1.8.0"
       },
       {
         "files": [
@@ -36,9 +40,17 @@
           "LICENSE-CODE",
           "ThirdPartyNotices",
           "docs-ref-autogen"
-        ]
+        ],
+        "group":"partnercenter-1.8.0",
+        "version":"partnercenter-1.8.0"
       }
     ],
+    "group":{
+      "partnercenter-1.8.0":{
+        "dest":"partnercenter-1.8.0",
+        "moniker_range":"partnercenter-1.8.0"
+      }
+    },
     "resource": [
       {
         "files": [
@@ -54,7 +66,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/breadcrumb/toc.yml"
+     "breadcrumb_path": "~/partner-center-breadcrumb/toc.yml"
     },
     "fileMetadata": {},
     "template": [],
