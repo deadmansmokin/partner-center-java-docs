@@ -3,28 +3,14 @@
   landingPageType: Root
   expanded: true
   items:
-  - uid: com.microsoft.store.partnercenter
+  - uid: com.microsoft.store.partnercenter.landingpage.reference.partnercenter
     name: com.microsoft.store.partnercenter
-    href: ~/docs-ref-autogen/com.microsoft.store.partnercenter.yml
+    href: ~/docs-ref-services/partnercenter.md
     children:
-    - com.microsoft.store.partnercenter._aggregate_partner_operations
-    - com.microsoft.store.partnercenter._authentication_token
-    - com.microsoft.store.partnercenter._base_partner_component
-    - com.microsoft.store.partnercenter._base_partner_component_string
-    - com.microsoft.store.partnercenter._i_aad_login_handler
-    - com.microsoft.store.partnercenter._i_aggregate_partner
-    - com.microsoft.store.partnercenter._i_partner
-    - com.microsoft.store.partnercenter._i_partner_component
-    - com.microsoft.store.partnercenter._i_partner_component_string
-    - com.microsoft.store.partnercenter._i_partner_credentials
-    - com.microsoft.store.partnercenter._partner_operations
-    - com.microsoft.store.partnercenter._partner_service
-  - uid: com.microsoft.store.partnercenter.agreements
+    - com.microsoft.store.partnercenter.*
+  - uid: com.microsoft.store.partnercenter.landingpage.reference.agreements
     name: com.microsoft.store.partnercenter.agreements
-    href: ~/docs-ref-autogen/com.microsoft.store.partnercenter.agreements.yml
+    href:  ~/docs-ref-services/partnercenter.md
     children:
-    - com.microsoft.store.partnercenter.agreements._agreement_details_collection_operations
-    - com.microsoft.store.partnercenter.agreements._customer_agreement_collection_operations
-    - com.microsoft.store.partnercenter.agreements._i_agreement_details_collection
-    - com.microsoft.store.partnercenter.agreements._i_customer_agreement_collection     
+    - com.microsoft.store.partnercenter.agreements.*
  
