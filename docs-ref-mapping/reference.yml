@@ -13,11 +13,6 @@
       landingPageType: Service
       children:
       - com.microsoft.store.partnercenter.agreements
-    - uid: com.microsoft.store.partnercenter.landingpage.reference.utils
-      name: Utils
-      landingPageType: Service
-      children:
-      - com.microsoft.store.partnercenter.utils
     - uid: com.microsoft.store.partnercenter.landingpage.reference.analytics
       name: Analytics
       landingPageType: Service
@@ -33,7 +28,182 @@
       landingPageType: Service
       children:
       - com.microsoft.store.partnercenter.carts
-       
-
-  
-  
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.configuration
+      name: Configuration
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.configuration 
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.countryvalidationrules
+      name: Country Validation Rules
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.countryvalidationrules          
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.customerdirectoryroles
+      name: Customer Directory Roles 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.customerdirectoryroles        
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.customers
+      name: Customers
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.customers
+      - com.microsoft.store.partnercenter.customers.*
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.customerusers
+      name: Customer Users
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.customerusers 
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.devicesdeployment
+      name: Devices Deployment 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.devicesdeployment  
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.domains
+      name: Domains
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.domains  
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.entitlements
+      name: Entitlements
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.entitlements  
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.enumerators
+      name: Enumerators
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.enumerators  
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.errorhandling
+      name: Error Handling 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.errorhandling  
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.exception
+      name: Exception 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.exception  
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.extensions
+      name: Extensions 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.extensions  
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.factory 
+      name: Factory 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.factory  
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.genericoperations 
+      name: Generic Operations 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.genericoperations  
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.invoices 
+      name: Invoices
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.invoices
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.logging 
+      name: Logging
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.logging
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.managedservices 
+      name: Managed Services
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.managedservices
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.models 
+      name: Models
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.models
+      - com.microsoft.store.partnercenter.models.*
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.network 
+      name: Network
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.network
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.offers 
+      name: Offers
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.offers
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.orders 
+      name: Orders
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.orders
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.products 
+      name: Products
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.products
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.profiles 
+      name: Profiles
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.profiles
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.qualification 
+      name: Qualification
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.qualification
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.ratecards 
+      name: Rate Cards
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.ratecards
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.relationship
+      name: Rrelationship 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.relationships
+      - com.microsoft.store.partnercenter.relationships*
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.requestcontext
+      name: Requestcontext 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.requestcontext
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.retries
+      name: Retries 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.retries
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.service
+      name: Service 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.serviceincidents
+      - com.microsoft.store.partnercenter.servicerequests
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.subscribedskus
+      name: Subscribed Skus 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.subscribedskus
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.subscriptions
+      name: Subscriptions 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.subscriptions
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.usage
+      name: Usage 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.usage
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.utilization
+      name: Utilization 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.utilization
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.utils
+      name: Utils 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.utils
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.validations
+      name: validations 
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.validations
