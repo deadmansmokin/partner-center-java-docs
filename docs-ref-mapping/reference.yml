@@ -3,20 +3,19 @@
   landingPageType: Root
   expanded: true
   items:
-    - uid: com.microsoft.store.partnercenter.landingpage.reference.agreements
-      name: com.microsoft.store.partnercenter.agreements
-      href:  ~/docs-ref-autogen/com.microsoft.store.partnercenter.yml
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.partnercenter
+      name: com.microsoft.store.partnercenter.partnercenter
+      landingPageType: Service
       children:
-      - com.microsoft.store.partnercenter.agreements
-      - com.microsoft.store.partnercenter.agreements.*
+      - com.microsoft.store.partnercenter.partnercenter
     - uid: com.microsoft.store.partnercenter.landingpage.reference.agreements
       name: com.microsoft.store.partnercenter.agreements
-      href:  ~/docs-ref-autogen/com.microsoft.store.partnercenter.agreements.yml
+      landingPageType: Service
       children:
       - com.microsoft.store.partnercenter.agreements
     - uid: com.microsoft.store.partnercenter.landingpage.reference.utils
-      name: com.microsoft.store.partnercenter.agreements
-      href:  ~/docs-ref-autogen/com.microsoft.store.partnercenter.utils.yml
+      name: com.microsoft.store.partnercenter.utils
+      landingPageType: Service
       children:
       - com.microsoft.store.partnercenter.utils
   
