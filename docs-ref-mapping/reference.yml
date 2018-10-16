@@ -88,7 +88,8 @@
       name: Extensions 
       landingPageType: Service
       children:
-      - com.microsoft.store.partnercenter.extensions  
+      - com.microsoft.store.partnercenter.extensions 
+      - com.microsoft.store.partnercenter.extensions.* 
     - uid: com.microsoft.store.partnercenter.landingpage.reference.factory 
       name: Factory 
       landingPageType: Service
@@ -211,3 +212,8 @@
       landingPageType: Service
       children:
       - com.microsoft.store.partnercenter.validations
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.others
+      name: Others 
+      landingPageType: Service
+      children:
+      - '*'
