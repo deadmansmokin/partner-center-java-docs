@@ -7,7 +7,7 @@
           "**/*.yml"
         ],
         "src": "docs-ref-autogen/overview",
-        "dest": "api/partnercenter-java",
+        "dest": "api/overview/partnercenter",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -17,10 +17,10 @@
       },
       {
         "files": [
-          "**/*.yml"
+          "*.yml"
         ],
         "src": "partner-center-breadcrumb",
-        "dest": "api/partnercenter-java",
+        "dest": "partnercenter-java_breadcrumb",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -43,6 +43,34 @@
         ],
         "group": "partnercenter-1.8.0",
         "version":"partnercenter-1.8.0"
+      },
+      {
+        "files":[
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src":"docs-ref-autogen",
+        "dest":"api",
+        "group":"partnercenter-1.8.0",
+        "version":"partnercenter-1.8.0",
+        "exclude":[
+          "**/obj/**",
+          "**/includes/**",
+          "**/toc.yml"
+        ]
+      },
+      {
+        "files": [
+          "**/toc.yml"
+        ],
+        "src": "docs-ref-autogen",
+        "dest": "api/partnercenter-java",
+        "group": "partnercenter-1.8.0",
+        "version": "partnercenter-1.8.0",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
       }
     ],
     "group":{
@@ -66,7 +94,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-     "breadcrumb_path": "~/partner-center-breadcrumb/toc.yml",
+     "breadcrumb_path": "/java/partnercenter-java_breadcrumb/toc.yml",
     "ms.topic":"reference",
     "ms.devlang": "java",
     "ms.date": "07/17/2018"
