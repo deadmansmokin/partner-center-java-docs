@@ -12,10 +12,10 @@ ms.workload: partner-center
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: hero-article
-ms.date: 10/21/2018
+ms.date: 10/23/2018
 ms.author: iswillia
-
 ---
+
 # Overview
 
 The Partner Center Java is a SDK that provides the ability to interact with Microsoft's Partner Center service. This enables partners to perform the Partner Center operations programmatically. This is the latest addition to existing portfolio of REST APIs and the .NET SDK.
