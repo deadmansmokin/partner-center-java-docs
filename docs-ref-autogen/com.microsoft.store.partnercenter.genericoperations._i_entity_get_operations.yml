@@ -68,6 +68,7 @@ references:
   nameWithType: ICart
   fullName: com.microsoft.store.partnercenter.carts.ICart
   type: Interface
+  summary: <p>Encapsulates a customer cart behavior. </p>
   syntax:
     content: public interface ICart extends IPartnerComponent<Tuple<String, String>>,IEntityPutOperations<Cart>,IEntityGetOperations<Cart>
 - uid: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules
@@ -77,6 +78,7 @@ references:
   nameWithType: ICountryValidationRules
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
   type: Interface
+  summary: <p>Represents the behavior of a specific country validation rules. </p>
   syntax:
     content: public interface ICountryValidationRules extends IPartnerComponentString,IEntityGetOperations<CountryValidationRules>
 - uid: com.microsoft.store.partnercenter.customers._i_customer
@@ -96,6 +98,7 @@ references:
   nameWithType: ICustomerReadonlyProfile<T>
   fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>
   type: Interface
+  summary: <p>Encapsulates a single customer read-only profile behavior. </p>
   syntax:
     content: public interface ICustomerReadonlyProfile<T extends ResourceBase> extends IPartnerComponentString,IEntityGetOperations<T>
     typeParameters:
@@ -128,6 +131,7 @@ references:
   nameWithType: IBatchJobStatus
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's device. </p>
   syntax:
     content: public interface IBatchJobStatus extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<BatchUploadDetails>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy
@@ -137,6 +141,7 @@ references:
   nameWithType: IConfigurationPolicy
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
   type: Interface
+  summary: <p>Represents all the operations that can be done on a configuration policy. </p>
   syntax:
     content: public interface IConfigurationPolicy extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<ConfigurationPolicy>,IEntityPatchOperations<ConfigurationPolicy>,IEntityDeleteOperations<ConfigurationPolicy>
 - uid: com.microsoft.store.partnercenter.invoices._i_invoice
@@ -165,6 +170,7 @@ references:
   nameWithType: IInvoiceSummaryCollection
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
   type: Interface
+  summary: <p>Represents all the operations that can be done on invoice summary collection. </p>
   syntax:
     content: public interface IInvoiceSummaryCollection
 - uid: com.microsoft.store.partnercenter.orders._i_order
@@ -374,14 +380,14 @@ references:
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the invoice summary. This operation is currently only supported for user based credentials.</p>
 
     <p></p>
   syntax:
     content: public InvoiceSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.invoices._invoice_summary
-      description: <p>The entity. </p>
+      description: <p>The invoice summary. </p>
 - uid: com.microsoft.store.partnercenter.qualification._i_customer_qualification.get()
   parent: com.microsoft.store.partnercenter.qualification._i_customer_qualification
   href: com.microsoft.store.partnercenter.qualification._i_customer_qualification.yml
@@ -390,14 +396,14 @@ references:
   fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the customer qualification.</p>
 
     <p></p>
   syntax:
     content: public CustomerQualification get()
     return:
       type: com.microsoft.store.partnercenter.models.customers._customer_qualification
-      description: <p>The entity. </p>
+      description: <p>Customer Qualification. </p>
 - uid: com.microsoft.store.partnercenter.usage._i_partner_usage_summary.get()
   parent: com.microsoft.store.partnercenter.usage._i_partner_usage_summary
   href: com.microsoft.store.partnercenter.usage._i_partner_usage_summary.yml
@@ -405,15 +411,12 @@ references:
   nameWithType: IPartnerUsageSummary.get()
   fullName: com.microsoft.store.partnercenter.usage.IPartnerUsageSummary.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the partner's usage summary. </p>
   syntax:
     content: public PartnerUsageSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.usage._partner_usage_summary
-      description: <p>The entity. </p>
+      description: <p>The partner's usage summary. </p>
 - uid: com.microsoft.store.partnercenter.usage._i_customer_usage_summary.get()
   parent: com.microsoft.store.partnercenter.usage._i_customer_usage_summary
   href: com.microsoft.store.partnercenter.usage._i_customer_usage_summary.yml
@@ -421,15 +424,12 @@ references:
   nameWithType: ICustomerUsageSummary.get()
   fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the customer usage summary. </p>
   syntax:
     content: public CustomerUsageSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.usage._customer_usage_summary
-      description: <p>The entity. </p>
+      description: <p>The customer usage summary. </p>
 - uid: com.microsoft.store.partnercenter.invoices._i_invoice_summary_collection.get()
   parent: com.microsoft.store.partnercenter.invoices._i_invoice_summary_collection
   href: com.microsoft.store.partnercenter.invoices._i_invoice_summary_collection.yml
@@ -437,15 +437,11 @@ references:
   nameWithType: IInvoiceSummaryCollection.get()
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the invoice summary collection. This operation is currently only supported for user based credentials. </p>
   syntax:
     content: public ResourceCollection<InvoiceSummary> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoice_summarya08ddfce
-      description: <p>The entity. </p>
 - uid: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules.get()
   parent: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules
   href: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules.yml
@@ -453,15 +449,12 @@ references:
   nameWithType: ICountryValidationRules.get()
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the country validation rules. </p>
   syntax:
     content: public CountryValidationRules get()
     return:
       type: com.microsoft.store.partnercenter.models.countryvalidationrules._country_validation_rules
-      description: <p>The entity. </p>
+      description: <p>The validation rules for the country. </p>
 - uid: com.microsoft.store.partnercenter.usage._i_subscription_usage_summary.get()
   parent: com.microsoft.store.partnercenter.usage._i_subscription_usage_summary
   href: com.microsoft.store.partnercenter.usage._i_subscription_usage_summary.yml
@@ -469,15 +462,12 @@ references:
   nameWithType: ISubscriptionUsageSummary.get()
   fullName: com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the customer's subscription usage summary. </p>
   syntax:
     content: public SubscriptionUsageSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.usage._subscription_usage_summary
-      description: <p>The entity. </p>
+      description: <p>The customer's subscription usage summary. </p>
 - uid: com.microsoft.store.partnercenter.profiles._i_mpn_profile.get()
   parent: com.microsoft.store.partnercenter.profiles._i_mpn_profile
   href: com.microsoft.store.partnercenter.profiles._i_mpn_profile.yml
@@ -501,15 +491,12 @@ references:
   nameWithType: ICustomerReadonlyProfile<T>.get()
   fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T extends ResourceBase>.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the customer profile. </p>
   syntax:
     content: public T get()
     return:
       type: 8ce1ecb9
-      description: <p>The entity. </p>
+      description: <p>The customer profile. </p>
 - uid: com.microsoft.store.partnercenter.usage._i_customer_usage_spending_budget.get()
   parent: com.microsoft.store.partnercenter.usage._i_customer_usage_spending_budget
   href: com.microsoft.store.partnercenter.usage._i_customer_usage_spending_budget.yml
@@ -517,15 +504,12 @@ references:
   nameWithType: ICustomerUsageSpendingBudget.get()
   fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the customer's usage spending budget. </p>
   syntax:
     content: public SpendingBudget get()
     return:
       type: com.microsoft.store.partnercenter.models.usage._spending_budget
-      description: <p>The entity. </p>
+      description: <p>The customer's usage spending budget. </p>
 - uid: com.microsoft.store.partnercenter.subscriptions._i_subscription_registration_status.get()
   parent: com.microsoft.store.partnercenter.subscriptions._i_subscription_registration_status
   href: com.microsoft.store.partnercenter.subscriptions._i_subscription_registration_status.yml
@@ -581,15 +565,12 @@ references:
   nameWithType: ILegalBusinessProfile.get()
   fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the legal business profile. </p>
   syntax:
     content: public LegalBusinessProfile get()
     return:
       type: com.microsoft.store.partnercenter.models.partners._legal_business_profile
-      description: <p>The entity. </p>
+      description: <p>The legal business profile. </p>
 - uid: com.microsoft.store.partnercenter.profiles._i_billing_profile.get()
   parent: com.microsoft.store.partnercenter.profiles._i_billing_profile
   href: com.microsoft.store.partnercenter.profiles._i_billing_profile.yml
@@ -597,15 +578,12 @@ references:
   nameWithType: IBillingProfile.get()
   fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves a partner's billing profile. </p>
   syntax:
     content: public BillingProfile get()
     return:
       type: com.microsoft.store.partnercenter.models.partners._billing_profile
-      description: <p>The entity. </p>
+      description: <p>The billing profile. </p>
 - uid: com.microsoft.store.partnercenter.orders._i_order.get()
   parent: com.microsoft.store.partnercenter.orders._i_order
   href: com.microsoft.store.partnercenter.orders._i_order.yml
@@ -613,15 +591,12 @@ references:
   nameWithType: IOrder.get()
   fullName: com.microsoft.store.partnercenter.orders.IOrder.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the order information. </p>
   syntax:
     content: public Order get()
     return:
       type: com.microsoft.store.partnercenter.models.orders._order
-      description: <p>The entity. </p>
+      description: <p>The order information </p>
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary.get()
   parent: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary
   href: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary.yml
@@ -630,14 +605,14 @@ references:
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the customer's service cost summary.</p>
 
     <p></p>
   syntax:
     content: public ServiceCostsSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary
-      description: <p>The entity. </p>
+      description: <p>The customer's service cost summary. </p>
 - uid: com.microsoft.store.partnercenter.subscriptions._i_subscription_support_contact.get()
   parent: com.microsoft.store.partnercenter.subscriptions._i_subscription_support_contact
   href: com.microsoft.store.partnercenter.subscriptions._i_subscription_support_contact.yml
@@ -694,14 +669,14 @@ references:
   fullName: com.microsoft.store.partnercenter.products.IAvailability.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the availability information.</p>
 
     <p></p>
   syntax:
     content: public Availability get()
     return:
       type: com.microsoft.store.partnercenter.models.products._availability
-      description: <p>The entity. </p>
+      description: <p>The availability information. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status.get()
   parent: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status
   href: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status.yml
@@ -710,14 +685,14 @@ references:
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves a specific customer devices batch upload status details.</p>
 
     <p></p>
   syntax:
     content: public BatchUploadDetails get()
     return:
       type: com.microsoft.store.partnercenter.models.devicesdeployment._batch_upload_details
-      description: <p>The entity. </p>
+      description: <p>The devices batch upload status details. </p>
 - uid: com.microsoft.store.partnercenter.servicerequests._i_service_request.get()
   parent: com.microsoft.store.partnercenter.servicerequests._i_service_request
   href: com.microsoft.store.partnercenter.servicerequests._i_service_request.yml
@@ -726,14 +701,14 @@ references:
   fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequest.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the service request.</p>
 
     <p></p>
   syntax:
     content: public ServiceRequest get()
     return:
       type: com.microsoft.store.partnercenter.models.servicerequests._service_request
-      description: <p>The entity. </p>
+      description: <p>The service request information. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy.get()
   parent: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy
   href: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy.yml
@@ -742,14 +717,14 @@ references:
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the configuration policy.</p>
 
     <p></p>
   syntax:
     content: public ConfigurationPolicy get()
     return:
       type: com.microsoft.store.partnercenter.models.devicesdeployment._configuration_policy
-      description: <p>The entity. </p>
+      description: <p>The configuration policy. </p>
 - uid: com.microsoft.store.partnercenter.products._i_product.get()
   parent: com.microsoft.store.partnercenter.products._i_product
   href: com.microsoft.store.partnercenter.products._i_product.yml
@@ -758,30 +733,14 @@ references:
   fullName: com.microsoft.store.partnercenter.products.IProduct.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the product information</p>
 
     <p></p>
   syntax:
     content: public Product get()
     return:
       type: com.microsoft.store.partnercenter.models.products._product
-      description: <p>The entity. </p>
-- uid: com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations.get()
-  parent: com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations
-  href: com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations.yml
-  name: get()
-  nameWithType: InvoiceSummaryCollectionOperations.get()
-  fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get()
-  type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
-  syntax:
-    content: public ResourceCollection<InvoiceSummary> get()
-    return:
-      type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoice_summarya08ddfce
-      description: <p>The entity. </p>
+      description: <p>The product information. </p>
 - uid: com.microsoft.store.partnercenter.invoices._invoice_summary_operations.get()
   parent: com.microsoft.store.partnercenter.invoices._invoice_summary_operations
   href: com.microsoft.store.partnercenter.invoices._invoice_summary_operations.yml
@@ -789,47 +748,23 @@ references:
   nameWithType: InvoiceSummaryOperations.get()
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves summary of the partner's billing information. </p>
   syntax:
     content: public InvoiceSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.invoices._invoice_summary
-      description: <p>The entity. </p>
-- uid: com.microsoft.store.partnercenter.products._i_sku.get()
-  parent: com.microsoft.store.partnercenter.products._i_sku
-  href: com.microsoft.store.partnercenter.products._i_sku.yml
+- uid: com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations.get()
+  parent: com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations
+  href: com.microsoft.store.partnercenter.invoices._invoice_summary_collection_operations.yml
   name: get()
-  nameWithType: ISku.get()
-  fullName: com.microsoft.store.partnercenter.products.ISku.get()
+  nameWithType: InvoiceSummaryCollectionOperations.get()
+  fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the invoice summary collection. This operation is currently only supported for user based credentials. </p>
   syntax:
-    content: public Sku get()
+    content: public ResourceCollection<InvoiceSummary> get()
     return:
-      type: com.microsoft.store.partnercenter.models.products._sku
-      description: <p>The entity. </p>
-- uid: com.microsoft.store.partnercenter.invoices._i_invoice.get()
-  parent: com.microsoft.store.partnercenter.invoices._i_invoice
-  href: com.microsoft.store.partnercenter.invoices._i_invoice.yml
-  name: get()
-  nameWithType: IInvoice.get()
-  fullName: com.microsoft.store.partnercenter.invoices.IInvoice.get()
-  type: Method
-  summary: >-
-    <p>Retrieves the invoice. This operation is currently only supported for user based credentials.</p>
-
-    <p></p>
-  syntax:
-    content: public Invoice get()
-    return:
-      type: com.microsoft.store.partnercenter.models.invoices._invoice
-      description: <p>The invoice. </p>
+      type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoice_summarya08ddfce
 - uid: com.microsoft.store.partnercenter.usage._partner_usage_summary_operations.get()
   parent: com.microsoft.store.partnercenter.usage._partner_usage_summary_operations
   href: com.microsoft.store.partnercenter.usage._partner_usage_summary_operations.yml
@@ -910,6 +845,22 @@ references:
     return:
       type: com.microsoft.store.partnercenter.models.partners._billing_profile
       description: <p>The partner billing profile. </p>
+- uid: com.microsoft.store.partnercenter.products._i_sku.get()
+  parent: com.microsoft.store.partnercenter.products._i_sku
+  href: com.microsoft.store.partnercenter.products._i_sku.yml
+  name: get()
+  nameWithType: ISku.get()
+  fullName: com.microsoft.store.partnercenter.products.ISku.get()
+  type: Method
+  summary: >-
+    <p>Retrieves the SKU information.</p>
+
+    <p></p>
+  syntax:
+    content: public Sku get()
+    return:
+      type: com.microsoft.store.partnercenter.models.products._sku
+      description: <p>The SKUs information. </p>
 - uid: com.microsoft.store.partnercenter.relationshiprequests._customer_relationship_request_operations.get()
   parent: com.microsoft.store.partnercenter.relationshiprequests._customer_relationship_request_operations
   href: com.microsoft.store.partnercenter.relationshiprequests._customer_relationship_request_operations.yml
@@ -942,6 +893,22 @@ references:
     return:
       type: com.microsoft.store.partnercenter.models.partners._mpn_profile
       description: <p>The partner network profile. </p>
+- uid: com.microsoft.store.partnercenter.invoices._i_invoice.get()
+  parent: com.microsoft.store.partnercenter.invoices._i_invoice
+  href: com.microsoft.store.partnercenter.invoices._i_invoice.yml
+  name: get()
+  nameWithType: IInvoice.get()
+  fullName: com.microsoft.store.partnercenter.invoices.IInvoice.get()
+  type: Method
+  summary: >-
+    <p>Retrieves the invoice. This operation is currently only supported for user based credentials.</p>
+
+    <p></p>
+  syntax:
+    content: public Invoice get()
+    return:
+      type: com.microsoft.store.partnercenter.models.invoices._invoice
+      description: <p>The invoice. </p>
 - uid: com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_operations.get()
   parent: com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_operations
   href: com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_operations.yml
@@ -949,15 +916,59 @@ references:
   nameWithType: CountryValidationRulesOperations.get()
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesOperations.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Gets the market specific validation data by country. </p>
   syntax:
     content: public CountryValidationRules get()
     return:
       type: com.microsoft.store.partnercenter.models.countryvalidationrules._country_validation_rules
-      description: <p>The entity. </p>
+- uid: com.microsoft.store.partnercenter.usage._customer_usage_spending_budget_operations.get()
+  parent: com.microsoft.store.partnercenter.usage._customer_usage_spending_budget_operations
+  href: com.microsoft.store.partnercenter.usage._customer_usage_spending_budget_operations.yml
+  name: get()
+  nameWithType: CustomerUsageSpendingBudgetOperations.get()
+  fullName: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.get()
+  type: Method
+  summary: >-
+    <p>Gets the usage spending budget allocated to a customer by the partner.</p>
+
+    <p></p>
+  syntax:
+    content: public SpendingBudget get()
+    return:
+      type: com.microsoft.store.partnercenter.models.usage._spending_budget
+      description: <p>The customer usage spending budget. </p>
+- uid: com.microsoft.store.partnercenter.usage._customer_usage_summary_operations.get()
+  parent: com.microsoft.store.partnercenter.usage._customer_usage_summary_operations
+  href: com.microsoft.store.partnercenter.usage._customer_usage_summary_operations.yml
+  name: get()
+  nameWithType: CustomerUsageSummaryOperations.get()
+  fullName: com.microsoft.store.partnercenter.usage.CustomerUsageSummaryOperations.get()
+  type: Method
+  summary: >-
+    <p>Gets the customer usage summary.</p>
+
+    <p></p>
+  syntax:
+    content: public CustomerUsageSummary get()
+    return:
+      type: com.microsoft.store.partnercenter.models.usage._customer_usage_summary
+      description: <p>The customer usage summary. </p>
+- uid: com.microsoft.store.partnercenter.qualification._customer_qualification_operations.get()
+  parent: com.microsoft.store.partnercenter.qualification._customer_qualification_operations
+  href: com.microsoft.store.partnercenter.qualification._customer_qualification_operations.yml
+  name: get()
+  nameWithType: CustomerQualificationOperations.get()
+  fullName: com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations.get()
+  type: Method
+  summary: >-
+    <p>Gets the customer qualification.</p>
+
+    <p></p>
+  syntax:
+    content: public CustomerQualification get()
+    return:
+      type: com.microsoft.store.partnercenter.models.customers._customer_qualification
+      description: <p>The customer qualification. </p>
 - uid: com.microsoft.store.partnercenter.customerusers._i_customer_user.get()
   parent: com.microsoft.store.partnercenter.customerusers._i_customer_user
   href: com.microsoft.store.partnercenter.customerusers._i_customer_user.yml
@@ -982,62 +993,14 @@ references:
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostSummaryOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves a customer's service cost line items.</p>
 
     <p></p>
   syntax:
     content: public ServiceCostsSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary
-      description: <p>The entity. </p>
-- uid: com.microsoft.store.partnercenter.usage._customer_usage_summary_operations.get()
-  parent: com.microsoft.store.partnercenter.usage._customer_usage_summary_operations
-  href: com.microsoft.store.partnercenter.usage._customer_usage_summary_operations.yml
-  name: get()
-  nameWithType: CustomerUsageSummaryOperations.get()
-  fullName: com.microsoft.store.partnercenter.usage.CustomerUsageSummaryOperations.get()
-  type: Method
-  summary: >-
-    <p>Gets the customer usage summary.</p>
-
-    <p></p>
-  syntax:
-    content: public CustomerUsageSummary get()
-    return:
-      type: com.microsoft.store.partnercenter.models.usage._customer_usage_summary
-      description: <p>The customer usage summary. </p>
-- uid: com.microsoft.store.partnercenter.usage._customer_usage_spending_budget_operations.get()
-  parent: com.microsoft.store.partnercenter.usage._customer_usage_spending_budget_operations
-  href: com.microsoft.store.partnercenter.usage._customer_usage_spending_budget_operations.yml
-  name: get()
-  nameWithType: CustomerUsageSpendingBudgetOperations.get()
-  fullName: com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.get()
-  type: Method
-  summary: >-
-    <p>Gets the usage spending budget allocated to a customer by the partner.</p>
-
-    <p></p>
-  syntax:
-    content: public SpendingBudget get()
-    return:
-      type: com.microsoft.store.partnercenter.models.usage._spending_budget
-      description: <p>The customer usage spending budget. </p>
-- uid: com.microsoft.store.partnercenter.qualification._customer_qualification_operations.get()
-  parent: com.microsoft.store.partnercenter.qualification._customer_qualification_operations
-  href: com.microsoft.store.partnercenter.qualification._customer_qualification_operations.yml
-  name: get()
-  nameWithType: CustomerQualificationOperations.get()
-  fullName: com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations.get()
-  type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
-  syntax:
-    content: public CustomerQualification get()
-    return:
-      type: com.microsoft.store.partnercenter.models.customers._customer_qualification
-      description: <p>The entity. </p>
+      description: <p>The service cost line items. </p>
 - uid: com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations.get()
   parent: com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations
   href: com.microsoft.store.partnercenter.servicerequests._partner_service_request_operations.yml
@@ -1190,14 +1153,14 @@ references:
   fullName: com.microsoft.store.partnercenter.customers.products.CustomerProductOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the product information</p>
 
     <p></p>
   syntax:
     content: public Product get()
     return:
       type: com.microsoft.store.partnercenter.models.products._product
-      description: <p>The entity. </p>
+      description: <p>The product information. </p>
 - uid: com.microsoft.store.partnercenter.products._availability_operations.get()
   parent: com.microsoft.store.partnercenter.products._availability_operations
   href: com.microsoft.store.partnercenter.products._availability_operations.yml
@@ -1206,14 +1169,14 @@ references:
   fullName: com.microsoft.store.partnercenter.products.AvailabilityOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the availability information.</p>
 
     <p></p>
   syntax:
     content: public Availability get()
     return:
       type: com.microsoft.store.partnercenter.models.products._availability
-      description: <p>The entity. </p>
+      description: <p>The availability information. </p>
 - uid: com.microsoft.store.partnercenter.customerusers._customer_user_operations.get()
   parent: com.microsoft.store.partnercenter.customerusers._customer_user_operations
   href: com.microsoft.store.partnercenter.customerusers._customer_user_operations.yml
@@ -1238,14 +1201,14 @@ references:
   fullName: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the availability information.</p>
 
     <p></p>
   syntax:
     content: public Availability get()
     return:
       type: com.microsoft.store.partnercenter.models.products._availability
-      description: <p>The entity. </p>
+      description: <p>The availability information. </p>
 - uid: com.microsoft.store.partnercenter.invoices._invoice_operations.get()
   parent: com.microsoft.store.partnercenter.invoices._invoice_operations
   href: com.microsoft.store.partnercenter.invoices._invoice_operations.yml
@@ -1262,6 +1225,22 @@ references:
     return:
       type: com.microsoft.store.partnercenter.models.invoices._invoice
       description: <p>The invoice. </p>
+- uid: com.microsoft.store.partnercenter.products._product_operations.get()
+  parent: com.microsoft.store.partnercenter.products._product_operations
+  href: com.microsoft.store.partnercenter.products._product_operations.yml
+  name: get()
+  nameWithType: ProductOperations.get()
+  fullName: com.microsoft.store.partnercenter.products.ProductOperations.get()
+  type: Method
+  summary: >-
+    <p>Retrieves the product information</p>
+
+    <p></p>
+  syntax:
+    content: public Product get()
+    return:
+      type: com.microsoft.store.partnercenter.models.products._product
+      description: <p>The product information. </p>
 - uid: com.microsoft.store.partnercenter.carts._cart_operations.get()
   parent: com.microsoft.store.partnercenter.carts._cart_operations
   href: com.microsoft.store.partnercenter.carts._cart_operations.yml
@@ -1278,22 +1257,6 @@ references:
     return:
       type: com.microsoft.store.partnercenter.models.carts._cart
       description: <p>The required cart object. </p>
-- uid: com.microsoft.store.partnercenter.products._product_operations.get()
-  parent: com.microsoft.store.partnercenter.products._product_operations
-  href: com.microsoft.store.partnercenter.products._product_operations.yml
-  name: get()
-  nameWithType: ProductOperations.get()
-  fullName: com.microsoft.store.partnercenter.products.ProductOperations.get()
-  type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
-  syntax:
-    content: public Product get()
-    return:
-      type: com.microsoft.store.partnercenter.models.products._product
-      description: <p>The entity. </p>
 - uid: com.microsoft.store.partnercenter.products._sku_operations.get()
   parent: com.microsoft.store.partnercenter.products._sku_operations
   href: com.microsoft.store.partnercenter.products._sku_operations.yml
@@ -1302,14 +1265,14 @@ references:
   fullName: com.microsoft.store.partnercenter.products.SkuOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the SKU information.</p>
 
     <p></p>
   syntax:
     content: public Sku get()
     return:
       type: com.microsoft.store.partnercenter.models.products._sku
-      description: <p>The entity. </p>
+      description: <p>The SKUs information. </p>
 - uid: com.microsoft.store.partnercenter.subscriptions._i_subscription.get()
   parent: com.microsoft.store.partnercenter.subscriptions._i_subscription
   href: com.microsoft.store.partnercenter.subscriptions._i_subscription.yml
@@ -1334,14 +1297,14 @@ references:
   fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the SKU information.</p>
 
     <p></p>
   syntax:
     content: public Sku get()
     return:
       type: com.microsoft.store.partnercenter.models.products._sku
-      description: <p>The entity. </p>
+      description: <p>The SKUs information. </p>
 - uid: com.microsoft.store.partnercenter.customers._i_customer.get()
   parent: com.microsoft.store.partnercenter.customers._i_customer
   href: com.microsoft.store.partnercenter.customers._i_customer.yml

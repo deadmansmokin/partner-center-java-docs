@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationGranularity.java
     startLine: 13
   package: com.microsoft.store.partnercenter.models.utilizations
+  summary: <p>Lists the time granularity options for retrieving A subscription's azure utilization. </p>
   syntax:
     content: public enum AzureUtilizationGranularity
   inheritance:
@@ -40,6 +41,10 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/utilizations/AzureUtilizationGranularity.java
     startLine: 18
   package: com.microsoft.store.partnercenter.models.utilizations
+  summary: >-
+    <p>Daily utilization.</p>
+
+    <p>Hourly utilization. </p>
   syntax:
     content: >-
       public JsonProperty=("daily")

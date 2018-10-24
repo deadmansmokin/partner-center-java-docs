@@ -81,9 +81,9 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyOperations.java
-    startLine: 82
+    startLine: 83
   package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: <p>Deletes an entity. </p>
+  summary: <p>Deletes the configuration policy. </p>
   syntax:
     content: public void delete()
   overridden: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy.delete()
@@ -127,15 +127,21 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/ConfigurationPolicyOperations.java
-    startLine: 68
+    startLine: 69
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Patches the configuration policy.</p>
+
+    <p></p>
   syntax:
     content: public ConfigurationPolicy patch(ConfigurationPolicy policy)
     parameters:
     - id: policy
       type: com.microsoft.store.partnercenter.models.devicesdeployment._configuration_policy
+      description: <p>The policy to be updated. </p>
     return:
       type: com.microsoft.store.partnercenter.models.devicesdeployment._configuration_policy
+      description: <p>The updated configuration policy. </p>
   overridden: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy.patch(ConfigurationPolicy)
 references:
 - uid: "26831127"
@@ -254,6 +260,7 @@ references:
   nameWithType: IConfigurationPolicy
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
   type: Interface
+  summary: <p>Represents all the operations that can be done on a configuration policy. </p>
   syntax:
     content: public interface IConfigurationPolicy
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -273,6 +280,7 @@ references:
   nameWithType: ConfigurationPolicy
   fullName: com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy
   type: Class
+  summary: <p>Represents a configuration policy associated with a customer. </p>
   syntax:
     content: public class ConfigurationPolicy extends ResourceBase
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy.get()
@@ -283,14 +291,14 @@ references:
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the configuration policy.</p>
 
     <p></p>
   syntax:
     content: public ConfigurationPolicy get()
     return:
       type: com.microsoft.store.partnercenter.models.devicesdeployment._configuration_policy
-      description: <p>The entity. </p>
+      description: <p>The configuration policy. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy.patch(ConfigurationPolicy)
   parent: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy
   href: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy.yml
@@ -298,13 +306,19 @@ references:
   nameWithType: IConfigurationPolicy.patch(ConfigurationPolicy policy)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.patch(ConfigurationPolicy policy)
   type: Method
+  summary: >-
+    <p>Patches the configuration policy.</p>
+
+    <p></p>
   syntax:
     content: public ConfigurationPolicy patch(ConfigurationPolicy policy)
     parameters:
     - id: policy
       type: com.microsoft.store.partnercenter.models.devicesdeployment._configuration_policy
+      description: <p>The policy to be updated. </p>
     return:
       type: com.microsoft.store.partnercenter.models.devicesdeployment._configuration_policy
+      description: <p>The updated configuration policy. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy.delete()
   parent: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy
   href: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy.yml
@@ -312,6 +326,6 @@ references:
   nameWithType: IConfigurationPolicy.delete()
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete()
   type: Method
-  summary: <p>Deletes an entity. </p>
+  summary: <p>Deletes the configuration policy. </p>
   syntax:
     content: public void delete()

@@ -30,7 +30,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 30
+    startLine: 29
   package: com.microsoft.store.partnercenter.subscriptions
   summary: <p>This class implements the operations for a customer's subscription. </p>
   syntax:
@@ -58,7 +58,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 249
+    startLine: 248
   package: com.microsoft.store.partnercenter.subscriptions
   summary: >-
     <p>Gets the subscription.</p>
@@ -84,7 +84,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 115
+    startLine: 114
   package: com.microsoft.store.partnercenter.subscriptions
   summary: <p>Gets the current subscription's add-ons operations. </p>
   syntax:
@@ -106,7 +106,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 233
+    startLine: 232
   package: com.microsoft.store.partnercenter.subscriptions
   summary: >-
     <p>Gets the current subscription's conversion operations. These operations will only apply to trial subscriptions.</p>
@@ -132,17 +132,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 184
+    startLine: 183
   package: com.microsoft.store.partnercenter.subscriptions
-  summary: >-
-    <p>Gets the current subscription's provisioning status operations.</p>
-
-    <p></p>
+  summary: <p>Gets the current subscription's provisioning status operations. </p>
   syntax:
     content: public ISubscriptionProvisioningStatus getProvisioningStatus()
     return:
       type: com.microsoft.store.partnercenter.subscriptions._i_subscription_provisioning_status
-      description: <p>The current subscription's provisioning status operations. </p>
   overridden: com.microsoft.store.partnercenter.subscriptions._i_subscription.getProvisioningStatus()
 - uid: com.microsoft.store.partnercenter.subscriptions._subscription_operations.getRegistration()
   id: getRegistration()
@@ -158,17 +154,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 210
+    startLine: 209
   package: com.microsoft.store.partnercenter.subscriptions
-  summary: >-
-    <p>Gets the current subscription's registration operations.</p>
-
-    <p></p>
+  summary: <p>Gets the current subscription's registration operations. </p>
   syntax:
     content: public ISubscriptionRegistration getRegistration()
     return:
       type: com.microsoft.store.partnercenter.subscriptions._i_subscription_registration
-      description: <p>The current subscription's registration operations. </p>
   overridden: com.microsoft.store.partnercenter.subscriptions._i_subscription.getRegistration()
 - uid: com.microsoft.store.partnercenter.subscriptions._subscription_operations.getRegistrationStatus()
   id: getRegistrationStatus()
@@ -184,17 +176,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 223
+    startLine: 222
   package: com.microsoft.store.partnercenter.subscriptions
-  summary: >-
-    <p>Gets the current subscription's registration status operations.</p>
-
-    <p></p>
+  summary: <p>Gets the current subscription's registration status operations. </p>
   syntax:
     content: public ISubscriptionRegistrationStatus getRegistrationStatus()
     return:
       type: com.microsoft.store.partnercenter.subscriptions._i_subscription_registration_status
-      description: <p>The current subscription's registration status operations. </p>
   overridden: com.microsoft.store.partnercenter.subscriptions._i_subscription.getRegistrationStatus()
 - uid: com.microsoft.store.partnercenter.subscriptions._subscription_operations.getSupportContact()
   id: getSupportContact()
@@ -210,17 +198,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 197
+    startLine: 196
   package: com.microsoft.store.partnercenter.subscriptions
-  summary: >-
-    <p>Gets the current subscription's support contact operations.</p>
-
-    <p></p>
+  summary: <p>Gets the current subscription's support contact operations. </p>
   syntax:
     content: public ISubscriptionSupportContact getSupportContact()
     return:
       type: com.microsoft.store.partnercenter.subscriptions._i_subscription_support_contact
-      description: <p>The current subscription's support contact operations. </p>
   overridden: com.microsoft.store.partnercenter.subscriptions._i_subscription.getSupportContact()
 - uid: com.microsoft.store.partnercenter.subscriptions._subscription_operations.getUpgrades()
   id: getUpgrades()
@@ -236,7 +220,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 129
+    startLine: 128
   package: com.microsoft.store.partnercenter.subscriptions
   summary: <p>Gets the current subscription's upgrade operations. </p>
   syntax:
@@ -258,7 +242,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 143
+    startLine: 142
   package: com.microsoft.store.partnercenter.subscriptions
   summary: <p>Gets the current subscription's resource usage records operations. </p>
   syntax:
@@ -280,7 +264,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 157
+    startLine: 156
   package: com.microsoft.store.partnercenter.subscriptions
   summary: <p>Gets the current subscription's usage summary operations. </p>
   syntax:
@@ -302,7 +286,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 171
+    startLine: 170
   package: com.microsoft.store.partnercenter.subscriptions
   summary: <p>Gets the current subscription's utilization operations. </p>
   syntax:
@@ -324,7 +308,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 267
+    startLine: 270
   package: com.microsoft.store.partnercenter.subscriptions
   summary: >-
     <p>Patches a subscription.</p>
@@ -354,7 +338,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionOperations.java
-    startLine: 95
+    startLine: 94
   package: com.microsoft.store.partnercenter.subscriptions
   summary: >-
     <p>Initializes a new instance of the SubscriptionOperations class.</p>

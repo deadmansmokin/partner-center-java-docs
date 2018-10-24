@@ -42,14 +42,14 @@ items:
     startLine: 20
   package: com.microsoft.store.partnercenter.invoices
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the invoice summary. This operation is currently only supported for user based credentials.</p>
 
     <p></p>
   syntax:
     content: public InvoiceSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.invoices._invoice_summary
-      description: <p>The entity. </p>
+      description: <p>The invoice summary. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
 references:
 - uid: com.microsoft.store.partnercenter.invoices._i_invoice_summary.get*
@@ -154,12 +154,8 @@ references:
   nameWithType: InvoiceSummaryOperations.get()
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves summary of the partner's billing information. </p>
   syntax:
     content: public InvoiceSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.invoices._invoice_summary
-      description: <p>The entity. </p>

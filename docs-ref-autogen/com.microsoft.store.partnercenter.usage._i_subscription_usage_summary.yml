@@ -42,15 +42,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/usage/ISubscriptionUsageSummary.java
     startLine: 23
   package: com.microsoft.store.partnercenter.usage
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the customer's subscription usage summary. </p>
   syntax:
     content: public SubscriptionUsageSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.usage._subscription_usage_summary
-      description: <p>The entity. </p>
+      description: <p>The customer's subscription usage summary. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
 references:
 - uid: com.microsoft.store.partnercenter.usage._i_subscription_usage_summary.get*

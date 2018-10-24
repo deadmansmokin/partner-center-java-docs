@@ -51,13 +51,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/domains/DomainCollectionOperations.java
     startLine: 33
   package: com.microsoft.store.partnercenter.domains
+  summary: >-
+    <p>Obtains a specific domain behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDomain byDomain(String domain)
     parameters:
     - id: domain
       type: "26831127"
+      description: <p>The domain. </p>
     return:
       type: com.microsoft.store.partnercenter.domains._i_domain
+      description: <p>The domain operations. </p>
   overridden: com.microsoft.store.partnercenter.domains._i_domain_collection.byDomain(String)
 - uid: com.microsoft.store.partnercenter.domains._domain_collection_operations.DomainCollectionOperations(IPartner)
   id: DomainCollectionOperations(IPartner)
@@ -75,11 +81,16 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/domains/DomainCollectionOperations.java
     startLine: 21
   package: com.microsoft.store.partnercenter.domains
+  summary: >-
+    <p>Initializes a new instance of the DomainCollectionOperations class</p>
+
+    <p></p>
   syntax:
     content: public DomainCollectionOperations(IPartner rootPartnerOperations)
     parameters:
     - id: rootPartnerOperations
       type: com.microsoft.store.partnercenter._i_partner
+      description: <p>The root partner operations instance. </p>
 references:
 - uid: com.microsoft.store.partnercenter.domains._domain_collection_operations.DomainCollectionOperations*
   name: DomainCollectionOperations
@@ -261,10 +272,16 @@ references:
   nameWithType: IDomainCollection.byDomain(String domain)
   fullName: com.microsoft.store.partnercenter.domains.IDomainCollection.byDomain(String domain)
   type: Method
+  summary: >-
+    <p>Obtains a specific domain behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDomain byDomain(String domain)
     parameters:
     - id: domain
       type: "26831127"
+      description: <p>The domain.</p>
     return:
       type: com.microsoft.store.partnercenter.domains._i_domain
+      description: <p>The domain operations. </p>

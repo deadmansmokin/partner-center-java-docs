@@ -41,10 +41,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/utilization/IUtilizationCollection.java
     startLine: 19
   package: com.microsoft.store.partnercenter.utilization
+  summary: >-
+    <p>Gets the Azure subscription utilization behavior.</p>
+
+    <p></p>
   syntax:
     content: public IAzureUtilizationCollection getAzure()
     return:
       type: com.microsoft.store.partnercenter.utilization._i_azure_utilization_collection
+      description: <p>The Azure subscription utilization behavior. </p>
 references:
 - uid: com.microsoft.store.partnercenter.utilization._i_utilization_collection.getAzure*
   name: getAzure
@@ -112,6 +117,7 @@ references:
   nameWithType: IAzureUtilizationCollection
   fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
   type: Interface
+  summary: <p>Groups behavior related to Azure subscription utilization records. </p>
   syntax:
     content: public interface IAzureUtilizationCollection extends IPartnerComponent<Tuple<String, String>>
 - uid: com.microsoft.store.partnercenter.utilization._utilization_collection_operations.getAzure()

@@ -52,13 +52,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/extensions/products/ProductExtensionsByCountryOperations.java
     startLine: 47
   package: com.microsoft.store.partnercenter.extensions.products
+  summary: >-
+    <p>Retrieves inventory validation results for the provided country.</p>
+
+    <p></p>
   syntax:
     content: public List<InventoryItem> checkInventory(InventoryCheckRequest checkRequest)
     parameters:
     - id: checkRequest
       type: com.microsoft.store.partnercenter.models.products._inventory_check_request
+      description: <p>The request for the inventory check. </p>
     return:
       type: 5618da2dcom.microsoft.store.partnercenter.models.products._inventory_itema08ddfce
+      description: <p>The inventory check results. </p>
   overridden: com.microsoft.store.partnercenter.extensions.products._i_product_extensions_by_country.checkInventory(InventoryCheckRequest)
 - uid: com.microsoft.store.partnercenter.extensions.products._product_extensions_by_country_operations.ProductExtensionsByCountryOperations(IPartner,String)
   id: ProductExtensionsByCountryOperations(IPartner,String)
@@ -252,6 +258,7 @@ references:
   nameWithType: IProductExtensionsByCountry
   fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
   type: Interface
+  summary: <p>Holds extension operations for products by country. </p>
   syntax:
     content: public interface IProductExtensionsByCountry extends IPartnerComponentString
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -281,13 +288,19 @@ references:
   nameWithType: IProductExtensionsByCountry.checkInventory(InventoryCheckRequest checkRequest)
   fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory(InventoryCheckRequest checkRequest)
   type: Method
+  summary: >-
+    <p>Retrieves inventory validation results for the provided country.</p>
+
+    <p></p>
   syntax:
     content: public List<InventoryItem> checkInventory(InventoryCheckRequest checkRequest)
     parameters:
     - id: checkRequest
       type: com.microsoft.store.partnercenter.models.products._inventory_check_request
+      description: <p>The request for the inventory check. </p>
     return:
       type: 5618da2dcom.microsoft.store.partnercenter.models.products._inventory_itema08ddfce
+      description: <p>The inventory check results. </p>
 - uid: com.microsoft.store.partnercenter.models.products._inventory_check_request
   parent: com.microsoft.store.partnercenter.models.products
   href: com.microsoft.store.partnercenter.models.products._inventory_check_request.yml

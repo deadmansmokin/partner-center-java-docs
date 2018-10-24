@@ -39,6 +39,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/carts/CartLineItem.java
     startLine: 18
   package: com.microsoft.store.partnercenter.models.carts
+  summary: <p>Represents a line item on a cart. </p>
   syntax:
     content: public class CartLineItem
   inheritance:
@@ -589,6 +590,7 @@ references:
   nameWithType: BillingCycleType
   fullName: com.microsoft.store.partnercenter.models.products.BillingCycleType
   type: Enum
+  summary: <p>Types of Participants </p>
   syntax:
     content: public enum BillingCycleType
 - uid: com.microsoft.store.partnercenter.models.utils._key_value_pair
@@ -612,6 +614,7 @@ references:
   nameWithType: ParticipantType
   fullName: com.microsoft.store.partnercenter.models.carts.ParticipantType
   type: Enum
+  summary: <p>Types of Participants </p>
   syntax:
     content: public enum ParticipantType
 - uid: com.microsoft.store.partnercenter.models.carts._cart_error
@@ -621,5 +624,6 @@ references:
   nameWithType: CartError
   fullName: com.microsoft.store.partnercenter.models.carts.CartError
   type: Class
+  summary: <p>Represents an error associated to a cart line item. </p>
   syntax:
     content: public class CartError extends ResourceBase

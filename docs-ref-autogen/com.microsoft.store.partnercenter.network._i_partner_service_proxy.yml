@@ -213,10 +213,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceProxy.java
     startLine: 149
   package: com.microsoft.store.partnercenter.network
+  summary: >-
+    <p>Executes a file content request against the partner service.</p>
+
+    <p></p>
   syntax:
     content: public InputStream getFileContent()
     return:
       type: 76fcb9b7
+      description: <p>The file content stream. </p>
 - uid: com.microsoft.store.partnercenter.network._i_partner_service_proxy.getIfMatch()
   id: getIfMatch()
   parent: com.microsoft.store.partnercenter.network._i_partner_service_proxy
@@ -358,6 +363,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/network/IPartnerServiceProxy.java
     startLine: 183
   package: com.microsoft.store.partnercenter.network
+  summary: <p>Executes a HEAD request against the partner service. </p>
   syntax:
     content: public void head()
 - uid: com.microsoft.store.partnercenter.network._i_partner_service_proxy.patch(TRequest)
@@ -1120,10 +1126,15 @@ references:
   nameWithType: PartnerServiceProxy<TRequest,TResponse>.getFileContent()
   fullName: com.microsoft.store.partnercenter.network.PartnerServiceProxy<TRequest, TResponse>.getFileContent()
   type: Method
+  summary: >-
+    <p>Executes a file content request against the partner service.</p>
+
+    <p></p>
   syntax:
     content: public InputStream getFileContent()
     return:
       type: 76fcb9b7
+      description: <p>The file content stream. </p>
 - uid: com.microsoft.store.partnercenter.network._partner_service_proxy.post(TRequest)
   parent: com.microsoft.store.partnercenter.network._partner_service_proxy
   href: com.microsoft.store.partnercenter.network._partner_service_proxy.yml

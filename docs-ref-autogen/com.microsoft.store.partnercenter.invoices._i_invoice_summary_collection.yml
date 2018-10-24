@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceSummaryCollection.java
     startLine: 16
   package: com.microsoft.store.partnercenter.invoices
+  summary: <p>Represents all the operations that can be done on invoice summary collection. </p>
   syntax:
     content: public interface IInvoiceSummaryCollection extends IPartnerComponentString,IEntityGetOperations<ResourceCollection<InvoiceSummary>>
   inheritedMembers:
@@ -41,15 +42,11 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceSummaryCollection.java
     startLine: 22
   package: com.microsoft.store.partnercenter.invoices
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the invoice summary collection. This operation is currently only supported for user based credentials. </p>
   syntax:
     content: public ResourceCollection<InvoiceSummary> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoice_summarya08ddfce
-      description: <p>The entity. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
 references:
 - uid: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoice_summarya08ddfce
@@ -133,6 +130,7 @@ references:
   nameWithType: InvoiceSummaryCollectionOperations
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
   type: Class
+  summary: <p>Represents the operations that can be done on invoice summary collection. </p>
   syntax:
     content: public class InvoiceSummaryCollectionOperations
 - uid: com.microsoft.store.partnercenter.models._resource_collection
@@ -181,12 +179,8 @@ references:
   nameWithType: InvoiceSummaryCollectionOperations.get()
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the invoice summary collection. This operation is currently only supported for user based credentials. </p>
   syntax:
     content: public ResourceCollection<InvoiceSummary> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoice_summarya08ddfce
-      description: <p>The entity. </p>

@@ -49,14 +49,14 @@ items:
     startLine: 48
   package: com.microsoft.store.partnercenter.customers.servicecosts
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves a customer's service cost line items.</p>
 
     <p></p>
   syntax:
     content: public ServiceCostsSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary
-      description: <p>The entity. </p>
+      description: <p>The service cost line items. </p>
   overridden: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary.get()
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._service_cost_summary_operations.ServiceCostSummaryOperations(IPartner,Tuple<String, String>)
   id: ServiceCostSummaryOperations(IPartner,Tuple<String, String>)
@@ -223,11 +223,11 @@ references:
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the customer's service cost summary.</p>
 
     <p></p>
   syntax:
     content: public ServiceCostsSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.servicecosts._service_costs_summary
-      description: <p>The entity. </p>
+      description: <p>The customer's service cost summary. </p>

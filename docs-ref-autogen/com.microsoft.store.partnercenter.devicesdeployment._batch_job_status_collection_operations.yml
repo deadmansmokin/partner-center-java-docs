@@ -248,6 +248,7 @@ references:
   nameWithType: IBatchJobStatusCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's batch upload status collection. </p>
   syntax:
     content: public interface IBatchJobStatusCollection
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -267,6 +268,7 @@ references:
   nameWithType: IBatchJobStatus
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's device. </p>
   syntax:
     content: public interface IBatchJobStatus
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status_collection.byId(String)
@@ -276,10 +278,16 @@ references:
   nameWithType: IBatchJobStatusCollection.byId(String trackingId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId(String trackingId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer's devices batch upload status behavior.</p>
+
+    <p></p>
   syntax:
     content: public IBatchJobStatus byId(String trackingId)
     parameters:
     - id: trackingId
       type: "26831127"
+      description: <p>The tracking identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status
+      description: <p>The customer's devices batch upload status operations. </p>

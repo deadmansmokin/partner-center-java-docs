@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/offers/BillingCycleType.java
     startLine: 13
   package: com.microsoft.store.partnercenter.models.offers
+  summary: <p>The way billing is processed for a subscription. </p>
   syntax:
     content: public enum BillingCycleType
   inheritance:
@@ -40,6 +41,14 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/offers/BillingCycleType.java
     startLine: 17
   package: com.microsoft.store.partnercenter.models.offers
+  summary: >-
+    <p>Enum initializer</p>
+
+    <p>Indicates that the partner will be charged monthly for the subscription</p>
+
+    <p>Indicates that the partner will be charged annually for the subscription.</p>
+
+    <p>Indicates that the partner will be charged one-time This value does not apply to all products. </p>
   syntax:
     content: >-
       public JsonProperty=("unknown")

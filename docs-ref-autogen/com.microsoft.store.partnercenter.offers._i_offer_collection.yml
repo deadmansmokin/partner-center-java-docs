@@ -45,13 +45,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/offers/IOfferCollection.java
     startLine: 50
   package: com.microsoft.store.partnercenter.offers
+  summary: >-
+    <p>Retrieves the operations that can be applied on offers that belong to an offer category.</p>
+
+    <p></p>
   syntax:
     content: public ICategoryOffersCollection byCategory(String categoryId)
     parameters:
     - id: categoryId
       type: "26831127"
+      description: <p>The offer category identifier.</p>
     return:
       type: com.microsoft.store.partnercenter.offers._i_category_offers_collection
+      description: <p>The category offers operations. </p>
 - uid: com.microsoft.store.partnercenter.offers._i_offer_collection.byId(String)
   id: byId(String)
   parent: com.microsoft.store.partnercenter.offers._i_offer_collection
@@ -336,10 +342,13 @@ references:
   nameWithType: OfferCollectionOperations.byCategory(String categoryId)
   fullName: com.microsoft.store.partnercenter.offers.OfferCollectionOperations.byCategory(String categoryId)
   type: Method
+  summary: <p>Retrieves the operations that can be applied on offers the belong to an offer category. </p>
   syntax:
     content: public ICategoryOffersCollection byCategory(String categoryId)
     parameters:
     - id: categoryId
       type: "26831127"
+      description: <p>The offer category Id. </p>
     return:
       type: com.microsoft.store.partnercenter.offers._i_category_offers_collection
+      description: <p>The category offers operations. </p>

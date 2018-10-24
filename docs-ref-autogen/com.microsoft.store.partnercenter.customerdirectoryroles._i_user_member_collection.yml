@@ -46,13 +46,16 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/IUserMemberCollection.java
     startLine: 31
   package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: <p>Gets a single user member behavior. </p>
   syntax:
     content: public IUserMember byId(String userId)
     parameters:
     - id: userId
       type: "26831127"
+      description: <p>The user identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member
+      description: <p>The user member operations. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_selector.byId(String)
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection.create(UserMember)
   id: create(UserMember)
@@ -70,13 +73,16 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/IUserMemberCollection.java
     startLine: 38
   package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: <p>Adds customer user to a directory role. </p>
   syntax:
     content: public UserMember create(UserMember newEntity)
     parameters:
     - id: newEntity
       type: com.microsoft.store.partnercenter.models.roles._user_member
+      description: <p>UserMember to add. </p>
     return:
       type: com.microsoft.store.partnercenter.models.roles._user_member
+      description: <p>The customer directory role user member. </p>
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection.get()
   id: get()
   parent: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection
@@ -93,15 +99,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/IUserMemberCollection.java
     startLine: 51
   package: com.microsoft.store.partnercenter.customerdirectoryroles
-  summary: >-
-    <p>Retrieves all entities.</p>
-
-    <p></p>
+  summary: <p>Gets all the user members of a customer directory role. </p>
   syntax:
     content: public SeekBasedResourceCollection<UserMember> get()
     return:
       type: com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.roles._user_membera08ddfce
-      description: <p>The entities. </p>
+      description: <p>The directory role user memberships. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection.query(IQuery)
   id: query(IQuery)
@@ -119,13 +122,16 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/IUserMemberCollection.java
     startLine: 45
   package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: <p>Queries the user members of a customer directory role. </p>
   syntax:
     content: public SeekBasedResourceCollection<UserMember> query(IQuery query)
     parameters:
     - id: query
       type: com.microsoft.store.partnercenter.models.query._i_query
+      description: <p>A query to apply onto user member collection. </p>
     return:
       type: com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.roles._user_membera08ddfce
+      description: <p>The directory role user members. </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -302,13 +308,16 @@ references:
   nameWithType: IEntitySelector<TEntity>.byId(String id)
   fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TEntity>.byId(String id)
   type: Method
+  summary: <p>Retrieves the behavior for an entity using the entity's identifier. </p>
   syntax:
     content: public TEntity byId(String id)
     parameters:
     - id: id
       type: "26831127"
+      description: <p>The entity's identifier. </p>
     return:
       type: 830f062c
+      description: <p>The entity's behavior. </p>
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._user_member_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.customerdirectoryroles._user_member_collection_operations
   href: com.microsoft.store.partnercenter.customerdirectoryroles._user_member_collection_operations.yml
@@ -316,13 +325,19 @@ references:
   nameWithType: UserMemberCollectionOperations.byId(String userId)
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId(String userId)
   type: Method
+  summary: >-
+    <p>Get a single user member operations object.</p>
+
+    <p></p>
   syntax:
     content: public IUserMember byId(String userId)
     parameters:
     - id: userId
       type: "26831127"
+      description: <p>The user identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member
+      description: <p>The user member operations instance. </p>
 - uid: com.microsoft.store.partnercenter.models.roles._user_member
   parent: com.microsoft.store.partnercenter.models.roles
   href: com.microsoft.store.partnercenter.models.roles._user_member.yml
@@ -339,13 +354,19 @@ references:
   nameWithType: UserMemberCollectionOperations.create(UserMember newEntity)
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create(UserMember newEntity)
   type: Method
+  summary: >-
+    <p>Adds customer user to a directory role.</p>
+
+    <p></p>
   syntax:
     content: public UserMember create(UserMember newEntity)
     parameters:
     - id: newEntity
       type: com.microsoft.store.partnercenter.models.roles._user_member
+      description: <p>The user to be added, </p>
     return:
       type: com.microsoft.store.partnercenter.models.roles._user_member
+      description: <p>The customer directory role user member. </p>
 - uid: com.microsoft.store.partnercenter.models._seek_based_resource_collection
   parent: com.microsoft.store.partnercenter.models
   href: com.microsoft.store.partnercenter.models._seek_based_resource_collection.yml
@@ -366,13 +387,19 @@ references:
   nameWithType: UserMemberCollectionOperations.query(IQuery query)
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query(IQuery query)
   type: Method
+  summary: >-
+    <p>Retrieves the user members of a customer directory role.</p>
+
+    <p></p>
   syntax:
     content: public SeekBasedResourceCollection<UserMember> query(IQuery query)
     parameters:
     - id: query
       type: com.microsoft.store.partnercenter.models.query._i_query
+      description: <p>A query to apply onto user member collection. </p>
     return:
       type: com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.roles._user_membera08ddfce
+      description: <p>The directory role user memberships. </p>
 - uid: com.microsoft.store.partnercenter.models.query._i_query
   parent: com.microsoft.store.partnercenter.models.query
   href: com.microsoft.store.partnercenter.models.query._i_query.yml
@@ -407,11 +434,11 @@ references:
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Gets all the user members of a customer directory role.</p>
 
     <p></p>
   syntax:
     content: public SeekBasedResourceCollection<UserMember> get()
     return:
       type: com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.roles._user_membera08ddfce
-      description: <p>The entities. </p>
+      description: <p>The directory role user memberships. </p>

@@ -45,12 +45,17 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/relationshiprequests/CustomerRelationshipRequest.java
-    startLine: 23
+    startLine: 25
   package: com.microsoft.store.partnercenter.models.relationshiprequests
+  summary: >-
+    <p>Gets the URL to be used by the customer to establish a relationship with a partner.</p>
+
+    <p></p>
   syntax:
     content: public URI getUrl()
     return:
       type: "62304784"
+      description: <p>The URL to be used by the customer to establish a relationship with a partner. </p>
 - uid: com.microsoft.store.partnercenter.models.relationshiprequests._customer_relationship_request.setUrl(URI)
   id: setUrl(URI)
   parent: com.microsoft.store.partnercenter.models.relationshiprequests._customer_relationship_request
@@ -65,13 +70,18 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/relationshiprequests/CustomerRelationshipRequest.java
-    startLine: 28
+    startLine: 35
   package: com.microsoft.store.partnercenter.models.relationshiprequests
+  summary: >-
+    <p>Sets the URL to be used by the customer to establish a relationship with a partner.</p>
+
+    <p></p>
   syntax:
     content: public void setUrl(URI value)
     parameters:
     - id: value
       type: "62304784"
+      description: <p>The URL to be used by the customer to establish a relationship with a partner. </p>
 references:
 - uid: "62304784"
   spec.java:

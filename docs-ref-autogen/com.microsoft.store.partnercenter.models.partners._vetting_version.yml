@@ -40,6 +40,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/partners/VettingVersion.java
     startLine: 15
   package: com.microsoft.store.partnercenter.models.partners
+  summary: >-
+    <p>None vetting version</p>
+
+    <p>Latest vetting information: Will always get the latest vetting information no matter if it is vetted or not</p>
+
+    <p>Latest finalized vetting information: Will return the latest vetting information that is either (Authorized or Rejected) </p>
   syntax:
     content: "public JsonProperty=( \"none\" ) \n    NONE"
 references: []

@@ -22,6 +22,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IDeviceCollection.java
     startLine: 21
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: <p>Represents the operations that can be done on the partner's devices. </p>
   syntax:
     content: public interface IDeviceCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Device, ResourceCollection<Device>>,IEntityCreateOperations<List<Device>, String>,IEntitySelector<IDevice>
   inheritedMembers:
@@ -44,13 +45,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IDeviceCollection.java
     startLine: 31
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Retrieves a specific customer's device behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDevice byId(String deviceId)
     parameters:
     - id: deviceId
       type: "26831127"
+      description: <p>The device identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_device
+      description: <p>The customer device behavior. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_selector.byId(String)
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.create(List<Device>)
   id: create(List<Device>)
@@ -68,13 +75,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IDeviceCollection.java
     startLine: 39
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Adds devices to existing devices batch.</p>
+
+    <p></p>
   syntax:
     content: public String create(List<Device> newDevices)
     parameters:
     - id: newDevices
       type: 5618da2dcom.microsoft.store.partnercenter.models.devicesdeployment._devicea08ddfce
+      description: <p>The new devices to be created. </p>
     return:
       type: "26831127"
+      description: <p>The location which indicates the URL of the API to query for status of the create request. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.get()
   id: get()
   parent: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection
@@ -92,14 +105,14 @@ items:
     startLine: 46
   package: com.microsoft.store.partnercenter.devicesdeployment
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all devices.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<Device> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.devicesdeployment._devicea08ddfce
-      description: <p>The entities. </p>
+      description: <p>All of the devices. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()
 references:
 - uid: "26831127"
@@ -269,6 +282,7 @@ references:
   nameWithType: IDevice
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's device. </p>
   syntax:
     content: public interface IDevice extends IPartnerComponent<TripletTuple<String, String, String>>,IEntityDeleteOperations<Device>,IEntityPatchOperations<Device>
 - uid: com.microsoft.store.partnercenter.genericoperations._i_entity_selector.byId(String)
@@ -278,13 +292,16 @@ references:
   nameWithType: IEntitySelector<TEntity>.byId(String id)
   fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TEntity>.byId(String id)
   type: Method
+  summary: <p>Retrieves the behavior for an entity using the entity's identifier. </p>
   syntax:
     content: public TEntity byId(String id)
     parameters:
     - id: id
       type: "26831127"
+      description: <p>The entity's identifier. </p>
     return:
       type: 830f062c
+      description: <p>The entity's behavior. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations
   href: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.yml
@@ -292,13 +309,19 @@ references:
   nameWithType: DeviceCollectionOperations.byId(String deviceId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.byId(String deviceId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer's device behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDevice byId(String deviceId)
     parameters:
     - id: deviceId
       type: "26831127"
+      description: <p>The device identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_device
+      description: <p>The customer device behavior. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.create(List<Device>)
   parent: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations
   href: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.yml
@@ -306,13 +329,19 @@ references:
   nameWithType: DeviceCollectionOperations.create(List<Device> newDevices)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.create(List<Device> newDevices)
   type: Method
+  summary: >-
+    <p>Adds devices to existing devices batch.</p>
+
+    <p></p>
   syntax:
     content: public String create(List<Device> newDevices)
     parameters:
     - id: newDevices
       type: 5618da2dcom.microsoft.store.partnercenter.models.devicesdeployment._devicea08ddfce
+      description: <p>The new devices to be created. </p>
     return:
       type: "26831127"
+      description: <p>The location which indicates the URL of the API to query for status of the create request. </p>
 - uid: com.microsoft.store.partnercenter.models.devicesdeployment._device
   parent: com.microsoft.store.partnercenter.models.devicesdeployment
   href: com.microsoft.store.partnercenter.models.devicesdeployment._device.yml
@@ -320,6 +349,7 @@ references:
   nameWithType: Device
   fullName: com.microsoft.store.partnercenter.models.devicesdeployment.Device
   type: Class
+  summary: <p>Represents a device associated with a customer. </p>
   syntax:
     content: public class Device extends ResourceBase
 - uid: com.microsoft.store.partnercenter.models._resource_collection
@@ -359,11 +389,11 @@ references:
   fullName: com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all devices.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<Device> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.devicesdeployment._devicea08ddfce
-      description: <p>The entities. </p>
+      description: <p>All of the devices. </p>

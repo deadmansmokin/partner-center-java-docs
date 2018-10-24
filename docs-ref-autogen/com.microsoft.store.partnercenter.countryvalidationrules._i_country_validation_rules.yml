@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/countryvalidationrules/ICountryValidationRules.java
     startLine: 15
   package: com.microsoft.store.partnercenter.countryvalidationrules
+  summary: <p>Represents the behavior of a specific country validation rules. </p>
   syntax:
     content: public interface ICountryValidationRules extends IPartnerComponentString,IEntityGetOperations<CountryValidationRules>
   inheritedMembers:
@@ -41,15 +42,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/countryvalidationrules/ICountryValidationRules.java
     startLine: 22
   package: com.microsoft.store.partnercenter.countryvalidationrules
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the country validation rules. </p>
   syntax:
     content: public CountryValidationRules get()
     return:
       type: com.microsoft.store.partnercenter.models.countryvalidationrules._country_validation_rules
-      description: <p>The entity. </p>
+      description: <p>The validation rules for the country. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
 references:
 - uid: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules.get*
@@ -119,6 +117,7 @@ references:
   nameWithType: CountryValidationRulesOperations
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesOperations
   type: Class
+  summary: <p>The country validation rules operations implementation. </p>
   syntax:
     content: public class CountryValidationRulesOperations extends BasePartnerComponentString implements ICountryValidationRules
 - uid: com.microsoft.store.partnercenter.models.countryvalidationrules._country_validation_rules
@@ -128,6 +127,7 @@ references:
   nameWithType: CountryValidationRules
   fullName: com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules
   type: Class
+  summary: <p>Holds validation information for a single country. </p>
   syntax:
     content: public class CountryValidationRules extends ResourceBase
 - uid: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
@@ -153,12 +153,8 @@ references:
   nameWithType: CountryValidationRulesOperations.get()
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesOperations.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Gets the market specific validation data by country. </p>
   syntax:
     content: public CountryValidationRules get()
     return:
       type: com.microsoft.store.partnercenter.models.countryvalidationrules._country_validation_rules
-      description: <p>The entity. </p>

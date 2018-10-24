@@ -22,7 +22,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUsersCollectionOperations.java
-    startLine: 31
+    startLine: 30
   package: com.microsoft.store.partnercenter.customerusers
   syntax:
     content: public class CustomerUsersCollectionOperations extends BasePartnerComponent<String> implements ICustomerUserCollection
@@ -51,15 +51,21 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUsersCollectionOperations.java
-    startLine: 102
+    startLine: 101
   package: com.microsoft.store.partnercenter.customerusers
+  summary: >-
+    <p>Retrieves the customer user operations for the specified user.</p>
+
+    <p></p>
   syntax:
     content: public ICustomerUser byId(String userId)
     parameters:
     - id: userId
       type: "26831127"
+      description: <p>The user identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.customerusers._i_customer_user
+      description: <p>The customer user operations for the specified user. </p>
   overridden: com.microsoft.store.partnercenter.customerusers._i_customer_user_collection.byId(String)
 - uid: com.microsoft.store.partnercenter.customerusers._customer_users_collection_operations.create(CustomerUser)
   id: create(CustomerUser)
@@ -75,7 +81,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUsersCollectionOperations.java
-    startLine: 67
+    startLine: 66
   package: com.microsoft.store.partnercenter.customerusers
   summary: >-
     <p>Creates a new user.</p>
@@ -105,7 +111,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUsersCollectionOperations.java
-    startLine: 51
+    startLine: 50
   package: com.microsoft.store.partnercenter.customerusers
   summary: >-
     <p>Initializes a new instance of the CustomerUsersCollectionOperations class.</p>
@@ -134,17 +140,17 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUsersCollectionOperations.java
-    startLine: 86
+    startLine: 85
   package: com.microsoft.store.partnercenter.customerusers
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all the customer users.</p>
 
     <p></p>
   syntax:
     content: public SeekBasedResourceCollection<CustomerUser> get()
     return:
       type: com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.users._customer_usera08ddfce
-      description: <p>The entities. </p>
+      description: <p>All the customer users. </p>
   overridden: com.microsoft.store.partnercenter.customerusers._i_customer_user_collection.get()
 - uid: com.microsoft.store.partnercenter.customerusers._customer_users_collection_operations.query(IQuery)
   id: query(IQuery)
@@ -162,13 +168,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUsersCollectionOperations.java
     startLine: 113
   package: com.microsoft.store.partnercenter.customerusers
+  summary: >-
+    <p>Queries customer users associated to the partner's customers.</p>
+
+    <p></p>
   syntax:
     content: public SeekBasedResourceCollection<CustomerUser> query(IQuery customerUsersQuery)
     parameters:
     - id: customerUsersQuery
       type: com.microsoft.store.partnercenter.models.query._i_query
+      description: <p>A query to apply onto customer users. Check <xref uid="com.microsoft.store.partnercenter.models.query._query_factory" data-throw-if-not-resolved="false">com.microsoft.store.partnercenter.models.query.QueryFactory</xref> to see how to build queries. </p>
     return:
       type: com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.users._customer_usera08ddfce
+      description: <p>Customer user collection. </p>
   overridden: com.microsoft.store.partnercenter.customerusers._i_customer_user_collection.query(IQuery)
 references:
 - uid: "26831127"
@@ -338,6 +350,7 @@ references:
   nameWithType: ICustomerUserCollection
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
   type: Interface
+  summary: <p>Represents the behavior of the customers users </p>
   syntax:
     content: public interface ICustomerUserCollection
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -366,13 +379,19 @@ references:
   nameWithType: ICustomerUserCollection.create(CustomerUser newEntity)
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.create(CustomerUser newEntity)
   type: Method
+  summary: >-
+    <p>Create a new user for the customer.</p>
+
+    <p></p>
   syntax:
     content: public CustomerUser create(CustomerUser newEntity)
     parameters:
     - id: newEntity
       type: com.microsoft.store.partnercenter.models.users._customer_user
+      description: <p>The user object containing details for the new user to be created. </p>
     return:
       type: com.microsoft.store.partnercenter.models.users._customer_user
+      description: <p>User entity </p>
 - uid: com.microsoft.store.partnercenter.models._seek_based_resource_collection
   parent: com.microsoft.store.partnercenter.models
   href: com.microsoft.store.partnercenter.models._seek_based_resource_collection.yml
@@ -394,14 +413,14 @@ references:
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all the customer users.</p>
 
     <p></p>
   syntax:
     content: public SeekBasedResourceCollection<CustomerUser> get()
     return:
       type: com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.users._customer_usera08ddfce
-      description: <p>The entities. </p>
+      description: <p>All the customer users. </p>
 - uid: com.microsoft.store.partnercenter.customerusers._i_customer_user
   parent: com.microsoft.store.partnercenter.customerusers
   href: com.microsoft.store.partnercenter.customerusers._i_customer_user.yml
@@ -419,13 +438,19 @@ references:
   nameWithType: ICustomerUserCollection.byId(String userId)
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.byId(String userId)
   type: Method
+  summary: >-
+    <p>Gets a single customer user operations.</p>
+
+    <p></p>
   syntax:
     content: public ICustomerUser byId(String userId)
     parameters:
     - id: userId
       type: "26831127"
+      description: <p>The user identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.customerusers._i_customer_user
+      description: <p>The customer user operations for the specified user. </p>
 - uid: com.microsoft.store.partnercenter.customerusers._i_customer_user_collection.query(IQuery)
   parent: com.microsoft.store.partnercenter.customerusers._i_customer_user_collection
   href: com.microsoft.store.partnercenter.customerusers._i_customer_user_collection.yml
@@ -433,13 +458,19 @@ references:
   nameWithType: ICustomerUserCollection.query(IQuery customerUsersQuery)
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(IQuery customerUsersQuery)
   type: Method
+  summary: >-
+    <p>Queries users associated to the customer.<ul><li><p>Count queries are not supported by this operation.</p></li><li><p>You can set page size, filter and sort option.</p></li><li><p>You can navigate to other pages by specifying a seek query with the seek operation and the continuation token sent by the previous operation.</p></li></ul></p>
+
+    <p></p>
   syntax:
     content: public SeekBasedResourceCollection<CustomerUser> query(IQuery customerUsersQuery)
     parameters:
     - id: customerUsersQuery
       type: com.microsoft.store.partnercenter.models.query._i_query
+      description: <p>A query to apply onto customer users. Check <xref uid="com.microsoft.store.partnercenter.models.query._query_factory" data-throw-if-not-resolved="false">com.microsoft.store.partnercenter.models.query.QueryFactory</xref> to see how to build queries. </p>
     return:
       type: com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.users._customer_usera08ddfce
+      description: <p>The requested customer users. </p>
 - uid: com.microsoft.store.partnercenter.models.query._i_query
   parent: com.microsoft.store.partnercenter.models.query
   href: com.microsoft.store.partnercenter.models.query._i_query.yml
@@ -450,3 +481,13 @@ references:
   summary: <p>Represents a query on an entity. All different queries should implement this contract. </p>
   syntax:
     content: public interface IQuery
+- uid: com.microsoft.store.partnercenter.models.query._query_factory
+  parent: com.microsoft.store.partnercenter.models.query
+  href: com.microsoft.store.partnercenter.models.query._query_factory.yml
+  name: QueryFactory
+  nameWithType: QueryFactory
+  fullName: com.microsoft.store.partnercenter.models.query.QueryFactory
+  type: Class
+  summary: <p>Creates new instances of IQuery objects. </p>
+  syntax:
+    content: public class QueryFactory

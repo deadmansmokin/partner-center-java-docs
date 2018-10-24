@@ -92,6 +92,7 @@ references:
   nameWithType: ICustomerUserCollection
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
   type: Interface
+  summary: <p>Represents the behavior of the customers users </p>
   syntax:
     content: public interface ICustomerUserCollection extends IPartnerComponentString,IEntityCreateOperations<CustomerUser, CustomerUser>,IEntireEntityCollectionRetrievalOperations<CustomerUser, SeekBasedResourceCollection<CustomerUser>>
 - uid: com.microsoft.store.partnercenter.customerusers._i_customer_user_license_collection
@@ -101,6 +102,7 @@ references:
   nameWithType: ICustomerUserLicenseCollection
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection
   type: Interface
+  summary: <p>Represents the behavior of the customers user's directory roles. </p>
   syntax:
     content: public interface ICustomerUserLicenseCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<License, ResourceCollection<License>>
 - uid: com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates

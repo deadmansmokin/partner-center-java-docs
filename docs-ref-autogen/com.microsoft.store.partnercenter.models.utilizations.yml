@@ -40,6 +40,7 @@ references:
   nameWithType: AzureResource
   fullName: com.microsoft.store.partnercenter.models.utilizations.AzureResource
   type: Class
+  summary: <p>Represents an Azure resource being metered. </p>
   syntax:
     content: public class AzureResource
 - uid: com.microsoft.store.partnercenter.models.utilizations._azure_utilization_granularity
@@ -49,6 +50,7 @@ references:
   nameWithType: AzureUtilizationGranularity
   fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity
   type: Enum
+  summary: <p>Lists the time granularity options for retrieving A subscription's azure utilization. </p>
   syntax:
     content: public enum AzureUtilizationGranularity
 - uid: com.microsoft.store.partnercenter.models.utilizations._azure_utilization_record
@@ -58,5 +60,6 @@ references:
   nameWithType: AzureUtilizationRecord
   fullName: com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord
   type: Class
+  summary: <p>A utilization record for an Azure subscription resource. </p>
   syntax:
     content: public class AzureUtilizationRecord extends ResourceBase

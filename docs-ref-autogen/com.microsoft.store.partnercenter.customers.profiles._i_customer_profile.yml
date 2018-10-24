@@ -45,18 +45,18 @@ items:
     startLine: 23
   package: com.microsoft.store.partnercenter.customers.profiles
   summary: >-
-    <p>Updates an entity.</p>
+    <p>Updates the customer profile.</p>
 
     <p></p>
   syntax:
     content: public T update(T customerProfile)
     parameters:
-    - id: entity
+    - id: customerProfile
       type: 8ce1ecb9
-      description: <p>The entity information. </p>
+      description: <p>The customer profile information. </p>
     return:
       type: 8ce1ecb9
-      description: <p>The updated entity. </p>
+      description: <p>The updated customer profile. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_update_operations.update(T)
 references:
 - uid: 8ce1ecb9
@@ -75,15 +75,12 @@ references:
   nameWithType: ICustomerReadonlyProfile<T>.get()
   fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T extends ResourceBase>.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the customer profile. </p>
   syntax:
     content: public T get()
     return:
       type: 8ce1ecb9
-      description: <p>The entity. </p>
+      description: <p>The customer profile. </p>
 - uid: com.microsoft.store.partnercenter.customers.profiles._i_customer_readonly_profile
   parent: com.microsoft.store.partnercenter.customers.profiles
   href: com.microsoft.store.partnercenter.customers.profiles._i_customer_readonly_profile.yml
@@ -91,6 +88,7 @@ references:
   nameWithType: ICustomerReadonlyProfile<T>
   fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>
   type: Interface
+  summary: <p>Encapsulates a single customer read-only profile behavior. </p>
   syntax:
     content: public interface ICustomerReadonlyProfile<T extends ResourceBase>
     typeParameters:

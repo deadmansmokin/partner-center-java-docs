@@ -182,6 +182,7 @@ references:
   nameWithType: IAzureUtilizationCollection
   fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
   type: Interface
+  summary: <p>Groups behavior related to Azure subscription utilization records. </p>
   syntax:
     content: public interface IAzureUtilizationCollection extends IPartnerComponent<Tuple<String, String>>
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -201,7 +202,12 @@ references:
   nameWithType: IUtilizationCollection.getAzure()
   fullName: com.microsoft.store.partnercenter.utilization.IUtilizationCollection.getAzure()
   type: Method
+  summary: >-
+    <p>Gets the Azure subscription utilization behavior.</p>
+
+    <p></p>
   syntax:
     content: public IAzureUtilizationCollection getAzure()
     return:
       type: com.microsoft.store.partnercenter.utilization._i_azure_utilization_collection
+      description: <p>The Azure subscription utilization behavior. </p>

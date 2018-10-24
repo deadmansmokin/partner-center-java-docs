@@ -20,7 +20,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceLineItemCollectionOperations.java
-    startLine: 24
+    startLine: 23
   package: com.microsoft.store.partnercenter.invoices
   syntax:
     content: public class InvoiceLineItemCollectionOperations extends BasePartnerComponentString implements IInvoiceLineItemCollection
@@ -50,12 +50,17 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceLineItemCollectionOperations.java
-    startLine: 75
+    startLine: 74
   package: com.microsoft.store.partnercenter.invoices
+  summary: >-
+    <p>Retrieves invoice line items for a specific billing provider and invoice line item type</p>
+
+    <p></p>
   syntax:
     content: public ResourceCollection<InvoiceLineItem> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoice_line_itema08ddfce
+      description: <p>The collection of invoice line items. </p>
   overridden: com.microsoft.store.partnercenter.invoices._i_invoice_line_item_collection.get()
 - uid: com.microsoft.store.partnercenter.invoices._invoice_line_item_collection_operations.get(int,int)
   id: get(int,int)
@@ -71,8 +76,12 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceLineItemCollectionOperations.java
-    startLine: 99
+    startLine: 97
   package: com.microsoft.store.partnercenter.invoices
+  summary: >-
+    <p>Retrieves invoice line items for a specific billing provider and invoice line item type and allows paging</p>
+
+    <p></p>
   syntax:
     content: public ResourceCollection<InvoiceLineItem> get(int size, int offset)
     parameters:
@@ -82,6 +91,7 @@ items:
       type: f75371fa
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoice_line_itema08ddfce
+      description: <p>The collection of invoice line items. </p>
   overridden: com.microsoft.store.partnercenter.invoices._i_invoice_line_item_collection.get(int,int)
 - uid: com.microsoft.store.partnercenter.invoices._invoice_line_item_collection_operations.InvoiceLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType)
   id: InvoiceLineItemCollectionOperations(IPartner,String,BillingProvider,InvoiceLineItemType)
@@ -97,19 +107,27 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceLineItemCollectionOperations.java
-    startLine: 46
+    startLine: 45
   package: com.microsoft.store.partnercenter.invoices
+  summary: >-
+    <p>Initializes a new instance of the InvoiceLineItemCollectionOperations class.</p>
+
+    <p></p>
   syntax:
     content: public InvoiceLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType)
     parameters:
     - id: rootPartnerOperations
       type: com.microsoft.store.partnercenter._i_partner
+      description: <p>The partner operations. </p>
     - id: invoiceId
       type: "26831127"
+      description: <p>The invoice Id. </p>
     - id: billingProvider
       type: com.microsoft.store.partnercenter.models.invoices._billing_provider
+      description: <p>The provider of billing information. </p>
     - id: invoiceLineItemType
       type: com.microsoft.store.partnercenter.models.invoices._invoice_line_item_type
+      description: <p>The type of invoice line item. </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -341,10 +359,12 @@ references:
   nameWithType: IInvoiceLineItemCollection.get()
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get()
   type: Method
+  summary: <p>Retrieves invoice line items for a specific billing provider and invoice line item type </p>
   syntax:
     content: public ResourceCollection<InvoiceLineItem> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoice_line_itema08ddfce
+      description: <p>The collection of invoice line items. </p>
 - uid: com.microsoft.store.partnercenter.invoices._i_invoice_line_item_collection.get(int,int)
   parent: com.microsoft.store.partnercenter.invoices._i_invoice_line_item_collection
   href: com.microsoft.store.partnercenter.invoices._i_invoice_line_item_collection.yml
@@ -352,12 +372,16 @@ references:
   nameWithType: IInvoiceLineItemCollection.get(int size, int offset)
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get(int size, int offset)
   type: Method
+  summary: <p>Retrieves a subset of invoice line items for a specific billing provider and invoice line item type </p>
   syntax:
     content: public ResourceCollection<InvoiceLineItem> get(int size, int offset)
     parameters:
     - id: size
       type: f75371fa
+      description: <p>The maximum number of invoice line items to return. </p>
     - id: offset
       type: f75371fa
+      description: <p>The page offset. </p>
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoice_line_itema08ddfce
+      description: <p>The subset of invoice line items. </p>

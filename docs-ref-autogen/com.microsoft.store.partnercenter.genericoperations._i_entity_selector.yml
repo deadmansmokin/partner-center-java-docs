@@ -41,13 +41,16 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntitySelector.java
     startLine: 15
   package: com.microsoft.store.partnercenter.genericoperations
+  summary: <p>Retrieves the behavior for an entity using the entity's identifier. </p>
   syntax:
     content: public TEntity byId(String id)
     parameters:
     - id: id
       type: "26831127"
+      description: <p>The entity's identifier. </p>
     return:
       type: 830f062c
+      description: <p>The entity's behavior. </p>
 references:
 - uid: 830f062c
   spec.java:
@@ -109,6 +112,7 @@ references:
   nameWithType: IBatchJobStatusCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's batch upload status collection. </p>
   syntax:
     content: public interface IBatchJobStatusCollection extends IPartnerComponentString,IEntitySelector<IBatchJobStatus>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection
@@ -118,6 +122,7 @@ references:
   nameWithType: IConfigurationPolicyCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
   type: Interface
+  summary: <p>RRepresents the operations that can be done on the partner's configuration policies. </p>
   syntax:
     content: public interface IConfigurationPolicyCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ConfigurationPolicy, ResourceCollection<ConfigurationPolicy>>,IEntityCreateOperations<ConfigurationPolicy, ConfigurationPolicy>,IEntitySelector<IConfigurationPolicy>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection
@@ -127,6 +132,7 @@ references:
   nameWithType: IDeviceCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices. </p>
   syntax:
     content: public interface IDeviceCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Device, ResourceCollection<Device>>,IEntityCreateOperations<List<Device>, String>,IEntitySelector<IDevice>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection
@@ -136,6 +142,7 @@ references:
   nameWithType: IDevicesBatchCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices batches. </p>
   syntax:
     content: public interface IDevicesBatchCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<DeviceBatch, ResourceCollection<DeviceBatch>>,IEntitySelector<IDevicesBatch>,IEntityCreateOperations<DeviceBatchCreationRequest, String>
 - uid: com.microsoft.store.partnercenter.invoices._i_invoice_collection
@@ -205,13 +212,19 @@ references:
   nameWithType: IProductCollectionByCountry.byId(String productId)
   fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byId(String productId)
   type: Method
+  summary: >-
+    <p>Retrieves the operations tied with a specific product.</p>
+
+    <p></p>
   syntax:
     content: public IProduct byId(String productId)
     parameters:
     - id: productId
       type: "26831127"
+      description: <p>The identifier for the product. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_product
+      description: <p>The available product operations. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status_collection.byId(String)
   parent: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status_collection
   href: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status_collection.yml
@@ -219,13 +232,19 @@ references:
   nameWithType: IBatchJobStatusCollection.byId(String trackingId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId(String trackingId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer's devices batch upload status behavior.</p>
+
+    <p></p>
   syntax:
     content: public IBatchJobStatus byId(String trackingId)
     parameters:
     - id: trackingId
       type: "26831127"
+      description: <p>The tracking identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status
+      description: <p>The customer's devices batch upload status operations. </p>
 - uid: com.microsoft.store.partnercenter.customers.products._i_customer_product_collection.byId(String)
   parent: com.microsoft.store.partnercenter.customers.products._i_customer_product_collection
   href: com.microsoft.store.partnercenter.customers.products._i_customer_product_collection.yml
@@ -273,13 +292,19 @@ references:
   nameWithType: ISkuCollection.byId(String skuId)
   fullName: com.microsoft.store.partnercenter.products.ISkuCollection.byId(String skuId)
   type: Method
+  summary: >-
+    <p>Retrieves the operations tied with a specific SKU.</p>
+
+    <p></p>
   syntax:
     content: public ISku byId(String skuId)
     parameters:
     - id: skuId
       type: "26831127"
+      description: <p>Identifier for the SKU. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_sku
+      description: <p>The available SKU operations. </p>
 - uid: com.microsoft.store.partnercenter.products._i_availability_collection.byId(String)
   parent: com.microsoft.store.partnercenter.products._i_availability_collection
   href: com.microsoft.store.partnercenter.products._i_availability_collection.yml
@@ -287,13 +312,19 @@ references:
   nameWithType: IAvailabilityCollection.byId(String availabilityId)
   fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId(String availabilityId)
   type: Method
+  summary: >-
+    <p>Retrieves the operations tied with a specific availability.</p>
+
+    <p></p>
   syntax:
     content: public IAvailability byId(String availabilityId)
     parameters:
     - id: availabilityId
       type: "26831127"
+      description: <p>Identifier for the availability. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_availability
+      description: <p>The availability operations. </p>
 - uid: com.microsoft.store.partnercenter.orders._i_order_collection.byId(String)
   parent: com.microsoft.store.partnercenter.orders._i_order_collection
   href: com.microsoft.store.partnercenter.orders._i_order_collection.yml
@@ -321,13 +352,19 @@ references:
   nameWithType: IConfigurationPolicyCollection.byId(String policyId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.byId(String policyId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer's devices batch upload status behavior.</p>
+
+    <p></p>
   syntax:
     content: public IConfigurationPolicy byId(String policyId)
     parameters:
     - id: policyId
       type: "26831127"
+      description: <p>The policy identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy
+      description: <p>The customer's devices batch upload status operations. </p>
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection.byId(String)
   parent: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection
   href: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection.yml
@@ -335,13 +372,19 @@ references:
   nameWithType: IDirectoryRoleCollection.byId(String roleId)
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.byId(String roleId)
   type: Method
+  summary: >-
+    <p>Gets a directory role behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDirectoryRole byId(String roleId)
     parameters:
     - id: roleId
       type: "26831127"
+      description: <p>The directory role identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role
+      description: <p>The directory role operations. </p>
 - uid: com.microsoft.store.partnercenter.servicerequests._i_service_request_collection.byId(String)
   parent: com.microsoft.store.partnercenter.servicerequests._i_service_request_collection
   href: com.microsoft.store.partnercenter.servicerequests._i_service_request_collection.yml
@@ -369,13 +412,19 @@ references:
   nameWithType: IDevicesBatchCollection.byId(String deviceBatchId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(String deviceBatchId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer devices batch behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDevicesBatch byId(String deviceBatchId)
     parameters:
     - id: deviceBatchId
       type: "26831127"
+      description: <p>The devices batch id </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch
+      description: <p>The devices batch behavior. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.byId(String)
   parent: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection
   href: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.yml
@@ -383,13 +432,19 @@ references:
   nameWithType: IDeviceCollection.byId(String deviceId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.byId(String deviceId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer's device behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDevice byId(String deviceId)
     parameters:
     - id: deviceId
       type: "26831127"
+      description: <p>The device identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_device
+      description: <p>The customer device behavior. </p>
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection.byId(String)
   parent: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection
   href: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection.yml
@@ -397,13 +452,16 @@ references:
   nameWithType: IUserMemberCollection.byId(String userId)
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.byId(String userId)
   type: Method
+  summary: <p>Gets a single user member behavior. </p>
   syntax:
     content: public IUserMember byId(String userId)
     parameters:
     - id: userId
       type: "26831127"
+      description: <p>The user identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member
+      description: <p>The user member operations. </p>
 - uid: com.microsoft.store.partnercenter.products._product_collection_by_country_operations.byId(String)
   parent: com.microsoft.store.partnercenter.products._product_collection_by_country_operations
   href: com.microsoft.store.partnercenter.products._product_collection_by_country_operations.yml
@@ -411,13 +469,19 @@ references:
   nameWithType: ProductCollectionByCountryOperations.byId(String productId)
   fullName: com.microsoft.store.partnercenter.products.ProductCollectionByCountryOperations.byId(String productId)
   type: Method
+  summary: >-
+    <p>Retrieves the operations tied with a specific product.</p>
+
+    <p></p>
   syntax:
     content: public IProduct byId(String productId)
     parameters:
     - id: productId
       type: "26831127"
+      description: <p>The identifier for the product. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_product
+      description: <p>The available product operations. </p>
 - uid: com.microsoft.store.partnercenter.invoices._i_invoice_collection.byId(String)
   parent: com.microsoft.store.partnercenter.invoices._i_invoice_collection
   href: com.microsoft.store.partnercenter.invoices._i_invoice_collection.yml
@@ -505,13 +569,19 @@ references:
   nameWithType: DevicesBatchCollectionOperations.byId(String deviceBatchId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId(String deviceBatchId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer devices batch behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDevicesBatch byId(String deviceBatchId)
     parameters:
     - id: deviceBatchId
       type: "26831127"
+      description: <p>The devices batch identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch
+      description: <p>The devices batch behavior. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations
   href: com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.yml
@@ -519,13 +589,19 @@ references:
   nameWithType: ConfigurationPolicyCollectionOperations.byId(String policyId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.byId(String policyId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer's devices batch upload status behavior.</p>
+
+    <p></p>
   syntax:
     content: public IConfigurationPolicy byId(String policyId)
     parameters:
     - id: policyId
       type: "26831127"
+      description: <p>The policy identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy
+      description: <p>The customer's devices batch upload status operations. </p>
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations
   href: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations.yml
@@ -533,13 +609,19 @@ references:
   nameWithType: DirectoryRoleCollectionOperations.byId(String roleId)
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations.byId(String roleId)
   type: Method
+  summary: >-
+    <p>Gets a directory role operations object.</p>
+
+    <p></p>
   syntax:
     content: public IDirectoryRole byId(String roleId)
     parameters:
     - id: roleId
       type: "26831127"
+      description: <p>The directory role id. </p>
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role
+      description: <p>The directory role operations object. </p>
 - uid: com.microsoft.store.partnercenter.products._sku_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.products._sku_collection_operations
   href: com.microsoft.store.partnercenter.products._sku_collection_operations.yml
@@ -547,13 +629,19 @@ references:
   nameWithType: SkuCollectionOperations.byId(String skuId)
   fullName: com.microsoft.store.partnercenter.products.SkuCollectionOperations.byId(String skuId)
   type: Method
+  summary: >-
+    <p>Retrieves the operations tied with a specific SKU.</p>
+
+    <p></p>
   syntax:
     content: public ISku byId(String skuId)
     parameters:
     - id: skuId
       type: "26831127"
+      description: <p>Identifier for the SKU. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_sku
+      description: <p>The available SKU operations. </p>
 - uid: com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations
   href: com.microsoft.store.partnercenter.customers.products._customer_sku_collection_operations.yml
@@ -561,13 +649,19 @@ references:
   nameWithType: CustomerSkuCollectionOperations.byId(String skuId)
   fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.byId(String skuId)
   type: Method
+  summary: >-
+    <p>Retrieves the operations tied with a specific SKU.</p>
+
+    <p></p>
   syntax:
     content: public ISku byId(String skuId)
     parameters:
     - id: skuId
       type: "26831127"
+      description: <p>Identifier for the SKU. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_sku
+      description: <p>The available SKU operations. </p>
 - uid: com.microsoft.store.partnercenter.products._availability_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.products._availability_collection_operations
   href: com.microsoft.store.partnercenter.products._availability_collection_operations.yml
@@ -575,13 +669,19 @@ references:
   nameWithType: AvailabilityCollectionOperations.byId(String availabilityId)
   fullName: com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.byId(String availabilityId)
   type: Method
+  summary: >-
+    <p>Retrieves the operations tied with a specific availability.</p>
+
+    <p></p>
   syntax:
     content: public IAvailability byId(String availabilityId)
     parameters:
     - id: availabilityId
       type: "26831127"
+      description: <p>Identifier for the availability. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_availability
+      description: <p>The availability operations. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations
   href: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.yml
@@ -589,13 +689,19 @@ references:
   nameWithType: DeviceCollectionOperations.byId(String deviceId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.byId(String deviceId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer's device behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDevice byId(String deviceId)
     parameters:
     - id: deviceId
       type: "26831127"
+      description: <p>The device identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_device
+      description: <p>The customer device behavior. </p>
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._user_member_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.customerdirectoryroles._user_member_collection_operations
   href: com.microsoft.store.partnercenter.customerdirectoryroles._user_member_collection_operations.yml
@@ -603,13 +709,19 @@ references:
   nameWithType: UserMemberCollectionOperations.byId(String userId)
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId(String userId)
   type: Method
+  summary: >-
+    <p>Get a single user member operations object.</p>
+
+    <p></p>
   syntax:
     content: public IUserMember byId(String userId)
     parameters:
     - id: userId
       type: "26831127"
+      description: <p>The user identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member
+      description: <p>The user member operations instance. </p>
 - uid: com.microsoft.store.partnercenter.invoices._invoice_collection.byId(String)
   parent: com.microsoft.store.partnercenter.invoices._invoice_collection
   href: com.microsoft.store.partnercenter.invoices._invoice_collection.yml
@@ -637,13 +749,19 @@ references:
   nameWithType: CustomerAvailabilityCollectionOperations.byId(String availabilityId)
   fullName: com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.byId(String availabilityId)
   type: Method
+  summary: >-
+    <p>Retrieves the operations tied with a specific availability.</p>
+
+    <p></p>
   syntax:
     content: public IAvailability byId(String availabilityId)
     parameters:
     - id: availabilityId
       type: "26831127"
+      description: <p>Identifier for the availability. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_availability
+      description: <p>The availability operations. </p>
 - uid: com.microsoft.store.partnercenter.orders._order_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.orders._order_collection_operations
   href: com.microsoft.store.partnercenter.orders._order_collection_operations.yml

@@ -44,15 +44,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/orders/IOrder.java
     startLine: 24
   package: com.microsoft.store.partnercenter.orders
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the order information. </p>
   syntax:
     content: public Order get()
     return:
       type: com.microsoft.store.partnercenter.models.orders._order
-      description: <p>The entity. </p>
+      description: <p>The order information </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
 - uid: com.microsoft.store.partnercenter.orders._i_order.patch(Order)
   id: patch(Order)
@@ -70,13 +67,16 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/orders/IOrder.java
     startLine: 31
   package: com.microsoft.store.partnercenter.orders
+  summary: <p>Patches the order. </p>
   syntax:
     content: public Order patch(Order partialOrder)
     parameters:
     - id: partialOrder
       type: com.microsoft.store.partnercenter.models.orders._order
+      description: <p>An order that has the properties to be patched set. </p>
     return:
       type: com.microsoft.store.partnercenter.models.orders._order
+      description: <p>The updated order </p>
 references:
 - uid: com.microsoft.store.partnercenter.orders._i_order.get*
   name: get

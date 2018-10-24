@@ -53,13 +53,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/products/ProductCollectionByCountryOperations.java
     startLine: 38
   package: com.microsoft.store.partnercenter.products
+  summary: >-
+    <p>Retrieves the operations tied with a specific product.</p>
+
+    <p></p>
   syntax:
     content: public IProduct byId(String productId)
     parameters:
     - id: productId
       type: "26831127"
+      description: <p>The identifier for the product. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_product
+      description: <p>The available product operations. </p>
   overridden: com.microsoft.store.partnercenter.products._i_product_collection_by_country.byId(String)
 - uid: com.microsoft.store.partnercenter.products._product_collection_by_country_operations.byTargetView(String)
   id: byTargetView(String)
@@ -77,13 +83,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/products/ProductCollectionByCountryOperations.java
     startLine: 49
   package: com.microsoft.store.partnercenter.products
+  summary: >-
+    <p>Retrieves the operations that can be applied on products that belong to a given country, catalog view and target segment.</p>
+
+    <p></p>
   syntax:
     content: public IProductCollectionByCountryByTargetView byTargetView(String targetView)
     parameters:
     - id: targetView
       type: "26831127"
+      description: <p>The product target view. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_product_collection_by_country_by_target_view
+      description: <p>The product collection operations by country and by target view. </p>
   overridden: com.microsoft.store.partnercenter.products._i_product_collection_by_country.byTargetView(String)
 - uid: com.microsoft.store.partnercenter.products._product_collection_by_country_operations.ProductCollectionByCountryOperations(IPartner,String)
   id: ProductCollectionByCountryOperations(IPartner,String)
@@ -302,13 +314,19 @@ references:
   nameWithType: IProductCollectionByCountry.byId(String productId)
   fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byId(String productId)
   type: Method
+  summary: >-
+    <p>Retrieves the operations tied with a specific product.</p>
+
+    <p></p>
   syntax:
     content: public IProduct byId(String productId)
     parameters:
     - id: productId
       type: "26831127"
+      description: <p>The identifier for the product. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_product
+      description: <p>The available product operations. </p>
 - uid: com.microsoft.store.partnercenter.products._i_product_collection_by_country_by_target_view
   parent: com.microsoft.store.partnercenter.products
   href: com.microsoft.store.partnercenter.products._i_product_collection_by_country_by_target_view.yml
@@ -326,10 +344,16 @@ references:
   nameWithType: IProductCollectionByCountry.byTargetView(String targetView)
   fullName: com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byTargetView(String targetView)
   type: Method
+  summary: >-
+    <p>Retrieves the operations that can be applied on products that belong to a given country, catalog view and target segment.</p>
+
+    <p></p>
   syntax:
     content: public IProductCollectionByCountryByTargetView byTargetView(String targetView)
     parameters:
     - id: targetView
       type: "26831127"
+      description: <p>The product target view. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_product_collection_by_country_by_target_view
+      description: <p>The product collection operations by country and by target view. </p>

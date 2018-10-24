@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/auditrecords/IAuditRecordsCollection.java
     startLine: 18
   package: com.microsoft.store.partnercenter.auditrecords
+  summary: <p>Represents the operations that can be done on partners audit collection. </p>
   syntax:
     content: public interface IAuditRecordsCollection extends IPartnerComponentString
   inheritedMembers:
@@ -41,17 +42,25 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/auditrecords/IAuditRecordsCollection.java
     startLine: 32
   package: com.microsoft.store.partnercenter.auditrecords
+  summary: >-
+    <p>Queries audit records associated to the partner. The following queries are supported:<ul><li><p>Specify the number of audit record to return.</p></li><li><p>Filter the result with a customer name.</p></li></ul></p>
+
+    <p></p>
   syntax:
     content: public SeekBasedResourceCollection<AuditRecord> query(DateTime startDate, DateTime endDate, IQuery query)
     parameters:
     - id: startDate
       type: 230df18c
+      description: <p>The start date of the audit record logs. </p>
     - id: endDate
       type: 230df18c
+      description: <p>The end date of the audit record logs. </p>
     - id: query
       type: com.microsoft.store.partnercenter.models.query._i_query
+      description: <p>The query. </p>
     return:
       type: com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.auditing._audit_recorda08ddfce
+      description: <p>The audit records that match the given query. </p>
 references:
 - uid: 230df18c
   spec.java:
@@ -155,6 +164,7 @@ references:
   nameWithType: AuditRecord
   fullName: com.microsoft.store.partnercenter.models.auditing.AuditRecord
   type: Class
+  summary: <p>Represents a record of operation performed by a partner user or application </p>
   syntax:
     content: public class AuditRecord extends ResourceBase
 - uid: com.microsoft.store.partnercenter.auditrecords._audit_records_collection.query(DateTime,DateTime,IQuery)
@@ -164,17 +174,25 @@ references:
   nameWithType: AuditRecordsCollection.query(DateTime startDate, DateTime endDate, IQuery query)
   fullName: com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query(DateTime startDate, DateTime endDate, IQuery query)
   type: Method
+  summary: >-
+    <p>Queries audit records associated to the partner. The following queries are supported:<ul><li><p>Specify the number of audit record to return.</p></li><li><p>Filter the result with a customer name.</p></li></ul></p>
+
+    <p></p>
   syntax:
     content: public SeekBasedResourceCollection<AuditRecord> query(DateTime startDate, DateTime endDate, IQuery query)
     parameters:
     - id: startDate
       type: 230df18c
+      description: <p>The start date of the audit record logs. </p>
     - id: endDate
       type: 230df18c
+      description: <p>The end date of the audit record logs. </p>
     - id: query
       type: com.microsoft.store.partnercenter.models.query._i_query
+      description: <p>The query. </p>
     return:
       type: com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.auditing._audit_recorda08ddfce
+      description: <p>The audit records that match the given query. </p>
 - uid: com.microsoft.store.partnercenter.models.query._i_query
   parent: com.microsoft.store.partnercenter.models.query
   href: com.microsoft.store.partnercenter.models.query._i_query.yml

@@ -49,10 +49,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/ServiceCostsCollectionOperations.java
     startLine: 47
   package: com.microsoft.store.partnercenter.customers.servicecosts
+  summary: >-
+    <p>Gets the customer's service cost line items.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostLineItemsCollection getLineItems()
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_line_items_collection
+      description: <p>The customer's service cost line items. </p>
   overridden: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection.getLineItems()
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._service_costs_collection_operations.getSummary()
   id: getSummary()
@@ -70,10 +75,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/ServiceCostsCollectionOperations.java
     startLine: 62
   package: com.microsoft.store.partnercenter.customers.servicecosts
+  summary: >-
+    <p>Gets the customer's service cost summary.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostSummary getSummary()
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary
+      description: <p>The customer's service cost summary. </p>
   overridden: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection.getSummary()
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._service_costs_collection_operations.ServiceCostsCollectionOperations(IPartner,String,ServiceCostsBillingPeriod)
   id: ServiceCostsCollectionOperations(IPartner,String,ServiceCostsBillingPeriod)
@@ -209,6 +219,7 @@ references:
   nameWithType: IServiceCostLineItemsCollection
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection
   type: Interface
+  summary: <p>Represents the behavior of the customer service cost line items as a whole. </p>
   syntax:
     content: public interface IServiceCostLineItemsCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<ServiceCostLineItem, ResourceCollection<ServiceCostLineItem>>
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary
@@ -238,6 +249,7 @@ references:
   nameWithType: ServiceCostsBillingPeriod
   fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod
   type: Enum
+  summary: <p>Represents service costs billing periods. </p>
   syntax:
     content: public enum ServiceCostsBillingPeriod
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection.getLineItems()
@@ -247,10 +259,15 @@ references:
   nameWithType: IServiceCostsCollection.getLineItems()
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection.getLineItems()
   type: Method
+  summary: >-
+    <p>Gets the customer's service cost line items.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostLineItemsCollection getLineItems()
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_line_items_collection
+      description: <p>The customer's service cost line items. </p>
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection.getSummary()
   parent: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection
   href: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection.yml
@@ -258,7 +275,12 @@ references:
   nameWithType: IServiceCostsCollection.getSummary()
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection.getSummary()
   type: Method
+  summary: >-
+    <p>Gets the customer's service cost summary.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostSummary getSummary()
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary
+      description: <p>The customer's service cost summary. </p>

@@ -49,14 +49,14 @@ items:
     startLine: 49
   package: com.microsoft.store.partnercenter.customers.servicecosts
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves a customer's service cost line items.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<ServiceCostLineItem> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.servicecosts._service_cost_line_itema08ddfce
-      description: <p>The entities. </p>
+      description: <p>The service cost line items. </p>
   overridden: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_line_items_collection.get()
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._service_cost_line_items_operations.ServiceCostLineItemsOperations(IPartner,Tuple<String, String>)
   id: ServiceCostLineItemsOperations(IPartner,Tuple<String, String>)
@@ -192,6 +192,7 @@ references:
   nameWithType: IServiceCostLineItemsCollection
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection
   type: Interface
+  summary: <p>Represents the behavior of the customer service cost line items as a whole. </p>
   syntax:
     content: public interface IServiceCostLineItemsCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<ServiceCostLineItem, ResourceCollection<ServiceCostLineItem>>
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -249,11 +250,11 @@ references:
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves a customer's service cost line items.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<ServiceCostLineItem> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.servicecosts._service_cost_line_itema08ddfce
-      description: <p>The entities. </p>
+      description: <p>The service cost line items. </p>

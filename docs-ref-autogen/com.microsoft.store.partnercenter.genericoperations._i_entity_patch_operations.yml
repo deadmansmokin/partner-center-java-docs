@@ -82,6 +82,7 @@ references:
   nameWithType: IConfigurationPolicy
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
   type: Interface
+  summary: <p>Represents all the operations that can be done on a configuration policy. </p>
   syntax:
     content: public interface IConfigurationPolicy extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<ConfigurationPolicy>,IEntityPatchOperations<ConfigurationPolicy>,IEntityDeleteOperations<ConfigurationPolicy>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device
@@ -91,6 +92,7 @@ references:
   nameWithType: IDevice
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's device. </p>
   syntax:
     content: public interface IDevice extends IPartnerComponent<TripletTuple<String, String, String>>,IEntityDeleteOperations<Device>,IEntityPatchOperations<Device>
 - uid: com.microsoft.store.partnercenter.orders._i_order

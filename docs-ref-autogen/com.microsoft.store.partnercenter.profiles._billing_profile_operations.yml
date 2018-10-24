@@ -20,7 +20,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java
-    startLine: 22
+    startLine: 19
   package: com.microsoft.store.partnercenter.profiles
   summary: <p>The partner billing profile operations implementation. </p>
   syntax:
@@ -52,7 +52,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java
-    startLine: 31
+    startLine: 28
   package: com.microsoft.store.partnercenter.profiles
   summary: >-
     <p>Initializes a new instance of the BillingProfileOperations class.</p>
@@ -78,7 +78,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java
-    startLine: 42
+    startLine: 39
   package: com.microsoft.store.partnercenter.profiles
   summary: >-
     <p>Retrieves the partner billing profile.</p>
@@ -104,7 +104,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/profiles/BillingProfileOperations.java
-    startLine: 60
+    startLine: 58
   package: com.microsoft.store.partnercenter.profiles
   summary: >-
     <p>Updates the partner billing profile.</p>
@@ -324,15 +324,12 @@ references:
   nameWithType: IBillingProfile.get()
   fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves a partner's billing profile. </p>
   syntax:
     content: public BillingProfile get()
     return:
       type: com.microsoft.store.partnercenter.models.partners._billing_profile
-      description: <p>The entity. </p>
+      description: <p>The billing profile. </p>
 - uid: com.microsoft.store.partnercenter.profiles._i_billing_profile.update(BillingProfile)
   parent: com.microsoft.store.partnercenter.profiles._i_billing_profile
   href: com.microsoft.store.partnercenter.profiles._i_billing_profile.yml
@@ -340,10 +337,13 @@ references:
   nameWithType: IBillingProfile.update(BillingProfile billingProfile)
   fullName: com.microsoft.store.partnercenter.profiles.IBillingProfile.update(BillingProfile billingProfile)
   type: Method
+  summary: <p>Updates the partner's billing profile. </p>
   syntax:
     content: public BillingProfile update(BillingProfile billingProfile)
     parameters:
     - id: billingProfile
       type: com.microsoft.store.partnercenter.models.partners._billing_profile
+      description: <p>The billing profile information. </p>
     return:
       type: com.microsoft.store.partnercenter.models.partners._billing_profile
+      description: <p>The updated billing profile. </p>

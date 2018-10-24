@@ -81,13 +81,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/CustomerDevicesCollectionOperations.java
     startLine: 51
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Updates the devices with configuration policies.</p>
+
+    <p></p>
   syntax:
     content: public String update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)
     parameters:
     - id: devicePolicyUpdateRequest
       type: com.microsoft.store.partnercenter.models.devicesdeployment._device_policy_update_request
+      description: <p>The device policy update request with devices to be updated.. </p>
     return:
       type: "26831127"
+      description: <p>The location of the status to track the update. </p>
   overridden: com.microsoft.store.partnercenter.devicesdeployment._i_customer_device_collection.update(DevicePolicyUpdateRequest)
 references:
 - uid: "26831127"
@@ -242,6 +248,7 @@ references:
   nameWithType: ICustomerDeviceCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices. </p>
   syntax:
     content: public interface ICustomerDeviceCollection
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -261,13 +268,19 @@ references:
   nameWithType: ICustomerDeviceCollection.update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)
   type: Method
+  summary: >-
+    <p>Updates the devices with configuration policies.</p>
+
+    <p></p>
   syntax:
     content: public String update(DevicePolicyUpdateRequest devicePolicyUpdateRequest)
     parameters:
     - id: devicePolicyUpdateRequest
       type: com.microsoft.store.partnercenter.models.devicesdeployment._device_policy_update_request
+      description: <p>The device policy update request with devices to be updated. </p>
     return:
       type: "26831127"
+      description: <p>The location of the status to track the update. </p>
 - uid: com.microsoft.store.partnercenter.models.devicesdeployment._device_policy_update_request
   parent: com.microsoft.store.partnercenter.models.devicesdeployment
   href: com.microsoft.store.partnercenter.models.devicesdeployment._device_policy_update_request.yml
@@ -275,5 +288,6 @@ references:
   nameWithType: DevicePolicyUpdateRequest
   fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest
   type: Class
+  summary: <p>Represents the list of devices to be updated with a policy. </p>
   syntax:
     content: public class DevicePolicyUpdateRequest

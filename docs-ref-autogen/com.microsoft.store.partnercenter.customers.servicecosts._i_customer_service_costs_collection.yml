@@ -42,13 +42,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/ICustomerServiceCostsCollection.java
     startLine: 23
   package: com.microsoft.store.partnercenter.customers.servicecosts
+  summary: >-
+    <p>Obtains the service cost operations by billing period.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostsCollection byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
     parameters:
     - id: billingPeriod
       type: com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period
+      description: <p>The billing period. </p>
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection
+      description: <p>The service cost operations. </p>
 references:
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._i_customer_service_costs_collection.byBillingPeriod*
   name: byBillingPeriod
@@ -124,13 +130,19 @@ references:
   nameWithType: CustomerServiceCostsCollectionOperations.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.CustomerServiceCostsCollectionOperations.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
   type: Method
+  summary: >-
+    <p>Obtains the service cost operations by billing period.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostsCollection byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
     parameters:
     - id: billingPeriod
       type: com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period
+      description: <p>The billing period. </p>
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection
+      description: <p>The service cost operations. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period
   parent: com.microsoft.store.partnercenter.models.servicecosts
   href: com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period.yml
@@ -138,5 +150,6 @@ references:
   nameWithType: ServiceCostsBillingPeriod
   fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod
   type: Enum
+  summary: <p>Represents service costs billing periods. </p>
   syntax:
     content: public enum ServiceCostsBillingPeriod
