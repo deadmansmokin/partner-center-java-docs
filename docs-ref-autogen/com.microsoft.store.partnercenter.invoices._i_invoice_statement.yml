@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceStatement.java
     startLine: 15
   package: com.microsoft.store.partnercenter.invoices
+  summary: <p>Represents the operations available to an invoice statement. </p>
   syntax:
     content: public interface IInvoiceStatement extends IPartnerComponentString
   inheritedMembers:
@@ -41,10 +42,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceStatement.java
     startLine: 22
   package: com.microsoft.store.partnercenter.invoices
+  summary: >-
+    <p>Retrieves the invoice statement. This operation is currently only supported for user based credentials.</p>
+
+    <p></p>
   syntax:
     content: public InputStream get()
     return:
       type: 76fcb9b7
+      description: <p>The invoice statement. </p>
 references:
 - uid: 76fcb9b7
   spec.java:
@@ -113,7 +119,12 @@ references:
   nameWithType: InvoiceStatementOperations.get()
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceStatementOperations.get()
   type: Method
+  summary: >-
+    <p>Retrieves the invoice statement. This operation is currently only supported for user based credentials.</p>
+
+    <p></p>
   syntax:
     content: public InputStream get()
     return:
       type: 76fcb9b7
+      description: <p>The invoice statement. </p>

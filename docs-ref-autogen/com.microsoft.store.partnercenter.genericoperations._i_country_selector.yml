@@ -42,13 +42,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/genericoperations/ICountrySelector.java
     startLine: 20
   package: com.microsoft.store.partnercenter.genericoperations
+  summary: >-
+    <p>Customizes operations based on the given country.</p>
+
+    <p></p>
   syntax:
     content: public TOperations byCountry(String country)
     parameters:
     - id: country
       type: "26831127"
+      description: <p>The country to be used by the returned operations.</p>
     return:
       type: a8070b06
+      description: <p>An operations interface customized for the provided country. </p>
 references:
 - uid: a8070b06
   spec.java:
@@ -98,13 +104,19 @@ references:
   nameWithType: ICountryValidationRulesCollection.byCountry(String country)
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry(String country)
   type: Method
+  summary: >-
+    <p>Obtains behavior for a specific country's validation rules.</p>
+
+    <p></p>
   syntax:
     content: public ICountryValidationRules byCountry(String country)
     parameters:
     - id: country
       type: "26831127"
+      description: <p>The country's ISO2 code. </p>
     return:
       type: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules
+      description: <p>The country validation rules operations. </p>
 - uid: com.microsoft.store.partnercenter.offers._offer_country_selector.byCountry(String)
   parent: com.microsoft.store.partnercenter.offers._offer_country_selector
   href: com.microsoft.store.partnercenter.offers._offer_country_selector.yml
@@ -112,6 +124,7 @@ references:
   nameWithType: OfferCountrySelector.byCountry(String country)
   fullName: com.microsoft.store.partnercenter.offers.OfferCountrySelector.byCountry(String country)
   type: Method
+  summary: <p>Scopes offers behavior to a specific country. </p>
   syntax:
     content: public IOfferCollection byCountry(String country)
     parameters:
@@ -126,6 +139,7 @@ references:
   nameWithType: OfferCategoryCountrySelector.byCountry(String country)
   fullName: com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector.byCountry(String country)
   type: Method
+  summary: <p>Scopes offers behavior to a specific country. </p>
   syntax:
     content: public IOfferCategoryCollection byCountry(String country)
     parameters:
@@ -140,10 +154,16 @@ references:
   nameWithType: CountryValidationRulesCollectionOperations.byCountry(String country)
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations.byCountry(String country)
   type: Method
+  summary: >-
+    <p>Obtains a specific behavior for country validation rules.</p>
+
+    <p></p>
   syntax:
     content: public ICountryValidationRules byCountry(String country)
     parameters:
     - id: country
       type: "26831127"
+      description: <p>The country </p>
     return:
       type: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules
+      description: <p>The country validation rules operations </p>

@@ -48,9 +48,9 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceOperations.java
-    startLine: 72
+    startLine: 73
   package: com.microsoft.store.partnercenter.devicesdeployment
-  summary: <p>Deletes an entity. </p>
+  summary: <p>Deletes a device associated to the customer. </p>
   syntax:
     content: public void delete()
   overridden: com.microsoft.store.partnercenter.devicesdeployment._i_device.delete()
@@ -105,13 +105,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceOperations.java
     startLine: 58
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Updates a device associated to the customer with a configuration policy.</p>
+
+    <p></p>
   syntax:
     content: public Device patch(Device updateDevice)
     parameters:
     - id: updateDevice
       type: com.microsoft.store.partnercenter.models.devicesdeployment._device
+      description: <p>Payload of the update request. </p>
     return:
       type: com.microsoft.store.partnercenter.models.devicesdeployment._device
+      description: <p>The updated device. </p>
   overridden: com.microsoft.store.partnercenter.devicesdeployment._i_device.patch(Device)
 references:
 - uid: "26831127"
@@ -225,6 +231,7 @@ references:
   nameWithType: IDevice
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's device. </p>
   syntax:
     content: public interface IDevice
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -244,6 +251,7 @@ references:
   nameWithType: Device
   fullName: com.microsoft.store.partnercenter.models.devicesdeployment.Device
   type: Class
+  summary: <p>Represents a device associated with a customer. </p>
   syntax:
     content: public class Device extends ResourceBase
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device.patch(Device)
@@ -253,13 +261,19 @@ references:
   nameWithType: IDevice.patch(Device updateDevice)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch(Device updateDevice)
   type: Method
+  summary: >-
+    <p>Updates a device associated to the customer with a configuration policy.</p>
+
+    <p></p>
   syntax:
     content: public Device patch(Device updateDevice)
     parameters:
     - id: updateDevice
       type: com.microsoft.store.partnercenter.models.devicesdeployment._device
+      description: <p>The device to be updated. </p>
     return:
       type: com.microsoft.store.partnercenter.models.devicesdeployment._device
+      description: <p>The device that was updated. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device.delete()
   parent: com.microsoft.store.partnercenter.devicesdeployment._i_device
   href: com.microsoft.store.partnercenter.devicesdeployment._i_device.yml
@@ -267,6 +281,6 @@ references:
   nameWithType: IDevice.delete()
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete()
   type: Method
-  summary: <p>Deletes an entity. </p>
+  summary: <p>Deletes the device. </p>
   syntax:
     content: public void delete()

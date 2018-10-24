@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IBatchJobStatus.java
     startLine: 16
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: <p>Represents the operations that can be done on the partner's device. </p>
   syntax:
     content: public interface IBatchJobStatus extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<BatchUploadDetails>
   inheritedMembers:
@@ -42,14 +43,14 @@ items:
     startLine: 25
   package: com.microsoft.store.partnercenter.devicesdeployment
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves a specific customer devices batch upload status details.</p>
 
     <p></p>
   syntax:
     content: public BatchUploadDetails get()
     return:
       type: com.microsoft.store.partnercenter.models.devicesdeployment._batch_upload_details
-      description: <p>The entity. </p>
+      description: <p>The devices batch upload status details. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
 references:
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status.get*
@@ -132,6 +133,7 @@ references:
   nameWithType: BatchUploadDetails
   fullName: com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails
   type: Class
+  summary: <p>Represents the result of devices batch upload. </p>
   syntax:
     content: public class BatchUploadDetails extends ResourceBase
 - uid: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()

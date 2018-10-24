@@ -35,6 +35,7 @@ references:
   nameWithType: License
   fullName: com.microsoft.store.partnercenter.models.licenses.License
   type: Class
+  summary: <p>Model for user licenses assigned to a user. </p>
   syntax:
     content: public class License extends ResourceBase
 - uid: com.microsoft.store.partnercenter.models.licenses._license_assignment
@@ -44,6 +45,7 @@ references:
   nameWithType: LicenseAssignment
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
   type: Class
+  summary: <p>Model for licenses and service plans to be assigned to a user. </p>
   syntax:
     content: public class LicenseAssignment
 - uid: com.microsoft.store.partnercenter.models.licenses._license_group_id
@@ -53,6 +55,7 @@ references:
   nameWithType: LicenseGroupId
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
   type: Enum
+  summary: <p>License Group Id. </p>
   syntax:
     content: public enum LicenseGroupId
 - uid: com.microsoft.store.partnercenter.models.licenses._license_update
@@ -62,6 +65,7 @@ references:
   nameWithType: LicenseUpdate
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
   type: Class
+  summary: <p>Model for assigning and removing licenses to user. </p>
   syntax:
     content: public class LicenseUpdate extends ResourceBase
 - uid: com.microsoft.store.partnercenter.models.licenses._license_warning
@@ -71,6 +75,7 @@ references:
   nameWithType: LicenseWarning
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseWarning
   type: Class
+  summary: <p>Model for license warnings. </p>
   syntax:
     content: public class LicenseWarning
 - uid: com.microsoft.store.partnercenter.models.licenses._product_sku
@@ -80,6 +85,7 @@ references:
   nameWithType: ProductSku
   fullName: com.microsoft.store.partnercenter.models.licenses.ProductSku
   type: Class
+  summary: <p>Model for product details. </p>
   syntax:
     content: public class ProductSku
 - uid: com.microsoft.store.partnercenter.models.licenses._service_plan
@@ -98,5 +104,6 @@ references:
   nameWithType: SubscribedSku
   fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   type: Class
+  summary: <p>Model for subscribed products owned by a tenant. </p>
   syntax:
     content: public class SubscribedSku extends ResourceBase

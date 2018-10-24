@@ -46,17 +46,24 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleOperations.java
-    startLine: 29
+    startLine: 28
   package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: >-
+    <p>Initializes a new instance of the DirectoryRoleOperations class.</p>
+
+    <p></p>
   syntax:
     content: public DirectoryRoleOperations(IPartner rootPartnerOperations, String customerId, String roleId)
     parameters:
     - id: rootPartnerOperations
       type: com.microsoft.store.partnercenter._i_partner
+      description: <p>The root partner operations instance </p>
     - id: customerId
       type: "26831127"
+      description: <p>The customer identifier. </p>
     - id: roleId
       type: "26831127"
+      description: <p>The directory role id </p>
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations.getUserMembers()
   id: getUserMembers()
   parent: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_operations
@@ -71,12 +78,17 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleOperations.java
-    startLine: 52
+    startLine: 51
   package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: >-
+    <p>Gets the current directory role's user member collection operations.</p>
+
+    <p></p>
   syntax:
     content: public IUserMemberCollection getUserMembers()
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection
+      description: <p>current directory role's user member collection operations </p>
   overridden: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role.getUserMembers()
 references:
 - uid: "26831127"
@@ -195,7 +207,12 @@ references:
   nameWithType: IDirectoryRole.getUserMembers()
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole.getUserMembers()
   type: Method
+  summary: >-
+    <p>Gets the current directory role's user member collection operations.</p>
+
+    <p></p>
   syntax:
     content: public IUserMemberCollection getUserMembers()
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member_collection
+      description: <p>The current directory role's user member collection operations </p>

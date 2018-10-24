@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/serviceincidents/ServiceIncidentStatus.java
     startLine: 13
   package: com.microsoft.store.partnercenter.models.serviceincidents
+  summary: <p>Represents the status of partner center services. </p>
   syntax:
     content: public enum ServiceIncidentStatus
   inheritance:
@@ -40,6 +41,14 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/serviceincidents/ServiceIncidentStatus.java
     startLine: 18
   package: com.microsoft.store.partnercenter.models.serviceincidents
+  summary: >-
+    <p>Default status - normal.</p>
+
+    <p>Informational status.</p>
+
+    <p>Warning status.</p>
+
+    <p>Critical status. </p>
   syntax:
     content: "public JsonProperty=( \"normal\" ) \n    NORMAL"
 references: []

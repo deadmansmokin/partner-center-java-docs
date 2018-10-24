@@ -52,13 +52,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/extensions/products/ProductExtensionsOperations.java
     startLine: 32
   package: com.microsoft.store.partnercenter.extensions.products
+  summary: >-
+    <p>Retrieves the extension operations that can be applied on products from a given country.</p>
+
+    <p></p>
   syntax:
     content: public IProductExtensionsByCountry byCountry(String country)
     parameters:
     - id: country
       type: "26831127"
+      description: <p>The country name. </p>
     return:
       type: com.microsoft.store.partnercenter.extensions.products._i_product_extensions_by_country
+      description: <p>The product extensions operations by country. </p>
   overridden: com.microsoft.store.partnercenter.extensions.products._i_product_extensions.byCountry(String)
 - uid: com.microsoft.store.partnercenter.extensions.products._product_extensions_operations.ProductExtensionsOperations(IPartner)
   id: ProductExtensionsOperations(IPartner)
@@ -239,6 +245,7 @@ references:
   nameWithType: IProductExtensions
   fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
   type: Interface
+  summary: <p>Holds extension operations for products. </p>
   syntax:
     content: public interface IProductExtensions extends IPartnerComponentString
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -258,6 +265,7 @@ references:
   nameWithType: IProductExtensionsByCountry
   fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
   type: Interface
+  summary: <p>Holds extension operations for products by country. </p>
   syntax:
     content: public interface IProductExtensionsByCountry extends IPartnerComponentString
 - uid: com.microsoft.store.partnercenter.extensions.products._i_product_extensions.byCountry(String)
@@ -267,10 +275,16 @@ references:
   nameWithType: IProductExtensions.byCountry(String country)
   fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensions.byCountry(String country)
   type: Method
+  summary: >-
+    <p>Retrieves the extension operations that can be applied on products from a given country.</p>
+
+    <p></p>
   syntax:
     content: public IProductExtensionsByCountry byCountry(String country)
     parameters:
     - id: country
       type: "26831127"
+      description: <p>The country name. </p>
     return:
       type: com.microsoft.store.partnercenter.extensions.products._i_product_extensions_by_country
+      description: <p>The product extensions operations by country. </p>

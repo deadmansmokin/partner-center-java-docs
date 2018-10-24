@@ -20,7 +20,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/profiles/LegalBusinessProfileOperations.java
-    startLine: 22
+    startLine: 19
   package: com.microsoft.store.partnercenter.profiles
   summary: <p>The legal business profile operations implementation. </p>
   syntax:
@@ -52,7 +52,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/profiles/LegalBusinessProfileOperations.java
-    startLine: 42
+    startLine: 39
   package: com.microsoft.store.partnercenter.profiles
   summary: >-
     <p>Retrieves the legal business profile.</p>
@@ -78,7 +78,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/profiles/LegalBusinessProfileOperations.java
-    startLine: 31
+    startLine: 28
   package: com.microsoft.store.partnercenter.profiles
   summary: >-
     <p>Initializes a new instance of the LegalBusinessProfileOperations class.</p>
@@ -104,7 +104,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/profiles/LegalBusinessProfileOperations.java
-    startLine: 60
+    startLine: 58
   package: com.microsoft.store.partnercenter.profiles
   summary: >-
     <p>Updates the Legal Business Profile.</p>
@@ -324,15 +324,12 @@ references:
   nameWithType: ILegalBusinessProfile.get()
   fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the legal business profile. </p>
   syntax:
     content: public LegalBusinessProfile get()
     return:
       type: com.microsoft.store.partnercenter.models.partners._legal_business_profile
-      description: <p>The entity. </p>
+      description: <p>The legal business profile. </p>
 - uid: com.microsoft.store.partnercenter.profiles._i_legal_business_profile.update(LegalBusinessProfile)
   parent: com.microsoft.store.partnercenter.profiles._i_legal_business_profile
   href: com.microsoft.store.partnercenter.profiles._i_legal_business_profile.yml
@@ -340,10 +337,13 @@ references:
   nameWithType: ILegalBusinessProfile.update(LegalBusinessProfile legalBusinessProfile)
   fullName: com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update(LegalBusinessProfile legalBusinessProfile)
   type: Method
+  summary: <p>Updates the partner's legal business profile. </p>
   syntax:
     content: public LegalBusinessProfile update(LegalBusinessProfile legalBusinessProfile)
     parameters:
     - id: legalBusinessProfile
       type: com.microsoft.store.partnercenter.models.partners._legal_business_profile
+      description: <p>The legal business profile information. </p>
     return:
       type: com.microsoft.store.partnercenter.models.partners._legal_business_profile
+      description: <p>The updated legal business profile. </p>

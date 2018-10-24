@@ -173,6 +173,7 @@ references:
   nameWithType: ICart
   fullName: com.microsoft.store.partnercenter.carts.ICart
   type: Interface
+  summary: <p>Encapsulates a customer cart behavior. </p>
   syntax:
     content: public interface ICart extends IPartnerComponent<Tuple<String, String>>,IEntityPutOperations<Cart>,IEntityGetOperations<Cart>
 - uid: com.microsoft.store.partnercenter.genericoperations._i_entity_selector.byId(String)
@@ -182,13 +183,16 @@ references:
   nameWithType: IEntitySelector<TEntity>.byId(String id)
   fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TEntity>.byId(String id)
   type: Method
+  summary: <p>Retrieves the behavior for an entity using the entity's identifier. </p>
   syntax:
     content: public TEntity byId(String id)
     parameters:
     - id: id
       type: "26831127"
+      description: <p>The entity's identifier. </p>
     return:
       type: 830f062c
+      description: <p>The entity's behavior. </p>
 - uid: com.microsoft.store.partnercenter.carts._cart_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.carts._cart_collection_operations
   href: com.microsoft.store.partnercenter.carts._cart_collection_operations.yml

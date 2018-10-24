@@ -63,6 +63,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/PartnerOperations.java
     startLine: 422
   package: com.microsoft.store.partnercenter
+  summary: <p>Gets the agreement metadata operations. </p>
   syntax:
     content: public IAgreementDetailsCollection getAgreementDetails()
     return:
@@ -242,6 +243,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/PartnerOperations.java
     startLine: 369
   package: com.microsoft.store.partnercenter
+  summary: <p>Gets the extensions operations available to the partner. </p>
   syntax:
     content: public IExtensions getExtensions()
     return:
@@ -329,6 +331,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/PartnerOperations.java
     startLine: 382
   package: com.microsoft.store.partnercenter
+  summary: <p>Gets the product operations available to the partner. </p>
   syntax:
     content: public IProductCollection getProducts()
     return:
@@ -394,6 +397,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/PartnerOperations.java
     startLine: 395
   package: com.microsoft.store.partnercenter
+  summary: <p>Gets the relationship collection operations available to the partner. </p>
   syntax:
     content: public IRelationshipCollection getRelationships()
     return:
@@ -507,6 +511,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/PartnerOperations.java
     startLine: 408
   package: com.microsoft.store.partnercenter
+  summary: <p>Gets the validation operations available to the partner. </p>
   syntax:
     content: public IValidationOperations getValidations()
     return:
@@ -828,6 +833,7 @@ references:
   nameWithType: IAuditRecordsCollection
   fullName: com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on partners audit collection. </p>
   syntax:
     content: public interface IAuditRecordsCollection extends IPartnerComponentString
 - uid: com.microsoft.store.partnercenter.ratecards._i_rate_card_collection
@@ -847,6 +853,7 @@ references:
   nameWithType: IPartnerAnalyticsCollection
   fullName: com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection
   type: Interface
+  summary: <p>Encapsulates collection of partner's analytics. </p>
   syntax:
     content: public interface IPartnerAnalyticsCollection extends IPartnerComponentString
 - uid: com.microsoft.store.partnercenter.extensions._i_extensions
@@ -856,6 +863,7 @@ references:
   nameWithType: IExtensions
   fullName: com.microsoft.store.partnercenter.extensions.IExtensions
   type: Interface
+  summary: <p>Holds operations that extend another set of operations. </p>
   syntax:
     content: public interface IExtensions extends IPartnerComponentString
 - uid: com.microsoft.store.partnercenter.products._i_product_collection
@@ -1069,10 +1077,15 @@ references:
   nameWithType: IPartner.getServiceIncidents()
   fullName: com.microsoft.store.partnercenter.IPartner.getServiceIncidents()
   type: Method
+  summary: >-
+    <p>Gets the service health operations that can be performed on a partner's subscribed services.</p>
+
+    <p></p>
   syntax:
     content: public IServiceIncidentCollection getServiceIncidents()
     return:
       type: com.microsoft.store.partnercenter.serviceincidents._i_service_incident_collection
+      description: <p>The service health operations that can be performed on a partner's subscribed services. </p>
 - uid: com.microsoft.store.partnercenter._i_partner.getUsageSummary()
   parent: com.microsoft.store.partnercenter._i_partner
   href: com.microsoft.store.partnercenter._i_partner.yml
@@ -1112,10 +1125,15 @@ references:
   nameWithType: IPartner.getCountryValidationRules()
   fullName: com.microsoft.store.partnercenter.IPartner.getCountryValidationRules()
   type: Method
+  summary: >-
+    <p>Gets the country validation rules collection operations available to the partner.</p>
+
+    <p></p>
   syntax:
     content: public ICountryValidationRulesCollection getCountryValidationRules()
     return:
       type: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules_collection
+      description: <p>The country validation rules collection operations available to the partner. </p>
 - uid: com.microsoft.store.partnercenter._i_partner.getDomains()
   parent: com.microsoft.store.partnercenter._i_partner
   href: com.microsoft.store.partnercenter._i_partner.yml
@@ -1123,10 +1141,15 @@ references:
   nameWithType: IPartner.getDomains()
   fullName: com.microsoft.store.partnercenter.IPartner.getDomains()
   type: Method
+  summary: >-
+    <p>Gets the domains operations available to the partner.</p>
+
+    <p></p>
   syntax:
     content: public IDomainCollection getDomains()
     return:
       type: com.microsoft.store.partnercenter.domains._i_domain_collection
+      description: <p>The domains operations available to the partner. </p>
 - uid: com.microsoft.store.partnercenter._i_partner.getRateCards()
   parent: com.microsoft.store.partnercenter._i_partner
   href: com.microsoft.store.partnercenter._i_partner.yml
@@ -1134,10 +1157,15 @@ references:
   nameWithType: IPartner.getRateCards()
   fullName: com.microsoft.store.partnercenter.IPartner.getRateCards()
   type: Method
+  summary: >-
+    <p>Gets the rate card operations available to the partner.</p>
+
+    <p></p>
   syntax:
     content: public IRateCardCollection getRateCards()
     return:
       type: com.microsoft.store.partnercenter.ratecards._i_rate_card_collection
+      description: <p>The rate card operations available to the partner. </p>
 - uid: com.microsoft.store.partnercenter._i_partner.getAnalytics()
   parent: com.microsoft.store.partnercenter._i_partner
   href: com.microsoft.store.partnercenter._i_partner.yml
@@ -1145,10 +1173,15 @@ references:
   nameWithType: IPartner.getAnalytics()
   fullName: com.microsoft.store.partnercenter.IPartner.getAnalytics()
   type: Method
+  summary: >-
+    <p>Gets the analytics collection operations.</p>
+
+    <p></p>
   syntax:
     content: public IPartnerAnalyticsCollection getAnalytics()
     return:
       type: com.microsoft.store.partnercenter.analytics._i_partner_analytics_collection
+      description: <p>The analytics collection operations. </p>
 - uid: com.microsoft.store.partnercenter._i_partner.getExtensions()
   parent: com.microsoft.store.partnercenter._i_partner
   href: com.microsoft.store.partnercenter._i_partner.yml
@@ -1156,10 +1189,15 @@ references:
   nameWithType: IPartner.getExtensions()
   fullName: com.microsoft.store.partnercenter.IPartner.getExtensions()
   type: Method
+  summary: >-
+    <p>Gets the extensions operations available to the partner.</p>
+
+    <p></p>
   syntax:
     content: public IExtensions getExtensions()
     return:
       type: com.microsoft.store.partnercenter.extensions._i_extensions
+      description: <p>The extensions operations available to the partner. </p>
 - uid: com.microsoft.store.partnercenter._i_partner.getProducts()
   parent: com.microsoft.store.partnercenter._i_partner
   href: com.microsoft.store.partnercenter._i_partner.yml
@@ -1167,10 +1205,15 @@ references:
   nameWithType: IPartner.getProducts()
   fullName: com.microsoft.store.partnercenter.IPartner.getProducts()
   type: Method
+  summary: >-
+    <p>Gets the product operations available to the partner.</p>
+
+    <p></p>
   syntax:
     content: public IProductCollection getProducts()
     return:
       type: com.microsoft.store.partnercenter.products._i_product_collection
+      description: <p>The product operations available to the partner. </p>
 - uid: com.microsoft.store.partnercenter._i_partner.getRelationships()
   parent: com.microsoft.store.partnercenter._i_partner
   href: com.microsoft.store.partnercenter._i_partner.yml
@@ -1178,10 +1221,15 @@ references:
   nameWithType: IPartner.getRelationships()
   fullName: com.microsoft.store.partnercenter.IPartner.getRelationships()
   type: Method
+  summary: >-
+    <p>Gets the relationship collection operations available to the partner.</p>
+
+    <p></p>
   syntax:
     content: public IRelationshipCollection getRelationships()
     return:
       type: com.microsoft.store.partnercenter.relationships._i_relationship_collection
+      description: <p>The relationship collection operations available to the partner. </p>
 - uid: com.microsoft.store.partnercenter._i_partner.getValidations()
   parent: com.microsoft.store.partnercenter._i_partner
   href: com.microsoft.store.partnercenter._i_partner.yml
@@ -1189,10 +1237,15 @@ references:
   nameWithType: IPartner.getValidations()
   fullName: com.microsoft.store.partnercenter.IPartner.getValidations()
   type: Method
+  summary: >-
+    <p>Gets the validation operations available to the partner.</p>
+
+    <p></p>
   syntax:
     content: public IValidationOperations getValidations()
     return:
       type: com.microsoft.store.partnercenter.validations._i_validation_operations
+      description: <p>The validation operations available to the partner. </p>
 - uid: com.microsoft.store.partnercenter._i_partner.getAgreementDetails()
   parent: com.microsoft.store.partnercenter._i_partner
   href: com.microsoft.store.partnercenter._i_partner.yml
@@ -1200,7 +1253,12 @@ references:
   nameWithType: IPartner.getAgreementDetails()
   fullName: com.microsoft.store.partnercenter.IPartner.getAgreementDetails()
   type: Method
+  summary: >-
+    <p>Gets the agreement metadata operations.</p>
+
+    <p></p>
   syntax:
     content: public IAgreementDetailsCollection getAgreementDetails()
     return:
       type: com.microsoft.store.partnercenter.agreements._i_agreement_details_collection
+      description: <p>The agreement metadata operations. </p>

@@ -53,13 +53,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/entitlements/EntitlementCollectionOperations.java
     startLine: 51
   package: com.microsoft.store.partnercenter.entitlements
+  summary: >-
+    <p>Retrieves the operations that can be applied on entitlements with a given entitlement type.</p>
+
+    <p></p>
   syntax:
     content: public IEntireEntityCollectionRetrievalOperations<Entitlement, ResourceCollection<Entitlement>> byEntitlementType(String entitlementType)
     parameters:
     - id: entitlementType
       type: "26831127"
+      description: <p>The type of entiltment. </p>
     return:
       type: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations78504a52com.microsoft.store.partnercenter.models.entitlements._entitlementb33c76fccom.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.entitlements._entitlemente7daa122
+      description: <p>The entitlement collection operations by entitlement type. </p>
   overridden: com.microsoft.store.partnercenter.entitlements._i_entitlement_collection.byEntitlementType(String)
 - uid: com.microsoft.store.partnercenter.entitlements._entitlement_collection_operations.EntitlementCollectionOperations(IPartner,String)
   id: EntitlementCollectionOperations(IPartner,String)
@@ -107,14 +113,14 @@ items:
     startLine: 62
   package: com.microsoft.store.partnercenter.entitlements
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves the entitlement collection.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<Entitlement> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.entitlements._entitlementa08ddfce
-      description: <p>The entities. </p>
+      description: <p>The entitlement collection. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()
 references:
 - uid: "26831127"
@@ -314,6 +320,7 @@ references:
   nameWithType: IEntitlementCollection
   fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
   type: Interface
+  summary: <p>Holds operations that can be performed on entitlements associated to the customer based on the logged in partner. </p>
   syntax:
     content: public interface IEntitlementCollection
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -348,6 +355,7 @@ references:
   nameWithType: Entitlement
   fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   type: Class
+  summary: <p>Class that represents an entitlement. </p>
   syntax:
     content: public class Entitlement extends ResourceBaseWithLinks<StandardResourceLinks>
 - uid: com.microsoft.store.partnercenter.models._resource_collection
@@ -370,13 +378,19 @@ references:
   nameWithType: IEntitlementCollection.byEntitlementType(String entitlementType)
   fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.byEntitlementType(String entitlementType)
   type: Method
+  summary: >-
+    <p>Retrieves the operations that can be applied on entitlements with a given entitlement type.</p>
+
+    <p></p>
   syntax:
     content: public IEntireEntityCollectionRetrievalOperations<Entitlement, ResourceCollection<Entitlement>> byEntitlementType(String entitlementType)
     parameters:
     - id: entitlementType
       type: "26831127"
+      description: <p>The type of entiltment. </p>
     return:
       type: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations78504a52com.microsoft.store.partnercenter.models.entitlements._entitlementb33c76fccom.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.entitlements._entitlemente7daa122
+      description: <p>The entitlement collection operations by entitlement type. </p>
 - uid: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()
   parent: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations
   href: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.yml

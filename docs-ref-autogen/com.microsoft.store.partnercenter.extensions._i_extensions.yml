@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/extensions/IExtensions.java
     startLine: 14
   package: com.microsoft.store.partnercenter.extensions
+  summary: <p>Holds operations that extend another set of operations. </p>
   syntax:
     content: public interface IExtensions extends IPartnerComponentString
   inheritedMembers:
@@ -41,10 +42,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/extensions/IExtensions.java
     startLine: 22
   package: com.microsoft.store.partnercenter.extensions
+  summary: >-
+    <p>Retrieves the product extension operations.</p>
+
+    <p></p>
   syntax:
     content: public IProductExtensions getProduct()
     return:
       type: com.microsoft.store.partnercenter.extensions.products._i_product_extensions
+      description: <p>The product extensions operations. </p>
 references:
 - uid: com.microsoft.store.partnercenter.extensions._i_extensions.getProduct*
   name: getProduct
@@ -110,6 +116,7 @@ references:
   nameWithType: IProductExtensions
   fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
   type: Interface
+  summary: <p>Holds extension operations for products. </p>
   syntax:
     content: public interface IProductExtensions
 - uid: com.microsoft.store.partnercenter.extensions._extensions_operations.getProduct()
@@ -119,7 +126,12 @@ references:
   nameWithType: ExtensionsOperations.getProduct()
   fullName: com.microsoft.store.partnercenter.extensions.ExtensionsOperations.getProduct()
   type: Method
+  summary: >-
+    <p>Retrieves the product extension operations.</p>
+
+    <p></p>
   syntax:
     content: public IProductExtensions getProduct()
     return:
       type: com.microsoft.store.partnercenter.extensions.products._i_product_extensions
+      description: <p>The product extensions operations. </p>

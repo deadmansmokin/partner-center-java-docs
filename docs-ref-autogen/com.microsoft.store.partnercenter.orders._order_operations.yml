@@ -20,7 +20,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
-    startLine: 24
+    startLine: 23
   package: com.microsoft.store.partnercenter.orders
   summary: <p>Order operations implementation class. </p>
   syntax:
@@ -48,7 +48,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
-    startLine: 56
+    startLine: 55
   package: com.microsoft.store.partnercenter.orders
   summary: >-
     <p>Retrieves the customer order.</p>
@@ -74,7 +74,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
-    startLine: 35
+    startLine: 34
   package: com.microsoft.store.partnercenter.orders
   summary: >-
     <p>Initializes a new instance of the OrderOperations class.</p>
@@ -106,7 +106,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/orders/OrderOperations.java
-    startLine: 74
+    startLine: 77
   package: com.microsoft.store.partnercenter.orders
   summary: >-
     <p>Updates a customer order.</p>
@@ -264,15 +264,12 @@ references:
   nameWithType: IOrder.get()
   fullName: com.microsoft.store.partnercenter.orders.IOrder.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the order information. </p>
   syntax:
     content: public Order get()
     return:
       type: com.microsoft.store.partnercenter.models.orders._order
-      description: <p>The entity. </p>
+      description: <p>The order information </p>
 - uid: com.microsoft.store.partnercenter.orders._i_order.patch(Order)
   parent: com.microsoft.store.partnercenter.orders._i_order
   href: com.microsoft.store.partnercenter.orders._i_order.yml
@@ -280,10 +277,13 @@ references:
   nameWithType: IOrder.patch(Order partialOrder)
   fullName: com.microsoft.store.partnercenter.orders.IOrder.patch(Order partialOrder)
   type: Method
+  summary: <p>Patches the order. </p>
   syntax:
     content: public Order patch(Order partialOrder)
     parameters:
     - id: partialOrder
       type: com.microsoft.store.partnercenter.models.orders._order
+      description: <p>An order that has the properties to be patched set. </p>
     return:
       type: com.microsoft.store.partnercenter.models.orders._order
+      description: <p>The updated order </p>

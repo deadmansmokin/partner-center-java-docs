@@ -73,13 +73,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customers/products/ICustomerProductCollection.java
     startLine: 32
   package: com.microsoft.store.partnercenter.customers.products
+  summary: >-
+    <p>Retrieves the operations that can be applied on products in a given catalog view and that apply to a given customer.</p>
+
+    <p></p>
   syntax:
     content: public ICustomerProductCollectionByTargetView byTargetView(String targetView)
     parameters:
     - id: targetView
       type: "26831127"
+      description: <p>The product target view. </p>
     return:
       type: com.microsoft.store.partnercenter.customers.products._i_customer_product_collection_by_target_view
+      description: <p>The catalog view operations by target view </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -176,13 +182,16 @@ references:
   nameWithType: IEntitySelector<TEntity>.byId(String id)
   fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TEntity>.byId(String id)
   type: Method
+  summary: <p>Retrieves the behavior for an entity using the entity's identifier. </p>
   syntax:
     content: public TEntity byId(String id)
     parameters:
     - id: id
       type: "26831127"
+      description: <p>The entity's identifier. </p>
     return:
       type: 830f062c
+      description: <p>The entity's behavior. </p>
 - uid: com.microsoft.store.partnercenter.customers.products._customer_product_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.customers.products._customer_product_collection_operations
   href: com.microsoft.store.partnercenter.customers.products._customer_product_collection_operations.yml
@@ -220,6 +229,10 @@ references:
   nameWithType: CustomerProductCollectionOperations.byTargetView(String targetView)
   fullName: com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionOperations.byTargetView(String targetView)
   type: Method
+  summary: >-
+    <p>Retrieves the operations that can be applied on products in a given catalog view and that apply to a given customer.</p>
+
+    <p></p>
   syntax:
     content: public ICustomerProductCollectionByTargetView byTargetView(String targetView)
     parameters:
@@ -227,3 +240,4 @@ references:
       type: "26831127"
     return:
       type: com.microsoft.store.partnercenter.customers.products._i_customer_product_collection_by_target_view
+      description: <p>The catalog view operations by target view </p>

@@ -19,7 +19,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageSummaryOperations.java
-    startLine: 23
+    startLine: 22
   package: com.microsoft.store.partnercenter.usage
   summary: <p>This class implements the operations for a customer's summary of usage-based subscriptions. </p>
   syntax:
@@ -50,7 +50,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageSummaryOperations.java
-    startLine: 33
+    startLine: 32
   package: com.microsoft.store.partnercenter.usage
   summary: >-
     <p>Initializes a new instance of the CustomerUsageSummaryOperations class.</p>
@@ -79,7 +79,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/usage/CustomerUsageSummaryOperations.java
-    startLine: 49
+    startLine: 48
   package: com.microsoft.store.partnercenter.usage
   summary: >-
     <p>Gets the customer usage summary.</p>
@@ -274,12 +274,9 @@ references:
   nameWithType: ICustomerUsageSummary.get()
   fullName: com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get()
   type: Method
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the customer usage summary. </p>
   syntax:
     content: public CustomerUsageSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.usage._customer_usage_summary
-      description: <p>The entity. </p>
+      description: <p>The customer usage summary. </p>

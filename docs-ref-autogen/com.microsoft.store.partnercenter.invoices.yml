@@ -79,6 +79,7 @@ references:
   nameWithType: IInvoiceStatement
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
   type: Interface
+  summary: <p>Represents the operations available to an invoice statement. </p>
   syntax:
     content: public interface IInvoiceStatement extends IPartnerComponentString
 - uid: com.microsoft.store.partnercenter.invoices._i_invoice_summary
@@ -97,6 +98,7 @@ references:
   nameWithType: IInvoiceSummaryCollection
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
   type: Interface
+  summary: <p>Represents all the operations that can be done on invoice summary collection. </p>
   syntax:
     content: public interface IInvoiceSummaryCollection extends IPartnerComponentString,IEntityGetOperations<ResourceCollection<InvoiceSummary>>
 - uid: com.microsoft.store.partnercenter.invoices._invoice_collection
@@ -153,6 +155,7 @@ references:
   nameWithType: InvoiceSummaryCollectionOperations
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations
   type: Class
+  summary: <p>Represents the operations that can be done on invoice summary collection. </p>
   syntax:
     content: public class InvoiceSummaryCollectionOperations extends BasePartnerComponentString implements IInvoiceSummaryCollection
 - uid: com.microsoft.store.partnercenter.invoices._invoice_summary_operations

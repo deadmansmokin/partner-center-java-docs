@@ -18,9 +18,9 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/auditing/ResourceType.java
-    startLine: 14
+    startLine: 13
   package: com.microsoft.store.partnercenter.models.auditing
-  summary: <p>Enumeration to represent type of Resource being performed </p>
+  summary: <p>Enumeration to represent type of resource being performed. </p>
   syntax:
     content: public enum ResourceType
   inheritance:
@@ -41,8 +41,34 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/auditing/ResourceType.java
     startLine: 18
   package: com.microsoft.store.partnercenter.models.auditing
+  summary: >-
+    <p>The undefined</p>
+
+    <p>Customer Resource</p>
+
+    <p>Customer User</p>
+
+    <p>Order Resource</p>
+
+    <p>Subscription Resource</p>
+
+    <p>License Resource</p>
+
+    <p>Third party add on Resource</p>
+
+    <p>MPN association Resource</p>
+
+    <p>Transfer Resource</p>
+
+    <p>Application Resource</p>
+
+    <p>Application Credential Resource</p>
+
+    <p>Partner User Resource</p>
+
+    <p>Partner Relationship Resource </p>
   syntax:
     content: >-
-      public JsonProperty=("customer")
-          CUSTOMER
+      public JsonProperty=("undefined")
+          UNDEFINED
 references: []

@@ -41,10 +41,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/invoices/IInvoiceDocuments.java
     startLine: 17
   package: com.microsoft.store.partnercenter.invoices
+  summary: >-
+    <p>Gets an invoice statement operations.</p>
+
+    <p></p>
   syntax:
     content: public IInvoiceStatement getStatement()
     return:
       type: com.microsoft.store.partnercenter.invoices._i_invoice_statement
+      description: <p>An invoice statement operations. </p>
 references:
 - uid: com.microsoft.store.partnercenter.invoices._i_invoice_documents.getStatement*
   name: getStatement
@@ -109,6 +114,7 @@ references:
   nameWithType: IInvoiceStatement
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
   type: Interface
+  summary: <p>Represents the operations available to an invoice statement. </p>
   syntax:
     content: public interface IInvoiceStatement
 - uid: com.microsoft.store.partnercenter.invoices._invoice_documents_operations.getStatement()
@@ -118,6 +124,7 @@ references:
   nameWithType: InvoiceDocumentsOperations.getStatement()
   fullName: com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement()
   type: Method
+  summary: <p>Gets an invoice statement operations. </p>
   syntax:
     content: public IInvoiceStatement getStatement()
     return:

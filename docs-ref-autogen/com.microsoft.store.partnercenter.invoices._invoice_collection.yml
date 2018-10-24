@@ -24,7 +24,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceCollection.java
-    startLine: 35
+    startLine: 34
   package: com.microsoft.store.partnercenter.invoices
   summary: <p>Represents the operations that can be done on Partner's invoices </p>
   syntax:
@@ -55,7 +55,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceCollection.java
-    startLine: 66
+    startLine: 65
   package: com.microsoft.store.partnercenter.invoices
   summary: >-
     <p>Gets a single invoice operations.</p>
@@ -85,7 +85,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceCollection.java
-    startLine: 101
+    startLine: 100
   package: com.microsoft.store.partnercenter.invoices
   summary: >-
     <p>Retrieves all invoices associated to the partner.</p>
@@ -143,7 +143,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceCollection.java
-    startLine: 90
+    startLine: 89
   package: com.microsoft.store.partnercenter.invoices
   summary: >-
     <p>Retrieves the invoice summary collection operations.</p>
@@ -169,7 +169,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceCollection.java
-    startLine: 80
+    startLine: 79
   package: com.microsoft.store.partnercenter.invoices
   summary: >-
     <p>Retrieves the partner's current account balance.</p>
@@ -195,7 +195,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceCollection.java
-    startLine: 54
+    startLine: 53
   package: com.microsoft.store.partnercenter.invoices
   summary: >-
     <p>Initializes a new instance of the InvoiceCollection class.</p>
@@ -221,15 +221,18 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceCollection.java
-    startLine: 146
+    startLine: 147
   package: com.microsoft.store.partnercenter.invoices
+  summary: <p>Asynchronously retrieves all invoices associated to the partner. </p>
   syntax:
     content: public ResourceCollection<Invoice> query(IQuery query)
     parameters:
     - id: query
       type: com.microsoft.store.partnercenter.models.query._i_query
+      description: <p>The query parameter </p>
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoicea08ddfce
+      description: <p>The subset of invoices. </p>
   overridden: com.microsoft.store.partnercenter.invoices._i_invoice_collection.query(IQuery)
 references:
 - uid: com.microsoft.store.partnercenter.invoices._invoice_collection.InvoiceCollection*
@@ -511,6 +514,7 @@ references:
   nameWithType: IInvoiceSummaryCollection
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection
   type: Interface
+  summary: <p>Represents all the operations that can be done on invoice summary collection. </p>
   syntax:
     content: public interface IInvoiceSummaryCollection extends IPartnerComponentString,IEntityGetOperations<ResourceCollection<InvoiceSummary>>
 - uid: com.microsoft.store.partnercenter.invoices._i_invoice_collection.getSummaries()
@@ -559,10 +563,12 @@ references:
   nameWithType: IInvoiceCollection.get()
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceCollection.get()
   type: Method
+  summary: <p>Retrieves all the invoices. </p>
   syntax:
     content: public ResourceCollection<Invoice> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoicea08ddfce
+      description: <p>The invoices. </p>
 - uid: com.microsoft.store.partnercenter.models._resource_collection
   parent: com.microsoft.store.partnercenter.models
   href: com.microsoft.store.partnercenter.models._resource_collection.yml
@@ -583,13 +589,16 @@ references:
   nameWithType: IInvoiceCollection.query(IQuery query)
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceCollection.query(IQuery query)
   type: Method
+  summary: <p>Queries invoices associated to the partner. </p>
   syntax:
     content: public ResourceCollection<Invoice> query(IQuery query)
     parameters:
     - id: query
       type: com.microsoft.store.partnercenter.models.query._i_query
+      description: <p>The query. </p>
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.invoices._invoicea08ddfce
+      description: <p>The invoices. </p>
 - uid: com.microsoft.store.partnercenter.models.query._i_query
   parent: com.microsoft.store.partnercenter.models.query
   href: com.microsoft.store.partnercenter.models.query._i_query.yml

@@ -50,13 +50,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/products/SkuCollectionOperations.java
     startLine: 55
   package: com.microsoft.store.partnercenter.products
+  summary: >-
+    <p>Retrieves the operations tied with a specific SKU.</p>
+
+    <p></p>
   syntax:
     content: public ISku byId(String skuId)
     parameters:
     - id: skuId
       type: "26831127"
+      description: <p>Identifier for the SKU. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_sku
+      description: <p>The available SKU operations. </p>
   overridden: com.microsoft.store.partnercenter.products._i_sku_collection.byId(String)
 - uid: com.microsoft.store.partnercenter.products._sku_collection_operations.byTargetSegment(String)
   id: byTargetSegment(String)
@@ -287,13 +293,19 @@ references:
   nameWithType: ISkuCollection.byId(String skuId)
   fullName: com.microsoft.store.partnercenter.products.ISkuCollection.byId(String skuId)
   type: Method
+  summary: >-
+    <p>Retrieves the operations tied with a specific SKU.</p>
+
+    <p></p>
   syntax:
     content: public ISku byId(String skuId)
     parameters:
     - id: skuId
       type: "26831127"
+      description: <p>Identifier for the SKU. </p>
     return:
       type: com.microsoft.store.partnercenter.products._i_sku
+      description: <p>The available SKU operations. </p>
 - uid: com.microsoft.store.partnercenter.products._i_sku_collection_by_target_segment
   parent: com.microsoft.store.partnercenter.products
   href: com.microsoft.store.partnercenter.products._i_sku_collection_by_target_segment.yml

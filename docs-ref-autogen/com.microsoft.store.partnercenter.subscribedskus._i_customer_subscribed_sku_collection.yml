@@ -21,6 +21,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/subscribedskus/ICustomerSubscribedSkuCollection.java
     startLine: 19
   package: com.microsoft.store.partnercenter.subscribedskus
+  summary: <p>Represents the behavior of the customers users </p>
   syntax:
     content: public interface ICustomerSubscribedSkuCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<SubscribedSku, ResourceCollection<SubscribedSku>>
   inheritedMembers:
@@ -43,14 +44,14 @@ items:
     startLine: 28
   package: com.microsoft.store.partnercenter.subscribedskus
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all the customer subscribed products.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<SubscribedSku> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.licenses._subscribed_skua08ddfce
-      description: <p>The entities. </p>
+      description: <p>All the customer subscribed products. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()
 - uid: com.microsoft.store.partnercenter.subscribedskus._i_customer_subscribed_sku_collection.get(List<LicenseGroupId>)
   id: get(List<LicenseGroupId>)
@@ -68,13 +69,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/subscribedskus/ICustomerSubscribedSkuCollection.java
     startLine: 36
   package: com.microsoft.store.partnercenter.subscribedskus
+  summary: >-
+    <p>Retrieves all the customer subscribed products.</p>
+
+    <p></p>
   syntax:
     content: public ResourceCollection<SubscribedSku> get(List<LicenseGroupId> licenseGroupIds)
     parameters:
     - id: licenseGroupIds
       type: 5618da2dcom.microsoft.store.partnercenter.models.licenses._license_group_ida08ddfce
+      description: <p>group identifiers. </p>
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.licenses._subscribed_skua08ddfce
+      description: <p>All the customer subscribed products. </p>
 references:
 - uid: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.licenses._subscribed_skua08ddfce
   spec.java:
@@ -191,6 +198,7 @@ references:
   nameWithType: SubscribedSku
   fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   type: Class
+  summary: <p>Model for subscribed products owned by a tenant. </p>
   syntax:
     content: public class SubscribedSku
 - uid: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()
@@ -232,13 +240,19 @@ references:
   nameWithType: CustomerSubscribedSkuCollectionOperations.get(List<LicenseGroupId> licenseGroupIds)
   fullName: com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations.get(List<LicenseGroupId> licenseGroupIds)
   type: Method
+  summary: >-
+    <p>Retrieves all the customer subscribed products.</p>
+
+    <p></p>
   syntax:
     content: public ResourceCollection<SubscribedSku> get(List<LicenseGroupId> licenseGroupIds)
     parameters:
     - id: licenseGroupIds
       type: 5618da2dcom.microsoft.store.partnercenter.models.licenses._license_group_ida08ddfce
+      description: <p>group identifiers. </p>
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.licenses._subscribed_skua08ddfce
+      description: <p>All the customer subscribed products. </p>
 - uid: com.microsoft.store.partnercenter.models.licenses._license_group_id
   parent: com.microsoft.store.partnercenter.models.licenses
   href: com.microsoft.store.partnercenter.models.licenses._license_group_id.yml
@@ -246,5 +260,6 @@ references:
   nameWithType: LicenseGroupId
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
   type: Enum
+  summary: <p>License Group Id. </p>
   syntax:
     content: public enum LicenseGroupId

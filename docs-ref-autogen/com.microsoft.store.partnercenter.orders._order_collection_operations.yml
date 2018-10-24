@@ -21,7 +21,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
-    startLine: 24
+    startLine: 23
   package: com.microsoft.store.partnercenter.orders
   summary: <p>Order collection operations implementation class. </p>
   syntax:
@@ -53,7 +53,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
-    startLine: 71
+    startLine: 70
   package: com.microsoft.store.partnercenter.orders
   summary: >-
     <p>Obtains a specific order behavior.</p>
@@ -83,7 +83,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
-    startLine: 50
+    startLine: 49
   package: com.microsoft.store.partnercenter.orders
   summary: >-
     <p>Places a new order for the customer.</p>
@@ -113,7 +113,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
-    startLine: 82
+    startLine: 81
   package: com.microsoft.store.partnercenter.orders
   summary: >-
     <p>Retrieves all the orders the customer made.</p>
@@ -139,7 +139,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/orders/OrderCollectionOperations.java
-    startLine: 34
+    startLine: 33
   package: com.microsoft.store.partnercenter.orders
   summary: >-
     <p>Initializes a new instance of the OrderCollectionOperations class.</p>
@@ -381,13 +381,16 @@ references:
   nameWithType: IOrderCollection.create(Order newOrder)
   fullName: com.microsoft.store.partnercenter.orders.IOrderCollection.create(Order newOrder)
   type: Method
+  summary: <p>Places a new order for the customer. </p>
   syntax:
     content: public Order create(Order newOrder)
     parameters:
     - id: newOrder
       type: com.microsoft.store.partnercenter.models.orders._order
+      description: <p>The new order information. </p>
     return:
       type: com.microsoft.store.partnercenter.models.orders._order
+      description: <p>The order that was just placed. </p>
 - uid: com.microsoft.store.partnercenter.orders._i_order
   parent: com.microsoft.store.partnercenter.orders
   href: com.microsoft.store.partnercenter.orders._i_order.yml
@@ -438,12 +441,9 @@ references:
   nameWithType: IOrderCollection.get()
   fullName: com.microsoft.store.partnercenter.orders.IOrderCollection.get()
   type: Method
-  summary: >-
-    <p>Retrieves all entities.</p>
-
-    <p></p>
+  summary: <p>Retrieves all customer orders. </p>
   syntax:
     content: public ResourceCollection<Order> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.orders._ordera08ddfce
-      description: <p>The entities. </p>
+      description: <p>The customer orders. </p>

@@ -763,6 +763,7 @@ references:
   nameWithType: AuditRecord
   fullName: com.microsoft.store.partnercenter.models.auditing.AuditRecord
   type: Class
+  summary: <p>Represents a record of operation performed by a partner user or application </p>
   syntax:
     content: public class AuditRecord extends ResourceBase
 - uid: com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container
@@ -772,6 +773,7 @@ references:
   nameWithType: IUtilizationCollectionEnumeratorContainer
   fullName: com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer
   type: Interface
+  summary: <p>Groups all supported utilization record enumerators for usage based subscriptions. </p>
   syntax:
     content: public interface IUtilizationCollectionEnumeratorContainer extends IPartnerComponentString
 - uid: com.microsoft.store.partnercenter.models.products._product
@@ -910,10 +912,15 @@ references:
   nameWithType: IResourceCollectionEnumeratorContainer.getAuditRecords()
   fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.getAuditRecords()
   type: Method
+  summary: >-
+    <p>Gets a factory that creates audit record collection enumerators.</p>
+
+    <p></p>
   syntax:
     content: public IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<AuditRecord>> getAuditRecords()
     return:
       type: com.microsoft.store.partnercenter.factory._i_resource_collection_enumerator_factory78504a52com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.auditing._audit_recorde7daa122
+      description: <p>A factory that creates audit record collection enumerators. </p>
 - uid: com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator_container.getUtilization()
   parent: com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator_container
   href: com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator_container.yml
@@ -921,10 +928,15 @@ references:
   nameWithType: IResourceCollectionEnumeratorContainer.getUtilization()
   fullName: com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.getUtilization()
   type: Method
+  summary: >-
+    <p>Gets a factory that create enumerators for utilization records for different subscriptions.</p>
+
+    <p></p>
   syntax:
     content: public IUtilizationCollectionEnumeratorContainer getUtilization()
     return:
       type: com.microsoft.store.partnercenter.enumerators._i_utilization_collection_enumerator_container
+      description: <p>A factory that create enumerators for utilization records for different subscriptions. </p>
 - uid: com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator_container.getProducts()
   parent: com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator_container
   href: com.microsoft.store.partnercenter.enumerators._i_resource_collection_enumerator_container.yml

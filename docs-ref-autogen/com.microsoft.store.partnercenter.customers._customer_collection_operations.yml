@@ -24,7 +24,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerCollectionOperations.java
-    startLine: 37
+    startLine: 36
   package: com.microsoft.store.partnercenter.customers
   summary: <p>The partner customers implementation. </p>
   syntax:
@@ -56,7 +56,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerCollectionOperations.java
-    startLine: 108
+    startLine: 107
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Gets a single customer operations.</p>
@@ -86,7 +86,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerCollectionOperations.java
-    startLine: 120
+    startLine: 119
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Creates a new customer.</p>
@@ -115,7 +115,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerCollectionOperations.java
-    startLine: 66
+    startLine: 65
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Initializes a new instance of the CustomerCollectionOperations class.</p>
@@ -141,7 +141,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerCollectionOperations.java
-    startLine: 140
+    startLine: 141
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Retrieves all customers associated to the partner.</p>
@@ -167,7 +167,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerCollectionOperations.java
-    startLine: 92
+    startLine: 91
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the customer relationship request operations.</p>
@@ -193,7 +193,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerCollectionOperations.java
-    startLine: 77
+    startLine: 76
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the customer usage record operations.</p>
@@ -219,7 +219,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerCollectionOperations.java
-    startLine: 159
+    startLine: 162
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Queries customers associated to the partner. - Count queries are not supported by this operation. - You can set the page size or filter or do both at the same time. - Sort is not supported. - You can navigate to other pages by specifying a seek query with the seek operation and the continuation token sent by the previous operation.</p>
@@ -573,14 +573,14 @@ references:
   fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all the partner's customers.</p>
 
     <p></p>
   syntax:
     content: public SeekBasedResourceCollection<Customer> get()
     return:
       type: com.microsoft.store.partnercenter.models._seek_based_resource_collection78504a52com.microsoft.store.partnercenter.models.customers._customera08ddfce
-      description: <p>The entities. </p>
+      description: <p>The partner's customers. </p>
 - uid: com.microsoft.store.partnercenter.customers._i_customer_collection.query(IQuery)
   parent: com.microsoft.store.partnercenter.customers._i_customer_collection
   href: com.microsoft.store.partnercenter.customers._i_customer_collection.yml

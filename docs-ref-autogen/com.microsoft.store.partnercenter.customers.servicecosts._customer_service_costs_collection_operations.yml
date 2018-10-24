@@ -52,13 +52,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/CustomerServiceCostsCollectionOperations.java
     startLine: 43
   package: com.microsoft.store.partnercenter.customers.servicecosts
+  summary: >-
+    <p>Obtains the service cost operations by billing period.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostsCollection byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
     parameters:
     - id: billingPeriod
       type: com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period
+      description: <p>The billing period. </p>
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection
+      description: <p>The service cost operations. </p>
   overridden: com.microsoft.store.partnercenter.customers.servicecosts._i_customer_service_costs_collection.byBillingPeriod(ServiceCostsBillingPeriod)
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._customer_service_costs_collection_operations.CustomerServiceCostsCollectionOperations(IPartner,String)
   id: CustomerServiceCostsCollectionOperations(IPartner,String)
@@ -272,13 +278,19 @@ references:
   nameWithType: ICustomerServiceCostsCollection.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
   type: Method
+  summary: >-
+    <p>Obtains the service cost operations by billing period.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostsCollection byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)
     parameters:
     - id: billingPeriod
       type: com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period
+      description: <p>The billing period. </p>
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection
+      description: <p>The service cost operations. </p>
 - uid: com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period
   parent: com.microsoft.store.partnercenter.models.servicecosts
   href: com.microsoft.store.partnercenter.models.servicecosts._service_costs_billing_period.yml
@@ -286,5 +298,6 @@ references:
   nameWithType: ServiceCostsBillingPeriod
   fullName: com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod
   type: Enum
+  summary: <p>Represents service costs billing periods. </p>
   syntax:
     content: public enum ServiceCostsBillingPeriod

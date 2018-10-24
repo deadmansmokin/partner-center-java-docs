@@ -51,6 +51,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceDocumentsOperations.java
     startLine: 37
   package: com.microsoft.store.partnercenter.invoices
+  summary: <p>Gets an invoice statement operations. </p>
   syntax:
     content: public IInvoiceStatement getStatement()
     return:
@@ -72,13 +73,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceDocumentsOperations.java
     startLine: 23
   package: com.microsoft.store.partnercenter.invoices
+  summary: >-
+    <p>Initializes a new instance of the InvoiceDocumentsOperations class.</p>
+
+    <p></p>
   syntax:
     content: public InvoiceDocumentsOperations(IPartner rootPartnerOperations, String invoiceId)
     parameters:
     - id: rootPartnerOperations
       type: com.microsoft.store.partnercenter._i_partner
+      description: <p>The root partner operations instance. </p>
     - id: invoiceId
       type: "26831127"
+      description: <p>The invoice identifier. </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -251,6 +258,7 @@ references:
   nameWithType: IInvoiceStatement
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceStatement
   type: Interface
+  summary: <p>Represents the operations available to an invoice statement. </p>
   syntax:
     content: public interface IInvoiceStatement extends IPartnerComponentString
 - uid: com.microsoft.store.partnercenter.invoices._i_invoice_documents.getStatement()
@@ -260,7 +268,12 @@ references:
   nameWithType: IInvoiceDocuments.getStatement()
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement()
   type: Method
+  summary: >-
+    <p>Gets an invoice statement operations.</p>
+
+    <p></p>
   syntax:
     content: public IInvoiceStatement getStatement()
     return:
       type: com.microsoft.store.partnercenter.invoices._i_invoice_statement
+      description: <p>An invoice statement operations. </p>

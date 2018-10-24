@@ -20,7 +20,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/agreements/CustomerAgreementCollectionOperations.java
-    startLine: 23
+    startLine: 22
   package: com.microsoft.store.partnercenter.agreements
   summary: <p>Implements the operations on an Agreement collection. </p>
   syntax:
@@ -51,7 +51,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/agreements/CustomerAgreementCollectionOperations.java
-    startLine: 50
+    startLine: 49
   package: com.microsoft.store.partnercenter.agreements
   summary: >-
     <p>Adds accepted agreement.</p>
@@ -81,7 +81,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/agreements/CustomerAgreementCollectionOperations.java
-    startLine: 33
+    startLine: 32
   package: com.microsoft.store.partnercenter.agreements
   summary: >-
     <p>Initializes a new instance of the CustomerAgreementCollectionOperations class.</p>
@@ -110,7 +110,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/agreements/CustomerAgreementCollectionOperations.java
-    startLine: 68
+    startLine: 67
   package: com.microsoft.store.partnercenter.agreements
   summary: >-
     <p>Retrieves all agreements.</p>
@@ -324,13 +324,19 @@ references:
   nameWithType: ICustomerAgreementCollection.create(Agreement newEntity)
   fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create(Agreement newEntity)
   type: Method
+  summary: >-
+    <p>Adds accepted agreement.</p>
+
+    <p></p>
   syntax:
     content: public Agreement create(Agreement newEntity)
     parameters:
     - id: newEntity
       type: com.microsoft.store.partnercenter.models.agreements._agreement
+      description: <p>Agreement to add.</p>
     return:
       type: com.microsoft.store.partnercenter.models.agreements._agreement
+      description: <p>Agreement entity. </p>
 - uid: com.microsoft.store.partnercenter.models._resource_collection
   parent: com.microsoft.store.partnercenter.models
   href: com.microsoft.store.partnercenter.models._resource_collection.yml
@@ -352,11 +358,11 @@ references:
   fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all agreements.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<Agreement> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.agreements._agreementa08ddfce
-      description: <p>The entities. </p>
+      description: <p>The agreements. </p>

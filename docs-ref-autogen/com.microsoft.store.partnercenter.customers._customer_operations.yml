@@ -44,7 +44,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 71
+    startLine: 70
   package: com.microsoft.store.partnercenter.customers
   summary: <p>Implements a single customer operations. </p>
   syntax:
@@ -75,7 +75,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 203
+    startLine: 202
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Initializes a new instance of the CustomerOperations class.</p>
@@ -104,7 +104,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 576
+    startLine: 575
   package: com.microsoft.store.partnercenter.customers
   summary: <p>Deletes the customer from a testing in production account. This won't work for real accounts. </p>
   syntax:
@@ -124,7 +124,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 562
+    startLine: 561
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Retrieves information of a specific customer.</p>
@@ -150,7 +150,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 219
+    startLine: 218
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the accepted agreements for the customer.</p>
@@ -176,17 +176,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 520
+    startLine: 519
   package: com.microsoft.store.partnercenter.customers
-  summary: >-
-    <p>Gets the analytics collection behavior for the customer.</p>
-
-    <p></p>
+  summary: <p>Obtains the customer level analytics collection object. </p>
   syntax:
     content: public ICustomerAnalyticsCollection getAnalytics()
     return:
       type: com.microsoft.store.partnercenter.analytics._i_customer_analytics_collection
-      description: <p>The analytics collection behavior for the customer. </p>
   overridden: com.microsoft.store.partnercenter.customers._i_customer.getAnalytics()
 - uid: com.microsoft.store.partnercenter.customers._customer_operations.getBatchUploadStatus()
   id: getBatchUploadStatus()
@@ -202,7 +198,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 494
+    startLine: 493
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the devices batch upload job status behavior of the customer.</p>
@@ -228,7 +224,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 414
+    startLine: 413
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Gets the cart behavior for the customer.</p>
@@ -254,17 +250,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 546
+    startLine: 545
   package: com.microsoft.store.partnercenter.customers
-  summary: >-
-    <p>Gets the configuration policies behavior for the customer.</p>
-
-    <p></p>
+  summary: <p>Obtains the configuration policies behavior for the customer. </p>
   syntax:
     content: public IConfigurationPolicyCollection getConfigurationPolicies()
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection
-      description: <p>The configuration policies behavior for the customer. </p>
   overridden: com.microsoft.store.partnercenter.customers._i_customer.getConfigurationPolicies()
 - uid: com.microsoft.store.partnercenter.customers._customer_operations.getDeviceBatches()
   id: getDeviceBatches()
@@ -280,7 +272,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 462
+    startLine: 461
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the devices batches behavior of the customer.</p>
@@ -306,7 +298,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 478
+    startLine: 477
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the device policy behavior of the customer.</p>
@@ -332,17 +324,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 384
+    startLine: 383
   package: com.microsoft.store.partnercenter.customers
-  summary: >-
-    <p>Gets the directory role behavior for the customer.</p>
-
-    <p></p>
+  summary: <p>Obtains the Customer qualification. </p>
   syntax:
     content: public IDirectoryRoleCollection getDirectoryRoles()
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection
-      description: <p>The directory role behavior for the customer. </p>
   overridden: com.microsoft.store.partnercenter.customers._i_customer.getDirectoryRoles()
 - uid: com.microsoft.store.partnercenter.customers._customer_operations.getEntitlements()
   id: getEntitlements()
@@ -358,17 +346,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 533
+    startLine: 532
   package: com.microsoft.store.partnercenter.customers
-  summary: >-
-    <p>Gets the entitlement collection behavior for the customer.</p>
-
-    <p></p>
+  summary: <p>Obtains the entitlement collection object. </p>
   syntax:
     content: public IEntitlementCollection getEntitlements()
     return:
       type: com.microsoft.store.partnercenter.entitlements._i_entitlement_collection
-      description: <p>The entitlement collection behavior for the customer. </p>
   overridden: com.microsoft.store.partnercenter.customers._i_customer.getEntitlements()
 - uid: com.microsoft.store.partnercenter.customers._customer_operations.getManagedServices()
   id: getManagedServices()
@@ -384,7 +368,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 289
+    startLine: 288
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the managed services behavior for the customer.</p>
@@ -410,17 +394,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 302
+    startLine: 301
   package: com.microsoft.store.partnercenter.customers
-  summary: >-
-    <p>Gets the offer categories behavior for the customer.</p>
-
-    <p></p>
+  summary: <p>Obtains the Offer Categories behavior for the customer. </p>
   syntax:
     content: public ICustomerOfferCategoryCollection getOfferCategories()
     return:
       type: com.microsoft.store.partnercenter.offers._i_customer_offer_category_collection
-      description: <p>The offer categories behavior for the customer. </p>
   overridden: com.microsoft.store.partnercenter.customers._i_customer.getOfferCategories()
 - uid: com.microsoft.store.partnercenter.customers._customer_operations.getOffers()
   id: getOffers()
@@ -436,17 +416,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 314
+    startLine: 313
   package: com.microsoft.store.partnercenter.customers
-  summary: >-
-    <p>Gets the offers behavior for the customer.</p>
-
-    <p></p>
+  summary: <p>Obtains the Offers behavior for the customer. </p>
   syntax:
     content: public ICustomerOfferCollection getOffers()
     return:
       type: com.microsoft.store.partnercenter.offers._i_customer_offer_collection
-      description: <p>The offers behavior for the customer. </p>
   overridden: com.microsoft.store.partnercenter.customers._i_customer.getOffers()
 - uid: com.microsoft.store.partnercenter.customers._customer_operations.getOrders()
   id: getOrders()
@@ -462,7 +438,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 234
+    startLine: 233
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Gets the orders behavior for the customer.</p>
@@ -488,7 +464,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 430
+    startLine: 429
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Gets the cart behavior for the customer.</p>
@@ -514,7 +490,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 249
+    startLine: 248
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the profiles behavior for the customer.</p>
@@ -540,17 +516,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 356
+    startLine: 355
   package: com.microsoft.store.partnercenter.customers
-  summary: >-
-    <p>Gets the qualification behavior of the customer.</p>
-
-    <p></p>
+  summary: <p>Obtains the Customer qualification. </p>
   syntax:
     content: public ICustomerQualification getQualification()
     return:
       type: com.microsoft.store.partnercenter.qualification._i_customer_qualification
-      description: <p>The qualification behavior of the customer. </p>
   overridden: com.microsoft.store.partnercenter.customers._i_customer.getQualification()
 - uid: com.microsoft.store.partnercenter.customers._customer_operations.getRelationships()
   id: getRelationships()
@@ -566,17 +538,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 507
+    startLine: 506
   package: com.microsoft.store.partnercenter.customers
-  summary: >-
-    <p>Gets the relationship collection behavior for the customer.</p>
-
-    <p></p>
+  summary: <p>Obtains the relationship collection behavior for the customer. </p>
   syntax:
     content: public ICustomerRelationshipCollection getRelationships()
     return:
       type: com.microsoft.store.partnercenter.relationships._i_customer_relationship_collection
-      description: <p>The relationship collection behavior for the customer. </p>
   overridden: com.microsoft.store.partnercenter.customers._i_customer.getRelationships()
 - uid: com.microsoft.store.partnercenter.customers._customer_operations.getServiceCosts()
   id: getServiceCosts()
@@ -592,7 +560,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 446
+    startLine: 445
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Gets the cart behavior for the customer.</p>
@@ -618,7 +586,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 274
+    startLine: 273
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the service requests behavior for the customer.</p>
@@ -644,7 +612,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 399
+    startLine: 398
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the subscribed skus for the customer.</p>
@@ -670,7 +638,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 259
+    startLine: 258
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Gets the subscriptions behavior for the customer.</p>
@@ -696,7 +664,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 343
+    startLine: 342
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the usage spending budget behavior for the customer.</p>
@@ -722,7 +690,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 328
+    startLine: 327
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the customer usage summary behavior for the customer.</p>
@@ -748,7 +716,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerOperations.java
-    startLine: 371
+    startLine: 370
   package: com.microsoft.store.partnercenter.customers
   summary: >-
     <p>Obtains the users for the customer.</p>
@@ -1155,6 +1123,7 @@ references:
   nameWithType: ICustomerUserCollection
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
   type: Interface
+  summary: <p>Represents the behavior of the customers users </p>
   syntax:
     content: public interface ICustomerUserCollection
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection
@@ -1174,6 +1143,7 @@ references:
   nameWithType: ICustomerSubscribedSkuCollection
   fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
   type: Interface
+  summary: <p>Represents the behavior of the customers users </p>
   syntax:
     content: public interface ICustomerSubscribedSkuCollection
 - uid: com.microsoft.store.partnercenter.carts._i_cart_collection
@@ -1213,6 +1183,7 @@ references:
   nameWithType: IDevicesBatchCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices batches. </p>
   syntax:
     content: public interface IDevicesBatchCollection
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_customer_device_collection
@@ -1222,6 +1193,7 @@ references:
   nameWithType: ICustomerDeviceCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices. </p>
   syntax:
     content: public interface ICustomerDeviceCollection
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status_collection
@@ -1231,6 +1203,7 @@ references:
   nameWithType: IBatchJobStatusCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's batch upload status collection. </p>
   syntax:
     content: public interface IBatchJobStatusCollection
 - uid: com.microsoft.store.partnercenter.relationships._i_customer_relationship_collection
@@ -1250,6 +1223,7 @@ references:
   nameWithType: ICustomerAnalyticsCollection
   fullName: com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection
   type: Interface
+  summary: <p>Holds operations that apply to customer analytics collection. </p>
   syntax:
     content: public interface ICustomerAnalyticsCollection
 - uid: com.microsoft.store.partnercenter.entitlements._i_entitlement_collection
@@ -1259,6 +1233,7 @@ references:
   nameWithType: IEntitlementCollection
   fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
   type: Interface
+  summary: <p>Holds operations that can be performed on entitlements associated to the customer based on the logged in partner. </p>
   syntax:
     content: public interface IEntitlementCollection
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection
@@ -1268,6 +1243,7 @@ references:
   nameWithType: IConfigurationPolicyCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
   type: Interface
+  summary: <p>RRepresents the operations that can be done on the partner's configuration policies. </p>
   syntax:
     content: public interface IConfigurationPolicyCollection
 - uid: com.microsoft.store.partnercenter._i_partner

@@ -44,14 +44,14 @@ items:
     startLine: 31
   package: com.microsoft.store.partnercenter.products
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the product information</p>
 
     <p></p>
   syntax:
     content: public Product get()
     return:
       type: com.microsoft.store.partnercenter.models.products._product
-      description: <p>The entity. </p>
+      description: <p>The product information. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
 - uid: com.microsoft.store.partnercenter.products._i_product.getSkus()
   id: getSkus()
@@ -243,14 +243,14 @@ references:
   fullName: com.microsoft.store.partnercenter.customers.products.CustomerProductOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the product information</p>
 
     <p></p>
   syntax:
     content: public Product get()
     return:
       type: com.microsoft.store.partnercenter.models.products._product
-      description: <p>The entity. </p>
+      description: <p>The product information. </p>
 - uid: com.microsoft.store.partnercenter.products._product_operations.get()
   parent: com.microsoft.store.partnercenter.products._product_operations
   href: com.microsoft.store.partnercenter.products._product_operations.yml
@@ -259,11 +259,11 @@ references:
   fullName: com.microsoft.store.partnercenter.products.ProductOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the product information</p>
 
     <p></p>
   syntax:
     content: public Product get()
     return:
       type: com.microsoft.store.partnercenter.models.products._product
-      description: <p>The entity. </p>
+      description: <p>The product information. </p>

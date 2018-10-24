@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IDevicesBatch.java
     startLine: 14
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: <p>Represents the operations that can be done on the partner's devices batches. </p>
   syntax:
     content: public interface IDevicesBatch extends IPartnerComponent<Tuple<String, String>>
   inheritedMembers:
@@ -41,10 +42,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IDevicesBatch.java
     startLine: 22
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Obtains the devices behavior of the devices batch.</p>
+
+    <p></p>
   syntax:
     content: public IDeviceCollection getDevices()
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection
+      description: <p>The devices behavior of the devices batch. </p>
 references:
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch.getDevices*
   name: getDevices
@@ -113,6 +119,7 @@ references:
   nameWithType: IDeviceCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices. </p>
   syntax:
     content: public interface IDeviceCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Device, ResourceCollection<Device>>,IEntityCreateOperations<List<Device>, String>,IEntitySelector<IDevice>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._devices_batch_operations.getDevices()
@@ -122,7 +129,12 @@ references:
   nameWithType: DevicesBatchOperations.getDevices()
   fullName: com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations.getDevices()
   type: Method
+  summary: >-
+    <p>Gets the devices behavior of the devices batch.</p>
+
+    <p></p>
   syntax:
     content: public IDeviceCollection getDevices()
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection
+      description: <p>The devices behavior of the devices batch. </p>

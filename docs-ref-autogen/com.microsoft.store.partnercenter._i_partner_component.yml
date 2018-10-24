@@ -112,6 +112,7 @@ references:
   nameWithType: ICart
   fullName: com.microsoft.store.partnercenter.carts.ICart
   type: Interface
+  summary: <p>Encapsulates a customer cart behavior. </p>
   syntax:
     content: public interface ICart extends IPartnerComponent<Tuple<String, String>>,IEntityPutOperations<Cart>,IEntityGetOperations<Cart>
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role
@@ -171,6 +172,7 @@ references:
   nameWithType: IServiceCostLineItemsCollection
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection
   type: Interface
+  summary: <p>Represents the behavior of the customer service cost line items as a whole. </p>
   syntax:
     content: public interface IServiceCostLineItemsCollection
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection
@@ -210,6 +212,7 @@ references:
   nameWithType: ICustomerUserLicenseCollection
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection
   type: Interface
+  summary: <p>Represents the behavior of the customers user's directory roles. </p>
   syntax:
     content: public interface ICustomerUserLicenseCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<License, ResourceCollection<License>>
 - uid: com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates
@@ -239,6 +242,7 @@ references:
   nameWithType: IBatchJobStatus
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's device. </p>
   syntax:
     content: public interface IBatchJobStatus extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<BatchUploadDetails>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy
@@ -248,6 +252,7 @@ references:
   nameWithType: IConfigurationPolicy
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
   type: Interface
+  summary: <p>Represents all the operations that can be done on a configuration policy. </p>
   syntax:
     content: public interface IConfigurationPolicy extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<ConfigurationPolicy>,IEntityPatchOperations<ConfigurationPolicy>,IEntityDeleteOperations<ConfigurationPolicy>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device
@@ -257,6 +262,7 @@ references:
   nameWithType: IDevice
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's device. </p>
   syntax:
     content: public interface IDevice extends IPartnerComponent<TripletTuple<String, String, String>>,IEntityDeleteOperations<Device>,IEntityPatchOperations<Device>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection
@@ -266,6 +272,7 @@ references:
   nameWithType: IDeviceCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices. </p>
   syntax:
     content: public interface IDeviceCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Device, ResourceCollection<Device>>,IEntityCreateOperations<List<Device>, String>,IEntitySelector<IDevice>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch
@@ -275,6 +282,7 @@ references:
   nameWithType: IDevicesBatch
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices batches. </p>
   syntax:
     content: public interface IDevicesBatch extends IPartnerComponent<Tuple<String, String>>
 - uid: com.microsoft.store.partnercenter.offers._i_category_offers_collection
@@ -563,6 +571,7 @@ references:
   nameWithType: IAzureUtilizationCollection
   fullName: com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection
   type: Interface
+  summary: <p>Groups behavior related to Azure subscription utilization records. </p>
   syntax:
     content: public interface IAzureUtilizationCollection extends IPartnerComponent<Tuple<String, String>>
 - uid: com.microsoft.store.partnercenter.utilization._i_utilization_collection

@@ -107,7 +107,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/carts/CartOperations.java
-    startLine: 71
+    startLine: 72
   package: com.microsoft.store.partnercenter.carts
   summary: >-
     <p>Retrieves a customer cart.</p>
@@ -133,7 +133,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/carts/CartOperations.java
-    startLine: 90
+    startLine: 92
   package: com.microsoft.store.partnercenter.carts
   summary: >-
     <p>Updates an existing cart.</p>
@@ -265,6 +265,7 @@ references:
   nameWithType: ICart
   fullName: com.microsoft.store.partnercenter.carts.ICart
   type: Interface
+  summary: <p>Encapsulates a customer cart behavior. </p>
   syntax:
     content: public interface ICart
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -284,6 +285,7 @@ references:
   nameWithType: CartCheckoutResult
   fullName: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
   type: Class
+  summary: <p>Represents a result of a cart checkout. </p>
   syntax:
     content: public class CartCheckoutResult extends ResourceBase
 - uid: com.microsoft.store.partnercenter.carts._i_cart.checkout()
@@ -309,6 +311,7 @@ references:
   nameWithType: Cart
   fullName: com.microsoft.store.partnercenter.models.carts.Cart
   type: Class
+  summary: <p>This class represents a model of a cart object. </p>
   syntax:
     content: public class Cart extends ResourceBaseWithLinks<StandardResourceLinks>
 - uid: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()

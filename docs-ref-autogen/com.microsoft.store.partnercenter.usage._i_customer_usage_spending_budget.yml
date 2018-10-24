@@ -44,15 +44,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/usage/ICustomerUsageSpendingBudget.java
     startLine: 24
   package: com.microsoft.store.partnercenter.usage
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the customer's usage spending budget. </p>
   syntax:
     content: public SpendingBudget get()
     return:
       type: com.microsoft.store.partnercenter.models.usage._spending_budget
-      description: <p>The entity. </p>
+      description: <p>The customer's usage spending budget. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
 - uid: com.microsoft.store.partnercenter.usage._i_customer_usage_spending_budget.patch(SpendingBudget)
   id: patch(SpendingBudget)
@@ -70,13 +67,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/usage/ICustomerUsageSpendingBudget.java
     startLine: 33
   package: com.microsoft.store.partnercenter.usage
+  summary: >-
+    <p>Patches the customer's usage spending budget.</p>
+
+    <p></p>
   syntax:
     content: public SpendingBudget patch(SpendingBudget spendingBudget)
     parameters:
     - id: spendingBudget
       type: com.microsoft.store.partnercenter.models.usage._spending_budget
+      description: <p>The new customer's usage spending budget.</p>
     return:
       type: com.microsoft.store.partnercenter.models.usage._spending_budget
+      description: <p>The updated customer's usage spending budget. </p>
 references:
 - uid: com.microsoft.store.partnercenter.usage._i_customer_usage_spending_budget.get*
   name: get

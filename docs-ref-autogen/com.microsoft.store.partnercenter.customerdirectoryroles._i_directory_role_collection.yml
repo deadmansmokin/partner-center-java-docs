@@ -43,13 +43,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/IDirectoryRoleCollection.java
     startLine: 28
   package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: >-
+    <p>Gets a directory role behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDirectoryRole byId(String roleId)
     parameters:
     - id: roleId
       type: "26831127"
+      description: <p>The directory role identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role
+      description: <p>The directory role operations. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_selector.byId(String)
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection.get()
   id: get()
@@ -67,15 +73,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/IDirectoryRoleCollection.java
     startLine: 34
   package: com.microsoft.store.partnercenter.customerdirectoryroles
-  summary: >-
-    <p>Retrieves all entities.</p>
-
-    <p></p>
+  summary: <p>Retrieves all customer directory roles. </p>
   syntax:
     content: public ResourceCollection<DirectoryRole> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.roles._directory_rolea08ddfce
-      description: <p>The entities. </p>
+      description: <p>All the customer directory roles. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()
 references:
 - uid: "26831127"
@@ -202,13 +205,16 @@ references:
   nameWithType: IEntitySelector<TEntity>.byId(String id)
   fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TEntity>.byId(String id)
   type: Method
+  summary: <p>Retrieves the behavior for an entity using the entity's identifier. </p>
   syntax:
     content: public TEntity byId(String id)
     parameters:
     - id: id
       type: "26831127"
+      description: <p>The entity's identifier. </p>
     return:
       type: 830f062c
+      description: <p>The entity's behavior. </p>
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations
   href: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations.yml
@@ -216,13 +222,19 @@ references:
   nameWithType: DirectoryRoleCollectionOperations.byId(String roleId)
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations.byId(String roleId)
   type: Method
+  summary: >-
+    <p>Gets a directory role operations object.</p>
+
+    <p></p>
   syntax:
     content: public IDirectoryRole byId(String roleId)
     parameters:
     - id: roleId
       type: "26831127"
+      description: <p>The directory role id. </p>
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role
+      description: <p>The directory role operations object. </p>
 - uid: com.microsoft.store.partnercenter.models._resource_collection
   parent: com.microsoft.store.partnercenter.models
   href: com.microsoft.store.partnercenter.models._resource_collection.yml
@@ -243,6 +255,7 @@ references:
   nameWithType: DirectoryRole
   fullName: com.microsoft.store.partnercenter.models.roles.DirectoryRole
   type: Class
+  summary: <p>Represents a customer directory role object. </p>
   syntax:
     content: public class DirectoryRole extends ResourceBase
 - uid: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()
@@ -269,11 +282,11 @@ references:
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all customer directory roles.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<DirectoryRole> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.roles._directory_rolea08ddfce
-      description: <p>The entities. </p>
+      description: <p>All the customer directory roles. </p>

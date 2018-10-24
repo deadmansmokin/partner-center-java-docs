@@ -108,6 +108,7 @@ references:
   nameWithType: ICustomerUserCollection
   fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
   type: Interface
+  summary: <p>Represents the behavior of the customers users </p>
   syntax:
     content: public interface ICustomerUserCollection extends IPartnerComponentString,IEntityCreateOperations<CustomerUser, CustomerUser>,IEntireEntityCollectionRetrievalOperations<CustomerUser, SeekBasedResourceCollection<CustomerUser>>
 - uid: com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates
@@ -127,6 +128,7 @@ references:
   nameWithType: IConfigurationPolicyCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection
   type: Interface
+  summary: <p>RRepresents the operations that can be done on the partner's configuration policies. </p>
   syntax:
     content: public interface IConfigurationPolicyCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ConfigurationPolicy, ResourceCollection<ConfigurationPolicy>>,IEntityCreateOperations<ConfigurationPolicy, ConfigurationPolicy>,IEntitySelector<IConfigurationPolicy>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection
@@ -136,6 +138,7 @@ references:
   nameWithType: IDeviceCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices. </p>
   syntax:
     content: public interface IDeviceCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<Device, ResourceCollection<Device>>,IEntityCreateOperations<List<Device>, String>,IEntitySelector<IDevice>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection
@@ -145,6 +148,7 @@ references:
   nameWithType: IDevicesBatchCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices batches. </p>
   syntax:
     content: public interface IDevicesBatchCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<DeviceBatch, ResourceCollection<DeviceBatch>>,IEntitySelector<IDevicesBatch>,IEntityCreateOperations<DeviceBatchCreationRequest, String>
 - uid: com.microsoft.store.partnercenter.orders._i_order_collection

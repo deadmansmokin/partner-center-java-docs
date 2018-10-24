@@ -41,13 +41,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/domains/IDomainCollection.java
     startLine: 19
   package: com.microsoft.store.partnercenter.domains
+  summary: >-
+    <p>Obtains a specific domain behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDomain byDomain(String domain)
     parameters:
     - id: domain
       type: "26831127"
+      description: <p>The domain.</p>
     return:
       type: com.microsoft.store.partnercenter.domains._i_domain
+      description: <p>The domain operations. </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -125,10 +131,16 @@ references:
   nameWithType: DomainCollectionOperations.byDomain(String domain)
   fullName: com.microsoft.store.partnercenter.domains.DomainCollectionOperations.byDomain(String domain)
   type: Method
+  summary: >-
+    <p>Obtains a specific domain behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDomain byDomain(String domain)
     parameters:
     - id: domain
       type: "26831127"
+      description: <p>The domain. </p>
     return:
       type: com.microsoft.store.partnercenter.domains._i_domain
+      description: <p>The domain operations. </p>
