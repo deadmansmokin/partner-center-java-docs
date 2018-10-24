@@ -6,27 +6,38 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
-        "dest": "api",
+        "src": "docs-ref-autogen/overview",
+        "dest": "api/overview/partnercenter",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
         ],
-        "group": "partnercenter-1.8.0",
-        "version":"partnercenter-1.8.0"
+        "group": "partnercenter-1.8.1",
+        "version":"partnercenter-1.8.1"
       },
       {
         "files": [
-          "**/*.yml"
+          "toc.yml"
         ],
         "src": "partner-center-breadcrumb",
-        "dest": "partner-center-breadcrumb",
+        "dest": "partnercenter-java_breadcrumb",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
         ],
-        "group":"partnercenter-1.8.0",
-        "version":"partnercenter-1.8.0"
+        "group": "partnercenter-1.8.1",
+        "version":"partnercenter-1.8.1"
+      },
+      {
+
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "docs-ref-conceptual",
+        "dest": "partnercenter",
+        "group": "partnercenter-1.8.1",
+        "version":"partnercenter-1.8.1"
       },
       {
         "files": [
@@ -41,14 +52,42 @@
           "ThirdPartyNotices",
           "docs-ref-autogen"
         ],
-        "group":"partnercenter-1.8.0",
-        "version":"partnercenter-1.8.0"
+        "group": "partnercenter-1.8.1",
+        "version":"partnercenter-1.8.1"
+      },
+      {
+        "files":[
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src":"docs-ref-autogen",
+        "dest":"api",
+        "group":"partnercenter-1.8.1",
+        "version":"partnercenter-1.8.1",
+        "exclude":[
+          "**/obj/**",
+          "**/includes/**",
+          "**/toc.yml"
+        ]
+      },
+      {
+        "files": [
+          "**/toc.yml"
+        ],
+        "src": "docs-ref-autogen",
+        "dest": "api/partnercenter-java",
+        "group": "partnercenter-1.8.1",
+        "version": "partnercenter-1.8.1",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
       }
     ],
     "group":{
-      "partnercenter-1.8.0":{
-        "dest":"partnercenter-1.8.0",
-        "moniker_range":"partnercenter-1.8.0"
+      "partnercenter-1.8.1":{
+        "dest":"partnercenter-1.8.1",
+        "moniker_range":"partnercenter-1.8.1"
       }
     },
     "resource": [
@@ -66,7 +105,14 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-     "breadcrumb_path": "~/partner-center-breadcrumb/toc.yml"
+     "breadcrumb_path": "/java/partnercenter-java_breadcrumb/toc.json",
+     "ms.topic":"reference",
+     "ms.devlang": "java",
+     "ms.date": "10/22/2018",
+     "feedback_system": "GitHub",
+     "feedback_github_repo": "MicrosoftDocs/partner-center-java-docs",
+     "feedback_product_url": "",
+     "ms.service": "partener-center"
     },
     "fileMetadata": {},
     "template": [],
