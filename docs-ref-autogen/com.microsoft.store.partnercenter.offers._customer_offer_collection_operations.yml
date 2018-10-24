@@ -22,6 +22,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/offers/CustomerOfferCollectionOperations.java
     startLine: 24
   package: com.microsoft.store.partnercenter.offers
+  summary: <p>Customer Offer operations implementation class. </p>
   syntax:
     content: public class CustomerOfferCollectionOperations extends BasePartnerComponentString implements ICustomerOfferCollection
   inheritance:
@@ -52,13 +53,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/offers/CustomerOfferCollectionOperations.java
     startLine: 34
   package: com.microsoft.store.partnercenter.offers
+  summary: >-
+    <p>Initializes a new instance of the CustomerOfferCollectionOperations class.</p>
+
+    <p></p>
   syntax:
     content: public CustomerOfferCollectionOperations(IPartner rootPartnerOperations, String customerId)
     parameters:
     - id: rootPartnerOperations
       type: com.microsoft.store.partnercenter._i_partner
+      description: <p>The root partner operations instance. </p>
     - id: customerId
       type: "26831127"
+      description: <p>The customer identifer. </p>
 - uid: com.microsoft.store.partnercenter.offers._customer_offer_collection_operations.get()
   id: get()
   parent: com.microsoft.store.partnercenter.offers._customer_offer_collection_operations
@@ -73,17 +80,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/offers/CustomerOfferCollectionOperations.java
-    startLine: 46
+    startLine: 47
   package: com.microsoft.store.partnercenter.offers
-  summary: >-
-    <p>Retrieves all entities.</p>
-
-    <p></p>
+  summary: <p>Gets the offers available to customer from partner. </p>
   syntax:
     content: public ResourceCollection<Offer> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.offers._offera08ddfce
-      description: <p>The entities. </p>
   overridden: com.microsoft.store.partnercenter.offers._i_customer_offer_collection.get()
 - uid: com.microsoft.store.partnercenter.offers._customer_offer_collection_operations.get(int,int)
   id: get(int,int)
@@ -99,17 +102,24 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/offers/CustomerOfferCollectionOperations.java
-    startLine: 68
+    startLine: 69
   package: com.microsoft.store.partnercenter.offers
+  summary: >-
+    <p>Gets a segment of the offers available to customer from partner..</p>
+
+    <p></p>
   syntax:
     content: public ResourceCollection<Offer> get(int offset, int size)
     parameters:
     - id: offset
       type: f75371fa
+      description: <p>The starting index. </p>
     - id: size
       type: f75371fa
+      description: <p>The desired segment size. </p>
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.offers._offera08ddfce
+      description: <p>The required offers segment. </p>
   overridden: com.microsoft.store.partnercenter.offers._i_customer_offer_collection.get(int,int)
 references:
 - uid: "26831127"
@@ -325,14 +335,14 @@ references:
   fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all the offers for the provided Customer.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<Offer> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.offers._offera08ddfce
-      description: <p>The entities. </p>
+      description: <p>The offers for the provided customer. </p>
 - uid: com.microsoft.store.partnercenter.offers._i_customer_offer_collection.get(int,int)
   parent: com.microsoft.store.partnercenter.offers._i_customer_offer_collection
   href: com.microsoft.store.partnercenter.offers._i_customer_offer_collection.yml
@@ -340,12 +350,19 @@ references:
   nameWithType: ICustomerOfferCollection.get(int offset, int size)
   fullName: com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.get(int offset, int size)
   type: Method
+  summary: >-
+    <p>Retrieves a subset of offers for the provided customer.</p>
+
+    <p></p>
   syntax:
     content: public ResourceCollection<Offer> get(int offset, int size)
     parameters:
     - id: offset
       type: f75371fa
+      description: <p>The starting index. </p>
     - id: size
       type: f75371fa
+      description: <p>The maximum number of offers to return. </p>
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.offers._offera08ddfce
+      description: <p>The requested segment of the offers for the provided customer. </p>

@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/entitlements/IEntitlementCollection.java
     startLine: 16
   package: com.microsoft.store.partnercenter.entitlements
+  summary: <p>Holds operations that can be performed on entitlements associated to the customer based on the logged in partner. </p>
   syntax:
     content: public interface IEntitlementCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Entitlement, ResourceCollection<Entitlement>>
   inheritedMembers:
@@ -42,13 +43,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/entitlements/IEntitlementCollection.java
     startLine: 25
   package: com.microsoft.store.partnercenter.entitlements
+  summary: >-
+    <p>Retrieves the operations that can be applied on entitlements with a given entitlement type.</p>
+
+    <p></p>
   syntax:
     content: public IEntireEntityCollectionRetrievalOperations<Entitlement, ResourceCollection<Entitlement>> byEntitlementType(String entitlementType)
     parameters:
     - id: entitlementType
       type: "26831127"
+      description: <p>The type of entiltment. </p>
     return:
       type: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations78504a52com.microsoft.store.partnercenter.models.entitlements._entitlementb33c76fccom.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.entitlements._entitlemente7daa122
+      description: <p>The entitlement collection operations by entitlement type. </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -175,6 +182,7 @@ references:
   nameWithType: Entitlement
   fullName: com.microsoft.store.partnercenter.models.entitlements.Entitlement
   type: Class
+  summary: <p>Class that represents an entitlement. </p>
   syntax:
     content: public class Entitlement extends ResourceBaseWithLinks<StandardResourceLinks>
 - uid: com.microsoft.store.partnercenter.models._resource_collection
@@ -197,10 +205,16 @@ references:
   nameWithType: EntitlementCollectionOperations.byEntitlementType(String entitlementType)
   fullName: com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations.byEntitlementType(String entitlementType)
   type: Method
+  summary: >-
+    <p>Retrieves the operations that can be applied on entitlements with a given entitlement type.</p>
+
+    <p></p>
   syntax:
     content: public IEntireEntityCollectionRetrievalOperations<Entitlement, ResourceCollection<Entitlement>> byEntitlementType(String entitlementType)
     parameters:
     - id: entitlementType
       type: "26831127"
+      description: <p>The type of entiltment. </p>
     return:
       type: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations78504a52com.microsoft.store.partnercenter.models.entitlements._entitlementb33c76fccom.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.entitlements._entitlemente7daa122
+      description: <p>The entitlement collection operations by entitlement type. </p>

@@ -80,15 +80,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/subscriptions/SubscriptionConversionCollectionOperations.java
     startLine: 74
   package: com.microsoft.store.partnercenter.subscriptions
-  summary: >-
-    <p>Retrieves all entities.</p>
-
-    <p></p>
+  summary: <p>Retrieves all conversions for the trial subscription. </p>
   syntax:
     content: public ResourceCollection<Conversion> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.subscriptions._conversiona08ddfce
-      description: <p>The entities. </p>
+      description: <p>The subscription conversions. </p>
   overridden: com.microsoft.store.partnercenter.subscriptions._i_subscription_conversion_collection.get()
 - uid: com.microsoft.store.partnercenter.subscriptions._subscription_conversion_collection_operations.SubscriptionConversionCollectionOperations(IPartner,String,String)
   id: SubscriptionConversionCollectionOperations(IPartner,String,String)
@@ -321,12 +318,9 @@ references:
   nameWithType: ISubscriptionConversionCollection.get()
   fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection.get()
   type: Method
-  summary: >-
-    <p>Retrieves all entities.</p>
-
-    <p></p>
+  summary: <p>Retrieves all conversions for the trial subscription. </p>
   syntax:
     content: public ResourceCollection<Conversion> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.subscriptions._conversiona08ddfce
-      description: <p>The entities. </p>
+      description: <p>The subscription conversions. </p>

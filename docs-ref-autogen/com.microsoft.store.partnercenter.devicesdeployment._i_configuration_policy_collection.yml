@@ -21,6 +21,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IConfigurationPolicyCollection.java
     startLine: 18
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: <p>RRepresents the operations that can be done on the partner's configuration policies. </p>
   syntax:
     content: public interface IConfigurationPolicyCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ConfigurationPolicy, ResourceCollection<ConfigurationPolicy>>,IEntityCreateOperations<ConfigurationPolicy, ConfigurationPolicy>,IEntitySelector<IConfigurationPolicy>
   inheritedMembers:
@@ -43,13 +44,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IConfigurationPolicyCollection.java
     startLine: 28
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Retrieves a specific customer's devices batch upload status behavior.</p>
+
+    <p></p>
   syntax:
     content: public IConfigurationPolicy byId(String policyId)
     parameters:
     - id: policyId
       type: "26831127"
+      description: <p>The policy identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy
+      description: <p>The customer's devices batch upload status operations. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_selector.byId(String)
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy_collection.get()
   id: get()
@@ -68,14 +75,14 @@ items:
     startLine: 35
   package: com.microsoft.store.partnercenter.devicesdeployment
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all configuration policies.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<ConfigurationPolicy> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.devicesdeployment._configuration_policya08ddfce
-      description: <p>The entities. </p>
+      description: <p>The collection of configuration policies. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()
 references:
 - uid: "26831127"
@@ -227,6 +234,7 @@ references:
   nameWithType: IConfigurationPolicy
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy
   type: Interface
+  summary: <p>Represents all the operations that can be done on a configuration policy. </p>
   syntax:
     content: public interface IConfigurationPolicy extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<ConfigurationPolicy>,IEntityPatchOperations<ConfigurationPolicy>,IEntityDeleteOperations<ConfigurationPolicy>
 - uid: com.microsoft.store.partnercenter.genericoperations._i_entity_selector.byId(String)
@@ -236,13 +244,16 @@ references:
   nameWithType: IEntitySelector<TEntity>.byId(String id)
   fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TEntity>.byId(String id)
   type: Method
+  summary: <p>Retrieves the behavior for an entity using the entity's identifier. </p>
   syntax:
     content: public TEntity byId(String id)
     parameters:
     - id: id
       type: "26831127"
+      description: <p>The entity's identifier. </p>
     return:
       type: 830f062c
+      description: <p>The entity's behavior. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations
   href: com.microsoft.store.partnercenter.devicesdeployment._configuration_policy_collection_operations.yml
@@ -250,13 +261,19 @@ references:
   nameWithType: ConfigurationPolicyCollectionOperations.byId(String policyId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.byId(String policyId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer's devices batch upload status behavior.</p>
+
+    <p></p>
   syntax:
     content: public IConfigurationPolicy byId(String policyId)
     parameters:
     - id: policyId
       type: "26831127"
+      description: <p>The policy identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_configuration_policy
+      description: <p>The customer's devices batch upload status operations. </p>
 - uid: com.microsoft.store.partnercenter.models._resource_collection
   parent: com.microsoft.store.partnercenter.models
   href: com.microsoft.store.partnercenter.models._resource_collection.yml
@@ -277,6 +294,7 @@ references:
   nameWithType: ConfigurationPolicy
   fullName: com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy
   type: Class
+  summary: <p>Represents a configuration policy associated with a customer. </p>
   syntax:
     content: public class ConfigurationPolicy extends ResourceBase
 - uid: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()
@@ -303,11 +321,11 @@ references:
   fullName: com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all configuration policies.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<ConfigurationPolicy> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.devicesdeployment._configuration_policya08ddfce
-      description: <p>The entities. </p>
+      description: <p>The collection of configuration policies. </p>

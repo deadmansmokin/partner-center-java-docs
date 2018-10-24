@@ -38,10 +38,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/genericoperations/IEntityExistsOperations.java
     startLine: 15
   package: com.microsoft.store.partnercenter.genericoperations
+  summary: >-
+    <p>Checks if an entity exists or not.</p>
+
+    <p></p>
   syntax:
     content: public boolean exists()
     return:
       type: 4fc6e284
+      description: <p>A value indicating whether the entity exists or not. </p>
 references:
 - uid: 4fc6e284
   spec.java:
@@ -68,10 +73,15 @@ references:
   nameWithType: IDomain.exists()
   fullName: com.microsoft.store.partnercenter.domains.IDomain.exists()
   type: Method
+  summary: >-
+    <p>Checks if the domain is available or not.</p>
+
+    <p></p>
   syntax:
     content: public boolean exists()
     return:
       type: 4fc6e284
+      description: <p>true if the domain exists, false otherwise. </p>
 - uid: com.microsoft.store.partnercenter.domains._domain_operations.exists()
   parent: com.microsoft.store.partnercenter.domains._domain_operations
   href: com.microsoft.store.partnercenter.domains._domain_operations.yml
@@ -79,7 +89,12 @@ references:
   nameWithType: DomainOperations.exists()
   fullName: com.microsoft.store.partnercenter.domains.DomainOperations.exists()
   type: Method
+  summary: >-
+    <p>Checks the availability of a domain.</p>
+
+    <p></p>
   syntax:
     content: public boolean exists()
     return:
       type: 4fc6e284
+      description: <p>A boolean value to indicate if the domain is available. </p>

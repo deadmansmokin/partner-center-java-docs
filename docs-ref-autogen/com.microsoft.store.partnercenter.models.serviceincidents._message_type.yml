@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/serviceincidents/MessageType.java
     startLine: 13
   package: com.microsoft.store.partnercenter.models.serviceincidents
+  summary: <p>Represents the status of partner center services. </p>
   syntax:
     content: public enum MessageType
   inheritance:
@@ -40,6 +41,14 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/serviceincidents/MessageType.java
     startLine: 18
   package: com.microsoft.store.partnercenter.models.serviceincidents
+  summary: >-
+    <p>Default type none.</p>
+
+    <p>Active incident.</p>
+
+    <p>Message center message.</p>
+
+    <p>All types. </p>
   syntax:
     content: "public JsonProperty=( \"none\" ) \n    NONE"
 references: []

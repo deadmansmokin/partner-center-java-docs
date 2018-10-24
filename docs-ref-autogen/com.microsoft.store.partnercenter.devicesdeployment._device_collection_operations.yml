@@ -51,13 +51,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java
     startLine: 61
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Retrieves a specific customer's device behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDevice byId(String deviceId)
     parameters:
     - id: deviceId
       type: "26831127"
+      description: <p>The device identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_device
+      description: <p>The customer device behavior. </p>
   overridden: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.byId(String)
 - uid: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.create(List<Device>)
   id: create(List<Device>)
@@ -75,13 +81,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java
     startLine: 73
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Adds devices to existing devices batch.</p>
+
+    <p></p>
   syntax:
     content: public String create(List<Device> newDevices)
     parameters:
     - id: newDevices
       type: 5618da2dcom.microsoft.store.partnercenter.models.devicesdeployment._devicea08ddfce
+      description: <p>The new devices to be created. </p>
     return:
       type: "26831127"
+      description: <p>The location which indicates the URL of the API to query for status of the create request. </p>
   overridden: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.create(List<Device>)
 - uid: com.microsoft.store.partnercenter.devicesdeployment._device_collection_operations.DeviceCollectionOperations(IPartner,String,String)
   id: DeviceCollectionOperations(IPartner,String,String)
@@ -129,17 +141,17 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DeviceCollectionOperations.java
-    startLine: 95
+    startLine: 96
   package: com.microsoft.store.partnercenter.devicesdeployment
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all devices.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<Device> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.devicesdeployment._devicea08ddfce
-      description: <p>The entities. </p>
+      description: <p>All of the devices. </p>
   overridden: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.get()
 references:
 - uid: "26831127"
@@ -282,6 +294,7 @@ references:
   nameWithType: IDeviceCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices. </p>
   syntax:
     content: public interface IDeviceCollection
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -301,6 +314,7 @@ references:
   nameWithType: IDevice
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevice
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's device. </p>
   syntax:
     content: public interface IDevice
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.byId(String)
@@ -310,13 +324,19 @@ references:
   nameWithType: IDeviceCollection.byId(String deviceId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.byId(String deviceId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer's device behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDevice byId(String deviceId)
     parameters:
     - id: deviceId
       type: "26831127"
+      description: <p>The device identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_device
+      description: <p>The customer device behavior. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.create(List<Device>)
   parent: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection
   href: com.microsoft.store.partnercenter.devicesdeployment._i_device_collection.yml
@@ -324,13 +344,19 @@ references:
   nameWithType: IDeviceCollection.create(List<Device> newDevices)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.create(List<Device> newDevices)
   type: Method
+  summary: >-
+    <p>Adds devices to existing devices batch.</p>
+
+    <p></p>
   syntax:
     content: public String create(List<Device> newDevices)
     parameters:
     - id: newDevices
       type: 5618da2dcom.microsoft.store.partnercenter.models.devicesdeployment._devicea08ddfce
+      description: <p>The new devices to be created. </p>
     return:
       type: "26831127"
+      description: <p>The location which indicates the URL of the API to query for status of the create request. </p>
 - uid: com.microsoft.store.partnercenter.models.devicesdeployment._device
   parent: com.microsoft.store.partnercenter.models.devicesdeployment
   href: com.microsoft.store.partnercenter.models.devicesdeployment._device.yml
@@ -338,6 +364,7 @@ references:
   nameWithType: Device
   fullName: com.microsoft.store.partnercenter.models.devicesdeployment.Device
   type: Class
+  summary: <p>Represents a device associated with a customer. </p>
   syntax:
     content: public class Device extends ResourceBase
 - uid: com.microsoft.store.partnercenter.models._resource_collection
@@ -361,11 +388,11 @@ references:
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all devices.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<Device> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.devicesdeployment._devicea08ddfce
-      description: <p>The entities. </p>
+      description: <p>All of the devices. </p>

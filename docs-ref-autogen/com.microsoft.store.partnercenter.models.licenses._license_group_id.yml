@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseGroupId.java
     startLine: 13
   package: com.microsoft.store.partnercenter.models.licenses
+  summary: <p>License Group Id. </p>
   syntax:
     content: public enum LicenseGroupId
   inheritance:
@@ -40,6 +41,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseGroupId.java
     startLine: 18
   package: com.microsoft.store.partnercenter.models.licenses
+  summary: >-
+    <p>Indicates nothing - no type, used as an initializer. If any invalid value is passed, then it will be defaulted to this.</p>
+
+    <p>Azure Active Directory This indicates that product SKU is managed by Azure AD.</p>
+
+    <p>Store for Business This indicates that product SKU is not managed by Azure AD. </p>
   syntax:
     content: >-
       public JsonProperty=("none")

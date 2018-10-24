@@ -19,7 +19,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceSummaryOperations.java
-    startLine: 19
+    startLine: 18
   package: com.microsoft.store.partnercenter.invoices
   syntax:
     content: public class InvoiceSummaryOperations extends BasePartnerComponentString implements IInvoiceSummary
@@ -49,17 +49,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceSummaryOperations.java
-    startLine: 38
+    startLine: 37
   package: com.microsoft.store.partnercenter.invoices
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves summary of the partner's billing information. </p>
   syntax:
     content: public InvoiceSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.invoices._invoice_summary
-      description: <p>The entity. </p>
   overridden: com.microsoft.store.partnercenter.invoices._i_invoice_summary.get()
 - uid: com.microsoft.store.partnercenter.invoices._invoice_summary_operations.InvoiceSummaryOperations(IPartner)
   id: InvoiceSummaryOperations(IPartner)
@@ -75,13 +71,18 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/invoices/InvoiceSummaryOperations.java
-    startLine: 29
+    startLine: 28
   package: com.microsoft.store.partnercenter.invoices
+  summary: >-
+    <p>Initializes a new instance of the InvoiceSummaryOperations class.</p>
+
+    <p></p>
   syntax:
     content: public InvoiceSummaryOperations(IPartner rootPartnerOperations)
     parameters:
     - id: rootPartnerOperations
       type: com.microsoft.store.partnercenter._i_partner
+      description: <p>The root partner operations instance. </p>
 references:
 - uid: com.microsoft.store.partnercenter.invoices._invoice_summary_operations.InvoiceSummaryOperations*
   name: InvoiceSummaryOperations
@@ -261,11 +262,11 @@ references:
   fullName: com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the invoice summary. This operation is currently only supported for user based credentials.</p>
 
     <p></p>
   syntax:
     content: public InvoiceSummary get()
     return:
       type: com.microsoft.store.partnercenter.models.invoices._invoice_summary
-      description: <p>The entity. </p>
+      description: <p>The invoice summary. </p>

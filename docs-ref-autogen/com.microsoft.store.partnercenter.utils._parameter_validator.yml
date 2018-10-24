@@ -69,11 +69,13 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/utils/ParameterValidator.java
     startLine: 30
   package: com.microsoft.store.partnercenter.utils
+  summary: <p>Ensures that a given country code is valid. </p>
   syntax:
     content: public static void isValidCountryCode(String countryCode)
     parameters:
     - id: countryCode
       type: "26831127"
+      description: <p>The country code to validate. </p>
 - uid: com.microsoft.store.partnercenter.utils._parameter_validator.isValidUriQueryValue(String,String)
   id: isValidUriQueryValue(String,String)
   parent: com.microsoft.store.partnercenter.utils._parameter_validator

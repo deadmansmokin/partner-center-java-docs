@@ -42,13 +42,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/countryvalidationrules/ICountryValidationRulesCollection.java
     startLine: 24
   package: com.microsoft.store.partnercenter.countryvalidationrules
+  summary: >-
+    <p>Obtains behavior for a specific country's validation rules.</p>
+
+    <p></p>
   syntax:
     content: public ICountryValidationRules byCountry(String country)
     parameters:
     - id: country
       type: "26831127"
+      description: <p>The country's ISO2 code. </p>
     return:
       type: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules
+      description: <p>The country validation rules operations. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_country_selector.byCountry(String)
 references:
 - uid: "26831127"
@@ -132,6 +138,7 @@ references:
   nameWithType: ICountryValidationRules
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules
   type: Interface
+  summary: <p>Represents the behavior of a specific country validation rules. </p>
   syntax:
     content: public interface ICountryValidationRules extends IPartnerComponentString,IEntityGetOperations<CountryValidationRules>
 - uid: com.microsoft.store.partnercenter.genericoperations._i_country_selector.byCountry(String)
@@ -141,13 +148,19 @@ references:
   nameWithType: ICountrySelector<TOperations>.byCountry(String country)
   fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector<TOperations>.byCountry(String country)
   type: Method
+  summary: >-
+    <p>Customizes operations based on the given country.</p>
+
+    <p></p>
   syntax:
     content: public TOperations byCountry(String country)
     parameters:
     - id: country
       type: "26831127"
+      description: <p>The country to be used by the returned operations.</p>
     return:
       type: a8070b06
+      description: <p>An operations interface customized for the provided country. </p>
 - uid: com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_collection_operations.byCountry(String)
   parent: com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_collection_operations
   href: com.microsoft.store.partnercenter.countryvalidationrules._country_validation_rules_collection_operations.yml
@@ -155,10 +168,16 @@ references:
   nameWithType: CountryValidationRulesCollectionOperations.byCountry(String country)
   fullName: com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations.byCountry(String country)
   type: Method
+  summary: >-
+    <p>Obtains a specific behavior for country validation rules.</p>
+
+    <p></p>
   syntax:
     content: public ICountryValidationRules byCountry(String country)
     parameters:
     - id: country
       type: "26831127"
+      description: <p>The country </p>
     return:
       type: com.microsoft.store.partnercenter.countryvalidationrules._i_country_validation_rules
+      description: <p>The country validation rules operations </p>

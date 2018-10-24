@@ -5,11 +5,15 @@ items:
   parent: com.microsoft.store.partnercenter.models.customers
   children:
   - com.microsoft.store.partnercenter.models.customers._customer_company_profile.CustomerCompanyProfile()
+  - com.microsoft.store.partnercenter.models.customers._customer_company_profile.getAddress()
   - com.microsoft.store.partnercenter.models.customers._customer_company_profile.getCompanyName()
   - com.microsoft.store.partnercenter.models.customers._customer_company_profile.getDomain()
+  - com.microsoft.store.partnercenter.models.customers._customer_company_profile.getEmail()
   - com.microsoft.store.partnercenter.models.customers._customer_company_profile.getTenantId()
+  - com.microsoft.store.partnercenter.models.customers._customer_company_profile.setAddress(Address)
   - com.microsoft.store.partnercenter.models.customers._customer_company_profile.setCompanyName(String)
   - com.microsoft.store.partnercenter.models.customers._customer_company_profile.setDomain(String)
+  - com.microsoft.store.partnercenter.models.customers._customer_company_profile.setEmail(String)
   - com.microsoft.store.partnercenter.models.customers._customer_company_profile.setTenantId(String)
   href: com.microsoft.store.partnercenter.models.customers._customer_company_profile.yml
   langs:
@@ -24,7 +28,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 14
+    startLine: 15
   package: com.microsoft.store.partnercenter.models.customers
   summary: <p>Customer company profile </p>
   syntax:
@@ -55,10 +59,36 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 17
+    startLine: 21
   package: com.microsoft.store.partnercenter.models.customers
+  summary: <p>Initializes a new instance of the CustomerCompanyProfile class. </p>
   syntax:
     content: public CustomerCompanyProfile()
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getAddress()
+  id: getAddress()
+  parent: com.microsoft.store.partnercenter.models.customers._customer_company_profile
+  href: com.microsoft.store.partnercenter.models.customers._customer_company_profile.yml
+  langs:
+  - java
+  name: getAddress()
+  nameWithType: CustomerCompanyProfile.getAddress()
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress()
+  overload: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getAddress*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
+    startLine: 32
+  package: com.microsoft.store.partnercenter.models.customers
+  summary: >-
+    <p>Gets the address of the customer.</p>
+
+    <p></p>
+  syntax:
+    content: public Address getAddress()
+    return:
+      type: com.microsoft.store.partnercenter.models._address
+      description: <p>The address of the customer. </p>
 - uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getCompanyName()
   id: getCompanyName()
   parent: com.microsoft.store.partnercenter.models.customers._customer_company_profile
@@ -73,7 +103,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 72
+    startLine: 54
   package: com.microsoft.store.partnercenter.models.customers
   summary: >-
     <p>Gets the name of the company.</p>
@@ -98,7 +128,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 50
+    startLine: 76
   package: com.microsoft.store.partnercenter.models.customers
   summary: >-
     <p>Gets the domain.</p>
@@ -109,6 +139,31 @@ items:
     return:
       type: "26831127"
       description: <p>The domain. </p>
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getEmail()
+  id: getEmail()
+  parent: com.microsoft.store.partnercenter.models.customers._customer_company_profile
+  href: com.microsoft.store.partnercenter.models.customers._customer_company_profile.yml
+  langs:
+  - java
+  name: getEmail()
+  nameWithType: CustomerCompanyProfile.getEmail()
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail()
+  overload: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getEmail*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
+    startLine: 98
+  package: com.microsoft.store.partnercenter.models.customers
+  summary: >-
+    <p>Gets the email address of the contact at the customer.</p>
+
+    <p></p>
+  syntax:
+    content: public String getEmail()
+    return:
+      type: "26831127"
+      description: <p>The name email address of the contact at the customer. </p>
 - uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getTenantId()
   id: getTenantId()
   parent: com.microsoft.store.partnercenter.models.customers._customer_company_profile
@@ -123,7 +178,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 28
+    startLine: 120
   package: com.microsoft.store.partnercenter.models.customers
   summary: >-
     <p>Gets the tenant identifier.</p>
@@ -134,6 +189,32 @@ items:
     return:
       type: "26831127"
       description: <p>The tenant identifier. </p>
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setAddress(Address)
+  id: setAddress(Address)
+  parent: com.microsoft.store.partnercenter.models.customers._customer_company_profile
+  href: com.microsoft.store.partnercenter.models.customers._customer_company_profile.yml
+  langs:
+  - java
+  name: setAddress(Address value)
+  nameWithType: CustomerCompanyProfile.setAddress(Address value)
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress(Address value)
+  overload: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setAddress*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
+    startLine: 42
+  package: com.microsoft.store.partnercenter.models.customers
+  summary: >-
+    <p>Sets the address of the customer.</p>
+
+    <p></p>
+  syntax:
+    content: public void setAddress(Address value)
+    parameters:
+    - id: value
+      type: com.microsoft.store.partnercenter.models._address
+      description: <p>The address of the customer. </p>
 - uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setCompanyName(String)
   id: setCompanyName(String)
   parent: com.microsoft.store.partnercenter.models.customers._customer_company_profile
@@ -148,7 +229,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 82
+    startLine: 64
   package: com.microsoft.store.partnercenter.models.customers
   summary: >-
     <p>Sets the name of the company.</p>
@@ -174,7 +255,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 60
+    startLine: 86
   package: com.microsoft.store.partnercenter.models.customers
   summary: >-
     <p>Sets the domain.</p>
@@ -186,6 +267,32 @@ items:
     - id: value
       type: "26831127"
       description: <p>The domain. </p>
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setEmail(String)
+  id: setEmail(String)
+  parent: com.microsoft.store.partnercenter.models.customers._customer_company_profile
+  href: com.microsoft.store.partnercenter.models.customers._customer_company_profile.yml
+  langs:
+  - java
+  name: setEmail(String value)
+  nameWithType: CustomerCompanyProfile.setEmail(String value)
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail(String value)
+  overload: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setEmail*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
+    startLine: 108
+  package: com.microsoft.store.partnercenter.models.customers
+  summary: >-
+    <p>Sets the email address of the contact at the customer.</p>
+
+    <p></p>
+  syntax:
+    content: public void setEmail(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>The email address of the contact at the customer. </p>
 - uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setTenantId(String)
   id: setTenantId(String)
   parent: com.microsoft.store.partnercenter.models.customers._customer_company_profile
@@ -200,7 +307,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 38
+    startLine: 130
   package: com.microsoft.store.partnercenter.models.customers
   summary: >-
     <p>Sets the tenant identifier.</p>
@@ -218,19 +325,29 @@ references:
   nameWithType: CustomerCompanyProfile.CustomerCompanyProfile
   fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile
   package: com.microsoft.store.partnercenter.models.customers
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getAddress*
+  name: getAddress
+  nameWithType: CustomerCompanyProfile.getAddress
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress
+  package: com.microsoft.store.partnercenter.models.customers
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setAddress*
+  name: setAddress
+  nameWithType: CustomerCompanyProfile.setAddress
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress
+  package: com.microsoft.store.partnercenter.models.customers
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
-- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getTenantId*
-  name: getTenantId
-  nameWithType: CustomerCompanyProfile.getTenantId
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getCompanyName*
+  name: getCompanyName
+  nameWithType: CustomerCompanyProfile.getCompanyName
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName
   package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setTenantId*
-  name: setTenantId
-  nameWithType: CustomerCompanyProfile.setTenantId
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setCompanyName*
+  name: setCompanyName
+  nameWithType: CustomerCompanyProfile.setCompanyName
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName
   package: com.microsoft.store.partnercenter.models.customers
 - uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getDomain*
   name: getDomain
@@ -242,15 +359,25 @@ references:
   nameWithType: CustomerCompanyProfile.setDomain
   fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain
   package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getCompanyName*
-  name: getCompanyName
-  nameWithType: CustomerCompanyProfile.getCompanyName
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getEmail*
+  name: getEmail
+  nameWithType: CustomerCompanyProfile.getEmail
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail
   package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setCompanyName*
-  name: setCompanyName
-  nameWithType: CustomerCompanyProfile.setCompanyName
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setEmail*
+  name: setEmail
+  nameWithType: CustomerCompanyProfile.setEmail
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail
+  package: com.microsoft.store.partnercenter.models.customers
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.getTenantId*
+  name: getTenantId
+  nameWithType: CustomerCompanyProfile.getTenantId
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId
+  package: com.microsoft.store.partnercenter.models.customers
+- uid: com.microsoft.store.partnercenter.models.customers._customer_company_profile.setTenantId*
+  name: setTenantId
+  nameWithType: CustomerCompanyProfile.setTenantId
+  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId
   package: com.microsoft.store.partnercenter.models.customers
 - uid: com.microsoft.store.partnercenter.models._resource_base.getAttributes()
   parent: com.microsoft.store.partnercenter.models._resource_base
@@ -368,3 +495,13 @@ references:
     typeParameters:
     - id: TLinks
       type: 694adf1c
+- uid: com.microsoft.store.partnercenter.models._address
+  parent: com.microsoft.store.partnercenter.models
+  href: com.microsoft.store.partnercenter.models._address.yml
+  name: Address
+  nameWithType: Address
+  fullName: com.microsoft.store.partnercenter.models.Address
+  type: Class
+  summary: <p>Represents Customer or partner's address </p>
+  syntax:
+    content: public class Address

@@ -22,7 +22,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java
-    startLine: 25
+    startLine: 22
   package: com.microsoft.store.partnercenter.offers
   summary: <p>Offer Collection operations implementation. </p>
   syntax:
@@ -53,15 +53,18 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java
-    startLine: 105
+    startLine: 104
   package: com.microsoft.store.partnercenter.offers
+  summary: <p>Retrieves the operations that can be applied on offers the belong to an offer category. </p>
   syntax:
     content: public ICategoryOffersCollection byCategory(String categoryId)
     parameters:
     - id: categoryId
       type: "26831127"
+      description: <p>The offer category Id. </p>
     return:
       type: com.microsoft.store.partnercenter.offers._i_category_offers_collection
+      description: <p>The category offers operations. </p>
   overridden: com.microsoft.store.partnercenter.offers._i_offer_collection.byCategory(String)
 - uid: com.microsoft.store.partnercenter.offers._offer_collection_operations.byId(String)
   id: byId(String)
@@ -77,7 +80,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java
-    startLine: 49
+    startLine: 46
   package: com.microsoft.store.partnercenter.offers
   summary: >-
     <p>Retrieves the operations tied with a specific offer.</p>
@@ -107,7 +110,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java
-    startLine: 60
+    startLine: 57
   package: com.microsoft.store.partnercenter.offers
   summary: >-
     <p>Retrieves all the offers for the provided country.</p>
@@ -133,7 +136,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java
-    startLine: 82
+    startLine: 80
   package: com.microsoft.store.partnercenter.offers
   summary: >-
     <p>Retrieves all the offers for the provided country.</p>
@@ -166,7 +169,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/offers/OfferCollectionOperations.java
-    startLine: 35
+    startLine: 32
   package: com.microsoft.store.partnercenter.offers
   summary: >-
     <p>Initializes a new instance of the OfferCollectionOperations class.</p>
@@ -483,10 +486,16 @@ references:
   nameWithType: IOfferCollection.byCategory(String categoryId)
   fullName: com.microsoft.store.partnercenter.offers.IOfferCollection.byCategory(String categoryId)
   type: Method
+  summary: >-
+    <p>Retrieves the operations that can be applied on offers that belong to an offer category.</p>
+
+    <p></p>
   syntax:
     content: public ICategoryOffersCollection byCategory(String categoryId)
     parameters:
     - id: categoryId
       type: "26831127"
+      description: <p>The offer category identifier.</p>
     return:
       type: com.microsoft.store.partnercenter.offers._i_category_offers_collection
+      description: <p>The category offers operations. </p>

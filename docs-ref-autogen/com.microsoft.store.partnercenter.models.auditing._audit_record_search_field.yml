@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/auditing/AuditRecordSearchField.java
     startLine: 13
   package: com.microsoft.store.partnercenter.models.auditing
+  summary: <p>Lists the supported audit search fields. </p>
   syntax:
     content: public enum AuditRecordSearchField
   inheritance:
@@ -40,6 +41,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/auditing/AuditRecordSearchField.java
     startLine: 17
   package: com.microsoft.store.partnercenter.models.auditing
+  summary: >-
+    <p>Customer company name.</p>
+
+    <p>Customer identifier (GUID).</p>
+
+    <p>Resource Type as defined in available Resource Types (Example: Order, Subscription). </p>
   syntax:
     content: >-
       public JsonProperty=("CompanyName")

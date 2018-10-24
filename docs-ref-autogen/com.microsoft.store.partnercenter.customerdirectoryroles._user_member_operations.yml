@@ -19,7 +19,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/UserMemberOperations.java
-    startLine: 26
+    startLine: 25
   package: com.microsoft.store.partnercenter.customerdirectoryroles
   summary: >-
     <p>Implementation of Member Operations</p>
@@ -49,9 +49,9 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/UserMemberOperations.java
-    startLine: 62
+    startLine: 60
   package: com.microsoft.store.partnercenter.customerdirectoryroles
-  summary: <p>Deletes an entity. </p>
+  summary: <p>Remove directory user member from directory role. </p>
   syntax:
     content: public void delete()
   overridden: com.microsoft.store.partnercenter.customerdirectoryroles._i_user_member.delete()
@@ -69,19 +69,27 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/UserMemberOperations.java
-    startLine: 39
+    startLine: 37
   package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: >-
+    <p>Initializes a new instance of the UserMemberOperations class.</p>
+
+    <p></p>
   syntax:
     content: public UserMemberOperations(IPartner rootPartnerOperations, String customerId, String roleId, String userId)
     parameters:
     - id: rootPartnerOperations
       type: com.microsoft.store.partnercenter._i_partner
+      description: <p>The partner operations instance. </p>
     - id: customerId
       type: "26831127"
+      description: <p>The customer identifier. </p>
     - id: roleId
       type: "26831127"
+      description: <p>The directory role identifier. </p>
     - id: userId
       type: "26831127"
+      description: <p>The user identifier. </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -189,6 +197,6 @@ references:
   nameWithType: IUserMember.delete()
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete()
   type: Method
-  summary: <p>Deletes an entity. </p>
+  summary: <p>Remove directory user member from directory role. </p>
   syntax:
     content: public void delete()

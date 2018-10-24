@@ -55,13 +55,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchCollectionOperations.java
     startLine: 50
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Retrieves a specific customer devices batch behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDevicesBatch byId(String deviceBatchId)
     parameters:
     - id: deviceBatchId
       type: "26831127"
+      description: <p>The devices batch identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch
+      description: <p>The devices batch behavior. </p>
   overridden: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection.byId(String)
 - uid: com.microsoft.store.partnercenter.devicesdeployment._devices_batch_collection_operations.create(DeviceBatchCreationRequest)
   id: create(DeviceBatchCreationRequest)
@@ -79,13 +85,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchCollectionOperations.java
     startLine: 61
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Creates a new devices batch along with the devices.</p>
+
+    <p></p>
   syntax:
     content: public String create(DeviceBatchCreationRequest newDeviceBatch)
     parameters:
     - id: newDeviceBatch
       type: com.microsoft.store.partnercenter.models.devicesdeployment._device_batch_creation_request
+      description: <p>The new devices batch. </p>
     return:
       type: "26831127"
+      description: <p>The location which indicates the URL of the API to query for status of the create request. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._devices_batch_collection_operations.DevicesBatchCollectionOperations(IPartner,String)
   id: DevicesBatchCollectionOperations(IPartner,String)
   parent: com.microsoft.store.partnercenter.devicesdeployment._devices_batch_collection_operations
@@ -129,17 +141,17 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/DevicesBatchCollectionOperations.java
-    startLine: 80
+    startLine: 81
   package: com.microsoft.store.partnercenter.devicesdeployment
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all devices batches.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<DeviceBatch> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.devicesdeployment._device_batcha08ddfce
-      description: <p>The entities. </p>
+      description: <p>All of the device batches. </p>
   overridden: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection.get()
 references:
 - uid: "26831127"
@@ -338,6 +350,7 @@ references:
   nameWithType: IDevicesBatchCollection
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices batches. </p>
   syntax:
     content: public interface IDevicesBatchCollection
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -357,6 +370,7 @@ references:
   nameWithType: IDevicesBatch
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's devices batches. </p>
   syntax:
     content: public interface IDevicesBatch
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection.byId(String)
@@ -366,13 +380,19 @@ references:
   nameWithType: IDevicesBatchCollection.byId(String deviceBatchId)
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId(String deviceBatchId)
   type: Method
+  summary: >-
+    <p>Retrieves a specific customer devices batch behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDevicesBatch byId(String deviceBatchId)
     parameters:
     - id: deviceBatchId
       type: "26831127"
+      description: <p>The devices batch id </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch
+      description: <p>The devices batch behavior. </p>
 - uid: com.microsoft.store.partnercenter.models.devicesdeployment._device_batch_creation_request
   parent: com.microsoft.store.partnercenter.models.devicesdeployment
   href: com.microsoft.store.partnercenter.models.devicesdeployment._device_batch_creation_request.yml
@@ -380,6 +400,7 @@ references:
   nameWithType: DeviceBatchCreationRequest
   fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest
   type: Class
+  summary: <p>Represents a devices batch creation model. </p>
   syntax:
     content: public class DeviceBatchCreationRequest extends ResourceBase
 - uid: com.microsoft.store.partnercenter.models._resource_collection
@@ -402,6 +423,7 @@ references:
   nameWithType: DeviceBatch
   fullName: com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch
   type: Class
+  summary: <p>Represents a devices batch associated with a customer. </p>
   syntax:
     content: public class DeviceBatch extends StandardResourceLinks
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_devices_batch_collection.get()
@@ -412,11 +434,11 @@ references:
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all devices batches.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<DeviceBatch> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.devicesdeployment._device_batcha08ddfce
-      description: <p>The entities. </p>
+      description: <p>All of the device batches. </p>

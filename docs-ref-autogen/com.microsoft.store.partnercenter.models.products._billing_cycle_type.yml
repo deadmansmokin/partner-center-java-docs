@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/products/BillingCycleType.java
     startLine: 13
   package: com.microsoft.store.partnercenter.models.products
+  summary: <p>Types of Participants </p>
   syntax:
     content: public enum BillingCycleType
   inheritance:
@@ -40,6 +41,16 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/products/BillingCycleType.java
     startLine: 17
   package: com.microsoft.store.partnercenter.models.products
+  summary: >-
+    <p>Default value if not known</p>
+
+    <p>Indicates that the partner will be charged monthly.</p>
+
+    <p>Indicates that the partner will be charged annuallu.</p>
+
+    <p>Indicates that the partner will not be charged. This value is used for trial offers.</p>
+
+    <p>Indicates that the partner will be charged one time. This value is used for modern product SKUs. </p>
   syntax:
     content: >-
       public JsonProperty=("unknown")

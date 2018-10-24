@@ -177,6 +177,7 @@ references:
   nameWithType: IBatchJobStatus
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's device. </p>
   syntax:
     content: public interface IBatchJobStatus
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -196,6 +197,7 @@ references:
   nameWithType: BatchUploadDetails
   fullName: com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails
   type: Class
+  summary: <p>Represents the result of devices batch upload. </p>
   syntax:
     content: public class BatchUploadDetails
 - uid: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status.get()
@@ -206,11 +208,11 @@ references:
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves a specific customer devices batch upload status details.</p>
 
     <p></p>
   syntax:
     content: public BatchUploadDetails get()
     return:
       type: com.microsoft.store.partnercenter.models.devicesdeployment._batch_upload_details
-      description: <p>The entity. </p>
+      description: <p>The devices batch upload status details. </p>

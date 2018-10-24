@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/DeviceUploadStatusType.java
     startLine: 13
   package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: <p>Devices Batch upload status. </p>
   syntax:
     content: public enum DeviceUploadStatusType
   inheritance:
@@ -40,6 +41,16 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/devicesdeployment/DeviceUploadStatusType.java
     startLine: 17
   package: com.microsoft.store.partnercenter.models.devicesdeployment
+  summary: >-
+    <p>Should never happen.</p>
+
+    <p>Batch is queued.</p>
+
+    <p>Batch is processing.</p>
+
+    <p>Batch is complete.</p>
+
+    <p>Batch is complete with an error. </p>
   syntax:
     content: >-
       public JsonProperty=("unknown")

@@ -20,7 +20,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleCollectionOperations.java
-    startLine: 25
+    startLine: 24
   package: com.microsoft.store.partnercenter.customerdirectoryroles
   summary: <p>DirectoryRoleCollectionOperations </p>
   syntax:
@@ -51,15 +51,21 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleCollectionOperations.java
-    startLine: 52
+    startLine: 51
   package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: >-
+    <p>Gets a directory role operations object.</p>
+
+    <p></p>
   syntax:
     content: public IDirectoryRole byId(String roleId)
     parameters:
     - id: roleId
       type: "26831127"
+      description: <p>The directory role id. </p>
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role
+      description: <p>The directory role operations object. </p>
   overridden: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection.byId(String)
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations.DirectoryRoleCollectionOperations(IPartner,String)
   id: DirectoryRoleCollectionOperations(IPartner,String)
@@ -75,15 +81,21 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleCollectionOperations.java
-    startLine: 36
+    startLine: 35
   package: com.microsoft.store.partnercenter.customerdirectoryroles
+  summary: >-
+    <p>Initializes a new instance of the DirectoryRoleCollectionOperations class.</p>
+
+    <p></p>
   syntax:
     content: public DirectoryRoleCollectionOperations(IPartner rootPartnerOperations, String customerId)
     parameters:
     - id: rootPartnerOperations
       type: com.microsoft.store.partnercenter._i_partner
+      description: <p>The root partner operations instance. </p>
     - id: customerId
       type: "26831127"
+      description: <p>The customer identifier. </p>
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations.get()
   id: get()
   parent: com.microsoft.store.partnercenter.customerdirectoryroles._directory_role_collection_operations
@@ -98,17 +110,17 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerdirectoryroles/DirectoryRoleCollectionOperations.java
-    startLine: 63
+    startLine: 62
   package: com.microsoft.store.partnercenter.customerdirectoryroles
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all customer directory roles.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<DirectoryRole> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.roles._directory_rolea08ddfce
-      description: <p>The entities. </p>
+      description: <p>All the customer directory roles. </p>
   overridden: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection.get()
 references:
 - uid: "26831127"
@@ -312,13 +324,19 @@ references:
   nameWithType: IDirectoryRoleCollection.byId(String roleId)
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.byId(String roleId)
   type: Method
+  summary: >-
+    <p>Gets a directory role behavior.</p>
+
+    <p></p>
   syntax:
     content: public IDirectoryRole byId(String roleId)
     parameters:
     - id: roleId
       type: "26831127"
+      description: <p>The directory role identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role
+      description: <p>The directory role operations. </p>
 - uid: com.microsoft.store.partnercenter.models._resource_collection
   parent: com.microsoft.store.partnercenter.models
   href: com.microsoft.store.partnercenter.models._resource_collection.yml
@@ -339,6 +357,7 @@ references:
   nameWithType: DirectoryRole
   fullName: com.microsoft.store.partnercenter.models.roles.DirectoryRole
   type: Class
+  summary: <p>Represents a customer directory role object. </p>
   syntax:
     content: public class DirectoryRole extends ResourceBase
 - uid: com.microsoft.store.partnercenter.customerdirectoryroles._i_directory_role_collection.get()
@@ -348,12 +367,9 @@ references:
   nameWithType: IDirectoryRoleCollection.get()
   fullName: com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.get()
   type: Method
-  summary: >-
-    <p>Retrieves all entities.</p>
-
-    <p></p>
+  summary: <p>Retrieves all customer directory roles. </p>
   syntax:
     content: public ResourceCollection<DirectoryRole> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.roles._directory_rolea08ddfce
-      description: <p>The entities. </p>
+      description: <p>All the customer directory roles. </p>

@@ -83,6 +83,10 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerProductCollectionOperations.java
     startLine: 55
   package: com.microsoft.store.partnercenter.customers.products
+  summary: >-
+    <p>Retrieves the operations that can be applied on products in a given catalog view and that apply to a given customer.</p>
+
+    <p></p>
   syntax:
     content: public ICustomerProductCollectionByTargetView byTargetView(String targetView)
     parameters:
@@ -90,6 +94,7 @@ items:
       type: "26831127"
     return:
       type: com.microsoft.store.partnercenter.customers.products._i_customer_product_collection_by_target_view
+      description: <p>The catalog view operations by target view </p>
   overridden: com.microsoft.store.partnercenter.customers.products._i_customer_product_collection.byTargetView(String)
 - uid: com.microsoft.store.partnercenter.customers.products._customer_product_collection_operations.CustomerProductCollectionOperations(IPartner,String)
   id: CustomerProductCollectionOperations(IPartner,String)
@@ -338,10 +343,16 @@ references:
   nameWithType: ICustomerProductCollection.byTargetView(String targetView)
   fullName: com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection.byTargetView(String targetView)
   type: Method
+  summary: >-
+    <p>Retrieves the operations that can be applied on products in a given catalog view and that apply to a given customer.</p>
+
+    <p></p>
   syntax:
     content: public ICustomerProductCollectionByTargetView byTargetView(String targetView)
     parameters:
     - id: targetView
       type: "26831127"
+      description: <p>The product target view. </p>
     return:
       type: com.microsoft.store.partnercenter.customers.products._i_customer_product_collection_by_target_view
+      description: <p>The catalog view operations by target view </p>

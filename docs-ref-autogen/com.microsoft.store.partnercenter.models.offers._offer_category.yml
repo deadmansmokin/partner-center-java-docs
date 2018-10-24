@@ -4,7 +4,7 @@ items:
   id: _offer_category
   parent: com.microsoft.store.partnercenter.models.offers
   children:
-  - com.microsoft.store.partnercenter.models.offers._offer_category.equals(OfferCategory)
+  - com.microsoft.store.partnercenter.models.offers._offer_category.equals(Object)
   - com.microsoft.store.partnercenter.models.offers._offer_category.getCountry()
   - com.microsoft.store.partnercenter.models.offers._offer_category.getId()
   - com.microsoft.store.partnercenter.models.offers._offer_category.getLocale()
@@ -32,7 +32,7 @@ items:
     startLine: 14
   package: com.microsoft.store.partnercenter.models.offers
   summary: <p>Represents offer's category. Also contains the category ranking for priority over other offer categories for the same product line </p>
-  syntax: &o1
+  syntax:
     content: public class OfferCategory extends ResourceBase
   inheritance:
   - java.lang.Object
@@ -41,35 +41,35 @@ items:
   - com.microsoft.store.partnercenter.models._resource_base.getAttributes()
   - com.microsoft.store.partnercenter.models._resource_base.ResourceBase()
   - com.microsoft.store.partnercenter.models._resource_base.ResourceBase(String)
-- uid: com.microsoft.store.partnercenter.models.offers._offer_category.equals(OfferCategory)
-  id: equals(OfferCategory)
+- uid: com.microsoft.store.partnercenter.models.offers._offer_category.equals(Object)
+  id: equals(Object)
   parent: com.microsoft.store.partnercenter.models.offers._offer_category
   href: com.microsoft.store.partnercenter.models.offers._offer_category.yml
   langs:
   - java
-  name: equals(OfferCategory obj)
-  nameWithType: OfferCategory.equals(OfferCategory obj)
-  fullName: com.microsoft.store.partnercenter.models.offers.OfferCategory.equals(OfferCategory obj)
+  name: equals(Object obj)
+  nameWithType: OfferCategory.equals(Object obj)
+  fullName: com.microsoft.store.partnercenter.models.offers.OfferCategory.equals(Object obj)
   overload: com.microsoft.store.partnercenter.models.offers._offer_category.equals*
   type: Method
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/offers/OfferCategory.java
-    startLine: 100
+    startLine: 99
   package: com.microsoft.store.partnercenter.models.offers
   summary: >-
     <p>Determines whether the specified object, is equal to this instance.</p>
 
     <p></p>
   syntax:
-    content: public boolean equals(OfferCategory obj)
+    content: public boolean equals(Object obj)
     parameters:
     - id: obj
-      type: com.microsoft.store.partnercenter.models.offers._offer_category
+      type: "79317049"
       description: <p>The object to compare with this instance. </p>
     return:
       type: 4fc6e284
-      description: <p>true if the specified object is equal to this instance; otherwise, false.</p>
+      description: <p>true if the specified object is equal to this instance; otherwise, false. </p>
 - uid: com.microsoft.store.partnercenter.models.offers._offer_category.getCountry()
   id: getCountry()
   parent: com.microsoft.store.partnercenter.models.offers._offer_category
@@ -184,7 +184,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/models/offers/OfferCategory.java
-    startLine: 117
+    startLine: 123
   package: com.microsoft.store.partnercenter.models.offers
   summary: >-
     <p>Returns a hash code for this instance.</p>
@@ -359,6 +359,10 @@ references:
   nameWithType: OfferCategory.setCountry
   fullName: com.microsoft.store.partnercenter.models.offers.OfferCategory.setCountry
   package: com.microsoft.store.partnercenter.models.offers
+- uid: "79317049"
+  spec.java:
+  - name: Object
+    fullName: Object
 - uid: 4fc6e284
   spec.java:
   - name: boolean
@@ -426,12 +430,3 @@ references:
   summary: <p>Base class for resources </p>
   syntax:
     content: public class ResourceBase
-- uid: com.microsoft.store.partnercenter.models.offers._offer_category
-  parent: com.microsoft.store.partnercenter.models.offers
-  href: com.microsoft.store.partnercenter.models.offers._offer_category.yml
-  name: OfferCategory
-  nameWithType: OfferCategory
-  fullName: com.microsoft.store.partnercenter.models.offers.OfferCategory
-  type: Class
-  summary: <p>Represents offer's category. Also contains the category ranking for priority over other offer categories for the same product line </p>
-  syntax: *o1

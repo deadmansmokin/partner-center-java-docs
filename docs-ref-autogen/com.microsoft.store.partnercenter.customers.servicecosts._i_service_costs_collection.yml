@@ -43,10 +43,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/IServiceCostsCollection.java
     startLine: 22
   package: com.microsoft.store.partnercenter.customers.servicecosts
+  summary: >-
+    <p>Gets the customer's service cost line items.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostLineItemsCollection getLineItems()
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_line_items_collection
+      description: <p>The customer's service cost line items. </p>
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection.getSummary()
   id: getSummary()
   parent: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection
@@ -63,10 +68,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customers/servicecosts/IServiceCostsCollection.java
     startLine: 29
   package: com.microsoft.store.partnercenter.customers.servicecosts
+  summary: >-
+    <p>Gets the customer's service cost summary.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostSummary getSummary()
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary
+      description: <p>The customer's service cost summary. </p>
 references:
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._i_service_costs_collection.getLineItems*
   name: getLineItems
@@ -140,6 +150,7 @@ references:
   nameWithType: IServiceCostLineItemsCollection
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection
   type: Interface
+  summary: <p>Represents the behavior of the customer service cost line items as a whole. </p>
   syntax:
     content: public interface IServiceCostLineItemsCollection extends IPartnerComponent<Tuple<String, String>>,IEntireEntityCollectionRetrievalOperations<ServiceCostLineItem, ResourceCollection<ServiceCostLineItem>>
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._service_costs_collection_operations.getLineItems()
@@ -149,10 +160,15 @@ references:
   nameWithType: ServiceCostsCollectionOperations.getLineItems()
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations.getLineItems()
   type: Method
+  summary: >-
+    <p>Gets the customer's service cost line items.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostLineItemsCollection getLineItems()
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_line_items_collection
+      description: <p>The customer's service cost line items. </p>
 - uid: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary
   parent: com.microsoft.store.partnercenter.customers.servicecosts
   href: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary.yml
@@ -170,7 +186,12 @@ references:
   nameWithType: ServiceCostsCollectionOperations.getSummary()
   fullName: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations.getSummary()
   type: Method
+  summary: >-
+    <p>Gets the customer's service cost summary.</p>
+
+    <p></p>
   syntax:
     content: public IServiceCostSummary getSummary()
     return:
       type: com.microsoft.store.partnercenter.customers.servicecosts._i_service_cost_summary
+      description: <p>The customer's service cost summary. </p>

@@ -74,15 +74,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/servicerequests/IServiceRequestCollection.java
     startLine: 35
   package: com.microsoft.store.partnercenter.servicerequests
-  summary: >-
-    <p>Retrieves all entities.</p>
-
-    <p></p>
+  summary: <p>Retrieves all service requests. </p>
   syntax:
     content: public ResourceCollection<ServiceRequest> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.servicerequests._service_requesta08ddfce
-      description: <p>The entities. </p>
+      description: <p>The service requests. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entire_entity_collection_retrieval_operations.get()
 - uid: com.microsoft.store.partnercenter.servicerequests._i_service_request_collection.query(IQuery)
   id: query(IQuery)
@@ -253,13 +250,16 @@ references:
   nameWithType: IEntitySelector<TEntity>.byId(String id)
   fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TEntity>.byId(String id)
   type: Method
+  summary: <p>Retrieves the behavior for an entity using the entity's identifier. </p>
   syntax:
     content: public TEntity byId(String id)
     parameters:
     - id: id
       type: "26831127"
+      description: <p>The entity's identifier. </p>
     return:
       type: 830f062c
+      description: <p>The entity's behavior. </p>
 - uid: com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations
   href: com.microsoft.store.partnercenter.servicerequests._customer_service_request_collection_operations.yml

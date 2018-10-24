@@ -45,14 +45,14 @@ items:
     startLine: 39
   package: com.microsoft.store.partnercenter.products
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the SKU information.</p>
 
     <p></p>
   syntax:
     content: public Sku get()
     return:
       type: com.microsoft.store.partnercenter.models.products._sku
-      description: <p>The entity. </p>
+      description: <p>The SKUs information. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
 - uid: com.microsoft.store.partnercenter.products._i_sku.getAvailabilities()
   id: getAvailabilities()
@@ -70,10 +70,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/products/ISku.java
     startLine: 25
   package: com.microsoft.store.partnercenter.products
+  summary: >-
+    <p>Retrieves the operations for the current SKU's availabilities.</p>
+
+    <p></p>
   syntax:
     content: public IAvailabilityCollection getAvailabilities()
     return:
       type: com.microsoft.store.partnercenter.products._i_availability_collection
+      description: <p>The operations for the current SKU's availabilities. </p>
 - uid: com.microsoft.store.partnercenter.products._i_sku.getDownloadOptions()
   id: getDownloadOptions()
   parent: com.microsoft.store.partnercenter.products._i_sku
@@ -90,10 +95,15 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/products/ISku.java
     startLine: 32
   package: com.microsoft.store.partnercenter.products
+  summary: >-
+    <p>Retrieves the operations for the current SKU's download options.</p>
+
+    <p></p>
   syntax:
     content: public ISkuDownloadOptions getDownloadOptions()
     return:
       type: com.microsoft.store.partnercenter.products._i_sku_download_options
+      description: <p>The operations for the current SKU's download options. </p>
 references:
 - uid: com.microsoft.store.partnercenter.products._i_sku.getAvailabilities*
   name: getAvailabilities
@@ -205,10 +215,15 @@ references:
   nameWithType: SkuOperations.getAvailabilities()
   fullName: com.microsoft.store.partnercenter.products.SkuOperations.getAvailabilities()
   type: Method
+  summary: >-
+    <p>Retrieves the operations for the current SKU's availabilities.</p>
+
+    <p></p>
   syntax:
     content: public IAvailabilityCollection getAvailabilities()
     return:
       type: com.microsoft.store.partnercenter.products._i_availability_collection
+      description: <p>The operations for the current SKU's availabilities. </p>
 - uid: com.microsoft.store.partnercenter.customers.products._customer_sku_operations.getAvailabilities()
   parent: com.microsoft.store.partnercenter.customers.products._customer_sku_operations
   href: com.microsoft.store.partnercenter.customers.products._customer_sku_operations.yml
@@ -216,10 +231,15 @@ references:
   nameWithType: CustomerSkuOperations.getAvailabilities()
   fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities()
   type: Method
+  summary: >-
+    <p>Retrieves the operations for the current SKU's availabilities.</p>
+
+    <p></p>
   syntax:
     content: public IAvailabilityCollection getAvailabilities()
     return:
       type: com.microsoft.store.partnercenter.products._i_availability_collection
+      description: <p>The operations for the current SKU's availabilities. </p>
 - uid: com.microsoft.store.partnercenter.products._i_sku_download_options
   parent: com.microsoft.store.partnercenter.products
   href: com.microsoft.store.partnercenter.products._i_sku_download_options.yml
@@ -237,10 +257,15 @@ references:
   nameWithType: SkuOperations.getDownloadOptions()
   fullName: com.microsoft.store.partnercenter.products.SkuOperations.getDownloadOptions()
   type: Method
+  summary: >-
+    <p>Retrieves the operations for the current SKU's download options.</p>
+
+    <p></p>
   syntax:
     content: public ISkuDownloadOptions getDownloadOptions()
     return:
       type: com.microsoft.store.partnercenter.products._i_sku_download_options
+      description: <p>The operations for the current SKU's download options. </p>
 - uid: com.microsoft.store.partnercenter.customers.products._customer_sku_operations.getDownloadOptions()
   parent: com.microsoft.store.partnercenter.customers.products._customer_sku_operations
   href: com.microsoft.store.partnercenter.customers.products._customer_sku_operations.yml
@@ -248,10 +273,15 @@ references:
   nameWithType: CustomerSkuOperations.getDownloadOptions()
   fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getDownloadOptions()
   type: Method
+  summary: >-
+    <p>Retrieves the operations for the current SKU's download options.</p>
+
+    <p></p>
   syntax:
     content: public ISkuDownloadOptions getDownloadOptions()
     return:
       type: com.microsoft.store.partnercenter.products._i_sku_download_options
+      description: <p>The operations for the current SKU's download options. </p>
 - uid: com.microsoft.store.partnercenter.models.products._sku
   parent: com.microsoft.store.partnercenter.models.products
   href: com.microsoft.store.partnercenter.models.products._sku.yml
@@ -286,14 +316,14 @@ references:
   fullName: com.microsoft.store.partnercenter.products.SkuOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the SKU information.</p>
 
     <p></p>
   syntax:
     content: public Sku get()
     return:
       type: com.microsoft.store.partnercenter.models.products._sku
-      description: <p>The entity. </p>
+      description: <p>The SKUs information. </p>
 - uid: com.microsoft.store.partnercenter.customers.products._customer_sku_operations.get()
   parent: com.microsoft.store.partnercenter.customers.products._customer_sku_operations
   href: com.microsoft.store.partnercenter.customers.products._customer_sku_operations.yml
@@ -302,11 +332,11 @@ references:
   fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the SKU information.</p>
 
     <p></p>
   syntax:
     content: public Sku get()
     return:
       type: com.microsoft.store.partnercenter.models.products._sku
-      description: <p>The entity. </p>
+      description: <p>The SKUs information. </p>

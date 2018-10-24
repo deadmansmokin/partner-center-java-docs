@@ -20,7 +20,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestOperations.java
-    startLine: 24
+    startLine: 23
   package: com.microsoft.store.partnercenter.servicerequests
   summary: <p>Implements operations that can be performed on a single customer's service requests. </p>
   syntax:
@@ -48,7 +48,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestOperations.java
-    startLine: 35
+    startLine: 34
   package: com.microsoft.store.partnercenter.servicerequests
   summary: >-
     <p>Initializes a new instance of the CustomerServiceRequestOperations class.</p>
@@ -80,7 +80,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestOperations.java
-    startLine: 57
+    startLine: 56
   package: com.microsoft.store.partnercenter.servicerequests
   summary: >-
     <p>Get Service Request By customer ID</p>
@@ -106,7 +106,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestOperations.java
-    startLine: 76
+    startLine: 78
   package: com.microsoft.store.partnercenter.servicerequests
   summary: >-
     <p>Patches a Service Request</p>
@@ -265,14 +265,14 @@ references:
   fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequest.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the service request.</p>
 
     <p></p>
   syntax:
     content: public ServiceRequest get()
     return:
       type: com.microsoft.store.partnercenter.models.servicerequests._service_request
-      description: <p>The entity. </p>
+      description: <p>The service request information. </p>
 - uid: com.microsoft.store.partnercenter.servicerequests._i_service_request.patch(ServiceRequest)
   parent: com.microsoft.store.partnercenter.servicerequests._i_service_request
   href: com.microsoft.store.partnercenter.servicerequests._i_service_request.yml
@@ -280,10 +280,16 @@ references:
   nameWithType: IServiceRequest.patch(ServiceRequest serviceRequest)
   fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequest.patch(ServiceRequest serviceRequest)
   type: Method
+  summary: >-
+    <p>Patches a service request.</p>
+
+    <p></p>
   syntax:
     content: public ServiceRequest patch(ServiceRequest serviceRequest)
     parameters:
     - id: serviceRequest
       type: com.microsoft.store.partnercenter.models.servicerequests._service_request
+      description: <p>The service request that has the properties to be patched set. </p>
     return:
       type: com.microsoft.store.partnercenter.models.servicerequests._service_request
+      description: <p>The updated service request. </p>

@@ -42,13 +42,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/serviceincidents/IServiceIncidentCollection.java
     startLine: 23
   package: com.microsoft.store.partnercenter.serviceincidents
+  summary: >-
+    <p>Retrieves all service incidents.</p>
+
+    <p></p>
   syntax:
     content: public ResourceCollection<ServiceIncidents> get(IQuery serviceIncidentsQuery)
     parameters:
     - id: serviceIncidentsQuery
       type: com.microsoft.store.partnercenter.models.query._i_query
+      description: <p>A query to retrieve service incidents based on the active status. </p>
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.serviceincidents._service_incidentsa08ddfce
+      description: <p>The list of service incidents. </p>
 references:
 - uid: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.serviceincidents._service_incidentsa08ddfce
   spec.java:
@@ -149,6 +155,7 @@ references:
   nameWithType: ServiceIncidentCollectionOperations
   fullName: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
   type: Class
+  summary: <p>Service incident collection operations implementation class. </p>
   syntax:
     content: public class ServiceIncidentCollectionOperations
 - uid: com.microsoft.store.partnercenter.models._resource_collection
@@ -171,6 +178,7 @@ references:
   nameWithType: ServiceIncidents
   fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents
   type: Class
+  summary: <p>Represents a service incident. </p>
   syntax:
     content: public class ServiceIncidents
 - uid: com.microsoft.store.partnercenter.serviceincidents._service_incident_collection_operations.get(IQuery)
@@ -180,13 +188,19 @@ references:
   nameWithType: ServiceIncidentCollectionOperations.get(IQuery serviceIncidentsQuery)
   fullName: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.get(IQuery serviceIncidentsQuery)
   type: Method
+  summary: >-
+    <p>Retrieves all service incidents.</p>
+
+    <p></p>
   syntax:
     content: public ResourceCollection<ServiceIncidents> get(IQuery serviceIncidentsQuery)
     parameters:
     - id: serviceIncidentsQuery
       type: com.microsoft.store.partnercenter.models.query._i_query
+      description: <p>A query to retrieve service incidents based on the active status. </p>
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.serviceincidents._service_incidentsa08ddfce
+      description: <p>The list of service incidents. </p>
 - uid: com.microsoft.store.partnercenter.models.query._i_query
   parent: com.microsoft.store.partnercenter.models.query
   href: com.microsoft.store.partnercenter.models.query._i_query.yml

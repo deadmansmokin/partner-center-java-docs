@@ -20,8 +20,9 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/qualification/CustomerQualificationOperations.java
-    startLine: 23
+    startLine: 22
   package: com.microsoft.store.partnercenter.qualification
+  summary: <p>This class implements the operations available on a customer's qualification. </p>
   syntax:
     content: public class CustomerQualificationOperations extends BasePartnerComponentString implements ICustomerQualification
   inheritance:
@@ -51,15 +52,21 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/qualification/CustomerQualificationOperations.java
-    startLine: 33
+    startLine: 32
   package: com.microsoft.store.partnercenter.qualification
+  summary: >-
+    <p>Initializes a new instance of the CustomerQualificationOperationsclass.</p>
+
+    <p></p>
   syntax:
     content: public CustomerQualificationOperations(IPartner rootPartnerOperations, String customerId)
     parameters:
     - id: rootPartnerOperations
       type: com.microsoft.store.partnercenter._i_partner
+      description: <p>The root partner operations instance. </p>
     - id: customerId
       type: "26831127"
+      description: <p>The customer identifier. </p>
 - uid: com.microsoft.store.partnercenter.qualification._customer_qualification_operations.get()
   id: get()
   parent: com.microsoft.store.partnercenter.qualification._customer_qualification_operations
@@ -74,17 +81,17 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/qualification/CustomerQualificationOperations.java
-    startLine: 49
+    startLine: 48
   package: com.microsoft.store.partnercenter.qualification
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Gets the customer qualification.</p>
 
     <p></p>
   syntax:
     content: public CustomerQualification get()
     return:
       type: com.microsoft.store.partnercenter.models.customers._customer_qualification
-      description: <p>The entity. </p>
+      description: <p>The customer qualification. </p>
   overridden: com.microsoft.store.partnercenter.qualification._i_customer_qualification.get()
 - uid: com.microsoft.store.partnercenter.qualification._customer_qualification_operations.update(CustomerQualification)
   id: update(CustomerQualification)
@@ -100,15 +107,21 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/qualification/CustomerQualificationOperations.java
-    startLine: 67
+    startLine: 66
   package: com.microsoft.store.partnercenter.qualification
+  summary: >-
+    <p>Updates the customer qualification.</p>
+
+    <p></p>
   syntax:
     content: public CustomerQualification update(CustomerQualification customerQualification)
     parameters:
     - id: customerQualification
       type: com.microsoft.store.partnercenter.models.customers._customer_qualification
+      description: <p>Customer qualification to be updated. </p>
     return:
       type: com.microsoft.store.partnercenter.models.customers._customer_qualification
+      description: <p>The updated customer qualification. </p>
   overridden: com.microsoft.store.partnercenter.qualification._i_customer_qualification.update(CustomerQualification)
 references:
 - uid: "26831127"
@@ -307,6 +320,7 @@ references:
   nameWithType: CustomerQualification
   fullName: com.microsoft.store.partnercenter.models.customers.CustomerQualification
   type: Enum
+  summary: <p>When a partner creates a new customer by default the customer is assigned "CustomerQualification.None". If the partner validates that the customer belongs to Education segment they can set the qualification of the Customer to "CustomerQualification.Education". This operation is irreversible and the partner will not be allowed to override the customer qualification once set. </p>
   syntax:
     content: public enum CustomerQualification
 - uid: com.microsoft.store.partnercenter.qualification._i_customer_qualification.get()
@@ -317,14 +331,14 @@ references:
   fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification.get()
   type: Method
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the customer qualification.</p>
 
     <p></p>
   syntax:
     content: public CustomerQualification get()
     return:
       type: com.microsoft.store.partnercenter.models.customers._customer_qualification
-      description: <p>The entity. </p>
+      description: <p>Customer Qualification. </p>
 - uid: com.microsoft.store.partnercenter.qualification._i_customer_qualification.update(CustomerQualification)
   parent: com.microsoft.store.partnercenter.qualification._i_customer_qualification
   href: com.microsoft.store.partnercenter.qualification._i_customer_qualification.yml
@@ -332,10 +346,16 @@ references:
   nameWithType: ICustomerQualification.update(CustomerQualification customerQualification)
   fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(CustomerQualification customerQualification)
   type: Method
+  summary: >-
+    <p>Updates the customer qualification.</p>
+
+    <p></p>
   syntax:
     content: public CustomerQualification update(CustomerQualification customerQualification)
     parameters:
     - id: customerQualification
       type: com.microsoft.store.partnercenter.models.customers._customer_qualification
+      description: <p>Customer Qualification. </p>
     return:
       type: com.microsoft.store.partnercenter.models.customers._customer_qualification
+      description: <p>The updated customer qualification. </p>

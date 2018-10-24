@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customers/profiles/ICustomerReadonlyProfile.java
     startLine: 16
   package: com.microsoft.store.partnercenter.customers.profiles
+  summary: <p>Encapsulates a single customer read-only profile behavior. </p>
   syntax:
     content: public interface ICustomerReadonlyProfile<T extends ResourceBase> extends IPartnerComponentString,IEntityGetOperations<T>
     typeParameters:
@@ -44,15 +45,12 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/customers/profiles/ICustomerReadonlyProfile.java
     startLine: 23
   package: com.microsoft.store.partnercenter.customers.profiles
-  summary: >-
-    <p>Retrieves an entity.</p>
-
-    <p></p>
+  summary: <p>Retrieves the customer profile. </p>
   syntax:
     content: public T get()
     return:
       type: 8ce1ecb9
-      description: <p>The entity. </p>
+      description: <p>The customer profile. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
 references:
 - uid: 8ce1ecb9

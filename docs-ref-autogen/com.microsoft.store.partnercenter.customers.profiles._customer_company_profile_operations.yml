@@ -6,7 +6,6 @@ items:
   children:
   - com.microsoft.store.partnercenter.customers.profiles._customer_company_profile_operations.CustomerCompanyProfileOperations(IPartner,String)
   - com.microsoft.store.partnercenter.customers.profiles._customer_company_profile_operations.get()
-  - com.microsoft.store.partnercenter.customers.profiles._customer_company_profile_operations.update(CustomerCompanyProfile)
   href: com.microsoft.store.partnercenter.customers.profiles._customer_company_profile_operations.yml
   langs:
   - java
@@ -20,7 +19,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/customers/profiles/CustomerCompanyProfileOperations.java
-    startLine: 22
+    startLine: 21
   package: com.microsoft.store.partnercenter.customers.profiles
   summary: <p>Implements the customer company profile operations. </p>
   syntax:
@@ -49,7 +48,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/profiles/CustomerCompanyProfileOperations.java
-    startLine: 32
+    startLine: 31
   package: com.microsoft.store.partnercenter.customers.profiles
   summary: >-
     <p>Initializes a new instance of the CustomerCompanyProfileOperations class.</p>
@@ -78,7 +77,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customers/profiles/CustomerCompanyProfileOperations.java
-    startLine: 48
+    startLine: 46
   package: com.microsoft.store.partnercenter.customers.profiles
   summary: >-
     <p>Gets the customer's company profile.</p>
@@ -89,35 +88,6 @@ items:
     return:
       type: com.microsoft.store.partnercenter.models.customers._customer_company_profile
       description: <p>The customer's company profile. </p>
-- uid: com.microsoft.store.partnercenter.customers.profiles._customer_company_profile_operations.update(CustomerCompanyProfile)
-  id: update(CustomerCompanyProfile)
-  parent: com.microsoft.store.partnercenter.customers.profiles._customer_company_profile_operations
-  href: com.microsoft.store.partnercenter.customers.profiles._customer_company_profile_operations.yml
-  langs:
-  - java
-  name: update(CustomerCompanyProfile companyProfile)
-  nameWithType: CustomerCompanyProfileOperations.update(CustomerCompanyProfile companyProfile)
-  fullName: com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations.update(CustomerCompanyProfile companyProfile)
-  overload: com.microsoft.store.partnercenter.customers.profiles._customer_company_profile_operations.update*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/customers/profiles/CustomerCompanyProfileOperations.java
-    startLine: 65
-  package: com.microsoft.store.partnercenter.customers.profiles
-  summary: >-
-    <p>Updates the customer's company profile.</p>
-
-    <p></p>
-  syntax:
-    content: public CustomerCompanyProfile update(CustomerCompanyProfile companyProfile)
-    parameters:
-    - id: companyProfile
-      type: com.microsoft.store.partnercenter.models.customers._customer_company_profile
-      description: <p>A customer company profile with updated fields. </p>
-    return:
-      type: com.microsoft.store.partnercenter.models.customers._customer_company_profile
-      description: <p>The updated customer company profile. </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -132,11 +102,6 @@ references:
   name: get
   nameWithType: CustomerCompanyProfileOperations.get
   fullName: com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations.get
-  package: com.microsoft.store.partnercenter.customers.profiles
-- uid: com.microsoft.store.partnercenter.customers.profiles._customer_company_profile_operations.update*
-  name: update
-  nameWithType: CustomerCompanyProfileOperations.update
-  fullName: com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations.update
   package: com.microsoft.store.partnercenter.customers.profiles
 - uid: com.microsoft.store.partnercenter._base_partner_component.BasePartnerComponent(IPartner,TContext)
   parent: com.microsoft.store.partnercenter._base_partner_component
@@ -244,6 +209,7 @@ references:
   nameWithType: ICustomerReadonlyProfile<T>
   fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>
   type: Interface
+  summary: <p>Encapsulates a single customer read-only profile behavior. </p>
   syntax:
     content: public interface ICustomerReadonlyProfile<T extends ResourceBase>
     typeParameters:

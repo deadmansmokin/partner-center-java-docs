@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/carts/ICart.java
     startLine: 18
   package: com.microsoft.store.partnercenter.carts
+  summary: <p>Encapsulates a customer cart behavior. </p>
   syntax:
     content: public interface ICart extends IPartnerComponent<Tuple<String, String>>,IEntityPutOperations<Cart>,IEntityGetOperations<Cart>
   inheritedMembers:
@@ -182,6 +183,7 @@ references:
   nameWithType: CartCheckoutResult
   fullName: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
   type: Class
+  summary: <p>Represents a result of a cart checkout. </p>
   syntax:
     content: public class CartCheckoutResult extends ResourceBase
 - uid: com.microsoft.store.partnercenter.carts._cart_operations.checkout()

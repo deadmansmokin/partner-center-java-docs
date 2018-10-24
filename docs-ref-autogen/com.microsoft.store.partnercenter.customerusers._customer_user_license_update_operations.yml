@@ -19,7 +19,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUserLicenseUpdateOperations.java
-    startLine: 21
+    startLine: 20
   package: com.microsoft.store.partnercenter.customerusers
   syntax:
     content: public class CustomerUserLicenseUpdateOperations extends BasePartnerComponent<Tuple<String, String>> implements ICustomerUserLicenseUpdates
@@ -46,7 +46,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUserLicenseUpdateOperations.java
-    startLine: 56
+    startLine: 55
   package: com.microsoft.store.partnercenter.customerusers
   summary: >-
     <p>Assign licenses to a user. This method serves three scenarios: 1. Add license to a customer user. 2. Remove license from a customer user. 3. Update existing license for a customer user.</p>
@@ -76,7 +76,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/customerusers/CustomerUserLicenseUpdateOperations.java
-    startLine: 32
+    startLine: 31
   package: com.microsoft.store.partnercenter.customerusers
   summary: >-
     <p>Initializes a new instance of the CustomerUserLicenseUpdateOperations class.</p>
@@ -221,6 +221,7 @@ references:
   nameWithType: LicenseUpdate
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
   type: Class
+  summary: <p>Model for assigning and removing licenses to user. </p>
   syntax:
     content: public class LicenseUpdate
 - uid: com.microsoft.store.partnercenter.customerusers._i_customer_user_license_updates.create(LicenseUpdate)

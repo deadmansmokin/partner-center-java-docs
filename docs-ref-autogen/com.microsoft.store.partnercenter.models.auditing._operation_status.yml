@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationStatus.java
     startLine: 13
   package: com.microsoft.store.partnercenter.models.auditing
+  summary: <p>Represents status of an operation </p>
   syntax:
     content: public enum OperationStatus
   inheritance:
@@ -40,6 +41,14 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/models/auditing/OperationStatus.java
     startLine: 17
   package: com.microsoft.store.partnercenter.models.auditing
+  summary: >-
+    <p>Indicates success of the operation</p>
+
+    <p>Indicates failure of the operation</p>
+
+    <p>Indicates that the operation is still in progress</p>
+
+    <p>Indicates that the operation is declined </p>
   syntax:
     content: >-
       public JsonProperty=("succeeded")

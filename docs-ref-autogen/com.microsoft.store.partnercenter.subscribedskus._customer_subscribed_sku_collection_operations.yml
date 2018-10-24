@@ -20,7 +20,7 @@ items:
       branch: master
       repo: https://github.com/microsoft/Partner-Center-Java
     path: src/main/java/com/microsoft/store/partnercenter/subscribedskus/CustomerSubscribedSkuCollectionOperations.java
-    startLine: 24
+    startLine: 23
   package: com.microsoft.store.partnercenter.subscribedskus
   syntax:
     content: public class CustomerSubscribedSkuCollectionOperations extends BasePartnerComponent<String> implements ICustomerSubscribedSkuCollection
@@ -48,7 +48,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscribedskus/CustomerSubscribedSkuCollectionOperations.java
-    startLine: 34
+    startLine: 33
   package: com.microsoft.store.partnercenter.subscribedskus
   summary: >-
     <p>Initializes a new instance of the CustomerSubscribedSkuCollectionOperations class.</p>
@@ -77,7 +77,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscribedskus/CustomerSubscribedSkuCollectionOperations.java
-    startLine: 48
+    startLine: 47
   package: com.microsoft.store.partnercenter.subscribedskus
   summary: >-
     <p>Retrieves all the customer subscribed products.</p>
@@ -103,15 +103,21 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/store/partnercenter/subscribedskus/CustomerSubscribedSkuCollectionOperations.java
-    startLine: 65
+    startLine: 64
   package: com.microsoft.store.partnercenter.subscribedskus
+  summary: >-
+    <p>Retrieves all the customer subscribed products.</p>
+
+    <p></p>
   syntax:
     content: public ResourceCollection<SubscribedSku> get(List<LicenseGroupId> licenseGroupIds)
     parameters:
     - id: licenseGroupIds
       type: 5618da2dcom.microsoft.store.partnercenter.models.licenses._license_group_ida08ddfce
+      description: <p>group identifiers. </p>
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.licenses._subscribed_skua08ddfce
+      description: <p>All the customer subscribed products. </p>
   overridden: com.microsoft.store.partnercenter.subscribedskus._i_customer_subscribed_sku_collection.get(List<LicenseGroupId>)
 references:
 - uid: "26831127"
@@ -256,6 +262,7 @@ references:
   nameWithType: ICustomerSubscribedSkuCollection
   fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection
   type: Interface
+  summary: <p>Represents the behavior of the customers users </p>
   syntax:
     content: public interface ICustomerSubscribedSkuCollection
 - uid: com.microsoft.store.partnercenter._i_partner
@@ -288,6 +295,7 @@ references:
   nameWithType: SubscribedSku
   fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
   type: Class
+  summary: <p>Model for subscribed products owned by a tenant. </p>
   syntax:
     content: public class SubscribedSku
 - uid: com.microsoft.store.partnercenter.subscribedskus._i_customer_subscribed_sku_collection.get()
@@ -298,14 +306,14 @@ references:
   fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get()
   type: Method
   summary: >-
-    <p>Retrieves all entities.</p>
+    <p>Retrieves all the customer subscribed products.</p>
 
     <p></p>
   syntax:
     content: public ResourceCollection<SubscribedSku> get()
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.licenses._subscribed_skua08ddfce
-      description: <p>The entities. </p>
+      description: <p>All the customer subscribed products. </p>
 - uid: com.microsoft.store.partnercenter.subscribedskus._i_customer_subscribed_sku_collection.get(List<LicenseGroupId>)
   parent: com.microsoft.store.partnercenter.subscribedskus._i_customer_subscribed_sku_collection
   href: com.microsoft.store.partnercenter.subscribedskus._i_customer_subscribed_sku_collection.yml
@@ -313,13 +321,19 @@ references:
   nameWithType: ICustomerSubscribedSkuCollection.get(List<LicenseGroupId> licenseGroupIds)
   fullName: com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get(List<LicenseGroupId> licenseGroupIds)
   type: Method
+  summary: >-
+    <p>Retrieves all the customer subscribed products.</p>
+
+    <p></p>
   syntax:
     content: public ResourceCollection<SubscribedSku> get(List<LicenseGroupId> licenseGroupIds)
     parameters:
     - id: licenseGroupIds
       type: 5618da2dcom.microsoft.store.partnercenter.models.licenses._license_group_ida08ddfce
+      description: <p>group identifiers. </p>
     return:
       type: com.microsoft.store.partnercenter.models._resource_collection78504a52com.microsoft.store.partnercenter.models.licenses._subscribed_skua08ddfce
+      description: <p>All the customer subscribed products. </p>
 - uid: com.microsoft.store.partnercenter.models.licenses._license_group_id
   parent: com.microsoft.store.partnercenter.models.licenses
   href: com.microsoft.store.partnercenter.models.licenses._license_group_id.yml
@@ -327,5 +341,6 @@ references:
   nameWithType: LicenseGroupId
   fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
   type: Enum
+  summary: <p>License Group Id. </p>
   syntax:
     content: public enum LicenseGroupId

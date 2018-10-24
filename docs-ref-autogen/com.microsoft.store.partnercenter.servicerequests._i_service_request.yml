@@ -45,14 +45,14 @@ items:
     startLine: 26
   package: com.microsoft.store.partnercenter.servicerequests
   summary: >-
-    <p>Retrieves an entity.</p>
+    <p>Retrieves the service request.</p>
 
     <p></p>
   syntax:
     content: public ServiceRequest get()
     return:
       type: com.microsoft.store.partnercenter.models.servicerequests._service_request
-      description: <p>The entity. </p>
+      description: <p>The service request information. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_get_operations.get()
 - uid: com.microsoft.store.partnercenter.servicerequests._i_service_request.patch(ServiceRequest)
   id: patch(ServiceRequest)
@@ -70,13 +70,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/servicerequests/IServiceRequest.java
     startLine: 34
   package: com.microsoft.store.partnercenter.servicerequests
+  summary: >-
+    <p>Patches a service request.</p>
+
+    <p></p>
   syntax:
     content: public ServiceRequest patch(ServiceRequest serviceRequest)
     parameters:
     - id: serviceRequest
       type: com.microsoft.store.partnercenter.models.servicerequests._service_request
+      description: <p>The service request that has the properties to be patched set. </p>
     return:
       type: com.microsoft.store.partnercenter.models.servicerequests._service_request
+      description: <p>The updated service request. </p>
 references:
 - uid: com.microsoft.store.partnercenter.servicerequests._i_service_request.get*
   name: get

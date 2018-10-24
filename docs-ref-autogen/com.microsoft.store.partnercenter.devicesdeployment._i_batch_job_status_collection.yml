@@ -20,6 +20,7 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IBatchJobStatusCollection.java
     startLine: 14
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: <p>Represents the operations that can be done on the partner's batch upload status collection. </p>
   syntax:
     content: public interface IBatchJobStatusCollection extends IPartnerComponentString,IEntitySelector<IBatchJobStatus>
   inheritedMembers:
@@ -41,13 +42,19 @@ items:
     path: src/main/java/com/microsoft/store/partnercenter/devicesdeployment/IBatchJobStatusCollection.java
     startLine: 24
   package: com.microsoft.store.partnercenter.devicesdeployment
+  summary: >-
+    <p>Retrieves a specific customer's devices batch upload status behavior.</p>
+
+    <p></p>
   syntax:
     content: public IBatchJobStatus byId(String trackingId)
     parameters:
     - id: trackingId
       type: "26831127"
+      description: <p>The tracking identifier. </p>
     return:
       type: com.microsoft.store.partnercenter.devicesdeployment._i_batch_job_status
+      description: <p>The customer's devices batch upload status operations. </p>
   overridden: com.microsoft.store.partnercenter.genericoperations._i_entity_selector.byId(String)
 references:
 - uid: "26831127"
@@ -130,6 +137,7 @@ references:
   nameWithType: IBatchJobStatus
   fullName: com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus
   type: Interface
+  summary: <p>Represents the operations that can be done on the partner's device. </p>
   syntax:
     content: public interface IBatchJobStatus extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<BatchUploadDetails>
 - uid: com.microsoft.store.partnercenter.genericoperations._i_entity_selector.byId(String)
@@ -139,13 +147,16 @@ references:
   nameWithType: IEntitySelector<TEntity>.byId(String id)
   fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TEntity>.byId(String id)
   type: Method
+  summary: <p>Retrieves the behavior for an entity using the entity's identifier. </p>
   syntax:
     content: public TEntity byId(String id)
     parameters:
     - id: id
       type: "26831127"
+      description: <p>The entity's identifier. </p>
     return:
       type: 830f062c
+      description: <p>The entity's behavior. </p>
 - uid: com.microsoft.store.partnercenter.devicesdeployment._batch_job_status_collection_operations.byId(String)
   parent: com.microsoft.store.partnercenter.devicesdeployment._batch_job_status_collection_operations
   href: com.microsoft.store.partnercenter.devicesdeployment._batch_job_status_collection_operations.yml
