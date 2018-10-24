@@ -30,25 +30,25 @@
         ]
       },
       "SplitTOC": [
-        "docs-ref-autogen/toc.yml"
+        "docs-ref-autogen/toc.yml"       
       ],
       "JoinTOCPlugin": [
-        {
-          "TopLevelTOC": "docs-ref-mapping/reference.yml",
-          "ReferenceTOC": "docs-ref-autogen/toc.yml",
-          "ConceptualTOC": "docs-ref-conceptual/toc.yml",
-          "ReferenceTOCUrl": "/java/api/partnercenter-java/toc.json?view=partner-center-1.8.1",
-          "ConceptualTOCUrl": "/java/partnercenter/toc.json?view=partner-center-1.8.1",
-          "OutputFolder": "docs-ref-autogen/overview",
-          "HideEmptyNode": false,
-          "ContainerPageMetadata": {
-            "langs": [
-              "java"
-            ],
-            "open_to_public_contributors": false
-          }
+       {
+         "TopLevelTOC": "docs-ref-mapping/reference.yml",
+         "ReferenceTOC": "docs-ref-autogen/toc.yml",
+         "ConceptualTOC": "docs-ref-conceptual/toc.yml",
+         "ReferenceTOCUrl": "/java/api/partnercenter-java/toc.json?view=partner-center-1.8.1",
+         "ConceptualTOCUrl": "/java/partnercenter/toc.json?view=partner-center-1.8.1",
+         "OutputFolder": "docs-ref-autogen/overview",
+         "HideEmptyNode": false,
+         "ContainerPageMetadata": {
+         "langs": [
+            "java"
+           ],
+          "open_to_public_contributors": false
+         }
         }
-      ]
+      ]   
     }
   ],
   "notification_subscribers": [
@@ -57,7 +57,7 @@
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": true,
+  "need_preview_pull_request": false,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
@@ -65,26 +65,10 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
-    },
-    {
-      "path_to_root": "_themes.pdf",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
-      "branch_mapping": {}
     }
   ],
-  "branch_target_mapping": {
-    "live": [
-      "Publish",
-      "Pdf"
-    ]
-  },
-  "need_generate_pdf_url_template": true,
-  "targets": {
-    "pdf": {
-      "template_folder": "_themes.pdf"
-    }
-  },
+  "branch_target_mapping": {},
+  "need_generate_pdf_url_template": false,
   "dependent_packages": [
     {
       "id": "Microsoft.OpenPublishing.CommonPlugins",
@@ -92,13 +76,21 @@
       "path_to_root": "_dependentPackages/CommonPlugins",
       "target_framework": "net45",
       "version": "latest-prerelease"
-    }, 
-  { 
-    "id": "opbuild.templates.uref", 
-    "nuget_feed": "https://www.myget.org/F/op/api/v2", 
-    "path_to_root": "_dependentPackages/uref.plugins", 
-    "target_framework": "net45", 
-    "version": "latest" 
-  }
+    },
+    {
+      "id": "memberpage.plugins",
+      "nuget_feed": "https://www.myget.org/F/docfx/api/v2",
+      "path_to_root": "_dependentPackages/memberpage.plugins",
+      "target_framework": "net45",
+      "version": "latest-prerelease"
+    },
+    {
+
+      "id": "opbuild.templates.uref",
+      "nuget_feed": "https://www.myget.org/F/op/api/v2",
+      "path_to_root": "_dependentPackages/uref.plugins",
+      "target_framework": "net45",
+      "version": "latest"
+    }
   ]
 }
