@@ -24,11 +24,30 @@
       ],
       "customized_tasks": {
         "docset_prebuild": [
-          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1"
+          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
+          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
+          "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
         ]
       },
       "SplitTOC": [
         "docs-ref-autogen/toc.yml"
+      ],
+      "JoinTOCPlugin": [
+        {
+          "TopLevelTOC": "docs-ref-mapping/reference.yml",
+          "ReferenceTOC": "docs-ref-autogen/toc.yml",
+          "ConceptualTOC": "docs-ref-conceptual/toc.yml",
+          "ReferenceTOCUrl": "/java/api/partnercenter-java/toc.json?view=partner-center-1.8.1",
+          "ConceptualTOCUrl": "/java/partnercenter/toc.json?view=partner-center-1.8.1",
+          "OutputFolder": "docs-ref-autogen/overview",
+          "HideEmptyNode": false,
+          "ContainerPageMetadata": {
+            "langs": [
+              "java"
+            ],
+            "open_to_public_contributors": false
+          }
+        }
       ]
     }
   ],
@@ -73,13 +92,13 @@
       "path_to_root": "_dependentPackages/CommonPlugins",
       "target_framework": "net45",
       "version": "latest-prerelease"
-    },
-    {
-      "id": "memberpage.plugins",
-      "nuget_feed": "https://www.myget.org/F/docfx/api/v2",
-      "path_to_root": "_dependentPackages/memberpage.plugins",
-      "target_framework": "net45",
-      "version": "latest-prerelease"
-    }
+    }, 
+  { 
+    "id": "opbuild.templates.uref", 
+    "nuget_feed": "https://www.myget.org/F/op/api/v2", 
+    "path_to_root": "_dependentPackages/uref.plugins", 
+    "target_framework": "net45", 
+    "version": "latest" 
+  }
   ]
 }
