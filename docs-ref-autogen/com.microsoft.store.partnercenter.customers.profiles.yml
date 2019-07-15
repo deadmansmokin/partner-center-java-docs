@@ -1,94 +1,44 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.customers.profiles
-  id: profiles
+- uid: "com.microsoft.store.partnercenter.customers.profiles"
+  id: "profiles"
   children:
-  - com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations
-  - com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations
-  - com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations
-  - com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile
-  - com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
-  - com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
-  href: com.microsoft.store.partnercenter.customers.profiles.yml
+  - "com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations"
+  - "com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations"
+  - "com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations"
+  - "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
+  - "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
+  - "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.customers.profiles
-  nameWithType: com.microsoft.store.partnercenter.customers.profiles
-  fullName: com.microsoft.store.partnercenter.customers.profiles
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/customers/profiles/CustomerBillingProfileOperations.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/customers/profiles/CustomerBillingProfileOperations.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.customers.profiles"
+  nameWithType: "com.microsoft.store.partnercenter.customers.profiles"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.customers.profiles
+    content: "package com.microsoft.store.partnercenter.customers.profiles"
 references:
-- uid: com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations
-  parent: com.microsoft.store.partnercenter.customers.profiles
-  href: com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations.yml
-  name: CustomerBillingProfileOperations
-  nameWithType: CustomerBillingProfileOperations
-  fullName: com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations
-  type: Class
-  summary: "<p>Implements the customer billing profile operations. </p>"
-  syntax:
-    content: public class CustomerBillingProfileOperations extends BasePartnerComponentString implements ICustomerProfile<CustomerBillingProfile>
-- uid: com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations
-  parent: com.microsoft.store.partnercenter.customers.profiles
-  href: com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations.yml
-  name: CustomerCompanyProfileOperations
-  nameWithType: CustomerCompanyProfileOperations
-  fullName: com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations
-  type: Class
-  summary: "<p>Implements the customer company profile operations. </p>"
-  syntax:
-    content: public class CustomerCompanyProfileOperations extends BasePartnerComponentString implements ICustomerReadonlyProfile<CustomerCompanyProfile>
-- uid: com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations
-  parent: com.microsoft.store.partnercenter.customers.profiles
-  href: com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations.yml
-  name: CustomerProfileCollectionOperations
-  nameWithType: CustomerProfileCollectionOperations
-  fullName: com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations
-  type: Class
-  summary: "<p>Implements customer profile collection operations. </p>"
-  syntax:
-    content: public class CustomerProfileCollectionOperations extends BasePartnerComponentString implements ICustomerProfileCollection
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile
-  parent: com.microsoft.store.partnercenter.customers.profiles
-  href: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.yml
-  name: ICustomerProfile<T>
-  nameWithType: ICustomerProfile<T>
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<T>
-  type: Interface
-  summary: "<p>Encapsulates a single customer profile behavior. The type of the customer profile. </p>"
-  syntax:
-    content: public interface ICustomerProfile<T extends ResourceBase> extends ICustomerReadonlyProfile<T>,IEntityUpdateOperations<T>
-    typeParameters:
-    - id: T
-      type: 8ce1ecb9
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
-  parent: com.microsoft.store.partnercenter.customers.profiles
-  href: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.yml
-  name: ICustomerProfileCollection
-  nameWithType: ICustomerProfileCollection
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection
-  type: Interface
-  summary: "<p>Represents customer profiles behavior. </p>"
-  syntax:
-    content: public interface ICustomerProfileCollection extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile
-  parent: com.microsoft.store.partnercenter.customers.profiles
-  href: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.yml
-  name: ICustomerReadonlyProfile<T>
-  nameWithType: ICustomerReadonlyProfile<T>
-  fullName: com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>
-  type: Interface
-  summary: "<p>Encapsulates a single customer read-only profile behavior. </p>"
-  syntax:
-    content: public interface ICustomerReadonlyProfile<T extends ResourceBase> extends IPartnerComponentString,IEntityGetOperations<T>
-    typeParameters:
-    - id: T
-      type: 8ce1ecb9
+- uid: "com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations"
+  name: "CustomerBillingProfileOperations"
+  nameWithType: "CustomerBillingProfileOperations"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations"
+  name: "CustomerCompanyProfileOperations"
+  nameWithType: "CustomerCompanyProfileOperations"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations"
+  name: "CustomerProfileCollectionOperations"
+  nameWithType: "CustomerProfileCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
+  name: "ICustomerProfile<T>"
+  nameWithType: "ICustomerProfile<T>"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<T>"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
+  name: "ICustomerProfileCollection"
+  nameWithType: "ICustomerProfileCollection"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
+  name: "ICustomerReadonlyProfile<T>"
+  nameWithType: "ICustomerReadonlyProfile<T>"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>"

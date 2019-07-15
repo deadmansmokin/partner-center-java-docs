@@ -1,63 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.network
-  id: network
+- uid: "com.microsoft.store.partnercenter.network"
+  id: "network"
   children:
-  - com.microsoft.store.partnercenter.network.HttpStatusCode
-  - com.microsoft.store.partnercenter.network.IPartnerServiceClient
-  - com.microsoft.store.partnercenter.network.PartnerServiceClient
-  - com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-  href: com.microsoft.store.partnercenter.network.yml
+  - "com.microsoft.store.partnercenter.network.HttpStatusCode"
+  - "com.microsoft.store.partnercenter.network.IPartnerServiceClient"
+  - "com.microsoft.store.partnercenter.network.PartnerServiceClient"
+  - "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.network
-  nameWithType: com.microsoft.store.partnercenter.network
-  fullName: com.microsoft.store.partnercenter.network
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/network/HttpStatusCode.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/network/HttpStatusCode.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.network"
+  nameWithType: "com.microsoft.store.partnercenter.network"
+  fullName: "com.microsoft.store.partnercenter.network"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.network
+    content: "package com.microsoft.store.partnercenter.network"
 references:
-- uid: com.microsoft.store.partnercenter.network.HttpStatusCode
-  parent: com.microsoft.store.partnercenter.network
-  href: com.microsoft.store.partnercenter.network.HttpStatusCode.yml
-  name: HttpStatusCode
-  nameWithType: HttpStatusCode
-  fullName: com.microsoft.store.partnercenter.network.HttpStatusCode
-  type: Class
-  syntax:
-    content: public class HttpStatusCode
-- uid: com.microsoft.store.partnercenter.network.IPartnerServiceClient
-  parent: com.microsoft.store.partnercenter.network
-  href: com.microsoft.store.partnercenter.network.IPartnerServiceClient.yml
-  name: IPartnerServiceClient
-  nameWithType: IPartnerServiceClient
-  fullName: com.microsoft.store.partnercenter.network.IPartnerServiceClient
-  type: Interface
-  syntax:
-    content: public interface IPartnerServiceClient
-- uid: com.microsoft.store.partnercenter.network.PartnerServiceClient
-  parent: com.microsoft.store.partnercenter.network
-  href: com.microsoft.store.partnercenter.network.PartnerServiceClient.yml
-  name: PartnerServiceClient
-  nameWithType: PartnerServiceClient
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceClient
-  type: Class
-  syntax:
-    content: public class PartnerServiceClient implements IPartnerServiceClient
-- uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-  parent: com.microsoft.store.partnercenter.network
-  href: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.yml
-  name: PartnerServiceRetryStrategy
-  nameWithType: PartnerServiceRetryStrategy
-  fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-  type: Class
-  summary: "<p>Represents a retry strategy that determines the number of retry attempts and the interval between retries. </p>"
-  syntax:
-    content: public class PartnerServiceRetryStrategy
+- uid: "com.microsoft.store.partnercenter.network.HttpStatusCode"
+  name: "HttpStatusCode"
+  nameWithType: "HttpStatusCode"
+  fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode"
+- uid: "com.microsoft.store.partnercenter.network.IPartnerServiceClient"
+  name: "IPartnerServiceClient"
+  nameWithType: "IPartnerServiceClient"
+  fullName: "com.microsoft.store.partnercenter.network.IPartnerServiceClient"
+- uid: "com.microsoft.store.partnercenter.network.PartnerServiceClient"
+  name: "PartnerServiceClient"
+  nameWithType: "PartnerServiceClient"
+  fullName: "com.microsoft.store.partnercenter.network.PartnerServiceClient"
+- uid: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy"
+  name: "PartnerServiceRetryStrategy"
+  nameWithType: "PartnerServiceRetryStrategy"
+  fullName: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy"

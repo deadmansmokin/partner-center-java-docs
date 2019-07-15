@@ -1,121 +1,59 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.servicerequests
-  id: servicerequests
+- uid: "com.microsoft.store.partnercenter.servicerequests"
+  id: "servicerequests"
   children:
-  - com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations
-  - com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations
-  - com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection
-  - com.microsoft.store.partnercenter.servicerequests.IServiceRequest
-  - com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
-  - com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection
-  - com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations
-  - com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations
-  - com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations
-  href: com.microsoft.store.partnercenter.servicerequests.yml
+  - "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations"
+  - "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations"
+  - "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection"
+  - "com.microsoft.store.partnercenter.servicerequests.IServiceRequest"
+  - "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
+  - "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection"
+  - "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations"
+  - "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations"
+  - "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.servicerequests
-  nameWithType: com.microsoft.store.partnercenter.servicerequests
-  fullName: com.microsoft.store.partnercenter.servicerequests
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/servicerequests/CustomerServiceRequestCollectionOperations.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.servicerequests"
+  nameWithType: "com.microsoft.store.partnercenter.servicerequests"
+  fullName: "com.microsoft.store.partnercenter.servicerequests"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.servicerequests
+    content: "package com.microsoft.store.partnercenter.servicerequests"
 references:
-- uid: com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations
-  parent: com.microsoft.store.partnercenter.servicerequests
-  href: com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.yml
-  name: CustomerServiceRequestCollectionOperations
-  nameWithType: CustomerServiceRequestCollectionOperations
-  fullName: com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations
-  type: Class
-  summary: "<p>The customer's service requests operations implementation. </p>"
-  syntax:
-    content: public class CustomerServiceRequestCollectionOperations extends BasePartnerComponentString implements IServiceRequestCollection
-- uid: com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations
-  parent: com.microsoft.store.partnercenter.servicerequests
-  href: com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations.yml
-  name: CustomerServiceRequestOperations
-  nameWithType: CustomerServiceRequestOperations
-  fullName: com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations
-  type: Class
-  summary: "<p>Implements operations that can be performed on a single customer's service requests. </p>"
-  syntax:
-    content: public class CustomerServiceRequestOperations extends BasePartnerComponent<Tuple<String, String>> implements IServiceRequest
-- uid: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection
-  parent: com.microsoft.store.partnercenter.servicerequests
-  href: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.yml
-  name: IPartnerServiceRequestCollection
-  nameWithType: IPartnerServiceRequestCollection
-  fullName: com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection
-  type: Interface
-  summary: "<p>Represents the behavior of partner service requests. </p>"
-  syntax:
-    content: public interface IPartnerServiceRequestCollection extends IServiceRequestCollection
-- uid: com.microsoft.store.partnercenter.servicerequests.IServiceRequest
-  parent: com.microsoft.store.partnercenter.servicerequests
-  href: com.microsoft.store.partnercenter.servicerequests.IServiceRequest.yml
-  name: IServiceRequest
-  nameWithType: IServiceRequest
-  fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequest
-  type: Interface
-  summary: "<p>Groups operations that can be performed on a single service request. </p>"
-  syntax:
-    content: public interface IServiceRequest extends IPartnerComponent<Tuple<String, String>>,IEntityGetOperations<ServiceRequest>,IEntityPatchOperations<ServiceRequest>
-- uid: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
-  parent: com.microsoft.store.partnercenter.servicerequests
-  href: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.yml
-  name: IServiceRequestCollection
-  nameWithType: IServiceRequestCollection
-  fullName: com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection
-  type: Interface
-  summary: "<p>Represents the behavior of service requests. </p>"
-  syntax:
-    content: public interface IServiceRequestCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ServiceRequest, ResourceCollection<ServiceRequest>>,IEntitySelector<String, IServiceRequest>
-- uid: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection
-  parent: com.microsoft.store.partnercenter.servicerequests
-  href: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.yml
-  name: ISupportTopicsCollection
-  nameWithType: ISupportTopicsCollection
-  fullName: com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection
-  type: Interface
-  summary: "<p>Represents the behavior of support topics. Support Topics operations are localizable. </p>"
-  syntax:
-    content: public interface ISupportTopicsCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<SupportTopic, ResourceCollection<SupportTopic>>
-- uid: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations
-  parent: com.microsoft.store.partnercenter.servicerequests
-  href: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.yml
-  name: PartnerServiceRequestCollectionOperations
-  nameWithType: PartnerServiceRequestCollectionOperations
-  fullName: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations
-  type: Class
-  summary: "<p>The partner's service requests operations and implementation. </p>"
-  syntax:
-    content: public class PartnerServiceRequestCollectionOperations extends BasePartnerComponentString implements IPartnerServiceRequestCollection
-- uid: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations
-  parent: com.microsoft.store.partnercenter.servicerequests
-  href: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations.yml
-  name: PartnerServiceRequestOperations
-  nameWithType: PartnerServiceRequestOperations
-  fullName: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations
-  type: Class
-  summary: "<p>Implements operations that can be performed on a single partner's service requests. </p>"
-  syntax:
-    content: public class PartnerServiceRequestOperations extends BasePartnerComponent<Tuple<String, String>> implements IServiceRequest
-- uid: com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations
-  parent: com.microsoft.store.partnercenter.servicerequests
-  href: com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.yml
-  name: SupportTopicsCollectionOperations
-  nameWithType: SupportTopicsCollectionOperations
-  fullName: com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations
-  type: Class
-  summary: "<p>The operations that can be performed on support topics. Support Topics operations are localizable. </p>"
-  syntax:
-    content: public class SupportTopicsCollectionOperations extends BasePartnerComponentString implements ISupportTopicsCollection
+- uid: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations"
+  name: "CustomerServiceRequestCollectionOperations"
+  nameWithType: "CustomerServiceRequestCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations"
+- uid: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations"
+  name: "CustomerServiceRequestOperations"
+  nameWithType: "CustomerServiceRequestOperations"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations"
+- uid: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection"
+  name: "IPartnerServiceRequestCollection"
+  nameWithType: "IPartnerServiceRequestCollection"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection"
+- uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest"
+  name: "IServiceRequest"
+  nameWithType: "IServiceRequest"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest"
+- uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
+  name: "IServiceRequestCollection"
+  nameWithType: "IServiceRequestCollection"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
+- uid: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection"
+  name: "ISupportTopicsCollection"
+  nameWithType: "ISupportTopicsCollection"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection"
+- uid: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations"
+  name: "PartnerServiceRequestCollectionOperations"
+  nameWithType: "PartnerServiceRequestCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations"
+- uid: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations"
+  name: "PartnerServiceRequestOperations"
+  nameWithType: "PartnerServiceRequestOperations"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations"
+- uid: "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations"
+  name: "SupportTopicsCollectionOperations"
+  nameWithType: "SupportTopicsCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations"

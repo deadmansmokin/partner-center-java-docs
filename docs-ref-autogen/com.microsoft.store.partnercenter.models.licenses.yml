@@ -1,109 +1,54 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.licenses
-  id: licenses
+- uid: "com.microsoft.store.partnercenter.models.licenses"
+  id: "licenses"
   children:
-  - com.microsoft.store.partnercenter.models.licenses.License
-  - com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-  - com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
-  - com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  - com.microsoft.store.partnercenter.models.licenses.LicenseWarning
-  - com.microsoft.store.partnercenter.models.licenses.ProductSku
-  - com.microsoft.store.partnercenter.models.licenses.ServicePlan
-  - com.microsoft.store.partnercenter.models.licenses.SubscribedSku
-  href: com.microsoft.store.partnercenter.models.licenses.yml
+  - "com.microsoft.store.partnercenter.models.licenses.License"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseWarning"
+  - "com.microsoft.store.partnercenter.models.licenses.ProductSku"
+  - "com.microsoft.store.partnercenter.models.licenses.ServicePlan"
+  - "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.models.licenses
-  nameWithType: com.microsoft.store.partnercenter.models.licenses
-  fullName: com.microsoft.store.partnercenter.models.licenses
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/models/licenses/License.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/License.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.models.licenses"
+  nameWithType: "com.microsoft.store.partnercenter.models.licenses"
+  fullName: "com.microsoft.store.partnercenter.models.licenses"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.models.licenses
+    content: "package com.microsoft.store.partnercenter.models.licenses"
 references:
-- uid: com.microsoft.store.partnercenter.models.licenses.License
-  parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses.License.yml
-  name: License
-  nameWithType: License
-  fullName: com.microsoft.store.partnercenter.models.licenses.License
-  type: Class
-  summary: "<p>Model for user licenses assigned to a user. </p>"
-  syntax:
-    content: public class License extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-  parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.yml
-  name: LicenseAssignment
-  nameWithType: LicenseAssignment
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-  type: Class
-  summary: "<p>Model for licenses and service plans to be assigned to a user. </p>"
-  syntax:
-    content: public class LicenseAssignment
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
-  parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.yml
-  name: LicenseGroupId
-  nameWithType: LicenseGroupId
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
-  type: Enum
-  summary: "<p>License Group Id. </p>"
-  syntax:
-    content: public enum LicenseGroupId
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.yml
-  name: LicenseUpdate
-  nameWithType: LicenseUpdate
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseUpdate
-  type: Class
-  summary: "<p>Model for assigning and removing licenses to user. </p>"
-  syntax:
-    content: public class LicenseUpdate extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseWarning
-  parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses.LicenseWarning.yml
-  name: LicenseWarning
-  nameWithType: LicenseWarning
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseWarning
-  type: Class
-  summary: "<p>Model for license warnings. </p>"
-  syntax:
-    content: public class LicenseWarning
-- uid: com.microsoft.store.partnercenter.models.licenses.ProductSku
-  parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses.ProductSku.yml
-  name: ProductSku
-  nameWithType: ProductSku
-  fullName: com.microsoft.store.partnercenter.models.licenses.ProductSku
-  type: Class
-  summary: "<p>Model for product details. </p>"
-  syntax:
-    content: public class ProductSku
-- uid: com.microsoft.store.partnercenter.models.licenses.ServicePlan
-  parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses.ServicePlan.yml
-  name: ServicePlan
-  nameWithType: ServicePlan
-  fullName: com.microsoft.store.partnercenter.models.licenses.ServicePlan
-  type: Class
-  syntax:
-    content: public class ServicePlan
-- uid: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
-  parent: com.microsoft.store.partnercenter.models.licenses
-  href: com.microsoft.store.partnercenter.models.licenses.SubscribedSku.yml
-  name: SubscribedSku
-  nameWithType: SubscribedSku
-  fullName: com.microsoft.store.partnercenter.models.licenses.SubscribedSku
-  type: Class
-  summary: "<p>Model for subscribed products owned by a tenant. </p>"
-  syntax:
-    content: public class SubscribedSku extends ResourceBase
+- uid: "com.microsoft.store.partnercenter.models.licenses.License"
+  name: "License"
+  nameWithType: "License"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.License"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
+  name: "LicenseAssignment"
+  nameWithType: "LicenseAssignment"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+  name: "LicenseGroupId"
+  nameWithType: "LicenseGroupId"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate"
+  name: "LicenseUpdate"
+  nameWithType: "LicenseUpdate"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning"
+  name: "LicenseWarning"
+  nameWithType: "LicenseWarning"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning"
+- uid: "com.microsoft.store.partnercenter.models.licenses.ProductSku"
+  name: "ProductSku"
+  nameWithType: "ProductSku"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.ProductSku"
+- uid: "com.microsoft.store.partnercenter.models.licenses.ServicePlan"
+  name: "ServicePlan"
+  nameWithType: "ServicePlan"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.ServicePlan"
+- uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
+  name: "SubscribedSku"
+  nameWithType: "SubscribedSku"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"

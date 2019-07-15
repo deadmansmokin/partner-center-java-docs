@@ -1,107 +1,54 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.partners
-  id: partners
+- uid: "com.microsoft.store.partnercenter.models.partners"
+  id: "partners"
   children:
-  - com.microsoft.store.partnercenter.models.partners.BillingProfile
-  - com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile
-  - com.microsoft.store.partnercenter.models.partners.MpnProfile
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  - com.microsoft.store.partnercenter.models.partners.SupportProfile
-  - com.microsoft.store.partnercenter.models.partners.VettingStatus
-  - com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-  - com.microsoft.store.partnercenter.models.partners.VettingVersion
-  href: com.microsoft.store.partnercenter.models.partners.yml
+  - "com.microsoft.store.partnercenter.models.partners.BillingProfile"
+  - "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile"
+  - "com.microsoft.store.partnercenter.models.partners.MpnProfile"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
+  - "com.microsoft.store.partnercenter.models.partners.SupportProfile"
+  - "com.microsoft.store.partnercenter.models.partners.VettingStatus"
+  - "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+  - "com.microsoft.store.partnercenter.models.partners.VettingVersion"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.models.partners
-  nameWithType: com.microsoft.store.partnercenter.models.partners
-  fullName: com.microsoft.store.partnercenter.models.partners
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/BillingProfile.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.models.partners"
+  nameWithType: "com.microsoft.store.partnercenter.models.partners"
+  fullName: "com.microsoft.store.partnercenter.models.partners"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.models.partners
+    content: "package com.microsoft.store.partnercenter.models.partners"
 references:
-- uid: com.microsoft.store.partnercenter.models.partners.BillingProfile
-  parent: com.microsoft.store.partnercenter.models.partners
-  href: com.microsoft.store.partnercenter.models.partners.BillingProfile.yml
-  name: BillingProfile
-  nameWithType: BillingProfile
-  fullName: com.microsoft.store.partnercenter.models.partners.BillingProfile
-  type: Class
-  summary: "<p>Represents a partner's billing profile. </p>"
-  syntax:
-    content: public class BillingProfile extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile
-  parent: com.microsoft.store.partnercenter.models.partners
-  href: com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile.yml
-  name: LegalBusinessProfile
-  nameWithType: LegalBusinessProfile
-  fullName: com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile
-  type: Class
-  summary: "<p>The legal business profile. </p>"
-  syntax:
-    content: public class LegalBusinessProfile extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.partners.MpnProfile
-  parent: com.microsoft.store.partnercenter.models.partners
-  href: com.microsoft.store.partnercenter.models.partners.MpnProfile.yml
-  name: MpnProfile
-  nameWithType: MpnProfile
-  fullName: com.microsoft.store.partnercenter.models.partners.MpnProfile
-  type: Class
-  summary: "<p>Microsoft Partner Network profile of a partner </p>"
-  syntax:
-    content: public class MpnProfile extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  parent: com.microsoft.store.partnercenter.models.partners
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
-  name: OrganizationProfile
-  nameWithType: OrganizationProfile
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  type: Class
-  summary: "<p>Partner's organization profile </p>"
-  syntax:
-    content: public class OrganizationProfile extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.partners.SupportProfile
-  parent: com.microsoft.store.partnercenter.models.partners
-  href: com.microsoft.store.partnercenter.models.partners.SupportProfile.yml
-  name: SupportProfile
-  nameWithType: SupportProfile
-  fullName: com.microsoft.store.partnercenter.models.partners.SupportProfile
-  type: Class
-  summary: "<p>Partner Support Profile </p>"
-  syntax:
-    content: public class SupportProfile extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.partners.VettingStatus
-  parent: com.microsoft.store.partnercenter.models.partners
-  href: com.microsoft.store.partnercenter.models.partners.VettingStatus.yml
-  name: VettingStatus
-  nameWithType: VettingStatus
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingStatus
-  type: Enum
-  syntax:
-    content: public enum VettingStatus
-- uid: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-  parent: com.microsoft.store.partnercenter.models.partners
-  href: com.microsoft.store.partnercenter.models.partners.VettingSubStatus.yml
-  name: VettingSubStatus
-  nameWithType: VettingSubStatus
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingSubStatus
-  type: Enum
-  syntax:
-    content: public enum VettingSubStatus
-- uid: com.microsoft.store.partnercenter.models.partners.VettingVersion
-  parent: com.microsoft.store.partnercenter.models.partners
-  href: com.microsoft.store.partnercenter.models.partners.VettingVersion.yml
-  name: VettingVersion
-  nameWithType: VettingVersion
-  fullName: com.microsoft.store.partnercenter.models.partners.VettingVersion
-  type: Enum
-  syntax:
-    content: public enum VettingVersion
+- uid: "com.microsoft.store.partnercenter.models.partners.BillingProfile"
+  name: "BillingProfile"
+  nameWithType: "BillingProfile"
+  fullName: "com.microsoft.store.partnercenter.models.partners.BillingProfile"
+- uid: "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile"
+  name: "LegalBusinessProfile"
+  nameWithType: "LegalBusinessProfile"
+  fullName: "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile"
+- uid: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
+  name: "MpnProfile"
+  nameWithType: "MpnProfile"
+  fullName: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
+  name: "OrganizationProfile"
+  nameWithType: "OrganizationProfile"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
+- uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
+  name: "SupportProfile"
+  nameWithType: "SupportProfile"
+  fullName: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingStatus"
+  name: "VettingStatus"
+  nameWithType: "VettingStatus"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingStatus"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+  name: "VettingSubStatus"
+  nameWithType: "VettingSubStatus"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
+  name: "VettingVersion"
+  nameWithType: "VettingVersion"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingVersion"

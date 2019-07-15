@@ -1,90 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.customers
-  id: customers
+- uid: "com.microsoft.store.partnercenter.customers"
+  id: "customers"
   children:
-  - com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
-  - com.microsoft.store.partnercenter.customers.CustomerOperations
-  - com.microsoft.store.partnercenter.customers.ICustomer
-  - com.microsoft.store.partnercenter.customers.ICustomerCollection
-  href: com.microsoft.store.partnercenter.customers.yml
+  - "com.microsoft.store.partnercenter.customers.CustomerCollectionOperations"
+  - "com.microsoft.store.partnercenter.customers.CustomerOperations"
+  - "com.microsoft.store.partnercenter.customers.ICustomer"
+  - "com.microsoft.store.partnercenter.customers.ICustomerCollection"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.customers
-  nameWithType: com.microsoft.store.partnercenter.customers
-  fullName: com.microsoft.store.partnercenter.customers
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerCollectionOperations.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/customers/CustomerCollectionOperations.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.customers"
+  nameWithType: "com.microsoft.store.partnercenter.customers"
+  fullName: "com.microsoft.store.partnercenter.customers"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.customers
+    content: "package com.microsoft.store.partnercenter.customers"
 references:
-- uid: com.microsoft.store.partnercenter.customers.products
-  href: com.microsoft.store.partnercenter.customers.products.yml
-  name: com.microsoft.store.partnercenter.customers.products
-  nameWithType: com.microsoft.store.partnercenter.customers.products
-  fullName: com.microsoft.store.partnercenter.customers.products
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter.customers.products
-- uid: com.microsoft.store.partnercenter.customers.profiles
-  href: com.microsoft.store.partnercenter.customers.profiles.yml
-  name: com.microsoft.store.partnercenter.customers.profiles
-  nameWithType: com.microsoft.store.partnercenter.customers.profiles
-  fullName: com.microsoft.store.partnercenter.customers.profiles
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter.customers.profiles
-- uid: com.microsoft.store.partnercenter.customers.servicecosts
-  href: com.microsoft.store.partnercenter.customers.servicecosts.yml
-  name: com.microsoft.store.partnercenter.customers.servicecosts
-  nameWithType: com.microsoft.store.partnercenter.customers.servicecosts
-  fullName: com.microsoft.store.partnercenter.customers.servicecosts
-  type: Namespace
-  syntax:
-    content: package com.microsoft.store.partnercenter.customers.servicecosts
-- uid: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
-  parent: com.microsoft.store.partnercenter.customers
-  href: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.yml
-  name: CustomerCollectionOperations
-  nameWithType: CustomerCollectionOperations
-  fullName: com.microsoft.store.partnercenter.customers.CustomerCollectionOperations
-  type: Class
-  summary: "<p>The partner customers implementation. </p>"
-  syntax:
-    content: public class CustomerCollectionOperations extends BasePartnerComponentString implements ICustomerCollection
-- uid: com.microsoft.store.partnercenter.customers.CustomerOperations
-  parent: com.microsoft.store.partnercenter.customers
-  href: com.microsoft.store.partnercenter.customers.CustomerOperations.yml
-  name: CustomerOperations
-  nameWithType: CustomerOperations
-  fullName: com.microsoft.store.partnercenter.customers.CustomerOperations
-  type: Class
-  summary: "<p>Implements a single customer operations. </p>"
-  syntax:
-    content: public class CustomerOperations extends BasePartnerComponentString implements ICustomer
-- uid: com.microsoft.store.partnercenter.customers.ICustomer
-  parent: com.microsoft.store.partnercenter.customers
-  href: com.microsoft.store.partnercenter.customers.ICustomer.yml
-  name: ICustomer
-  nameWithType: ICustomer
-  fullName: com.microsoft.store.partnercenter.customers.ICustomer
-  type: Interface
-  summary: "<p>Groups operations that can be performed on a single partner customer. </p>"
-  syntax:
-    content: public interface ICustomer extends IPartnerComponentString,IEntityGetOperations<Customer>,IEntityDeleteOperations<Customer>,IEntityPatchOperations<Customer>
-- uid: com.microsoft.store.partnercenter.customers.ICustomerCollection
-  parent: com.microsoft.store.partnercenter.customers
-  href: com.microsoft.store.partnercenter.customers.ICustomerCollection.yml
-  name: ICustomerCollection
-  nameWithType: ICustomerCollection
-  fullName: com.microsoft.store.partnercenter.customers.ICustomerCollection
-  type: Interface
-  summary: "<p>Represents the behavior of the partner customers. </p>"
-  syntax:
-    content: public interface ICustomerCollection extends IPartnerComponentString,IEntityCreateOperations<Customer, Customer>,IEntireEntityCollectionRetrievalOperations<Customer, SeekBasedResourceCollection<Customer>>
+- uid: "com.microsoft.store.partnercenter.customers.CustomerCollectionOperations"
+  name: "CustomerCollectionOperations"
+  nameWithType: "CustomerCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.customers.CustomerCollectionOperations"
+- uid: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+  name: "CustomerOperations"
+  nameWithType: "CustomerOperations"
+  fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations"
+- uid: "com.microsoft.store.partnercenter.customers.ICustomer"
+  name: "ICustomer"
+  nameWithType: "ICustomer"
+  fullName: "com.microsoft.store.partnercenter.customers.ICustomer"
+- uid: "com.microsoft.store.partnercenter.customers.ICustomerCollection"
+  name: "ICustomerCollection"
+  nameWithType: "ICustomerCollection"
+  fullName: "com.microsoft.store.partnercenter.customers.ICustomerCollection"

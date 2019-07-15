@@ -1,141 +1,157 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-  id: LicenseAssignment
-  parent: com.microsoft.store.partnercenter.models.licenses
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
+  id: "LicenseAssignment"
+  parent: "com.microsoft.store.partnercenter.models.licenses"
   children:
-  - com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans()
-  - com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId()
-  - com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans(Iterable<String>)
-  - com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId(String)
-  href: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.yml
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.LicenseAssignment()"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans()"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId()"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans(java.lang.Iterable<java.lang.String>)"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId(java.lang.String)"
   langs:
-  - java
-  name: LicenseAssignment
-  nameWithType: LicenseAssignment
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseAssignment.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseAssignment.java
-    startLine: 10
-  package: com.microsoft.store.partnercenter.models.licenses
-  summary: "<p>Model for licenses and service plans to be assigned to a user. </p>"
+  - "java"
+  name: "LicenseAssignment"
+  nameWithType: "LicenseAssignment"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+  summary: "Model for licenses and service plans to be assigned to a user."
   syntax:
-    content: public class LicenseAssignment
+    content: "public class LicenseAssignment"
   inheritance:
-  - java.lang.Object
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans()
-  id: getExcludedPlans()
-  parent: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-  href: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.yml
+  - "java.lang.Object"
+  inheritedMembers:
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.LicenseAssignment()"
+  id: "LicenseAssignment()"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
   langs:
-  - java
-  name: getExcludedPlans()
-  nameWithType: LicenseAssignment.getExcludedPlans()
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans()
-  overload: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseAssignment.java
-    startLine: 17
-  package: com.microsoft.store.partnercenter.models.licenses
+  - "java"
+  name: "LicenseAssignment()"
+  nameWithType: "LicenseAssignment.LicenseAssignment()"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.LicenseAssignment()"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.LicenseAssignment*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.licenses"
   syntax:
-    content: public Iterable<String> getExcludedPlans()
+    content: "public LicenseAssignment()"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans()"
+  id: "getExcludedPlans()"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
+  langs:
+  - "java"
+  name: "getExcludedPlans()"
+  nameWithType: "LicenseAssignment.getExcludedPlans()"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans()"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+  syntax:
+    content: "public Iterable<String> getExcludedPlans()"
     return:
-      type: a111923c
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId()
-  id: getSkuId()
-  parent: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-  href: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.yml
+      type: "java.lang.Iterable<java.lang.String>"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId()"
+  id: "getSkuId()"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
   langs:
-  - java
-  name: getSkuId()
-  nameWithType: LicenseAssignment.getSkuId()
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId()
-  overload: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseAssignment.java
-    startLine: 33
-  package: com.microsoft.store.partnercenter.models.licenses
+  - "java"
+  name: "getSkuId()"
+  nameWithType: "LicenseAssignment.getSkuId()"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId()"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.licenses"
   syntax:
-    content: public String getSkuId()
+    content: "public String getSkuId()"
     return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans(Iterable<String>)
-  id: setExcludedPlans(Iterable<String>)
-  parent: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-  href: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans(java.lang.Iterable<java.lang.String>)"
+  id: "setExcludedPlans(java.lang.Iterable<java.lang.String>)"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
   langs:
-  - java
-  name: setExcludedPlans(Iterable<String> value)
-  nameWithType: LicenseAssignment.setExcludedPlans(Iterable<String> value)
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans(Iterable<String> value)
-  overload: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseAssignment.java
-    startLine: 22
-  package: com.microsoft.store.partnercenter.models.licenses
+  - "java"
+  name: "setExcludedPlans(Iterable<String> value)"
+  nameWithType: "LicenseAssignment.setExcludedPlans(Iterable<String> value)"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans(Iterable<String> value)"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.licenses"
   syntax:
-    content: public void setExcludedPlans(Iterable<String> value)
+    content: "public void setExcludedPlans(Iterable<String> value)"
     parameters:
-    - id: value
-      type: a111923c
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId(String)
-  id: setSkuId(String)
-  parent: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment
-  href: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.yml
+    - id: "value"
+      type: "java.lang.Iterable<java.lang.String>"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId(java.lang.String)"
+  id: "setSkuId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
   langs:
-  - java
-  name: setSkuId(String value)
-  nameWithType: LicenseAssignment.setSkuId(String value)
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId(String value)
-  overload: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/licenses/LicenseAssignment.java
-    startLine: 38
-  package: com.microsoft.store.partnercenter.models.licenses
+  - "java"
+  name: "setSkuId(String value)"
+  nameWithType: "LicenseAssignment.setSkuId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.licenses"
   syntax:
-    content: public void setSkuId(String value)
+    content: "public void setSkuId(String value)"
     parameters:
-    - id: value
-      type: "26831127"
+    - id: "value"
+      type: "java.lang.String"
 references:
-- uid: a111923c
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.LicenseAssignment*"
+  name: "LicenseAssignment"
+  nameWithType: "LicenseAssignment.LicenseAssignment"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.LicenseAssignment"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+- uid: "java.lang.Iterable<java.lang.String>"
   spec.java:
-  - name: Iterable<String>
-    fullName: Iterable<String>
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans*
-  name: getExcludedPlans
-  nameWithType: LicenseAssignment.getExcludedPlans
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans*
-  name: setExcludedPlans
-  nameWithType: LicenseAssignment.setExcludedPlans
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: "26831127"
+  - uid: "java.lang.Iterable"
+    name: "Iterable"
+    fullName: "java.lang.Iterable"
+  - name: "<"
+    fullName: "<"
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans*"
+  name: "getExcludedPlans"
+  nameWithType: "LicenseAssignment.getExcludedPlans"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans*"
+  name: "setExcludedPlans"
+  nameWithType: "LicenseAssignment.setExcludedPlans"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+- uid: "java.lang.String"
   spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId*
-  name: getSkuId
-  nameWithType: LicenseAssignment.getSkuId
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId
-  package: com.microsoft.store.partnercenter.models.licenses
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId*
-  name: setSkuId
-  nameWithType: LicenseAssignment.setSkuId
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId
-  package: com.microsoft.store.partnercenter.models.licenses
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId*"
+  name: "getSkuId"
+  nameWithType: "LicenseAssignment.getSkuId"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId*"
+  name: "setSkuId"
+  nameWithType: "LicenseAssignment.setSkuId"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+- uid: "java.lang.Iterable"
+  name: "Iterable"
+  nameWithType: "Iterable"
+  fullName: "java.lang.Iterable"

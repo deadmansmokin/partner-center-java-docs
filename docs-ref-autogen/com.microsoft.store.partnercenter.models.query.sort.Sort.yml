@@ -1,206 +1,176 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort
-  id: Sort
-  parent: com.microsoft.store.partnercenter.models.query.sort
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+  id: "Sort"
+  parent: "com.microsoft.store.partnercenter.models.query.sort"
   children:
-  - com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection()
-  - com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()
-  - com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection(SortDirection)
-  - com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(String)
-  - com.microsoft.store.partnercenter.models.query.sort.Sort.Sort(String,SortDirection)
-  - com.microsoft.store.partnercenter.models.query.sort.Sort.toString()
-  href: com.microsoft.store.partnercenter.models.query.sort.Sort.yml
+  - "com.microsoft.store.partnercenter.models.query.sort.Sort.Sort(java.lang.String,com.microsoft.store.partnercenter.models.query.sort.SortDirection)"
+  - "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection()"
+  - "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()"
+  - "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection(com.microsoft.store.partnercenter.models.query.sort.SortDirection)"
+  - "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.query.sort.Sort.toString()"
   langs:
-  - java
-  name: Sort
-  nameWithType: Sort
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java
-    startLine: 10
-  package: com.microsoft.store.partnercenter.models.query.sort
-  summary: "<p>Specifies sort field and direction. </p>"
+  - "java"
+  name: "Sort"
+  nameWithType: "Sort"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  summary: "Specifies sort field and direction."
   syntax:
-    content: public class Sort
+    content: "public class Sort"
   inheritance:
-  - java.lang.Object
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection()
-  id: getSortDirection()
-  parent: com.microsoft.store.partnercenter.models.query.sort.Sort
-  href: com.microsoft.store.partnercenter.models.query.sort.Sort.yml
+  - "java.lang.Object"
+  inheritedMembers:
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.Sort(java.lang.String,com.microsoft.store.partnercenter.models.query.sort.SortDirection)"
+  id: "Sort(java.lang.String,com.microsoft.store.partnercenter.models.query.sort.SortDirection)"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
   langs:
-  - java
-  name: getSortDirection()
-  nameWithType: Sort.getSortDirection()
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection()
-  overload: com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java
-    startLine: 45
-  package: com.microsoft.store.partnercenter.models.query.sort
+  - "java"
+  name: "Sort(String sortField, SortDirection sortDirection)"
+  nameWithType: "Sort.Sort(String sortField, SortDirection sortDirection)"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.Sort(String sortField, SortDirection sortDirection)"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.Sort.Sort*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  summary: "Initializes a new instance of the Sort class."
   syntax:
-    content: public SortDirection getSortDirection()
-    return:
-      type: com.microsoft.store.partnercenter.models.query.sort.SortDirection
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()
-  id: getSortField()
-  parent: com.microsoft.store.partnercenter.models.query.sort.Sort
-  href: com.microsoft.store.partnercenter.models.query.sort.Sort.yml
-  langs:
-  - java
-  name: getSortField()
-  nameWithType: Sort.getSortField()
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()
-  overload: com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java
-    startLine: 30
-  package: com.microsoft.store.partnercenter.models.query.sort
-  syntax:
-    content: public String getSortField()
-    return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection(SortDirection)
-  id: setSortDirection(SortDirection)
-  parent: com.microsoft.store.partnercenter.models.query.sort.Sort
-  href: com.microsoft.store.partnercenter.models.query.sort.Sort.yml
-  langs:
-  - java
-  name: setSortDirection(SortDirection value)
-  nameWithType: Sort.setSortDirection(SortDirection value)
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection(SortDirection value)
-  overload: com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java
-    startLine: 50
-  package: com.microsoft.store.partnercenter.models.query.sort
-  syntax:
-    content: public void setSortDirection(SortDirection value)
+    content: "public Sort(String sortField, SortDirection sortDirection)"
     parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.query.sort.SortDirection
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(String)
-  id: setSortField(String)
-  parent: com.microsoft.store.partnercenter.models.query.sort.Sort
-  href: com.microsoft.store.partnercenter.models.query.sort.Sort.yml
+    - id: "sortField"
+      type: "java.lang.String"
+      description: "The sort field."
+    - id: "sortDirection"
+      type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+      description: "The sort direction."
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection()"
+  id: "getSortDirection()"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
   langs:
-  - java
-  name: setSortField(String value)
-  nameWithType: Sort.setSortField(String value)
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(String value)
-  overload: com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java
-    startLine: 35
-  package: com.microsoft.store.partnercenter.models.query.sort
+  - "java"
+  name: "getSortDirection()"
+  nameWithType: "Sort.getSortDirection()"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection()"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
   syntax:
-    content: public void setSortField(String value)
-    parameters:
-    - id: value
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.Sort(String,SortDirection)
-  id: Sort(String,SortDirection)
-  parent: com.microsoft.store.partnercenter.models.query.sort.Sort
-  href: com.microsoft.store.partnercenter.models.query.sort.Sort.yml
-  langs:
-  - java
-  name: Sort(String sortField, SortDirection sortDirection)
-  nameWithType: Sort.Sort(String sortField, SortDirection sortDirection)
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.Sort(String sortField, SortDirection sortDirection)
-  overload: com.microsoft.store.partnercenter.models.query.sort.Sort.Sort*
-  type: Constructor
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java
-    startLine: 18
-  package: com.microsoft.store.partnercenter.models.query.sort
-  summary: "<p>Initializes a new instance of the Sort class.</p>\r\n<p></p>"
-  syntax:
-    content: public Sort(String sortField, SortDirection sortDirection)
-    parameters:
-    - id: sortField
-      type: "26831127"
-      description: <p>The sort field. </p>
-    - id: sortDirection
-      type: com.microsoft.store.partnercenter.models.query.sort.SortDirection
-      description: <p>The sort direction. </p>
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.toString()
-  id: toString()
-  parent: com.microsoft.store.partnercenter.models.query.sort.Sort
-  href: com.microsoft.store.partnercenter.models.query.sort.Sort.yml
-  langs:
-  - java
-  name: toString()
-  nameWithType: Sort.toString()
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.toString()
-  overload: com.microsoft.store.partnercenter.models.query.sort.Sort.toString*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/Sort.java
-    startLine: 60
-  package: com.microsoft.store.partnercenter.models.query.sort
-  summary: "<p>Prints the sort details.</p>\r\n<p></p>"
-  syntax:
-    content: public String toString()
+    content: "public SortDirection getSortDirection()"
     return:
-      type: "26831127"
-      description: <p>The sort details. </p>
+      type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()"
+  id: "getSortField()"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+  langs:
+  - "java"
+  name: "getSortField()"
+  nameWithType: "Sort.getSortField()"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  syntax:
+    content: "public String getSortField()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection(com.microsoft.store.partnercenter.models.query.sort.SortDirection)"
+  id: "setSortDirection(com.microsoft.store.partnercenter.models.query.sort.SortDirection)"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+  langs:
+  - "java"
+  name: "setSortDirection(SortDirection value)"
+  nameWithType: "Sort.setSortDirection(SortDirection value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection(SortDirection value)"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  syntax:
+    content: "public void setSortDirection(SortDirection value)"
+    parameters:
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(java.lang.String)"
+  id: "setSortField(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+  langs:
+  - "java"
+  name: "setSortField(String value)"
+  nameWithType: "Sort.setSortField(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(String value)"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  syntax:
+    content: "public void setSortField(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+  langs:
+  - "java"
+  name: "toString()"
+  nameWithType: "Sort.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.toString()"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.Sort.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  summary: "Prints the sort details."
+  syntax:
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "The sort details."
 references:
-- uid: "26831127"
+- uid: "java.lang.String"
   spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.Sort*
-  name: Sort
-  nameWithType: Sort.Sort
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.Sort
-  package: com.microsoft.store.partnercenter.models.query.sort
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField*
-  name: getSortField
-  nameWithType: Sort.getSortField
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField
-  package: com.microsoft.store.partnercenter.models.query.sort
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField*
-  name: setSortField
-  nameWithType: Sort.setSortField
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField
-  package: com.microsoft.store.partnercenter.models.query.sort
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection*
-  name: getSortDirection
-  nameWithType: Sort.getSortDirection
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection
-  package: com.microsoft.store.partnercenter.models.query.sort
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection*
-  name: setSortDirection
-  nameWithType: Sort.setSortDirection
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection
-  package: com.microsoft.store.partnercenter.models.query.sort
-- uid: com.microsoft.store.partnercenter.models.query.sort.Sort.toString*
-  name: toString
-  nameWithType: Sort.toString
-  fullName: com.microsoft.store.partnercenter.models.query.sort.Sort.toString
-  package: com.microsoft.store.partnercenter.models.query.sort
-- uid: com.microsoft.store.partnercenter.models.query.sort.SortDirection
-  parent: com.microsoft.store.partnercenter.models.query.sort
-  href: com.microsoft.store.partnercenter.models.query.sort.SortDirection.yml
-  name: SortDirection
-  nameWithType: SortDirection
-  fullName: com.microsoft.store.partnercenter.models.query.sort.SortDirection
-  type: Enum
-  syntax:
-    content: public enum SortDirection
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+  name: "SortDirection"
+  nameWithType: "SortDirection"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.Sort*"
+  name: "Sort"
+  nameWithType: "Sort.Sort"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.Sort"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField*"
+  name: "getSortField"
+  nameWithType: "Sort.getSortField"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField*"
+  name: "setSortField"
+  nameWithType: "Sort.setSortField"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection*"
+  name: "getSortDirection"
+  nameWithType: "Sort.getSortDirection"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection*"
+  name: "setSortDirection"
+  nameWithType: "Sort.setSortDirection"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.toString*"
+  name: "toString"
+  nameWithType: "Sort.toString"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.toString"
+  package: "com.microsoft.store.partnercenter.models.query.sort"

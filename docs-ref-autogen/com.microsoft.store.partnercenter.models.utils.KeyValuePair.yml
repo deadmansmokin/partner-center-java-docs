@@ -1,139 +1,123 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair
-  id: KeyValuePair
-  parent: com.microsoft.store.partnercenter.models.utils
+- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
+  id: "KeyValuePair"
+  parent: "com.microsoft.store.partnercenter.models.utils"
   children:
-  - com.microsoft.store.partnercenter.models.utils.KeyValuePair.getKey()
-  - com.microsoft.store.partnercenter.models.utils.KeyValuePair.getValue()
-  - com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair()
-  - com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair(K,V)
-  href: com.microsoft.store.partnercenter.models.utils.KeyValuePair.yml
+  - "com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair()"
+  - "com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair(K,V)"
+  - "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getKey()"
+  - "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getValue()"
   langs:
-  - java
-  name: KeyValuePair<K,V>
-  nameWithType: KeyValuePair<K,V>
-  fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/models/utils/KeyValuePair.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/utils/KeyValuePair.java
-    startLine: 5
-  package: com.microsoft.store.partnercenter.models.utils
+  - "java"
+  name: "KeyValuePair<K,V>"
+  nameWithType: "KeyValuePair<K,V>"
+  fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.utils"
   syntax:
-    content: public class KeyValuePair<K,V>
+    content: "public class KeyValuePair<K,V>"
     typeParameters:
-    - id: K
-      type: a1c6f3a5
-    - id: V
-      type: 0a560652
+    - id: "K"
+    - id: "V"
   inheritance:
-  - java.lang.Object
-- uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair.getKey()
-  id: getKey()
-  parent: com.microsoft.store.partnercenter.models.utils.KeyValuePair
-  href: com.microsoft.store.partnercenter.models.utils.KeyValuePair.yml
+  - "java.lang.Object"
+  inheritedMembers:
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair()"
+  id: "KeyValuePair()"
+  parent: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
   langs:
-  - java
-  name: getKey()
-  nameWithType: KeyValuePair<K,V>.getKey()
-  fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair<K, V>.getKey()
-  overload: com.microsoft.store.partnercenter.models.utils.KeyValuePair.getKey*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/utils/KeyValuePair.java
-    startLine: 21
-  package: com.microsoft.store.partnercenter.models.utils
+  - "java"
+  name: "KeyValuePair()"
+  nameWithType: "KeyValuePair<K,V>.KeyValuePair()"
+  fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.KeyValuePair()"
+  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.utils"
   syntax:
-    content: public K getKey()
-    return:
-      type: a1c6f3a5
-- uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair.getValue()
-  id: getValue()
-  parent: com.microsoft.store.partnercenter.models.utils.KeyValuePair
-  href: com.microsoft.store.partnercenter.models.utils.KeyValuePair.yml
+    content: "public KeyValuePair()"
+- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair(K,V)"
+  id: "KeyValuePair(K,V)"
+  parent: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
   langs:
-  - java
-  name: getValue()
-  nameWithType: KeyValuePair<K,V>.getValue()
-  fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair<K, V>.getValue()
-  overload: com.microsoft.store.partnercenter.models.utils.KeyValuePair.getValue*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/utils/KeyValuePair.java
-    startLine: 26
-  package: com.microsoft.store.partnercenter.models.utils
+  - "java"
+  name: "KeyValuePair(K key, V value)"
+  nameWithType: "KeyValuePair<K,V>.KeyValuePair(K key, V value)"
+  fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.KeyValuePair(K key, V value)"
+  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.utils"
   syntax:
-    content: public V getValue()
-    return:
-      type: 0a560652
-- uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair()
-  id: KeyValuePair()
-  parent: com.microsoft.store.partnercenter.models.utils.KeyValuePair
-  href: com.microsoft.store.partnercenter.models.utils.KeyValuePair.yml
-  langs:
-  - java
-  name: KeyValuePair()
-  nameWithType: KeyValuePair<K,V>.KeyValuePair()
-  fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair<K, V>.KeyValuePair()
-  overload: com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair*
-  type: Constructor
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/utils/KeyValuePair.java
-    startLine: 11
-  package: com.microsoft.store.partnercenter.models.utils
-  syntax:
-    content: public KeyValuePair()
-- uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair(K,V)
-  id: KeyValuePair(K,V)
-  parent: com.microsoft.store.partnercenter.models.utils.KeyValuePair
-  href: com.microsoft.store.partnercenter.models.utils.KeyValuePair.yml
-  langs:
-  - java
-  name: KeyValuePair(K key, V value)
-  nameWithType: KeyValuePair<K,V>.KeyValuePair(K key, V value)
-  fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair<K, V>.KeyValuePair(K key, V value)
-  overload: com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair*
-  type: Constructor
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/utils/KeyValuePair.java
-    startLine: 15
-  package: com.microsoft.store.partnercenter.models.utils
-  syntax:
-    content: public KeyValuePair(K key, V value)
+    content: "public KeyValuePair(K key, V value)"
     parameters:
-    - id: key
-      type: a1c6f3a5
-    - id: value
-      type: 0a560652
+    - id: "key"
+      type: "K"
+    - id: "value"
+      type: "V"
+- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getKey()"
+  id: "getKey()"
+  parent: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
+  langs:
+  - "java"
+  name: "getKey()"
+  nameWithType: "KeyValuePair<K,V>.getKey()"
+  fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getKey()"
+  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getKey*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.utils"
+  syntax:
+    content: "public K getKey()"
+    return:
+      type: "K"
+- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getValue()"
+  id: "getValue()"
+  parent: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
+  langs:
+  - "java"
+  name: "getValue()"
+  nameWithType: "KeyValuePair<K,V>.getValue()"
+  fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getValue()"
+  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getValue*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.utils"
+  syntax:
+    content: "public V getValue()"
+    return:
+      type: "V"
 references:
-- uid: a1c6f3a5
+- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair*"
+  name: "KeyValuePair"
+  nameWithType: "KeyValuePair<K,V>.KeyValuePair"
+  fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.KeyValuePair"
+  package: "com.microsoft.store.partnercenter.models.utils"
+- uid: "K"
   spec.java:
-  - name: K
-    fullName: K
-- uid: 0a560652
+  - uid: "K"
+    name: "K"
+    fullName: "K"
+- uid: "V"
   spec.java:
-  - name: V
-    fullName: V
-- uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair*
-  name: KeyValuePair
-  nameWithType: KeyValuePair<K,V>.KeyValuePair
-  fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair<K, V>.KeyValuePair
-  package: com.microsoft.store.partnercenter.models.utils
-- uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair.getKey*
-  name: getKey
-  nameWithType: KeyValuePair<K,V>.getKey
-  fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair<K, V>.getKey
-  package: com.microsoft.store.partnercenter.models.utils
-- uid: com.microsoft.store.partnercenter.models.utils.KeyValuePair.getValue*
-  name: getValue
-  nameWithType: KeyValuePair<K,V>.getValue
-  fullName: com.microsoft.store.partnercenter.models.utils.KeyValuePair<K, V>.getValue
-  package: com.microsoft.store.partnercenter.models.utils
+  - uid: "V"
+    name: "V"
+    fullName: "V"
+- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getKey*"
+  name: "getKey"
+  nameWithType: "KeyValuePair<K,V>.getKey"
+  fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getKey"
+  package: "com.microsoft.store.partnercenter.models.utils"
+- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getValue*"
+  name: "getValue"
+  nameWithType: "KeyValuePair<K,V>.getValue"
+  fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getValue"
+  package: "com.microsoft.store.partnercenter.models.utils"

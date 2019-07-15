@@ -1,66 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.extensions.products
-  id: products
+- uid: "com.microsoft.store.partnercenter.extensions.products"
+  id: "products"
   children:
-  - com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-  - com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
-  - com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations
-  - com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
-  href: com.microsoft.store.partnercenter.extensions.products.yml
+  - "com.microsoft.store.partnercenter.extensions.products.IProductExtensions"
+  - "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry"
+  - "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations"
+  - "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.extensions.products
-  nameWithType: com.microsoft.store.partnercenter.extensions.products
-  fullName: com.microsoft.store.partnercenter.extensions.products
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/extensions/products/IProductExtensions.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/extensions/products/IProductExtensions.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.extensions.products"
+  nameWithType: "com.microsoft.store.partnercenter.extensions.products"
+  fullName: "com.microsoft.store.partnercenter.extensions.products"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.extensions.products
+    content: "package com.microsoft.store.partnercenter.extensions.products"
 references:
-- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-  parent: com.microsoft.store.partnercenter.extensions.products
-  href: com.microsoft.store.partnercenter.extensions.products.IProductExtensions.yml
-  name: IProductExtensions
-  nameWithType: IProductExtensions
-  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensions
-  type: Interface
-  summary: "<p>Holds extension operations for products. </p>"
-  syntax:
-    content: public interface IProductExtensions extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
-  parent: com.microsoft.store.partnercenter.extensions.products
-  href: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.yml
-  name: IProductExtensionsByCountry
-  nameWithType: IProductExtensionsByCountry
-  fullName: com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry
-  type: Interface
-  summary: "<p>Holds extension operations for products by country. </p>"
-  syntax:
-    content: public interface IProductExtensionsByCountry extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations
-  parent: com.microsoft.store.partnercenter.extensions.products
-  href: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations.yml
-  name: ProductExtensionsByCountryOperations
-  nameWithType: ProductExtensionsByCountryOperations
-  fullName: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations
-  type: Class
-  summary: "<p>Product extensions operations implementation by country. </p>"
-  syntax:
-    content: public class ProductExtensionsByCountryOperations extends BasePartnerComponentString implements IProductExtensionsByCountry
-- uid: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
-  parent: com.microsoft.store.partnercenter.extensions.products
-  href: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations.yml
-  name: ProductExtensionsOperations
-  nameWithType: ProductExtensionsOperations
-  fullName: com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations
-  type: Class
-  summary: "<p>Extensions operations implementation. </p>"
-  syntax:
-    content: public class ProductExtensionsOperations extends BasePartnerComponentString implements IProductExtensions
+- uid: "com.microsoft.store.partnercenter.extensions.products.IProductExtensions"
+  name: "IProductExtensions"
+  nameWithType: "IProductExtensions"
+  fullName: "com.microsoft.store.partnercenter.extensions.products.IProductExtensions"
+- uid: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry"
+  name: "IProductExtensionsByCountry"
+  nameWithType: "IProductExtensionsByCountry"
+  fullName: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry"
+- uid: "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations"
+  name: "ProductExtensionsByCountryOperations"
+  nameWithType: "ProductExtensionsByCountryOperations"
+  fullName: "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations"
+- uid: "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations"
+  name: "ProductExtensionsOperations"
+  nameWithType: "ProductExtensionsOperations"
+  fullName: "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsOperations"

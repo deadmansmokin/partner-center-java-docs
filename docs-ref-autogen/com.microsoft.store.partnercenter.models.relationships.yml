@@ -1,55 +1,29 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.relationships
-  id: relationships
+- uid: "com.microsoft.store.partnercenter.models.relationships"
+  id: "relationships"
   children:
-  - com.microsoft.store.partnercenter.models.relationships.PartnerRelationship
-  - com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField
-  - com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
-  href: com.microsoft.store.partnercenter.models.relationships.yml
+  - "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship"
+  - "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
+  - "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.models.relationships
-  nameWithType: com.microsoft.store.partnercenter.models.relationships
-  fullName: com.microsoft.store.partnercenter.models.relationships
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/models/relationships/PartnerRelationship.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/relationships/PartnerRelationship.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.models.relationships"
+  nameWithType: "com.microsoft.store.partnercenter.models.relationships"
+  fullName: "com.microsoft.store.partnercenter.models.relationships"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.models.relationships
+    content: "package com.microsoft.store.partnercenter.models.relationships"
 references:
-- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship
-  parent: com.microsoft.store.partnercenter.models.relationships
-  href: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship.yml
-  name: PartnerRelationship
-  nameWithType: PartnerRelationship
-  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationship
-  type: Class
-  summary: "<p>This represents a relationship between two partners. </p>"
-  syntax:
-    content: public class PartnerRelationship extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField
-  parent: com.microsoft.store.partnercenter.models.relationships
-  href: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.yml
-  name: PartnerRelationshipSearchField
-  nameWithType: PartnerRelationshipSearchField
-  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField
-  type: Enum
-  summary: "<p>Lists the supported partner relationship search fields. </p>"
-  syntax:
-    content: public enum PartnerRelationshipSearchField
-- uid: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
-  parent: com.microsoft.store.partnercenter.models.relationships
-  href: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.yml
-  name: PartnerRelationshipType
-  nameWithType: PartnerRelationshipType
-  fullName: com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType
-  type: Enum
-  summary: "<p>The types of relationships between partners for two tier partner scenario. </p>"
-  syntax:
-    content: public enum PartnerRelationshipType
+- uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship"
+  name: "PartnerRelationship"
+  nameWithType: "PartnerRelationship"
+  fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship"
+- uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
+  name: "PartnerRelationshipSearchField"
+  nameWithType: "PartnerRelationshipSearchField"
+  fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
+- uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType"
+  name: "PartnerRelationshipType"
+  nameWithType: "PartnerRelationshipType"
+  fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType"

@@ -1,77 +1,39 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.auditing
-  id: auditing
+- uid: "com.microsoft.store.partnercenter.models.auditing"
+  id: "auditing"
   children:
-  - com.microsoft.store.partnercenter.models.auditing.AuditRecord
-  - com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField
-  - com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  - com.microsoft.store.partnercenter.models.auditing.OperationType
-  - com.microsoft.store.partnercenter.models.auditing.ResourceType
-  href: com.microsoft.store.partnercenter.models.auditing.yml
+  - "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
+  - "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField"
+  - "com.microsoft.store.partnercenter.models.auditing.OperationStatus"
+  - "com.microsoft.store.partnercenter.models.auditing.OperationType"
+  - "com.microsoft.store.partnercenter.models.auditing.ResourceType"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.models.auditing
-  nameWithType: com.microsoft.store.partnercenter.models.auditing
-  fullName: com.microsoft.store.partnercenter.models.auditing
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/models/auditing/AuditRecord.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/auditing/AuditRecord.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.models.auditing"
+  nameWithType: "com.microsoft.store.partnercenter.models.auditing"
+  fullName: "com.microsoft.store.partnercenter.models.auditing"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.models.auditing
+    content: "package com.microsoft.store.partnercenter.models.auditing"
 references:
-- uid: com.microsoft.store.partnercenter.models.auditing.AuditRecord
-  parent: com.microsoft.store.partnercenter.models.auditing
-  href: com.microsoft.store.partnercenter.models.auditing.AuditRecord.yml
-  name: AuditRecord
-  nameWithType: AuditRecord
-  fullName: com.microsoft.store.partnercenter.models.auditing.AuditRecord
-  type: Class
-  summary: "<p>Represents a record of operation performed by a partner user or application </p>"
-  syntax:
-    content: public class AuditRecord extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField
-  parent: com.microsoft.store.partnercenter.models.auditing
-  href: com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField.yml
-  name: AuditRecordSearchField
-  nameWithType: AuditRecordSearchField
-  fullName: com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField
-  type: Enum
-  summary: "<p>Lists the supported audit search fields. </p>"
-  syntax:
-    content: public enum AuditRecordSearchField
-- uid: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  parent: com.microsoft.store.partnercenter.models.auditing
-  href: com.microsoft.store.partnercenter.models.auditing.OperationStatus.yml
-  name: OperationStatus
-  nameWithType: OperationStatus
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationStatus
-  type: Enum
-  summary: "<p>Represents status of an operation </p>"
-  syntax:
-    content: public enum OperationStatus
-- uid: com.microsoft.store.partnercenter.models.auditing.OperationType
-  parent: com.microsoft.store.partnercenter.models.auditing
-  href: com.microsoft.store.partnercenter.models.auditing.OperationType.yml
-  name: OperationType
-  nameWithType: OperationType
-  fullName: com.microsoft.store.partnercenter.models.auditing.OperationType
-  type: Enum
-  summary: "<p>Enumeration to represent type of operation being performed. </p>"
-  syntax:
-    content: public enum OperationType
-- uid: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  parent: com.microsoft.store.partnercenter.models.auditing
-  href: com.microsoft.store.partnercenter.models.auditing.ResourceType.yml
-  name: ResourceType
-  nameWithType: ResourceType
-  fullName: com.microsoft.store.partnercenter.models.auditing.ResourceType
-  type: Enum
-  summary: "<p>Enumeration to represent type of resource being performed. </p>"
-  syntax:
-    content: public enum ResourceType
+- uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
+  name: "AuditRecord"
+  nameWithType: "AuditRecord"
+  fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
+- uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField"
+  name: "AuditRecordSearchField"
+  nameWithType: "AuditRecordSearchField"
+  fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField"
+- uid: "com.microsoft.store.partnercenter.models.auditing.OperationStatus"
+  name: "OperationStatus"
+  nameWithType: "OperationStatus"
+  fullName: "com.microsoft.store.partnercenter.models.auditing.OperationStatus"
+- uid: "com.microsoft.store.partnercenter.models.auditing.OperationType"
+  name: "OperationType"
+  nameWithType: "OperationType"
+  fullName: "com.microsoft.store.partnercenter.models.auditing.OperationType"
+- uid: "com.microsoft.store.partnercenter.models.auditing.ResourceType"
+  name: "ResourceType"
+  nameWithType: "ResourceType"
+  fullName: "com.microsoft.store.partnercenter.models.auditing.ResourceType"

@@ -1,43 +1,24 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.serviceincidents
-  id: serviceincidents
+- uid: "com.microsoft.store.partnercenter.serviceincidents"
+  id: "serviceincidents"
   children:
-  - com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
-  - com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
-  href: com.microsoft.store.partnercenter.serviceincidents.yml
+  - "com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection"
+  - "com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.serviceincidents
-  nameWithType: com.microsoft.store.partnercenter.serviceincidents
-  fullName: com.microsoft.store.partnercenter.serviceincidents
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/serviceincidents/IServiceIncidentCollection.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/serviceincidents/IServiceIncidentCollection.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.serviceincidents"
+  nameWithType: "com.microsoft.store.partnercenter.serviceincidents"
+  fullName: "com.microsoft.store.partnercenter.serviceincidents"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.serviceincidents
+    content: "package com.microsoft.store.partnercenter.serviceincidents"
 references:
-- uid: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
-  parent: com.microsoft.store.partnercenter.serviceincidents
-  href: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.yml
-  name: IServiceIncidentCollection
-  nameWithType: IServiceIncidentCollection
-  fullName: com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection
-  type: Interface
-  syntax:
-    content: public interface IServiceIncidentCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ServiceIncidents, ResourceCollection<ServiceIncidents>>
-- uid: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
-  parent: com.microsoft.store.partnercenter.serviceincidents
-  href: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.yml
-  name: ServiceIncidentCollectionOperations
-  nameWithType: ServiceIncidentCollectionOperations
-  fullName: com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations
-  type: Class
-  summary: "<p>Service incident collection operations implementation class. </p>"
-  syntax:
-    content: public class ServiceIncidentCollectionOperations extends BasePartnerComponentString implements IServiceIncidentCollection
+- uid: "com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection"
+  name: "IServiceIncidentCollection"
+  nameWithType: "IServiceIncidentCollection"
+  fullName: "com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection"
+- uid: "com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations"
+  name: "ServiceIncidentCollectionOperations"
+  nameWithType: "ServiceIncidentCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations"

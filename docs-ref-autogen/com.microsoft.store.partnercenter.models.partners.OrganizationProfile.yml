@@ -1,601 +1,421 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  id: OrganizationProfile
-  parent: com.microsoft.store.partnercenter.models.partners
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
+  id: "OrganizationProfile"
+  parent: "com.microsoft.store.partnercenter.models.partners"
   children:
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName()
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture()
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress()
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain()
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail()
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId()
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage()
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId()
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile()
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName(String)
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture(String)
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress(Address)
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain(String)
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail(String)
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId(String)
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage(String)
-  - com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId(String)
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile()"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName()"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture()"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress()"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain()"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail()"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId()"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage()"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId()"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress(com.microsoft.store.partnercenter.models.Address)"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId(java.lang.String)"
   langs:
-  - java
-  name: OrganizationProfile
-  nameWithType: OrganizationProfile
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 12
-  package: com.microsoft.store.partnercenter.models.partners
-  summary: "<p>Partner's organization profile </p>"
+  - "java"
+  name: "OrganizationProfile"
+  nameWithType: "OrganizationProfile"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "Partner's organization profile"
   syntax:
-    content: public class OrganizationProfile extends ResourceBaseWithLinks<StandardResourceLinks>
+    content: "public class OrganizationProfile extends ResourceBaseWithLinks<StandardResourceLinks>"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(String)
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName()
-  id: getCompanyName()
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile()"
+  id: "OrganizationProfile()"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: getCompanyName()
-  nameWithType: OrganizationProfile.getCompanyName()
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName()
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 43
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "OrganizationProfile()"
+  nameWithType: "OrganizationProfile.OrganizationProfile()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile()"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "Initializes a new instance of the OrganizationProfile class."
   syntax:
-    content: public String getCompanyName()
+    content: "public OrganizationProfile()"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName()"
+  id: "getCompanyName()"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
+  langs:
+  - "java"
+  name: "getCompanyName()"
+  nameWithType: "OrganizationProfile.getCompanyName()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName()"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  syntax:
+    content: "public String getCompanyName()"
     return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture()
-  id: getCulture()
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture()"
+  id: "getCulture()"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: getCulture()
-  nameWithType: OrganizationProfile.getCulture()
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture()
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 133
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "getCulture()"
+  nameWithType: "OrganizationProfile.getCulture()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture()"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public String getCulture()
+    content: "public String getCulture()"
     return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress()
-  id: getDefaultAddress()
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress()"
+  id: "getDefaultAddress()"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: getDefaultAddress()
-  nameWithType: OrganizationProfile.getDefaultAddress()
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress()
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 58
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "getDefaultAddress()"
+  nameWithType: "OrganizationProfile.getDefaultAddress()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress()"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public Address getDefaultAddress()
+    content: "public Address getDefaultAddress()"
     return:
-      type: com.microsoft.store.partnercenter.models.Address
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain()
-  id: getDomain()
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+      type: "com.microsoft.store.partnercenter.models.Address"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain()"
+  id: "getDomain()"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: getDomain()
-  nameWithType: OrganizationProfile.getDomain()
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain()
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 88
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "getDomain()"
+  nameWithType: "OrganizationProfile.getDomain()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain()"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public String getDomain()
+    content: "public String getDomain()"
     return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail()
-  id: getEmail()
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail()"
+  id: "getEmail()"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: getEmail()
-  nameWithType: OrganizationProfile.getEmail()
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail()
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 103
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "getEmail()"
+  nameWithType: "OrganizationProfile.getEmail()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail()"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public String getEmail()
+    content: "public String getEmail()"
     return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId()
-  id: getId()
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId()"
+  id: "getId()"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: getId()
-  nameWithType: OrganizationProfile.getId()
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId()
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 28
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "getId()"
+  nameWithType: "OrganizationProfile.getId()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId()"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public String getId()
+    content: "public String getId()"
     return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage()
-  id: getLanguage()
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage()"
+  id: "getLanguage()"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: getLanguage()
-  nameWithType: OrganizationProfile.getLanguage()
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage()
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 118
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "getLanguage()"
+  nameWithType: "OrganizationProfile.getLanguage()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage()"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public String getLanguage()
+    content: "public String getLanguage()"
     return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId()
-  id: getTenantId()
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId()"
+  id: "getTenantId()"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: getTenantId()
-  nameWithType: OrganizationProfile.getTenantId()
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId()
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 73
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "getTenantId()"
+  nameWithType: "OrganizationProfile.getTenantId()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId()"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public String getTenantId()
+    content: "public String getTenantId()"
     return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile()
-  id: OrganizationProfile()
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName(java.lang.String)"
+  id: "setCompanyName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: OrganizationProfile()
-  nameWithType: OrganizationProfile.OrganizationProfile()
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile()
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile*
-  type: Constructor
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 18
-  package: com.microsoft.store.partnercenter.models.partners
-  summary: "<p>Initializes a new instance of the OrganizationProfile class. </p>"
+  - "java"
+  name: "setCompanyName(String value)"
+  nameWithType: "OrganizationProfile.setCompanyName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public OrganizationProfile()
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName(String)
-  id: setCompanyName(String)
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
-  langs:
-  - java
-  name: setCompanyName(String value)
-  nameWithType: OrganizationProfile.setCompanyName(String value)
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName(String value)
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 48
-  package: com.microsoft.store.partnercenter.models.partners
-  syntax:
-    content: public void setCompanyName(String value)
+    content: "public void setCompanyName(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture(String)
-  id: setCulture(String)
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture(java.lang.String)"
+  id: "setCulture(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: setCulture(String value)
-  nameWithType: OrganizationProfile.setCulture(String value)
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture(String value)
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 138
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "setCulture(String value)"
+  nameWithType: "OrganizationProfile.setCulture(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture(String value)"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public void setCulture(String value)
+    content: "public void setCulture(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress(Address)
-  id: setDefaultAddress(Address)
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress(com.microsoft.store.partnercenter.models.Address)"
+  id: "setDefaultAddress(com.microsoft.store.partnercenter.models.Address)"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: setDefaultAddress(Address value)
-  nameWithType: OrganizationProfile.setDefaultAddress(Address value)
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress(Address value)
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 63
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "setDefaultAddress(Address value)"
+  nameWithType: "OrganizationProfile.setDefaultAddress(Address value)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress(Address value)"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public void setDefaultAddress(Address value)
+    content: "public void setDefaultAddress(Address value)"
     parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.Address
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain(String)
-  id: setDomain(String)
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.Address"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain(java.lang.String)"
+  id: "setDomain(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: setDomain(String value)
-  nameWithType: OrganizationProfile.setDomain(String value)
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain(String value)
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 93
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "setDomain(String value)"
+  nameWithType: "OrganizationProfile.setDomain(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain(String value)"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public void setDomain(String value)
+    content: "public void setDomain(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail(String)
-  id: setEmail(String)
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail(java.lang.String)"
+  id: "setEmail(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: setEmail(String value)
-  nameWithType: OrganizationProfile.setEmail(String value)
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail(String value)
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 108
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "setEmail(String value)"
+  nameWithType: "OrganizationProfile.setEmail(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail(String value)"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public void setEmail(String value)
+    content: "public void setEmail(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId(String)
-  id: setId(String)
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId(java.lang.String)"
+  id: "setId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: setId(String value)
-  nameWithType: OrganizationProfile.setId(String value)
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId(String value)
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 33
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "setId(String value)"
+  nameWithType: "OrganizationProfile.setId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public void setId(String value)
+    content: "public void setId(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage(String)
-  id: setLanguage(String)
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage(java.lang.String)"
+  id: "setLanguage(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: setLanguage(String value)
-  nameWithType: OrganizationProfile.setLanguage(String value)
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage(String value)
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 123
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "setLanguage(String value)"
+  nameWithType: "OrganizationProfile.setLanguage(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage(String value)"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public void setLanguage(String value)
+    content: "public void setLanguage(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId(String)
-  id: setTenantId(String)
-  parent: com.microsoft.store.partnercenter.models.partners.OrganizationProfile
-  href: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.yml
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId(java.lang.String)"
+  id: "setTenantId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   langs:
-  - java
-  name: setTenantId(String value)
-  nameWithType: OrganizationProfile.setTenantId(String value)
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId(String value)
-  overload: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/partners/OrganizationProfile.java
-    startLine: 78
-  package: com.microsoft.store.partnercenter.models.partners
+  - "java"
+  name: "setTenantId(String value)"
+  nameWithType: "OrganizationProfile.setTenantId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
-    content: public void setTenantId(String value)
+    content: "public void setTenantId(String value)"
     parameters:
-    - id: value
-      type: "26831127"
+    - id: "value"
+      type: "java.lang.String"
 references:
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile*
-  name: OrganizationProfile
-  nameWithType: OrganizationProfile.OrganizationProfile
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: "26831127"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile*"
+  name: "OrganizationProfile"
+  nameWithType: "OrganizationProfile.OrganizationProfile"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.OrganizationProfile"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "java.lang.String"
   spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId*
-  name: getId
-  nameWithType: OrganizationProfile.getId
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId*
-  name: setId
-  nameWithType: OrganizationProfile.setId
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName*
-  name: getCompanyName
-  nameWithType: OrganizationProfile.getCompanyName
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName*
-  name: setCompanyName
-  nameWithType: OrganizationProfile.setCompanyName
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress*
-  name: getDefaultAddress
-  nameWithType: OrganizationProfile.getDefaultAddress
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress*
-  name: setDefaultAddress
-  nameWithType: OrganizationProfile.setDefaultAddress
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId*
-  name: getTenantId
-  nameWithType: OrganizationProfile.getTenantId
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId*
-  name: setTenantId
-  nameWithType: OrganizationProfile.setTenantId
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain*
-  name: getDomain
-  nameWithType: OrganizationProfile.getDomain
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain*
-  name: setDomain
-  nameWithType: OrganizationProfile.setDomain
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail*
-  name: getEmail
-  nameWithType: OrganizationProfile.getEmail
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail*
-  name: setEmail
-  nameWithType: OrganizationProfile.setEmail
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage*
-  name: getLanguage
-  nameWithType: OrganizationProfile.getLanguage
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage*
-  name: setLanguage
-  nameWithType: OrganizationProfile.setLanguage
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture*
-  name: getCulture
-  nameWithType: OrganizationProfile.getCulture
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture*
-  name: setCulture
-  nameWithType: OrganizationProfile.setCulture
-  fullName: com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture
-  package: com.microsoft.store.partnercenter.models.partners
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  type: Method
-  summary: "<p>Gets the attributes.</p>\r\n<p></p>"
-  syntax:
-    content: public ResourceAttributes getAttributes()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceAttributes
-      description: <p>The resource attributes. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: getLinks()
-  nameWithType: ResourceBaseWithLinks<TLinks>.getLinks()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.getLinks()
-  type: Method
-  summary: "<p>Gets the links.</p>\r\n<p></p>"
-  syntax:
-    content: public TLinks getLinks()
-    return:
-      type: 694adf1c
-      description: <p>The links. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: ResourceBase()
-  nameWithType: ResourceBase.ResourceBase()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBase class. </p>"
-  syntax:
-    content: protected ResourceBase()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: ResourceBase(String objectType)
-  nameWithType: ResourceBase.ResourceBase(String objectType)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String objectType)
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBase class.</p>\r\n<p></p>"
-  syntax:
-    content: protected ResourceBase(String objectType)
-    parameters:
-    - id: objectType
-      type: "26831127"
-      description: <p>Type of the object. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(String)
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: ResourceBaseWithLinks(String objectType)
-  nameWithType: ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks(String objectType)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks(String objectType)
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBaseWithLinks class.</p>\r\n<p></p>"
-  syntax:
-    content: protected ResourceBaseWithLinks(String objectType)
-    parameters:
-    - id: objectType
-      type: "26831127"
-      description: <p>Type of the object. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: ResourceBaseWithLinks()
-  nameWithType: ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBaseWithLinks class. </p>"
-  syntax:
-    content: protected ResourceBaseWithLinks()
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: setLinks(TLinks value)
-  nameWithType: ResourceBaseWithLinks<TLinks>.setLinks(TLinks value)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.setLinks(TLinks value)
-  type: Method
-  summary: "<p>Sets the links.</p>\r\n<p></p>"
-  syntax:
-    content: public void setLinks(TLinks value)
-    parameters:
-    - id: value
-      type: 694adf1c
-      description: <p>The links. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: ResourceBaseWithLinks<TLinks>
-  nameWithType: ResourceBaseWithLinks<TLinks>
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>
-  type: Class
-  summary: "<p>Base class for resources </p>"
-  syntax:
-    content: public class ResourceBaseWithLinks<TLinks>
-    typeParameters:
-    - id: TLinks
-      type: 694adf1c
-- uid: com.microsoft.store.partnercenter.models.Address
-  parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models.Address.yml
-  name: Address
-  nameWithType: Address
-  fullName: com.microsoft.store.partnercenter.models.Address
-  type: Class
-  summary: "<p>Represents Customer or partner's address </p>"
-  syntax:
-    content: public class Address
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId*"
+  name: "getId"
+  nameWithType: "OrganizationProfile.getId"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getId"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId*"
+  name: "setId"
+  nameWithType: "OrganizationProfile.setId"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setId"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName*"
+  name: "getCompanyName"
+  nameWithType: "OrganizationProfile.getCompanyName"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCompanyName"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName*"
+  name: "setCompanyName"
+  nameWithType: "OrganizationProfile.setCompanyName"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCompanyName"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.Address"
+  name: "Address"
+  nameWithType: "Address"
+  fullName: "com.microsoft.store.partnercenter.models.Address"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress*"
+  name: "getDefaultAddress"
+  nameWithType: "OrganizationProfile.getDefaultAddress"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDefaultAddress"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress*"
+  name: "setDefaultAddress"
+  nameWithType: "OrganizationProfile.setDefaultAddress"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDefaultAddress"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId*"
+  name: "getTenantId"
+  nameWithType: "OrganizationProfile.getTenantId"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getTenantId"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId*"
+  name: "setTenantId"
+  nameWithType: "OrganizationProfile.setTenantId"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setTenantId"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain*"
+  name: "getDomain"
+  nameWithType: "OrganizationProfile.getDomain"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getDomain"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain*"
+  name: "setDomain"
+  nameWithType: "OrganizationProfile.setDomain"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setDomain"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail*"
+  name: "getEmail"
+  nameWithType: "OrganizationProfile.getEmail"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getEmail"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail*"
+  name: "setEmail"
+  nameWithType: "OrganizationProfile.setEmail"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setEmail"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage*"
+  name: "getLanguage"
+  nameWithType: "OrganizationProfile.getLanguage"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getLanguage"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage*"
+  name: "setLanguage"
+  nameWithType: "OrganizationProfile.setLanguage"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setLanguage"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture*"
+  name: "getCulture"
+  nameWithType: "OrganizationProfile.getCulture"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.getCulture"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture*"
+  name: "setCulture"
+  nameWithType: "OrganizationProfile.setCulture"
+  fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile.setCulture"
+  package: "com.microsoft.store.partnercenter.models.partners"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
+  name: "ResourceBaseWithLinks<StandardResourceLinks>"
+  nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+  name: "ResourceBaseWithLinks"
+  nameWithType: "ResourceBaseWithLinks"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+- uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
+  name: "StandardResourceLinks"
+  nameWithType: "StandardResourceLinks"
+  fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

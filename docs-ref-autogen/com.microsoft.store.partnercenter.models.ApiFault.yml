@@ -1,372 +1,298 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.ApiFault
-  id: ApiFault
-  parent: com.microsoft.store.partnercenter.models
+- uid: "com.microsoft.store.partnercenter.models.ApiFault"
+  id: "ApiFault"
+  parent: "com.microsoft.store.partnercenter.models"
   children:
-  - com.microsoft.store.partnercenter.models.ApiFault.ApiFault()
-  - com.microsoft.store.partnercenter.models.ApiFault.getErrorCode()
-  - com.microsoft.store.partnercenter.models.ApiFault.getErrorData()
-  - com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage()
-  - com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable()
-  - com.microsoft.store.partnercenter.models.ApiFault.setErrorCode(String)
-  - com.microsoft.store.partnercenter.models.ApiFault.setErrorData(Iterable<Object>)
-  - com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage(String)
-  - com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable(boolean)
-  - com.microsoft.store.partnercenter.models.ApiFault.toString()
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+  - "com.microsoft.store.partnercenter.models.ApiFault.ApiFault()"
+  - "com.microsoft.store.partnercenter.models.ApiFault.getErrorCode()"
+  - "com.microsoft.store.partnercenter.models.ApiFault.getErrorData()"
+  - "com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage()"
+  - "com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable()"
+  - "com.microsoft.store.partnercenter.models.ApiFault.setErrorCode(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.ApiFault.setErrorData(java.lang.Iterable<java.lang.Object>)"
+  - "com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable(boolean)"
+  - "com.microsoft.store.partnercenter.models.ApiFault.toString()"
   langs:
-  - java
-  name: ApiFault
-  nameWithType: ApiFault
-  fullName: com.microsoft.store.partnercenter.models.ApiFault
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 12
-  package: com.microsoft.store.partnercenter.models
-  summary: "<p>Represents API failures. </p>"
+  - "java"
+  name: "ApiFault"
+  nameWithType: "ApiFault"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Represents API failures."
   syntax:
-    content: public class ApiFault extends ResourceBase
+    content: "public class ApiFault extends ResourceBase"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
-- uid: com.microsoft.store.partnercenter.models.ApiFault.ApiFault()
-  id: ApiFault()
-  parent: com.microsoft.store.partnercenter.models.ApiFault
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.ApiFault()"
+  id: "ApiFault()"
+  parent: "com.microsoft.store.partnercenter.models.ApiFault"
   langs:
-  - java
-  name: ApiFault()
-  nameWithType: ApiFault.ApiFault()
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.ApiFault()
-  overload: com.microsoft.store.partnercenter.models.ApiFault.ApiFault*
-  type: Constructor
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 41
-  package: com.microsoft.store.partnercenter.models
-  summary: "<p>Initializes a new instance of the ApiFault class. </p>"
+  - "java"
+  name: "ApiFault()"
+  nameWithType: "ApiFault.ApiFault()"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.ApiFault()"
+  overload: "com.microsoft.store.partnercenter.models.ApiFault.ApiFault*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Initializes a new instance of the ApiFault class."
   syntax:
-    content: protected ApiFault()
-- uid: com.microsoft.store.partnercenter.models.ApiFault.getErrorCode()
-  id: getErrorCode()
-  parent: com.microsoft.store.partnercenter.models.ApiFault
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+    content: "protected ApiFault()"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.getErrorCode()"
+  id: "getErrorCode()"
+  parent: "com.microsoft.store.partnercenter.models.ApiFault"
   langs:
-  - java
-  name: getErrorCode()
-  nameWithType: ApiFault.getErrorCode()
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.getErrorCode()
-  overload: com.microsoft.store.partnercenter.models.ApiFault.getErrorCode*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 51
-  package: com.microsoft.store.partnercenter.models
-  summary: "<p>Gets the error code.</p>\r\n<p></p>"
+  - "java"
+  name: "getErrorCode()"
+  nameWithType: "ApiFault.getErrorCode()"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.getErrorCode()"
+  overload: "com.microsoft.store.partnercenter.models.ApiFault.getErrorCode*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Gets the error code."
   syntax:
-    content: public String getErrorCode()
+    content: "public String getErrorCode()"
     return:
-      type: "26831127"
-      description: <p>The error code. </p>
-- uid: com.microsoft.store.partnercenter.models.ApiFault.getErrorData()
-  id: getErrorData()
-  parent: com.microsoft.store.partnercenter.models.ApiFault
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+      type: "java.lang.String"
+      description: "The error code."
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.getErrorData()"
+  id: "getErrorData()"
+  parent: "com.microsoft.store.partnercenter.models.ApiFault"
   langs:
-  - java
-  name: getErrorData()
-  nameWithType: ApiFault.getErrorData()
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.getErrorData()
-  overload: com.microsoft.store.partnercenter.models.ApiFault.getErrorData*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 91
-  package: com.microsoft.store.partnercenter.models
-  summary: "<p>Gets the additional fault information if present.</p>\r\n<p></p>"
+  - "java"
+  name: "getErrorData()"
+  nameWithType: "ApiFault.getErrorData()"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.getErrorData()"
+  overload: "com.microsoft.store.partnercenter.models.ApiFault.getErrorData*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Gets the additional fault information if present."
   syntax:
-    content: public Iterable<Object> getErrorData()
+    content: "public Iterable<Object> getErrorData()"
     return:
-      type: 85906ad9
-      description: <p>The additional fault information if present. </p>
-- uid: com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage()
-  id: getErrorMessage()
-  parent: com.microsoft.store.partnercenter.models.ApiFault
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+      type: "java.lang.Iterable<java.lang.Object>"
+      description: "The additional fault information if present."
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage()"
+  id: "getErrorMessage()"
+  parent: "com.microsoft.store.partnercenter.models.ApiFault"
   langs:
-  - java
-  name: getErrorMessage()
-  nameWithType: ApiFault.getErrorMessage()
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage()
-  overload: com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 71
-  package: com.microsoft.store.partnercenter.models
-  summary: "<p>Gets the error message.</p>\r\n<p></p>"
+  - "java"
+  name: "getErrorMessage()"
+  nameWithType: "ApiFault.getErrorMessage()"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage()"
+  overload: "com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Gets the error message."
   syntax:
-    content: public String getErrorMessage()
+    content: "public String getErrorMessage()"
     return:
-      type: "26831127"
-      description: <p>The error message. </p>
-- uid: com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable()
-  id: getIsRetryable()
-  parent: com.microsoft.store.partnercenter.models.ApiFault
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+      type: "java.lang.String"
+      description: "The error message."
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable()"
+  id: "getIsRetryable()"
+  parent: "com.microsoft.store.partnercenter.models.ApiFault"
   langs:
-  - java
-  name: getIsRetryable()
-  nameWithType: ApiFault.getIsRetryable()
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable()
-  overload: com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 111
-  package: com.microsoft.store.partnercenter.models
-  summary: "<p>Gets a flag indicating whether or not the fault is retryable.</p>\r\n<p></p>"
+  - "java"
+  name: "getIsRetryable()"
+  nameWithType: "ApiFault.getIsRetryable()"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable()"
+  overload: "com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Gets a flag indicating whether or not the fault is retryable."
   syntax:
-    content: public boolean getIsRetryable()
+    content: "public boolean getIsRetryable()"
     return:
-      type: 4fc6e284
-      description: <p>A flag indicating whether or not the fault is retryable. </p>
-- uid: com.microsoft.store.partnercenter.models.ApiFault.setErrorCode(String)
-  id: setErrorCode(String)
-  parent: com.microsoft.store.partnercenter.models.ApiFault
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+      type: "boolean"
+      description: "A flag indicating whether or not the fault is retryable."
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.setErrorCode(java.lang.String)"
+  id: "setErrorCode(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.ApiFault"
   langs:
-  - java
-  name: setErrorCode(String value)
-  nameWithType: ApiFault.setErrorCode(String value)
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.setErrorCode(String value)
-  overload: com.microsoft.store.partnercenter.models.ApiFault.setErrorCode*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 61
-  package: com.microsoft.store.partnercenter.models
-  summary: "<p>Sets the error code.</p>\r\n<p></p>"
+  - "java"
+  name: "setErrorCode(String value)"
+  nameWithType: "ApiFault.setErrorCode(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.setErrorCode(String value)"
+  overload: "com.microsoft.store.partnercenter.models.ApiFault.setErrorCode*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Sets the error code."
   syntax:
-    content: public void setErrorCode(String value)
+    content: "public void setErrorCode(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The error code. </p>
-- uid: com.microsoft.store.partnercenter.models.ApiFault.setErrorData(Iterable<Object>)
-  id: setErrorData(Iterable<Object>)
-  parent: com.microsoft.store.partnercenter.models.ApiFault
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+    - id: "value"
+      type: "java.lang.String"
+      description: "The error code."
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.setErrorData(java.lang.Iterable<java.lang.Object>)"
+  id: "setErrorData(java.lang.Iterable<java.lang.Object>)"
+  parent: "com.microsoft.store.partnercenter.models.ApiFault"
   langs:
-  - java
-  name: setErrorData(Iterable<Object> value)
-  nameWithType: ApiFault.setErrorData(Iterable<Object> value)
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.setErrorData(Iterable<Object> value)
-  overload: com.microsoft.store.partnercenter.models.ApiFault.setErrorData*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 101
-  package: com.microsoft.store.partnercenter.models
-  summary: "<p>Sets the additional fault information.</p>\r\n<p></p>"
+  - "java"
+  name: "setErrorData(Iterable<Object> value)"
+  nameWithType: "ApiFault.setErrorData(Iterable<Object> value)"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.setErrorData(Iterable<Object> value)"
+  overload: "com.microsoft.store.partnercenter.models.ApiFault.setErrorData*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Sets the additional fault information."
   syntax:
-    content: public void setErrorData(Iterable<Object> value)
+    content: "public void setErrorData(Iterable<Object> value)"
     parameters:
-    - id: value
-      type: 85906ad9
-      description: <p>The additional fault information. </p>
-- uid: com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage(String)
-  id: setErrorMessage(String)
-  parent: com.microsoft.store.partnercenter.models.ApiFault
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+    - id: "value"
+      type: "java.lang.Iterable<java.lang.Object>"
+      description: "The additional fault information."
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage(java.lang.String)"
+  id: "setErrorMessage(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.ApiFault"
   langs:
-  - java
-  name: setErrorMessage(String value)
-  nameWithType: ApiFault.setErrorMessage(String value)
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage(String value)
-  overload: com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 81
-  package: com.microsoft.store.partnercenter.models
-  summary: "<p>Sets the error message.</p>\r\n<p></p>"
+  - "java"
+  name: "setErrorMessage(String value)"
+  nameWithType: "ApiFault.setErrorMessage(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage(String value)"
+  overload: "com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Sets the error message."
   syntax:
-    content: public void setErrorMessage(String value)
+    content: "public void setErrorMessage(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The error message. </p>
-- uid: com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable(boolean)
-  id: setIsRetryable(boolean)
-  parent: com.microsoft.store.partnercenter.models.ApiFault
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+    - id: "value"
+      type: "java.lang.String"
+      description: "The error message."
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable(boolean)"
+  id: "setIsRetryable(boolean)"
+  parent: "com.microsoft.store.partnercenter.models.ApiFault"
   langs:
-  - java
-  name: setIsRetryable(boolean value)
-  nameWithType: ApiFault.setIsRetryable(boolean value)
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable(boolean value)
-  overload: com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 121
-  package: com.microsoft.store.partnercenter.models
-  summary: "<p>Sets a flag indicating whether or not the fault is retryable.</p>\r\n<p></p>"
+  - "java"
+  name: "setIsRetryable(boolean value)"
+  nameWithType: "ApiFault.setIsRetryable(boolean value)"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable(boolean value)"
+  overload: "com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Sets a flag indicating whether or not the fault is retryable."
   syntax:
-    content: public void setIsRetryable(boolean value)
+    content: "public void setIsRetryable(boolean value)"
     parameters:
-    - id: value
-      type: 4fc6e284
-      description: <p>A flag indicating whether or not the fault is retryable. </p>
-- uid: com.microsoft.store.partnercenter.models.ApiFault.toString()
-  id: toString()
-  parent: com.microsoft.store.partnercenter.models.ApiFault
-  href: com.microsoft.store.partnercenter.models.ApiFault.yml
+    - id: "value"
+      type: "boolean"
+      description: "A flag indicating whether or not the fault is retryable."
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.ApiFault"
   langs:
-  - java
-  name: toString()
-  nameWithType: ApiFault.toString()
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.toString()
-  overload: com.microsoft.store.partnercenter.models.ApiFault.toString*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/ApiFault.java
-    startLine: 131
-  package: com.microsoft.store.partnercenter.models
-  summary: "<p>Returns a meaningful summary about the API fault.</p>\r\n<p></p>"
+  - "java"
+  name: "toString()"
+  nameWithType: "ApiFault.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.toString()"
+  overload: "com.microsoft.store.partnercenter.models.ApiFault.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Returns a meaningful summary about the API fault."
   syntax:
-    content: public String toString()
+    content: "public String toString()"
     return:
-      type: "26831127"
-      description: <p>The API fault summary. </p>
+      type: "java.lang.String"
+      description: "The API fault summary."
 references:
-- uid: com.microsoft.store.partnercenter.models.ApiFault.ApiFault*
-  name: ApiFault
-  nameWithType: ApiFault.ApiFault
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.ApiFault
-  package: com.microsoft.store.partnercenter.models
-- uid: "26831127"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.ApiFault*"
+  name: "ApiFault"
+  nameWithType: "ApiFault.ApiFault"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.ApiFault"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "java.lang.String"
   spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.store.partnercenter.models.ApiFault.getErrorCode*
-  name: getErrorCode
-  nameWithType: ApiFault.getErrorCode
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.getErrorCode
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.ApiFault.setErrorCode*
-  name: setErrorCode
-  nameWithType: ApiFault.setErrorCode
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.setErrorCode
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage*
-  name: getErrorMessage
-  nameWithType: ApiFault.getErrorMessage
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage*
-  name: setErrorMessage
-  nameWithType: ApiFault.setErrorMessage
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage
-  package: com.microsoft.store.partnercenter.models
-- uid: 85906ad9
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.getErrorCode*"
+  name: "getErrorCode"
+  nameWithType: "ApiFault.getErrorCode"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.getErrorCode"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.setErrorCode*"
+  name: "setErrorCode"
+  nameWithType: "ApiFault.setErrorCode"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.setErrorCode"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage*"
+  name: "getErrorMessage"
+  nameWithType: "ApiFault.getErrorMessage"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.getErrorMessage"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage*"
+  name: "setErrorMessage"
+  nameWithType: "ApiFault.setErrorMessage"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "java.lang.Iterable<java.lang.Object>"
   spec.java:
-  - name: Iterable<Object>
-    fullName: Iterable<Object>
-- uid: com.microsoft.store.partnercenter.models.ApiFault.getErrorData*
-  name: getErrorData
-  nameWithType: ApiFault.getErrorData
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.getErrorData
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.ApiFault.setErrorData*
-  name: setErrorData
-  nameWithType: ApiFault.setErrorData
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.setErrorData
-  package: com.microsoft.store.partnercenter.models
-- uid: 4fc6e284
+  - uid: "java.lang.Iterable"
+    name: "Iterable"
+    fullName: "java.lang.Iterable"
+  - name: "<"
+    fullName: "<"
+  - uid: "java.lang.Object"
+    name: "Object"
+    fullName: "java.lang.Object"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.getErrorData*"
+  name: "getErrorData"
+  nameWithType: "ApiFault.getErrorData"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.getErrorData"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.setErrorData*"
+  name: "setErrorData"
+  nameWithType: "ApiFault.setErrorData"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.setErrorData"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "boolean"
   spec.java:
-  - name: boolean
-    fullName: boolean
-- uid: com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable*
-  name: getIsRetryable
-  nameWithType: ApiFault.getIsRetryable
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable*
-  name: setIsRetryable
-  nameWithType: ApiFault.setIsRetryable
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.ApiFault.toString*
-  name: toString
-  nameWithType: ApiFault.toString
-  fullName: com.microsoft.store.partnercenter.models.ApiFault.toString
-  package: com.microsoft.store.partnercenter.models
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  type: Method
-  summary: "<p>Gets the attributes.</p>\r\n<p></p>"
-  syntax:
-    content: public ResourceAttributes getAttributes()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceAttributes
-      description: <p>The resource attributes. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: ResourceBase()
-  nameWithType: ResourceBase.ResourceBase()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBase class. </p>"
-  syntax:
-    content: protected ResourceBase()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: ResourceBase(String objectType)
-  nameWithType: ResourceBase.ResourceBase(String objectType)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String objectType)
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBase class.</p>\r\n<p></p>"
-  syntax:
-    content: protected ResourceBase(String objectType)
-    parameters:
-    - id: objectType
-      type: "26831127"
-      description: <p>Type of the object. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBase
-  parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: ResourceBase
-  nameWithType: ResourceBase
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase
-  type: Class
-  summary: "<p>Base class for resources </p>"
-  syntax:
-    content: public class ResourceBase
+  - uid: "boolean"
+    name: "boolean"
+    fullName: "boolean"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable*"
+  name: "getIsRetryable"
+  nameWithType: "ApiFault.getIsRetryable"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.getIsRetryable"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable*"
+  name: "setIsRetryable"
+  nameWithType: "ApiFault.setIsRetryable"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.setIsRetryable"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "com.microsoft.store.partnercenter.models.ApiFault.toString*"
+  name: "toString"
+  nameWithType: "ApiFault.toString"
+  fullName: "com.microsoft.store.partnercenter.models.ApiFault.toString"
+  package: "com.microsoft.store.partnercenter.models"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBase"
+  name: "ResourceBase"
+  nameWithType: "ResourceBase"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
+- uid: "java.lang.Object"
+  name: "Object"
+  nameWithType: "Object"
+  fullName: "java.lang.Object"
+- uid: "java.lang.Iterable"
+  name: "Iterable"
+  nameWithType: "Iterable"
+  fullName: "java.lang.Iterable"

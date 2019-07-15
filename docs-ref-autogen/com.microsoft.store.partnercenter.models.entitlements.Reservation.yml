@@ -1,610 +1,474 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  id: Reservation
-  parent: com.microsoft.store.partnercenter.models.entitlements
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
+  id: "Reservation"
+  parent: "com.microsoft.store.partnercenter.models.entitlements"
   children:
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes()
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName()
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime()
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime()
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState()
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity()
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId()
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType()
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes(Iterator<String>)
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName(String)
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime(DateTime)
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime(DateTime)
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState(String)
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity(Integer)
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId(String)
-  - com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType(String)
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.Reservation()"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes()"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName()"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime()"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime()"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState()"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity()"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId()"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType()"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes(java.util.Iterator<java.lang.String>)"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity(java.lang.Integer)"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType(java.lang.String)"
   langs:
-  - java
-  name: Reservation
-  nameWithType: Reservation
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 16
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Class that represents a reservation. </p>"
+  - "java"
+  name: "Reservation"
+  nameWithType: "Reservation"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Class that represents a reservation."
   syntax:
-    content: public class Reservation extends ResourceBaseWithLinks<StandardResourceLinks>
+    content: "public class Reservation extends ResourceBaseWithLinks<StandardResourceLinks>"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(String)
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes()
-  id: getAppliedScopes()
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.Reservation()"
+  id: "Reservation()"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: getAppliedScopes()
-  nameWithType: Reservation.getAppliedScopes()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes()
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 48
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Gets the applied scopes for the reservation.</p>\r\n<p></p>"
+  - "java"
+  name: "Reservation()"
+  nameWithType: "Reservation.Reservation()"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.Reservation()"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.Reservation*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
   syntax:
-    content: public Iterator<String> getAppliedScopes()
+    content: "public Reservation()"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes()"
+  id: "getAppliedScopes()"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
+  langs:
+  - "java"
+  name: "getAppliedScopes()"
+  nameWithType: "Reservation.getAppliedScopes()"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes()"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Gets the applied scopes for the reservation."
+  syntax:
+    content: "public Iterator<String> getAppliedScopes()"
     return:
-      type: 3f9333f3
-      description: <p>The applied scopes for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName()
-  id: getDisplayName()
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+      type: "java.util.Iterator<java.lang.String>"
+      description: "The applied scopes for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName()"
+  id: "getDisplayName()"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: getDisplayName()
-  nameWithType: Reservation.getDisplayName()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName()
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 68
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Gets the display name for the reservation.</p>\r\n<p></p>"
+  - "java"
+  name: "getDisplayName()"
+  nameWithType: "Reservation.getDisplayName()"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName()"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Gets the display name for the reservation."
   syntax:
-    content: public String getDisplayName()
+    content: "public String getDisplayName()"
     return:
-      type: "26831127"
-      description: <p>The display for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime()
-  id: getEffectiveDateTime()
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+      type: "java.lang.String"
+      description: "The display for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime()"
+  id: "getEffectiveDateTime()"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: getEffectiveDateTime()
-  nameWithType: Reservation.getEffectiveDateTime()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime()
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 88
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Gets the effective date and time.</p>\r\n<p></p>"
+  - "java"
+  name: "getEffectiveDateTime()"
+  nameWithType: "Reservation.getEffectiveDateTime()"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime()"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Gets the effective date and time."
   syntax:
-    content: public DateTime getEffectiveDateTime()
+    content: "public DateTime getEffectiveDateTime()"
     return:
-      type: 230df18c
-      description: <p>The effective date and time for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime()
-  id: getExpiryDateTime()
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+      type: "org.joda.time.DateTime"
+      description: "The effective date and time for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime()"
+  id: "getExpiryDateTime()"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: getExpiryDateTime()
-  nameWithType: Reservation.getExpiryDateTime()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime()
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 108
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Gets the expiry date and time.</p>\r\n<p></p>"
+  - "java"
+  name: "getExpiryDateTime()"
+  nameWithType: "Reservation.getExpiryDateTime()"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime()"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Gets the expiry date and time."
   syntax:
-    content: public DateTime getExpiryDateTime()
+    content: "public DateTime getExpiryDateTime()"
     return:
-      type: 230df18c
-      description: <p>The expiry date and time for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState()
-  id: getProvisioningState()
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+      type: "org.joda.time.DateTime"
+      description: "The expiry date and time for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState()"
+  id: "getProvisioningState()"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: getProvisioningState()
-  nameWithType: Reservation.getProvisioningState()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState()
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 128
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Gets the provisioning state for the reservation.</p>\r\n<p></p>"
+  - "java"
+  name: "getProvisioningState()"
+  nameWithType: "Reservation.getProvisioningState()"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState()"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Gets the provisioning state for the reservation."
   syntax:
-    content: public String getProvisioningState()
+    content: "public String getProvisioningState()"
     return:
-      type: "26831127"
-      description: <p>The provisioning state for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity()
-  id: getQuantity()
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+      type: "java.lang.String"
+      description: "The provisioning state for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity()"
+  id: "getQuantity()"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: getQuantity()
-  nameWithType: Reservation.getQuantity()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity()
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 148
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Gets the quantity.</p>\r\n<p></p>"
+  - "java"
+  name: "getQuantity()"
+  nameWithType: "Reservation.getQuantity()"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity()"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Gets the quantity."
   syntax:
-    content: public Integer getQuantity()
+    content: "public Integer getQuantity()"
     return:
-      type: 08effaa0
-      description: <p>The quantity for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId()
-  id: getReservationId()
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+      type: "java.lang.Integer"
+      description: "The quantity for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId()"
+  id: "getReservationId()"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: getReservationId()
-  nameWithType: Reservation.getReservationId()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId()
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 168
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Gets the identifier for the reservation.</p>\r\n<p></p>"
+  - "java"
+  name: "getReservationId()"
+  nameWithType: "Reservation.getReservationId()"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId()"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Gets the identifier for the reservation."
   syntax:
-    content: public String getReservationId()
+    content: "public String getReservationId()"
     return:
-      type: "26831127"
-      description: <p>The identifier for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType()
-  id: getScopeType()
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+      type: "java.lang.String"
+      description: "The identifier for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType()"
+  id: "getScopeType()"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: getScopeType()
-  nameWithType: Reservation.getScopeType()
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType()
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 188
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Gets the scope type for the reservation.</p>\r\n<p></p>"
+  - "java"
+  name: "getScopeType()"
+  nameWithType: "Reservation.getScopeType()"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType()"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Gets the scope type for the reservation."
   syntax:
-    content: public String getScopeType()
+    content: "public String getScopeType()"
     return:
-      type: "26831127"
-      description: <p>The scope type for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes(Iterator<String>)
-  id: setAppliedScopes(Iterator<String>)
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+      type: "java.lang.String"
+      description: "The scope type for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes(java.util.Iterator<java.lang.String>)"
+  id: "setAppliedScopes(java.util.Iterator<java.lang.String>)"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: setAppliedScopes(Iterator<String> value)
-  nameWithType: Reservation.setAppliedScopes(Iterator<String> value)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes(Iterator<String> value)
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 58
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Sets the applied scopes for the reservation.</p>\r\n<p></p>"
+  - "java"
+  name: "setAppliedScopes(Iterator<String> value)"
+  nameWithType: "Reservation.setAppliedScopes(Iterator<String> value)"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes(Iterator<String> value)"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Sets the applied scopes for the reservation."
   syntax:
-    content: public void setAppliedScopes(Iterator<String> value)
+    content: "public void setAppliedScopes(Iterator<String> value)"
     parameters:
-    - id: value
-      type: 3f9333f3
-      description: <p>The applied scopes for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName(String)
-  id: setDisplayName(String)
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+    - id: "value"
+      type: "java.util.Iterator<java.lang.String>"
+      description: "The applied scopes for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName(java.lang.String)"
+  id: "setDisplayName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: setDisplayName(String value)
-  nameWithType: Reservation.setDisplayName(String value)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName(String value)
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 78
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Sets the display name for the reservation.</p>\r\n<p></p>"
+  - "java"
+  name: "setDisplayName(String value)"
+  nameWithType: "Reservation.setDisplayName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Sets the display name for the reservation."
   syntax:
-    content: public void setDisplayName(String value)
+    content: "public void setDisplayName(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The display name for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime(DateTime)
-  id: setEffectDateTime(DateTime)
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+    - id: "value"
+      type: "java.lang.String"
+      description: "The display name for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime(org.joda.time.DateTime)"
+  id: "setEffectDateTime(org.joda.time.DateTime)"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: setEffectDateTime(DateTime value)
-  nameWithType: Reservation.setEffectDateTime(DateTime value)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime(DateTime value)
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 98
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Sets the effective date and time.</p>\r\n<p></p>"
+  - "java"
+  name: "setEffectDateTime(DateTime value)"
+  nameWithType: "Reservation.setEffectDateTime(DateTime value)"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime(DateTime value)"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Sets the effective date and time."
   syntax:
-    content: public void setEffectDateTime(DateTime value)
+    content: "public void setEffectDateTime(DateTime value)"
     parameters:
-    - id: value
-      type: 230df18c
-      description: <p>The effective date and time for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime(DateTime)
-  id: setExpiryDateTime(DateTime)
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+    - id: "value"
+      type: "org.joda.time.DateTime"
+      description: "The effective date and time for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime(org.joda.time.DateTime)"
+  id: "setExpiryDateTime(org.joda.time.DateTime)"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: setExpiryDateTime(DateTime value)
-  nameWithType: Reservation.setExpiryDateTime(DateTime value)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime(DateTime value)
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 118
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Sets the expiry date and time.</p>\r\n<p></p>"
+  - "java"
+  name: "setExpiryDateTime(DateTime value)"
+  nameWithType: "Reservation.setExpiryDateTime(DateTime value)"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime(DateTime value)"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Sets the expiry date and time."
   syntax:
-    content: public void setExpiryDateTime(DateTime value)
+    content: "public void setExpiryDateTime(DateTime value)"
     parameters:
-    - id: value
-      type: 230df18c
-      description: <p>The expiry date and time for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState(String)
-  id: setProvisioningState(String)
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+    - id: "value"
+      type: "org.joda.time.DateTime"
+      description: "The expiry date and time for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState(java.lang.String)"
+  id: "setProvisioningState(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: setProvisioningState(String value)
-  nameWithType: Reservation.setProvisioningState(String value)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState(String value)
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 138
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Sets the provisioning state for the reservation.</p>\r\n<p></p>"
+  - "java"
+  name: "setProvisioningState(String value)"
+  nameWithType: "Reservation.setProvisioningState(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState(String value)"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Sets the provisioning state for the reservation."
   syntax:
-    content: public void setProvisioningState(String value)
+    content: "public void setProvisioningState(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The provisioning state for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity(Integer)
-  id: setQuantity(Integer)
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+    - id: "value"
+      type: "java.lang.String"
+      description: "The provisioning state for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity(java.lang.Integer)"
+  id: "setQuantity(java.lang.Integer)"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: setQuantity(Integer value)
-  nameWithType: Reservation.setQuantity(Integer value)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity(Integer value)
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 158
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Sets the quantity.</p>\r\n<p></p>"
+  - "java"
+  name: "setQuantity(Integer value)"
+  nameWithType: "Reservation.setQuantity(Integer value)"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity(Integer value)"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Sets the quantity."
   syntax:
-    content: public void setQuantity(Integer value)
+    content: "public void setQuantity(Integer value)"
     parameters:
-    - id: value
-      type: 08effaa0
-      description: <p>The quantity for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId(String)
-  id: setReservationId(String)
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+    - id: "value"
+      type: "java.lang.Integer"
+      description: "The quantity for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId(java.lang.String)"
+  id: "setReservationId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: setReservationId(String value)
-  nameWithType: Reservation.setReservationId(String value)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId(String value)
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 178
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Sets the identifier for the reservation.</p>\r\n<p></p>"
+  - "java"
+  name: "setReservationId(String value)"
+  nameWithType: "Reservation.setReservationId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Sets the identifier for the reservation."
   syntax:
-    content: public void setReservationId(String value)
+    content: "public void setReservationId(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The identifier for the reservation. </p>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType(String)
-  id: setScopeType(String)
-  parent: com.microsoft.store.partnercenter.models.entitlements.Reservation
-  href: com.microsoft.store.partnercenter.models.entitlements.Reservation.yml
+    - id: "value"
+      type: "java.lang.String"
+      description: "The identifier for the reservation."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType(java.lang.String)"
+  id: "setScopeType(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
   langs:
-  - java
-  name: setScopeType(String value)
-  nameWithType: Reservation.setScopeType(String value)
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType(String value)
-  overload: com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/entitlements/Reservation.java
-    startLine: 198
-  package: com.microsoft.store.partnercenter.models.entitlements
-  summary: "<p>Sets the scope type for the reservation.</p>\r\n<p></p>"
+  - "java"
+  name: "setScopeType(String value)"
+  nameWithType: "Reservation.setScopeType(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType(String value)"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Sets the scope type for the reservation."
   syntax:
-    content: public void setScopeType(String value)
+    content: "public void setScopeType(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The scope type for the reservation. </p>
+    - id: "value"
+      type: "java.lang.String"
+      description: "The scope type for the reservation."
 references:
-- uid: 3f9333f3
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.Reservation*"
+  name: "Reservation"
+  nameWithType: "Reservation.Reservation"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.Reservation"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "java.util.Iterator<java.lang.String>"
   spec.java:
-  - name: Iterator<String>
-    fullName: Iterator<String>
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes*
-  name: getAppliedScopes
-  nameWithType: Reservation.getAppliedScopes
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes*
-  name: setAppliedScopes
-  nameWithType: Reservation.setAppliedScopes
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: "26831127"
+  - uid: "java.util.Iterator"
+    name: "Iterator"
+    fullName: "java.util.Iterator"
+  - name: "<"
+    fullName: "<"
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+  - name: ">"
+    fullName: ">"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes*"
+  name: "getAppliedScopes"
+  nameWithType: "Reservation.getAppliedScopes"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getAppliedScopes"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes*"
+  name: "setAppliedScopes"
+  nameWithType: "Reservation.setAppliedScopes"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "java.lang.String"
   spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName*
-  name: getDisplayName
-  nameWithType: Reservation.getDisplayName
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName*
-  name: setDisplayName
-  nameWithType: Reservation.setDisplayName
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: 230df18c
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName*"
+  name: "getDisplayName"
+  nameWithType: "Reservation.getDisplayName"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getDisplayName"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName*"
+  name: "setDisplayName"
+  nameWithType: "Reservation.setDisplayName"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "org.joda.time.DateTime"
   spec.java:
-  - name: DateTime
-    fullName: DateTime
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime*
-  name: getEffectiveDateTime
-  nameWithType: Reservation.getEffectiveDateTime
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime*
-  name: setEffectDateTime
-  nameWithType: Reservation.setEffectDateTime
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime*
-  name: getExpiryDateTime
-  nameWithType: Reservation.getExpiryDateTime
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime*
-  name: setExpiryDateTime
-  nameWithType: Reservation.setExpiryDateTime
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState*
-  name: getProvisioningState
-  nameWithType: Reservation.getProvisioningState
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState*
-  name: setProvisioningState
-  nameWithType: Reservation.setProvisioningState
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: 08effaa0
+  - uid: "org.joda.time.DateTime"
+    name: "DateTime"
+    fullName: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime*"
+  name: "getEffectiveDateTime"
+  nameWithType: "Reservation.getEffectiveDateTime"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getEffectiveDateTime"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime*"
+  name: "setEffectDateTime"
+  nameWithType: "Reservation.setEffectDateTime"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setEffectDateTime"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime*"
+  name: "getExpiryDateTime"
+  nameWithType: "Reservation.getExpiryDateTime"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getExpiryDateTime"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime*"
+  name: "setExpiryDateTime"
+  nameWithType: "Reservation.setExpiryDateTime"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setExpiryDateTime"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState*"
+  name: "getProvisioningState"
+  nameWithType: "Reservation.getProvisioningState"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getProvisioningState"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState*"
+  name: "setProvisioningState"
+  nameWithType: "Reservation.setProvisioningState"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "java.lang.Integer"
   spec.java:
-  - name: Integer
-    fullName: Integer
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity*
-  name: getQuantity
-  nameWithType: Reservation.getQuantity
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity*
-  name: setQuantity
-  nameWithType: Reservation.setQuantity
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId*
-  name: getReservationId
-  nameWithType: Reservation.getReservationId
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId*
-  name: setReservationId
-  nameWithType: Reservation.setReservationId
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType*
-  name: getScopeType
-  nameWithType: Reservation.getScopeType
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType*
-  name: setScopeType
-  nameWithType: Reservation.setScopeType
-  fullName: com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType
-  package: com.microsoft.store.partnercenter.models.entitlements
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  type: Method
-  summary: "<p>Gets the attributes.</p>\r\n<p></p>"
-  syntax:
-    content: public ResourceAttributes getAttributes()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceAttributes
-      description: <p>The resource attributes. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: getLinks()
-  nameWithType: ResourceBaseWithLinks<TLinks>.getLinks()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.getLinks()
-  type: Method
-  summary: "<p>Gets the links.</p>\r\n<p></p>"
-  syntax:
-    content: public TLinks getLinks()
-    return:
-      type: 694adf1c
-      description: <p>The links. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: ResourceBase()
-  nameWithType: ResourceBase.ResourceBase()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBase class. </p>"
-  syntax:
-    content: protected ResourceBase()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: ResourceBase(String objectType)
-  nameWithType: ResourceBase.ResourceBase(String objectType)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String objectType)
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBase class.</p>\r\n<p></p>"
-  syntax:
-    content: protected ResourceBase(String objectType)
-    parameters:
-    - id: objectType
-      type: "26831127"
-      description: <p>Type of the object. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(String)
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: ResourceBaseWithLinks(String objectType)
-  nameWithType: ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks(String objectType)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks(String objectType)
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBaseWithLinks class.</p>\r\n<p></p>"
-  syntax:
-    content: protected ResourceBaseWithLinks(String objectType)
-    parameters:
-    - id: objectType
-      type: "26831127"
-      description: <p>Type of the object. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: ResourceBaseWithLinks()
-  nameWithType: ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBaseWithLinks class. </p>"
-  syntax:
-    content: protected ResourceBaseWithLinks()
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: setLinks(TLinks value)
-  nameWithType: ResourceBaseWithLinks<TLinks>.setLinks(TLinks value)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.setLinks(TLinks value)
-  type: Method
-  summary: "<p>Sets the links.</p>\r\n<p></p>"
-  syntax:
-    content: public void setLinks(TLinks value)
-    parameters:
-    - id: value
-      type: 694adf1c
-      description: <p>The links. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: ResourceBaseWithLinks<TLinks>
-  nameWithType: ResourceBaseWithLinks<TLinks>
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>
-  type: Class
-  summary: "<p>Base class for resources </p>"
-  syntax:
-    content: public class ResourceBaseWithLinks<TLinks>
-    typeParameters:
-    - id: TLinks
-      type: 694adf1c
+  - uid: "java.lang.Integer"
+    name: "Integer"
+    fullName: "java.lang.Integer"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity*"
+  name: "getQuantity"
+  nameWithType: "Reservation.getQuantity"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getQuantity"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity*"
+  name: "setQuantity"
+  nameWithType: "Reservation.setQuantity"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setQuantity"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId*"
+  name: "getReservationId"
+  nameWithType: "Reservation.getReservationId"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getReservationId"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId*"
+  name: "setReservationId"
+  nameWithType: "Reservation.setReservationId"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setReservationId"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType*"
+  name: "getScopeType"
+  nameWithType: "Reservation.getScopeType"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.getScopeType"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType*"
+  name: "setScopeType"
+  nameWithType: "Reservation.setScopeType"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
+  name: "ResourceBaseWithLinks<StandardResourceLinks>"
+  nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
+- uid: "java.util.Iterator"
+  name: "Iterator"
+  nameWithType: "Iterator"
+  fullName: "java.util.Iterator"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+  name: "ResourceBaseWithLinks"
+  nameWithType: "ResourceBaseWithLinks"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+- uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
+  name: "StandardResourceLinks"
+  nameWithType: "StandardResourceLinks"
+  fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
