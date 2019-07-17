@@ -1,54 +1,29 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.requestcontext
-  id: requestcontext
+- uid: "com.microsoft.store.partnercenter.requestcontext"
+  id: "requestcontext"
   children:
-  - com.microsoft.store.partnercenter.requestcontext.IRequestContext
-  - com.microsoft.store.partnercenter.requestcontext.RequestContext
-  - com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
-  href: com.microsoft.store.partnercenter.requestcontext.yml
+  - "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
+  - "com.microsoft.store.partnercenter.requestcontext.RequestContext"
+  - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.requestcontext
-  nameWithType: com.microsoft.store.partnercenter.requestcontext
-  fullName: com.microsoft.store.partnercenter.requestcontext
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/requestcontext/IRequestContext.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/requestcontext/IRequestContext.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.requestcontext"
+  nameWithType: "com.microsoft.store.partnercenter.requestcontext"
+  fullName: "com.microsoft.store.partnercenter.requestcontext"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.requestcontext
+    content: "package com.microsoft.store.partnercenter.requestcontext"
 references:
-- uid: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-  parent: com.microsoft.store.partnercenter.requestcontext
-  href: com.microsoft.store.partnercenter.requestcontext.IRequestContext.yml
-  name: IRequestContext
-  nameWithType: IRequestContext
-  fullName: com.microsoft.store.partnercenter.requestcontext.IRequestContext
-  type: Interface
-  summary: "<p>Bundles context information which is amended to the partner SDK operations. </p>"
-  syntax:
-    content: public interface IRequestContext
-- uid: com.microsoft.store.partnercenter.requestcontext.RequestContext
-  parent: com.microsoft.store.partnercenter.requestcontext
-  href: com.microsoft.store.partnercenter.requestcontext.RequestContext.yml
-  name: RequestContext
-  nameWithType: RequestContext
-  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContext
-  type: Class
-  summary: "<p>Request context implementation. </p>"
-  syntax:
-    content: public class RequestContext implements IRequestContext
-- uid: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
-  parent: com.microsoft.store.partnercenter.requestcontext
-  href: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.yml
-  name: RequestContextFactory
-  nameWithType: RequestContextFactory
-  fullName: com.microsoft.store.partnercenter.requestcontext.RequestContextFactory
-  type: Class
-  syntax:
-    content: public class RequestContextFactory
+- uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
+  name: "IRequestContext"
+  nameWithType: "IRequestContext"
+  fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
+- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContext"
+  name: "RequestContext"
+  nameWithType: "RequestContext"
+  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContext"
+- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
+  name: "RequestContextFactory"
+  nameWithType: "RequestContextFactory"
+  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"

@@ -1,377 +1,342 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  id: ValidationCode
-  parent: com.microsoft.store.partnercenter.models.validationcodes
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
+  id: "ValidationCode"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes"
   children:
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag()
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates()
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName()
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId()
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates()
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId()
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag(String)
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates(int)
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName(String)
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId(String)
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates(int)
-  - com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId(String)
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.ValidationCode()"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag()"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates()"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName()"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId()"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates()"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId()"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates(int)"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates(int)"
+  - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId(java.lang.String)"
   langs:
-  - java
-  name: ValidationCode
-  nameWithType: ValidationCode
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 8
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Represents validation codes. Used to create Government Community Cloud (GCC) accounts. </p>"
+  - "java"
+  name: "ValidationCode"
+  nameWithType: "ValidationCode"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Represents validation codes. Used to create Government Community Cloud (GCC) accounts."
   syntax:
-    content: public class ValidationCode
+    content: "public class ValidationCode"
   inheritance:
-  - java.lang.Object
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag()
-  id: getETag()
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+  - "java.lang.Object"
+  inheritedMembers:
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.ValidationCode()"
+  id: "ValidationCode()"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: getETag()
-  nameWithType: ValidationCode.getETag()
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag()
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 45
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Gets the ETag value for the object.</p>\r\n<p></p>"
+  - "java"
+  name: "ValidationCode()"
+  nameWithType: "ValidationCode.ValidationCode()"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.ValidationCode()"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.ValidationCode*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
   syntax:
-    content: public String getETag()
+    content: "public ValidationCode()"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag()"
+  id: "getETag()"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
+  langs:
+  - "java"
+  name: "getETag()"
+  nameWithType: "ValidationCode.getETag()"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag()"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Gets the ETag value for the object."
+  syntax:
+    content: "public String getETag()"
     return:
-      type: "26831127"
-      description: <p>The ETag value for the object. </p>
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates()
-  id: getMaxCreates()
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+      type: "java.lang.String"
+      description: "The ETag value for the object."
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates()"
+  id: "getMaxCreates()"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: getMaxCreates()
-  nameWithType: ValidationCode.getMaxCreates()
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates()
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 65
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Gets the maximum number of customer creates for this code.</p>\r\n<p></p>"
+  - "java"
+  name: "getMaxCreates()"
+  nameWithType: "ValidationCode.getMaxCreates()"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates()"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Gets the maximum number of customer creates for this code."
   syntax:
-    content: public int getMaxCreates()
+    content: "public int getMaxCreates()"
     return:
-      type: f75371fa
-      description: <p>The maximum number of customer creates for this code. </p>
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName()
-  id: getOrganizationName()
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+      type: "int"
+      description: "The maximum number of customer creates for this code."
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName()"
+  id: "getOrganizationName()"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: getOrganizationName()
-  nameWithType: ValidationCode.getOrganizationName()
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName()
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 85
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Gets the name of the organization.</p>\r\n<p></p>"
+  - "java"
+  name: "getOrganizationName()"
+  nameWithType: "ValidationCode.getOrganizationName()"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName()"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Gets the name of the organization."
   syntax:
-    content: public String getOrganizationName()
+    content: "public String getOrganizationName()"
     return:
-      type: "26831127"
-      description: <p>The name of the organization. </p>
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId()
-  id: getPartnerId()
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+      type: "java.lang.String"
+      description: "The name of the organization."
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId()"
+  id: "getPartnerId()"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: getPartnerId()
-  nameWithType: ValidationCode.getPartnerId()
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId()
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 105
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Gets the identifier for the partner.</p>\r\n<p></p>"
+  - "java"
+  name: "getPartnerId()"
+  nameWithType: "ValidationCode.getPartnerId()"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId()"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Gets the identifier for the partner."
   syntax:
-    content: public String getPartnerId()
+    content: "public String getPartnerId()"
     return:
-      type: "26831127"
-      description: <p>The identifier for the partner. </p>
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates()
-  id: getRemainingCreates()
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+      type: "java.lang.String"
+      description: "The identifier for the partner."
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates()"
+  id: "getRemainingCreates()"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: getRemainingCreates()
-  nameWithType: ValidationCode.getRemainingCreates()
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates()
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 125
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Gets the remaining number of customer creates for this code.</p>\r\n<p></p>"
+  - "java"
+  name: "getRemainingCreates()"
+  nameWithType: "ValidationCode.getRemainingCreates()"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates()"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Gets the remaining number of customer creates for this code."
   syntax:
-    content: public int getRemainingCreates()
+    content: "public int getRemainingCreates()"
     return:
-      type: f75371fa
-      description: <p>The remaining number of customer creates for this code. </p>
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId()
-  id: getValidationId()
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+      type: "int"
+      description: "The remaining number of customer creates for this code."
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId()"
+  id: "getValidationId()"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: getValidationId()
-  nameWithType: ValidationCode.getValidationId()
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId()
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 145
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Gets the identifier for the validation.</p>\r\n<p></p>"
+  - "java"
+  name: "getValidationId()"
+  nameWithType: "ValidationCode.getValidationId()"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId()"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Gets the identifier for the validation."
   syntax:
-    content: public String getValidationId()
+    content: "public String getValidationId()"
     return:
-      type: "26831127"
-      description: <p>The identifier for the validation. </p>
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag(String)
-  id: setETag(String)
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+      type: "java.lang.String"
+      description: "The identifier for the validation."
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag(java.lang.String)"
+  id: "setETag(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: setETag(String value)
-  nameWithType: ValidationCode.setETag(String value)
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag(String value)
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 55
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Sets the ETag value for the object.</p>\r\n<p></p>"
+  - "java"
+  name: "setETag(String value)"
+  nameWithType: "ValidationCode.setETag(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag(String value)"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Sets the ETag value for the object."
   syntax:
-    content: public void setETag(String value)
+    content: "public void setETag(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The ETag value for the object. </p>
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates(int)
-  id: setMaxCreates(int)
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+    - id: "value"
+      type: "java.lang.String"
+      description: "The ETag value for the object."
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates(int)"
+  id: "setMaxCreates(int)"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: setMaxCreates(int value)
-  nameWithType: ValidationCode.setMaxCreates(int value)
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates(int value)
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 75
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Sets the maximum number of customer creates for this code.</p>\r\n<p></p>"
+  - "java"
+  name: "setMaxCreates(int value)"
+  nameWithType: "ValidationCode.setMaxCreates(int value)"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates(int value)"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Sets the maximum number of customer creates for this code."
   syntax:
-    content: public void setMaxCreates(int value)
+    content: "public void setMaxCreates(int value)"
     parameters:
-    - id: value
-      type: f75371fa
-      description: <p>The maximum number of customer creates for this code. </p>
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName(String)
-  id: setOrganizationName(String)
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+    - id: "value"
+      type: "int"
+      description: "The maximum number of customer creates for this code."
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName(java.lang.String)"
+  id: "setOrganizationName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: setOrganizationName(String value)
-  nameWithType: ValidationCode.setOrganizationName(String value)
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName(String value)
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 95
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Sets the name of the organization.</p>\r\n<p></p>"
+  - "java"
+  name: "setOrganizationName(String value)"
+  nameWithType: "ValidationCode.setOrganizationName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Sets the name of the organization."
   syntax:
-    content: public void setOrganizationName(String value)
+    content: "public void setOrganizationName(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The name of the organization. </p>
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId(String)
-  id: setPartnerId(String)
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+    - id: "value"
+      type: "java.lang.String"
+      description: "The name of the organization."
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId(java.lang.String)"
+  id: "setPartnerId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: setPartnerId(String value)
-  nameWithType: ValidationCode.setPartnerId(String value)
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId(String value)
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 115
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Sets the identifier for the partner.</p>\r\n<p></p>"
+  - "java"
+  name: "setPartnerId(String value)"
+  nameWithType: "ValidationCode.setPartnerId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Sets the identifier for the partner."
   syntax:
-    content: public void setPartnerId(String value)
+    content: "public void setPartnerId(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The identifier for the partner. </p>
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates(int)
-  id: setRemainingCreates(int)
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+    - id: "value"
+      type: "java.lang.String"
+      description: "The identifier for the partner."
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates(int)"
+  id: "setRemainingCreates(int)"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: setRemainingCreates(int value)
-  nameWithType: ValidationCode.setRemainingCreates(int value)
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates(int value)
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 135
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Sets the remaining number of customer creates for this code.</p>\r\n<p></p>"
+  - "java"
+  name: "setRemainingCreates(int value)"
+  nameWithType: "ValidationCode.setRemainingCreates(int value)"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates(int value)"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Sets the remaining number of customer creates for this code."
   syntax:
-    content: public void setRemainingCreates(int value)
+    content: "public void setRemainingCreates(int value)"
     parameters:
-    - id: value
-      type: f75371fa
-      description: <p>The remaining number of customer creates for this code. </p>
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId(String)
-  id: setValidationId(String)
-  parent: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode
-  href: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.yml
+    - id: "value"
+      type: "int"
+      description: "The remaining number of customer creates for this code."
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId(java.lang.String)"
+  id: "setValidationId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   langs:
-  - java
-  name: setValidationId(String value)
-  nameWithType: ValidationCode.setValidationId(String value)
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId(String value)
-  overload: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/validationcodes/ValidationCode.java
-    startLine: 155
-  package: com.microsoft.store.partnercenter.models.validationcodes
-  summary: "<p>Sets the identifier for the validation.</p>\r\n<p></p>"
+  - "java"
+  name: "setValidationId(String value)"
+  nameWithType: "ValidationCode.setValidationId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+  summary: "Sets the identifier for the validation."
   syntax:
-    content: public void setValidationId(String value)
+    content: "public void setValidationId(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The identifier for the validation. </p>
+    - id: "value"
+      type: "java.lang.String"
+      description: "The identifier for the validation."
 references:
-- uid: "26831127"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.ValidationCode*"
+  name: "ValidationCode"
+  nameWithType: "ValidationCode.ValidationCode"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.ValidationCode"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "java.lang.String"
   spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag*
-  name: getETag
-  nameWithType: ValidationCode.getETag
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag
-  package: com.microsoft.store.partnercenter.models.validationcodes
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag*
-  name: setETag
-  nameWithType: ValidationCode.setETag
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag
-  package: com.microsoft.store.partnercenter.models.validationcodes
-- uid: f75371fa
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag*"
+  name: "getETag"
+  nameWithType: "ValidationCode.getETag"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getETag"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag*"
+  name: "setETag"
+  nameWithType: "ValidationCode.setETag"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "int"
   spec.java:
-  - name: int
-    fullName: int
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates*
-  name: getMaxCreates
-  nameWithType: ValidationCode.getMaxCreates
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates
-  package: com.microsoft.store.partnercenter.models.validationcodes
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates*
-  name: setMaxCreates
-  nameWithType: ValidationCode.setMaxCreates
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates
-  package: com.microsoft.store.partnercenter.models.validationcodes
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName*
-  name: getOrganizationName
-  nameWithType: ValidationCode.getOrganizationName
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName
-  package: com.microsoft.store.partnercenter.models.validationcodes
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName*
-  name: setOrganizationName
-  nameWithType: ValidationCode.setOrganizationName
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName
-  package: com.microsoft.store.partnercenter.models.validationcodes
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId*
-  name: getPartnerId
-  nameWithType: ValidationCode.getPartnerId
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId
-  package: com.microsoft.store.partnercenter.models.validationcodes
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId*
-  name: setPartnerId
-  nameWithType: ValidationCode.setPartnerId
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId
-  package: com.microsoft.store.partnercenter.models.validationcodes
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates*
-  name: getRemainingCreates
-  nameWithType: ValidationCode.getRemainingCreates
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates
-  package: com.microsoft.store.partnercenter.models.validationcodes
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates*
-  name: setRemainingCreates
-  nameWithType: ValidationCode.setRemainingCreates
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates
-  package: com.microsoft.store.partnercenter.models.validationcodes
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId*
-  name: getValidationId
-  nameWithType: ValidationCode.getValidationId
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId
-  package: com.microsoft.store.partnercenter.models.validationcodes
-- uid: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId*
-  name: setValidationId
-  nameWithType: ValidationCode.setValidationId
-  fullName: com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId
-  package: com.microsoft.store.partnercenter.models.validationcodes
+  - uid: "int"
+    name: "int"
+    fullName: "int"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates*"
+  name: "getMaxCreates"
+  nameWithType: "ValidationCode.getMaxCreates"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getMaxCreates"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates*"
+  name: "setMaxCreates"
+  nameWithType: "ValidationCode.setMaxCreates"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setMaxCreates"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName*"
+  name: "getOrganizationName"
+  nameWithType: "ValidationCode.getOrganizationName"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getOrganizationName"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName*"
+  name: "setOrganizationName"
+  nameWithType: "ValidationCode.setOrganizationName"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setOrganizationName"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId*"
+  name: "getPartnerId"
+  nameWithType: "ValidationCode.getPartnerId"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getPartnerId"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId*"
+  name: "setPartnerId"
+  nameWithType: "ValidationCode.setPartnerId"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setPartnerId"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates*"
+  name: "getRemainingCreates"
+  nameWithType: "ValidationCode.getRemainingCreates"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getRemainingCreates"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates*"
+  name: "setRemainingCreates"
+  nameWithType: "ValidationCode.setRemainingCreates"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId*"
+  name: "getValidationId"
+  nameWithType: "ValidationCode.getValidationId"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.getValidationId"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"
+- uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId*"
+  name: "setValidationId"
+  nameWithType: "ValidationCode.setValidationId"
+  fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId"
+  package: "com.microsoft.store.partnercenter.models.validationcodes"

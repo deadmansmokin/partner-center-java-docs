@@ -1,64 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.ratecards
-  id: ratecards
+- uid: "com.microsoft.store.partnercenter.ratecards"
+  id: "ratecards"
   children:
-  - com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations
-  - com.microsoft.store.partnercenter.ratecards.IAzureRateCard
-  - com.microsoft.store.partnercenter.ratecards.IRateCardCollection
-  - com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations
-  href: com.microsoft.store.partnercenter.ratecards.yml
+  - "com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations"
+  - "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
+  - "com.microsoft.store.partnercenter.ratecards.IRateCardCollection"
+  - "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.ratecards
-  nameWithType: com.microsoft.store.partnercenter.ratecards
-  fullName: com.microsoft.store.partnercenter.ratecards
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/ratecards/AzureRateCardOperations.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/ratecards/AzureRateCardOperations.java
-    startLine: 2
+  - "java"
+  name: "com.microsoft.store.partnercenter.ratecards"
+  nameWithType: "com.microsoft.store.partnercenter.ratecards"
+  fullName: "com.microsoft.store.partnercenter.ratecards"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.ratecards
+    content: "package com.microsoft.store.partnercenter.ratecards"
 references:
-- uid: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations
-  parent: com.microsoft.store.partnercenter.ratecards
-  href: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.yml
-  name: AzureRateCardOperations
-  nameWithType: AzureRateCardOperations
-  fullName: com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations
-  type: Class
-  syntax:
-    content: public class AzureRateCardOperations extends BasePartnerComponentString implements IAzureRateCard
-- uid: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
-  parent: com.microsoft.store.partnercenter.ratecards
-  href: com.microsoft.store.partnercenter.ratecards.IAzureRateCard.yml
-  name: IAzureRateCard
-  nameWithType: IAzureRateCard
-  fullName: com.microsoft.store.partnercenter.ratecards.IAzureRateCard
-  type: Interface
-  summary: "<p>Holds operations that apply to Azure rate card. </p>"
-  syntax:
-    content: public interface IAzureRateCard extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
-  parent: com.microsoft.store.partnercenter.ratecards
-  href: com.microsoft.store.partnercenter.ratecards.IRateCardCollection.yml
-  name: IRateCardCollection
-  nameWithType: IRateCardCollection
-  fullName: com.microsoft.store.partnercenter.ratecards.IRateCardCollection
-  type: Interface
-  summary: "<p>Holds operations that apply to rate cards. </p>"
-  syntax:
-    content: public interface IRateCardCollection extends IPartnerComponentString
-- uid: com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations
-  parent: com.microsoft.store.partnercenter.ratecards
-  href: com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.yml
-  name: RateCardCollectionOperations
-  nameWithType: RateCardCollectionOperations
-  fullName: com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations
-  type: Class
-  syntax:
-    content: public class RateCardCollectionOperations extends BasePartnerComponentString implements IRateCardCollection
+- uid: "com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations"
+  name: "AzureRateCardOperations"
+  nameWithType: "AzureRateCardOperations"
+  fullName: "com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations"
+- uid: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
+  name: "IAzureRateCard"
+  nameWithType: "IAzureRateCard"
+  fullName: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
+- uid: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection"
+  name: "IRateCardCollection"
+  nameWithType: "IRateCardCollection"
+  fullName: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection"
+- uid: "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations"
+  name: "RateCardCollectionOperations"
+  nameWithType: "RateCardCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations"

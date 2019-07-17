@@ -1,66 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.agreements
-  id: agreements
+- uid: "com.microsoft.store.partnercenter.agreements"
+  id: "agreements"
   children:
-  - com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations
-  - com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations
-  - com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection
-  - com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
-  href: com.microsoft.store.partnercenter.agreements.yml
+  - "com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations"
+  - "com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations"
+  - "com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection"
+  - "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.agreements
-  nameWithType: com.microsoft.store.partnercenter.agreements
-  fullName: com.microsoft.store.partnercenter.agreements
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/agreements/AgreementDetailsCollectionOperations.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/agreements/AgreementDetailsCollectionOperations.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.agreements"
+  nameWithType: "com.microsoft.store.partnercenter.agreements"
+  fullName: "com.microsoft.store.partnercenter.agreements"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.agreements
+    content: "package com.microsoft.store.partnercenter.agreements"
 references:
-- uid: com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations
-  parent: com.microsoft.store.partnercenter.agreements
-  href: com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations.yml
-  name: AgreementDetailsCollectionOperations
-  nameWithType: AgreementDetailsCollectionOperations
-  fullName: com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations
-  type: Class
-  summary: "<p>Agreement details collection operations implementation class. </p>"
-  syntax:
-    content: public class AgreementDetailsCollectionOperations extends BasePartnerComponentString implements IAgreementDetailsCollection
-- uid: com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations
-  parent: com.microsoft.store.partnercenter.agreements
-  href: com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.yml
-  name: CustomerAgreementCollectionOperations
-  nameWithType: CustomerAgreementCollectionOperations
-  fullName: com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations
-  type: Class
-  summary: "<p>Implements the operations on an Agreement collection. </p>"
-  syntax:
-    content: public class CustomerAgreementCollectionOperations extends BasePartnerComponentString implements ICustomerAgreementCollection
-- uid: com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection
-  parent: com.microsoft.store.partnercenter.agreements
-  href: com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection.yml
-  name: IAgreementDetailsCollection
-  nameWithType: IAgreementDetailsCollection
-  fullName: com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection
-  type: Interface
-  summary: "<p>Encapsulates the operations on the agreement metadata collection. </p>"
-  syntax:
-    content: public interface IAgreementDetailsCollection
-- uid: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
-  parent: com.microsoft.store.partnercenter.agreements
-  href: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.yml
-  name: ICustomerAgreementCollection
-  nameWithType: ICustomerAgreementCollection
-  fullName: com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection
-  type: Interface
-  summary: "<p>Encapsulates the operations on the Agreement collection. </p>"
-  syntax:
-    content: public interface ICustomerAgreementCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<Agreement, ResourceCollection<Agreement>>
+- uid: "com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations"
+  name: "AgreementDetailsCollectionOperations"
+  nameWithType: "AgreementDetailsCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations"
+- uid: "com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations"
+  name: "CustomerAgreementCollectionOperations"
+  nameWithType: "CustomerAgreementCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations"
+- uid: "com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection"
+  name: "IAgreementDetailsCollection"
+  nameWithType: "IAgreementDetailsCollection"
+  fullName: "com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection"
+- uid: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
+  name: "ICustomerAgreementCollection"
+  nameWithType: "ICustomerAgreementCollection"
+  fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"

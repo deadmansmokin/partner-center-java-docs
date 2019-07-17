@@ -1,216 +1,104 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.invoices
-  id: invoices
+- uid: "com.microsoft.store.partnercenter.models.invoices"
+  id: "invoices"
   children:
-  - com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem
-  - com.microsoft.store.partnercenter.models.invoices.BillingPeriod
-  - com.microsoft.store.partnercenter.models.invoices.BillingProvider
-  - com.microsoft.store.partnercenter.models.invoices.BillingType
-  - com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem
-  - com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  - com.microsoft.store.partnercenter.models.invoices.DocumentType
-  - com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  - com.microsoft.store.partnercenter.models.invoices.Invoice
-  - com.microsoft.store.partnercenter.models.invoices.InvoiceDetail
-  - com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
-  - com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
-  - com.microsoft.store.partnercenter.models.invoices.InvoiceSearchField
-  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
-  - com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail
-  - com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem
-  - com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem
-  - com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem
-  href: com.microsoft.store.partnercenter.models.invoices.yml
+  - "com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem"
+  - "com.microsoft.store.partnercenter.models.invoices.BillingPeriod"
+  - "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
+  - "com.microsoft.store.partnercenter.models.invoices.BillingType"
+  - "com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem"
+  - "com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem"
+  - "com.microsoft.store.partnercenter.models.invoices.DocumentType"
+  - "com.microsoft.store.partnercenter.models.invoices.EstimateLink"
+  - "com.microsoft.store.partnercenter.models.invoices.Invoice"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSearchField"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail"
+  - "com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem"
+  - "com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem"
+  - "com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.models.invoices
-  nameWithType: com.microsoft.store.partnercenter.models.invoices
-  fullName: com.microsoft.store.partnercenter.models.invoices
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/invoices/BaseUsageBasedLineItem.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.models.invoices"
+  nameWithType: "com.microsoft.store.partnercenter.models.invoices"
+  fullName: "com.microsoft.store.partnercenter.models.invoices"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.models.invoices
+    content: "package com.microsoft.store.partnercenter.models.invoices"
 references:
-- uid: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.yml
-  name: BaseUsageBasedLineItem
-  nameWithType: BaseUsageBasedLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem
-  type: Class
-  summary: "<p>Represents common properties for Usage based invoice line items </p>"
-  syntax:
-    content: public class BaseUsageBasedLineItem extends InvoiceLineItem
-- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.yml
-  name: BillingPeriod
-  nameWithType: BillingPeriod
-  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
-  type: Enum
-  syntax:
-    content: public enum BillingPeriod
-- uid: com.microsoft.store.partnercenter.models.invoices.BillingProvider
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.BillingProvider.yml
-  name: BillingProvider
-  nameWithType: BillingProvider
-  fullName: com.microsoft.store.partnercenter.models.invoices.BillingProvider
-  type: Enum
-  syntax:
-    content: public enum BillingProvider
-- uid: com.microsoft.store.partnercenter.models.invoices.BillingType
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.BillingType.yml
-  name: BillingType
-  nameWithType: BillingType
-  fullName: com.microsoft.store.partnercenter.models.invoices.BillingType
-  type: Enum
-  syntax:
-    content: public enum BillingType
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem.yml
-  name: DailyRatedUsageLineItem
-  nameWithType: DailyRatedUsageLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem
-  type: Class
-  summary: "<p>Represents unbilled, billed recon line items for daily rated usage. </p>"
-  syntax:
-    content: public class DailyRatedUsageLineItem extends InvoiceLineItem
-- uid: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.yml
-  name: DailyUsageLineItem
-  nameWithType: DailyUsageLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem
-  type: Class
-  summary: "<p>Invoice Usage Line item for usage based subscriptions </p>"
-  syntax:
-    content: public class DailyUsageLineItem extends BaseUsageBasedLineItem
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.DocumentType.yml
-  name: DocumentType
-  nameWithType: DocumentType
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType
-  type: Enum
-  summary: "<p>Different providers of billing information. </p>"
-  syntax:
-    content: public enum DocumentType
-- uid: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.EstimateLink.yml
-  name: EstimateLink
-  nameWithType: EstimateLink
-  fullName: com.microsoft.store.partnercenter.models.invoices.EstimateLink
-  type: Class
-  summary: "<p>Represents a URI and the HTTP method which indicates the desired action for accessing the resource. </p>"
-  syntax:
-    content: public class EstimateLink
-- uid: com.microsoft.store.partnercenter.models.invoices.Invoice
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.Invoice.yml
-  name: Invoice
-  nameWithType: Invoice
-  fullName: com.microsoft.store.partnercenter.models.invoices.Invoice
-  type: Class
-  summary: "<p>Represents a monthly billing statement issued to a partner </p>"
-  syntax:
-    content: public class Invoice extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceDetail
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.yml
-  name: InvoiceDetail
-  nameWithType: InvoiceDetail
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceDetail
-  type: Class
-  summary: "<p>Represents the detailed information of an invoice </p>"
-  syntax:
-    content: public class InvoiceDetail extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.yml
-  name: InvoiceLineItem
-  nameWithType: InvoiceLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
-  type: Class
-  summary: "<p>Represents a line item on an invoice. </p>"
-  syntax:
-    content: public class InvoiceLineItem extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.yml
-  name: InvoiceLineItemType
-  nameWithType: InvoiceLineItemType
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType
-  type: Enum
-  syntax:
-    content: public enum InvoiceLineItemType
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSearchField
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.InvoiceSearchField.yml
-  name: InvoiceSearchField
-  nameWithType: InvoiceSearchField
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSearchField
-  type: Enum
-  summary: "<p>Lists the supported invoice search fields. </p>"
-  syntax:
-    content: public enum InvoiceSearchField
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.yml
-  name: InvoiceSummary
-  nameWithType: InvoiceSummary
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
-  type: Class
-  summary: "<p>Represent the current balance based on Partner's monthly bills. </p>"
-  syntax:
-    content: public class InvoiceSummary extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail.yml
-  name: InvoiceSummaryDetail
-  nameWithType: InvoiceSummaryDetail
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail
-  type: Class
-  summary: "<p>Represent a summary of individual details for an invoice type. for example recurring perpetual. </p>"
-  syntax:
-    content: public class InvoiceSummaryDetail
-- uid: com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem.yml
-  name: LicenseBasedLineItem
-  nameWithType: LicenseBasedLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem
-  type: Class
-  summary: "<p>Represents an invoice billing line item for licensed based subscriptions </p>"
-  syntax:
-    content: public class LicenseBasedLineItem extends InvoiceLineItem
-- uid: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem.yml
-  name: OneTimeInvoiceLineItem
-  nameWithType: OneTimeInvoiceLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem
-  type: Class
-  summary: "<p>Represents an invoice billing line item for OneTime purchases. </p>"
-  syntax:
-    content: public class OneTimeInvoiceLineItem extends InvoiceLineItem
-- uid: com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem.yml
-  name: UsageBasedLineItem
-  nameWithType: UsageBasedLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem
-  type: Class
-  summary: "<p>Billing Line Items for Usage Based subscriptions </p>"
-  syntax:
-    content: public class UsageBasedLineItem extends BaseUsageBasedLineItem
+- uid: "com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem"
+  name: "BaseUsageBasedLineItem"
+  nameWithType: "BaseUsageBasedLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem"
+- uid: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod"
+  name: "BillingPeriod"
+  nameWithType: "BillingPeriod"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod"
+- uid: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
+  name: "BillingProvider"
+  nameWithType: "BillingProvider"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
+- uid: "com.microsoft.store.partnercenter.models.invoices.BillingType"
+  name: "BillingType"
+  nameWithType: "BillingType"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingType"
+- uid: "com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem"
+  name: "DailyRatedUsageLineItem"
+  nameWithType: "DailyRatedUsageLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem"
+- uid: "com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem"
+  name: "DailyUsageLineItem"
+  nameWithType: "DailyUsageLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem"
+- uid: "com.microsoft.store.partnercenter.models.invoices.DocumentType"
+  name: "DocumentType"
+  nameWithType: "DocumentType"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.DocumentType"
+- uid: "com.microsoft.store.partnercenter.models.invoices.EstimateLink"
+  name: "EstimateLink"
+  nameWithType: "EstimateLink"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.EstimateLink"
+- uid: "com.microsoft.store.partnercenter.models.invoices.Invoice"
+  name: "Invoice"
+  nameWithType: "Invoice"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.Invoice"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail"
+  name: "InvoiceDetail"
+  nameWithType: "InvoiceDetail"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+  name: "InvoiceLineItem"
+  nameWithType: "InvoiceLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
+  name: "InvoiceLineItemType"
+  nameWithType: "InvoiceLineItemType"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSearchField"
+  name: "InvoiceSearchField"
+  nameWithType: "InvoiceSearchField"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSearchField"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+  name: "InvoiceSummary"
+  nameWithType: "InvoiceSummary"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail"
+  name: "InvoiceSummaryDetail"
+  nameWithType: "InvoiceSummaryDetail"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail"
+- uid: "com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem"
+  name: "LicenseBasedLineItem"
+  nameWithType: "LicenseBasedLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem"
+- uid: "com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem"
+  name: "OneTimeInvoiceLineItem"
+  nameWithType: "OneTimeInvoiceLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.OneTimeInvoiceLineItem"
+- uid: "com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem"
+  name: "UsageBasedLineItem"
+  nameWithType: "UsageBasedLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem"

@@ -1,180 +1,181 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.utils.StringHelper
-  id: StringHelper
-  parent: com.microsoft.store.partnercenter.utils
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper"
+  id: "StringHelper"
+  parent: "com.microsoft.store.partnercenter.utils"
   children:
-  - com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(InputStream)
-  - com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(InputStream,String)
-  - com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace(String)
-  - com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty(String)
-  - com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace(String)
-  href: com.microsoft.store.partnercenter.utils.StringHelper.yml
+  - "com.microsoft.store.partnercenter.utils.StringHelper.StringHelper()"
+  - "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(java.io.InputStream)"
+  - "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(java.io.InputStream,java.lang.String)"
+  - "com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace(java.lang.String)"
+  - "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty(java.lang.String)"
+  - "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace(java.lang.String)"
   langs:
-  - java
-  name: StringHelper
-  nameWithType: StringHelper
-  fullName: com.microsoft.store.partnercenter.utils.StringHelper
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/utils/StringHelper.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/utils/StringHelper.java
-    startLine: 13
-  package: com.microsoft.store.partnercenter.utils
+  - "java"
+  name: "StringHelper"
+  nameWithType: "StringHelper"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.utils"
   syntax:
-    content: public class StringHelper
+    content: "public class StringHelper"
   inheritance:
-  - java.lang.Object
-- uid: com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(InputStream)
-  id: fromInputStream(InputStream)
-  parent: com.microsoft.store.partnercenter.utils.StringHelper
-  href: com.microsoft.store.partnercenter.utils.StringHelper.yml
+  - "java.lang.Object"
+  inheritedMembers:
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.StringHelper()"
+  id: "StringHelper()"
+  parent: "com.microsoft.store.partnercenter.utils.StringHelper"
   langs:
-  - java
-  name: fromInputStream(InputStream is)
-  nameWithType: StringHelper.fromInputStream(InputStream is)
-  fullName: com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(InputStream is)
-  overload: com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/utils/StringHelper.java
-    startLine: 15
-  package: com.microsoft.store.partnercenter.utils
+  - "java"
+  name: "StringHelper()"
+  nameWithType: "StringHelper.StringHelper()"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.StringHelper()"
+  overload: "com.microsoft.store.partnercenter.utils.StringHelper.StringHelper*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.utils"
   syntax:
-    content: public static String fromInputStream(InputStream is)
-    parameters:
-    - id: is
-      type: 76fcb9b7
-    return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(InputStream,String)
-  id: fromInputStream(InputStream,String)
-  parent: com.microsoft.store.partnercenter.utils.StringHelper
-  href: com.microsoft.store.partnercenter.utils.StringHelper.yml
+    content: "public StringHelper()"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(java.io.InputStream)"
+  id: "fromInputStream(java.io.InputStream)"
+  parent: "com.microsoft.store.partnercenter.utils.StringHelper"
   langs:
-  - java
-  name: fromInputStream(InputStream is, String encoding)
-  nameWithType: StringHelper.fromInputStream(InputStream is, String encoding)
-  fullName: com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(InputStream is, String encoding)
-  overload: com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/utils/StringHelper.java
-    startLine: 20
-  package: com.microsoft.store.partnercenter.utils
+  - "java"
+  name: "fromInputStream(InputStream is)"
+  nameWithType: "StringHelper.fromInputStream(InputStream is)"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(InputStream is)"
+  overload: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.utils"
   syntax:
-    content: public static String fromInputStream(InputStream is, String encoding)
+    content: "public static String fromInputStream(InputStream is)"
     parameters:
-    - id: is
-      type: 76fcb9b7
-    - id: encoding
-      type: "26831127"
+    - id: "is"
+      type: "java.io.InputStream"
     return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace(String)
-  id: isEmptyOrContainsWhiteSpace(String)
-  parent: com.microsoft.store.partnercenter.utils.StringHelper
-  href: com.microsoft.store.partnercenter.utils.StringHelper.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(java.io.InputStream,java.lang.String)"
+  id: "fromInputStream(java.io.InputStream,java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.utils.StringHelper"
   langs:
-  - java
-  name: isEmptyOrContainsWhiteSpace(String string)
-  nameWithType: StringHelper.isEmptyOrContainsWhiteSpace(String string)
-  fullName: com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace(String string)
-  overload: com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/utils/StringHelper.java
-    startLine: 65
-  package: com.microsoft.store.partnercenter.utils
+  - "java"
+  name: "fromInputStream(InputStream is, String encoding)"
+  nameWithType: "StringHelper.fromInputStream(InputStream is, String encoding)"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream(InputStream is, String encoding)"
+  overload: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.utils"
   syntax:
-    content: public static boolean isEmptyOrContainsWhiteSpace(String string)
+    content: "public static String fromInputStream(InputStream is, String encoding)"
     parameters:
-    - id: string
-      type: "26831127"
+    - id: "is"
+      type: "java.io.InputStream"
+    - id: "encoding"
+      type: "java.lang.String"
     return:
-      type: 4fc6e284
-- uid: com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty(String)
-  id: isNullOrEmpty(String)
-  parent: com.microsoft.store.partnercenter.utils.StringHelper
-  href: com.microsoft.store.partnercenter.utils.StringHelper.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace(java.lang.String)"
+  id: "isEmptyOrContainsWhiteSpace(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.utils.StringHelper"
   langs:
-  - java
-  name: isNullOrEmpty(String string)
-  nameWithType: StringHelper.isNullOrEmpty(String string)
-  fullName: com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty(String string)
-  overload: com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/utils/StringHelper.java
-    startLine: 55
-  package: com.microsoft.store.partnercenter.utils
+  - "java"
+  name: "isEmptyOrContainsWhiteSpace(String string)"
+  nameWithType: "StringHelper.isEmptyOrContainsWhiteSpace(String string)"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace(String string)"
+  overload: "com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.utils"
   syntax:
-    content: public static boolean isNullOrEmpty(String string)
+    content: "public static boolean isEmptyOrContainsWhiteSpace(String string)"
     parameters:
-    - id: string
-      type: "26831127"
+    - id: "string"
+      type: "java.lang.String"
     return:
-      type: 4fc6e284
-- uid: com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace(String)
-  id: isNullOrWhiteSpace(String)
-  parent: com.microsoft.store.partnercenter.utils.StringHelper
-  href: com.microsoft.store.partnercenter.utils.StringHelper.yml
+      type: "boolean"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty(java.lang.String)"
+  id: "isNullOrEmpty(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.utils.StringHelper"
   langs:
-  - java
-  name: isNullOrWhiteSpace(String string)
-  nameWithType: StringHelper.isNullOrWhiteSpace(String string)
-  fullName: com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace(String string)
-  overload: com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/utils/StringHelper.java
-    startLine: 60
-  package: com.microsoft.store.partnercenter.utils
+  - "java"
+  name: "isNullOrEmpty(String string)"
+  nameWithType: "StringHelper.isNullOrEmpty(String string)"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty(String string)"
+  overload: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.utils"
   syntax:
-    content: public static boolean isNullOrWhiteSpace(String string)
+    content: "public static boolean isNullOrEmpty(String string)"
     parameters:
-    - id: string
-      type: "26831127"
+    - id: "string"
+      type: "java.lang.String"
     return:
-      type: 4fc6e284
+      type: "boolean"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace(java.lang.String)"
+  id: "isNullOrWhiteSpace(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.utils.StringHelper"
+  langs:
+  - "java"
+  name: "isNullOrWhiteSpace(String string)"
+  nameWithType: "StringHelper.isNullOrWhiteSpace(String string)"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace(String string)"
+  overload: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.utils"
+  syntax:
+    content: "public static boolean isNullOrWhiteSpace(String string)"
+    parameters:
+    - id: "string"
+      type: "java.lang.String"
+    return:
+      type: "boolean"
 references:
-- uid: 76fcb9b7
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.StringHelper*"
+  name: "StringHelper"
+  nameWithType: "StringHelper.StringHelper"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.StringHelper"
+  package: "com.microsoft.store.partnercenter.utils"
+- uid: "java.io.InputStream"
   spec.java:
-  - name: InputStream
-    fullName: InputStream
-- uid: "26831127"
+  - uid: "java.io.InputStream"
+    name: "InputStream"
+    fullName: "java.io.InputStream"
+- uid: "java.lang.String"
   spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream*
-  name: fromInputStream
-  nameWithType: StringHelper.fromInputStream
-  fullName: com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream
-  package: com.microsoft.store.partnercenter.utils
-- uid: 4fc6e284
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream*"
+  name: "fromInputStream"
+  nameWithType: "StringHelper.fromInputStream"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream"
+  package: "com.microsoft.store.partnercenter.utils"
+- uid: "boolean"
   spec.java:
-  - name: boolean
-    fullName: boolean
-- uid: com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty*
-  name: isNullOrEmpty
-  nameWithType: StringHelper.isNullOrEmpty
-  fullName: com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty
-  package: com.microsoft.store.partnercenter.utils
-- uid: com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace*
-  name: isNullOrWhiteSpace
-  nameWithType: StringHelper.isNullOrWhiteSpace
-  fullName: com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace
-  package: com.microsoft.store.partnercenter.utils
-- uid: com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace*
-  name: isEmptyOrContainsWhiteSpace
-  nameWithType: StringHelper.isEmptyOrContainsWhiteSpace
-  fullName: com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace
-  package: com.microsoft.store.partnercenter.utils
+  - uid: "boolean"
+    name: "boolean"
+    fullName: "boolean"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty*"
+  name: "isNullOrEmpty"
+  nameWithType: "StringHelper.isNullOrEmpty"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrEmpty"
+  package: "com.microsoft.store.partnercenter.utils"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace*"
+  name: "isNullOrWhiteSpace"
+  nameWithType: "StringHelper.isNullOrWhiteSpace"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.isNullOrWhiteSpace"
+  package: "com.microsoft.store.partnercenter.utils"
+- uid: "com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace*"
+  name: "isEmptyOrContainsWhiteSpace"
+  nameWithType: "StringHelper.isEmptyOrContainsWhiteSpace"
+  fullName: "com.microsoft.store.partnercenter.utils.StringHelper.isEmptyOrContainsWhiteSpace"
+  package: "com.microsoft.store.partnercenter.utils"

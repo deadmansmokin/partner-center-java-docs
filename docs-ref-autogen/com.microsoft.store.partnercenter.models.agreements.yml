@@ -1,55 +1,29 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.agreements
-  id: agreements
+- uid: "com.microsoft.store.partnercenter.models.agreements"
+  id: "agreements"
   children:
-  - com.microsoft.store.partnercenter.models.agreements.Agreement
-  - com.microsoft.store.partnercenter.models.agreements.AgreementMetaData
-  - com.microsoft.store.partnercenter.models.agreements.AgreementType
-  href: com.microsoft.store.partnercenter.models.agreements.yml
+  - "com.microsoft.store.partnercenter.models.agreements.Agreement"
+  - "com.microsoft.store.partnercenter.models.agreements.AgreementMetaData"
+  - "com.microsoft.store.partnercenter.models.agreements.AgreementType"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.models.agreements
-  nameWithType: com.microsoft.store.partnercenter.models.agreements
-  fullName: com.microsoft.store.partnercenter.models.agreements
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/agreements/Agreement.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.models.agreements"
+  nameWithType: "com.microsoft.store.partnercenter.models.agreements"
+  fullName: "com.microsoft.store.partnercenter.models.agreements"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.models.agreements
+    content: "package com.microsoft.store.partnercenter.models.agreements"
 references:
-- uid: com.microsoft.store.partnercenter.models.agreements.Agreement
-  parent: com.microsoft.store.partnercenter.models.agreements
-  href: com.microsoft.store.partnercenter.models.agreements.Agreement.yml
-  name: Agreement
-  nameWithType: Agreement
-  fullName: com.microsoft.store.partnercenter.models.agreements.Agreement
-  type: Class
-  summary: "<p>The Agreement resource. Represents the details of certification provided by the partner. </p>"
-  syntax:
-    content: public class Agreement extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.agreements.AgreementMetaData
-  parent: com.microsoft.store.partnercenter.models.agreements
-  href: com.microsoft.store.partnercenter.models.agreements.AgreementMetaData.yml
-  name: AgreementMetaData
-  nameWithType: AgreementMetaData
-  fullName: com.microsoft.store.partnercenter.models.agreements.AgreementMetaData
-  type: Class
-  summary: "<p>The AgreementMetaData provides metadata about the agreement type that partner can provide confirmation of customer acceptance. </p>"
-  syntax:
-    content: public class AgreementMetaData
-- uid: com.microsoft.store.partnercenter.models.agreements.AgreementType
-  parent: com.microsoft.store.partnercenter.models.agreements
-  href: com.microsoft.store.partnercenter.models.agreements.AgreementType.yml
-  name: AgreementType
-  nameWithType: AgreementType
-  fullName: com.microsoft.store.partnercenter.models.agreements.AgreementType
-  type: Enum
-  summary: "<p>Enumeration to represent type of Agreements </p>"
-  syntax:
-    content: public enum AgreementType
+- uid: "com.microsoft.store.partnercenter.models.agreements.Agreement"
+  name: "Agreement"
+  nameWithType: "Agreement"
+  fullName: "com.microsoft.store.partnercenter.models.agreements.Agreement"
+- uid: "com.microsoft.store.partnercenter.models.agreements.AgreementMetaData"
+  name: "AgreementMetaData"
+  nameWithType: "AgreementMetaData"
+  fullName: "com.microsoft.store.partnercenter.models.agreements.AgreementMetaData"
+- uid: "com.microsoft.store.partnercenter.models.agreements.AgreementType"
+  name: "AgreementType"
+  nameWithType: "AgreementType"
+  fullName: "com.microsoft.store.partnercenter.models.agreements.AgreementType"

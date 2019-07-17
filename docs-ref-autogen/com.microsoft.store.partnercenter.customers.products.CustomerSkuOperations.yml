@@ -1,255 +1,204 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations
-  id: CustomerSkuOperations
-  parent: com.microsoft.store.partnercenter.customers.products
+- uid: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations"
+  id: "CustomerSkuOperations"
+  parent: "com.microsoft.store.partnercenter.customers.products"
   children:
-  - com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations(IPartner,String,String,String)
-  - com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get()
-  - com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities()
-  href: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.yml
+  - "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)"
+  - "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get()"
+  - "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities()"
   langs:
-  - java
-  name: CustomerSkuOperations
-  nameWithType: CustomerSkuOperations
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuOperations.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuOperations.java
-    startLine: 20
-  package: com.microsoft.store.partnercenter.customers.products
-  summary: "<p>Implements operations for a single customer SKU. </p>"
+  - "java"
+  name: "CustomerSkuOperations"
+  nameWithType: "CustomerSkuOperations"
+  fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.customers.products"
+  summary: "Implements operations for a single customer SKU."
   syntax:
-    content: public class CustomerSkuOperations extends BasePartnerComponent<TripletTuple<String, String, String>> implements ISku
+    content: "public class CustomerSkuOperations extends BasePartnerComponent<TripletTuple<String,String,String>> implements ISku"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.IPartnerComponent
-  - com.microsoft.store.partnercenter.BasePartnerComponent
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
+  implements:
+  - "com.microsoft.store.partnercenter.products.ISku"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  - com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations(IPartner,String,String,String)
-  id: CustomerSkuOperations(IPartner,String,String,String)
-  parent: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations
-  href: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.yml
+  - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)"
+  id: "CustomerSkuOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations"
   langs:
-  - java
-  name: CustomerSkuOperations(IPartner rootPartnerOperations, String customerId, String productId, String skuId)
-  nameWithType: CustomerSkuOperations.CustomerSkuOperations(IPartner rootPartnerOperations, String customerId, String productId, String skuId)
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations(IPartner rootPartnerOperations, String customerId, String productId, String skuId)
-  overload: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations*
-  type: Constructor
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuOperations.java
-    startLine: 33
-  package: com.microsoft.store.partnercenter.customers.products
-  summary: "<p>Initializes a new instance of the CustomerSkuOperations class.</p>\r\n<p></p>"
+  - "java"
+  name: "CustomerSkuOperations(IPartner rootPartnerOperations, String customerId, String productId, String skuId)"
+  nameWithType: "CustomerSkuOperations.CustomerSkuOperations(IPartner rootPartnerOperations, String customerId, String productId, String skuId)"
+  fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations(IPartner rootPartnerOperations, String customerId, String productId, String skuId)"
+  overload: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.customers.products"
+  summary: "Initializes a new instance of the CustomerSkuOperations class."
   syntax:
-    content: public CustomerSkuOperations(IPartner rootPartnerOperations, String customerId, String productId, String skuId)
+    content: "public CustomerSkuOperations(IPartner rootPartnerOperations, String customerId, String productId, String skuId)"
     parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: <p>The root partner operations instance. </p>
-    - id: customerId
-      type: "26831127"
-      description: <p>The customer id for which to retrieve the SKU. </p>
-    - id: productId
-      type: "26831127"
-      description: <p>The product id for which to retrieve its SKU. </p>
-    - id: skuId
-      type: "26831127"
-      description: <p>Identifier for the SKU. </p>
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get()
-  id: get()
-  parent: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations
-  href: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.yml
+    - id: "rootPartnerOperations"
+      type: "com.microsoft.store.partnercenter.IPartner"
+      description: "The root partner operations instance."
+    - id: "customerId"
+      type: "java.lang.String"
+      description: "The customer id for which to retrieve the SKU."
+    - id: "productId"
+      type: "java.lang.String"
+      description: "The product id for which to retrieve its SKU."
+    - id: "skuId"
+      type: "java.lang.String"
+      description: "Identifier for the SKU."
+- uid: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations"
   langs:
-  - java
-  name: get()
-  nameWithType: CustomerSkuOperations.get()
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get()
-  overload: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuOperations.java
-    startLine: 75
-  package: com.microsoft.store.partnercenter.customers.products
-  summary: "<p>Retrieves the SKU information.</p>\r\n<p></p>"
+  - "java"
+  name: "get()"
+  nameWithType: "CustomerSkuOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get()"
+  overload: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.customers.products"
+  summary: "Retrieves the SKU information."
   syntax:
-    content: public Sku get()
+    content: "public Sku get()"
     return:
-      type: com.microsoft.store.partnercenter.models.products.Sku
-      description: <p>The SKUs information. </p>
-  overridden: com.microsoft.store.partnercenter.products.ISku.get()
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities()
-  id: getAvailabilities()
-  parent: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations
-  href: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.yml
+      type: "com.microsoft.store.partnercenter.models.products.Sku"
+      description: "The SKUs information."
+- uid: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities()"
+  id: "getAvailabilities()"
+  parent: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations"
   langs:
-  - java
-  name: getAvailabilities()
-  nameWithType: CustomerSkuOperations.getAvailabilities()
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities()
-  overload: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/customers/products/CustomerSkuOperations.java
-    startLine: 59
-  package: com.microsoft.store.partnercenter.customers.products
-  summary: "<p>Retrieves the operations for the current SKU's availabilities.</p>\r\n<p></p>"
+  - "java"
+  name: "getAvailabilities()"
+  nameWithType: "CustomerSkuOperations.getAvailabilities()"
+  fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities()"
+  overload: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.customers.products"
+  summary: "Retrieves the operations for the current SKU's availabilities."
   syntax:
-    content: public IAvailabilityCollection getAvailabilities()
+    content: "public IAvailabilityCollection getAvailabilities()"
     return:
-      type: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-      description: <p>The operations for the current SKU's availabilities. </p>
-  overridden: com.microsoft.store.partnercenter.products.ISku.getAvailabilities()
+      type: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
+      description: "The operations for the current SKU's availabilities."
 references:
-- uid: "26831127"
+- uid: "com.microsoft.store.partnercenter.IPartner"
+  name: "IPartner"
+  nameWithType: "IPartner"
+  fullName: "com.microsoft.store.partnercenter.IPartner"
+- uid: "java.lang.String"
   spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations*
-  name: CustomerSkuOperations
-  nameWithType: CustomerSkuOperations.CustomerSkuOperations
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations
-  package: com.microsoft.store.partnercenter.customers.products
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities*
-  name: getAvailabilities
-  nameWithType: CustomerSkuOperations.getAvailabilities
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities
-  package: com.microsoft.store.partnercenter.customers.products
-- uid: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get*
-  name: get
-  nameWithType: CustomerSkuOperations.get
-  fullName: com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get
-  package: com.microsoft.store.partnercenter.customers.products
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
-  parent: com.microsoft.store.partnercenter.BasePartnerComponent
-  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
-  name: BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
-  nameWithType: BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
-  type: Constructor
-  summary: "<p>Initializes a new instance of the BasePartnerComponent class.</p>\r\n<p></p>"
-  syntax:
-    content: protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)
-    parameters:
-    - id: rootPartnerOperations
-      type: com.microsoft.store.partnercenter.IPartner
-      description: <p>The root partner operations that created this component. </p>
-    - id: componentContext
-      type: 473af9dd
-      description: <p>A component context object to work with. </p>
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-  parent: com.microsoft.store.partnercenter.BasePartnerComponent
-  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
-  name: getContext()
-  nameWithType: BasePartnerComponent<TContext>.getContext()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext()
-  type: Method
-  summary: "<p>Gets the component context object.</p>\r\n<p></p>"
-  syntax:
-    content: public TContext getContext()
-    return:
-      type: 473af9dd
-      description: <p>The component context object. </p>
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-  parent: com.microsoft.store.partnercenter.BasePartnerComponent
-  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
-  name: getPartner()
-  nameWithType: BasePartnerComponent<TContext>.getPartner()
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getPartner()
-  type: Method
-  summary: "<p>Gets a reference to the partner operations instance that generated this component.</p>\r\n<p></p>"
-  syntax:
-    content: public IPartner getPartner()
-    return:
-      type: com.microsoft.store.partnercenter.IPartner
-      description: <p>A reference to the partner operations instance that generated this component. </p>
-- uid: com.microsoft.store.partnercenter.BasePartnerComponent
-  parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter.BasePartnerComponent.yml
-  name: BasePartnerComponent<TContext>
-  nameWithType: BasePartnerComponent<TContext>
-  fullName: com.microsoft.store.partnercenter.BasePartnerComponent<TContext>
-  type: Class
-  summary: "<p>Holds common partner component properties and behavior. All components should inherit from this class. The context object type. </p>"
-  syntax:
-    content: public class BasePartnerComponent<TContext> implements IPartnerComponent<TContext>
-    typeParameters:
-    - id: TContext
-      type: 473af9dd
-- uid: com.microsoft.store.partnercenter.products.ISku
-  parent: com.microsoft.store.partnercenter.products
-  href: com.microsoft.store.partnercenter.products.ISku.yml
-  name: ISku
-  nameWithType: ISku
-  fullName: com.microsoft.store.partnercenter.products.ISku
-  type: Interface
-  summary: "<p>Holds operations that can be performed on a single SKU. </p>"
-  syntax:
-    content: public interface ISku
-- uid: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-  parent: com.microsoft.store.partnercenter.products
-  href: com.microsoft.store.partnercenter.products.IAvailabilityCollection.yml
-  name: IAvailabilityCollection
-  nameWithType: IAvailabilityCollection
-  fullName: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-  type: Interface
-  summary: "<p>Holds operations that can be performed on availabilities. </p>"
-  syntax:
-    content: public interface IAvailabilityCollection
-- uid: com.microsoft.store.partnercenter.IPartner
-  parent: com.microsoft.store.partnercenter
-  href: com.microsoft.store.partnercenter.IPartner.yml
-  name: IPartner
-  nameWithType: IPartner
-  fullName: com.microsoft.store.partnercenter.IPartner
-  type: Interface
-  summary: "<p>The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more. </p>"
-  syntax:
-    content: public interface IPartner
-- uid: com.microsoft.store.partnercenter.products.ISku.getAvailabilities()
-  parent: com.microsoft.store.partnercenter.products.ISku
-  href: com.microsoft.store.partnercenter.products.ISku.yml
-  name: getAvailabilities()
-  nameWithType: ISku.getAvailabilities()
-  fullName: com.microsoft.store.partnercenter.products.ISku.getAvailabilities()
-  type: Method
-  summary: "<p>Retrieves the operations for the current SKU's availabilities.</p>\r\n<p></p>"
-  syntax:
-    content: public IAvailabilityCollection getAvailabilities()
-    return:
-      type: com.microsoft.store.partnercenter.products.IAvailabilityCollection
-      description: <p>The operations for the current SKU's availabilities. </p>
-- uid: com.microsoft.store.partnercenter.models.products.Sku
-  parent: com.microsoft.store.partnercenter.models.products
-  href: com.microsoft.store.partnercenter.models.products.Sku.yml
-  name: Sku
-  nameWithType: Sku
-  fullName: com.microsoft.store.partnercenter.models.products.Sku
-  type: Class
-  summary: "<p>Class that represents a sku. </p>"
-  syntax:
-    content: public class Sku
-- uid: com.microsoft.store.partnercenter.products.ISku.get()
-  parent: com.microsoft.store.partnercenter.products.ISku
-  href: com.microsoft.store.partnercenter.products.ISku.yml
-  name: get()
-  nameWithType: ISku.get()
-  fullName: com.microsoft.store.partnercenter.products.ISku.get()
-  type: Method
-  summary: "<p>Retrieves the SKU information.</p>\r\n<p></p>"
-  syntax:
-    content: public Sku get()
-    return:
-      type: com.microsoft.store.partnercenter.models.products.Sku
-      description: <p>The SKUs information. </p>
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations*"
+  name: "CustomerSkuOperations"
+  nameWithType: "CustomerSkuOperations.CustomerSkuOperations"
+  fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations"
+  package: "com.microsoft.store.partnercenter.customers.products"
+- uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
+  name: "IAvailabilityCollection"
+  nameWithType: "IAvailabilityCollection"
+  fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
+- uid: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities*"
+  name: "getAvailabilities"
+  nameWithType: "CustomerSkuOperations.getAvailabilities"
+  fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.getAvailabilities"
+  package: "com.microsoft.store.partnercenter.customers.products"
+- uid: "com.microsoft.store.partnercenter.models.products.Sku"
+  name: "Sku"
+  nameWithType: "Sku"
+  fullName: "com.microsoft.store.partnercenter.models.products.Sku"
+- uid: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get*"
+  name: "get"
+  nameWithType: "CustomerSkuOperations.get"
+  fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.get"
+  package: "com.microsoft.store.partnercenter.customers.products"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
+  name: "BasePartnerComponent<TripletTuple<String,String,String>>"
+  nameWithType: "BasePartnerComponent<TripletTuple<String,String,String>>"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
+- uid: "com.microsoft.store.partnercenter.products.ISku"
+  name: "ISku"
+  nameWithType: "ISku"
+  fullName: "com.microsoft.store.partnercenter.products.ISku"
+- uid: "java.lang.Object.notify()"
+  name: "Object.notify()"
+  nameWithType: "Object.notify()"
+  fullName: "java.lang.Object.notify()"
+- uid: "java.lang.Object.wait()"
+  name: "Object.wait()"
+  nameWithType: "Object.wait()"
+  fullName: "java.lang.Object.wait()"
+- uid: "java.lang.Object.finalize()"
+  name: "Object.finalize()"
+  nameWithType: "Object.finalize()"
+  fullName: "java.lang.Object.finalize()"
+- uid: "java.lang.Object.notifyAll()"
+  name: "Object.notifyAll()"
+  nameWithType: "Object.notifyAll()"
+  fullName: "java.lang.Object.notifyAll()"
+- uid: "java.lang.Object.clone()"
+  name: "Object.clone()"
+  nameWithType: "Object.clone()"
+  fullName: "java.lang.Object.clone()"
+- uid: "java.lang.Object.equals(java.lang.Object)"
+  name: "Object.equals(Object)"
+  nameWithType: "Object.equals(Object)"
+  fullName: "java.lang.Object.equals(java.lang.Object)"
+- uid: "java.lang.Object.toString()"
+  name: "Object.toString()"
+  nameWithType: "Object.toString()"
+  fullName: "java.lang.Object.toString()"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+  name: "BasePartnerComponent.getPartner()"
+  nameWithType: "BasePartnerComponent.getPartner()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- uid: "java.lang.Object.getClass()"
+  name: "Object.getClass()"
+  nameWithType: "Object.getClass()"
+  fullName: "java.lang.Object.getClass()"
+- uid: "java.lang.Object.wait(long)"
+  name: "Object.wait(long)"
+  nameWithType: "Object.wait(long)"
+  fullName: "java.lang.Object.wait(long)"
+- uid: "java.lang.Object.hashCode()"
+  name: "Object.hashCode()"
+  nameWithType: "Object.hashCode()"
+  fullName: "java.lang.Object.hashCode()"
+- uid: "java.lang.Object.wait(long,int)"
+  name: "Object.wait(long,int)"
+  nameWithType: "Object.wait(long,int)"
+  fullName: "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+  name: "BasePartnerComponent.getContext()"
+  nameWithType: "BasePartnerComponent.getContext()"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- uid: "java.lang.String,java.lang.String,java.lang.String"
+  name: "String,String,String"
+  nameWithType: "String,String,String"
+  fullName: "java.lang.String,java.lang.String,java.lang.String"
+- uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
+  name: "BasePartnerComponent"
+  nameWithType: "BasePartnerComponent"
+  fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
+- uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
+  name: "TripletTuple"
+  nameWithType: "TripletTuple"
+  fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"

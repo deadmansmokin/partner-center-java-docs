@@ -1,75 +1,39 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.query.filters
-  id: filters
+- uid: "com.microsoft.store.partnercenter.models.query.filters"
+  id: "filters"
   children:
-  - com.microsoft.store.partnercenter.models.query.filters.FieldFilter
-  - com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation
-  - com.microsoft.store.partnercenter.models.query.filters.FieldType
-  - com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator
-  - com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter
-  href: com.microsoft.store.partnercenter.models.query.filters.yml
+  - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
+  - "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
+  - "com.microsoft.store.partnercenter.models.query.filters.FieldType"
+  - "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator"
+  - "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.models.query.filters
-  nameWithType: com.microsoft.store.partnercenter.models.query.filters
-  fullName: com.microsoft.store.partnercenter.models.query.filters
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/models/query/filters/FieldFilter.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/filters/FieldFilter.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.models.query.filters"
+  nameWithType: "com.microsoft.store.partnercenter.models.query.filters"
+  fullName: "com.microsoft.store.partnercenter.models.query.filters"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.models.query.filters
+    content: "package com.microsoft.store.partnercenter.models.query.filters"
 references:
-- uid: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
-  parent: com.microsoft.store.partnercenter.models.query.filters
-  href: com.microsoft.store.partnercenter.models.query.filters.FieldFilter.yml
-  name: FieldFilter
-  nameWithType: FieldFilter
-  fullName: com.microsoft.store.partnercenter.models.query.filters.FieldFilter
-  type: Class
-  summary: "<p>A base class that represents a filter applied to a field. </p>"
-  syntax:
-    content: public class FieldFilter
-- uid: com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation
-  parent: com.microsoft.store.partnercenter.models.query.filters
-  href: com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation.yml
-  name: FieldFilterOperation
-  nameWithType: FieldFilterOperation
-  fullName: com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation
-  type: Enum
-  syntax:
-    content: public enum FieldFilterOperation
-- uid: com.microsoft.store.partnercenter.models.query.filters.FieldType
-  parent: com.microsoft.store.partnercenter.models.query.filters
-  href: com.microsoft.store.partnercenter.models.query.filters.FieldType.yml
-  name: FieldType
-  nameWithType: FieldType
-  fullName: com.microsoft.store.partnercenter.models.query.filters.FieldType
-  type: Enum
-  syntax:
-    content: public enum FieldType
-- uid: com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator
-  parent: com.microsoft.store.partnercenter.models.query.filters
-  href: com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator.yml
-  name: IFilterExpressionGenerator
-  nameWithType: IFilterExpressionGenerator
-  fullName: com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator
-  type: Interface
-  summary: "<p>Represents a filter expression generator using a language. </p>"
-  syntax:
-    content: public interface IFilterExpressionGenerator
-- uid: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter
-  parent: com.microsoft.store.partnercenter.models.query.filters
-  href: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.yml
-  name: SimpleFieldFilter
-  nameWithType: SimpleFieldFilter
-  fullName: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter
-  type: Class
-  summary: "<p>A simple filter applied to a field. An example is (Year lessThan 1999). </p>"
-  syntax:
-    content: public class SimpleFieldFilter extends FieldFilter
+- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
+  name: "FieldFilter"
+  nameWithType: "FieldFilter"
+  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
+- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
+  name: "FieldFilterOperation"
+  nameWithType: "FieldFilterOperation"
+  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
+- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
+  name: "FieldType"
+  nameWithType: "FieldType"
+  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
+- uid: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator"
+  name: "IFilterExpressionGenerator"
+  nameWithType: "IFilterExpressionGenerator"
+  fullName: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator"
+- uid: "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter"
+  name: "SimpleFieldFilter"
+  nameWithType: "SimpleFieldFilter"
+  fullName: "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter"

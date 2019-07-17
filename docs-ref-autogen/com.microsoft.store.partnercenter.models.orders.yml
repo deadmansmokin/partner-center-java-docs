@@ -1,121 +1,59 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.orders
-  id: orders
+- uid: "com.microsoft.store.partnercenter.models.orders"
+  id: "orders"
   children:
-  - com.microsoft.store.partnercenter.models.orders.Order
-  - com.microsoft.store.partnercenter.models.orders.OrderLineItem
-  - com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  - com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks
-  - com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus
-  - com.microsoft.store.partnercenter.models.orders.OrderLinks
-  - com.microsoft.store.partnercenter.models.orders.Pricing
-  - com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus
-  - com.microsoft.store.partnercenter.models.orders.RenewsTo
-  href: com.microsoft.store.partnercenter.models.orders.yml
+  - "com.microsoft.store.partnercenter.models.orders.Order"
+  - "com.microsoft.store.partnercenter.models.orders.OrderLineItem"
+  - "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink"
+  - "com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks"
+  - "com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus"
+  - "com.microsoft.store.partnercenter.models.orders.OrderLinks"
+  - "com.microsoft.store.partnercenter.models.orders.Pricing"
+  - "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
+  - "com.microsoft.store.partnercenter.models.orders.RenewsTo"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.models.orders
-  nameWithType: com.microsoft.store.partnercenter.models.orders
-  fullName: com.microsoft.store.partnercenter.models.orders
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/orders/Order.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.models.orders"
+  nameWithType: "com.microsoft.store.partnercenter.models.orders"
+  fullName: "com.microsoft.store.partnercenter.models.orders"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.models.orders
+    content: "package com.microsoft.store.partnercenter.models.orders"
 references:
-- uid: com.microsoft.store.partnercenter.models.orders.Order
-  parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders.Order.yml
-  name: Order
-  nameWithType: Order
-  fullName: com.microsoft.store.partnercenter.models.orders.Order
-  type: Class
-  summary: "<p>Order represents collection of information needed to purchase offers represented by each order line items. </p>"
-  syntax:
-    content: public class Order extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem
-  parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders.OrderLineItem.yml
-  name: OrderLineItem
-  nameWithType: OrderLineItem
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem
-  type: Class
-  summary: "<p>Order line item associates order information to a specific offer of a product </p>"
-  syntax:
-    content: public class OrderLineItem extends ResourceBaseWithLinks<OrderLineItemLinks>
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.yml
-  name: OrderLineItemActivationLink
-  nameWithType: OrderLineItemActivationLink
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink
-  type: Class
-  summary: "<p>Represents the activation link for the order line item. </p>"
-  syntax:
-    content: public class OrderLineItemActivationLink
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks
-  parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks.yml
-  name: OrderLineItemLinks
-  nameWithType: OrderLineItemLinks
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks
-  type: Class
-  summary: "<p>Bundles the links for an order line item. </p>"
-  syntax:
-    content: public class OrderLineItemLinks
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus
-  parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus.yml
-  name: OrderLineItemProvisioningStatus
-  nameWithType: OrderLineItemProvisioningStatus
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus
-  type: Class
-  summary: "<p>Represents the order line item provisioning status. </p>"
-  syntax:
-    content: public class OrderLineItemProvisioningStatus extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.orders.OrderLinks
-  parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders.OrderLinks.yml
-  name: OrderLinks
-  nameWithType: OrderLinks
-  fullName: com.microsoft.store.partnercenter.models.orders.OrderLinks
-  type: Class
-  summary: "<p>Bundles offer links. </p>"
-  syntax:
-    content: public class OrderLinks extends StandardResourceLinks
-- uid: com.microsoft.store.partnercenter.models.orders.Pricing
-  parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders.Pricing.yml
-  name: Pricing
-  nameWithType: Pricing
-  fullName: com.microsoft.store.partnercenter.models.orders.Pricing
-  type: Class
-  summary: "<p>Represents the pricing details for a line item. </p>"
-  syntax:
-    content: public class Pricing
-- uid: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus
-  parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.yml
-  name: QuantityProvisioningStatus
-  nameWithType: QuantityProvisioningStatus
-  fullName: com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus
-  type: Class
-  summary: "<p>Quantity Provisioning Status. </p>"
-  syntax:
-    content: public class QuantityProvisioningStatus extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.orders.RenewsTo
-  parent: com.microsoft.store.partnercenter.models.orders
-  href: com.microsoft.store.partnercenter.models.orders.RenewsTo.yml
-  name: RenewsTo
-  nameWithType: RenewsTo
-  fullName: com.microsoft.store.partnercenter.models.orders.RenewsTo
-  type: Class
-  summary: "<p>Represent the renews to for a order line item. </p>"
-  syntax:
-    content: public class RenewsTo
+- uid: "com.microsoft.store.partnercenter.models.orders.Order"
+  name: "Order"
+  nameWithType: "Order"
+  fullName: "com.microsoft.store.partnercenter.models.orders.Order"
+- uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItem"
+  name: "OrderLineItem"
+  nameWithType: "OrderLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem"
+- uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink"
+  name: "OrderLineItemActivationLink"
+  nameWithType: "OrderLineItemActivationLink"
+  fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink"
+- uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks"
+  name: "OrderLineItemLinks"
+  nameWithType: "OrderLineItemLinks"
+  fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks"
+- uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus"
+  name: "OrderLineItemProvisioningStatus"
+  nameWithType: "OrderLineItemProvisioningStatus"
+  fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus"
+- uid: "com.microsoft.store.partnercenter.models.orders.OrderLinks"
+  name: "OrderLinks"
+  nameWithType: "OrderLinks"
+  fullName: "com.microsoft.store.partnercenter.models.orders.OrderLinks"
+- uid: "com.microsoft.store.partnercenter.models.orders.Pricing"
+  name: "Pricing"
+  nameWithType: "Pricing"
+  fullName: "com.microsoft.store.partnercenter.models.orders.Pricing"
+- uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
+  name: "QuantityProvisioningStatus"
+  nameWithType: "QuantityProvisioningStatus"
+  fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
+- uid: "com.microsoft.store.partnercenter.models.orders.RenewsTo"
+  name: "RenewsTo"
+  nameWithType: "RenewsTo"
+  fullName: "com.microsoft.store.partnercenter.models.orders.RenewsTo"

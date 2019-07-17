@@ -1,110 +1,54 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.carts
-  id: carts
+- uid: "com.microsoft.store.partnercenter.models.carts"
+  id: "carts"
   children:
-  - com.microsoft.store.partnercenter.models.carts.Cart
-  - com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
-  - com.microsoft.store.partnercenter.models.carts.CartError
-  - com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  - com.microsoft.store.partnercenter.models.carts.CartLineItem
-  - com.microsoft.store.partnercenter.models.carts.OrderError
-  - com.microsoft.store.partnercenter.models.carts.ParticipantType
-  - com.microsoft.store.partnercenter.models.carts.RenewsTo
-  href: com.microsoft.store.partnercenter.models.carts.yml
+  - "com.microsoft.store.partnercenter.models.carts.Cart"
+  - "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult"
+  - "com.microsoft.store.partnercenter.models.carts.CartError"
+  - "com.microsoft.store.partnercenter.models.carts.CartErrorCode"
+  - "com.microsoft.store.partnercenter.models.carts.CartLineItem"
+  - "com.microsoft.store.partnercenter.models.carts.OrderError"
+  - "com.microsoft.store.partnercenter.models.carts.ParticipantType"
+  - "com.microsoft.store.partnercenter.models.carts.RenewsTo"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.models.carts
-  nameWithType: com.microsoft.store.partnercenter.models.carts
-  fullName: com.microsoft.store.partnercenter.models.carts
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/carts/Cart.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.models.carts"
+  nameWithType: "com.microsoft.store.partnercenter.models.carts"
+  fullName: "com.microsoft.store.partnercenter.models.carts"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.models.carts
+    content: "package com.microsoft.store.partnercenter.models.carts"
 references:
-- uid: com.microsoft.store.partnercenter.models.carts.Cart
-  parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts.Cart.yml
-  name: Cart
-  nameWithType: Cart
-  fullName: com.microsoft.store.partnercenter.models.carts.Cart
-  type: Class
-  summary: "<p>This class represents a model of a cart object. </p>"
-  syntax:
-    content: public class Cart extends ResourceBaseWithLinks<StandardResourceLinks>
-- uid: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
-  parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.yml
-  name: CartCheckoutResult
-  nameWithType: CartCheckoutResult
-  fullName: com.microsoft.store.partnercenter.models.carts.CartCheckoutResult
-  type: Class
-  summary: "<p>Represents a result of a cart checkout. </p>"
-  syntax:
-    content: public class CartCheckoutResult extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.carts.CartError
-  parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts.CartError.yml
-  name: CartError
-  nameWithType: CartError
-  fullName: com.microsoft.store.partnercenter.models.carts.CartError
-  type: Class
-  summary: "<p>Represents an error associated to a cart line item. </p>"
-  syntax:
-    content: public class CartError extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts.CartErrorCode.yml
-  name: CartErrorCode
-  nameWithType: CartErrorCode
-  fullName: com.microsoft.store.partnercenter.models.carts.CartErrorCode
-  type: Enum
-  summary: "<p>Types of cart error code. </p>"
-  syntax:
-    content: public enum CartErrorCode
-- uid: com.microsoft.store.partnercenter.models.carts.CartLineItem
-  parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts.CartLineItem.yml
-  name: CartLineItem
-  nameWithType: CartLineItem
-  fullName: com.microsoft.store.partnercenter.models.carts.CartLineItem
-  type: Class
-  summary: "<p>Represents a line item on a cart. </p>"
-  syntax:
-    content: public class CartLineItem
-- uid: com.microsoft.store.partnercenter.models.carts.OrderError
-  parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts.OrderError.yml
-  name: OrderError
-  nameWithType: OrderError
-  fullName: com.microsoft.store.partnercenter.models.carts.OrderError
-  type: Class
-  summary: "<p>Represents an error with an order. </p>"
-  syntax:
-    content: public class OrderError extends ResourceBase
-- uid: com.microsoft.store.partnercenter.models.carts.ParticipantType
-  parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts.ParticipantType.yml
-  name: ParticipantType
-  nameWithType: ParticipantType
-  fullName: com.microsoft.store.partnercenter.models.carts.ParticipantType
-  type: Enum
-  summary: "<p>Types of Participants </p>"
-  syntax:
-    content: public enum ParticipantType
-- uid: com.microsoft.store.partnercenter.models.carts.RenewsTo
-  parent: com.microsoft.store.partnercenter.models.carts
-  href: com.microsoft.store.partnercenter.models.carts.RenewsTo.yml
-  name: RenewsTo
-  nameWithType: RenewsTo
-  fullName: com.microsoft.store.partnercenter.models.carts.RenewsTo
-  type: Class
-  summary: "<p>Represent the renews to for a cart line item. </p>"
-  syntax:
-    content: public class RenewsTo
+- uid: "com.microsoft.store.partnercenter.models.carts.Cart"
+  name: "Cart"
+  nameWithType: "Cart"
+  fullName: "com.microsoft.store.partnercenter.models.carts.Cart"
+- uid: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult"
+  name: "CartCheckoutResult"
+  nameWithType: "CartCheckoutResult"
+  fullName: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult"
+- uid: "com.microsoft.store.partnercenter.models.carts.CartError"
+  name: "CartError"
+  nameWithType: "CartError"
+  fullName: "com.microsoft.store.partnercenter.models.carts.CartError"
+- uid: "com.microsoft.store.partnercenter.models.carts.CartErrorCode"
+  name: "CartErrorCode"
+  nameWithType: "CartErrorCode"
+  fullName: "com.microsoft.store.partnercenter.models.carts.CartErrorCode"
+- uid: "com.microsoft.store.partnercenter.models.carts.CartLineItem"
+  name: "CartLineItem"
+  nameWithType: "CartLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem"
+- uid: "com.microsoft.store.partnercenter.models.carts.OrderError"
+  name: "OrderError"
+  nameWithType: "OrderError"
+  fullName: "com.microsoft.store.partnercenter.models.carts.OrderError"
+- uid: "com.microsoft.store.partnercenter.models.carts.ParticipantType"
+  name: "ParticipantType"
+  nameWithType: "ParticipantType"
+  fullName: "com.microsoft.store.partnercenter.models.carts.ParticipantType"
+- uid: "com.microsoft.store.partnercenter.models.carts.RenewsTo"
+  name: "RenewsTo"
+  nameWithType: "RenewsTo"
+  fullName: "com.microsoft.store.partnercenter.models.carts.RenewsTo"

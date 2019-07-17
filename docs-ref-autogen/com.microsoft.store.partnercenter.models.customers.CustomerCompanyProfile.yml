@@ -1,462 +1,312 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  id: CustomerCompanyProfile
-  parent: com.microsoft.store.partnercenter.models.customers
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
+  id: "CustomerCompanyProfile"
+  parent: "com.microsoft.store.partnercenter.models.customers"
   children:
-  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile()
-  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress()
-  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName()
-  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain()
-  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail()
-  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId()
-  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress(Address)
-  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName(String)
-  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain(String)
-  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail(String)
-  - com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId(String)
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+  - "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile()"
+  - "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress()"
+  - "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName()"
+  - "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain()"
+  - "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail()"
+  - "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId()"
+  - "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress(com.microsoft.store.partnercenter.models.Address)"
+  - "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId(java.lang.String)"
   langs:
-  - java
-  name: CustomerCompanyProfile
-  nameWithType: CustomerCompanyProfile
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 12
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Customer company profile </p>"
+  - "java"
+  name: "CustomerCompanyProfile"
+  nameWithType: "CustomerCompanyProfile"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Customer company profile"
   syntax:
-    content: public class CustomerCompanyProfile extends ResourceBaseWithLinks<StandardResourceLinks>
+    content: "public class CustomerCompanyProfile extends ResourceBaseWithLinks<StandardResourceLinks>"
   inheritance:
-  - java.lang.Object
-  - com.microsoft.store.partnercenter.models.ResourceBase
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
   inheritedMembers:
-  - com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  - com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(String)
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()
-  - com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile()
-  id: CustomerCompanyProfile()
-  parent: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+  - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile()"
+  id: "CustomerCompanyProfile()"
+  parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   langs:
-  - java
-  name: CustomerCompanyProfile()
-  nameWithType: CustomerCompanyProfile.CustomerCompanyProfile()
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile()
-  overload: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile*
-  type: Constructor
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 18
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Initializes a new instance of the CustomerCompanyProfile class. </p>"
+  - "java"
+  name: "CustomerCompanyProfile()"
+  nameWithType: "CustomerCompanyProfile.CustomerCompanyProfile()"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile()"
+  overload: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Initializes a new instance of the CustomerCompanyProfile class."
   syntax:
-    content: public CustomerCompanyProfile()
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress()
-  id: getAddress()
-  parent: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+    content: "public CustomerCompanyProfile()"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress()"
+  id: "getAddress()"
+  parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   langs:
-  - java
-  name: getAddress()
-  nameWithType: CustomerCompanyProfile.getAddress()
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress()
-  overload: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 29
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Gets the address of the customer.</p>\r\n<p></p>"
+  - "java"
+  name: "getAddress()"
+  nameWithType: "CustomerCompanyProfile.getAddress()"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress()"
+  overload: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Gets the address of the customer."
   syntax:
-    content: public Address getAddress()
+    content: "public Address getAddress()"
     return:
-      type: com.microsoft.store.partnercenter.models.Address
-      description: <p>The address of the customer. </p>
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName()
-  id: getCompanyName()
-  parent: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+      type: "com.microsoft.store.partnercenter.models.Address"
+      description: "The address of the customer."
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName()"
+  id: "getCompanyName()"
+  parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   langs:
-  - java
-  name: getCompanyName()
-  nameWithType: CustomerCompanyProfile.getCompanyName()
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName()
-  overload: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 51
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Gets the name of the company.</p>\r\n<p></p>"
+  - "java"
+  name: "getCompanyName()"
+  nameWithType: "CustomerCompanyProfile.getCompanyName()"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName()"
+  overload: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Gets the name of the company."
   syntax:
-    content: public String getCompanyName()
+    content: "public String getCompanyName()"
     return:
-      type: "26831127"
-      description: <p>The name of the company. </p>
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain()
-  id: getDomain()
-  parent: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+      type: "java.lang.String"
+      description: "The name of the company."
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain()"
+  id: "getDomain()"
+  parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   langs:
-  - java
-  name: getDomain()
-  nameWithType: CustomerCompanyProfile.getDomain()
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain()
-  overload: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 73
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Gets the domain.</p>\r\n<p></p>"
+  - "java"
+  name: "getDomain()"
+  nameWithType: "CustomerCompanyProfile.getDomain()"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain()"
+  overload: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Gets the domain."
   syntax:
-    content: public String getDomain()
+    content: "public String getDomain()"
     return:
-      type: "26831127"
-      description: <p>The domain. </p>
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail()
-  id: getEmail()
-  parent: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+      type: "java.lang.String"
+      description: "The domain."
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail()"
+  id: "getEmail()"
+  parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   langs:
-  - java
-  name: getEmail()
-  nameWithType: CustomerCompanyProfile.getEmail()
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail()
-  overload: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 95
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Gets the email address of the contact at the customer.</p>\r\n<p></p>"
+  - "java"
+  name: "getEmail()"
+  nameWithType: "CustomerCompanyProfile.getEmail()"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail()"
+  overload: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Gets the email address of the contact at the customer."
   syntax:
-    content: public String getEmail()
+    content: "public String getEmail()"
     return:
-      type: "26831127"
-      description: <p>The name email address of the contact at the customer. </p>
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId()
-  id: getTenantId()
-  parent: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+      type: "java.lang.String"
+      description: "The name email address of the contact at the customer."
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId()"
+  id: "getTenantId()"
+  parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   langs:
-  - java
-  name: getTenantId()
-  nameWithType: CustomerCompanyProfile.getTenantId()
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId()
-  overload: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 117
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Gets the tenant identifier.</p>\r\n<p></p>"
+  - "java"
+  name: "getTenantId()"
+  nameWithType: "CustomerCompanyProfile.getTenantId()"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId()"
+  overload: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Gets the tenant identifier."
   syntax:
-    content: public String getTenantId()
+    content: "public String getTenantId()"
     return:
-      type: "26831127"
-      description: <p>The tenant identifier. </p>
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress(Address)
-  id: setAddress(Address)
-  parent: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+      type: "java.lang.String"
+      description: "The tenant identifier."
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress(com.microsoft.store.partnercenter.models.Address)"
+  id: "setAddress(com.microsoft.store.partnercenter.models.Address)"
+  parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   langs:
-  - java
-  name: setAddress(Address value)
-  nameWithType: CustomerCompanyProfile.setAddress(Address value)
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress(Address value)
-  overload: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 39
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Sets the address of the customer.</p>\r\n<p></p>"
+  - "java"
+  name: "setAddress(Address value)"
+  nameWithType: "CustomerCompanyProfile.setAddress(Address value)"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress(Address value)"
+  overload: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Sets the address of the customer."
   syntax:
-    content: public void setAddress(Address value)
+    content: "public void setAddress(Address value)"
     parameters:
-    - id: value
-      type: com.microsoft.store.partnercenter.models.Address
-      description: <p>The address of the customer. </p>
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName(String)
-  id: setCompanyName(String)
-  parent: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.Address"
+      description: "The address of the customer."
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName(java.lang.String)"
+  id: "setCompanyName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   langs:
-  - java
-  name: setCompanyName(String value)
-  nameWithType: CustomerCompanyProfile.setCompanyName(String value)
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName(String value)
-  overload: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 61
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Sets the name of the company.</p>\r\n<p></p>"
+  - "java"
+  name: "setCompanyName(String value)"
+  nameWithType: "CustomerCompanyProfile.setCompanyName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Sets the name of the company."
   syntax:
-    content: public void setCompanyName(String value)
+    content: "public void setCompanyName(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The name of the company. </p>
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain(String)
-  id: setDomain(String)
-  parent: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+    - id: "value"
+      type: "java.lang.String"
+      description: "The name of the company."
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain(java.lang.String)"
+  id: "setDomain(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   langs:
-  - java
-  name: setDomain(String value)
-  nameWithType: CustomerCompanyProfile.setDomain(String value)
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain(String value)
-  overload: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 83
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Sets the domain.</p>\r\n<p></p>"
+  - "java"
+  name: "setDomain(String value)"
+  nameWithType: "CustomerCompanyProfile.setDomain(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain(String value)"
+  overload: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Sets the domain."
   syntax:
-    content: public void setDomain(String value)
+    content: "public void setDomain(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The domain. </p>
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail(String)
-  id: setEmail(String)
-  parent: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+    - id: "value"
+      type: "java.lang.String"
+      description: "The domain."
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail(java.lang.String)"
+  id: "setEmail(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   langs:
-  - java
-  name: setEmail(String value)
-  nameWithType: CustomerCompanyProfile.setEmail(String value)
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail(String value)
-  overload: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 105
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Sets the email address of the contact at the customer.</p>\r\n<p></p>"
+  - "java"
+  name: "setEmail(String value)"
+  nameWithType: "CustomerCompanyProfile.setEmail(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail(String value)"
+  overload: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Sets the email address of the contact at the customer."
   syntax:
-    content: public void setEmail(String value)
+    content: "public void setEmail(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The email address of the contact at the customer. </p>
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId(String)
-  id: setTenantId(String)
-  parent: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile
-  href: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.yml
+    - id: "value"
+      type: "java.lang.String"
+      description: "The email address of the contact at the customer."
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId(java.lang.String)"
+  id: "setTenantId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   langs:
-  - java
-  name: setTenantId(String value)
-  nameWithType: CustomerCompanyProfile.setTenantId(String value)
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId(String value)
-  overload: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/customers/CustomerCompanyProfile.java
-    startLine: 127
-  package: com.microsoft.store.partnercenter.models.customers
-  summary: "<p>Sets the tenant identifier.</p>\r\n<p></p>"
+  - "java"
+  name: "setTenantId(String value)"
+  nameWithType: "CustomerCompanyProfile.setTenantId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.customers"
+  summary: "Sets the tenant identifier."
   syntax:
-    content: public void setTenantId(String value)
+    content: "public void setTenantId(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-      description: <p>The tenant identifier. </p>
+    - id: "value"
+      type: "java.lang.String"
+      description: "The tenant identifier."
 references:
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile*
-  name: CustomerCompanyProfile
-  nameWithType: CustomerCompanyProfile.CustomerCompanyProfile
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile
-  package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress*
-  name: getAddress
-  nameWithType: CustomerCompanyProfile.getAddress
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress
-  package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress*
-  name: setAddress
-  nameWithType: CustomerCompanyProfile.setAddress
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress
-  package: com.microsoft.store.partnercenter.models.customers
-- uid: "26831127"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile*"
+  name: "CustomerCompanyProfile"
+  nameWithType: "CustomerCompanyProfile.CustomerCompanyProfile"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile"
+  package: "com.microsoft.store.partnercenter.models.customers"
+- uid: "com.microsoft.store.partnercenter.models.Address"
+  name: "Address"
+  nameWithType: "Address"
+  fullName: "com.microsoft.store.partnercenter.models.Address"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress*"
+  name: "getAddress"
+  nameWithType: "CustomerCompanyProfile.getAddress"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getAddress"
+  package: "com.microsoft.store.partnercenter.models.customers"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress*"
+  name: "setAddress"
+  nameWithType: "CustomerCompanyProfile.setAddress"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress"
+  package: "com.microsoft.store.partnercenter.models.customers"
+- uid: "java.lang.String"
   spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName*
-  name: getCompanyName
-  nameWithType: CustomerCompanyProfile.getCompanyName
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName
-  package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName*
-  name: setCompanyName
-  nameWithType: CustomerCompanyProfile.setCompanyName
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName
-  package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain*
-  name: getDomain
-  nameWithType: CustomerCompanyProfile.getDomain
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain
-  package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain*
-  name: setDomain
-  nameWithType: CustomerCompanyProfile.setDomain
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain
-  package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail*
-  name: getEmail
-  nameWithType: CustomerCompanyProfile.getEmail
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail
-  package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail*
-  name: setEmail
-  nameWithType: CustomerCompanyProfile.setEmail
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail
-  package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId*
-  name: getTenantId
-  nameWithType: CustomerCompanyProfile.getTenantId
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId
-  package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId*
-  name: setTenantId
-  nameWithType: CustomerCompanyProfile.setTenantId
-  fullName: com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId
-  package: com.microsoft.store.partnercenter.models.customers
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: getAttributes()
-  nameWithType: ResourceBase.getAttributes()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-  type: Method
-  summary: "<p>Gets the attributes.</p>\r\n<p></p>"
-  syntax:
-    content: public ResourceAttributes getAttributes()
-    return:
-      type: com.microsoft.store.partnercenter.models.ResourceAttributes
-      description: <p>The resource attributes. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: getLinks()
-  nameWithType: ResourceBaseWithLinks<TLinks>.getLinks()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.getLinks()
-  type: Method
-  summary: "<p>Gets the links.</p>\r\n<p></p>"
-  syntax:
-    content: public TLinks getLinks()
-    return:
-      type: 694adf1c
-      description: <p>The links. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: ResourceBase()
-  nameWithType: ResourceBase.ResourceBase()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase()
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBase class. </p>"
-  syntax:
-    content: protected ResourceBase()
-- uid: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String)
-  parent: com.microsoft.store.partnercenter.models.ResourceBase
-  href: com.microsoft.store.partnercenter.models.ResourceBase.yml
-  name: ResourceBase(String objectType)
-  nameWithType: ResourceBase.ResourceBase(String objectType)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase(String objectType)
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBase class.</p>\r\n<p></p>"
-  syntax:
-    content: protected ResourceBase(String objectType)
-    parameters:
-    - id: objectType
-      type: "26831127"
-      description: <p>Type of the object. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(String)
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: ResourceBaseWithLinks(String objectType)
-  nameWithType: ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks(String objectType)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks(String objectType)
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBaseWithLinks class.</p>\r\n<p></p>"
-  syntax:
-    content: protected ResourceBaseWithLinks(String objectType)
-    parameters:
-    - id: objectType
-      type: "26831127"
-      description: <p>Type of the object. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: ResourceBaseWithLinks()
-  nameWithType: ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()
-  type: Constructor
-  summary: "<p>Initializes a new instance of the ResourceBaseWithLinks class. </p>"
-  syntax:
-    content: protected ResourceBaseWithLinks()
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-  parent: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: setLinks(TLinks value)
-  nameWithType: ResourceBaseWithLinks<TLinks>.setLinks(TLinks value)
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.setLinks(TLinks value)
-  type: Method
-  summary: "<p>Sets the links.</p>\r\n<p></p>"
-  syntax:
-    content: public void setLinks(TLinks value)
-    parameters:
-    - id: value
-      type: 694adf1c
-      description: <p>The links. </p>
-- uid: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks
-  parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.yml
-  name: ResourceBaseWithLinks<TLinks>
-  nameWithType: ResourceBaseWithLinks<TLinks>
-  fullName: com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>
-  type: Class
-  summary: "<p>Base class for resources </p>"
-  syntax:
-    content: public class ResourceBaseWithLinks<TLinks>
-    typeParameters:
-    - id: TLinks
-      type: 694adf1c
-- uid: com.microsoft.store.partnercenter.models.Address
-  parent: com.microsoft.store.partnercenter.models
-  href: com.microsoft.store.partnercenter.models.Address.yml
-  name: Address
-  nameWithType: Address
-  fullName: com.microsoft.store.partnercenter.models.Address
-  type: Class
-  summary: "<p>Represents Customer or partner's address </p>"
-  syntax:
-    content: public class Address
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName*"
+  name: "getCompanyName"
+  nameWithType: "CustomerCompanyProfile.getCompanyName"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName"
+  package: "com.microsoft.store.partnercenter.models.customers"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName*"
+  name: "setCompanyName"
+  nameWithType: "CustomerCompanyProfile.setCompanyName"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setCompanyName"
+  package: "com.microsoft.store.partnercenter.models.customers"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain*"
+  name: "getDomain"
+  nameWithType: "CustomerCompanyProfile.getDomain"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getDomain"
+  package: "com.microsoft.store.partnercenter.models.customers"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain*"
+  name: "setDomain"
+  nameWithType: "CustomerCompanyProfile.setDomain"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setDomain"
+  package: "com.microsoft.store.partnercenter.models.customers"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail*"
+  name: "getEmail"
+  nameWithType: "CustomerCompanyProfile.getEmail"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getEmail"
+  package: "com.microsoft.store.partnercenter.models.customers"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail*"
+  name: "setEmail"
+  nameWithType: "CustomerCompanyProfile.setEmail"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setEmail"
+  package: "com.microsoft.store.partnercenter.models.customers"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId*"
+  name: "getTenantId"
+  nameWithType: "CustomerCompanyProfile.getTenantId"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getTenantId"
+  package: "com.microsoft.store.partnercenter.models.customers"
+- uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId*"
+  name: "setTenantId"
+  nameWithType: "CustomerCompanyProfile.setTenantId"
+  fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId"
+  package: "com.microsoft.store.partnercenter.models.customers"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
+  name: "ResourceBaseWithLinks<StandardResourceLinks>"
+  nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+  name: "ResourceBaseWithLinks"
+  nameWithType: "ResourceBaseWithLinks"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+- uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
+  name: "StandardResourceLinks"
+  nameWithType: "StandardResourceLinks"
+  fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

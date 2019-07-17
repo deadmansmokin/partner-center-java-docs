@@ -1,43 +1,24 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.qualification
-  id: qualification
+- uid: "com.microsoft.store.partnercenter.qualification"
+  id: "qualification"
   children:
-  - com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations
-  - com.microsoft.store.partnercenter.qualification.ICustomerQualification
-  href: com.microsoft.store.partnercenter.qualification.yml
+  - "com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations"
+  - "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.qualification
-  nameWithType: com.microsoft.store.partnercenter.qualification
-  fullName: com.microsoft.store.partnercenter.qualification
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/qualification/CustomerQualificationOperations.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/qualification/CustomerQualificationOperations.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.qualification"
+  nameWithType: "com.microsoft.store.partnercenter.qualification"
+  fullName: "com.microsoft.store.partnercenter.qualification"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.qualification
+    content: "package com.microsoft.store.partnercenter.qualification"
 references:
-- uid: com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations
-  parent: com.microsoft.store.partnercenter.qualification
-  href: com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations.yml
-  name: CustomerQualificationOperations
-  nameWithType: CustomerQualificationOperations
-  fullName: com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations
-  type: Class
-  summary: "<p>This class implements the operations available on a customer's qualification. </p>"
-  syntax:
-    content: public class CustomerQualificationOperations extends BasePartnerComponentString implements ICustomerQualification
-- uid: com.microsoft.store.partnercenter.qualification.ICustomerQualification
-  parent: com.microsoft.store.partnercenter.qualification
-  href: com.microsoft.store.partnercenter.qualification.ICustomerQualification.yml
-  name: ICustomerQualification
-  nameWithType: ICustomerQualification
-  fullName: com.microsoft.store.partnercenter.qualification.ICustomerQualification
-  type: Interface
-  syntax:
-    content: public interface ICustomerQualification extends IPartnerComponentString,IEntityGetOperations<CustomerQualification>,IEntityUpdateOperations<CustomerQualification>
+- uid: "com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations"
+  name: "CustomerQualificationOperations"
+  nameWithType: "CustomerQualificationOperations"
+  fullName: "com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations"
+- uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
+  name: "ICustomerQualification"
+  nameWithType: "ICustomerQualification"
+  fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"

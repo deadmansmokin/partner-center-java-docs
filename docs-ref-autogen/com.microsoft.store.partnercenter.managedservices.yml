@@ -1,44 +1,24 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.managedservices
-  id: managedservices
+- uid: "com.microsoft.store.partnercenter.managedservices"
+  id: "managedservices"
   children:
-  - com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
-  - com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations
-  href: com.microsoft.store.partnercenter.managedservices.yml
+  - "com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection"
+  - "com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.managedservices
-  nameWithType: com.microsoft.store.partnercenter.managedservices
-  fullName: com.microsoft.store.partnercenter.managedservices
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/managedservices/IManagedServiceCollection.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/managedservices/IManagedServiceCollection.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.managedservices"
+  nameWithType: "com.microsoft.store.partnercenter.managedservices"
+  fullName: "com.microsoft.store.partnercenter.managedservices"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.managedservices
+    content: "package com.microsoft.store.partnercenter.managedservices"
 references:
-- uid: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
-  parent: com.microsoft.store.partnercenter.managedservices
-  href: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection.yml
-  name: IManagedServiceCollection
-  nameWithType: IManagedServiceCollection
-  fullName: com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection
-  type: Interface
-  summary: "<p>Holds the customer's managed services operations. </p>"
-  syntax:
-    content: public interface IManagedServiceCollection extends IPartnerComponentString,IEntireEntityCollectionRetrievalOperations<ManagedService, ResourceCollection<ManagedService>>
-- uid: com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations
-  parent: com.microsoft.store.partnercenter.managedservices
-  href: com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations.yml
-  name: ManagedServiceCollectionOperations
-  nameWithType: ManagedServiceCollectionOperations
-  fullName: com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations
-  type: Class
-  summary: "<p>Implements a customer's managed services operations. </p>"
-  syntax:
-    content: public class ManagedServiceCollectionOperations extends BasePartnerComponentString implements IManagedServiceCollection
+- uid: "com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection"
+  name: "IManagedServiceCollection"
+  nameWithType: "IManagedServiceCollection"
+  fullName: "com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection"
+- uid: "com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations"
+  name: "ManagedServiceCollectionOperations"
+  nameWithType: "ManagedServiceCollectionOperations"
+  fullName: "com.microsoft.store.partnercenter.managedservices.ManagedServiceCollectionOperations"

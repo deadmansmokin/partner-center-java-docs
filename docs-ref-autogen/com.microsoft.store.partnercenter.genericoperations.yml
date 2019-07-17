@@ -1,195 +1,74 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.genericoperations
-  id: genericoperations
+- uid: "com.microsoft.store.partnercenter.genericoperations"
+  id: "genericoperations"
   children:
-  - com.microsoft.store.partnercenter.genericoperations.ICountrySelector
-  - com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  - com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations
-  - com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-  - com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
-  - com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
-  - com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  - com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
-  - com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations
-  - com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  - com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
-  - com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations
-  href: com.microsoft.store.partnercenter.genericoperations.yml
+  - "com.microsoft.store.partnercenter.genericoperations.ICountrySelector"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
+  - "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
+  - "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations"
   langs:
-  - java
-  name: com.microsoft.store.partnercenter.genericoperations
-  nameWithType: com.microsoft.store.partnercenter.genericoperations
-  fullName: com.microsoft.store.partnercenter.genericoperations
-  type: Namespace
-  source:
-    remote:
-      path: src/main/java/com/microsoft/store/partnercenter/genericoperations/ICountrySelector.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/genericoperations/ICountrySelector.java
-    startLine: 3
+  - "java"
+  name: "com.microsoft.store.partnercenter.genericoperations"
+  nameWithType: "com.microsoft.store.partnercenter.genericoperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations"
+  type: "Namespace"
   syntax:
-    content: package com.microsoft.store.partnercenter.genericoperations
+    content: "package com.microsoft.store.partnercenter.genericoperations"
 references:
-- uid: com.microsoft.store.partnercenter.genericoperations.ICountrySelector
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.ICountrySelector.yml
-  name: ICountrySelector<TOperations>
-  nameWithType: ICountrySelector<TOperations>
-  fullName: com.microsoft.store.partnercenter.genericoperations.ICountrySelector<TOperations>
-  type: Interface
-  summary: "<p>Returns operations interfaces based on the given country. </p>"
-  syntax:
-    content: public interface ICountrySelector<TOperations>
-    typeParameters:
-    - id: TOperations
-      type: a8070b06
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.yml
-  name: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-  nameWithType: IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>
-  type: Interface
-  summary: "<p>A generic interface which represents operations for getting an entire collection of entities. The entity type.The entity collection type. </p>"
-  syntax:
-    content: public interface IEntireEntityCollectionRetrievalOperations<T,TResourceCollection extends ResourceCollection<T>>
-    typeParameters:
-    - id: T
-      type: 8ce1ecb9
-    - id: TResourceCollection
-      type: 5f968003
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations.yml
-  name: IEntityCollectionRetrievalOperations<T,TResourceCollection>
-  nameWithType: IEntityCollectionRetrievalOperations<T,TResourceCollection>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<T,TResourceCollection>
-  type: Interface
-  summary: "<p>Groups all operations related to retrieving a collection of entities. The entity type.The entity collection type. </p>"
-  syntax:
-    content: public interface IEntityCollectionRetrievalOperations<T extends ResourceBase,TResourceCollection extends ResourceCollection<T>> extends IEntireEntityCollectionRetrievalOperations<T, TResourceCollection>,IPagedEntityCollectionRetrievalOperations<T, TResourceCollection>
-    typeParameters:
-    - id: T
-      type: 8ce1ecb9
-    - id: TResourceCollection
-      type: 5f968003
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.yml
-  name: IEntityCreateOperations<T,T1>
-  nameWithType: IEntityCreateOperations<T,T1>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T,T1>
-  type: Interface
-  summary: "<p>Groups operations for creating a single entity. The entity type request.The entity type response. </p>"
-  syntax:
-    content: public interface IEntityCreateOperations<T,T1>
-    typeParameters:
-    - id: T
-      type: 8ce1ecb9
-    - id: T1
-      type: ea9d49ce
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations.yml
-  name: IEntityDeleteOperations<T>
-  nameWithType: IEntityDeleteOperations<T>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<T>
-  type: Interface
-  summary: "<p>Groups operations for getting a single entity. The entity type. </p>"
-  syntax:
-    content: public interface IEntityDeleteOperations<T extends ResourceBase>
-    typeParameters:
-    - id: T
-      type: 8ce1ecb9
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.yml
-  name: IEntityExistsOperations
-  nameWithType: IEntityExistsOperations
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations
-  type: Interface
-  syntax:
-    content: public interface IEntityExistsOperations
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.yml
-  name: IEntityGetOperations<T>
-  nameWithType: IEntityGetOperations<T>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>
-  type: Interface
-  summary: "<p>Groups operations for getting a single entity. The entity type. </p>"
-  syntax:
-    content: public interface IEntityGetOperations<T>
-    typeParameters:
-    - id: T
-      type: 8ce1ecb9
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.yml
-  name: IEntityPatchOperations<T>
-  nameWithType: IEntityPatchOperations<T>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>
-  type: Interface
-  summary: "<p>Groups operations for getting a single entity. The entity type. </p>"
-  syntax:
-    content: public interface IEntityPatchOperations<T extends ResourceBase>
-    typeParameters:
-    - id: T
-      type: 8ce1ecb9
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations.yml
-  name: IEntityPutOperations<T>
-  nameWithType: IEntityPutOperations<T>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations<T>
-  type: Interface
-  summary: "<p>Groups operations for updating a single entity. </p>"
-  syntax:
-    content: public interface IEntityPutOperations<T>
-    typeParameters:
-    - id: T
-      type: 8ce1ecb9
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntitySelector
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.IEntitySelector.yml
-  name: IEntitySelector<TTYpe,TEntity>
-  nameWithType: IEntitySelector<TTYpe,TEntity>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe,TEntity>
-  type: Interface
-  syntax:
-    content: public interface IEntitySelector<TTYpe,TEntity>
-    typeParameters:
-    - id: TTYpe
-      type: b03fbe7f
-    - id: TEntity
-      type: 830f062c
-- uid: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations.yml
-  name: IEntityUpdateOperations<T>
-  nameWithType: IEntityUpdateOperations<T>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>
-  type: Interface
-  summary: "<p>Groups operations for updating a single entity. The entity type. </p>"
-  syntax:
-    content: public interface IEntityUpdateOperations<T>
-    typeParameters:
-    - id: T
-      type: 8ce1ecb9
-- uid: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations
-  parent: com.microsoft.store.partnercenter.genericoperations
-  href: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.yml
-  name: IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
-  nameWithType: IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
-  fullName: com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>
-  type: Interface
-  summary: "<p>A generic interface which represents paged entity retrieval operations. The entity type.The entity collection type. </p>"
-  syntax:
-    content: public interface IPagedEntityCollectionRetrievalOperations<T extends ResourceBase,TResourceCollection extends ResourceCollection<T>>
-    typeParameters:
-    - id: T
-      type: 8ce1ecb9
-    - id: TResourceCollection
-      type: 5f968003
+- uid: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector"
+  name: "ICountrySelector<TOperations>"
+  nameWithType: "ICountrySelector<TOperations>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<TOperations>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
+  name: "IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>"
+  nameWithType: "IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations"
+  name: "IEntityCollectionRetrievalOperations<T,TResourceCollection>"
+  nameWithType: "IEntityCollectionRetrievalOperations<T,TResourceCollection>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<T,TResourceCollection>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
+  name: "IEntityCreateOperations<T,T1>"
+  nameWithType: "IEntityCreateOperations<T,T1>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T,T1>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"
+  name: "IEntityDeleteOperations<T>"
+  nameWithType: "IEntityDeleteOperations<T>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<T>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations"
+  name: "IEntityExistsOperations"
+  nameWithType: "IEntityExistsOperations"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
+  name: "IEntityGetOperations<T>"
+  nameWithType: "IEntityGetOperations<T>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
+  name: "IEntityPatchOperations<T>"
+  nameWithType: "IEntityPatchOperations<T>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations"
+  name: "IEntityPutOperations<T>"
+  nameWithType: "IEntityPutOperations<T>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPutOperations<T>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
+  name: "IEntitySelector<TTYpe,TEntity>"
+  nameWithType: "IEntitySelector<TTYpe,TEntity>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<TTYpe,TEntity>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
+  name: "IEntityUpdateOperations<T>"
+  nameWithType: "IEntityUpdateOperations<T>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations"
+  name: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
+  nameWithType: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
