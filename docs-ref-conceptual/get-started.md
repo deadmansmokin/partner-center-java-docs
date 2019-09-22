@@ -1,7 +1,7 @@
 ---
 title:  Partner Center Java SDK | Microsoft Docs
 description: Getting started with the Partner Center Java SDK.
-ms.date: 08/01/2019
+ms.date: 09/22/2019
 ---
 
 # Get started with development using the Partner Center SDK
@@ -67,7 +67,7 @@ Replace the *ApplicationId* value with the information from the app management p
 
 Create a Maven project from the command line in a new directory on your system:
 
-```
+```bash
 mkdir java-partner-test
 cd java-partner-test
 mvn archetype:generate -DgroupId=com.contoso -DartifactId=PartnerApp  \
@@ -80,7 +80,7 @@ This creates a basic Maven project under the `testPartnerApp` folder. Add the fo
 <dependency>
     <groupId>com.microsoft.store</groupId>
     <artifactId>partnercenter</artifactId>
-    <version>1.13.6</version>
+    <version>1.14.0</version>
 </dependency>
 ```
 
@@ -143,7 +143,7 @@ public class PartnerApp
 
 Run the sample from the command line:
 
-```
+```bash
 mvn compile exec:java
 ```
 
@@ -156,7 +156,7 @@ To create a subscription for a customer you must submit an order. Replace the ma
 ```java
 public static void main(String[] args)
 {
-    IAggregatePartner partnerOperations = this.getContext().getUserPartnerOperations();
+    IAggregatePartner partnerOperations = getUserPartnerOperations();
     String customerId = "CUSTOMER_ID_MAKING_THE_PURCHASE";
     String offerId =  "MS-AZR-0145P"; // If you are using the integration sandbox this offer should be MS-AZR-0146P.
 
@@ -174,11 +174,26 @@ public static void main(String[] args)
 
     Order createdOrder = partnerOperations.getCustomers().byId( customerId ).getOrders().create( order );
 }
+
+private static IAggregatePartner getUserPartnerOperations()
+{
+    IAadLoginHandler loginHandler = new AadUserLoginHandler();
+
+    IPartnerCredentials userCredentials = PartnerCredentials.getInstance().generateByUserCredentials(
+            "SPECIFY-YOUR-APPLICATION-ID-HERE",
+            loginHandler.authenticate(),
+            loginHandler );
+
+    return PartnerService.getInstance().createPartnerOperations(userCredentials);
+}
 ```
+
+> [!NOTE]
+> The implementation of the *AadUserLoginHandler* class has been omitted from this documentation. You can find a sample implementation, that leverages the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code), of this class [here](https://github.com/microsoft/Partner-Center-Java-Samples/blob/master/sdk/src/main/java/com/microsoft/store/partnercenter/samples/AadUserLoginHandler.java).
 
 Run the code as before using Maven:
 
-```
+```bash
 mvn clean compile exec:java
 ```
 
