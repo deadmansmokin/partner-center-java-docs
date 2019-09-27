@@ -23,6 +23,7 @@ items:
   inheritedMembers:
   - "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
   - "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,T)"
+  - "com.fasterxml.jackson.databind.JsonDeserializer.deserializeWithType(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.jsontype.TypeDeserializer,T)"
   - "com.fasterxml.jackson.databind.JsonDeserializer.findBackReference(java.lang.String)"
   - "com.fasterxml.jackson.databind.JsonDeserializer.getDelegatee()"
   - "com.fasterxml.jackson.databind.JsonDeserializer.getEmptyAccessPattern()"
@@ -91,6 +92,7 @@ items:
   - "com.fasterxml.jackson.databind.deser.std.StdDeserializer.findValueNullProvider(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.deser.SettableBeanProperty,com.fasterxml.jackson.databind.PropertyMetadata)"
   - "com.fasterxml.jackson.databind.deser.std.StdDeserializer.getValueClass()"
   - "com.fasterxml.jackson.databind.deser.std.StdDeserializer.getValueType()"
+  - "com.fasterxml.jackson.databind.deser.std.StdDeserializer.getValueType(com.fasterxml.jackson.databind.DeserializationContext)"
   - "com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleMissingEndArrayForSingle(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
   - "com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,java.lang.Object,java.lang.String)"
   - "com.fasterxml.jackson.databind.deser.std.StdDeserializer.handledType()"
