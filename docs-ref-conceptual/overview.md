@@ -15,7 +15,7 @@ The Partner Center SDK for Java is commonly used by partners and [control panel 
 
 ## Installation
 
-The Partner Center SDK for Java is available through Maven [here]. Add the following dependency to your pom.xml:
+The Partner Center SDK for Java is available through Maven [here](https://maven.apache.org/download.cgi). Add the following dependency to your pom.xml:
 
 ```xml
 <dependency>
