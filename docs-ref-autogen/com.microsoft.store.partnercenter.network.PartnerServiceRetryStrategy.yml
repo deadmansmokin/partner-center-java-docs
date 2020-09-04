@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-fullName: com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy
-name: PartnerServiceRetryStrategy
-nameWithType: PartnerServiceRetryStrategy
-summary: Represents a retry strategy that determines the number of retry attempts and the interval between retries.
+uid: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy"
+fullName: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy"
+name: "PartnerServiceRetryStrategy"
+nameWithType: "PartnerServiceRetryStrategy"
+summary: "Represents a retry strategy that determines the number of retry attempts and the interval between retries."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.rest.retry.RetryStrategy" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.rest.retry.RetryStrategy\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.rest.retry.RetryStrategy.isFastFirstRetry()
-- com.microsoft.rest.retry.RetryStrategy.name()
-- com.microsoft.rest.retry.RetryStrategy.shouldRetry(int,okhttp3.Response)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class PartnerServiceRetryStrategy extends RetryStrategy
+- "com.microsoft.rest.retry.RetryStrategy.isFastFirstRetry()"
+- "com.microsoft.rest.retry.RetryStrategy.name()"
+- "com.microsoft.rest.retry.RetryStrategy.shouldRetry(int,okhttp3.Response)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class PartnerServiceRetryStrategy extends RetryStrategy"
 constructors:
-- com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int)
+- "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy(int)"
 methods:
-- com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,okhttp3.Response)
-type: class
+- "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry(int,okhttp3.Response)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.network
+package: "com.microsoft.store.partnercenter.network"
 artifact: com.microsoft.store:partnercenter:1.15.3

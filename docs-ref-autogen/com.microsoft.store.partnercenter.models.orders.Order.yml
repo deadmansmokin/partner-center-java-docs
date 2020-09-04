@@ -1,55 +1,55 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.orders.Order
-fullName: com.microsoft.store.partnercenter.models.orders.Order
-name: Order
-nameWithType: Order
-summary: Order represents collection of information needed to purchase offers represented by each order line items.
+uid: "com.microsoft.store.partnercenter.models.orders.Order"
+fullName: "com.microsoft.store.partnercenter.models.orders.Order"
+name: "Order"
+nameWithType: "Order"
+summary: "Order represents collection of information needed to purchase offers represented by each order line items."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBaseWithLinks" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class Order extends ResourceBaseWithLinks<StandardResourceLinks>
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class Order extends ResourceBaseWithLinks<StandardResourceLinks>"
 constructors:
-- com.microsoft.store.partnercenter.models.orders.Order.Order()
+- "com.microsoft.store.partnercenter.models.orders.Order.Order()"
 methods:
-- com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle()
-- com.microsoft.store.partnercenter.models.orders.Order.getCreationDate()
-- com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode()
-- com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol()
-- com.microsoft.store.partnercenter.models.orders.Order.getId()
-- com.microsoft.store.partnercenter.models.orders.Order.getLineItems()
-- com.microsoft.store.partnercenter.models.orders.Order.getLinks()
-- com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId()
-- com.microsoft.store.partnercenter.models.orders.Order.getStatus()
-- com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice()
-- com.microsoft.store.partnercenter.models.orders.Order.getTransactionType()
-- com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle(com.microsoft.store.partnercenter.models.offers.BillingCycleType)
-- com.microsoft.store.partnercenter.models.orders.Order.setCreationDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode(java.lang.String)
-- com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol(java.lang.String)
-- com.microsoft.store.partnercenter.models.orders.Order.setId(java.lang.String)
-- com.microsoft.store.partnercenter.models.orders.Order.setLineItems(java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>)
-- com.microsoft.store.partnercenter.models.orders.Order.setLinks(com.microsoft.store.partnercenter.models.orders.OrderLinks)
-- com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId(java.lang.String)
-- com.microsoft.store.partnercenter.models.orders.Order.setStatus(java.lang.String)
-- com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice(double)
-- com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType(java.lang.String)
-type: class
+- "com.microsoft.store.partnercenter.models.orders.Order.getBillingCycle()"
+- "com.microsoft.store.partnercenter.models.orders.Order.getCreationDate()"
+- "com.microsoft.store.partnercenter.models.orders.Order.getCurrencyCode()"
+- "com.microsoft.store.partnercenter.models.orders.Order.getCurrencySymbol()"
+- "com.microsoft.store.partnercenter.models.orders.Order.getId()"
+- "com.microsoft.store.partnercenter.models.orders.Order.getLineItems()"
+- "com.microsoft.store.partnercenter.models.orders.Order.getLinks()"
+- "com.microsoft.store.partnercenter.models.orders.Order.getReferenceCustomerId()"
+- "com.microsoft.store.partnercenter.models.orders.Order.getStatus()"
+- "com.microsoft.store.partnercenter.models.orders.Order.getTotalPrice()"
+- "com.microsoft.store.partnercenter.models.orders.Order.getTransactionType()"
+- "com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle(com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
+- "com.microsoft.store.partnercenter.models.orders.Order.setCreationDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.orders.Order.setCurrencyCode(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.orders.Order.setCurrencySymbol(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.orders.Order.setId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.orders.Order.setLineItems(java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>)"
+- "com.microsoft.store.partnercenter.models.orders.Order.setLinks(com.microsoft.store.partnercenter.models.orders.OrderLinks)"
+- "com.microsoft.store.partnercenter.models.orders.Order.setReferenceCustomerId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.orders.Order.setStatus(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.orders.Order.setsTotalPrice(double)"
+- "com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.orders
+package: "com.microsoft.store.partnercenter.models.orders"
 artifact: com.microsoft.store:partnercenter:1.15.3

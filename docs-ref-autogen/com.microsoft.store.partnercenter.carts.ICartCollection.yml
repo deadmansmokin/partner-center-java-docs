@@ -1,17 +1,17 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.carts.ICartCollection
-fullName: com.microsoft.store.partnercenter.carts.ICartCollection
-name: ICartCollection
-nameWithType: ICartCollection
-summary: Encapsulates a customer cart behavior.
-syntax: public interface ICartCollection extends IPartnerComponentString, IEntityCreateOperations<Cart,Cart>, IEntitySelector<String,ICart>
+uid: "com.microsoft.store.partnercenter.carts.ICartCollection"
+fullName: "com.microsoft.store.partnercenter.carts.ICartCollection"
+name: "ICartCollection"
+nameWithType: "ICartCollection"
+summary: "Encapsulates a customer cart behavior."
+syntax: "public interface ICartCollection extends IPartnerComponentString, IEntityCreateOperations<Cart,Cart>, IEntitySelector<String,ICart>"
 methods:
-- com.microsoft.store.partnercenter.carts.ICartCollection.byId(java.lang.String)
-type: interface
+- "com.microsoft.store.partnercenter.carts.ICartCollection.byId(java.lang.String)"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.carts.Cart?alt=com.microsoft.store.partnercenter.models.carts.Cart&text=Cart" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.carts.Cart?alt=com.microsoft.store.partnercenter.models.carts.Cart&text=Cart" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.carts.ICart?alt=com.microsoft.store.partnercenter.carts.ICart&text=ICart" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.carts.Cart?alt=com.microsoft.store.partnercenter.models.carts.Cart&text=Cart\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.carts.Cart?alt=com.microsoft.store.partnercenter.models.carts.Cart&text=Cart\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.carts.ICart?alt=com.microsoft.store.partnercenter.carts.ICart&text=ICart\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.carts
+package: "com.microsoft.store.partnercenter.carts"
 artifact: com.microsoft.store:partnercenter:1.15.3

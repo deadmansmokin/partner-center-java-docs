@@ -1,57 +1,57 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.exception.PartnerException
-fullName: com.microsoft.store.partnercenter.exception.PartnerException
-name: PartnerException
-nameWithType: PartnerException
-summary: The standard exception thrown by the partner SDK. This pertains to errors accessing the partner service. Other standard exceptions such as null argument exceptions will also be thrown in case of malformed input.
+uid: "com.microsoft.store.partnercenter.exception.PartnerException"
+fullName: "com.microsoft.store.partnercenter.exception.PartnerException"
+name: "PartnerException"
+nameWithType: "PartnerException"
+summary: "The standard exception thrown by the partner SDK. This pertains to errors accessing the partner service. Other standard exceptions such as null argument exceptions will also be thrown in case of malformed input."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Throwable" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Exception" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.RuntimeException" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Throwable\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Exception\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.RuntimeException\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-- java.lang.Throwable.addSuppressed(java.lang.Throwable)
-- java.lang.Throwable.fillInStackTrace()
-- java.lang.Throwable.getCause()
-- java.lang.Throwable.getLocalizedMessage()
-- java.lang.Throwable.getMessage()
-- java.lang.Throwable.getStackTrace()
-- java.lang.Throwable.getSuppressed()
-- java.lang.Throwable.initCause(java.lang.Throwable)
-- java.lang.Throwable.printStackTrace()
-- java.lang.Throwable.printStackTrace(java.io.PrintStream)
-- java.lang.Throwable.printStackTrace(java.io.PrintWriter)
-- java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])
-- java.lang.Throwable.toString()
-syntax: public class PartnerException extends RuntimeException
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+- "java.lang.Throwable.addSuppressed(java.lang.Throwable)"
+- "java.lang.Throwable.fillInStackTrace()"
+- "java.lang.Throwable.getCause()"
+- "java.lang.Throwable.getLocalizedMessage()"
+- "java.lang.Throwable.getMessage()"
+- "java.lang.Throwable.getStackTrace()"
+- "java.lang.Throwable.getSuppressed()"
+- "java.lang.Throwable.initCause(java.lang.Throwable)"
+- "java.lang.Throwable.printStackTrace()"
+- "java.lang.Throwable.printStackTrace(java.io.PrintStream)"
+- "java.lang.Throwable.printStackTrace(java.io.PrintWriter)"
+- "java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])"
+- "java.lang.Throwable.toString()"
+syntax: "public class PartnerException extends RuntimeException"
 constructors:
-- com.microsoft.store.partnercenter.exception.PartnerException.PartnerException()
-- com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(com.microsoft.store.partnercenter.models.ApiFault,com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-- com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(com.microsoft.store.partnercenter.models.ApiFault,com.microsoft.store.partnercenter.requestcontext.IRequestContext,com.microsoft.store.partnercenter.exception.PartnerErrorCategory)
-- com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(com.microsoft.store.partnercenter.models.ApiFault,com.microsoft.store.partnercenter.requestcontext.IRequestContext,com.microsoft.store.partnercenter.exception.PartnerErrorCategory,java.lang.Exception)
-- com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(java.lang.String)
-- com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(java.lang.String,com.microsoft.store.partnercenter.requestcontext.IRequestContext,com.microsoft.store.partnercenter.exception.PartnerErrorCategory)
-- com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(java.lang.String,com.microsoft.store.partnercenter.requestcontext.IRequestContext,com.microsoft.store.partnercenter.exception.PartnerErrorCategory,java.lang.Exception)
-- com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(java.lang.String,java.lang.Exception)
+- "com.microsoft.store.partnercenter.exception.PartnerException.PartnerException()"
+- "com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(com.microsoft.store.partnercenter.models.ApiFault,com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+- "com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(com.microsoft.store.partnercenter.models.ApiFault,com.microsoft.store.partnercenter.requestcontext.IRequestContext,com.microsoft.store.partnercenter.exception.PartnerErrorCategory)"
+- "com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(com.microsoft.store.partnercenter.models.ApiFault,com.microsoft.store.partnercenter.requestcontext.IRequestContext,com.microsoft.store.partnercenter.exception.PartnerErrorCategory,java.lang.Exception)"
+- "com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(java.lang.String)"
+- "com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(java.lang.String,com.microsoft.store.partnercenter.requestcontext.IRequestContext,com.microsoft.store.partnercenter.exception.PartnerErrorCategory)"
+- "com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(java.lang.String,com.microsoft.store.partnercenter.requestcontext.IRequestContext,com.microsoft.store.partnercenter.exception.PartnerErrorCategory,java.lang.Exception)"
+- "com.microsoft.store.partnercenter.exception.PartnerException.PartnerException(java.lang.String,java.lang.Exception)"
 methods:
-- com.microsoft.store.partnercenter.exception.PartnerException.getContext()
-- com.microsoft.store.partnercenter.exception.PartnerException.getErrorCategory()
-- com.microsoft.store.partnercenter.exception.PartnerException.getServiceErrorPayload()
-- com.microsoft.store.partnercenter.exception.PartnerException.setContext(com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-- com.microsoft.store.partnercenter.exception.PartnerException.setErrorCategory(com.microsoft.store.partnercenter.exception.PartnerErrorCategory)
-- com.microsoft.store.partnercenter.exception.PartnerException.setServiceErrorPayload(com.microsoft.store.partnercenter.models.ApiFault)
-- com.microsoft.store.partnercenter.exception.PartnerException.toString()
-type: class
+- "com.microsoft.store.partnercenter.exception.PartnerException.getContext()"
+- "com.microsoft.store.partnercenter.exception.PartnerException.getErrorCategory()"
+- "com.microsoft.store.partnercenter.exception.PartnerException.getServiceErrorPayload()"
+- "com.microsoft.store.partnercenter.exception.PartnerException.setContext(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+- "com.microsoft.store.partnercenter.exception.PartnerException.setErrorCategory(com.microsoft.store.partnercenter.exception.PartnerErrorCategory)"
+- "com.microsoft.store.partnercenter.exception.PartnerException.setServiceErrorPayload(com.microsoft.store.partnercenter.models.ApiFault)"
+- "com.microsoft.store.partnercenter.exception.PartnerException.toString()"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.exception
+package: "com.microsoft.store.partnercenter.exception"
 artifact: com.microsoft.store:partnercenter:1.15.3

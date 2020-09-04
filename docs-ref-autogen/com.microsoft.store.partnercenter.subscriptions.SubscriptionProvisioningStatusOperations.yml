@@ -1,34 +1,34 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations
-fullName: com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations
-name: SubscriptionProvisioningStatusOperations
-nameWithType: SubscriptionProvisioningStatusOperations
-summary: Implements getting customer subscription provisioning status details for a given subscription.
+uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations"
+fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations"
+name: "SubscriptionProvisioningStatusOperations"
+nameWithType: "SubscriptionProvisioningStatusOperations"
+summary: "Implements getting customer subscription provisioning status details for a given subscription."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SubscriptionProvisioningStatusOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscriptionProvisioningStatus
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SubscriptionProvisioningStatusOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscriptionProvisioningStatus"
 constructors:
-- com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations.SubscriptionProvisioningStatusOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+- "com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations.SubscriptionProvisioningStatusOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
 methods:
-- com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations.get()
-type: class
+- "com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations.get()"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus?alt=com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus&text=ISubscriptionProvisioningStatus" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus?alt=com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus&text=ISubscriptionProvisioningStatus\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.microsoft.store.partnercenter.subscriptions
+package: "com.microsoft.store.partnercenter.subscriptions"
 artifact: com.microsoft.store:partnercenter:1.15.3

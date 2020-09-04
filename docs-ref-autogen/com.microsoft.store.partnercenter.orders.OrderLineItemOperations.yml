@@ -1,34 +1,34 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.orders.OrderLineItemOperations
-fullName: com.microsoft.store.partnercenter.orders.OrderLineItemOperations
-name: OrderLineItemOperations
-nameWithType: OrderLineItemOperations
-summary: Implements the order collection operations.
+uid: "com.microsoft.store.partnercenter.orders.OrderLineItemOperations"
+fullName: "com.microsoft.store.partnercenter.orders.OrderLineItemOperations"
+name: "OrderLineItemOperations"
+nameWithType: "OrderLineItemOperations"
+summary: "Implements the order collection operations."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class OrderLineItemOperations extends BasePartnerComponent<TripletTuple<String,String,Integer>> implements IOrderLineItem
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class OrderLineItemOperations extends BasePartnerComponent<TripletTuple<String,String,Integer>> implements IOrderLineItem"
 constructors:
-- com.microsoft.store.partnercenter.orders.OrderLineItemOperations.OrderLineItemOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,int)
+- "com.microsoft.store.partnercenter.orders.OrderLineItemOperations.OrderLineItemOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,int)"
 methods:
-- com.microsoft.store.partnercenter.orders.OrderLineItemOperations.getActivationLink()
-type: class
+- "com.microsoft.store.partnercenter.orders.OrderLineItemOperations.getActivationLink()"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.orders.IOrderLineItem?alt=com.microsoft.store.partnercenter.orders.IOrderLineItem&text=IOrderLineItem" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.microsoft.store.partnercenter.orders.IOrderLineItem?alt=com.microsoft.store.partnercenter.orders.IOrderLineItem&text=IOrderLineItem\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.microsoft.store.partnercenter.orders
+package: "com.microsoft.store.partnercenter.orders"
 artifact: com.microsoft.store:partnercenter:1.15.3

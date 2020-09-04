@@ -1,44 +1,44 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.query.BaseQuery
-fullName: com.microsoft.store.partnercenter.models.query.BaseQuery
-name: BaseQuery
-nameWithType: BaseQuery
-summary: The base class which all queries should derive from. This class does not support any query capabilities except for the token by default. Therefore, implementation classes will pick and choose what to support.
+uid: "com.microsoft.store.partnercenter.models.query.BaseQuery"
+fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery"
+name: "BaseQuery"
+nameWithType: "BaseQuery"
+summary: "The base class which all queries should derive from. This class does not support any query capabilities except for the token by default. Therefore, implementation classes will pick and choose what to support."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public abstract class BaseQuery implements IQuery
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public abstract class BaseQuery implements IQuery"
 constructors:
-- com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(java.lang.Object)
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery(java.lang.Object)"
 methods:
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getType()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)
-type: class
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getSort()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getType()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.query
+package: "com.microsoft.store.partnercenter.models.query"
 artifact: com.microsoft.store:partnercenter:1.15.3

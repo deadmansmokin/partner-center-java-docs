@@ -1,51 +1,51 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord
-fullName: com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord
-name: CustomerMonthlyUsageRecord
-nameWithType: CustomerMonthlyUsageRecord
-summary: This class defines the monthly usage record of a customer for all its subscriptions.
+uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"
+fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"
+name: "CustomerMonthlyUsageRecord"
+nameWithType: "CustomerMonthlyUsageRecord"
+summary: "This class defines the monthly usage record of a customer for all its subscriptions."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.usage.UsageRecordBase" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.usage.UsageRecordBase\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class CustomerMonthlyUsageRecord extends UsageRecordBase
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class CustomerMonthlyUsageRecord extends UsageRecordBase"
 constructors:
-- com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.CustomerMonthlyUsageRecord()
+- "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.CustomerMonthlyUsageRecord()"
 methods:
-- com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getBudget()
-- com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getIsUpgraded()
-- com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getPercentUsed()
-- com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setBudget(com.microsoft.store.partnercenter.models.usage.SpendingBudget)
-- com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setIsUpgraded(boolean)
-- com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setPercentUsed(double)
-type: class
+- "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getBudget()"
+- "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getIsUpgraded()"
+- "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getPercentUsed()"
+- "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setBudget(com.microsoft.store.partnercenter.models.usage.SpendingBudget)"
+- "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setIsUpgraded(boolean)"
+- "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setPercentUsed(double)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.usage
+package: "com.microsoft.store.partnercenter.models.usage"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,43 +1,43 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks
-fullName: com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,TLinks>
-name: ResourceCollectionWithLinks<TResource,TLinks>
-nameWithType: ResourceCollectionWithLinks<TResource,TLinks>
-summary: Contains a collection of resources with JSON properties to represent the output Type of objects in collection
+uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks"
+fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,TLinks>"
+name: "ResourceCollectionWithLinks<TResource,TLinks>"
+nameWithType: "ResourceCollectionWithLinks<TResource,TLinks>"
+summary: "Contains a collection of resources with JSON properties to represent the output Type of objects in collection"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBaseWithLinks" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ResourceCollectionWithLinks<TResource,TLinks> extends ResourceBaseWithLinks<TLinks>
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ResourceCollectionWithLinks<TResource,TLinks> extends ResourceBaseWithLinks<TLinks>"
 constructors:
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.ResourceCollectionWithLinks()
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.ResourceCollectionWithLinks(com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,TLinks>)
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.ResourceCollectionWithLinks(java.util.List<TResource>)
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.ResourceCollectionWithLinks()"
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.ResourceCollectionWithLinks(com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,TLinks>)"
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.ResourceCollectionWithLinks(java.util.List<TResource>)"
 methods:
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getItems()
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getTotalCount()
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List<TResource>)
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setTotalCount(int)
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.toString()
-type: class
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getItems()"
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getTotalCount()"
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List<TResource>)"
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setTotalCount(int)"
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.toString()"
+type: "class"
 typeParameters:
-- name: TResource
-- name: TLinks
+- name: "TResource"
+- name: "TLinks"
 metadata: {}
-package: com.microsoft.store.partnercenter.models
+package: "com.microsoft.store.partnercenter.models"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,34 +1,34 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations
-fullName: com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations
-name: OrderSubscriptionCollectionOperations
-nameWithType: OrderSubscriptionCollectionOperations
-summary: Implements getting customer subscriptions for a given order.
+uid: "com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations"
+fullName: "com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations"
+name: "OrderSubscriptionCollectionOperations"
+nameWithType: "OrderSubscriptionCollectionOperations"
+summary: "Implements getting customer subscriptions for a given order."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class OrderSubscriptionCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class OrderSubscriptionCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>"
 constructors:
-- com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations.OrderSubscriptionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+- "com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations.OrderSubscriptionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
 methods:
-- com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations.get()
-type: class
+- "com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations.get()"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription" data-throw-if-not-resolved="False" />&gt;&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.subscriptions
+package: "com.microsoft.store.partnercenter.subscriptions"
 artifact: com.microsoft.store:partnercenter:1.15.3

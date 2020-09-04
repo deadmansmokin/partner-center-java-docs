@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations
-fullName: com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations
-name: PartnerServiceRequestCollectionOperations
-nameWithType: PartnerServiceRequestCollectionOperations
-summary: The partner's service requests operations and implementation.
+uid: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations"
+fullName: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations"
+name: "PartnerServiceRequestCollectionOperations"
+nameWithType: "PartnerServiceRequestCollectionOperations"
+summary: "The partner's service requests operations and implementation."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponentString" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class PartnerServiceRequestCollectionOperations extends BasePartnerComponentString implements IPartnerServiceRequestCollection
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class PartnerServiceRequestCollectionOperations extends BasePartnerComponentString implements IPartnerServiceRequestCollection"
 constructors:
-- com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.PartnerServiceRequestCollectionOperations(com.microsoft.store.partnercenter.IPartner)
+- "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.PartnerServiceRequestCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
 methods:
-- com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.byId(java.lang.String)
-- com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.create(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,java.lang.String)
-- com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.get()
-- com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.getSupportTopics()
-- com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.query(com.microsoft.store.partnercenter.models.query.IQuery)
-type: class
+- "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.byId(java.lang.String)"
+- "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.create(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,java.lang.String)"
+- "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.get()"
+- "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.getSupportTopics()"
+- "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.query(com.microsoft.store.partnercenter.models.query.IQuery)"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection?alt=com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection&text=IPartnerServiceRequestCollection" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection?alt=com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection&text=IPartnerServiceRequestCollection\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.microsoft.store.partnercenter.servicerequests
+package: "com.microsoft.store.partnercenter.servicerequests"
 artifact: com.microsoft.store:partnercenter:1.15.3

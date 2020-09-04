@@ -1,51 +1,51 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.customers.Customer
-fullName: com.microsoft.store.partnercenter.models.customers.Customer
-name: Customer
-nameWithType: Customer
-summary: Base customer profile for both Company, Billing profiles
+uid: "com.microsoft.store.partnercenter.models.customers.Customer"
+fullName: "com.microsoft.store.partnercenter.models.customers.Customer"
+name: "Customer"
+nameWithType: "Customer"
+summary: "Base customer profile for both Company, Billing profiles"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBaseWithLinks" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class Customer extends ResourceBaseWithLinks<StandardResourceLinks>
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class Customer extends ResourceBaseWithLinks<StandardResourceLinks>"
 constructors:
-- com.microsoft.store.partnercenter.models.customers.Customer.Customer()
+- "com.microsoft.store.partnercenter.models.customers.Customer.Customer()"
 methods:
-- com.microsoft.store.partnercenter.models.customers.Customer.getAllowDelegatedAccess()
-- com.microsoft.store.partnercenter.models.customers.Customer.getAssociatedPartnerId()
-- com.microsoft.store.partnercenter.models.customers.Customer.getBillingProfile()
-- com.microsoft.store.partnercenter.models.customers.Customer.getCommerceId()
-- com.microsoft.store.partnercenter.models.customers.Customer.getCompanyProfile()
-- com.microsoft.store.partnercenter.models.customers.Customer.getCustomDomains()
-- com.microsoft.store.partnercenter.models.customers.Customer.getId()
-- com.microsoft.store.partnercenter.models.customers.Customer.getRelationshipToPartner()
-- com.microsoft.store.partnercenter.models.customers.Customer.getUserCredentials()
-- com.microsoft.store.partnercenter.models.customers.Customer.setAllowDelegatedAccess(java.lang.Boolean)
-- com.microsoft.store.partnercenter.models.customers.Customer.setAssociatedPartnerId(java.lang.String)
-- com.microsoft.store.partnercenter.models.customers.Customer.setBillingProfile(com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile)
-- com.microsoft.store.partnercenter.models.customers.Customer.setCommerceId(java.lang.String)
-- com.microsoft.store.partnercenter.models.customers.Customer.setCompanyProfile(com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile)
-- com.microsoft.store.partnercenter.models.customers.Customer.setCustomDomains(java.util.List<java.lang.String>)
-- com.microsoft.store.partnercenter.models.customers.Customer.setId(java.lang.String)
-- com.microsoft.store.partnercenter.models.customers.Customer.setRelationshipToPartner(com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship)
-- com.microsoft.store.partnercenter.models.customers.Customer.setUserCredentials(com.microsoft.store.partnercenter.models.UserCredentials)
-type: class
+- "com.microsoft.store.partnercenter.models.customers.Customer.getAllowDelegatedAccess()"
+- "com.microsoft.store.partnercenter.models.customers.Customer.getAssociatedPartnerId()"
+- "com.microsoft.store.partnercenter.models.customers.Customer.getBillingProfile()"
+- "com.microsoft.store.partnercenter.models.customers.Customer.getCommerceId()"
+- "com.microsoft.store.partnercenter.models.customers.Customer.getCompanyProfile()"
+- "com.microsoft.store.partnercenter.models.customers.Customer.getCustomDomains()"
+- "com.microsoft.store.partnercenter.models.customers.Customer.getId()"
+- "com.microsoft.store.partnercenter.models.customers.Customer.getRelationshipToPartner()"
+- "com.microsoft.store.partnercenter.models.customers.Customer.getUserCredentials()"
+- "com.microsoft.store.partnercenter.models.customers.Customer.setAllowDelegatedAccess(java.lang.Boolean)"
+- "com.microsoft.store.partnercenter.models.customers.Customer.setAssociatedPartnerId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.customers.Customer.setBillingProfile(com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile)"
+- "com.microsoft.store.partnercenter.models.customers.Customer.setCommerceId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.customers.Customer.setCompanyProfile(com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile)"
+- "com.microsoft.store.partnercenter.models.customers.Customer.setCustomDomains(java.util.List<java.lang.String>)"
+- "com.microsoft.store.partnercenter.models.customers.Customer.setId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.customers.Customer.setRelationshipToPartner(com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship)"
+- "com.microsoft.store.partnercenter.models.customers.Customer.setUserCredentials(com.microsoft.store.partnercenter.models.UserCredentials)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.customers
+package: "com.microsoft.store.partnercenter.models.customers"
 artifact: com.microsoft.store:partnercenter:1.15.3

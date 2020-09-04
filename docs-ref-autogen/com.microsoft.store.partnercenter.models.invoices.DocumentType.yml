@@ -1,79 +1,79 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.store.partnercenter.models.invoices.DocumentType
-fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType
-name: DocumentType
-nameWithType: DocumentType
-summary: Different providers of billing information.
+uid: "com.microsoft.store.partnercenter.models.invoices.DocumentType"
+fullName: "com.microsoft.store.partnercenter.models.invoices.DocumentType"
+name: "DocumentType"
+nameWithType: "DocumentType"
+summary: "Different providers of billing information."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum DocumentType extends Enum<DocumentType>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum DocumentType extends Enum<DocumentType>"
 fields:
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.ADJUSTMENT_NOTE
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.ADJUSTMENT_NOTE
-  name: ADJUSTMENT_NOTE
-  nameWithType: DocumentType.ADJUSTMENT_NOTE
-  summary: Indicates that document type is an adjustment note.
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.INVOICE
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.INVOICE
-  name: INVOICE
-  nameWithType: DocumentType.INVOICE
-  summary: Indicates that document type is an invoice.
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.NONE
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.NONE
-  name: NONE
-  nameWithType: DocumentType.NONE
-  summary: Value if not set.
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.VOID_NOTE
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.VOID_NOTE
-  name: VOID_NOTE
-  nameWithType: DocumentType.VOID_NOTE
-  summary: Indicates that document type is an void note.
+- uid: "com.microsoft.store.partnercenter.models.invoices.DocumentType.ADJUSTMENT_NOTE"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.DocumentType.ADJUSTMENT_NOTE"
+  name: "ADJUSTMENT_NOTE"
+  nameWithType: "DocumentType.ADJUSTMENT_NOTE"
+  summary: "Indicates that document type is an adjustment note."
+- uid: "com.microsoft.store.partnercenter.models.invoices.DocumentType.INVOICE"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.DocumentType.INVOICE"
+  name: "INVOICE"
+  nameWithType: "DocumentType.INVOICE"
+  summary: "Indicates that document type is an invoice."
+- uid: "com.microsoft.store.partnercenter.models.invoices.DocumentType.NONE"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.DocumentType.NONE"
+  name: "NONE"
+  nameWithType: "DocumentType.NONE"
+  summary: "Value if not set."
+- uid: "com.microsoft.store.partnercenter.models.invoices.DocumentType.VOID_NOTE"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.DocumentType.VOID_NOTE"
+  name: "VOID_NOTE"
+  nameWithType: "DocumentType.VOID_NOTE"
+  summary: "Indicates that document type is an void note."
 methods:
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.toString()
-  name: toString()
-  nameWithType: DocumentType.toString()
-  summary: Converts the object to a string.
-  overridden: java.lang.Enum.toString()
-  syntax: public String toString()
+- uid: "com.microsoft.store.partnercenter.models.invoices.DocumentType.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.DocumentType.toString()"
+  name: "toString()"
+  nameWithType: "DocumentType.toString()"
+  summary: "Converts the object to a string."
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
   returns:
-    description: A string that represents this object.
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.valueOf(java.lang.String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: DocumentType.valueOf(String name)
+    description: "A string that represents this object."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.invoices.DocumentType.valueOf(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.DocumentType.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "DocumentType.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static DocumentType valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DocumentType valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.DocumentType?alt=com.microsoft.store.partnercenter.models.invoices.DocumentType&text=DocumentType" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.invoices.DocumentType.values()
-  fullName: com.microsoft.store.partnercenter.models.invoices.DocumentType.values()
-  name: values()
-  nameWithType: DocumentType.values()
-  syntax: public static DocumentType[] values()
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.DocumentType?alt=com.microsoft.store.partnercenter.models.invoices.DocumentType&text=DocumentType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.invoices.DocumentType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.DocumentType.values()"
+  name: "values()"
+  nameWithType: "DocumentType.values()"
+  syntax: "public static DocumentType[] values()"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.DocumentType?alt=com.microsoft.store.partnercenter.models.invoices.DocumentType&text=DocumentType" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.DocumentType?alt=com.microsoft.store.partnercenter.models.invoices.DocumentType&text=DocumentType\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.invoices
+package: "com.microsoft.store.partnercenter.models.invoices"
 artifact: com.microsoft.store:partnercenter:1.15.3

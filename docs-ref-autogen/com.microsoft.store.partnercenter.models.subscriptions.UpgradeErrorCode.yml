@@ -1,110 +1,108 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
-fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode
-name: UpgradeErrorCode
-nameWithType: UpgradeErrorCode
+uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode"
+fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode"
+name: "UpgradeErrorCode"
+nameWithType: "UpgradeErrorCode"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum UpgradeErrorCode extends Enum<UpgradeErrorCode>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum UpgradeErrorCode extends Enum<UpgradeErrorCode>"
 fields:
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONCURRENCY_CONFLICTS
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONCURRENCY_CONFLICTS
-  name: CONCURRENCY_CONFLICTS
-  nameWithType: UpgradeErrorCode.CONCURRENCY_CONFLICTS
-  summary: Upgrade cannot be performed due to concurrent subscription restrictions.
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONFLICTING_SERVICE_TYPES
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONFLICTING_SERVICE_TYPES
-  name: CONFLICTING_SERVICE_TYPES
-  nameWithType: UpgradeErrorCode.CONFLICTING_SERVICE_TYPES
-  summary: Upgrade cannot be performed because of conflicting source service types.
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED
-  name: DELEGATED_ADMIN_PERMISSIONS_DISABLED
-  nameWithType: UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED
-  summary: Upgrade cannot be performed because administrative permissions have been removed.
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.OTHER
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.OTHER
-  name: OTHER
-  nameWithType: UpgradeErrorCode.OTHER
-  summary: The type of errors that prevent subscription upgrading from happening General error.
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT
-  name: SUBSCRIPTION_ADD_ONS_PRESENT
-  nameWithType: UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT
-  summary: Upgrade cannot be performed because the source subscription has previously purchased add-ons.
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
-  name: SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
-  nameWithType: UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS
-  summary: Upgrade cannot be performed because the source subscription does not have upgrade paths.
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED
-  name: SUBSCRIPTION_NOT_PROVISIONED
-  nameWithType: UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED
-  summary: |-
-    The subscription is not provisioned yet. Happens when the order is still being processed. Eventually the
-     subscription ill be provisioned and an entitlement is created.
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE
-  name: SUBSCRIPTION_STATUS_NOT_ACTIVE
-  nameWithType: UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE
-  summary: Upgrade cannot be performed because the subscription status is suspended or deleted.
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
-  name: SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
-  nameWithType: UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND
-  summary: Upgrade cannot be performed because the specified upgrade path is not an available upgrade path.
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.USER_CONTEXT_REQUIRED
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.USER_CONTEXT_REQUIRED
-  name: USER_CONTEXT_REQUIRED
-  nameWithType: UpgradeErrorCode.USER_CONTEXT_REQUIRED
-  summary: Upgrade cannot be performed because the current request is using app context.
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONCURRENCY_CONFLICTS"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONCURRENCY_CONFLICTS"
+  name: "CONCURRENCY_CONFLICTS"
+  nameWithType: "UpgradeErrorCode.CONCURRENCY_CONFLICTS"
+  summary: "Upgrade cannot be performed due to concurrent subscription restrictions."
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONFLICTING_SERVICE_TYPES"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONFLICTING_SERVICE_TYPES"
+  name: "CONFLICTING_SERVICE_TYPES"
+  nameWithType: "UpgradeErrorCode.CONFLICTING_SERVICE_TYPES"
+  summary: "Upgrade cannot be performed because of conflicting source service types."
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED"
+  name: "DELEGATED_ADMIN_PERMISSIONS_DISABLED"
+  nameWithType: "UpgradeErrorCode.DELEGATED_ADMIN_PERMISSIONS_DISABLED"
+  summary: "Upgrade cannot be performed because administrative permissions have been removed."
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.OTHER"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.OTHER"
+  name: "OTHER"
+  nameWithType: "UpgradeErrorCode.OTHER"
+  summary: "The type of errors that prevent subscription upgrading from happening General error."
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT"
+  name: "SUBSCRIPTION_ADD_ONS_PRESENT"
+  nameWithType: "UpgradeErrorCode.SUBSCRIPTION_ADD_ONS_PRESENT"
+  summary: "Upgrade cannot be performed because the source subscription has previously purchased add-ons."
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS"
+  name: "SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS"
+  nameWithType: "UpgradeErrorCode.SUBSCRIPTION_DOES_NOT_HAVE_ANY_UPGRADE_PATHS"
+  summary: "Upgrade cannot be performed because the source subscription does not have upgrade paths."
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED"
+  name: "SUBSCRIPTION_NOT_PROVISIONED"
+  nameWithType: "UpgradeErrorCode.SUBSCRIPTION_NOT_PROVISIONED"
+  summary: "The subscription is not provisioned yet. Happens when the order is still being processed. Eventually the\n subscription ill be provisioned and an entitlement is created."
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE"
+  name: "SUBSCRIPTION_STATUS_NOT_ACTIVE"
+  nameWithType: "UpgradeErrorCode.SUBSCRIPTION_STATUS_NOT_ACTIVE"
+  summary: "Upgrade cannot be performed because the subscription status is suspended or deleted."
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND"
+  name: "SUBSCRIPTION_TARGET_OFFER_NOT_FOUND"
+  nameWithType: "UpgradeErrorCode.SUBSCRIPTION_TARGET_OFFER_NOT_FOUND"
+  summary: "Upgrade cannot be performed because the specified upgrade path is not an available upgrade path."
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.USER_CONTEXT_REQUIRED"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.USER_CONTEXT_REQUIRED"
+  name: "USER_CONTEXT_REQUIRED"
+  nameWithType: "UpgradeErrorCode.USER_CONTEXT_REQUIRED"
+  summary: "Upgrade cannot be performed because the current request is using app context."
 methods:
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString()
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString()
-  name: toString()
-  nameWithType: UpgradeErrorCode.toString()
-  summary: Converts the object to a string.
-  overridden: java.lang.Enum.toString()
-  syntax: public String toString()
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.toString()"
+  name: "toString()"
+  nameWithType: "UpgradeErrorCode.toString()"
+  summary: "Converts the object to a string."
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
   returns:
-    description: A string that represents this object.
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.valueOf(java.lang.String)
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: UpgradeErrorCode.valueOf(String name)
+    description: "A string that represents this object."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.valueOf(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "UpgradeErrorCode.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static UpgradeErrorCode valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static UpgradeErrorCode valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode?alt=com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode&text=UpgradeErrorCode" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.values()
-  fullName: com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.values()
-  name: values()
-  nameWithType: UpgradeErrorCode.values()
-  syntax: public static UpgradeErrorCode[] values()
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode?alt=com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode&text=UpgradeErrorCode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.values()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.values()"
+  name: "values()"
+  nameWithType: "UpgradeErrorCode.values()"
+  syntax: "public static UpgradeErrorCode[] values()"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode?alt=com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode&text=UpgradeErrorCode" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode?alt=com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode&text=UpgradeErrorCode\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.subscriptions
+package: "com.microsoft.store.partnercenter.models.subscriptions"
 artifact: com.microsoft.store:partnercenter:1.15.3

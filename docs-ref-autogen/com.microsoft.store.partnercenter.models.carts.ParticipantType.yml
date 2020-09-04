@@ -1,69 +1,69 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.store.partnercenter.models.carts.ParticipantType
-fullName: com.microsoft.store.partnercenter.models.carts.ParticipantType
-name: ParticipantType
-nameWithType: ParticipantType
-summary: Types of Participants
+uid: "com.microsoft.store.partnercenter.models.carts.ParticipantType"
+fullName: "com.microsoft.store.partnercenter.models.carts.ParticipantType"
+name: "ParticipantType"
+nameWithType: "ParticipantType"
+summary: "Types of Participants"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum ParticipantType extends Enum<ParticipantType>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum ParticipantType extends Enum<ParticipantType>"
 fields:
-- uid: com.microsoft.store.partnercenter.models.carts.ParticipantType.TRANSACTION_RESELLER
-  fullName: com.microsoft.store.partnercenter.models.carts.ParticipantType.TRANSACTION_RESELLER
-  name: TRANSACTION_RESELLER
-  nameWithType: ParticipantType.TRANSACTION_RESELLER
-  summary: An indirect reseller with a transaction role.
-- uid: com.microsoft.store.partnercenter.models.carts.ParticipantType.UNKNOWN
-  fullName: com.microsoft.store.partnercenter.models.carts.ParticipantType.UNKNOWN
-  name: UNKNOWN
-  nameWithType: ParticipantType.UNKNOWN
-  summary: Default value if not known
+- uid: "com.microsoft.store.partnercenter.models.carts.ParticipantType.TRANSACTION_RESELLER"
+  fullName: "com.microsoft.store.partnercenter.models.carts.ParticipantType.TRANSACTION_RESELLER"
+  name: "TRANSACTION_RESELLER"
+  nameWithType: "ParticipantType.TRANSACTION_RESELLER"
+  summary: "An indirect reseller with a transaction role."
+- uid: "com.microsoft.store.partnercenter.models.carts.ParticipantType.UNKNOWN"
+  fullName: "com.microsoft.store.partnercenter.models.carts.ParticipantType.UNKNOWN"
+  name: "UNKNOWN"
+  nameWithType: "ParticipantType.UNKNOWN"
+  summary: "Default value if not known"
 methods:
-- uid: com.microsoft.store.partnercenter.models.carts.ParticipantType.toString()
-  fullName: com.microsoft.store.partnercenter.models.carts.ParticipantType.toString()
-  name: toString()
-  nameWithType: ParticipantType.toString()
-  summary: Converts the object to a string.
-  overridden: java.lang.Enum.toString()
-  syntax: public String toString()
+- uid: "com.microsoft.store.partnercenter.models.carts.ParticipantType.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.carts.ParticipantType.toString()"
+  name: "toString()"
+  nameWithType: "ParticipantType.toString()"
+  summary: "Converts the object to a string."
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
   returns:
-    description: A string that represents this object.
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.carts.ParticipantType.valueOf(java.lang.String)
-  fullName: com.microsoft.store.partnercenter.models.carts.ParticipantType.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: ParticipantType.valueOf(String name)
+    description: "A string that represents this object."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.carts.ParticipantType.valueOf(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.carts.ParticipantType.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "ParticipantType.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static ParticipantType valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ParticipantType valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.carts.ParticipantType?alt=com.microsoft.store.partnercenter.models.carts.ParticipantType&text=ParticipantType" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.carts.ParticipantType.values()
-  fullName: com.microsoft.store.partnercenter.models.carts.ParticipantType.values()
-  name: values()
-  nameWithType: ParticipantType.values()
-  syntax: public static ParticipantType[] values()
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.carts.ParticipantType?alt=com.microsoft.store.partnercenter.models.carts.ParticipantType&text=ParticipantType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.carts.ParticipantType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.carts.ParticipantType.values()"
+  name: "values()"
+  nameWithType: "ParticipantType.values()"
+  syntax: "public static ParticipantType[] values()"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.carts.ParticipantType?alt=com.microsoft.store.partnercenter.models.carts.ParticipantType&text=ParticipantType" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.carts.ParticipantType?alt=com.microsoft.store.partnercenter.models.carts.ParticipantType&text=ParticipantType\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.carts
+package: "com.microsoft.store.partnercenter.models.carts"
 artifact: com.microsoft.store:partnercenter:1.15.3

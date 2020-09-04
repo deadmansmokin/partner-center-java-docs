@@ -1,53 +1,53 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord
-fullName: com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord
-name: AzureResourceMonthlyUsageRecord
-nameWithType: AzureResourceMonthlyUsageRecord
-summary: Defines the monthly usage record for an Azure subscription resource.
+uid: "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord"
+fullName: "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord"
+name: "AzureResourceMonthlyUsageRecord"
+nameWithType: "AzureResourceMonthlyUsageRecord"
+summary: "Defines the monthly usage record for an Azure subscription resource."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.usage.UsageRecordBase" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.usage.UsageRecordBase\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class AzureResourceMonthlyUsageRecord extends UsageRecordBase
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class AzureResourceMonthlyUsageRecord extends UsageRecordBase"
 constructors:
-- com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.AzureResourceMonthlyUsageRecord()
+- "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.AzureResourceMonthlyUsageRecord()"
 methods:
-- com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.getCategory()
-- com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.getQuantityUsed()
-- com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.getSubcategory()
-- com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.getUnit()
-- com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setCategory(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setQuantityUsed(double)
-- com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setSubcategory(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setUnit(java.lang.String)
-type: class
+- "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.getCategory()"
+- "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.getQuantityUsed()"
+- "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.getSubcategory()"
+- "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.getUnit()"
+- "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setCategory(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setQuantityUsed(double)"
+- "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setSubcategory(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setUnit(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.usage
+package: "com.microsoft.store.partnercenter.models.usage"
 artifact: com.microsoft.store:partnercenter:1.15.3

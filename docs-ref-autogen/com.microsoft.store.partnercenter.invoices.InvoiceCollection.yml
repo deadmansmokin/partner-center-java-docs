@@ -1,41 +1,41 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.invoices.InvoiceCollection
-fullName: com.microsoft.store.partnercenter.invoices.InvoiceCollection
-name: InvoiceCollection
-nameWithType: InvoiceCollection
-summary: Represents the operations that can be done on Partner's invoices
+uid: "com.microsoft.store.partnercenter.invoices.InvoiceCollection"
+fullName: "com.microsoft.store.partnercenter.invoices.InvoiceCollection"
+name: "InvoiceCollection"
+nameWithType: "InvoiceCollection"
+summary: "Represents the operations that can be done on Partner's invoices"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponentString" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class InvoiceCollection extends BasePartnerComponentString implements IInvoiceCollection
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class InvoiceCollection extends BasePartnerComponentString implements IInvoiceCollection"
 constructors:
-- com.microsoft.store.partnercenter.invoices.InvoiceCollection.InvoiceCollection(com.microsoft.store.partnercenter.IPartner)
+- "com.microsoft.store.partnercenter.invoices.InvoiceCollection.InvoiceCollection(com.microsoft.store.partnercenter.IPartner)"
 methods:
-- com.microsoft.store.partnercenter.invoices.InvoiceCollection.byId(java.lang.String)
-- com.microsoft.store.partnercenter.invoices.InvoiceCollection.get()
-- com.microsoft.store.partnercenter.invoices.InvoiceCollection.get(int,int)
-- com.microsoft.store.partnercenter.invoices.InvoiceCollection.getEstimates()
-- com.microsoft.store.partnercenter.invoices.InvoiceCollection.getSummaries()
-- com.microsoft.store.partnercenter.invoices.InvoiceCollection.getSummary()
-- com.microsoft.store.partnercenter.invoices.InvoiceCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)
-type: class
+- "com.microsoft.store.partnercenter.invoices.InvoiceCollection.byId(java.lang.String)"
+- "com.microsoft.store.partnercenter.invoices.InvoiceCollection.get()"
+- "com.microsoft.store.partnercenter.invoices.InvoiceCollection.get(int,int)"
+- "com.microsoft.store.partnercenter.invoices.InvoiceCollection.getEstimates()"
+- "com.microsoft.store.partnercenter.invoices.InvoiceCollection.getSummaries()"
+- "com.microsoft.store.partnercenter.invoices.InvoiceCollection.getSummary()"
+- "com.microsoft.store.partnercenter.invoices.InvoiceCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.invoices.IInvoiceCollection?alt=com.microsoft.store.partnercenter.invoices.IInvoiceCollection&text=IInvoiceCollection" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.microsoft.store.partnercenter.invoices.IInvoiceCollection?alt=com.microsoft.store.partnercenter.invoices.IInvoiceCollection&text=IInvoiceCollection\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.microsoft.store.partnercenter.invoices
+package: "com.microsoft.store.partnercenter.invoices"
 artifact: com.microsoft.store:partnercenter:1.15.3

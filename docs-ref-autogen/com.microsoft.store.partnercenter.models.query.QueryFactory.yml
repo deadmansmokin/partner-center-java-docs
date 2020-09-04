@@ -1,45 +1,45 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.query.QueryFactory
-fullName: com.microsoft.store.partnercenter.models.query.QueryFactory
-name: QueryFactory
-nameWithType: QueryFactory
-summary: Creates new instances of IQuery objects.
+uid: "com.microsoft.store.partnercenter.models.query.QueryFactory"
+fullName: "com.microsoft.store.partnercenter.models.query.QueryFactory"
+name: "QueryFactory"
+nameWithType: "QueryFactory"
+summary: "Creates new instances of IQuery objects."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class QueryFactory
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class QueryFactory"
 methods:
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildCountQuery()
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildCountQuery(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildCountQuery(com.microsoft.store.partnercenter.models.query.filters.FieldFilter,java.lang.Object)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort,java.lang.Object)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort,java.lang.Object)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildSimpleQuery()
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildSimpleQuery(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildSimpleQuery(com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.buildSimpleQuery(com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort,java.lang.Object)
-- com.microsoft.store.partnercenter.models.query.QueryFactory.getInstance()
-type: class
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildCountQuery()"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildCountQuery(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildCountQuery(com.microsoft.store.partnercenter.models.query.filters.FieldFilter,java.lang.Object)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery(int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort,java.lang.Object)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery(com.microsoft.store.partnercenter.models.query.SeekOperation,int,int,com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort,java.lang.Object)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSimpleQuery()"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSimpleQuery(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSimpleQuery(com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSimpleQuery(com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort,java.lang.Object)"
+- "com.microsoft.store.partnercenter.models.query.QueryFactory.getInstance()"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.query
+package: "com.microsoft.store.partnercenter.models.query"
 artifact: com.microsoft.store:partnercenter:1.15.3

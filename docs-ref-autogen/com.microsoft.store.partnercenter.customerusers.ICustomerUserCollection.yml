@@ -1,20 +1,20 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
-fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection
-name: ICustomerUserCollection
-nameWithType: ICustomerUserCollection
-summary: Represents the behavior of the customers users
-syntax: public interface ICustomerUserCollection extends IPartnerComponentString, IEntityCreateOperations<CustomerUser,CustomerUser>, IEntireEntityCollectionRetrievalOperations<CustomerUser,SeekBasedResourceCollection<CustomerUser>>
+uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
+fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
+name: "ICustomerUserCollection"
+nameWithType: "ICustomerUserCollection"
+summary: "Represents the behavior of the customers users"
+syntax: "public interface ICustomerUserCollection extends IPartnerComponentString, IEntityCreateOperations<CustomerUser,CustomerUser>, IEntireEntityCollectionRetrievalOperations<CustomerUser,SeekBasedResourceCollection<CustomerUser>>"
 methods:
-- com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.byId(java.lang.String)
-- com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.create(com.microsoft.store.partnercenter.models.users.CustomerUser)
-- com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get()
-- com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)
-type: interface
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.byId(java.lang.String)"
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.create(com.microsoft.store.partnercenter.models.users.CustomerUser)"
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get()"
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.SeekBasedResourceCollection?alt=com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&text=SeekBasedResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser" data-throw-if-not-resolved="False" />&gt;&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.SeekBasedResourceCollection?alt=com.microsoft.store.partnercenter.models.SeekBasedResourceCollection&text=SeekBasedResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.customerusers
+package: "com.microsoft.store.partnercenter.customerusers"
 artifact: com.microsoft.store:partnercenter:1.15.3

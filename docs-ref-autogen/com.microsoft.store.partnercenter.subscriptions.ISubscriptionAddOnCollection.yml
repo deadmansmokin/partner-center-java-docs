@@ -1,16 +1,16 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
-fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection
-name: ISubscriptionAddOnCollection
-nameWithType: ISubscriptionAddOnCollection
-summary: Defines the behavior for a subscription's add-ons.
-syntax: public interface ISubscriptionAddOnCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>
+uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection"
+fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection"
+name: "ISubscriptionAddOnCollection"
+nameWithType: "ISubscriptionAddOnCollection"
+summary: "Defines the behavior for a subscription's add-ons."
+syntax: "public interface ISubscriptionAddOnCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>"
 methods:
-- com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.get()
-type: interface
+- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.get()"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription" data-throw-if-not-resolved="False" />&gt;&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.subscriptions
+package: "com.microsoft.store.partnercenter.subscriptions"
 artifact: com.microsoft.store:partnercenter:1.15.3

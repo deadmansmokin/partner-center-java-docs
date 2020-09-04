@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.carts.CartOperations
-fullName: com.microsoft.store.partnercenter.carts.CartOperations
-name: CartOperations
-nameWithType: CartOperations
-summary: Cart collection operations implementation class.
+uid: "com.microsoft.store.partnercenter.carts.CartOperations"
+fullName: "com.microsoft.store.partnercenter.carts.CartOperations"
+name: "CartOperations"
+nameWithType: "CartOperations"
+summary: "Cart collection operations implementation class."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class CartOperations extends BasePartnerComponent<Tuple<String,String>> implements ICart
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class CartOperations extends BasePartnerComponent<Tuple<String,String>> implements ICart"
 constructors:
-- com.microsoft.store.partnercenter.carts.CartOperations.CartOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+- "com.microsoft.store.partnercenter.carts.CartOperations.CartOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
 methods:
-- com.microsoft.store.partnercenter.carts.CartOperations.checkout()
-- com.microsoft.store.partnercenter.carts.CartOperations.get()
-- com.microsoft.store.partnercenter.carts.CartOperations.put(com.microsoft.store.partnercenter.models.carts.Cart)
-type: class
+- "com.microsoft.store.partnercenter.carts.CartOperations.checkout()"
+- "com.microsoft.store.partnercenter.carts.CartOperations.get()"
+- "com.microsoft.store.partnercenter.carts.CartOperations.put(com.microsoft.store.partnercenter.models.carts.Cart)"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.carts.ICart?alt=com.microsoft.store.partnercenter.carts.ICart&text=ICart" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.microsoft.store.partnercenter.carts.ICart?alt=com.microsoft.store.partnercenter.carts.ICart&text=ICart\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.microsoft.store.partnercenter.carts
+package: "com.microsoft.store.partnercenter.carts"
 artifact: com.microsoft.store:partnercenter:1.15.3

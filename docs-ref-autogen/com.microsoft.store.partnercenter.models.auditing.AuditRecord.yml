@@ -1,56 +1,56 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.auditing.AuditRecord
-fullName: com.microsoft.store.partnercenter.models.auditing.AuditRecord
-name: AuditRecord
-nameWithType: AuditRecord
-summary: Represents a record of operation performed by a partner user or application
+uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
+fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
+name: "AuditRecord"
+nameWithType: "AuditRecord"
+summary: "Represents a record of operation performed by a partner user or application"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class AuditRecord extends ResourceBase
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class AuditRecord extends ResourceBase"
 constructors:
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.AuditRecord()
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.AuditRecord()"
 methods:
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getApplicationId()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getCustomerId()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getCustomerName()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getCustomizedData()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getId()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getOperationDate()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getOperationStatus()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getOperationType()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getPartnerId()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getResourceNewValue()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getResourceOldValue()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getResourceType()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.getUserPrincipalName()
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setApplicationId(java.lang.String)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setCustomerId(java.lang.String)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setCustomerName(java.lang.String)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setCustomizedData(java.lang.Iterable<com.microsoft.store.partnercenter.models.utils.KeyValuePair<java.lang.String,java.lang.String>>)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setId(java.lang.String)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setOperationDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setOperationStatus(com.microsoft.store.partnercenter.models.auditing.OperationStatus)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setOperationType(com.microsoft.store.partnercenter.models.auditing.OperationType)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setPartnerId(java.lang.String)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setResourceNewValue(java.lang.String)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setResourceOldValue(java.lang.String)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setResourceType(com.microsoft.store.partnercenter.models.auditing.ResourceType)
-- com.microsoft.store.partnercenter.models.auditing.AuditRecord.setUserPrincipalName(java.lang.String)
-type: class
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getApplicationId()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getCustomerId()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getCustomerName()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getCustomizedData()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getId()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getOperationDate()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getOperationStatus()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getOperationType()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getPartnerId()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getResourceNewValue()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getResourceOldValue()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getResourceType()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.getUserPrincipalName()"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setApplicationId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setCustomerId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setCustomerName(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setCustomizedData(java.lang.Iterable<com.microsoft.store.partnercenter.models.utils.KeyValuePair<java.lang.String,java.lang.String>>)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setOperationDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setOperationStatus(com.microsoft.store.partnercenter.models.auditing.OperationStatus)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setOperationType(com.microsoft.store.partnercenter.models.auditing.OperationType)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setPartnerId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setResourceNewValue(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setResourceOldValue(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setResourceType(com.microsoft.store.partnercenter.models.auditing.ResourceType)"
+- "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setUserPrincipalName(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.auditing
+package: "com.microsoft.store.partnercenter.models.auditing"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,17 +1,17 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection
-fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection
-name: ICustomerUserLicenseCollection
-nameWithType: ICustomerUserLicenseCollection
-summary: Represents the behavior of the customers user's directory roles.
-syntax: public interface ICustomerUserLicenseCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<License,ResourceCollection<License>>
+uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection"
+fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection"
+name: "ICustomerUserLicenseCollection"
+nameWithType: "ICustomerUserLicenseCollection"
+summary: "Represents the behavior of the customers user's directory roles."
+syntax: "public interface ICustomerUserLicenseCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<License,ResourceCollection<License>>"
 methods:
-- com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get()
-- com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get(java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>)
-type: interface
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get()"
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get(java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>)"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.licenses.License?alt=com.microsoft.store.partnercenter.models.licenses.License&text=License" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.licenses.License?alt=com.microsoft.store.partnercenter.models.licenses.License&text=License" data-throw-if-not-resolved="False" />&gt;&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.licenses.License?alt=com.microsoft.store.partnercenter.models.licenses.License&text=License\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.licenses.License?alt=com.microsoft.store.partnercenter.models.licenses.License&text=License\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.customerusers
+package: "com.microsoft.store.partnercenter.customerusers"
 artifact: com.microsoft.store:partnercenter:1.15.3

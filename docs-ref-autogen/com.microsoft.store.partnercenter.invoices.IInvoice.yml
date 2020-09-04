@@ -1,20 +1,20 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.invoices.IInvoice
-fullName: com.microsoft.store.partnercenter.invoices.IInvoice
-name: IInvoice
-nameWithType: IInvoice
-summary: Represents all the operations that can be done on an invoice
-syntax: public interface IInvoice extends IPartnerComponentString, IEntityGetOperations<Invoice>
+uid: "com.microsoft.store.partnercenter.invoices.IInvoice"
+fullName: "com.microsoft.store.partnercenter.invoices.IInvoice"
+name: "IInvoice"
+nameWithType: "IInvoice"
+summary: "Represents all the operations that can be done on an invoice"
+syntax: "public interface IInvoice extends IPartnerComponentString, IEntityGetOperations<Invoice>"
 methods:
-- com.microsoft.store.partnercenter.invoices.IInvoice.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)
-- com.microsoft.store.partnercenter.invoices.IInvoice.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod)
-- com.microsoft.store.partnercenter.invoices.IInvoice.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod,int)
-- com.microsoft.store.partnercenter.invoices.IInvoice.getDocuments()
-- com.microsoft.store.partnercenter.invoices.IInvoice.getReceipts()
-type: interface
+- "com.microsoft.store.partnercenter.invoices.IInvoice.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
+- "com.microsoft.store.partnercenter.invoices.IInvoice.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod)"
+- "com.microsoft.store.partnercenter.invoices.IInvoice.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod,int)"
+- "com.microsoft.store.partnercenter.invoices.IInvoice.getDocuments()"
+- "com.microsoft.store.partnercenter.invoices.IInvoice.getReceipts()"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.invoices.Invoice?alt=com.microsoft.store.partnercenter.models.invoices.Invoice&text=Invoice" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.invoices.Invoice?alt=com.microsoft.store.partnercenter.models.invoices.Invoice&text=Invoice\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.invoices
+package: "com.microsoft.store.partnercenter.invoices"
 artifact: com.microsoft.store:partnercenter:1.15.3

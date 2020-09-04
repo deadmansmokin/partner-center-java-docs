@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
-fullName: com.microsoft.store.partnercenter.orders.OrderCollectionOperations
-name: OrderCollectionOperations
-nameWithType: OrderCollectionOperations
-summary: Order collection operations implementation class.
+uid: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations"
+fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations"
+name: "OrderCollectionOperations"
+nameWithType: "OrderCollectionOperations"
+summary: "Order collection operations implementation class."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponentString" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class OrderCollectionOperations extends BasePartnerComponentString implements IOrderCollection
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class OrderCollectionOperations extends BasePartnerComponentString implements IOrderCollection"
 constructors:
-- com.microsoft.store.partnercenter.orders.OrderCollectionOperations.OrderCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)
+- "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.OrderCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String)"
 methods:
-- com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)
-- com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byId(java.lang.String)
-- com.microsoft.store.partnercenter.orders.OrderCollectionOperations.create(com.microsoft.store.partnercenter.models.orders.Order)
-- com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get()
-- com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get(java.lang.Boolean)
-type: class
+- "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
+- "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byId(java.lang.String)"
+- "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.create(com.microsoft.store.partnercenter.models.orders.Order)"
+- "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get()"
+- "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get(java.lang.Boolean)"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.orders.IOrderCollection?alt=com.microsoft.store.partnercenter.orders.IOrderCollection&text=IOrderCollection" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.microsoft.store.partnercenter.orders.IOrderCollection?alt=com.microsoft.store.partnercenter.orders.IOrderCollection&text=IOrderCollection\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.microsoft.store.partnercenter.orders
+package: "com.microsoft.store.partnercenter.orders"
 artifact: com.microsoft.store:partnercenter:1.15.3

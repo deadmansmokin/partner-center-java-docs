@@ -1,61 +1,61 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.invoices.Invoice
-fullName: com.microsoft.store.partnercenter.models.invoices.Invoice
-name: Invoice
-nameWithType: Invoice
-summary: Represents a monthly billing statement issued to a partner
+uid: "com.microsoft.store.partnercenter.models.invoices.Invoice"
+fullName: "com.microsoft.store.partnercenter.models.invoices.Invoice"
+name: "Invoice"
+nameWithType: "Invoice"
+summary: "Represents a monthly billing statement issued to a partner"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBaseWithLinks" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class Invoice extends ResourceBaseWithLinks<StandardResourceLinks>
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class Invoice extends ResourceBaseWithLinks<StandardResourceLinks>"
 constructors:
-- com.microsoft.store.partnercenter.models.invoices.Invoice.Invoice()
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.Invoice()"
 methods:
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getAmendments()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getAmendsOf()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getBillingPeriodEndDate()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getBillingPeriodStartDate()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getCurrencyCode()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getCurrencySymbol()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getDocumentType()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getId()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getInvoiceDate()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getInvoiceDetails()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getInvoiceType()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getPaidAmount()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getPdfDownloadLink()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.getTotalCharges()
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setAmendments(java.lang.Iterable<com.microsoft.store.partnercenter.models.invoices.Invoice>)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setAmendsOf(java.lang.String)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setBillingPeriodEndDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setBillingPeriodStartDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setCurrencyCode(java.lang.String)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setCurrencySymbol(java.lang.String)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setDocumentType(com.microsoft.store.partnercenter.models.invoices.DocumentType)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setId(java.lang.String)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setInvoiceDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setInvoiceDetails(java.lang.Iterable<com.microsoft.store.partnercenter.models.invoices.InvoiceDetail>)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setInvoiceType(java.lang.String)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setPaidAmount(double)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setPdfDownloadLink(java.net.URI)
-- com.microsoft.store.partnercenter.models.invoices.Invoice.setTotalCharges(double)
-type: class
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getAmendments()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getAmendsOf()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getBillingPeriodEndDate()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getBillingPeriodStartDate()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getCurrencyCode()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getCurrencySymbol()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getDocumentType()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getId()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getInvoiceDate()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getInvoiceDetails()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getInvoiceType()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getPaidAmount()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getPdfDownloadLink()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.getTotalCharges()"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setAmendments(java.lang.Iterable<com.microsoft.store.partnercenter.models.invoices.Invoice>)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setAmendsOf(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setBillingPeriodEndDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setBillingPeriodStartDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setCurrencyCode(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setCurrencySymbol(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setDocumentType(com.microsoft.store.partnercenter.models.invoices.DocumentType)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setInvoiceDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setInvoiceDetails(java.lang.Iterable<com.microsoft.store.partnercenter.models.invoices.InvoiceDetail>)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setInvoiceType(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setPaidAmount(double)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setPdfDownloadLink(java.net.URI)"
+- "com.microsoft.store.partnercenter.models.invoices.Invoice.setTotalCharges(double)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.invoices
+package: "com.microsoft.store.partnercenter.models.invoices"
 artifact: com.microsoft.store:partnercenter:1.15.3

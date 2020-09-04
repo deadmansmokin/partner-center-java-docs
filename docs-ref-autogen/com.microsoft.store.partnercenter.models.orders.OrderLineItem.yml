@@ -1,57 +1,57 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.orders.OrderLineItem
-fullName: com.microsoft.store.partnercenter.models.orders.OrderLineItem
-name: OrderLineItem
-nameWithType: OrderLineItem
-summary: Order line item associates order information to a specific offer of a product
+uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItem"
+fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem"
+name: "OrderLineItem"
+nameWithType: "OrderLineItem"
+summary: "Order line item associates order information to a specific offer of a product"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBaseWithLinks" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class OrderLineItem extends ResourceBaseWithLinks<OrderLineItemLinks>
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class OrderLineItem extends ResourceBaseWithLinks<OrderLineItemLinks>"
 constructors:
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.OrderLineItem()
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.OrderLineItem()"
 methods:
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getFriendlyName()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getLineItemNumber()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getOfferId()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getParentSubscriptionId()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getPartnerIdOnRecord()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getPricing()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getProvisioningContext()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getQuantity()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getRenewsTo()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getSubscriptionId()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getTermDuration()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.getTransactionType()
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setFriendlyName(java.lang.String)
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setLineItemNumber(int)
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setOfferId(java.lang.String)
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setParentSubscriptionId(java.lang.String)
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setPartnerIdOnRecord(java.lang.String)
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setPricing(com.microsoft.store.partnercenter.models.orders.Pricing)
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setProvisioningContext(java.util.Map<java.lang.String,java.lang.String>)
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setQuantity(int)
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setRenewsTo(com.microsoft.store.partnercenter.models.orders.RenewsTo)
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setSubscriptionId(java.lang.String)
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setTermDuration(java.lang.String)
-- com.microsoft.store.partnercenter.models.orders.OrderLineItem.setTransactionType(java.lang.String)
-type: class
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getFriendlyName()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getLineItemNumber()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getOfferId()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getParentSubscriptionId()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getPartnerIdOnRecord()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getPricing()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getProvisioningContext()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getQuantity()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getRenewsTo()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getSubscriptionId()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getTermDuration()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getTransactionType()"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setFriendlyName(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setLineItemNumber(int)"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setOfferId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setParentSubscriptionId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setPartnerIdOnRecord(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setPricing(com.microsoft.store.partnercenter.models.orders.Pricing)"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setProvisioningContext(java.util.Map<java.lang.String,java.lang.String>)"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setQuantity(int)"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setRenewsTo(com.microsoft.store.partnercenter.models.orders.RenewsTo)"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setSubscriptionId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setTermDuration(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setTransactionType(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.orders
+package: "com.microsoft.store.partnercenter.models.orders"
 artifact: com.microsoft.store:partnercenter:1.15.3

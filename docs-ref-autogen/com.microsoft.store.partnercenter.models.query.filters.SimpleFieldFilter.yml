@@ -1,43 +1,43 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter
-fullName: com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter
-name: SimpleFieldFilter
-nameWithType: SimpleFieldFilter
-summary: A simple filter applied to a field. An example is (Year lessThan 1999).
+uid: "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter"
+fullName: "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter"
+name: "SimpleFieldFilter"
+nameWithType: "SimpleFieldFilter"
+summary: "A simple filter applied to a field. An example is (Year lessThan 1999)."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.query.filters.FieldFilter" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.query.filters.FieldFilter\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.query.filters.FieldFilter.generateExpression(com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator)
-- com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getFieldType()
-- com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getOperator()
-- com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType(com.microsoft.store.partnercenter.models.query.filters.FieldType)
-- com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator(com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SimpleFieldFilter extends FieldFilter
+- "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.generateExpression(com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator)"
+- "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getFieldType()"
+- "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getOperator()"
+- "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType(com.microsoft.store.partnercenter.models.query.filters.FieldType)"
+- "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator(com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SimpleFieldFilter extends FieldFilter"
 constructors:
-- com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter()
-- com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter(java.lang.String,com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation,java.lang.String)
-- com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter(java.lang.String,java.lang.String,com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)
-- com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter(java.lang.String,java.lang.String,com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation,com.microsoft.store.partnercenter.models.query.filters.FieldType)
+- "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter()"
+- "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter(java.lang.String,com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation,java.lang.String)"
+- "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter(java.lang.String,java.lang.String,com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)"
+- "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter(java.lang.String,java.lang.String,com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation,com.microsoft.store.partnercenter.models.query.filters.FieldType)"
 methods:
-- com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.generateExpression(com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator)
-- com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.getField()
-- com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.getValue()
-- com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.setField(java.lang.String)
-- com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.setValue(java.lang.String)
-- com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.toString()
-type: class
+- "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.generateExpression(com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator)"
+- "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.getField()"
+- "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.getValue()"
+- "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.setField(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.setValue(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.toString()"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.query.filters
+package: "com.microsoft.store.partnercenter.models.query.filters"
 artifact: com.microsoft.store:partnercenter:1.15.3

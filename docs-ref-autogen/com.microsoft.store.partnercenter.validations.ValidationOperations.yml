@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.validations.ValidationOperations
-fullName: com.microsoft.store.partnercenter.validations.ValidationOperations
-name: ValidationOperations
-nameWithType: ValidationOperations
-summary: The validations collection operations implementation.
+uid: "com.microsoft.store.partnercenter.validations.ValidationOperations"
+fullName: "com.microsoft.store.partnercenter.validations.ValidationOperations"
+name: "ValidationOperations"
+nameWithType: "ValidationOperations"
+summary: "The validations collection operations implementation."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponentString" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ValidationOperations extends BasePartnerComponentString implements IValidationOperations
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ValidationOperations extends BasePartnerComponentString implements IValidationOperations"
 constructors:
-- com.microsoft.store.partnercenter.validations.ValidationOperations.ValidationOperations(com.microsoft.store.partnercenter.IPartner)
+- "com.microsoft.store.partnercenter.validations.ValidationOperations.ValidationOperations(com.microsoft.store.partnercenter.IPartner)"
 methods:
-- com.microsoft.store.partnercenter.validations.ValidationOperations.getValidationCodes()
-- com.microsoft.store.partnercenter.validations.ValidationOperations.isAddressValid(com.microsoft.store.partnercenter.models.Address)
-type: class
+- "com.microsoft.store.partnercenter.validations.ValidationOperations.getValidationCodes()"
+- "com.microsoft.store.partnercenter.validations.ValidationOperations.isAddressValid(com.microsoft.store.partnercenter.models.Address)"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.validations.IValidationOperations?alt=com.microsoft.store.partnercenter.validations.IValidationOperations&text=IValidationOperations" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.microsoft.store.partnercenter.validations.IValidationOperations?alt=com.microsoft.store.partnercenter.validations.IValidationOperations&text=IValidationOperations\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.microsoft.store.partnercenter.validations
+package: "com.microsoft.store.partnercenter.validations"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,79 +1,74 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.store.partnercenter.models.users.UserDomainType
-fullName: com.microsoft.store.partnercenter.models.users.UserDomainType
-name: UserDomainType
-nameWithType: UserDomainType
-summary: Types of user domains supported.
+uid: "com.microsoft.store.partnercenter.models.users.UserDomainType"
+fullName: "com.microsoft.store.partnercenter.models.users.UserDomainType"
+name: "UserDomainType"
+nameWithType: "UserDomainType"
+summary: "Types of user domains supported."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum UserDomainType extends Enum<UserDomainType>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum UserDomainType extends Enum<UserDomainType>"
 fields:
-- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.FEDERATED
-  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.FEDERATED
-  name: FEDERATED
-  nameWithType: UserDomainType.FEDERATED
-  summary: |-
-    Federated domains don\u2019t support mixed mode.
-     Users created have to be linked to an on premises directory account
-     with their immutable ids.
-- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.MANAGED
-  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.MANAGED
-  name: MANAGED
-  nameWithType: UserDomainType.MANAGED
-  summary: |-
-    Password sync directories support mixed mode
-     i.e. users that are cloud only or directory synced from an on premises directory.
-- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.NONE
-  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.NONE
-  name: NONE
-  nameWithType: UserDomainType.NONE
-  summary: Default - None.
+- uid: "com.microsoft.store.partnercenter.models.users.UserDomainType.FEDERATED"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserDomainType.FEDERATED"
+  name: "FEDERATED"
+  nameWithType: "UserDomainType.FEDERATED"
+  summary: "Federated domains don\\u2019t support mixed mode.\n Users created have to be linked to an on premises directory account\n with their immutable ids."
+- uid: "com.microsoft.store.partnercenter.models.users.UserDomainType.MANAGED"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserDomainType.MANAGED"
+  name: "MANAGED"
+  nameWithType: "UserDomainType.MANAGED"
+  summary: "Password sync directories support mixed mode\n i.e. users that are cloud only or directory synced from an on premises directory."
+- uid: "com.microsoft.store.partnercenter.models.users.UserDomainType.NONE"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserDomainType.NONE"
+  name: "NONE"
+  nameWithType: "UserDomainType.NONE"
+  summary: "Default - None."
 methods:
-- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.toString()
-  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.toString()
-  name: toString()
-  nameWithType: UserDomainType.toString()
-  summary: Converts the object to a string.
-  overridden: java.lang.Enum.toString()
-  syntax: public String toString()
+- uid: "com.microsoft.store.partnercenter.models.users.UserDomainType.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserDomainType.toString()"
+  name: "toString()"
+  nameWithType: "UserDomainType.toString()"
+  summary: "Converts the object to a string."
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
   returns:
-    description: A string that represents this object.
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.valueOf(java.lang.String)
-  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: UserDomainType.valueOf(String name)
+    description: "A string that represents this object."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.users.UserDomainType.valueOf(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserDomainType.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "UserDomainType.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static UserDomainType valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static UserDomainType valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.users.UserDomainType?alt=com.microsoft.store.partnercenter.models.users.UserDomainType&text=UserDomainType" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.users.UserDomainType.values()
-  fullName: com.microsoft.store.partnercenter.models.users.UserDomainType.values()
-  name: values()
-  nameWithType: UserDomainType.values()
-  syntax: public static UserDomainType[] values()
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.users.UserDomainType?alt=com.microsoft.store.partnercenter.models.users.UserDomainType&text=UserDomainType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.users.UserDomainType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserDomainType.values()"
+  name: "values()"
+  nameWithType: "UserDomainType.values()"
+  syntax: "public static UserDomainType[] values()"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.users.UserDomainType?alt=com.microsoft.store.partnercenter.models.users.UserDomainType&text=UserDomainType" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.users.UserDomainType?alt=com.microsoft.store.partnercenter.models.users.UserDomainType&text=UserDomainType\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.users
+package: "com.microsoft.store.partnercenter.models.users"
 artifact: com.microsoft.store:partnercenter:1.15.3

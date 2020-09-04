@@ -1,69 +1,69 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.store.partnercenter.models.users.UserState
-fullName: com.microsoft.store.partnercenter.models.users.UserState
-name: UserState
-nameWithType: UserState
-summary: User state
+uid: "com.microsoft.store.partnercenter.models.users.UserState"
+fullName: "com.microsoft.store.partnercenter.models.users.UserState"
+name: "UserState"
+nameWithType: "UserState"
+summary: "User state"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum UserState extends Enum<UserState>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum UserState extends Enum<UserState>"
 fields:
-- uid: com.microsoft.store.partnercenter.models.users.UserState.ACTIVE
-  fullName: com.microsoft.store.partnercenter.models.users.UserState.ACTIVE
-  name: ACTIVE
-  nameWithType: UserState.ACTIVE
-  summary: Active user.
-- uid: com.microsoft.store.partnercenter.models.users.UserState.INACTIVE
-  fullName: com.microsoft.store.partnercenter.models.users.UserState.INACTIVE
-  name: INACTIVE
-  nameWithType: UserState.INACTIVE
-  summary: Inactive user.
+- uid: "com.microsoft.store.partnercenter.models.users.UserState.ACTIVE"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserState.ACTIVE"
+  name: "ACTIVE"
+  nameWithType: "UserState.ACTIVE"
+  summary: "Active user."
+- uid: "com.microsoft.store.partnercenter.models.users.UserState.INACTIVE"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserState.INACTIVE"
+  name: "INACTIVE"
+  nameWithType: "UserState.INACTIVE"
+  summary: "Inactive user."
 methods:
-- uid: com.microsoft.store.partnercenter.models.users.UserState.toString()
-  fullName: com.microsoft.store.partnercenter.models.users.UserState.toString()
-  name: toString()
-  nameWithType: UserState.toString()
-  summary: Converts the object to a string.
-  overridden: java.lang.Enum.toString()
-  syntax: public String toString()
+- uid: "com.microsoft.store.partnercenter.models.users.UserState.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserState.toString()"
+  name: "toString()"
+  nameWithType: "UserState.toString()"
+  summary: "Converts the object to a string."
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
   returns:
-    description: A string that represents this object.
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.users.UserState.valueOf(java.lang.String)
-  fullName: com.microsoft.store.partnercenter.models.users.UserState.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: UserState.valueOf(String name)
+    description: "A string that represents this object."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.users.UserState.valueOf(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserState.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "UserState.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static UserState valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static UserState valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.users.UserState?alt=com.microsoft.store.partnercenter.models.users.UserState&text=UserState" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.users.UserState.values()
-  fullName: com.microsoft.store.partnercenter.models.users.UserState.values()
-  name: values()
-  nameWithType: UserState.values()
-  syntax: public static UserState[] values()
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.users.UserState?alt=com.microsoft.store.partnercenter.models.users.UserState&text=UserState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.users.UserState.values()"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserState.values()"
+  name: "values()"
+  nameWithType: "UserState.values()"
+  syntax: "public static UserState[] values()"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.users.UserState?alt=com.microsoft.store.partnercenter.models.users.UserState&text=UserState" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.users.UserState?alt=com.microsoft.store.partnercenter.models.users.UserState&text=UserState\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.users
+package: "com.microsoft.store.partnercenter.models.users"
 artifact: com.microsoft.store:partnercenter:1.15.3

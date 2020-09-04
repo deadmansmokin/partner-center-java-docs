@@ -1,89 +1,89 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
-fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType
-name: PolicySettingsType
-nameWithType: PolicySettingsType
-summary: Represents the settings for an OOBE(Out of box experience) policy.
+uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+name: "PolicySettingsType"
+nameWithType: "PolicySettingsType"
+summary: "Represents the settings for an OOBE(Out of box experience) policy."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum PolicySettingsType extends Enum<PolicySettingsType>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum PolicySettingsType extends Enum<PolicySettingsType>"
 fields:
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None
-  name: None
-  nameWithType: PolicySettingsType.None
-  summary: Default value for policy settings.
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN
-  name: OOBE_USER_NOT_LOCAL_ADMIN
-  nameWithType: PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN
-  summary: OOBE(Out of box experience) user will not be a local admin on the configured device.
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS
-  name: REMOVE_OEM_PREINSTALLS
-  nameWithType: PolicySettingsType.REMOVE_OEM_PREINSTALLS
-  summary: Remove OEM Pre-installs.
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA
-  name: SKIP_EULA
-  nameWithType: PolicySettingsType.SKIP_EULA
-  summary: Skip EULA settings.
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS
-  name: SKIP_EXPRESS_SETTINGS
-  nameWithType: PolicySettingsType.SKIP_EXPRESS_SETTINGS
-  summary: Skip express settings.
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION
-  name: SKIP_OEM_REGISTRATION
-  nameWithType: PolicySettingsType.SKIP_OEM_REGISTRATION
-  summary: Skip OEM registration settings.
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None"
+  name: "None"
+  nameWithType: "PolicySettingsType.None"
+  summary: "Default value for policy settings."
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
+  name: "OOBE_USER_NOT_LOCAL_ADMIN"
+  nameWithType: "PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
+  summary: "OOBE(Out of box experience) user will not be a local admin on the configured device."
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS"
+  name: "REMOVE_OEM_PREINSTALLS"
+  nameWithType: "PolicySettingsType.REMOVE_OEM_PREINSTALLS"
+  summary: "Remove OEM Pre-installs."
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA"
+  name: "SKIP_EULA"
+  nameWithType: "PolicySettingsType.SKIP_EULA"
+  summary: "Skip EULA settings."
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS"
+  name: "SKIP_EXPRESS_SETTINGS"
+  nameWithType: "PolicySettingsType.SKIP_EXPRESS_SETTINGS"
+  summary: "Skip express settings."
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION"
+  name: "SKIP_OEM_REGISTRATION"
+  nameWithType: "PolicySettingsType.SKIP_OEM_REGISTRATION"
+  summary: "Skip OEM registration settings."
 methods:
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()
-  name: toString()
-  nameWithType: PolicySettingsType.toString()
-  summary: Converts the object to a string.
-  overridden: java.lang.Enum.toString()
-  syntax: public String toString()
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()"
+  name: "toString()"
+  nameWithType: "PolicySettingsType.toString()"
+  summary: "Converts the object to a string."
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
   returns:
-    description: A string that represents this object.
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(java.lang.String)
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: PolicySettingsType.valueOf(String name)
+    description: "A string that represents this object."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "PolicySettingsType.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static PolicySettingsType valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PolicySettingsType valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType?alt=com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType&text=PolicySettingsType" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()
-  fullName: com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()
-  name: values()
-  nameWithType: PolicySettingsType.values()
-  syntax: public static PolicySettingsType[] values()
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType?alt=com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType&text=PolicySettingsType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
+  name: "values()"
+  nameWithType: "PolicySettingsType.values()"
+  syntax: "public static PolicySettingsType[] values()"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType?alt=com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType&text=PolicySettingsType" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType?alt=com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType&text=PolicySettingsType\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.devicesdeployment
+package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 artifact: com.microsoft.store:partnercenter:1.15.3
