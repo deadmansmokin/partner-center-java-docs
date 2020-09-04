@@ -1,76 +1,74 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
-fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId
-name: LicenseGroupId
-nameWithType: LicenseGroupId
-summary: License Group Id.
+uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+name: "LicenseGroupId"
+nameWithType: "LicenseGroupId"
+summary: "License Group Id."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum LicenseGroupId extends Enum<LicenseGroupId>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum LicenseGroupId extends Enum<LicenseGroupId>"
 fields:
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP1
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP1
-  name: GROUP1
-  nameWithType: LicenseGroupId.GROUP1
-  summary: Azure Active Directory This indicates that product SKU is managed by Azure AD.
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP2
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP2
-  name: GROUP2
-  nameWithType: LicenseGroupId.GROUP2
-  summary: Store for Business This indicates that product SKU is not managed by Azure AD.
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE
-  name: NONE
-  nameWithType: LicenseGroupId.NONE
-  summary: |-
-    Indicates nothing - no type, used as an initializer. If any invalid value is
-     passed, then it will be defaulted to this.
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP1"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP1"
+  name: "GROUP1"
+  nameWithType: "LicenseGroupId.GROUP1"
+  summary: "Azure Active Directory This indicates that product SKU is managed by Azure AD."
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP2"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP2"
+  name: "GROUP2"
+  nameWithType: "LicenseGroupId.GROUP2"
+  summary: "Store for Business This indicates that product SKU is not managed by Azure AD."
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE"
+  name: "NONE"
+  nameWithType: "LicenseGroupId.NONE"
+  summary: "Indicates nothing - no type, used as an initializer. If any invalid value is\n passed, then it will be defaulted to this."
 methods:
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()
-  name: toString()
-  nameWithType: LicenseGroupId.toString()
-  summary: Converts the object to a string.
-  overridden: java.lang.Enum.toString()
-  syntax: public String toString()
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()"
+  name: "toString()"
+  nameWithType: "LicenseGroupId.toString()"
+  summary: "Converts the object to a string."
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
   returns:
-    description: A string that represents this object.
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf(java.lang.String)
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: LicenseGroupId.valueOf(String name)
+    description: "A string that represents this object."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "LicenseGroupId.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static LicenseGroupId valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static LicenseGroupId valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.licenses.LicenseGroupId?alt=com.microsoft.store.partnercenter.models.licenses.LicenseGroupId&text=LicenseGroupId" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values()
-  fullName: com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values()
-  name: values()
-  nameWithType: LicenseGroupId.values()
-  syntax: public static LicenseGroupId[] values()
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.licenses.LicenseGroupId?alt=com.microsoft.store.partnercenter.models.licenses.LicenseGroupId&text=LicenseGroupId\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values()"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values()"
+  name: "values()"
+  nameWithType: "LicenseGroupId.values()"
+  syntax: "public static LicenseGroupId[] values()"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.licenses.LicenseGroupId?alt=com.microsoft.store.partnercenter.models.licenses.LicenseGroupId&text=LicenseGroupId" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.licenses.LicenseGroupId?alt=com.microsoft.store.partnercenter.models.licenses.LicenseGroupId&text=LicenseGroupId\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.licenses
+package: "com.microsoft.store.partnercenter.models.licenses"
 artifact: com.microsoft.store:partnercenter:1.15.3

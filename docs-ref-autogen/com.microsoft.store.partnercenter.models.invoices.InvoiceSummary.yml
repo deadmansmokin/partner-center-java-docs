@@ -1,49 +1,49 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
-fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceSummary
-name: InvoiceSummary
-nameWithType: InvoiceSummary
-summary: Represent the current balance based on Partner's monthly bills.
+uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
+name: "InvoiceSummary"
+nameWithType: "InvoiceSummary"
+summary: "Represent the current balance based on Partner's monthly bills."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBaseWithLinks" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class InvoiceSummary extends ResourceBaseWithLinks<StandardResourceLinks>
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class InvoiceSummary extends ResourceBaseWithLinks<StandardResourceLinks>"
 constructors:
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary()
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary()"
 methods:
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate()
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount()
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode()
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol()
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate()
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount()
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate()
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate()
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount(double)
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode(java.lang.String)
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol(java.lang.String)
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount(double)
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate(org.joda.time.DateTime)
-type: class
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getAccountingDate()"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getBalanceAmount()"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencyCode()"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getCurrencySymbol()"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getFirstInvoiceCreationDate()"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentAmount()"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLastPaymentDate()"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.getLatestInvoiceDate()"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setAccountingDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount(double)"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencyCode(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setFirstInvoiceCreationDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentAmount(double)"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLastPaymentDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate(org.joda.time.DateTime)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.invoices
+package: "com.microsoft.store.partnercenter.models.invoices"
 artifact: com.microsoft.store:partnercenter:1.15.3

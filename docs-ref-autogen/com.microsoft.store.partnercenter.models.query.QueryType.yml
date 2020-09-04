@@ -1,70 +1,68 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.store.partnercenter.models.query.QueryType
-fullName: com.microsoft.store.partnercenter.models.query.QueryType
-name: QueryType
-nameWithType: QueryType
+uid: "com.microsoft.store.partnercenter.models.query.QueryType"
+fullName: "com.microsoft.store.partnercenter.models.query.QueryType"
+name: "QueryType"
+nameWithType: "QueryType"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum QueryType extends Enum<QueryType>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum QueryType extends Enum<QueryType>"
 fields:
-- uid: com.microsoft.store.partnercenter.models.query.QueryType.COUNT
-  fullName: com.microsoft.store.partnercenter.models.query.QueryType.COUNT
-  name: COUNT
-  nameWithType: QueryType.COUNT
-  summary: A query that returns the count of results according to an optional filter.
-- uid: com.microsoft.store.partnercenter.models.query.QueryType.INDEXED
-  fullName: com.microsoft.store.partnercenter.models.query.QueryType.INDEXED
-  name: INDEXED
-  nameWithType: QueryType.INDEXED
-  summary: A query that supports paging using an index and a page size in addition to the standard filtering and sorting.
-- uid: com.microsoft.store.partnercenter.models.query.QueryType.SEEK
-  fullName: com.microsoft.store.partnercenter.models.query.QueryType.SEEK
-  name: SEEK
-  nameWithType: QueryType.SEEK
-  summary: |-
-    A query that is a continuation of a previous one. Used to retrieve more records of the same query relative
-     to the last made query by seeking to pages.
-- uid: com.microsoft.store.partnercenter.models.query.QueryType.SIMPLE
-  fullName: com.microsoft.store.partnercenter.models.query.QueryType.SIMPLE
-  name: SIMPLE
-  nameWithType: QueryType.SIMPLE
-  summary: Enumerates query types. A standard query that supports filtering and sorting.
+- uid: "com.microsoft.store.partnercenter.models.query.QueryType.COUNT"
+  fullName: "com.microsoft.store.partnercenter.models.query.QueryType.COUNT"
+  name: "COUNT"
+  nameWithType: "QueryType.COUNT"
+  summary: "A query that returns the count of results according to an optional filter."
+- uid: "com.microsoft.store.partnercenter.models.query.QueryType.INDEXED"
+  fullName: "com.microsoft.store.partnercenter.models.query.QueryType.INDEXED"
+  name: "INDEXED"
+  nameWithType: "QueryType.INDEXED"
+  summary: "A query that supports paging using an index and a page size in addition to the standard filtering and sorting."
+- uid: "com.microsoft.store.partnercenter.models.query.QueryType.SEEK"
+  fullName: "com.microsoft.store.partnercenter.models.query.QueryType.SEEK"
+  name: "SEEK"
+  nameWithType: "QueryType.SEEK"
+  summary: "A query that is a continuation of a previous one. Used to retrieve more records of the same query relative\n to the last made query by seeking to pages."
+- uid: "com.microsoft.store.partnercenter.models.query.QueryType.SIMPLE"
+  fullName: "com.microsoft.store.partnercenter.models.query.QueryType.SIMPLE"
+  name: "SIMPLE"
+  nameWithType: "QueryType.SIMPLE"
+  summary: "Enumerates query types. A standard query that supports filtering and sorting."
 methods:
-- uid: com.microsoft.store.partnercenter.models.query.QueryType.valueOf(java.lang.String)
-  fullName: com.microsoft.store.partnercenter.models.query.QueryType.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: QueryType.valueOf(String name)
+- uid: "com.microsoft.store.partnercenter.models.query.QueryType.valueOf(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.query.QueryType.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "QueryType.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static QueryType valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static QueryType valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.query.QueryType?alt=com.microsoft.store.partnercenter.models.query.QueryType&text=QueryType" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.query.QueryType.values()
-  fullName: com.microsoft.store.partnercenter.models.query.QueryType.values()
-  name: values()
-  nameWithType: QueryType.values()
-  syntax: public static QueryType[] values()
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.query.QueryType?alt=com.microsoft.store.partnercenter.models.query.QueryType&text=QueryType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.query.QueryType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.query.QueryType.values()"
+  name: "values()"
+  nameWithType: "QueryType.values()"
+  syntax: "public static QueryType[] values()"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.query.QueryType?alt=com.microsoft.store.partnercenter.models.query.QueryType&text=QueryType" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.query.QueryType?alt=com.microsoft.store.partnercenter.models.query.QueryType&text=QueryType\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.query
+package: "com.microsoft.store.partnercenter.models.query"
 artifact: com.microsoft.store:partnercenter:1.15.3

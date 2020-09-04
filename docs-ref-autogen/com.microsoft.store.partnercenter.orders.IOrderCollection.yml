@@ -1,19 +1,19 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.orders.IOrderCollection
-fullName: com.microsoft.store.partnercenter.orders.IOrderCollection
-name: IOrderCollection
-nameWithType: IOrderCollection
-summary: Encapsulates customer orders behavior.
-syntax: public interface IOrderCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>, IEntityCreateOperations<Order,Order>, IEntitySelector<String,IOrder>
+uid: "com.microsoft.store.partnercenter.orders.IOrderCollection"
+fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection"
+name: "IOrderCollection"
+nameWithType: "IOrderCollection"
+summary: "Encapsulates customer orders behavior."
+syntax: "public interface IOrderCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>, IEntityCreateOperations<Order,Order>, IEntitySelector<String,IOrder>"
 methods:
-- com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)
-- com.microsoft.store.partnercenter.orders.IOrderCollection.get(java.lang.Boolean)
-type: interface
+- "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType(com.microsoft.store.partnercenter.models.offers.BillingCycleType)"
+- "com.microsoft.store.partnercenter.orders.IOrderCollection.get(java.lang.Boolean)"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order" data-throw-if-not-resolved="False" />&gt;&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.orders.IOrder?alt=com.microsoft.store.partnercenter.orders.IOrder&text=IOrder" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.orders.IOrder?alt=com.microsoft.store.partnercenter.orders.IOrder&text=IOrder\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.orders
+package: "com.microsoft.store.partnercenter.orders"
 artifact: com.microsoft.store:partnercenter:1.15.3

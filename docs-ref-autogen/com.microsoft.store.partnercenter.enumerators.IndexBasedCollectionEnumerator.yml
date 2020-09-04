@@ -1,43 +1,43 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator
-fullName: com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator<T,TResourceCollection>
-name: IndexBasedCollectionEnumerator<T,TResourceCollection>
-nameWithType: IndexBasedCollectionEnumerator<T,TResourceCollection>
-summary: Enumerator for index based pagination Index based - Paged query where index and page size is used. The type of resource /// The type of resource collection.
+uid: "com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator"
+fullName: "com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator<T,TResourceCollection>"
+name: "IndexBasedCollectionEnumerator<T,TResourceCollection>"
+nameWithType: "IndexBasedCollectionEnumerator<T,TResourceCollection>"
+summary: "Enumerator for index based pagination Index based - Paged query where index and page size is used. The type of resource /// The type of resource collection."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponentString" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.getCurrent()
-- com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.hasValue()
-- com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.isFirstPage()
-- com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.isLastPage()
-- com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.next()
-- com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.next(com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-- com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.previous()
-- com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.previous(com.microsoft.store.partnercenter.requestcontext.IRequestContext)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class IndexBasedCollectionEnumerator<T,TResourceCollection> extends BaseResourceCollectionEnumerator<TResourceCollection>
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.getCurrent()"
+- "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.hasValue()"
+- "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.isFirstPage()"
+- "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.isLastPage()"
+- "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.next()"
+- "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.next(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+- "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.previous()"
+- "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator.previous(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class IndexBasedCollectionEnumerator<T,TResourceCollection> extends BaseResourceCollectionEnumerator<TResourceCollection>"
 constructors:
-- com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator.IndexBasedCollectionEnumerator(com.microsoft.store.partnercenter.IPartner,TResourceCollection,com.fasterxml.jackson.databind.ObjectMapper,com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>)
-type: class
+- "com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator.IndexBasedCollectionEnumerator(com.microsoft.store.partnercenter.IPartner,TResourceCollection,com.fasterxml.jackson.databind.ObjectMapper,com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>)"
+type: "class"
 typeParameters:
-- name: T
-- name: TResourceCollection
+- name: "T"
+- name: "TResourceCollection"
 metadata: {}
-package: com.microsoft.store.partnercenter.enumerators
+package: "com.microsoft.store.partnercenter.enumerators"
 artifact: com.microsoft.store:partnercenter:1.15.3

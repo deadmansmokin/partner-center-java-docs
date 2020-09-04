@@ -1,58 +1,58 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail
-fullName: com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail
-name: ServiceIncidentDetail
-nameWithType: ServiceIncidentDetail
-summary: Represents an office service health incident message.
+uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail"
+fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail"
+name: "ServiceIncidentDetail"
+nameWithType: "ServiceIncidentDetail"
+summary: "Represents an office service health incident message."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ServiceIncidentDetail
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ServiceIncidentDetail"
 constructors:
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.ServiceIncidentDetail()
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.ServiceIncidentDetail()"
 methods:
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getActionType()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getAffectedWorkloadNames()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getCategory()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getEndTime()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getId()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getImpactedArea()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getImpactedCustomers()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getMessageType()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getMessages()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getRequiredBy()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getSeverity()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getStartTime()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getStatus()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getWorkload()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.is__Resolved()
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setActionType(java.lang.String)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setAffectedWorkloadNames(java.lang.Iterable<java.lang.String>)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setCategory(java.lang.String)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setEndTime(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setId(java.lang.String)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setImpactedArea(java.lang.String)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setImpactedCustomers(int)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setMessageType(com.microsoft.store.partnercenter.models.serviceincidents.MessageType)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setMessages(java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory>)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setRequiredBy(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setResolved(boolean)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setSeverity(com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setStartTime(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setStatus(com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus)
-- com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setWorkload(java.lang.String)
-type: class
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getActionType()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getAffectedWorkloadNames()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getCategory()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getEndTime()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getId()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getImpactedArea()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getImpactedCustomers()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getMessageType()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getMessages()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getRequiredBy()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getSeverity()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getStartTime()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getStatus()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.getWorkload()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.is__Resolved()"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setActionType(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setAffectedWorkloadNames(java.lang.Iterable<java.lang.String>)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setCategory(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setEndTime(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setImpactedArea(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setImpactedCustomers(int)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setMessageType(com.microsoft.store.partnercenter.models.serviceincidents.MessageType)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setMessages(java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory>)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setRequiredBy(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setResolved(boolean)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setSeverity(com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setStartTime(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setStatus(com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus)"
+- "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setWorkload(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.serviceincidents
+package: "com.microsoft.store.partnercenter.models.serviceincidents"
 artifact: com.microsoft.store:partnercenter:1.15.3

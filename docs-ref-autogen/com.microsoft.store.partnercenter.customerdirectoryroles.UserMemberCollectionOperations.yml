@@ -1,37 +1,37 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
-fullName: com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations
-name: UserMemberCollectionOperations
-nameWithType: UserMemberCollectionOperations
-summary: UserMemberCollectionOperations Used for managing membership and access to directory roles.
+uid: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations"
+fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations"
+name: "UserMemberCollectionOperations"
+nameWithType: "UserMemberCollectionOperations"
+summary: "UserMemberCollectionOperations Used for managing membership and access to directory roles."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class UserMemberCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IUserMemberCollection
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class UserMemberCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IUserMemberCollection"
 constructors:
-- com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.UserMemberCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+- "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.UserMemberCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
 methods:
-- com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId(java.lang.String)
-- com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create(com.microsoft.store.partnercenter.models.roles.UserMember)
-- com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get()
-- com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query(com.microsoft.store.partnercenter.models.query.IQuery)
-type: class
+- "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId(java.lang.String)"
+- "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create(com.microsoft.store.partnercenter.models.roles.UserMember)"
+- "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get()"
+- "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query(com.microsoft.store.partnercenter.models.query.IQuery)"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection?alt=com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection&text=IUserMemberCollection" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection?alt=com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection&text=IUserMemberCollection\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.microsoft.store.partnercenter.customerdirectoryroles
+package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 artifact: com.microsoft.store:partnercenter:1.15.3

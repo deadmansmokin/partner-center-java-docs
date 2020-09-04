@@ -1,38 +1,38 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.orders.OrderOperations
-fullName: com.microsoft.store.partnercenter.orders.OrderOperations
-name: OrderOperations
-nameWithType: OrderOperations
-summary: Order operations implementation class.
+uid: "com.microsoft.store.partnercenter.orders.OrderOperations"
+fullName: "com.microsoft.store.partnercenter.orders.OrderOperations"
+name: "OrderOperations"
+nameWithType: "OrderOperations"
+summary: "Order operations implementation class."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class OrderOperations extends BasePartnerComponent<Tuple<String,String>> implements IOrder
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class OrderOperations extends BasePartnerComponent<Tuple<String,String>> implements IOrder"
 constructors:
-- com.microsoft.store.partnercenter.orders.OrderOperations.OrderOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)
+- "com.microsoft.store.partnercenter.orders.OrderOperations.OrderOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
 methods:
-- com.microsoft.store.partnercenter.orders.OrderOperations.get()
-- com.microsoft.store.partnercenter.orders.OrderOperations.get(java.lang.Boolean)
-- com.microsoft.store.partnercenter.orders.OrderOperations.getOrderLineItems()
-- com.microsoft.store.partnercenter.orders.OrderOperations.getProvisioningStatus()
-- com.microsoft.store.partnercenter.orders.OrderOperations.patch(com.microsoft.store.partnercenter.models.orders.Order)
-type: class
+- "com.microsoft.store.partnercenter.orders.OrderOperations.get()"
+- "com.microsoft.store.partnercenter.orders.OrderOperations.get(java.lang.Boolean)"
+- "com.microsoft.store.partnercenter.orders.OrderOperations.getOrderLineItems()"
+- "com.microsoft.store.partnercenter.orders.OrderOperations.getProvisioningStatus()"
+- "com.microsoft.store.partnercenter.orders.OrderOperations.patch(com.microsoft.store.partnercenter.models.orders.Order)"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.orders.IOrder?alt=com.microsoft.store.partnercenter.orders.IOrder&text=IOrder" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.microsoft.store.partnercenter.orders.IOrder?alt=com.microsoft.store.partnercenter.orders.IOrder&text=IOrder\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.microsoft.store.partnercenter.orders
+package: "com.microsoft.store.partnercenter.orders"
 artifact: com.microsoft.store:partnercenter:1.15.3

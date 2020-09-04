@@ -1,31 +1,31 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.subscriptions.ISubscription
-fullName: com.microsoft.store.partnercenter.subscriptions.ISubscription
-name: ISubscription
-nameWithType: ISubscription
-summary: This interface defines the operations available on a customer's subscription.
-syntax: public interface ISubscription extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<Subscription>, IEntityPatchOperations<Subscription>
+uid: "com.microsoft.store.partnercenter.subscriptions.ISubscription"
+fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription"
+name: "ISubscription"
+nameWithType: "ISubscription"
+summary: "This interface defines the operations available on a customer's subscription."
+syntax: "public interface ISubscription extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<Subscription>, IEntityPatchOperations<Subscription>"
 methods:
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.activate()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.get()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getActivationLinks()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getAddOns()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getAzurePlanSubscriptionEntitlements()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getConversions()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getProvisioningStatus()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getRegistration()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getRegistrationStatus()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getSupportContact()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getUpgrades()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getUsageRecords()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getUsageSummary()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.getUtilization()
-- com.microsoft.store.partnercenter.subscriptions.ISubscription.patch(com.microsoft.store.partnercenter.models.subscriptions.Subscription)
-type: interface
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.activate()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.get()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getActivationLinks()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getAddOns()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getAzurePlanSubscriptionEntitlements()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getConversions()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getProvisioningStatus()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getRegistration()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getRegistrationStatus()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getSupportContact()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getUpgrades()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getUsageRecords()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getUsageSummary()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.getUtilization()"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscription.patch(com.microsoft.store.partnercenter.models.subscriptions.Subscription)"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&text=IEntityPatchOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&text=IEntityPatchOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.subscriptions
+package: "com.microsoft.store.partnercenter.subscriptions"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,72 +1,72 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.validations.CountryInformation
-fullName: com.microsoft.store.partnercenter.models.validations.CountryInformation
-name: CountryInformation
-nameWithType: CountryInformation
-summary: Holds validation information for a single country.
+uid: "com.microsoft.store.partnercenter.models.validations.CountryInformation"
+fullName: "com.microsoft.store.partnercenter.models.validations.CountryInformation"
+name: "CountryInformation"
+nameWithType: "CountryInformation"
+summary: "Holds validation information for a single country."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class CountryInformation extends ResourceBase
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class CountryInformation extends ResourceBase"
 constructors:
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.CountryInformation()
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.CountryInformation()"
 methods:
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getCountryCallingCodesList()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getDefaultCulture()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getExtensionData()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getGeographicRegion()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsCityRequired()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsPostalCodeRequired()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsRegistrationNumberSupported()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsStateRequired()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsTaxIdSupported()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsVatIdSupported()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getIso2Code()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getIso3Code()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getPhoneNumberRegex()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getPostalCodeRegex()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getResellerAgreementRegion()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getSupportedCulturesList()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getSupportedLanguagesList()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getSupportedStatesList()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getTaxIdFormat()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getTaxIdSample()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.getVatIdRegex()
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setCountryCallingCodesList(java.lang.Iterable<java.lang.String>)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setDefaultCulture(java.lang.String)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setExtensionData(java.lang.String)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setGeographicRegion(java.lang.String)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsCityRequired(java.lang.Boolean)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsPostalCodeRequired(java.lang.Boolean)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsRegistrationNumberSupported(java.lang.Boolean)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsStateRequired(java.lang.Boolean)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsTaxIdSupported(java.lang.Boolean)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsVatIdSupported(java.lang.Boolean)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setIso2Code(java.lang.String)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setIso3Code(java.lang.String)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setPhoneNumberRegex(java.lang.String)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setPostalCodeRegex(java.lang.String)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setResellerAgreementRegion(java.lang.String)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setSupportedCulturesList(java.lang.Iterable<java.lang.String>)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setSupportedLanguagesList(java.lang.Iterable<java.lang.String>)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setSupportedStatesList(java.lang.Iterable<java.lang.String>)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setTaxIdFormat(java.lang.String)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setTaxIdSample(java.lang.String)
-- com.microsoft.store.partnercenter.models.validations.CountryInformation.setVatIdRegex(java.lang.String)
-type: class
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getCountryCallingCodesList()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getDefaultCulture()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getExtensionData()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getGeographicRegion()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsCityRequired()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsPostalCodeRequired()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsRegistrationNumberSupported()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsStateRequired()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsTaxIdSupported()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getIsVatIdSupported()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getIso2Code()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getIso3Code()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getPhoneNumberRegex()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getPostalCodeRegex()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getResellerAgreementRegion()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getSupportedCulturesList()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getSupportedLanguagesList()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getSupportedStatesList()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getTaxIdFormat()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getTaxIdSample()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.getVatIdRegex()"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setCountryCallingCodesList(java.lang.Iterable<java.lang.String>)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setDefaultCulture(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setExtensionData(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setGeographicRegion(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsCityRequired(java.lang.Boolean)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsPostalCodeRequired(java.lang.Boolean)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsRegistrationNumberSupported(java.lang.Boolean)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsStateRequired(java.lang.Boolean)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsTaxIdSupported(java.lang.Boolean)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsVatIdSupported(java.lang.Boolean)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setIso2Code(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setIso3Code(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setPhoneNumberRegex(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setPostalCodeRegex(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setResellerAgreementRegion(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setSupportedCulturesList(java.lang.Iterable<java.lang.String>)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setSupportedLanguagesList(java.lang.Iterable<java.lang.String>)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setSupportedStatesList(java.lang.Iterable<java.lang.String>)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setTaxIdFormat(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setTaxIdSample(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.validations.CountryInformation.setVatIdRegex(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.validations
+package: "com.microsoft.store.partnercenter.models.validations"
 artifact: com.microsoft.store:partnercenter:1.15.3

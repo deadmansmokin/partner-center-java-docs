@@ -1,54 +1,54 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary
-fullName: com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary
-name: CustomerUsageSummary
-nameWithType: CustomerUsageSummary
-summary: This class defines the usage summary for a specific customer.
+uid: "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary"
+fullName: "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary"
+name: "CustomerUsageSummary"
+nameWithType: "CustomerUsageSummary"
+summary: "This class defines the usage summary for a specific customer."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBaseWithLinks" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.usage.UsageSummaryBase" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.usage.UsageSummaryBase\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingEndDate()
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingStartDate()
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getCurrencyLocale()
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getLastModifiedDate()
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getResourceId()
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getResourceName()
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getTotalCost()
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingEndDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingStartDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setCurrencyLocale(java.util.Locale)
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setLastModifiedDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceId(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceName(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setTotalCost(double)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class CustomerUsageSummary extends UsageSummaryBase
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingEndDate()"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingStartDate()"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getCurrencyLocale()"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getLastModifiedDate()"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getResourceId()"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getResourceName()"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getTotalCost()"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingEndDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingStartDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setCurrencyLocale(java.util.Locale)"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setLastModifiedDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceName(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setTotalCost(double)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class CustomerUsageSummary extends UsageSummaryBase"
 constructors:
-- com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.CustomerUsageSummary()
+- "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.CustomerUsageSummary()"
 methods:
-- com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.getBudget()
-- com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.getResourceId()
-- com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.getResourceName()
-- com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.setBudget(com.microsoft.store.partnercenter.models.usage.SpendingBudget)
-- com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.setResourceId(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.setResourceName(java.lang.String)
-type: class
+- "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.getBudget()"
+- "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.getResourceId()"
+- "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.getResourceName()"
+- "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.setBudget(com.microsoft.store.partnercenter.models.usage.SpendingBudget)"
+- "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.setResourceId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary.setResourceName(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.usage
+package: "com.microsoft.store.partnercenter.models.usage"
 artifact: com.microsoft.store:partnercenter:1.15.3

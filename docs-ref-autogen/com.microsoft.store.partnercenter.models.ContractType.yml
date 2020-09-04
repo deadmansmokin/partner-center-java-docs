@@ -1,73 +1,73 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.store.partnercenter.models.ContractType
-fullName: com.microsoft.store.partnercenter.models.ContractType
-name: ContractType
-nameWithType: ContractType
+uid: "com.microsoft.store.partnercenter.models.ContractType"
+fullName: "com.microsoft.store.partnercenter.models.ContractType"
+name: "ContractType"
+nameWithType: "ContractType"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum ContractType extends Enum<ContractType>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum ContractType extends Enum<ContractType>"
 fields:
-- uid: com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY
-  fullName: com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY
-  name: PRODUCTKEY
-  nameWithType: ContractType.PRODUCTKEY
-  summary: Refers to a contract which provides a product key result for the order item placed
-- uid: com.microsoft.store.partnercenter.models.ContractType.REDEMPTIONCODE
-  fullName: com.microsoft.store.partnercenter.models.ContractType.REDEMPTIONCODE
-  name: REDEMPTIONCODE
-  nameWithType: ContractType.REDEMPTIONCODE
-  summary: Refers to a contract which provides Redemption code result for the order item placed.
-- uid: com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION
-  fullName: com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION
-  name: SUBSCRIPTION
-  nameWithType: ContractType.SUBSCRIPTION
-  summary: Describes the type of contract Refers to a contract which provides subscription for the order item placed
+- uid: "com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY"
+  name: "PRODUCTKEY"
+  nameWithType: "ContractType.PRODUCTKEY"
+  summary: "Refers to a contract which provides a product key result for the order item placed"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.REDEMPTIONCODE"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.REDEMPTIONCODE"
+  name: "REDEMPTIONCODE"
+  nameWithType: "ContractType.REDEMPTIONCODE"
+  summary: "Refers to a contract which provides Redemption code result for the order item placed."
+- uid: "com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION"
+  name: "SUBSCRIPTION"
+  nameWithType: "ContractType.SUBSCRIPTION"
+  summary: "Describes the type of contract Refers to a contract which provides subscription for the order item placed"
 methods:
-- uid: com.microsoft.store.partnercenter.models.ContractType.toString()
-  fullName: com.microsoft.store.partnercenter.models.ContractType.toString()
-  name: toString()
-  nameWithType: ContractType.toString()
-  summary: Converts the object to a string.
-  overridden: java.lang.Enum.toString()
-  syntax: public String toString()
+- uid: "com.microsoft.store.partnercenter.models.ContractType.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.toString()"
+  name: "toString()"
+  nameWithType: "ContractType.toString()"
+  summary: "Converts the object to a string."
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
   returns:
-    description: A string that represents this object.
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.ContractType.valueOf(java.lang.String)
-  fullName: com.microsoft.store.partnercenter.models.ContractType.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: ContractType.valueOf(String name)
+    description: "A string that represents this object."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.valueOf(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "ContractType.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static ContractType valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ContractType valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.ContractType?alt=com.microsoft.store.partnercenter.models.ContractType&text=ContractType" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.ContractType.values()
-  fullName: com.microsoft.store.partnercenter.models.ContractType.values()
-  name: values()
-  nameWithType: ContractType.values()
-  syntax: public static ContractType[] values()
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ContractType?alt=com.microsoft.store.partnercenter.models.ContractType&text=ContractType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.values()"
+  name: "values()"
+  nameWithType: "ContractType.values()"
+  syntax: "public static ContractType[] values()"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.ContractType?alt=com.microsoft.store.partnercenter.models.ContractType&text=ContractType" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.ContractType?alt=com.microsoft.store.partnercenter.models.ContractType&text=ContractType\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.store.partnercenter.models
+package: "com.microsoft.store.partnercenter.models"
 artifact: com.microsoft.store:partnercenter:1.15.3

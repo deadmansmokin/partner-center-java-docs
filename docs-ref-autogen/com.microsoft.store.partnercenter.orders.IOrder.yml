@@ -1,19 +1,19 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.orders.IOrder
-fullName: com.microsoft.store.partnercenter.orders.IOrder
-name: IOrder
-nameWithType: IOrder
-summary: Encapsulates a customer order behavior.
-syntax: public interface IOrder extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<Order>, IEntityPatchOperations<Order>
+uid: "com.microsoft.store.partnercenter.orders.IOrder"
+fullName: "com.microsoft.store.partnercenter.orders.IOrder"
+name: "IOrder"
+nameWithType: "IOrder"
+summary: "Encapsulates a customer order behavior."
+syntax: "public interface IOrder extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<Order>, IEntityPatchOperations<Order>"
 methods:
-- com.microsoft.store.partnercenter.orders.IOrder.get(java.lang.Boolean)
-- com.microsoft.store.partnercenter.orders.IOrder.getOrderLineItems()
-- com.microsoft.store.partnercenter.orders.IOrder.getProvisioningStatus()
-type: interface
+- "com.microsoft.store.partnercenter.orders.IOrder.get(java.lang.Boolean)"
+- "com.microsoft.store.partnercenter.orders.IOrder.getOrderLineItems()"
+- "com.microsoft.store.partnercenter.orders.IOrder.getProvisioningStatus()"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&text=IEntityPatchOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&text=IEntityPatchOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.orders
+package: "com.microsoft.store.partnercenter.orders"
 artifact: com.microsoft.store:partnercenter:1.15.3

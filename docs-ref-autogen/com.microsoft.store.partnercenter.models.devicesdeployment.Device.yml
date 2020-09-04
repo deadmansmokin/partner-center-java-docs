@@ -1,48 +1,48 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.devicesdeployment.Device
-fullName: com.microsoft.store.partnercenter.models.devicesdeployment.Device
-name: Device
-nameWithType: Device
-summary: Represents a device associated with a customer.
+uid: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
+fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
+name: "Device"
+nameWithType: "Device"
+summary: "Represents a device associated with a customer."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class Device extends ResourceBase
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class Device extends ResourceBase"
 constructors:
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.Device()
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.Device()"
 methods:
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.getAllowedOperations()
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.getHardwareHash()
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.getId()
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.getModelName()
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.getOemManufacturerName()
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.getPolicies()
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.getProductKey()
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.getSerialNumber()
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.getUploadedDate()
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.setAllowedOperations(java.util.Iterator<java.lang.String>)
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.setHardwareHash(java.lang.String)
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.setId(java.lang.String)
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.setModelName(java.lang.String)
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.setOemManufacturerName(java.lang.String)
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.setPolicies(java.util.Collection<com.microsoft.store.partnercenter.models.utils.KeyValuePair<com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory,java.lang.String>>)
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.setProductKey(java.lang.String)
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.setSerialNumber(java.lang.String)
-- com.microsoft.store.partnercenter.models.devicesdeployment.Device.setUploadedDate(org.joda.time.DateTime)
-type: class
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.getAllowedOperations()"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.getHardwareHash()"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.getId()"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.getModelName()"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.getOemManufacturerName()"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.getPolicies()"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.getProductKey()"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.getSerialNumber()"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.getUploadedDate()"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setAllowedOperations(java.util.Iterator<java.lang.String>)"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setHardwareHash(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setModelName(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setOemManufacturerName(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setPolicies(java.util.Collection<com.microsoft.store.partnercenter.models.utils.KeyValuePair<com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory,java.lang.String>>)"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setProductKey(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setSerialNumber(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setUploadedDate(org.joda.time.DateTime)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.devicesdeployment
+package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 artifact: com.microsoft.store:partnercenter:1.15.3

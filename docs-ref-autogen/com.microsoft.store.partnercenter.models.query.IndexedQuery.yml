@@ -1,50 +1,50 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.query.IndexedQuery
-fullName: com.microsoft.store.partnercenter.models.query.IndexedQuery
-name: IndexedQuery
-nameWithType: IndexedQuery
-summary: A query that supports pagination. Use this for huge datasets.
+uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
+fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
+name: "IndexedQuery"
+nameWithType: "IndexedQuery"
+summary: "A query that supports pagination. Use this for huge datasets."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.query.BaseQuery" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.query.SimpleQuery" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.query.BaseQuery\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.query.SimpleQuery\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)
-- com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter()
-- com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort()
-- com.microsoft.store.partnercenter.models.query.SimpleQuery.getType()
-- com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-- com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)
-- com.microsoft.store.partnercenter.models.query.SimpleQuery.toString()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class IndexedQuery extends SimpleQuery
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getIndex()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getPageSize()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setIndex(int)"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setPageSize(int)"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)"
+- "com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter()"
+- "com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort()"
+- "com.microsoft.store.partnercenter.models.query.SimpleQuery.getType()"
+- "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+- "com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)"
+- "com.microsoft.store.partnercenter.models.query.SimpleQuery.toString()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class IndexedQuery extends SimpleQuery"
 constructors:
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery()
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery(java.lang.Object)
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery()"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery(java.lang.Object)"
 methods:
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.getIndex()
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.getPageSize()
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.getType()
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex(int)
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.setPageSize(int)
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.toString()
-type: class
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.getIndex()"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.getPageSize()"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType()"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex(int)"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.setPageSize(int)"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.toString()"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.query
+package: "com.microsoft.store.partnercenter.models.query"
 artifact: com.microsoft.store:partnercenter:1.15.3

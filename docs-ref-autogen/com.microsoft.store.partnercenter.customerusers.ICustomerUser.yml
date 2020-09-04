@@ -1,23 +1,23 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.customerusers.ICustomerUser
-fullName: com.microsoft.store.partnercenter.customerusers.ICustomerUser
-name: ICustomerUser
-nameWithType: ICustomerUser
-summary: Encapsulates a customer user behavior.
-syntax: public interface ICustomerUser extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<CustomerUser>, IEntityDeleteOperations<CustomerUser>, IEntityPatchOperations<CustomerUser>
+uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
+fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
+name: "ICustomerUser"
+nameWithType: "ICustomerUser"
+summary: "Encapsulates a customer user behavior."
+syntax: "public interface ICustomerUser extends IPartnerComponent<Tuple<String,String>>, IEntityGetOperations<CustomerUser>, IEntityDeleteOperations<CustomerUser>, IEntityPatchOperations<CustomerUser>"
 methods:
-- com.microsoft.store.partnercenter.customerusers.ICustomerUser.delete()
-- com.microsoft.store.partnercenter.customerusers.ICustomerUser.get()
-- com.microsoft.store.partnercenter.customerusers.ICustomerUser.getDirectoryRoles()
-- com.microsoft.store.partnercenter.customerusers.ICustomerUser.getLicenseUpdates()
-- com.microsoft.store.partnercenter.customerusers.ICustomerUser.getLicenses()
-- com.microsoft.store.partnercenter.customerusers.ICustomerUser.patch(com.microsoft.store.partnercenter.models.users.CustomerUser)
-type: interface
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUser.delete()"
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUser.get()"
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUser.getDirectoryRoles()"
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUser.getLicenseUpdates()"
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUser.getLicenses()"
+- "com.microsoft.store.partnercenter.customerusers.ICustomerUser.patch(com.microsoft.store.partnercenter.models.users.CustomerUser)"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations&text=IEntityDeleteOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&text=IEntityPatchOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations&text=IEntityDeleteOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&text=IEntityPatchOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.customerusers
+package: "com.microsoft.store.partnercenter.customerusers"
 artifact: com.microsoft.store:partnercenter:1.15.3

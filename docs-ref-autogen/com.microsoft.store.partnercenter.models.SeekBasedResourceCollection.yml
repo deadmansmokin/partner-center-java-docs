@@ -1,45 +1,45 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection
-fullName: com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<T>
-name: SeekBasedResourceCollection<T>
-nameWithType: SeekBasedResourceCollection<T>
-summary: Paged Resource Collection Type of objects in collection
+uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<T>"
+name: "SeekBasedResourceCollection<T>"
+nameWithType: "SeekBasedResourceCollection<T>"
+summary: "Paged Resource Collection Type of objects in collection"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBaseWithLinks" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceCollection" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()
-- com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getItems()
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getTotalCount()
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List<TResource>)
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setTotalCount(int)
-- com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.toString()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SeekBasedResourceCollection<T> extends ResourceCollection<T>
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
+- "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getItems()"
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.getTotalCount()"
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setItems(java.util.List<TResource>)"
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.setTotalCount(int)"
+- "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.toString()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SeekBasedResourceCollection<T> extends ResourceCollection<T>"
 constructors:
-- com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.SeekBasedResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<T>)
-- com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.SeekBasedResourceCollection(java.util.List<T>)
-- com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.SeekBasedResourceCollection(java.util.List<T>,java.lang.String)
+- "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.SeekBasedResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<T>)"
+- "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.SeekBasedResourceCollection(java.util.List<T>)"
+- "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.SeekBasedResourceCollection(java.util.List<T>,java.lang.String)"
 methods:
-- com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.getContinuationToken()
-- com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.setContinuationToken(java.lang.String)
-type: class
+- "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.getContinuationToken()"
+- "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.setContinuationToken(java.lang.String)"
+type: "class"
 typeParameters:
-- name: T
+- name: "T"
 metadata: {}
-package: com.microsoft.store.partnercenter.models
+package: "com.microsoft.store.partnercenter.models"
 artifact: com.microsoft.store:partnercenter:1.15.3

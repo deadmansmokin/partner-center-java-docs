@@ -1,73 +1,73 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
-fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod
-name: BillingPeriod
-nameWithType: BillingPeriod
+uid: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod"
+fullName: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod"
+name: "BillingPeriod"
+nameWithType: "BillingPeriod"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum BillingPeriod extends Enum<BillingPeriod>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum BillingPeriod extends Enum<BillingPeriod>"
 fields:
-- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.CURRENT
-  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.CURRENT
-  name: CURRENT
-  nameWithType: BillingPeriod.CURRENT
-  summary: The current period that is ongoing.
-- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.NONE
-  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.NONE
-  name: NONE
-  nameWithType: BillingPeriod.NONE
-  summary: Default period, does not mean anything.
-- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.PREVIOUS
-  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.PREVIOUS
-  name: PREVIOUS
-  nameWithType: BillingPeriod.PREVIOUS
-  summary: The previous period.
+- uid: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.CURRENT"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.CURRENT"
+  name: "CURRENT"
+  nameWithType: "BillingPeriod.CURRENT"
+  summary: "The current period that is ongoing."
+- uid: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.NONE"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.NONE"
+  name: "NONE"
+  nameWithType: "BillingPeriod.NONE"
+  summary: "Default period, does not mean anything."
+- uid: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.PREVIOUS"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.PREVIOUS"
+  name: "PREVIOUS"
+  nameWithType: "BillingPeriod.PREVIOUS"
+  summary: "The previous period."
 methods:
-- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.toString()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.toString()
-  name: toString()
-  nameWithType: BillingPeriod.toString()
-  summary: Converts the object to a string.
-  overridden: java.lang.Enum.toString()
-  syntax: public String toString()
+- uid: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.toString()"
+  name: "toString()"
+  nameWithType: "BillingPeriod.toString()"
+  summary: "Converts the object to a string."
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
   returns:
-    description: A string that represents this object.
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.valueOf(java.lang.String)
-  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: BillingPeriod.valueOf(String name)
+    description: "A string that represents this object."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.valueOf(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "BillingPeriod.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static BillingPeriod valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static BillingPeriod valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingPeriod?alt=com.microsoft.store.partnercenter.models.invoices.BillingPeriod&text=BillingPeriod" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.values()
-  fullName: com.microsoft.store.partnercenter.models.invoices.BillingPeriod.values()
-  name: values()
-  nameWithType: BillingPeriod.values()
-  syntax: public static BillingPeriod[] values()
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.BillingPeriod?alt=com.microsoft.store.partnercenter.models.invoices.BillingPeriod&text=BillingPeriod\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.values()"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod.values()"
+  name: "values()"
+  nameWithType: "BillingPeriod.values()"
+  syntax: "public static BillingPeriod[] values()"
   returns:
-    type: <xref href="com.microsoft.store.partnercenter.models.invoices.BillingPeriod?alt=com.microsoft.store.partnercenter.models.invoices.BillingPeriod&text=BillingPeriod" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.BillingPeriod?alt=com.microsoft.store.partnercenter.models.invoices.BillingPeriod&text=BillingPeriod\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.invoices
+package: "com.microsoft.store.partnercenter.models.invoices"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,51 +1,51 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
-fullName: com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord
-name: SubscriptionMonthlyUsageRecord
-nameWithType: SubscriptionMonthlyUsageRecord
-summary: Defines the monthly usage record of a subscription.
+uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord"
+fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord"
+name: "SubscriptionMonthlyUsageRecord"
+nameWithType: "SubscriptionMonthlyUsageRecord"
+summary: "Defines the monthly usage record of a subscription."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.ResourceBase" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.usage.UsageRecordBase" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.usage.UsageRecordBase\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)
-- com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SubscriptionMonthlyUsageRecord extends UsageRecordBase
+- "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyLocale()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getLastModifiedDate()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceName()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getTotalCost()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getUsdTotalCost()"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyCode(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setCurrencyLocale(java.util.Locale)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setLastModifiedDate(org.joda.time.DateTime)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setResourceName(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setTotalCost(double)"
+- "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.setUsdTotalCost(double)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SubscriptionMonthlyUsageRecord extends UsageRecordBase"
 constructors:
-- com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.SubscriptionMonthlyUsageRecord()
+- "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.SubscriptionMonthlyUsageRecord()"
 methods:
-- com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.getOfferId()
-- com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.getPartnerOnRecord()
-- com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.getStatus()
-- com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.setOfferId(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.setPartnerOnRecord(java.lang.String)
-- com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.setStatus(com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus)
-type: class
+- "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.getOfferId()"
+- "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.getPartnerOnRecord()"
+- "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.getStatus()"
+- "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.setOfferId(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.setPartnerOnRecord(java.lang.String)"
+- "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.setStatus(com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.usage
+package: "com.microsoft.store.partnercenter.models.usage"
 artifact: com.microsoft.store:partnercenter:1.15.3

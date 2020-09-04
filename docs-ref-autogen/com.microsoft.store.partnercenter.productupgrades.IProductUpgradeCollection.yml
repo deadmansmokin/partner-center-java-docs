@@ -1,17 +1,17 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.productupgrades.IProductUpgradeCollection
-fullName: com.microsoft.store.partnercenter.productupgrades.IProductUpgradeCollection
-name: IProductUpgradeCollection
-nameWithType: IProductUpgradeCollection
-summary: Represents operations that apply to product upgrades.
-syntax: public interface IProductUpgradeCollection extends IPartnerComponent<String>, IEntityCreateOperations<ProductUpgradeRequest,String>, IEntitySelector<String,IProductUpgrade>
+uid: "com.microsoft.store.partnercenter.productupgrades.IProductUpgradeCollection"
+fullName: "com.microsoft.store.partnercenter.productupgrades.IProductUpgradeCollection"
+name: "IProductUpgradeCollection"
+nameWithType: "IProductUpgradeCollection"
+summary: "Represents operations that apply to product upgrades."
+syntax: "public interface IProductUpgradeCollection extends IPartnerComponent<String>, IEntityCreateOperations<ProductUpgradeRequest,String>, IEntitySelector<String,IProductUpgrade>"
 methods:
-- com.microsoft.store.partnercenter.productupgrades.IProductUpgradeCollection.checkEligibility(com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest)
-type: interface
+- "com.microsoft.store.partnercenter.productupgrades.IProductUpgradeCollection.checkEligibility(com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest)"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest?alt=com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest&text=ProductUpgradeRequest" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.productupgrades.IProductUpgrade?alt=com.microsoft.store.partnercenter.productupgrades.IProductUpgrade&text=IProductUpgrade" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest?alt=com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest&text=ProductUpgradeRequest\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.productupgrades.IProductUpgrade?alt=com.microsoft.store.partnercenter.productupgrades.IProductUpgrade&text=IProductUpgrade\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.productupgrades
+package: "com.microsoft.store.partnercenter.productupgrades"
 artifact: com.microsoft.store:partnercenter:1.15.3

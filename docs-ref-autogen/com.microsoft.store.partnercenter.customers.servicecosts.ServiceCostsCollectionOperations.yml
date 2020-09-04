@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations
-fullName: com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations
-name: ServiceCostsCollectionOperations
-nameWithType: ServiceCostsCollectionOperations
-summary: Holds customer service costs behavior.
+uid: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations"
+fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations"
+name: "ServiceCostsCollectionOperations"
+nameWithType: "ServiceCostsCollectionOperations"
+summary: "Holds customer service costs behavior."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.BasePartnerComponent" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.BasePartnerComponent.getContext()
-- com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ServiceCostsCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IServiceCostsCollection
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ServiceCostsCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IServiceCostsCollection"
 constructors:
-- com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations.ServiceCostsCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)
+- "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations.ServiceCostsCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod)"
 methods:
-- com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations.getLineItems()
-- com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations.getSummary()
-type: class
+- "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations.getLineItems()"
+- "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations.getSummary()"
+type: "class"
 implements:
-- <xref href="com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection?alt=com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection&text=IServiceCostsCollection" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection?alt=com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection&text=IServiceCostsCollection\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.microsoft.store.partnercenter.customers.servicecosts
+package: "com.microsoft.store.partnercenter.customers.servicecosts"
 artifact: com.microsoft.store:partnercenter:1.15.3

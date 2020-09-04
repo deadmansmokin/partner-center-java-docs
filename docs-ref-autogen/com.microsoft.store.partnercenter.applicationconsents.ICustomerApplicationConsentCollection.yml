@@ -1,18 +1,18 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
-fullName: com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection
-name: ICustomerApplicationConsentCollection
-nameWithType: ICustomerApplicationConsentCollection
-summary: Encapsulates the operations on the ApplicationConsent collection.
-syntax: public interface ICustomerApplicationConsentCollection extends IPartnerComponentString, IEntitySelector<String,IApplicationConsent>, IEntityCreateOperations<ApplicationConsent,ApplicationConsent>
+uid: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection"
+fullName: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection"
+name: "ICustomerApplicationConsentCollection"
+nameWithType: "ICustomerApplicationConsentCollection"
+summary: "Encapsulates the operations on the ApplicationConsent collection."
+syntax: "public interface ICustomerApplicationConsentCollection extends IPartnerComponentString, IEntitySelector<String,IApplicationConsent>, IEntityCreateOperations<ApplicationConsent,ApplicationConsent>"
 methods:
-- com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId(java.lang.String)
-- com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent)
-type: interface
+- "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.byId(java.lang.String)"
+- "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection.create(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent)"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent?alt=com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent&text=ApplicationConsent" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent?alt=com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent&text=ApplicationConsent" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent?alt=com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent&text=IApplicationConsent" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent?alt=com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent&text=ApplicationConsent\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent?alt=com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent&text=ApplicationConsent\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent?alt=com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent&text=IApplicationConsent\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.applicationconsents
+package: "com.microsoft.store.partnercenter.applicationconsents"
 artifact: com.microsoft.store:partnercenter:1.15.3

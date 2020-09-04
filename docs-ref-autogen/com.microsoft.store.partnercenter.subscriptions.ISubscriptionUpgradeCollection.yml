@@ -1,18 +1,18 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
-fullName: com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection
-name: ISubscriptionUpgradeCollection
-nameWithType: ISubscriptionUpgradeCollection
-summary: This interface defines the upgrade operations available on a customer's subscription.
-syntax: public interface ISubscriptionUpgradeCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>, IEntityCreateOperations<Upgrade,UpgradeResult>
+uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
+fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
+name: "ISubscriptionUpgradeCollection"
+nameWithType: "ISubscriptionUpgradeCollection"
+summary: "This interface defines the upgrade operations available on a customer's subscription."
+syntax: "public interface ISubscriptionUpgradeCollection extends IPartnerComponent<Tuple<String,String>>, IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>, IEntityCreateOperations<Upgrade,UpgradeResult>"
 methods:
-- com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)
-- com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()
-type: interface
+- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create(com.microsoft.store.partnercenter.models.subscriptions.Upgrade)"
+- "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get()"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.subscriptions.Upgrade?alt=com.microsoft.store.partnercenter.models.subscriptions.Upgrade&text=Upgrade" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.subscriptions.Upgrade?alt=com.microsoft.store.partnercenter.models.subscriptions.Upgrade&text=Upgrade" data-throw-if-not-resolved="False" />&gt;&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.subscriptions.Upgrade?alt=com.microsoft.store.partnercenter.models.subscriptions.Upgrade&text=Upgrade" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult?alt=com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult&text=UpgradeResult" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Upgrade?alt=com.microsoft.store.partnercenter.models.subscriptions.Upgrade&text=Upgrade\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Upgrade?alt=com.microsoft.store.partnercenter.models.subscriptions.Upgrade&text=Upgrade\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Upgrade?alt=com.microsoft.store.partnercenter.models.subscriptions.Upgrade&text=Upgrade\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult?alt=com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult&text=UpgradeResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.subscriptions
+package: "com.microsoft.store.partnercenter.subscriptions"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -1,17 +1,17 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
-fullName: com.microsoft.store.partnercenter.entitlements.IEntitlementCollection
-name: IEntitlementCollection
-nameWithType: IEntitlementCollection
-summary: Represents the operations that can be performed on entitlements associated to the customer based on the logged in partner.
-syntax: public interface IEntitlementCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>
+uid: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection"
+fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection"
+name: "IEntitlementCollection"
+nameWithType: "IEntitlementCollection"
+summary: "Represents the operations that can be performed on entitlements associated to the customer based on the logged in partner."
+syntax: "public interface IEntitlementCollection extends IPartnerComponentString, IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>"
 methods:
-- com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.byEntitlementType(java.lang.String)
-- com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.get(java.lang.Boolean)
-type: interface
+- "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.byEntitlementType(java.lang.String)"
+- "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.get(java.lang.Boolean)"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement" data-throw-if-not-resolved="False" />,<xref href="com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement" data-throw-if-not-resolved="False" />&gt;&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.entitlements
+package: "com.microsoft.store.partnercenter.entitlements"
 artifact: com.microsoft.store:partnercenter:1.15.3

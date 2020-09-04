@@ -1,44 +1,44 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.customers.ICustomer
-fullName: com.microsoft.store.partnercenter.customers.ICustomer
-name: ICustomer
-nameWithType: ICustomer
-summary: Groups operations that can be performed on a single partner customer.
-syntax: public interface ICustomer extends IPartnerComponentString, IEntityGetOperations<Customer>, IEntityDeleteOperations<Customer>, IEntityPatchOperations<Customer>
+uid: "com.microsoft.store.partnercenter.customers.ICustomer"
+fullName: "com.microsoft.store.partnercenter.customers.ICustomer"
+name: "ICustomer"
+nameWithType: "ICustomer"
+summary: "Groups operations that can be performed on a single partner customer."
+syntax: "public interface ICustomer extends IPartnerComponentString, IEntityGetOperations<Customer>, IEntityDeleteOperations<Customer>, IEntityPatchOperations<Customer>"
 methods:
-- com.microsoft.store.partnercenter.customers.ICustomer.delete()
-- com.microsoft.store.partnercenter.customers.ICustomer.get()
-- com.microsoft.store.partnercenter.customers.ICustomer.getAgreements()
-- com.microsoft.store.partnercenter.customers.ICustomer.getAnalytics()
-- com.microsoft.store.partnercenter.customers.ICustomer.getApplicationConsents()
-- com.microsoft.store.partnercenter.customers.ICustomer.getBatchUploadStatus()
-- com.microsoft.store.partnercenter.customers.ICustomer.getCarts()
-- com.microsoft.store.partnercenter.customers.ICustomer.getConfigurationPolicies()
-- com.microsoft.store.partnercenter.customers.ICustomer.getDeviceBatches()
-- com.microsoft.store.partnercenter.customers.ICustomer.getDevicePolicy()
-- com.microsoft.store.partnercenter.customers.ICustomer.getDirectoryRoles()
-- com.microsoft.store.partnercenter.customers.ICustomer.getEntitlements()
-- com.microsoft.store.partnercenter.customers.ICustomer.getManagedServices()
-- com.microsoft.store.partnercenter.customers.ICustomer.getOfferCategories()
-- com.microsoft.store.partnercenter.customers.ICustomer.getOffers()
-- com.microsoft.store.partnercenter.customers.ICustomer.getOrders()
-- com.microsoft.store.partnercenter.customers.ICustomer.getProducts()
-- com.microsoft.store.partnercenter.customers.ICustomer.getProfiles()
-- com.microsoft.store.partnercenter.customers.ICustomer.getQualification()
-- com.microsoft.store.partnercenter.customers.ICustomer.getRelationships()
-- com.microsoft.store.partnercenter.customers.ICustomer.getServiceCosts()
-- com.microsoft.store.partnercenter.customers.ICustomer.getServiceRequests()
-- com.microsoft.store.partnercenter.customers.ICustomer.getSubscribedSkus()
-- com.microsoft.store.partnercenter.customers.ICustomer.getSubscriptions()
-- com.microsoft.store.partnercenter.customers.ICustomer.getUsageBudget()
-- com.microsoft.store.partnercenter.customers.ICustomer.getUsageSummary()
-- com.microsoft.store.partnercenter.customers.ICustomer.getUsers()
-type: interface
+- "com.microsoft.store.partnercenter.customers.ICustomer.delete()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.get()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getAgreements()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getAnalytics()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getApplicationConsents()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getBatchUploadStatus()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getCarts()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getConfigurationPolicies()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getDeviceBatches()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getDevicePolicy()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getDirectoryRoles()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getEntitlements()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getManagedServices()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getOfferCategories()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getOffers()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getOrders()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getProducts()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getProfiles()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getQualification()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getRelationships()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getServiceCosts()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getServiceRequests()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getSubscribedSkus()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getSubscriptions()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getUsageBudget()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getUsageSummary()"
+- "com.microsoft.store.partnercenter.customers.ICustomer.getUsers()"
+type: "interface"
 implements:
-- <xref href="com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations&text=IEntityDeleteOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.customers.Customer?alt=com.microsoft.store.partnercenter.models.customers.Customer&text=Customer" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.customers.Customer?alt=com.microsoft.store.partnercenter.models.customers.Customer&text=Customer" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&text=IEntityPatchOperations" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.store.partnercenter.models.customers.Customer?alt=com.microsoft.store.partnercenter.models.customers.Customer&text=Customer" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations&text=IEntityDeleteOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.customers.Customer?alt=com.microsoft.store.partnercenter.models.customers.Customer&text=Customer\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.customers.Customer?alt=com.microsoft.store.partnercenter.models.customers.Customer&text=Customer\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations&text=IEntityPatchOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.customers.Customer?alt=com.microsoft.store.partnercenter.models.customers.Customer&text=Customer\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.microsoft.store.partnercenter.customers
+package: "com.microsoft.store.partnercenter.customers"
 artifact: com.microsoft.store:partnercenter:1.15.3

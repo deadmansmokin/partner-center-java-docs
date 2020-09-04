@@ -1,48 +1,48 @@
 ### YamlMime:JavaType
-uid: com.microsoft.store.partnercenter.models.query.SeekQuery
-fullName: com.microsoft.store.partnercenter.models.query.SeekQuery
-name: SeekQuery
-nameWithType: SeekQuery
-summary: Represents a seek query. The seek query can be used to seek through sets of results using the given seek operation.
+uid: "com.microsoft.store.partnercenter.models.query.SeekQuery"
+fullName: "com.microsoft.store.partnercenter.models.query.SeekQuery"
+name: "SeekQuery"
+nameWithType: "SeekQuery"
+summary: "Represents a seek query. The seek query can be used to seek through sets of results using the given seek operation."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.query.BaseQuery" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.query.SimpleQuery" data-throw-if-not-resolved="False" />
-- <xref href="com.microsoft.store.partnercenter.models.query.IndexedQuery" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.query.BaseQuery\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.query.SimpleQuery\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.query.IndexedQuery\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)
-- com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.getIndex()
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.getPageSize()
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.getType()
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex(int)
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.setPageSize(int)
-- com.microsoft.store.partnercenter.models.query.IndexedQuery.toString()
-- com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter()
-- com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort()
-- com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)
-- com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SeekQuery extends IndexedQuery
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getSeekOperation()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)"
+- "com.microsoft.store.partnercenter.models.query.BaseQuery.setToken(java.lang.Object)"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.getIndex()"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.getPageSize()"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType()"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex(int)"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.setPageSize(int)"
+- "com.microsoft.store.partnercenter.models.query.IndexedQuery.toString()"
+- "com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter()"
+- "com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort()"
+- "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+- "com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SeekQuery extends IndexedQuery"
 constructors:
-- com.microsoft.store.partnercenter.models.query.SeekQuery.SeekQuery()
-- com.microsoft.store.partnercenter.models.query.SeekQuery.SeekQuery(java.lang.Object)
+- "com.microsoft.store.partnercenter.models.query.SeekQuery.SeekQuery()"
+- "com.microsoft.store.partnercenter.models.query.SeekQuery.SeekQuery(java.lang.Object)"
 methods:
-- com.microsoft.store.partnercenter.models.query.SeekQuery.getSeekOperation()
-- com.microsoft.store.partnercenter.models.query.SeekQuery.getType()
-- com.microsoft.store.partnercenter.models.query.SeekQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)
-type: class
+- "com.microsoft.store.partnercenter.models.query.SeekQuery.getSeekOperation()"
+- "com.microsoft.store.partnercenter.models.query.SeekQuery.getType()"
+- "com.microsoft.store.partnercenter.models.query.SeekQuery.setSeekOperation(com.microsoft.store.partnercenter.models.query.SeekOperation)"
+type: "class"
 metadata: {}
-package: com.microsoft.store.partnercenter.models.query
+package: "com.microsoft.store.partnercenter.models.query"
 artifact: com.microsoft.store:partnercenter:1.15.3
